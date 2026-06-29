@@ -1,0 +1,1026 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-06-26T10:09:30Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 1692112462,
+      "lat": 30.8268515,
+      "lon": 121.5128559,
+      "tags": {
+        "bus": "yes",
+        "name": "海马路海湾路",
+        "name:zh": "海马路海湾路",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2962261488,
+      "lat": 30.8417337,
+      "lon": 121.5068222,
+      "tags": {
+        "bus": "yes",
+        "name": "应用技术大学南门",
+        "name:zh": "应用技术大学南门",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3087411803,
+      "lat": 30.8389206,
+      "lon": 121.50201,
+      "tags": {
+        "bus": "yes",
+        "name": "海泉路海湾路",
+        "name:zh": "海泉路海湾路",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5302838125,
+      "lat": 30.8366099,
+      "lon": 121.5095899,
+      "tags": {
+        "name": "旅专打印店",
+        "shop": "copyshop"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5302930020,
+      "lat": 30.8399082,
+      "lon": 121.509605,
+      "tags": {
+        "name": "华联超市",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5302941948,
+      "lat": 30.8399379,
+      "lon": 121.5146255,
+      "tags": {
+        "amenity": "charging_station"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5302948693,
+      "lat": 30.8380356,
+      "lon": 121.5151235,
+      "tags": {
+        "amenity": "charging_station"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5302948694,
+      "lat": 30.8359191,
+      "lon": 121.5134686,
+      "tags": {
+        "amenity": "charging_station"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5302953863,
+      "lat": 30.8413995,
+      "lon": 121.5160146,
+      "tags": {
+        "brand": "全家",
+        "brand:en": "FamilyMart",
+        "brand:wikidata": "Q1191685",
+        "brand:zh": "全家",
+        "name": "全家",
+        "name:en": "FamilyMart",
+        "name:zh": "全家",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5304239476,
+      "lat": 30.8341931,
+      "lon": 121.5091823,
+      "tags": {
+        "amenity": "college",
+        "name": "上海旅游高等专科学校"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5304242691,
+      "lat": 30.8366391,
+      "lon": 121.5083781,
+      "tags": {
+        "amenity": "planetarium",
+        "name": "天象馆"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5304246097,
+      "lat": 30.8345937,
+      "lon": 121.5089654,
+      "tags": {
+        "name": "马踏飞燕"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5305781562,
+      "lat": 30.8366622,
+      "lon": 121.5095709,
+      "tags": {
+        "amenity": "cafe",
+        "name": "创业club"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5344992356,
+      "lat": 30.8400532,
+      "lon": 121.5151009,
+      "tags": {
+        "name": "房子",
+        "power": "pole"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11143938477,
+      "lat": 30.8439746,
+      "lon": 121.5069342,
+      "tags": {
+        "artist_name": "杨清泉",
+        "artwork_type": "sculpture",
+        "image": "https://www.sit.edu.cn/_upload/tpl/01/58/344/template344/subimages/zszm.jpg",
+        "name": "知识之门",
+        "note": "知识之门，与上海应用技术大学奉贤校区同期建成，融合了历史与希望的象征。中国红的“三校之门”，既述说了学校经由上海轻工业高等专科学校、上海冶金高等专科学校、上海化工高等专科学校和上海香料研究所合并组建的光辉历史，又彰显了学校“追求卓越、问鼎一流”的愿景与决心。",
+        "start_date": "2010",
+        "tourism": "artwork"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11143938636,
+      "lat": 30.8417314,
+      "lon": 121.5031882,
+      "tags": {
+        "amenity": "parking_entrance"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11143938637,
+      "lat": 30.8423275,
+      "lon": 121.5033138,
+      "tags": {
+        "amenity": "parking_entrance"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11143938685,
+      "lat": 30.8431948,
+      "lon": 121.5081937,
+      "tags": {
+        "amenity": "shelter",
+        "shelter_type": "gazebo"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11144343562,
+      "lat": 30.8437933,
+      "lon": 121.5014265,
+      "tags": {
+        "amenity": "bank",
+        "atm": "yes",
+        "brand": "Agricultural Bank of China",
+        "brand:wikidata": "Q406859",
+        "brand:wikipedia": "zh:中国农业银行",
+        "name": "中国农业银行ATM",
+        "name:en": "Agricultural Bank of China ATM",
+        "name:zh": "中国农业银行ATM"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11144343564,
+      "lat": 30.8436657,
+      "lon": 121.5010583,
+      "tags": {
+        "amenity": "parcel_locker",
+        "brand": "顺丰快递",
+        "name": "顺丰快递",
+        "operator": "顺丰快递"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11144343565,
+      "lat": 30.8437577,
+      "lon": 121.5011284,
+      "tags": {
+        "amenity": "parcel_locker",
+        "brand": "京东快递",
+        "name": "京东快递",
+        "operator": "京东快递"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11144343569,
+      "lat": 30.8437947,
+      "lon": 121.5012953,
+      "tags": {
+        "amenity": "community_centre",
+        "name": "易班"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11144350673,
+      "lat": 30.8430669,
+      "lon": 121.5026503,
+      "tags": {
+        "amenity": "parking_entrance",
+        "parking": "underground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11144351069,
+      "lat": 30.8438761,
+      "lon": 121.5063531,
+      "tags": {
+        "artwork_type": "stone",
+        "image": "https://www.sit.edu.cn/_upload/tpl/01/58/344/template344/subimages/ziye5.jpg",
+        "name": "奉贤校区落成颂",
+        "start_date": "2010",
+        "tourism": "artwork"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11144449338,
+      "lat": 30.843777,
+      "lon": 121.5021036,
+      "tags": {
+        "shop": "hairdresser"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11144449342,
+      "lat": 30.8437773,
+      "lon": 121.5021617,
+      "tags": {
+        "name": "谊东图文",
+        "shop": "copyshop"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11144449343,
+      "lat": 30.8435109,
+      "lon": 121.5017287,
+      "tags": {
+        "amenity": "waste_basket"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11144449344,
+      "lat": 30.8437271,
+      "lon": 121.5015399,
+      "tags": {
+        "brand": "中国联通",
+        "brand:en": "China Unicom",
+        "brand:wikidata": "Q1068485",
+        "brand:zh": "中国联通",
+        "name": "中国联通",
+        "name:en": "China Unicom",
+        "name:zh": "中国联通",
+        "shop": "telecommunication"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11144449345,
+      "lat": 30.8437182,
+      "lon": 121.501995,
+      "tags": {
+        "name": "校园一卡通服务中心",
+        "office": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11144456324,
+      "lat": 30.8424233,
+      "lon": 121.5078753,
+      "tags": {
+        "historic": "memorial",
+        "name": "上海应用技术大学校名石"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11144461069,
+      "lat": 30.8416432,
+      "lon": 121.5010933,
+      "tags": {
+        "amenity": "college",
+        "name": "体育教育部"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11144461072,
+      "lat": 30.8427898,
+      "lon": 121.5069577,
+      "tags": {
+        "amenity": "parking_entrance"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11335709113,
+      "lat": 30.8424488,
+      "lon": 121.5085879,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "应用技术大学南门",
+        "name:zh": "应用技术大学南门",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11335709114,
+      "lat": 30.8418546,
+      "lon": 121.5067694,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "应用技术大学南门",
+        "name:zh": "应用技术大学南门",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11335746887,
+      "lat": 30.8398027,
+      "lon": 121.5025073,
+      "tags": {
+        "bus": "yes",
+        "name": "海泉路海湾路",
+        "name:zh": "海泉路海湾路",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11335746888,
+      "lat": 30.8397705,
+      "lon": 121.5024269,
+      "tags": {
+        "bus": "yes",
+        "name": "海泉路海湾路",
+        "name:zh": "海泉路海湾路",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11335746889,
+      "lat": 30.8397566,
+      "lon": 121.5025234,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "海泉路海湾路",
+        "name:zh": "海泉路海湾路",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11335746890,
+      "lat": 30.8398902,
+      "lon": 121.5023799,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "海泉路海湾路",
+        "name:zh": "海泉路海湾路",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11335746891,
+      "lat": 30.8425178,
+      "lon": 121.508553,
+      "tags": {
+        "bus": "yes",
+        "name": "应用技术大学南门",
+        "name:zh": "应用技术大学南门",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11955679486,
+      "lat": 30.8388585,
+      "lon": 121.5019092,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "海泉路海湾路",
+        "name:zh": "海泉路海湾路",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11955679487,
+      "lat": 30.8334005,
+      "lon": 121.5071971,
+      "tags": {
+        "bus": "yes",
+        "name": "海湾路海思路",
+        "name:zh": "海湾路海思路",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11955679488,
+      "lat": 30.8335383,
+      "lon": 121.507075,
+      "tags": {
+        "bus": "yes",
+        "name": "海湾路海思路",
+        "name:zh": "海湾路海思路",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11955679489,
+      "lat": 30.8333427,
+      "lon": 121.5070939,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "海湾路海思路",
+        "name:zh": "海湾路海思路",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11955679490,
+      "lat": 30.8335776,
+      "lon": 121.5071663,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "海湾路海思路",
+        "name:zh": "海湾路海思路",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11955679491,
+      "lat": 30.8301277,
+      "lon": 121.5026003,
+      "tags": {
+        "bus": "yes",
+        "name": "华东理工大学",
+        "name:zh": "华东理工大学",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11955679492,
+      "lat": 30.830213,
+      "lon": 121.5027554,
+      "tags": {
+        "bus": "yes",
+        "name": "华东理工大学",
+        "name:zh": "华东理工大学",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11955679493,
+      "lat": 30.8300676,
+      "lon": 121.50262,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "华东理工大学",
+        "name:zh": "华东理工大学",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11955679494,
+      "lat": 30.8303198,
+      "lon": 121.5027098,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "华东理工大学",
+        "name:zh": "华东理工大学",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11955679495,
+      "lat": 30.828275,
+      "lon": 121.5035305,
+      "tags": {
+        "bus": "yes",
+        "name": "海乐路海思路",
+        "name:zh": "海乐路海思路",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11955679496,
+      "lat": 30.8283819,
+      "lon": 121.5034556,
+      "tags": {
+        "bus": "yes",
+        "name": "海乐路海思路",
+        "name:zh": "海乐路海思路",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11955679497,
+      "lat": 30.8283379,
+      "lon": 121.5033697,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "海乐路海思路",
+        "name:zh": "海乐路海思路",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11955679498,
+      "lat": 30.8282838,
+      "lon": 121.5035842,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "海乐路海思路",
+        "name:zh": "海乐路海思路",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12147812441,
+      "lat": 30.8261432,
+      "lon": 121.5120969,
+      "tags": {
+        "bus": "yes",
+        "name": "海湾路海马路",
+        "name:zh": "海湾路海马路",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12147812442,
+      "lat": 30.8273867,
+      "lon": 121.511444,
+      "tags": {
+        "bus": "yes",
+        "name": "海湾路海马路",
+        "name:zh": "海湾路海马路",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12147812443,
+      "lat": 30.8273821,
+      "lon": 121.5113398,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "海湾路海马路",
+        "name:zh": "海湾路海马路",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12147812444,
+      "lat": 30.8261728,
+      "lon": 121.5121794,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "海湾路海马路",
+        "name:zh": "海湾路海马路",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12150038893,
+      "lat": 30.8269133,
+      "lon": 121.5128432,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "海马路海湾路",
+        "name:zh": "海马路海湾路",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12150102646,
+      "lat": 30.8320812,
+      "lon": 121.515881,
+      "tags": {
+        "bus": "yes",
+        "name": "人民塘路兴农路",
+        "name:zh": "人民塘路兴农路",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12150102647,
+      "lat": 30.8323949,
+      "lon": 121.5167105,
+      "tags": {
+        "bus": "yes",
+        "name": "人民塘路兴农路",
+        "name:zh": "人民塘路兴农路",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12150102648,
+      "lat": 30.8323408,
+      "lon": 121.5167472,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "人民塘路兴农路",
+        "name:zh": "人民塘路兴农路",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12150102649,
+      "lat": 30.8321658,
+      "lon": 121.5158218,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "人民塘路兴农路",
+        "name:zh": "人民塘路兴农路",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12150102650,
+      "lat": 30.830558,
+      "lon": 121.5118502,
+      "tags": {
+        "bus": "yes",
+        "name": "人民塘路海湾路",
+        "name:zh": "招商海廷西门",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12150102651,
+      "lat": 30.8304653,
+      "lon": 121.5116098,
+      "tags": {
+        "bus": "yes",
+        "name": "人民塘路海湾路",
+        "name:zh": "招商海廷西门",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12150102652,
+      "lat": 30.8304879,
+      "lon": 121.5118816,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "人民塘路海湾路",
+        "name:zh": "招商海廷西门",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12150102653,
+      "lat": 30.8305375,
+      "lon": 121.5115719,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "人民塘路海湾路",
+        "name:zh": "招商海廷西门",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12367934641,
+      "lat": 30.8362211,
+      "lon": 121.5157784,
+      "tags": {
+        "bus": "yes",
+        "name": "上师大奉贤校区南门",
+        "name:zh": "上师大奉贤校区南门",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12367934643,
+      "lat": 30.8363067,
+      "lon": 121.5157172,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "上师大奉贤校区南门",
+        "name:zh": "上师大奉贤校区南门",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12367934644,
+      "lat": 30.833536,
+      "lon": 121.5091603,
+      "tags": {
+        "bus": "yes",
+        "name": "海思路华理奉贤校区上海旅专",
+        "name:zh": "海思路华理奉贤校区上海旅专",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12367934645,
+      "lat": 30.8338785,
+      "lon": 121.5099806,
+      "tags": {
+        "bus": "yes",
+        "name": "海思路华理奉贤校区上海旅专",
+        "name:zh": "海思路华理奉贤校区上海旅专",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12367934646,
+      "lat": 30.833474,
+      "lon": 121.5091699,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "海思路华理奉贤校区上海旅专",
+        "name:zh": "海思路华理奉贤校区上海旅专",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12367934647,
+      "lat": 30.8340037,
+      "lon": 121.5099639,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "海思路华理奉贤校区上海旅专",
+        "name:zh": "海思路华理奉贤校区上海旅专",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12459983596,
+      "lat": 30.8417462,
+      "lon": 121.5029814,
+      "tags": {
+        "amenity": "bus_station",
+        "bus": "yes",
+        "internet_access": "no",
+        "name": "申飞巴士学生班车",
+        "name:en": "Shenfei Student Bus Terminal",
+        "operator": "申飞巴士有限公司",
+        "public_transport": "station",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12546224574,
+      "lat": 30.8365215,
+      "lon": 121.5163581,
+      "tags": {
+        "amenity": "bus_station",
+        "bus": "yes",
+        "description": "微信公众号：上海梦境旅行社有限公司\n统一票价：12元人民币\nWeChat Public Number: Shanghai Dreamland Travel Agency Co. LTD.\nFlat Fare: RMB 12",
+        "internet_access": "no",
+        "name": "梦境巴士站 往徐汇校区和上海南站",
+        "name:en": "Dream Bus Station, to Xuhui and Shanghai South Railway Station",
+        "operator": "上海梦境旅行社有限公司 Mengjing / Dream Bus Services",
+        "public_transport": "station"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12922659739,
+      "lat": 30.8429241,
+      "lon": 121.5015223,
+      "tags": {
+        "amenity": "community_centre",
+        "community_centre": "萱园"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12922659740,
+      "lat": 30.8437785,
+      "lon": 121.5023531,
+      "tags": {
+        "name": "征兵办公室",
+        "office": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12922659741,
+      "lat": 30.8438088,
+      "lon": 121.5018538,
+      "tags": {
+        "amenity": "post_box"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12922659744,
+      "lat": 30.8397828,
+      "lon": 121.5033287,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "麦当劳",
+        "brand:en": "McDonald's",
+        "brand:wikidata": "Q38076",
+        "brand:zh": "麦当劳",
+        "cuisine": "burger",
+        "name": "麦当劳",
+        "name:en": "McDonald's",
+        "name:zh": "麦当劳",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12922659745,
+      "lat": 30.8398405,
+      "lon": 121.5034149,
+      "tags": {
+        "amenity": "cafe",
+        "brand": "瑞幸咖啡",
+        "brand:en": "Luckin Coffee",
+        "brand:wikidata": "Q56811344",
+        "brand:zh": "瑞幸咖啡",
+        "cuisine": "coffee_shop",
+        "name": "瑞幸咖啡",
+        "name:en": "Luckin Coffee",
+        "name:zh": "瑞幸咖啡",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12922659746,
+      "lat": 30.8397615,
+      "lon": 121.5032815,
+      "tags": {
+        "amenity": "cafe",
+        "brand": "蜜雪冰城",
+        "brand:en": "Mixue Ice Cream & Tea",
+        "brand:wikidata": "Q107406476",
+        "brand:zh": "蜜雪冰城",
+        "brand:zh-Latn-pinyin": "Mixue Bingcheng",
+        "cuisine": "ice_cream;bubble_tea",
+        "name": "蜜雪冰城",
+        "name:en": "Mixue Ice Cream & Tea",
+        "name:zh": "蜜雪冰城",
+        "name:zh-Latn-pinyin": "Mixue Bingcheng",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12922659747,
+      "lat": 30.8396406,
+      "lon": 121.5031126,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "华莱士",
+        "brand:en": "CNHLS",
+        "brand:wikidata": "Q15939607",
+        "brand:zh": "华莱士",
+        "cuisine": "burger;chicken",
+        "name": "华莱士",
+        "name:en": "CNHLS",
+        "name:zh": "华莱士",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12922659748,
+      "lat": 30.8404198,
+      "lon": 121.5045518,
+      "tags": {
+        "brand": "罗森",
+        "brand:en": "LAWSON",
+        "brand:wikidata": "Q1557223",
+        "brand:zh": "罗森",
+        "name": "罗森",
+        "name:en": "Lawson",
+        "name:zh": "罗森",
+        "operator": "罗森（中国）投资有限公司",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13062833647,
+      "lat": 30.8436602,
+      "lon": 121.5023247,
+      "tags": {
+        "description": "店主是一個詐騙犯，騙人說自行車已經報廢，不可能修得好，然後低價訛學生的錢賤賣自行車，隨後將自行車噴漆改造后高價賣出。",
+        "fee": "yes",
+        "name": "自行车售卖/维修（请提防店主欺诈）",
+        "payment:alipay": "yes",
+        "payment:wechat": "yes",
+        "service:bicycle:dealer": "yes",
+        "service:bicycle:pump": "yes",
+        "service:bicycle:repair": "yes",
+        "service:bicycle:second_hand": "yes",
+        "shop": "bicycle"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13062833670,
+      "lat": 30.843686,
+      "lon": 121.5008076,
+      "tags": {
+        "leisure": "fitness_station",
+        "sport": "fitness"
+      }
+    }
+  ]
+}

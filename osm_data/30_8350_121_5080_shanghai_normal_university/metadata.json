@@ -1,0 +1,49 @@
+{
+  "download_time": "2026-06-26T18:10:53.621645",
+  "center_coordinates": {
+    "latitude": 30.835,
+    "longitude": 121.508
+  },
+  "download_range": {
+    "north": 30.844,
+    "south": 30.826,
+    "east": 121.517,
+    "west": 121.499,
+    "expand": 0.009
+  },
+  "alias": "shanghai_normal_university",
+  "data_categories": [
+    "roads",
+    "buildings",
+    "water",
+    "landuse",
+    "pois"
+  ],
+  "statistics": {
+    "roads": {
+      "ways": 417,
+      "nodes": 1956,
+      "total_elements": 2373
+    },
+    "buildings": {
+      "ways": 90,
+      "nodes": 829,
+      "total_elements": 919
+    },
+    "water": {
+      "ways": 15,
+      "nodes": 661,
+      "total_elements": 676
+    },
+    "landuse": {
+      "ways": 71,
+      "nodes": 972,
+      "total_elements": 1043
+    },
+    "pois": {
+      "ways": 0,
+      "nodes": 83,
+      "total_elements": 83
+    }
+  }
+}

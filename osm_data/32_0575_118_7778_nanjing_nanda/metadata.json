@@ -1,0 +1,55 @@
+{
+  "download_time": "2026-06-27T01:23:53.393860",
+  "center_coordinates": {
+    "latitude": 32.0575,
+    "longitude": 118.7778
+  },
+  "download_range": {
+    "north": 32.067499999999995,
+    "south": 32.0475,
+    "east": 118.7878,
+    "west": 118.7678,
+    "expand": 0.01
+  },
+  "alias": "nanjing_nanda",
+  "data_categories": [
+    "roads",
+    "buildings",
+    "water",
+    "landuse",
+    "pois",
+    "traffic_signals"
+  ],
+  "statistics": {
+    "roads": {
+      "ways": 521,
+      "nodes": 2153,
+      "total_elements": 2674
+    },
+    "buildings": {
+      "ways": 615,
+      "nodes": 4355,
+      "total_elements": 4970
+    },
+    "water": {
+      "ways": 4,
+      "nodes": 94,
+      "total_elements": 98
+    },
+    "landuse": {
+      "ways": 181,
+      "nodes": 1970,
+      "total_elements": 2151
+    },
+    "pois": {
+      "ways": 0,
+      "nodes": 297,
+      "total_elements": 297
+    },
+    "traffic_signals": {
+      "ways": 0,
+      "nodes": 10,
+      "total_elements": 10
+    }
+  }
+}

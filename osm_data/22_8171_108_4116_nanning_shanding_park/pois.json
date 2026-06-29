@@ -1,0 +1,323 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-06-26T16:58:00Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 760265828,
+      "lat": 22.8157322,
+      "lon": 108.4147559,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "埌东客运站",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4018278925,
+      "lat": 22.8155939,
+      "lon": 108.4145652,
+      "tags": {
+        "name": "埌东客运站",
+        "name:en": "LANGDONG Coach Station",
+        "name:za": "Camh Yinhhek Langdungh",
+        "name:zh": "埌东客运站",
+        "operator": "南宁轨道交通",
+        "operator:en": "Nanning Rail Transit",
+        "operator:zh-Hant": "南寧軌道交通",
+        "public_transport": "station",
+        "railway": "station",
+        "station": "subway",
+        "subway": "yes",
+        "wikidata": "Q26261986"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6416740055,
+      "lat": 22.8160816,
+      "lon": 108.4104459,
+      "tags": {
+        "capital": "6",
+        "name": "青秀区",
+        "name:en": "Qingxiu",
+        "name:fr": "Qingxiu",
+        "name:ml": "ചിങ്‌ഷിയു",
+        "name:vi": "Thanh Tú",
+        "name:yue": "青秀區",
+        "name:yue-Latn": "Cingslau-kyu",
+        "name:zh": "青秀区",
+        "name:zh-Hans": "青秀区",
+        "name:zh-Hant": "青秀區",
+        "name:zh-Latn-pinyin": "Qīngxiù Qū",
+        "official_name": "青秀区",
+        "official_name:en": "Qingxiu District",
+        "official_name:zh": "青秀区",
+        "place": "city",
+        "place:CN": "district",
+        "short_name": "青秀",
+        "wikidata": "Q1355185",
+        "wikipedia": "zh:青秀区"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8659850084,
+      "lat": 22.8154277,
+      "lon": 108.4145659,
+      "tags": {
+        "level": "-1",
+        "name": "埌东客运站",
+        "name:en": "LANGDONG Coach Station",
+        "name:za": "Camh Yinhhek Langdungh",
+        "name:zh": "埌东客运站",
+        "operator": "南宁轨道交通",
+        "operator:en": "Nanning Rail Transit",
+        "operator:zh-Hant": "南寧軌道交通",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "subway": "yes",
+        "wikidata": "Q26261986"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8659850085,
+      "lat": 22.8157601,
+      "lon": 108.4145636,
+      "tags": {
+        "level": "-1",
+        "name": "埌东客运站",
+        "name:en": "LANGDONG Coach Station",
+        "name:za": "Camh Yinhhek Langdungh",
+        "name:zh": "埌东客运站",
+        "operator": "南宁轨道交通",
+        "operator:en": "Nanning Rail Transit",
+        "operator:zh-Hant": "南寧軌道交通",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "subway": "yes",
+        "wikidata": "Q26261986"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9521808098,
+      "lat": 22.8214211,
+      "lon": 108.4101945,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "枫林百花岭路口",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9521808100,
+      "lat": 22.8169347,
+      "lon": 108.4159084,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "枫林民族路口 (埌东客运站)",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9521808101,
+      "lat": 22.8164939,
+      "lon": 108.416436,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "枫林民族路口 (埌东客运站)",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9542864802,
+      "lat": 22.8145555,
+      "lon": 108.4138861,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "埌东客运站",
+        "public_transport": "platform",
+        "shelter": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9542864803,
+      "lat": 22.8154641,
+      "lon": 108.4144894,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "埌东客运站",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9556204938,
+      "lat": 22.8154407,
+      "lon": 108.4070805,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "翡翠园",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9556204939,
+      "lat": 22.8157794,
+      "lon": 108.406764,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "翡翠园",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9556204969,
+      "lat": 22.8142284,
+      "lon": 108.410431,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "青环青林路口",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9556204970,
+      "lat": 22.8138088,
+      "lon": 108.4129016,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "青环青林路口",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9556204971,
+      "lat": 22.8132452,
+      "lon": 108.4132509,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "青环青林路口",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9556204972,
+      "lat": 22.8133206,
+      "lon": 108.4137833,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "青环青林路口",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12866902313,
+      "lat": 22.8137615,
+      "lon": 108.4118058,
+      "tags": {
+        "amenity": "fast_food",
+        "branch": "青林店",
+        "brand": "粉之都",
+        "cuisine": "rice_noodle",
+        "name": "粉之都",
+        "name:zh": "粉之都",
+        "ref": "071",
+        "rice_noodle": "laoyoufen;guilin;luosifen"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13049593863,
+      "lat": 22.8141703,
+      "lon": 108.4127036,
+      "tags": {
+        "leisure": "pitch",
+        "name": "公交球馆",
+        "sport": "badminton;volleyball"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13185609037,
+      "lat": 22.8160015,
+      "lon": 108.4146784,
+      "tags": {
+        "amenity": "toilets"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13185609046,
+      "lat": 22.8125448,
+      "lon": 108.4138638,
+      "tags": {
+        "amenity": "bank",
+        "brand": "中国工商银行",
+        "brand:en": "Industrial and Commercial Bank of China",
+        "brand:wikidata": "Q26463",
+        "brand:zh": "中国工商银行",
+        "name": "中国工商银行",
+        "name:en": "Industrial and Commercial Bank of China",
+        "name:zh": "中国工商银行"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13185609047,
+      "lat": 22.8136589,
+      "lon": 108.4129844,
+      "tags": {
+        "amenity": "bank",
+        "brand": "中国农业银行",
+        "brand:en": "Agricultural Bank of China",
+        "brand:wikidata": "Q26298",
+        "brand:zh": "中国农业银行",
+        "name": "中国农业银行",
+        "name:en": "Agricultural Bank of China",
+        "name:zh": "中国农业银行"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13240619216,
+      "lat": 22.8131243,
+      "lon": 108.4162437,
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "healthcare:speciality": "plastic_surgery",
+        "name": "广西爱思特整形外科医院"
+      }
+    }
+  ]
+}

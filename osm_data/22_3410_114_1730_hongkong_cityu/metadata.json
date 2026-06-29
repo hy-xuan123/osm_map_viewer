@@ -1,0 +1,55 @@
+{
+  "download_time": "2026-06-26T23:21:30.499731",
+  "center_coordinates": {
+    "latitude": 22.341,
+    "longitude": 114.173
+  },
+  "download_range": {
+    "north": 22.35,
+    "south": 22.332,
+    "east": 114.182,
+    "west": 114.164,
+    "expand": 0.009
+  },
+  "alias": "hongkong_cityu",
+  "data_categories": [
+    "roads",
+    "buildings",
+    "water",
+    "landuse",
+    "pois",
+    "traffic_signals"
+  ],
+  "statistics": {
+    "roads": {
+      "ways": 2277,
+      "nodes": 10940,
+      "total_elements": 13217
+    },
+    "buildings": {
+      "ways": 1144,
+      "nodes": 14968,
+      "total_elements": 16112
+    },
+    "water": {
+      "ways": 48,
+      "nodes": 592,
+      "total_elements": 640
+    },
+    "landuse": {
+      "ways": 437,
+      "nodes": 3202,
+      "total_elements": 3639
+    },
+    "pois": {
+      "ways": 0,
+      "nodes": 486,
+      "total_elements": 486
+    },
+    "traffic_signals": {
+      "ways": 0,
+      "nodes": 115,
+      "total_elements": 115
+    }
+  }
+}

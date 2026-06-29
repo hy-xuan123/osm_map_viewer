@@ -1,0 +1,180 @@
+{
+  "datasets": [
+    {
+      "lat": 23.1122,
+      "lon": 109.599,
+      "alias": "guigang_park",
+      "directory": "23_1122_109_5990_guigang_park",
+      "path": "osm_data/23_1122_109_5990_guigang_park",
+      "download_time": "2026-06-26T17:01:39.519493"
+    },
+    {
+      "lat": 22.164,
+      "lon": 113.5578,
+      "alias": "macau_university",
+      "directory": "22_1640_113_5578_macau_university",
+      "path": "osm_data/22_1640_113_5578_macau_university",
+      "download_time": "2026-06-26T17:29:43.618368"
+    },
+    {
+      "lat": 43.856773,
+      "lon": 125.340964,
+      "alias": "jilin_university_nanling",
+      "directory": "43_8568_125_3410_jilin_university_nanling",
+      "path": "osm_data/43_8568_125_3410_jilin_university_nanling",
+      "download_time": "2026-06-26T18:00:55.171619"
+    },
+    {
+      "lat": 30.835,
+      "lon": 121.508,
+      "alias": "shanghai_normal_university",
+      "directory": "30_8350_121_5080_shanghai_normal_university",
+      "path": "osm_data/30_8350_121_5080_shanghai_normal_university",
+      "download_time": "2026-06-26T18:10:53.622773"
+    },
+    {
+      "lat": 22.1291,
+      "lon": 113.544,
+      "alias": "um_hengqin_campus",
+      "directory": "22_1291_113_5440_um_hengqin_campus",
+      "path": "osm_data/22_1291_113_5440_um_hengqin_campus",
+      "download_time": "2026-06-26T18:23:23.653132"
+    },
+    {
+      "lat": 22.8173,
+      "lon": 108.4198,
+      "alias": "nanning_fengling_spring",
+      "directory": "22_8173_108_4198_nanning_fengling_spring",
+      "path": "osm_data/22_8173_108_4198_nanning_fengling_spring",
+      "download_time": "2026-06-26T19:14:11.144871"
+    },
+    {
+      "lat": 23.1058083,
+      "lon": 109.5522073,
+      "alias": "guigang_liubacun",
+      "directory": "23_1058_109_5522_guigang_liubacun",
+      "path": "osm_data/23_1058_109_5522_guigang_liubacun",
+      "download_time": "2026-06-26T20:48:20.952692"
+    },
+    {
+      "lat": 22.8210295,
+      "lon": 108.4672161,
+      "alias": "minzudadao",
+      "directory": "22_8210_108_4672_minzudadao",
+      "path": "osm_data/22_8210_108_4672_minzudadao",
+      "download_time": "2026-06-26T20:53:52.861868"
+    },
+    {
+      "lat": 22.8128211,
+      "lon": 108.5806229,
+      "alias": "nanning_narong_overpass",
+      "directory": "22_8128_108_5806_nanning_narong_overpass",
+      "path": "osm_data/22_8128_108_5806_nanning_narong_overpass",
+      "download_time": "2026-06-26T20:57:37.913306"
+    },
+    {
+      "lat": 22.1405,
+      "lon": 113.5436,
+      "alias": "hengqin_hengqin_train_station",
+      "directory": "22_1405_113_5436_hengqin_hengqin_train_station",
+      "path": "osm_data/22_1405_113_5436_hengqin_hengqin_train_station",
+      "download_time": "2026-06-26T21:02:41.618782"
+    },
+    {
+      "lat": 23.1122,
+      "lon": 109.599,
+      "alias": null,
+      "directory": "23_1122_109_5990",
+      "path": "osm_data/23_1122_109_5990",
+      "download_time": "2026-06-26T22:07:24.448045"
+    },
+    {
+      "lat": 22.2838,
+      "lon": 114.136,
+      "alias": "hongkong_hku",
+      "directory": "22_2838_114_1360_hongkong_hku",
+      "path": "osm_data/22_2838_114_1360_hongkong_hku",
+      "download_time": "2026-06-26T22:42:35.935130"
+    },
+    {
+      "lat": 22.341,
+      "lon": 114.173,
+      "alias": "hongkong_cityu",
+      "directory": "22_3410_114_1730_hongkong_cityu",
+      "path": "osm_data/22_3410_114_1730_hongkong_cityu",
+      "download_time": "2026-06-26T23:21:30.503094"
+    },
+    {
+      "lat": 22.4185,
+      "lon": 114.206,
+      "alias": "hongkong_cuhk",
+      "directory": "22_4185_114_2060_hongkong_cuhk",
+      "path": "osm_data/22_4185_114_2060_hongkong_cuhk",
+      "download_time": "2026-06-26T23:32:02.543013"
+    },
+    {
+      "lat": 38.8977,
+      "lon": -77.0365,
+      "alias": "us_whitehouse",
+      "directory": "38_8977_-77_0365_us_whitehouse",
+      "path": "osm_data/38_8977_-77_0365_us_whitehouse",
+      "download_time": "2026-06-26T23:47:04.691978"
+    },
+    {
+      "lat": 22.8171272,
+      "lon": 108.4115652,
+      "alias": "nanning_shanding_park",
+      "directory": "22_8171_108_4116_nanning_shanding_park",
+      "path": "osm_data/22_8171_108_4116_nanning_shanding_park",
+      "download_time": "2026-06-27T00:59:39.626556"
+    },
+    {
+      "lat": 1.2966,
+      "lon": 103.7764,
+      "alias": "singapore_nus",
+      "directory": "1_2966_103_7764_singapore_nus",
+      "path": "osm_data/1_2966_103_7764_singapore_nus",
+      "download_time": "2026-06-27T01:06:56.108128"
+    },
+    {
+      "lat": 43.83,
+      "lon": 125.4,
+      "alias": "changchun_yishengjie",
+      "directory": "43_8300_125_4000_changchun_yishengjie",
+      "path": "osm_data/43_8300_125_4000_changchun_yishengjie",
+      "download_time": "2026-06-27T01:13:11.358485"
+    },
+    {
+      "lat": 51.5246,
+      "lon": -0.1339,
+      "alias": "london_ucl",
+      "directory": "51_5246_-0_1339_london_ucl",
+      "path": "osm_data/51_5246_-0_1339_london_ucl",
+      "download_time": "2026-06-27T01:18:18.111774"
+    },
+    {
+      "lat": 32.0575,
+      "lon": 118.7778,
+      "alias": "nanjing_nanda",
+      "directory": "32_0575_118_7778_nanjing_nanda",
+      "path": "osm_data/32_0575_118_7778_nanjing_nanda",
+      "download_time": "2026-06-27T01:23:53.396485"
+    },
+    {
+      "lat": 22.1355581,
+      "lon": 113.5522173,
+      "alias": "hengqin_hedisuidao",
+      "directory": "22_1356_113_5522_hengqin_hedisuidao",
+      "path": "osm_data/22_1356_113_5522_hengqin_hedisuidao",
+      "download_time": "2026-06-27T01:39:23.823518"
+    },
+    {
+      "lat": 35.7128,
+      "lon": 139.7623,
+      "alias": "tokyo_tokyoU",
+      "directory": "35_7128_139_7623_tokyo_tokyoU",
+      "path": "osm_data/35_7128_139_7623_tokyo_tokyoU",
+      "download_time": "2026-06-29T11:39:06.834430"
+    }
+  ]
+}

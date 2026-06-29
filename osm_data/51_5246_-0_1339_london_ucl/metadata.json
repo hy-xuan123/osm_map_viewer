@@ -1,0 +1,55 @@
+{
+  "download_time": "2026-06-27T01:18:18.100320",
+  "center_coordinates": {
+    "latitude": 51.5246,
+    "longitude": -0.1339
+  },
+  "download_range": {
+    "north": 51.5346,
+    "south": 51.5146,
+    "east": -0.1239,
+    "west": -0.1439,
+    "expand": 0.01
+  },
+  "alias": "london_ucl",
+  "data_categories": [
+    "roads",
+    "buildings",
+    "water",
+    "landuse",
+    "pois",
+    "traffic_signals"
+  ],
+  "statistics": {
+    "roads": {
+      "ways": 7346,
+      "nodes": 16651,
+      "total_elements": 23997
+    },
+    "buildings": {
+      "ways": 3721,
+      "nodes": 24169,
+      "total_elements": 27890
+    },
+    "water": {
+      "ways": 5,
+      "nodes": 134,
+      "total_elements": 139
+    },
+    "landuse": {
+      "ways": 536,
+      "nodes": 6790,
+      "total_elements": 7326
+    },
+    "pois": {
+      "ways": 0,
+      "nodes": 3487,
+      "total_elements": 3487
+    },
+    "traffic_signals": {
+      "ways": 0,
+      "nodes": 277,
+      "total_elements": 277
+    }
+  }
+}

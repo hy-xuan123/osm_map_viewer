@@ -1,0 +1,77 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.4 2390de5a",
+  "osm3s": {
+    "timestamp_osm_base": "2026-06-26T12:51:59Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 1378458641,
+      "nodes": [
+        12763366785,
+        12763366786,
+        12763366787,
+        12763366788,
+        12763366789,
+        12763366790,
+        12763366791,
+        12763366792,
+        12763366785
+      ],
+      "tags": {
+        "natural": "water",
+        "water": "pond"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12763366785,
+      "lat": 22.8162967,
+      "lon": 108.457556
+    },
+    {
+      "type": "node",
+      "id": 12763366786,
+      "lat": 22.8163541,
+      "lon": 108.4577927
+    },
+    {
+      "type": "node",
+      "id": 12763366787,
+      "lat": 22.8163254,
+      "lon": 108.4584153
+    },
+    {
+      "type": "node",
+      "id": 12763366788,
+      "lat": 22.8163139,
+      "lon": 108.4590069
+    },
+    {
+      "type": "node",
+      "id": 12763366789,
+      "lat": 22.8162163,
+      "lon": 108.4589882
+    },
+    {
+      "type": "node",
+      "id": 12763366790,
+      "lat": 22.8159753,
+      "lon": 108.4586831
+    },
+    {
+      "type": "node",
+      "id": 12763366791,
+      "lat": 22.8158605,
+      "lon": 108.4584216
+    },
+    {
+      "type": "node",
+      "id": 12763366792,
+      "lat": 22.8155358,
+      "lon": 108.4580964
+    }
+  ]
+}

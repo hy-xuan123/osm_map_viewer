@@ -1,0 +1,3726 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-06-26T17:21:30Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 666941363,
+      "lat": 32.0638095,
+      "lon": 118.775203,
+      "tags": {
+        "name": "Ramada",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 772584568,
+      "lat": 32.0525487,
+      "lon": 118.7739688,
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "healthcare:speciality": "paediatrics",
+        "name": "南京儿童医院"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1030348723,
+      "lat": 32.0580037,
+      "lon": 118.772959,
+      "tags": {
+        "barrier": "gate",
+        "name": "西门"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1058331313,
+      "lat": 32.0507544,
+      "lon": 118.7798897,
+      "tags": {
+        "addr:city": "南京市",
+        "addr:housenumber": "178",
+        "addr:postcode": "210005",
+        "addr:street": "中山路",
+        "amenity": "school",
+        "name": "人民中学",
+        "phone": "+86 25 6853 7026",
+        "website": "http://www.njrmzx.com/",
+        "wikidata": "Q10906770",
+        "wikipedia": "zh:南京市人民中学"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1143311257,
+      "lat": 32.0556888,
+      "lon": 118.7845111,
+      "tags": {
+        "name": "苏果便利店",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1541912245,
+      "lat": 32.0628012,
+      "lon": 118.7781733,
+      "tags": {
+        "addr:city": "南京市",
+        "addr:district": "鼓楼区",
+        "addr:housenumber": "1",
+        "addr:postcode": "210008",
+        "addr:province": "江苏省",
+        "addr:street": "中央路",
+        "brand": "InterContinental",
+        "brand:wikidata": "Q1825730",
+        "email": "dm@nkgha.com",
+        "internet_access": "yes",
+        "name": "南京绿地洲际酒店",
+        "name:en": "InterContinental Nanjing",
+        "phone": "+86 25 83538888",
+        "source:name": "photograph",
+        "tourism": "hotel",
+        "website": "https://www.ihg.com/intercontinental/hotels/gb/en/nanjing/nkgha/hoteldetail"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1560705286,
+      "lat": 32.0513224,
+      "lon": 118.7791599,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Subway",
+        "cuisine": "sandwich",
+        "highway": "bus_stop",
+        "name": "珠江路南站;赛百味",
+        "name:en": "SUBWAY",
+        "source": "GPS",
+        "source:name": "Survey"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1560705287,
+      "lat": 32.0624428,
+      "lon": 118.7786715,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "中央路·鼓楼",
+        "note": "1",
+        "public_transport": "platform",
+        "source": "GPS",
+        "source:name": "Survey"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1560705288,
+      "lat": 32.0594779,
+      "lon": 118.7787473,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "鼓楼医院",
+        "note": "1",
+        "public_transport": "platform",
+        "source": "GPS",
+        "source:name": "Survey"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1563161728,
+      "lat": 32.054768,
+      "lon": 118.7693784,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "五台山北站",
+        "public_transport": "platform",
+        "source": "bing",
+        "source:name": "survey"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1601311525,
+      "lat": 32.0543366,
+      "lon": 118.7699148,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "五台山北站",
+        "public_transport": "platform",
+        "source": "GPS",
+        "source:name": "survey"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1602339122,
+      "lat": 32.0481635,
+      "lon": 118.7713427,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "五台山",
+        "public_transport": "platform",
+        "source": "GPS",
+        "source:name": "survey"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1602370478,
+      "lat": 32.0519011,
+      "lon": 118.7721236,
+      "tags": {
+        "amenity": "post_office",
+        "name": "广州路邮政支局",
+        "source:name": "photograph"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1604417538,
+      "lat": 32.0569257,
+      "lon": 118.7681473,
+      "tags": {
+        "branch": "宁海路社区店",
+        "name": "苏果超市",
+        "operator": "苏果超市有限公司",
+        "shop": "supermarket",
+        "source": "bing",
+        "source:name": "Receipt paper/发票"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1604425696,
+      "lat": 32.0527802,
+      "lon": 118.7711087,
+      "tags": {
+        "amenity": "cafe",
+        "name": "蓝湾咖啡",
+        "name:en": "Blue Gulf Coffee",
+        "source": "bing",
+        "source:name": "survey"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1607565808,
+      "lat": 32.0597764,
+      "lon": 118.769002,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "云南路",
+        "public_transport": "platform",
+        "source": "GPS",
+        "source:name": "survey"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1607565820,
+      "lat": 32.0653537,
+      "lon": 118.770291,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "大方巷",
+        "public_transport": "platform",
+        "source": "GPS",
+        "source:name": "survey"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1608079740,
+      "lat": 32.0519764,
+      "lon": 118.7745918,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "儿童医院",
+        "public_transport": "platform",
+        "source": "GPS",
+        "source:name": "survey"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1608079741,
+      "lat": 32.0522843,
+      "lon": 118.7735927,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "儿童医院",
+        "public_transport": "platform",
+        "source": "GPS",
+        "source:name": "survey"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1608079746,
+      "lat": 32.0521508,
+      "lon": 118.78056,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "珠江路",
+        "public_transport": "platform",
+        "source": "GPS",
+        "source:name": "survey"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1608079747,
+      "lat": 32.0524462,
+      "lon": 118.7785194,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "珠江路",
+        "public_transport": "platform",
+        "source": "GPS",
+        "source:name": "survey"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1608079748,
+      "lat": 32.0520014,
+      "lon": 118.7854604,
+      "tags": {
+        "amenity": "school",
+        "name": "珠江路小学"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1608079749,
+      "lat": 32.0514701,
+      "lon": 118.7857013,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "莲花桥",
+        "public_transport": "platform",
+        "source": "GPS",
+        "source:name": "survey"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1608079750,
+      "lat": 32.0519991,
+      "lon": 118.7832073,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "莲花桥",
+        "public_transport": "platform",
+        "source": "GPS",
+        "source:name": "survey"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1608079751,
+      "lat": 32.0529434,
+      "lon": 118.7694961,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "随家仓",
+        "public_transport": "platform",
+        "source": "GPS",
+        "source:name": "survey"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1608079753,
+      "lat": 32.0514748,
+      "lon": 118.7851142,
+      "tags": {
+        "name": "85度珠江店",
+        "phone": "+86 25 8311 6785",
+        "shop": "bakery"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1608093031,
+      "lat": 32.0492508,
+      "lon": 118.7725745,
+      "tags": {
+        "amenity": "bank",
+        "atm": "yes",
+        "brand": "北京银行",
+        "brand:en": "Bank of Beijing",
+        "brand:wikidata": "Q39146",
+        "brand:wikipedia": "zh:北京银行",
+        "brand:zh": "北京银行",
+        "name": "北京银行",
+        "name:en": "Bank of Beijing",
+        "name:zh": "北京银行",
+        "source": "survey",
+        "source:name": "survey"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1615452143,
+      "lat": 32.0559771,
+      "lon": 118.7753694,
+      "tags": {
+        "barrier": "gate",
+        "bicycle": "yes",
+        "foot": "yes",
+        "motorcar": "yes",
+        "motorcycle": "yes",
+        "name": "汉口路门"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1615452151,
+      "lat": 32.0596449,
+      "lon": 118.7765036,
+      "tags": {
+        "barrier": "gate",
+        "bicycle": "yes",
+        "foot": "yes",
+        "motorcar": "yes",
+        "motorcycle": "yes",
+        "name": "天津路门"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1636594938,
+      "lat": 32.0506929,
+      "lon": 118.7873967,
+      "tags": {
+        "addr:street": "珠江路8号",
+        "building": "yes",
+        "name": "新世界中心"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1682448137,
+      "lat": 32.0614027,
+      "lon": 118.776452,
+      "tags": {
+        "building": "commercial",
+        "name": "Greenland Square"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1683685438,
+      "lat": 32.0554832,
+      "lon": 118.7747119,
+      "tags": {
+        "amenity": "bank",
+        "atm": "yes",
+        "brand": "中国工商银行",
+        "brand:en": "Industrial and Commercial Bank of China",
+        "brand:wikidata": "Q26463",
+        "brand:wikipedia": "en:Industrial and Commercial Bank of China",
+        "name": "中国工商银行",
+        "name:en": "Industrial and Commercial Bank of China"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1683685442,
+      "lat": 32.055577,
+      "lon": 118.7751596,
+      "tags": {
+        "amenity": "post_office",
+        "name": "南大邮政所"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1683685492,
+      "lat": 32.0556443,
+      "lon": 118.775492,
+      "tags": {
+        "amenity": "atm",
+        "brand": "中国工商银行",
+        "brand:en": "Industrial and Commercial Bank of China",
+        "brand:wikidata": "Q26463",
+        "brand:zh": "中国工商银行",
+        "name": "中国工商银行",
+        "name:en": "Industrial and Commercial Bank of China",
+        "name:zh": "中国工商银行",
+        "operator": "中国工商银行",
+        "operator:wikidata": "Q26463"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1683685502,
+      "lat": 32.0561817,
+      "lon": 118.7771725,
+      "tags": {
+        "amenity": "parking_entrance",
+        "covered": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1683685652,
+      "lat": 32.0554417,
+      "lon": 118.7737356,
+      "tags": {
+        "amenity": "cafe",
+        "internet_access": "wlan",
+        "name": "雕刻时光"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1696256976,
+      "lat": 32.0573692,
+      "lon": 118.7742741,
+      "tags": {
+        "historic": "monument",
+        "name": "百年鼎"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1700539390,
+      "lat": 32.0614008,
+      "lon": 118.7768893,
+      "tags": {
+        "amenity": "bus_station",
+        "name": "鼓楼",
+        "name:en": "Drum Tower"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1741626624,
+      "lat": 32.0625716,
+      "lon": 118.7769772,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "鼓楼",
+        "source": "GPS",
+        "source:name": "survey"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1741639084,
+      "lat": 32.0656565,
+      "lon": 118.7734497,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "大方巷",
+        "public_transport": "platform",
+        "source": "GPS",
+        "source:name": "survey"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1741639093,
+      "lat": 32.0587198,
+      "lon": 118.7790489,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "鼓楼医院",
+        "public_transport": "platform",
+        "source": "GPS",
+        "source:name": "Survey"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1742159074,
+      "lat": 32.0600371,
+      "lon": 118.7849677,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "北极会堂",
+        "source": "GPS",
+        "source:name": "Survey"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1742162836,
+      "lat": 32.0590456,
+      "lon": 118.7788544,
+      "tags": {
+        "amenity": "atm",
+        "brand": "中国建设银行",
+        "brand:en": "China Construction Bank",
+        "brand:wikidata": "Q26299",
+        "brand:zh": "中国建设银行",
+        "name": "中国建设银行",
+        "name:en": "China Construction Bank",
+        "name:zh": "中国建设银行",
+        "operator": "中国建设银行",
+        "operator:wikidata": "Q26299",
+        "source": "GPS",
+        "source:name": "survey"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1742203694,
+      "lat": 32.0504124,
+      "lon": 118.7790551,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "珠江路南站",
+        "public_transport": "platform",
+        "source": "GPS",
+        "source:name": "survey"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1776918669,
+      "lat": 32.0618547,
+      "lon": 118.7786403,
+      "tags": {
+        "description": "中央路",
+        "name": "鼓楼#4A",
+        "name:en": "Gulou Entrance 4A",
+        "railway": "subway_entrance",
+        "ref": "4A",
+        "source:name": "Survey"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1836157002,
+      "lat": 32.0638633,
+      "lon": 118.7791295,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "鼓楼北站",
+        "source": "GPS",
+        "source:name": "Survey"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1983123075,
+      "lat": 32.0526242,
+      "lon": 118.7786155,
+      "tags": {
+        "description": "广州路",
+        "name": "珠江路#1",
+        "name:en": "Zhujianglu Entrance 1",
+        "railway": "subway_entrance",
+        "ref": "1"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1983123076,
+      "lat": 32.0528152,
+      "lon": 118.7793411,
+      "tags": {
+        "description": "珠江路",
+        "name": "珠江路#4",
+        "name:en": "Zhujianglu Entrance 4",
+        "railway": "subway_entrance",
+        "ref": "4"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1983123077,
+      "lat": 32.053664,
+      "lon": 118.7792741,
+      "tags": {
+        "description": "中山路",
+        "name": "珠江路#3",
+        "name:en": "Zhujianglu Entrance 3",
+        "railway": "subway_entrance",
+        "ref": "3"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1984468961,
+      "lat": 32.060941,
+      "lon": 118.7717591,
+      "tags": {
+        "barrier": "gate",
+        "bicycle": "yes",
+        "foot": "yes",
+        "motorcar": "yes",
+        "motorcycle": "yes",
+        "name": "北京西路门"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1984514213,
+      "lat": 32.0523748,
+      "lon": 118.7768609,
+      "tags": {
+        "amenity": "atm",
+        "brand": "中国工商银行",
+        "brand:en": "Industrial and Commercial Bank of China",
+        "brand:wikidata": "Q26463",
+        "brand:zh": "中国工商银行",
+        "name:en": "Industrial and Commercial Bank of China",
+        "name:zh": "中国工商银行",
+        "operator": "中国工商银行",
+        "operator:wikidata": "Q26463"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1984514244,
+      "lat": 32.0524139,
+      "lon": 118.7772225,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "麦当劳",
+        "brand:en": "McDonald's",
+        "brand:wikidata": "Q38076",
+        "brand:wikipedia": "zh:麦当劳",
+        "brand:zh": "麦当劳",
+        "brand:zh-Hans": "麦当劳",
+        "cuisine": "burger",
+        "internet_access": "wlan",
+        "name": "麦当劳",
+        "name:en": "McDonald's",
+        "name:zh": "麦当劳",
+        "name:zh-Hans": "麦当劳",
+        "opening_hours": "Mo-Su 07:00-24:00",
+        "smoking": "no",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1984689547,
+      "lat": 32.058776,
+      "lon": 118.7745951,
+      "tags": {
+        "amenity": "library",
+        "name": "德国研究图书馆"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1985399050,
+      "lat": 32.0556292,
+      "lon": 118.7748001,
+      "tags": {
+        "amenity": "vending_machine",
+        "payment:coins": "yes",
+        "vending": "condoms"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1985399051,
+      "lat": 32.0578104,
+      "lon": 118.775103,
+      "tags": {
+        "amenity": "vending_machine",
+        "payment:coins": "yes",
+        "payment:notes": "yes",
+        "vending": "drinks"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1986049404,
+      "lat": 32.0522656,
+      "lon": 118.7765822,
+      "tags": {
+        "amenity": "post_box",
+        "brand": "中国邮政",
+        "brand:en": "China Post",
+        "brand:wikidata": "Q1066476",
+        "brand:zh": "中国邮政",
+        "name:en": "China Post",
+        "name:zh": "中国邮政",
+        "operator": "中国邮政",
+        "operator:wikidata": "Q1066476"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1986049414,
+      "lat": 32.0556762,
+      "lon": 118.7750751,
+      "tags": {
+        "amenity": "post_box",
+        "operator": "中国邮政"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1992349849,
+      "lat": 32.0517345,
+      "lon": 118.7775557,
+      "tags": {
+        "amenity": "bank",
+        "atm": "yes",
+        "brand": "中国农业银行",
+        "brand:en": "Agricultural Bank of China",
+        "brand:wikidata": "Q26298",
+        "brand:wikipedia": "en:Agricultural Bank of China",
+        "brand:zh": "中国农业银行",
+        "name": "中国农业银行",
+        "name:en": "Agricultural Bank of China",
+        "name:zh": "中国农业银行"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1992349850,
+      "lat": 32.0518929,
+      "lon": 118.7771517,
+      "tags": {
+        "amenity": "bank",
+        "atm": "yes",
+        "brand": "交通银行",
+        "brand:en": "Bank of Communications",
+        "brand:wikidata": "Q806680",
+        "brand:wikipedia": "en:Bank of Communications",
+        "brand:zh": "交通银行",
+        "name": "交通银行",
+        "name:en": "Bank of Communications",
+        "name:zh": "交通银行"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1992349851,
+      "lat": 32.0518714,
+      "lon": 118.7769649,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "小肥羊",
+        "brand:en": "LITTLE SHEEP",
+        "brand:wikidata": "Q5976467",
+        "brand:zh": "小肥羊",
+        "cuisine": "chinese;hot_pot",
+        "name": "小肥羊",
+        "name:en": "LITTLE SHEEP",
+        "name:zh": "小肥羊"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1992349853,
+      "lat": 32.051862,
+      "lon": 118.7767543,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "korean",
+        "name": "庆善园韩式料理"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1992349854,
+      "lat": 32.051857,
+      "lon": 118.7766691,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "永和大王",
+        "brand:en": "Yonghe King",
+        "brand:wikidata": "Q8055004",
+        "brand:zh": "永和大王",
+        "cuisine": "chinese",
+        "internet_access": "wlan",
+        "name": "永和大王",
+        "name:en": "Yonghe King",
+        "name:zh": "永和大王",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1992349943,
+      "lat": 32.0515531,
+      "lon": 118.7775477,
+      "tags": {
+        "name": "苏果好的",
+        "opening_hours": "24/7",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1992372306,
+      "lat": 32.051881,
+      "lon": 118.7784561,
+      "tags": {
+        "amenity": "bank",
+        "atm": "yes",
+        "name": "广州银行"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2024911646,
+      "lat": 32.0592975,
+      "lon": 118.7692905,
+      "tags": {
+        "name": "云中食品店",
+        "name:en": "Skyways Bakery & Deli",
+        "shop": "bakery"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2024911652,
+      "lat": 32.0531943,
+      "lon": 118.7779899,
+      "tags": {
+        "man_made": "gasometer",
+        "name": "百江燃气"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2024977726,
+      "lat": 32.0546695,
+      "lon": 118.7724414,
+      "tags": {
+        "name": "华达宾馆",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2024977728,
+      "lat": 32.0543028,
+      "lon": 118.7725194,
+      "tags": {
+        "amenity": "school",
+        "name": "南京大学附属中学国际高中"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2024977729,
+      "lat": 32.0601013,
+      "lon": 118.7712499,
+      "tags": {
+        "amenity": "cafe",
+        "name": "壹咖啡"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2024977814,
+      "lat": 32.0527057,
+      "lon": 118.7785838,
+      "tags": {
+        "alt_name": "85℃",
+        "amenity": "cafe",
+        "brand": "85度C",
+        "brand:en": "85°C Bakery Cafe",
+        "brand:wikidata": "Q4644852",
+        "brand:wikipedia": "en:85C Bakery Cafe",
+        "brand:zh": "85度C",
+        "cuisine": "coffee_shop",
+        "internet_access": "no",
+        "name": "85度C",
+        "name:en": "85°C Bakery Cafe",
+        "name:zh": "85度C",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2026696491,
+      "lat": 32.0550909,
+      "lon": 118.7782262,
+      "tags": {
+        "internet_access": "yes",
+        "name": "新纪元大酒店",
+        "name:en": "New Era Hotel",
+        "phone": "+86 25 8681 2222",
+        "stars": "4",
+        "tourism": "hotel",
+        "website": "http://www.newerahotel.com"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2030460172,
+      "lat": 32.0581579,
+      "lon": 118.7793217,
+      "tags": {
+        "amenity": "bank",
+        "atm": "yes",
+        "brand": "中信银行",
+        "brand:en": "China CITIC Bank",
+        "brand:wikidata": "Q38960",
+        "brand:wikipedia": "en:China CITIC Bank",
+        "brand:zh": "中信银行",
+        "name": "中信银行",
+        "name:en": "China CITIC Bank",
+        "name:zh": "中信银行"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2034781565,
+      "lat": 32.0484668,
+      "lon": 118.7725018,
+      "tags": {
+        "amenity": "bank",
+        "atm": "yes",
+        "brand": "中国工商银行",
+        "brand:en": "Industrial and Commercial Bank of China",
+        "brand:wikidata": "Q26463",
+        "brand:wikipedia": "en:Industrial and Commercial Bank of China",
+        "brand:zh": "中国工商银行",
+        "name": "中国工商银行",
+        "name:en": "Industrial and Commercial Bank of China",
+        "name:zh": "中国工商银行"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2034822853,
+      "lat": 32.0518395,
+      "lon": 118.7792198,
+      "tags": {
+        "brand": "Best Buy",
+        "brand:wikidata": "Q533415",
+        "brand:wikipedia": "en:Best Buy",
+        "name": "Best Buy",
+        "shop": "electronics"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2034822913,
+      "lat": 32.0520874,
+      "lon": 118.7797989,
+      "tags": {
+        "amenity": "atm",
+        "brand": "东亚银行",
+        "brand:en": "Bank of East Asia",
+        "brand:wikidata": "Q806679",
+        "brand:zh": "东亚银行",
+        "name:en": "Bank of East Asia",
+        "name:zh": "东亚银行",
+        "operator": "东亚银行",
+        "operator:wikidata": "Q806679"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2034822918,
+      "lat": 32.0520864,
+      "lon": 118.7796951,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "麦当劳",
+        "brand:en": "McDonald's",
+        "brand:wikidata": "Q38076",
+        "brand:wikipedia": "zh:麦当劳",
+        "brand:zh": "麦当劳",
+        "brand:zh-Hans": "麦当劳",
+        "cuisine": "burger",
+        "internet_access": "wlan",
+        "name": "麦当劳",
+        "name:en": "McDonald's",
+        "name:zh": "麦当劳",
+        "name:zh-Hans": "麦当劳",
+        "opening_hours": "24/7",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2034872644,
+      "lat": 32.049653,
+      "lon": 118.7785797,
+      "tags": {
+        "amenity": "bank",
+        "atm": "yes",
+        "brand": "中国银行",
+        "brand:en": "Bank of China",
+        "brand:wikidata": "Q790068",
+        "brand:wikipedia": "en:Bank of China",
+        "brand:zh": "中国银行",
+        "name": "中国银行",
+        "name:en": "Bank of China",
+        "name:zh": "中国银行"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2034872648,
+      "lat": 32.0481956,
+      "lon": 118.7785642,
+      "tags": {
+        "amenity": "bank",
+        "atm": "yes",
+        "brand": "华夏银行",
+        "brand:en": "Huaxia Bank",
+        "brand:wikidata": "Q1595443",
+        "brand:zh": "华夏银行",
+        "name": "华夏银行",
+        "name:en": "Huaxia Bank",
+        "name:zh": "华夏银行"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2157459590,
+      "lat": 32.0544626,
+      "lon": 118.7687944,
+      "tags": {
+        "amenity": "kindergarten",
+        "name": "南京第二幼儿园"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2390908539,
+      "lat": 32.0578142,
+      "lon": 118.7694799,
+      "tags": {
+        "amenity": "pub",
+        "name": "Behind the Wall"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2462914070,
+      "lat": 32.0535736,
+      "lon": 118.7700037,
+      "tags": {
+        "amenity": "bar",
+        "name": "Blue Sky Aussie Bar"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2471715038,
+      "lat": 32.049239,
+      "lon": 118.7794143,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "蓝蛙",
+        "brand:en": "Blue Frog",
+        "brand:wikidata": "Q114448902",
+        "brand:zh": "蓝蛙",
+        "cuisine": "western",
+        "level": "0",
+        "name": "蓝蛙",
+        "name:en": "Blue Frog",
+        "name:zh": "蓝蛙",
+        "was:amenity": "restaurant",
+        "was:name": "Blue Frog"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2471715042,
+      "lat": 32.0490679,
+      "lon": 118.7794433,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "western",
+        "name": "Element Fresh",
+        "was:amenity": "restaurant",
+        "was:name": "Element Fresh"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2492186756,
+      "lat": 32.057741,
+      "lon": 118.7697411,
+      "tags": {
+        "amenity": "bar",
+        "name": "Craft Beer",
+        "note": "location uncertain"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2492194724,
+      "lat": 32.0542602,
+      "lon": 118.7696294,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "pizza",
+        "name": "Pisa Pizza",
+        "note": "location is a guess"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2706937353,
+      "lat": 32.0480411,
+      "lon": 118.7775282,
+      "tags": {
+        "addr:housenumber": "85号",
+        "addr:street": "管家桥",
+        "amenity": "bank",
+        "atm": "yes",
+        "brand": "中国建设银行",
+        "brand:en": "China Construction Bank",
+        "brand:wikidata": "Q26299",
+        "brand:wikipedia": "en:China Construction Bank",
+        "brand:zh": "中国建设银行",
+        "name": "中国建设银行",
+        "name:en": "China Construction Bank",
+        "name:zh": "中国建设银行"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2706937354,
+      "lat": 32.0480888,
+      "lon": 118.777279,
+      "tags": {
+        "addr:housenumber": "85号",
+        "addr:street": "管家桥",
+        "amenity": "bank",
+        "atm": "yes",
+        "brand": "中国银行",
+        "brand:en": "Bank of China",
+        "brand:wikidata": "Q790068",
+        "brand:wikipedia": "en:Bank of China",
+        "brand:zh": "中国银行",
+        "name": "中国银行",
+        "name:en": "Bank of China",
+        "name:zh": "中国银行"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2706937355,
+      "lat": 32.0479478,
+      "lon": 118.7775416,
+      "tags": {
+        "addr:city": "南京",
+        "addr:housenumber": "85号",
+        "addr:street": "管家桥",
+        "name": "苏果超市",
+        "operator": "私营",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2776777329,
+      "lat": 32.0475782,
+      "lon": 118.7771341,
+      "tags": {
+        "name": "百洁洗衣店",
+        "opening_hours": "24/7",
+        "shop": "laundry"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3281937444,
+      "lat": 32.0555757,
+      "lon": 118.775078,
+      "tags": {
+        "name": "南京大学礼品店",
+        "opening_hours": "9:00-19:00",
+        "operator": "南京大学",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3387153747,
+      "lat": 32.0629337,
+      "lon": 118.7747791,
+      "tags": {
+        "amenity": "library"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3387153748,
+      "lat": 32.0631156,
+      "lon": 118.7747415,
+      "tags": {
+        "building": "school",
+        "name": "南京大学附属中学"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3496201427,
+      "lat": 32.0667934,
+      "lon": 118.7751961,
+      "tags": {
+        "name": "青云巷"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3496204865,
+      "lat": 32.066323,
+      "lon": 118.7722918,
+      "tags": {
+        "addr:city": "南京市",
+        "addr:housenumber": "55号",
+        "addr:postcode": "210008",
+        "addr:street": "中山北路",
+        "name": "江苏省国家税务局直属分局"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3681512559,
+      "lat": 32.0533487,
+      "lon": 118.7701379,
+      "tags": {
+        "addr:city": "Nanjing",
+        "addr:housenumber": "77-1",
+        "addr:street": "Shanghai Lu",
+        "amenity": "bar",
+        "name": "Brewsell's | 比利时啤酒餐厅",
+        "opening_hours": "17:00-01:00",
+        "smoking": "outside"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3841633185,
+      "lat": 32.0497944,
+      "lon": 118.7797231,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "赛百味",
+        "brand:en": "Subway",
+        "brand:wikidata": "Q244457",
+        "brand:wikipedia": "en:Subway (restaurant)",
+        "brand:zh": "赛百味",
+        "cuisine": "sandwich",
+        "name": "赛百味",
+        "name:en": "Subway",
+        "name:zh": "赛百味",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3861731137,
+      "lat": 32.0668221,
+      "lon": 118.7751597,
+      "tags": {
+        "name": "青云巷"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4057470209,
+      "lat": 32.0661383,
+      "lon": 118.7735811,
+      "tags": {
+        "amenity": "parking"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4057470210,
+      "lat": 32.0663905,
+      "lon": 118.7739532,
+      "tags": {
+        "amenity": "parking"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4395880887,
+      "lat": 32.0552839,
+      "lon": 118.779068,
+      "tags": {
+        "amenity": "bicycle_rental"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4395880888,
+      "lat": 32.0602941,
+      "lon": 118.7846899,
+      "tags": {
+        "amenity": "bicycle_rental",
+        "brand": "南京公共自行车",
+        "brand:en": "Nanjing Public Bicycle",
+        "brand:wikidata": "Q139917154",
+        "brand:zh": "南京公共自行车",
+        "name": "南京市人防办",
+        "operator": "南京公共自行车有限公司",
+        "operator:wikidata": "Q139884130",
+        "ref": "13064"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4418162898,
+      "lat": 32.0500889,
+      "lon": 118.7793038,
+      "tags": {
+        "addr:housenumber": "132",
+        "addr:street": "中山路",
+        "amenity": "cafe",
+        "brand": "Wagas",
+        "brand:en": "Wagas",
+        "brand:wikidata": "Q104668297",
+        "brand:zh": "沃歌斯",
+        "cuisine": "coffee_shop",
+        "level": "0",
+        "name": "Wagas",
+        "name:en": "Wagas",
+        "name:zh": "沃歌斯",
+        "opening_hours": "Mo-Su 08:00-22:00",
+        "outdoor_seating": "yes",
+        "phone": "+86 25 8565 6120",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4418165792,
+      "lat": 32.0481359,
+      "lon": 118.7794846,
+      "tags": {
+        "brand": "Apple Store",
+        "brand:wikidata": "Q421253",
+        "brand:wikipedia": "en:Apple Store",
+        "name": "Apple Store",
+        "shop": "electronics",
+        "short_name": "Apple"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4418188908,
+      "lat": 32.0495118,
+      "lon": 118.7786416,
+      "tags": {
+        "amenity": "atm"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4424484289,
+      "lat": 32.0484186,
+      "lon": 118.7773037,
+      "tags": {
+        "amenity": "cafe",
+        "name": "Hedera Helix Cafe",
+        "name:zh": "Hedera Helix Cafe"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4424484389,
+      "lat": 32.0493931,
+      "lon": 118.7778545,
+      "tags": {
+        "name:en": "Three Bridge Community Food Market",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4424521589,
+      "lat": 32.0502954,
+      "lon": 118.7750651,
+      "tags": {
+        "amenity": "restaurant",
+        "name:en": "various local street restaurants"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4571889789,
+      "lat": 32.0536867,
+      "lon": 118.7819983,
+      "tags": {
+        "amenity": "restaurant",
+        "name:ko": "무궁화"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4769737935,
+      "lat": 32.0546116,
+      "lon": 118.7791374,
+      "tags": {
+        "amenity": "cafe",
+        "name": "Kopimellow Coffee",
+        "name:en": "Kopimellow Coffee",
+        "name:zh": "Kopimellow Coffee"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4769737936,
+      "lat": 32.0563004,
+      "lon": 118.780118,
+      "tags": {
+        "name": "Villabrot",
+        "name:en": "Villabrot",
+        "name:zh": "Villabrot",
+        "shop": "bakery"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4769737937,
+      "lat": 32.0563263,
+      "lon": 118.78057,
+      "tags": {
+        "amenity": "cafe",
+        "name": "Maan Coffee",
+        "name:en": "Maan Coffee Waffle & Toast",
+        "name:zh": "Maan Coffee"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4769738723,
+      "lat": 32.0541297,
+      "lon": 118.7799981,
+      "tags": {
+        "name": "NASR Halal food shop",
+        "name:en": "NASR Halal food shop",
+        "name:zh": "NASR Halal food shop",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4771298423,
+      "lat": 32.0535883,
+      "lon": 118.7818758,
+      "tags": {
+        "amenity": "cafe",
+        "name": "85 degree"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4771298525,
+      "lat": 32.0485758,
+      "lon": 118.7836076,
+      "tags": {
+        "amenity": "cafe",
+        "name": "Ananas Dessert Bar",
+        "opening_hours": "Mo-Su 09:00-23:00",
+        "phone": "05258822032"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4773051721,
+      "lat": 32.0493928,
+      "lon": 118.7790789,
+      "tags": {
+        "amenity": "restaurant",
+        "fixme": "Confirm if exist? check exact location",
+        "name": "Momentum Burger & Lobster & Cocktail",
+        "name:zh": "Momentum Burger & Lobster & Cocktail"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4943532124,
+      "lat": 32.0515536,
+      "lon": 118.7836971,
+      "tags": {
+        "name": "新世界百货",
+        "shop": "mall"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5134028830,
+      "lat": 32.0563232,
+      "lon": 118.7818073,
+      "tags": {
+        "name": "金润发",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5214137101,
+      "lat": 32.0638591,
+      "lon": 118.7685559,
+      "tags": {
+        "addr:city": "南京市",
+        "addr:district": "鼓楼区",
+        "addr:postcode": "2100008",
+        "addr:province": "江苏省",
+        "addr:street": "西桥",
+        "brand": "汉庭酒店",
+        "brand:en": "Hanting Hotel",
+        "brand:wikidata": "Q15926208",
+        "brand:zh": "汉庭酒店",
+        "name": "汉庭酒店",
+        "name:en": "Hanting Hotel",
+        "name:zh": "汉庭酒店",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5406676422,
+      "lat": 32.0599164,
+      "lon": 118.7787403,
+      "tags": {
+        "amenity": "bicycle_rental"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5406676428,
+      "lat": 32.0642214,
+      "lon": 118.7787722,
+      "tags": {
+        "amenity": "bicycle_rental"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5524009853,
+      "lat": 32.0618921,
+      "lon": 118.7867847,
+      "tags": {
+        "name": "鸡笼山",
+        "natural": "peak"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5581640193,
+      "lat": 32.0620012,
+      "lon": 118.7769056,
+      "tags": {
+        "addr:city": "Nanjing",
+        "addr:street": "8 GuLou Street",
+        "building": "commercial",
+        "building:levels": "12",
+        "name": "绿地广场-翠峰大厦 (GreenLand Cuifeng)"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5581640195,
+      "lat": 32.0629231,
+      "lon": 118.7774395,
+      "tags": {
+        "building": "commercial",
+        "building:levels": "45",
+        "name": "绿地广场-云峰大厦 (GreenLand Yunfeng）"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5587941221,
+      "lat": 32.0569304,
+      "lon": 118.7807328,
+      "tags": {
+        "amenity": "bar",
+        "internet_access": "wlan",
+        "name": "Tap Planet Co"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5587941321,
+      "lat": 32.0525828,
+      "lon": 118.7698928,
+      "tags": {
+        "amenity": "bar",
+        "name:en": "Pauliner Bauhaus"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5641064621,
+      "lat": 32.0477103,
+      "lon": 118.7747492,
+      "tags": {
+        "amenity": "cafe",
+        "name": "南京植物咖啡馆 慈悲路18号"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5906108185,
+      "lat": 32.0559441,
+      "lon": 118.7692527,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "首尔家韩国料理",
+        "name:ko": "서울집 한국식당"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6228542385,
+      "lat": 32.0627922,
+      "lon": 118.7776121,
+      "tags": {
+        "amenity": "restaurant",
+        "name:en": "Brownstone tapas bar"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6282793852,
+      "lat": 32.0525482,
+      "lon": 118.772934,
+      "tags": {
+        "addr:city": "南京市",
+        "addr:district": "鼓楼区",
+        "addr:province": "江苏省",
+        "addr:street": "广州路",
+        "amenity": "fast_food",
+        "brand": "肯德基",
+        "brand:en": "KFC",
+        "brand:wikidata": "Q524757",
+        "brand:wikipedia": "zh:肯德基",
+        "brand:zh": "肯德基",
+        "cuisine": "chicken",
+        "name": "肯德基",
+        "name:en": "KFC",
+        "name:zh": "肯德基",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6292245886,
+      "lat": 32.0576093,
+      "lon": 118.76978,
+      "tags": {
+        "amenity": "pub",
+        "name:en": "Nanjing Irish pub"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6292253285,
+      "lat": 32.0577356,
+      "lon": 118.7701572,
+      "tags": {
+        "amenity": "restaurant",
+        "name:en": "La Mia Casa"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6299076485,
+      "lat": 32.0597202,
+      "lon": 118.7698276,
+      "tags": {
+        "amenity": "pub",
+        "name:en": "Talking 2"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6299076486,
+      "lat": 32.0577312,
+      "lon": 118.7695091,
+      "tags": {
+        "amenity": "pub",
+        "name:en": "Human Coffee & Craft Beer"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6331495101,
+      "lat": 32.0527745,
+      "lon": 118.7682621,
+      "tags": {
+        "addr:housenumber": "173",
+        "addr:street": "广州路",
+        "name": "先锋书店",
+        "shop": "books",
+        "wikidata": "Q10889989"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6337049685,
+      "lat": 32.0492727,
+      "lon": 118.7717947,
+      "tags": {
+        "name": "Weir bicycle store",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6413894890,
+      "lat": 32.052035,
+      "lon": 118.7791599,
+      "tags": {
+        "leisure": "fitness_centre",
+        "name:en": "gym?"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6413894891,
+      "lat": 32.0480094,
+      "lon": 118.7840663,
+      "tags": {
+        "amenity": "restaurant",
+        "description": "good and cheap dumpling soup"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6418703604,
+      "lat": 32.0574601,
+      "lon": 118.7787273,
+      "tags": {
+        "tourism": "viewpoint"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6436360285,
+      "lat": 32.0577351,
+      "lon": 118.7699387,
+      "tags": {
+        "amenity": "pub",
+        "name:en": "Secco"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6517967885,
+      "lat": 32.0565335,
+      "lon": 118.7802521,
+      "tags": {
+        "amenity": "pub",
+        "name:en": "Chic Hills Bar & Restaurant Area"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6551944485,
+      "lat": 32.0486667,
+      "lon": 118.7830955,
+      "tags": {
+        "amenity": "pub",
+        "name:en": "Luodeng Bahe Belgium Beer Museum",
+        "opening_hours": "Mo-Su 10:00-03:00",
+        "phone": "+86 25 5225 7979"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6620803486,
+      "lat": 32.0596561,
+      "lon": 118.7693959,
+      "tags": {
+        "amenity": "bar",
+        "name:en": "Jack’s Place"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7247271581,
+      "lat": 32.061195,
+      "lon": 118.7823769,
+      "tags": {
+        "amenity": "cafe",
+        "brand": "星巴克",
+        "brand:en": "Starbucks",
+        "brand:wikidata": "Q37158",
+        "brand:wikipedia": "en:Starbucks",
+        "brand:zh": "星巴克",
+        "cuisine": "coffee_shop",
+        "name": "星巴克",
+        "name:en": "Starbucks",
+        "name:zh": "星巴克",
+        "official_name": "Starbucks Coffee",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7562080691,
+      "lat": 32.0525023,
+      "lon": 118.7802603,
+      "tags": {
+        "brand": "7-Eleven",
+        "brand:wikidata": "Q259340",
+        "brand:wikipedia": "en:7-Eleven",
+        "name": "7-Eleven",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7562083706,
+      "lat": 32.0533024,
+      "lon": 118.7793698,
+      "tags": {
+        "brand": "优衣库",
+        "brand:en": "Uniqlo",
+        "brand:wikidata": "Q26070",
+        "brand:wikipedia": "en:Uniqlo",
+        "brand:zh": "优衣库",
+        "name": "优衣库",
+        "name:en": "Uniqlo",
+        "name:zh": "优衣库",
+        "shop": "clothes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7562083707,
+      "lat": 32.0526978,
+      "lon": 118.7798955,
+      "tags": {
+        "amenity": "cafe",
+        "brand": "喜茶",
+        "brand:en": "Heytea",
+        "brand:wikidata": "Q60875376",
+        "brand:zh": "喜茶",
+        "cuisine": "bubble_tea",
+        "name": "喜茶",
+        "name:en": "Heytea",
+        "name:zh": "喜茶",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7562083708,
+      "lat": 32.0525386,
+      "lon": 118.7801745,
+      "tags": {
+        "brand": "华为",
+        "brand:en": "Huawei",
+        "brand:wikidata": "Q160120",
+        "brand:zh": "华为",
+        "name": "华为",
+        "name:en": "Huawei",
+        "name:zh": "华为",
+        "shop": "mobile_phone"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7562083709,
+      "lat": 32.0526364,
+      "lon": 118.7802925,
+      "tags": {
+        "amenity": "cafe",
+        "brand": "Costa咖啡",
+        "brand:en": "Costa",
+        "brand:wikidata": "Q608845",
+        "brand:wikipedia": "en:Costa Coffee",
+        "brand:zh": "Costa咖啡",
+        "cuisine": "coffee_shop",
+        "name": "Costa咖啡",
+        "name:en": "Costa",
+        "name:zh": "Costa咖啡",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7691839285,
+      "lat": 32.0530214,
+      "lon": 118.7722167,
+      "tags": {
+        "addr:street": "青岛路",
+        "name": "随园16号",
+        "name:en": "Suiyuan No.16",
+        "tourism": "apartment"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7698740686,
+      "lat": 32.0629534,
+      "lon": 118.7777478,
+      "tags": {
+        "name": "好的",
+        "name:en": "Haodi",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7698779685,
+      "lat": 32.0623593,
+      "lon": 118.7779856,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "KFC",
+        "brand:en": "KFC",
+        "brand:zh": "肯德基",
+        "internet_access": "wlan",
+        "name": "肯德基",
+        "name:en": "KFC"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7698779785,
+      "lat": 32.0622129,
+      "lon": 118.7779258,
+      "tags": {
+        "amenity": "cinema",
+        "internet_access": "wlan",
+        "name": "卢米埃影城",
+        "name:en": "Lumiai Cinema"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7699830285,
+      "lat": 32.0641489,
+      "lon": 118.7761808,
+      "tags": {
+        "addr:street": "鼓楼街",
+        "name": "新东方江苏商厦校区",
+        "name:en": "xin dong fang jiang su shang sha",
+        "office": "company"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7703847786,
+      "lat": 32.0633964,
+      "lon": 118.77739,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "ramen",
+        "name": "兰州拉面"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7972110718,
+      "lat": 32.0500188,
+      "lon": 118.7772202,
+      "tags": {
+        "leaf_cycle": "deciduous",
+        "leaf_type": "broadleaved",
+        "name": "银杏树",
+        "natural": "tree"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7972775872,
+      "lat": 32.0507253,
+      "lon": 118.7766623,
+      "tags": {
+        "amenity": "fountain",
+        "name": "喊泉"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7972776970,
+      "lat": 32.0504859,
+      "lon": 118.7782954,
+      "tags": {
+        "barrier": "gate",
+        "bicycle": "yes",
+        "foot": "yes",
+        "motor_vehicle": "yes",
+        "name": "校门",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7972779575,
+      "lat": 32.0504905,
+      "lon": 118.7766609,
+      "tags": {
+        "historic": "memorial",
+        "name": "世纪碑"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7979245898,
+      "lat": 32.0498879,
+      "lon": 118.77948,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "burger",
+        "level": "0",
+        "name": "Dogtown Burger"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7979245899,
+      "lat": 32.0501664,
+      "lon": 118.7793017,
+      "tags": {
+        "amenity": "restaurant",
+        "description": "Bar & Grill",
+        "name": "Oasis",
+        "outdoor_seating": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7979245900,
+      "lat": 32.0498876,
+      "lon": 118.7793094,
+      "tags": {
+        "amenity": "cafe",
+        "brand": "星巴克",
+        "brand:en": "Starbucks",
+        "brand:wikidata": "Q37158",
+        "brand:wikipedia": "en:Starbucks",
+        "brand:zh": "星巴克",
+        "cuisine": "coffee_shop",
+        "level": "0",
+        "name": "星巴克",
+        "name:en": "Starbucks",
+        "name:zh": "星巴克",
+        "official_name": "Starbucks Coffee",
+        "outdoor_seating": "yes",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7981566115,
+      "lat": 32.0499898,
+      "lon": 118.7793066,
+      "tags": {
+        "level": "0",
+        "name": "DJI",
+        "shop": "electronics"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7981567631,
+      "lat": 32.0642993,
+      "lon": 118.7746431,
+      "tags": {
+        "name:en": "Yihua Hotel",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7981581374,
+      "lat": 32.0673008,
+      "lon": 118.77087,
+      "tags": {
+        "amenity": "bank",
+        "name:en": "HF Bank"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7985175429,
+      "lat": 32.0563066,
+      "lon": 118.7815616,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "肯德基",
+        "brand:en": "KFC",
+        "brand:wikidata": "Q524757",
+        "brand:wikipedia": "en:KFC",
+        "brand:zh": "肯德基",
+        "cuisine": "chicken",
+        "name": "肯德基",
+        "name:en": "KFC",
+        "name:zh": "肯德基",
+        "smoking": "no",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7992465408,
+      "lat": 32.055434,
+      "lon": 118.7815756,
+      "tags": {
+        "amenity": "police",
+        "name": "新街口派出所"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7992465409,
+      "lat": 32.0555238,
+      "lon": 118.7814884,
+      "tags": {
+        "amenity": "toilets",
+        "toilets:disposal": "flush",
+        "unisex": "yes",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7996694763,
+      "lat": 32.0607715,
+      "lon": 118.7783154,
+      "tags": {
+        "name": "鼓楼",
+        "name:en": "Gulou",
+        "name:zh-Hans": "鼓楼",
+        "name:zh-Hant": "鼓樓",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "subway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7996694788,
+      "lat": 32.0617101,
+      "lon": 118.7791544,
+      "tags": {
+        "description": "中央路",
+        "name": "鼓楼#4B",
+        "railway": "subway_entrance",
+        "ref": "4B"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7996694789,
+      "lat": 32.0613417,
+      "lon": 118.7780196,
+      "tags": {
+        "description": "中山北路(西侧)",
+        "name": "鼓楼#3",
+        "railway": "subway_entrance",
+        "ref": "3"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7996694790,
+      "lat": 32.060355,
+      "lon": 118.7779778,
+      "tags": {
+        "description": "北京西路",
+        "name": "鼓楼#2",
+        "railway": "subway_entrance",
+        "ref": "2"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7996694791,
+      "lat": 32.0598813,
+      "lon": 118.7785385,
+      "tags": {
+        "description": "中山路",
+        "name": "鼓楼#1",
+        "railway": "subway_entrance",
+        "ref": "1"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7996694793,
+      "lat": 32.0607564,
+      "lon": 118.7785202,
+      "tags": {
+        "name": "鼓楼",
+        "name:en": "Gulou",
+        "name:zh-Hans": "鼓楼",
+        "name:zh-Hant": "鼓樓",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "subway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7999205742,
+      "lat": 32.0529624,
+      "lon": 118.7791068,
+      "tags": {
+        "name": "珠江路",
+        "name:en": "Zhujianglu",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "subway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7999205743,
+      "lat": 32.052967,
+      "lon": 118.7789475,
+      "tags": {
+        "name": "珠江路",
+        "name:en": "Zhujianglu",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "subway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8002507181,
+      "lat": 32.0613256,
+      "lon": 118.777281,
+      "tags": {
+        "description": "北京西路",
+        "name": "鼓楼#6",
+        "railway": "subway_entrance"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8016390803,
+      "lat": 32.0513677,
+      "lon": 118.7779335,
+      "tags": {
+        "barrier": "gate",
+        "name": "北门"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8016391075,
+      "lat": 32.0503472,
+      "lon": 118.7764989,
+      "tags": {
+        "artwork_type": "sculpture",
+        "name": "吴仲华雕像",
+        "tourism": "artwork"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8016391163,
+      "lat": 32.0499954,
+      "lon": 118.7770009,
+      "tags": {
+        "man_made": "flagpole",
+        "name": "国旗杆"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8016391258,
+      "lat": 32.0500299,
+      "lon": 118.7752692,
+      "tags": {
+        "barrier": "gate",
+        "name": "后门"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8016391384,
+      "lat": 32.0501349,
+      "lon": 118.7779086,
+      "tags": {
+        "amenity": "bicycle_parking"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8018570722,
+      "lat": 32.0612704,
+      "lon": 118.7693884,
+      "tags": {
+        "name": "云南路",
+        "name:en": "Yunnanlu",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "subway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8018570723,
+      "lat": 32.0611329,
+      "lon": 118.7693709,
+      "tags": {
+        "name": "云南路",
+        "name:en": "Yunnanlu",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "subway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8018570726,
+      "lat": 32.0614171,
+      "lon": 118.7685956,
+      "tags": {
+        "name": "云南路#5A",
+        "railway": "subway_entrance"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8018570728,
+      "lat": 32.0614511,
+      "lon": 118.7691749,
+      "tags": {
+        "name": "云南路#5B",
+        "railway": "subway_entrance"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8018570731,
+      "lat": 32.0610999,
+      "lon": 118.7684647,
+      "tags": {
+        "name": "云南路#1",
+        "railway": "subway_entrance"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8018570735,
+      "lat": 32.0615947,
+      "lon": 118.7695584,
+      "tags": {
+        "name": "云南路#4",
+        "railway": "subway_entrance"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8018570738,
+      "lat": 32.0609824,
+      "lon": 118.7695261,
+      "tags": {
+        "name": "云南路#2",
+        "railway": "subway_entrance"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8018570741,
+      "lat": 32.0609576,
+      "lon": 118.7699759,
+      "tags": {
+        "name": "云南路#3",
+        "railway": "subway_entrance"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8018570784,
+      "lat": 32.06081,
+      "lon": 118.777939,
+      "tags": {
+        "name": "鼓楼",
+        "name:zh-Hans": "鼓楼",
+        "name:zh-Hant": "鼓樓",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "subway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8018570785,
+      "lat": 32.060984,
+      "lon": 118.7779797,
+      "tags": {
+        "name": "鼓楼",
+        "name:zh-Hans": "鼓楼",
+        "name:zh-Hant": "鼓樓",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "subway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8040149955,
+      "lat": 32.0551251,
+      "lon": 118.7874456,
+      "tags": {
+        "amenity": "bank",
+        "brand": "中国农业银行",
+        "brand:en": "Agricultural Bank of China",
+        "brand:wikidata": "Q26298",
+        "brand:wikipedia": "en:Agricultural Bank of China",
+        "brand:zh": "中国农业银行",
+        "name": "中国农业银行",
+        "name:en": "Agricultural Bank of China",
+        "name:zh": "中国农业银行"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8263934279,
+      "lat": 32.0538438,
+      "lon": 118.7867399,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "陈禄明黄焖鸡米饭"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8516236662,
+      "lat": 32.0599877,
+      "lon": 118.7794,
+      "tags": {
+        "amenity": "bank",
+        "brand": "中国邮政储蓄银行",
+        "brand:en": "Postal Savings Bank of China",
+        "brand:wikidata": "Q986744",
+        "brand:wikipedia": "en:Postal Savings Bank of China",
+        "brand:zh": "中国邮政储蓄银行",
+        "name": "中国邮政储蓄银行",
+        "name:en": "Postal Savings Bank of China",
+        "name:zh": "中国邮政储蓄银行"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8516236696,
+      "lat": 32.0597865,
+      "lon": 118.7802767,
+      "tags": {
+        "amenity": "cinema",
+        "name": "幸福蓝海国际影城",
+        "name:en": "OmniJoi International Cinema"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8516236697,
+      "lat": 32.0591319,
+      "lon": 118.7811135,
+      "tags": {
+        "name": "江苏省广播电视总台",
+        "office": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8891879564,
+      "lat": 32.061195,
+      "lon": 118.7841205,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "海底捞火锅",
+        "brand:en": "Hai Di Lao Hot Pot",
+        "brand:wikidata": "Q5638920",
+        "brand:wikipedia": "zh:海底捞",
+        "cuisine": "chinese",
+        "name": "海底捞火锅",
+        "name:en": "Hai Di Lao Hot Pot"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9012819592,
+      "lat": 32.0507783,
+      "lon": 118.7760875,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "学生食堂"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9164163244,
+      "lat": 32.0607794,
+      "lon": 118.778424,
+      "tags": {
+        "name": "鼓楼",
+        "name:zh-Hans": "鼓楼",
+        "name:zh-Hant": "鼓樓",
+        "public_transport": "station",
+        "railway": "station",
+        "station": "subway",
+        "subway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9164163245,
+      "lat": 32.0608993,
+      "lon": 118.7779653,
+      "tags": {
+        "name": "鼓楼",
+        "name:zh-Hans": "鼓楼",
+        "name:zh-Hant": "鼓樓",
+        "network": "南京地铁4号线",
+        "public_transport": "station",
+        "railway": "station",
+        "station": "subway",
+        "subway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9164163246,
+      "lat": 32.0530398,
+      "lon": 118.7790309,
+      "tags": {
+        "name": "珠江路",
+        "network": "南京地铁1号线",
+        "public_transport": "station",
+        "railway": "station",
+        "station": "subway",
+        "subway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9164951626,
+      "lat": 32.0612036,
+      "lon": 118.7693814,
+      "tags": {
+        "name": "云南路",
+        "name:en": "Yunnanlu",
+        "public_transport": "station",
+        "railway": "station",
+        "station": "subway",
+        "subway": "yes",
+        "wikidata": "Q28418460"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9707574168,
+      "lat": 32.0594812,
+      "lon": 118.7861905,
+      "tags": {
+        "leaf_cycle": "evergreen",
+        "leaf_type": "needleleaved",
+        "name": "六朝松",
+        "natural": "tree"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9711162075,
+      "lat": 32.0592695,
+      "lon": 118.7865551,
+      "tags": {
+        "artwork_type": "statue",
+        "name": "李瑞清雕像",
+        "tourism": "artwork"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9828222341,
+      "lat": 32.0504588,
+      "lon": 118.7768148,
+      "tags": {
+        "historic": "memorial",
+        "inscription": "百年樹人",
+        "material": "stone",
+        "memorial": "stele",
+        "name": "百年树人碑"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9895217048,
+      "lat": 32.0496536,
+      "lon": 118.7856528,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "chinese",
+        "name": "卓粤拉肠"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9976202531,
+      "lat": 32.0477267,
+      "lon": 118.7784891,
+      "tags": {
+        "brand": "蔚来",
+        "brand:en": "NIO",
+        "brand:wikidata": "Q29921278",
+        "brand:zh": "蔚来",
+        "name": "蔚来中心",
+        "name:en": "Nio House",
+        "name:zh": "蔚来中心",
+        "shop": "car"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10015466540,
+      "lat": 32.0557056,
+      "lon": 118.7839384,
+      "tags": {
+        "capital": "8",
+        "division_code": "320102003000",
+        "name": "新街口街道",
+        "name:en": "Xinjiekou",
+        "name:zh": "新街口街道",
+        "name:zh-Hans": "新街口街道",
+        "name:zh-Hant": "新街口街道",
+        "name:zh-Latn-pinyin": "Xīnjiēkǒu Jiēdào",
+        "place": "suburb",
+        "place:CN": "subdistrict",
+        "wikidata": "Q11084299",
+        "wikipedia": "zh:新街口街道 (南京市)"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10018192630,
+      "lat": 32.0624183,
+      "lon": 118.7810357,
+      "tags": {
+        "capital": "8",
+        "division_code": "320102005000",
+        "name": "玄武门街道",
+        "name:en": "Xuanwumen",
+        "name:zh": "玄武门街道",
+        "name:zh-Hans": "玄武门街道",
+        "name:zh-Hant": "玄武門街道",
+        "name:zh-Latn-pinyin": "Xuánwǔmén Jiēdào",
+        "place": "suburb",
+        "place:CN": "subdistrict",
+        "wikidata": "Q13714888",
+        "wikipedia": "zh:玄武门街道"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11497059491,
+      "lat": 32.06138,
+      "lon": 118.7832628,
+      "tags": {
+        "addr:city": "南京市",
+        "addr:district": "玄武区",
+        "addr:housenumber": "1",
+        "addr:province": "江苏省",
+        "addr:street": "北京东路",
+        "amenity": "restaurant",
+        "brand": "萨莉亚",
+        "brand:en": "Saizeriya",
+        "brand:wikidata": "Q886564",
+        "brand:zh": "萨莉亚",
+        "cuisine": "italian",
+        "name": "萨莉亚",
+        "name:en": "Saizeriya",
+        "name:zh": "萨莉亚",
+        "opening_hours": "Mo-Su 10:00-22:00",
+        "phone": "+86 25 82229502",
+        "website": "https://www.saizeriya.com.cn/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12002454569,
+      "lat": 32.0653952,
+      "lon": 118.7703766,
+      "tags": {
+        "internet_access": "wlan",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12121433545,
+      "lat": 32.0598078,
+      "lon": 118.7806627,
+      "tags": {
+        "addr:city": "南京市",
+        "addr:district": "玄武区",
+        "addr:housenumber": "4",
+        "addr:province": "江苏省",
+        "addr:street": "北京东路",
+        "amenity": "bar",
+        "name": "KAOS NIGHT CLUB"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12417754823,
+      "lat": 32.052182,
+      "lon": 118.77928,
+      "tags": {
+        "name": "及及广场",
+        "shop": "mall"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12916687193,
+      "lat": 32.0519873,
+      "lon": 118.7834776,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "korean",
+        "name": "馨罗冷面拌饭"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13057948203,
+      "lat": 32.0619487,
+      "lon": 118.76937,
+      "tags": {
+        "name": "云南路",
+        "name:en": "Yunnanlu",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "subway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13057948204,
+      "lat": 32.0619508,
+      "lon": 118.7692518,
+      "tags": {
+        "name": "云南路",
+        "name:en": "Yunnanlu",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "subway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13059514819,
+      "lat": 32.0522091,
+      "lon": 118.7712879,
+      "tags": {
+        "name": "五台山",
+        "name:en": "Wutaishan",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "subway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13059514820,
+      "lat": 32.0522285,
+      "lon": 118.7713314,
+      "tags": {
+        "name": "五台山",
+        "name:en": "Wutaishan",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "subway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13059514821,
+      "lat": 32.0522202,
+      "lon": 118.7713051,
+      "tags": {
+        "name": "五台山",
+        "name:en": "Wutaishan",
+        "public_transport": "station",
+        "railway": "station",
+        "station": "subway",
+        "subway": "yes",
+        "wikidata": "Q132146084"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13125813001,
+      "lat": 32.0483205,
+      "lon": 118.7769075,
+      "tags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13253832586,
+      "lat": 32.0630166,
+      "lon": 118.7776293,
+      "tags": {
+        "amenity": "toilets",
+        "name": "2nd Fl"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13253843029,
+      "lat": 32.0626292,
+      "lon": 118.777669,
+      "tags": {
+        "name": "Bread Talk",
+        "shop": "bakery"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13253887024,
+      "lat": 32.0623943,
+      "lon": 118.777805,
+      "tags": {
+        "amenity": "cafe",
+        "name": "Mstand"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13253887025,
+      "lat": 32.0628386,
+      "lon": 118.7773522,
+      "tags": {
+        "amenity": "cafe",
+        "name": "Wagas"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13253887026,
+      "lat": 32.0629458,
+      "lon": 118.777257,
+      "tags": {
+        "amenity": "fast_food",
+        "name": "Mcd"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13263988089,
+      "lat": 32.0629926,
+      "lon": 118.7876838,
+      "tags": {
+        "amenity": "fire_station"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13264064705,
+      "lat": 32.0630669,
+      "lon": 118.7860196,
+      "tags": {
+        "amenity": "toilets"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13287565925,
+      "lat": 32.0604734,
+      "lon": 118.7856681,
+      "tags": {
+        "historic": "memorial",
+        "inscription": "一九三七年十二月，侵华日军屠杀我南京同胞达三十万众。仅此北极阁毗近处，惨遭杀害者即达两千余人。其时，鼓楼至大石桥，北门桥至唱经楼，太平门，富贵山及蓝家庄等地，伏尸残骸，盈街塞道，涂膏凝血，触目生哀。翌年一、二月间，罹难同胞之遗骸经南京崇善堂收殓，丛葬于此山之麓及近山之城根等处。爰立此碑，永志不忘，藉勉后人，奋发图强，振兴中华，国运其昌。",
+        "memorial": "war_memorial",
+        "name": "北极阁附近遇难同胞纪念碑",
+        "name:en": "Memorial to the Fallen Compatriots in Beijige",
+        "name:zh": "北极阁附近遇难同胞纪念碑",
+        "start_date": "1985-08-15"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13287565935,
+      "lat": 32.057819,
+      "lon": 118.7715763,
+      "tags": {
+        "historic": "memorial",
+        "memorial": "war_memorial",
+        "name": "金陵大学难民收容所及遇难同胞纪念碑",
+        "name:en": "Memorial to Jinling University Refugee Shelter and the Perished Compatriots",
+        "name:zh": "金陵大学难民收容所及遇难同胞纪念碑",
+        "start_date": "1996-05"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13463720928,
+      "lat": 32.0673729,
+      "lon": 118.7808296,
+      "tags": {
+        "addr:city": "南京市",
+        "addr:district": "玄武区",
+        "addr:housenumber": "16号",
+        "addr:province": "江苏省",
+        "addr:street": "百子亭",
+        "amenity": "restaurant",
+        "cuisine": "noodle",
+        "name": "郑家牛肉面"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13463721230,
+      "lat": 32.064465,
+      "lon": 118.7855345,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "西家大塘(公交站)",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13463723813,
+      "lat": 32.0643825,
+      "lon": 118.7844354,
+      "tags": {
+        "amenity": "marketplace",
+        "name": "峨嵋路副食品市场"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13463724276,
+      "lat": 32.0666645,
+      "lon": 118.7830543,
+      "tags": {
+        "addr:city": "南京市",
+        "addr:district": "玄武区",
+        "addr:housenumber": "5-2号",
+        "addr:province": "江苏省",
+        "addr:street": "天山路",
+        "healthcare": "yes",
+        "name": "玄武门社区卫生服务中心"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13463735927,
+      "lat": 32.0644489,
+      "lon": 118.7844388,
+      "tags": {
+        "addr:city": "南京市",
+        "addr:district": "玄武区",
+        "addr:housenumber": "25号",
+        "addr:province": "江苏省",
+        "addr:street": "峨眉路",
+        "name": "苏果生活超市(峨嵋路店)",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13649412219,
+      "lat": 32.0569048,
+      "lon": 118.7683333,
+      "tags": {
+        "amenity": "restaurant",
+        "branch": "汉口西路店",
+        "cuisine": "korean",
+        "name": "同堂韩式料理"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13651195660,
+      "lat": 32.0539295,
+      "lon": 118.7787566,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "中山路·珠江路北",
+        "note": "1",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13651195661,
+      "lat": 32.0510128,
+      "lon": 118.7787754,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "中山路·珠江路南",
+        "note": "1",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13741877888,
+      "lat": 32.0494841,
+      "lon": 118.7855821,
+      "tags": {
+        "amenity": "fast_food",
+        "name": "南湖胖子砂锅"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13741877892,
+      "lat": 32.0494569,
+      "lon": 118.7857554,
+      "tags": {
+        "amenity": "fast_food"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13741877896,
+      "lat": 32.0495716,
+      "lon": 118.7860471,
+      "tags": {
+        "name": "新鲜水果超市",
+        "shop": "greengrocer"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13741877898,
+      "lat": 32.0495939,
+      "lon": 118.7857349,
+      "tags": {
+        "amenity": "fast_food",
+        "name": "放心油条粥店"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13741877899,
+      "lat": 32.0495159,
+      "lon": 118.7841326,
+      "tags": {
+        "shop": "clothes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13741908408,
+      "lat": 32.0495726,
+      "lon": 118.7858448,
+      "tags": {
+        "amenity": "fast_food"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13741908415,
+      "lat": 32.0497328,
+      "lon": 118.785109,
+      "tags": {
+        "amenity": "cafe",
+        "brand": "蜜雪冰城",
+        "brand:en": "Mixue Ice Cream & Tea",
+        "brand:wikidata": "Q107406476",
+        "brand:zh": "蜜雪冰城",
+        "brand:zh-Latn-pinyin": "Mìxuě Bīngchéng",
+        "cuisine": "ice_cream;bubble_tea",
+        "name": "蜜雪冰城",
+        "name:en": "Mixue Ice Cream & Tea",
+        "name:zh": "蜜雪冰城",
+        "name:zh-Latn-pinyin": "Mìxuě Bīngchéng",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13741908417,
+      "lat": 32.0494351,
+      "lon": 118.7858919,
+      "tags": {
+        "amenity": "fast_food"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13741908421,
+      "lat": 32.0485153,
+      "lon": 118.7836347,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "相府营",
+        "public_transport": "platform",
+        "route_ref": "26;30;46"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13741908425,
+      "lat": 32.0495593,
+      "lon": 118.7859104,
+      "tags": {
+        "amenity": "fast_food"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13741908434,
+      "lat": 32.0488075,
+      "lon": 118.7840571,
+      "tags": {
+        "shop": "florist"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13741908438,
+      "lat": 32.0494364,
+      "lon": 118.7858646,
+      "tags": {
+        "amenity": "fast_food",
+        "name": "贵阳糯米饭"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13741908449,
+      "lat": 32.0494303,
+      "lon": 118.7859167,
+      "tags": {
+        "amenity": "fast_food",
+        "name": "鸡蛋汉堡"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13741908468,
+      "lat": 32.0477795,
+      "lon": 118.7836874,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "相府营",
+        "public_transport": "platform",
+        "route_ref": "26;30;46"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13741908470,
+      "lat": 32.0494757,
+      "lon": 118.7856385,
+      "tags": {
+        "amenity": "fast_food",
+        "name": "暴啤汽麻辣烫"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13741908471,
+      "lat": 32.0495851,
+      "lon": 118.7857743,
+      "tags": {
+        "name": "港师傅菠萝包",
+        "shop": "bakery"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13741908472,
+      "lat": 32.0495085,
+      "lon": 118.7862368,
+      "tags": {
+        "amenity": "fast_food"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13741908476,
+      "lat": 32.0495556,
+      "lon": 118.7860197,
+      "tags": {
+        "amenity": "fast_food",
+        "name": "王记包子店"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13741908497,
+      "lat": 32.0494175,
+      "lon": 118.7859964,
+      "tags": {
+        "amenity": "fast_food"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13741908505,
+      "lat": 32.0495699,
+      "lon": 118.7853356,
+      "tags": {
+        "amenity": "fast_food",
+        "name": "小马牛肉面"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13741908507,
+      "lat": 32.0495659,
+      "lon": 118.7858775,
+      "tags": {
+        "amenity": "fast_food",
+        "name": "半斤牛肉面"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13741908512,
+      "lat": 32.0494606,
+      "lon": 118.7857278,
+      "tags": {
+        "amenity": "restaurant",
+        "diet:halal": "yes",
+        "name": "恒信"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13741908513,
+      "lat": 32.0495794,
+      "lon": 118.7858096,
+      "tags": {
+        "amenity": "fast_food",
+        "name": "面點美食"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13741908514,
+      "lat": 32.0494658,
+      "lon": 118.7856955,
+      "tags": {
+        "name": "舒芙蕾",
+        "shop": "bakery"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13741908525,
+      "lat": 32.0495556,
+      "lon": 118.7859555,
+      "tags": {
+        "amenity": "fast_food",
+        "name": "大宝麻辣烫"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13741908527,
+      "lat": 32.0494281,
+      "lon": 118.7859502,
+      "tags": {
+        "amenity": "fast_food",
+        "name": "南湖炸串"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13741908531,
+      "lat": 32.0494036,
+      "lon": 118.7840986,
+      "tags": {
+        "shop": "clothes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13741908532,
+      "lat": 32.0494417,
+      "lon": 118.7858349,
+      "tags": {
+        "amenity": "fast_food"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13741908533,
+      "lat": 32.0497187,
+      "lon": 118.7851989,
+      "tags": {
+        "amenity": "fast_food",
+        "name": "秘制生蚝"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13741908537,
+      "lat": 32.0495915,
+      "lon": 118.7852261,
+      "tags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13741908543,
+      "lat": 32.0493287,
+      "lon": 118.784095,
+      "tags": {
+        "amenity": "cafe"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13741908546,
+      "lat": 32.0494527,
+      "lon": 118.7857892,
+      "tags": {
+        "amenity": "fast_food",
+        "name": "叶新鸭血粉丝汤"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13741908551,
+      "lat": 32.0484952,
+      "lon": 118.7835731,
+      "tags": {
+        "amenity": "cafe",
+        "brand": "星巴克",
+        "brand:en": "Starbucks",
+        "brand:wikidata": "Q37158",
+        "brand:zh": "星巴克",
+        "cuisine": "coffee_shop",
+        "name": "星巴克",
+        "name:en": "Starbucks",
+        "name:zh": "星巴克",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13741908552,
+      "lat": 32.0488699,
+      "lon": 118.7839692,
+      "tags": {
+        "amenity": "cafe"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13741908563,
+      "lat": 32.0489484,
+      "lon": 118.7839814,
+      "tags": {
+        "amenity": "cafe"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13741908570,
+      "lat": 32.0495465,
+      "lon": 118.7859942,
+      "tags": {
+        "amenity": "fast_food",
+        "name": "山东李家煎饼"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13741908579,
+      "lat": 32.0495853,
+      "lon": 118.7852547,
+      "tags": {
+        "shop": "bakery"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13741908585,
+      "lat": 32.0490112,
+      "lon": 118.7839935,
+      "tags": {
+        "shop": "clothes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13741908593,
+      "lat": 32.0495837,
+      "lon": 118.7841304,
+      "tags": {
+        "amenity": "cafe"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13741908594,
+      "lat": 32.0495776,
+      "lon": 118.7852991,
+      "tags": {
+        "amenity": "fast_food",
+        "name": "冰粉椰子铺"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13747451171,
+      "lat": 32.0488845,
+      "lon": 118.7796529,
+      "tags": {
+        "level": "0",
+        "name": "Creep",
+        "shop": "clothes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13747451172,
+      "lat": 32.048838,
+      "lon": 118.7794065,
+      "tags": {
+        "level": "0;1",
+        "name": "Ariseism",
+        "shop": "clothes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13747451173,
+      "lat": 32.0484175,
+      "lon": 118.7794299,
+      "tags": {
+        "level": "0;1",
+        "name": "艾姆伊迪艾姆",
+        "shop": "clothes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13747451174,
+      "lat": 32.0485654,
+      "lon": 118.7796752,
+      "tags": {
+        "level": "0",
+        "shop": "bakery"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13747451175,
+      "lat": 32.0489444,
+      "lon": 118.7795093,
+      "tags": {
+        "level": "1",
+        "name": "破可离普",
+        "shop": "clothes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13747451176,
+      "lat": 32.0480675,
+      "lon": 118.7797648,
+      "tags": {
+        "amenity": "atm"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13747451177,
+      "lat": 32.0487258,
+      "lon": 118.7794164,
+      "tags": {
+        "level": "0;1",
+        "name": "Whoosis",
+        "shop": "clothes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13747451179,
+      "lat": 32.0483907,
+      "lon": 118.7796902,
+      "tags": {
+        "name": "Daphne.Lab",
+        "shop": "clothes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13747451180,
+      "lat": 32.0488002,
+      "lon": 118.7796573,
+      "tags": {
+        "level": "0",
+        "name": "Boneless",
+        "shop": "clothes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13747451181,
+      "lat": 32.0484813,
+      "lon": 118.7796923,
+      "tags": {
+        "level": "1",
+        "name": "折尚派",
+        "shop": "clothes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13747451182,
+      "lat": 32.0490179,
+      "lon": 118.7793938,
+      "tags": {
+        "amenity": "cafe",
+        "name": "皮爷咖啡"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13747451183,
+      "lat": 32.048835,
+      "lon": 118.7795204,
+      "tags": {
+        "amenity": "cafe",
+        "brand": "Manner Coffee",
+        "brand:wikidata": "Q111338344",
+        "cuisine": "coffee_shop",
+        "name": "Manner Coffee",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13747451184,
+      "lat": 32.0486117,
+      "lon": 118.7794246,
+      "tags": {
+        "level": "0;1",
+        "name": "阿迪达斯",
+        "name:en": "Adidas",
+        "shop": "clothes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13747451185,
+      "lat": 32.0489406,
+      "lon": 118.779395,
+      "tags": {
+        "amenity": "cafe",
+        "name": "Grid Coffee"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13747451186,
+      "lat": 32.0489412,
+      "lon": 118.779599,
+      "tags": {
+        "clothes": "women",
+        "name": "FooLazy",
+        "shop": "clothes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13747451187,
+      "lat": 32.0489465,
+      "lon": 118.7795411,
+      "tags": {
+        "level": "0",
+        "name": "Doopa",
+        "shop": "clothes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13747451188,
+      "lat": 32.0491551,
+      "lon": 118.7793962,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "肯德基",
+        "brand:en": "KFC",
+        "brand:wikidata": "Q524757",
+        "brand:zh": "肯德基",
+        "cuisine": "chicken",
+        "name": "肯德基",
+        "name:en": "KFC",
+        "name:zh": "肯德基",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13747451189,
+      "lat": 32.0490758,
+      "lon": 118.7793914,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "korean",
+        "level": "0",
+        "name": "Podo in Podo"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13747451190,
+      "lat": 32.0488574,
+      "lon": 118.7796562,
+      "tags": {
+        "clothes": "women",
+        "name": "One Last Piece",
+        "shop": "clothes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13875857165,
+      "lat": 32.061721,
+      "lon": 118.7821391,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "chinese",
+        "level": "0",
+        "name": "小厨娘淮扬菜"
+      }
+    }
+  ]
+}

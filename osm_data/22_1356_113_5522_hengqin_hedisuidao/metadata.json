@@ -1,0 +1,55 @@
+{
+  "download_time": "2026-06-27T01:39:23.821328",
+  "center_coordinates": {
+    "latitude": 22.1355581,
+    "longitude": 113.5522173
+  },
+  "download_range": {
+    "north": 22.1445581,
+    "south": 22.1265581,
+    "east": 113.5612173,
+    "west": 113.5432173,
+    "expand": 0.009
+  },
+  "alias": "hengqin_hedisuidao",
+  "data_categories": [
+    "roads",
+    "buildings",
+    "water",
+    "landuse",
+    "pois",
+    "traffic_signals"
+  ],
+  "statistics": {
+    "roads": {
+      "ways": 970,
+      "nodes": 5821,
+      "total_elements": 6791
+    },
+    "buildings": {
+      "ways": 223,
+      "nodes": 2890,
+      "total_elements": 3113
+    },
+    "water": {
+      "ways": 18,
+      "nodes": 731,
+      "total_elements": 749
+    },
+    "landuse": {
+      "ways": 218,
+      "nodes": 3446,
+      "total_elements": 3664
+    },
+    "pois": {
+      "ways": 0,
+      "nodes": 234,
+      "total_elements": 234
+    },
+    "traffic_signals": {
+      "ways": 0,
+      "nodes": 11,
+      "total_elements": 11
+    }
+  }
+}

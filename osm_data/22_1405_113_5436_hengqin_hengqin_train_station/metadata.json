@@ -1,0 +1,49 @@
+{
+  "download_time": "2026-06-26T21:02:41.615247",
+  "center_coordinates": {
+    "latitude": 22.1405,
+    "longitude": 113.5436
+  },
+  "download_range": {
+    "north": 22.1495,
+    "south": 22.1315,
+    "east": 113.5526,
+    "west": 113.5346,
+    "expand": 0.009
+  },
+  "alias": "hengqin_hengqin_train_station",
+  "data_categories": [
+    "roads",
+    "buildings",
+    "water",
+    "landuse",
+    "pois"
+  ],
+  "statistics": {
+    "roads": {
+      "ways": 724,
+      "nodes": 4242,
+      "total_elements": 4966
+    },
+    "buildings": {
+      "ways": 241,
+      "nodes": 3437,
+      "total_elements": 3678
+    },
+    "water": {
+      "ways": 6,
+      "nodes": 215,
+      "total_elements": 221
+    },
+    "landuse": {
+      "ways": 132,
+      "nodes": 2166,
+      "total_elements": 2298
+    },
+    "pois": {
+      "ways": 0,
+      "nodes": 162,
+      "total_elements": 162
+    }
+  }
+}

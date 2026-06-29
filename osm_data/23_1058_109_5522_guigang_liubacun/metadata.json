@@ -1,0 +1,49 @@
+{
+  "download_time": "2026-06-26T20:48:20.951639",
+  "center_coordinates": {
+    "latitude": 23.1058083,
+    "longitude": 109.5522073
+  },
+  "download_range": {
+    "north": 23.1178083,
+    "south": 23.0938083,
+    "east": 109.5642073,
+    "west": 109.5402073,
+    "expand": 0.012
+  },
+  "alias": "guigang_liubacun",
+  "data_categories": [
+    "roads",
+    "buildings",
+    "water",
+    "landuse",
+    "pois"
+  ],
+  "statistics": {
+    "roads": {
+      "ways": 92,
+      "nodes": 885,
+      "total_elements": 977
+    },
+    "buildings": {
+      "ways": 8,
+      "nodes": 62,
+      "total_elements": 70
+    },
+    "water": {
+      "ways": 1,
+      "nodes": 31,
+      "total_elements": 32
+    },
+    "landuse": {
+      "ways": 9,
+      "nodes": 480,
+      "total_elements": 489
+    },
+    "pois": {
+      "ways": 0,
+      "nodes": 0,
+      "total_elements": 0
+    }
+  }
+}

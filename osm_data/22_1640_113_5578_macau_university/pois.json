@@ -1,0 +1,5514 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-06-26T09:27:59Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 1753872995,
+      "lat": 22.1553243,
+      "lon": 113.5612455,
+      "tags": {
+        "name": "大潭山眺望台 Miradouro da Taipa Grande",
+        "name:en": "Taipa Grande Viewing Platform",
+        "name:pt": "Miradouro da Taipa Grande",
+        "name:zh": "大潭山眺望台",
+        "name:zh-Hans": "大潭山眺望台",
+        "name:zh-Hant": "大潭山眺望台",
+        "tourism": "viewpoint"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2165427424,
+      "lat": 22.1578785,
+      "lon": 113.5591689,
+      "tags": {
+        "asset_ref": "T311",
+        "bus": "yes",
+        "departures_board": "timetable",
+        "highway": "bus_stop",
+        "name": "百利寶花園 Treasure Garden",
+        "name:pt": "Treasure Garden",
+        "name:zh": "百利寶花園",
+        "public_transport": "platform",
+        "ref": "T311/1",
+        "route_ref": "21A;22;25;25X;26A;28A;33;36;50;50X;MT2;MT5;N2;N3;N5;N6",
+        "shelter": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2165427425,
+      "lat": 22.156298,
+      "lon": 113.5598299,
+      "tags": {
+        "asset_ref": "T314",
+        "bus": "yes",
+        "departures_board": "timetable",
+        "highway": "bus_stop",
+        "name": "信虹花園 Jardim Lameiras",
+        "name:pt": "Jardim Lameiras",
+        "name:zh": "信虹花園",
+        "public_transport": "platform",
+        "ref": "T314",
+        "route_ref": "15;21A;36;50;50X;56;72;AP1;AP1X;N3;N5;N6",
+        "shelter": "no",
+        "tactile_paving": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2165427463,
+      "lat": 22.1574268,
+      "lon": 113.5495271,
+      "tags": {
+        "asset_ref": "T332",
+        "bench": "yes",
+        "bus": "yes",
+        "departures_board": "timetable",
+        "highway": "bus_stop",
+        "name": "南新花園 Edf. Nam Sun",
+        "name:pt": "Edf. Nam Sun",
+        "name:zh": "南新花園",
+        "name:zh-Hans": "南新花园",
+        "name:zh-Hant": "南新花園",
+        "public_transport": "platform",
+        "ref": "T332/1",
+        "route_ref": "11;22;28A;30;33;35;MT2;MT5;N5",
+        "shelter": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2165427470,
+      "lat": 22.1626138,
+      "lon": 113.5527068,
+      "tags": {
+        "asset_ref": "T300",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "史伯泰/盧廉若 Espateiro / Lou Lim Ieok",
+        "name:pt": "Espateiro / Lou Lim Ieok",
+        "name:zh": "史伯泰/盧廉若",
+        "name:zh-Hans": "史伯泰/卢廉若",
+        "name:zh-Hant": "史伯泰/盧廉若",
+        "public_transport": "platform",
+        "route_ref": "11;21A;22;25;25X;26A;28A;30X;33;39;50;50X;MT2;MT5;N2;N3"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2165427473,
+      "lat": 22.1628185,
+      "lon": 113.5536496,
+      "tags": {
+        "asset_ref": "T403",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "史伯泰/麗景灣 Esparteiro/ Regency",
+        "name:pt": "Esparteiro/ Regency",
+        "name:zh": "史伯泰/麗景灣",
+        "name:zh-Hans": "史伯泰/丽景湾",
+        "name:zh-Hant": "史伯泰/麗景灣",
+        "public_transport": "platform",
+        "route_ref": "21A;22;25;25X;26A;28A;33;39;50;50X;MT1;MT5;N3"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2165427479,
+      "lat": 22.1549131,
+      "lon": 113.5592353,
+      "tags": {
+        "asset_ref": "T319",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "嘉模泳池 Piscinas do Carmo",
+        "name:en": "Carmo Swimming Pools",
+        "name:pt": "Piscinas do Carmo",
+        "name:zh": "嘉模泳池",
+        "name:zh-Hans": "嘉模泳池",
+        "name:zh-Hant": "嘉模泳池",
+        "public_transport": "platform",
+        "ref": "T319",
+        "route_ref": "11;15;22;28A;30;33;34",
+        "shelter": "yes",
+        "tactile_paving": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2165427505,
+      "lat": 22.1564308,
+      "lon": 113.5585442,
+      "tags": {
+        "asset_ref": "T368",
+        "highway": "bus_stop",
+        "name": "奧林匹克大馬路 Avenida Olímpica",
+        "name:pt": "Avenida Olímpica",
+        "name:zh": "奧林匹克大馬路",
+        "route_ref": "25;25X;26;26A;35;37;MT1;MT3"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2165427546,
+      "lat": 22.1587355,
+      "lon": 113.5585886,
+      "tags": {
+        "asset_ref": "T310",
+        "bus": "yes",
+        "departures_board": "timetable",
+        "highway": "bus_stop",
+        "name": "泉裕豪庭 Chun U Villa",
+        "name:pt": "Chun U Villa",
+        "name:zh": "泉裕豪庭",
+        "name:zh-Hans": "泉裕豪庭",
+        "name:zh-Hant": "泉裕豪庭",
+        "public_transport": "platform",
+        "route_ref": "11;22;25X;28A;33;35;36;39;50;50X;MT1;MT5"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2165427573,
+      "lat": 22.1588088,
+      "lon": 113.5524911,
+      "tags": {
+        "asset_ref": "T351",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "布拉干薩街 Rua Bragança",
+        "name:pt": "Rua Bragança",
+        "name:zh": "布拉干薩街",
+        "public_transport": "platform",
+        "route_ref": "11;35;MT2;MT5"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2165427593,
+      "lat": 22.1617712,
+      "lon": 113.5545284,
+      "tags": {
+        "asset_ref": "T346",
+        "highway": "bus_stop",
+        "name": "廣東大馬路/鴻發 Av. Kwong Tung / Edf. Hung Fat",
+        "name:pt": "Av. Kwong Tung / Edf. Hung Fat",
+        "name:zh": "廣東大馬路/鴻發",
+        "route_ref": "11;30;30X;35;MT5"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2165427597,
+      "lat": 22.1595298,
+      "lon": 113.5526984,
+      "tags": {
+        "asset_ref": "T352",
+        "highway": "bus_stop",
+        "name": "廣東大馬路/濠景 Av. Kwong Tung / Nova Taipa",
+        "name:pt": "Av. Kwong Tung / Nova Taipa",
+        "name:zh": "廣東大馬路/濠景",
+        "route_ref": "30;36;MT5"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2165427601,
+      "lat": 22.1577326,
+      "lon": 113.5486397,
+      "tags": {
+        "asset_ref": "T350",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "廣東大馬路/馬會 Av. Kwong Tung / Jockey Club",
+        "name:pt": "Av. Kwong Tung / Jockey Club",
+        "name:zh": "廣東大馬路/馬會",
+        "name:zh-Hans": "广东大马路/马会",
+        "name:zh-Hant": "廣東大馬路/馬會",
+        "public_transport": "platform",
+        "route_ref": "30;30X;36"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2165427604,
+      "lat": 22.1596359,
+      "lon": 113.5524745,
+      "tags": {
+        "asset_ref": "T353",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "廣東大馬路/濠尚 Av. Kwong Tung / Nova Grand",
+        "name:pt": "Av. Kwong Tung / Nova Grand",
+        "name:zh": "廣東大馬路/濠尚",
+        "public_transport": "platform",
+        "route_ref": "11;30;30X;35;36;MT5"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2165427609,
+      "lat": 22.1613501,
+      "lon": 113.560009,
+      "tags": {
+        "asset_ref": "T341",
+        "highway": "bus_stop",
+        "name": "聖公會中學 Colégio Anglicano",
+        "name:pt": "Colégio Anglicano",
+        "name:zh": "聖公會中學",
+        "old_name": "徐日昇寅公馬路 Av. Padre T. Pereira",
+        "old_name:pt": "Av. Padre T. Pereira",
+        "old_name:zh": "徐日昇寅公馬路",
+        "route_ref": "11;39;72",
+        "shelter": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2165427680,
+      "lat": 22.162567,
+      "lon": 113.5550929,
+      "tags": {
+        "asset_ref": "T307",
+        "bench": "yes",
+        "bin": "no",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "宋玉生博士圓形地 Rotunda Dr. Carlos A. C. P. d'Assumpção",
+        "name:pt": "New Century Hotel.",
+        "name:zh": "宋玉生博士圓形地",
+        "old_name": "新世紀酒店 New Century Hotel.",
+        "old_name:pt": "New Century Hotel.",
+        "old_name:zh": "新世紀酒店",
+        "public_transport": "platform",
+        "route_ref": "11;30;35;39;72;N2",
+        "shelter": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2165427913,
+      "lat": 22.1546428,
+      "lon": 113.561461,
+      "tags": {
+        "asset_ref": "T315",
+        "bus": "yes",
+        "departures_board": "timetable",
+        "highway": "bus_stop",
+        "name": "氹仔CEM貨倉 Nobre Carvalho / Armazem CEM",
+        "name:pt": "Nobre Carvalho / Armazem CEM",
+        "name:zh": "氹仔CEM貨倉",
+        "name:zh-Hans": "凼仔CEM货仓",
+        "name:zh-Hant": "氹仔CEM貨倉",
+        "public_transport": "platform",
+        "ref": "T315",
+        "route_ref": "15;21A;50;50X;56;72;N3;N5;N6",
+        "shelter": "yes",
+        "tactile_paving": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2165427933,
+      "lat": 22.15868,
+      "lon": 113.5557279,
+      "tags": {
+        "asset_ref": "T413",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "氹仔中央公園/哥英布拉街 Parque Central da Taipa / Rua de Coimbra",
+        "name:pt": "Parque Central da Taipa / Rua de Coimbra",
+        "name:zh": "氹仔中央公園/哥英布拉街",
+        "public_transport": "platform",
+        "route_ref": "36"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2165427937,
+      "lat": 22.1582826,
+      "lon": 113.5544871,
+      "tags": {
+        "asset_ref": "T412",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "氹仔中央公園/成都街 Parque Central da Taipa/R. Seng Tou",
+        "name:pt": "Parque Central da Taipa/R. Seng Tou",
+        "name:zh": "氹仔中央公園/成都街",
+        "public_transport": "platform",
+        "route_ref": "36"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2165427954,
+      "lat": 22.1607362,
+      "lon": 113.5567129,
+      "tags": {
+        "asset_ref": "T304",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "氹仔大中華廣場 Great China Plaza/ Taipa",
+        "name:pt": "Great China Plaza/ Taipa",
+        "name:zh": "氹仔大中華廣場",
+        "name:zh-Hans": "凼仔大中华广场",
+        "name:zh-Hant": "氹仔大中華廣場",
+        "public_transport": "platform",
+        "route_ref": "11;22;25X;28A;33;35;37;39;50;50X;MT1"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2165427996,
+      "lat": 22.1561446,
+      "lon": 113.559975,
+      "tags": {
+        "asset_ref": "T313",
+        "bench": "yes",
+        "bus": "yes",
+        "departures_board": "timetable",
+        "highway": "bus_stop",
+        "name": "氹仔茵景園 Edf. Greenville",
+        "name:pt": "Edf. Greenville",
+        "name:zh": "氹仔茵景園",
+        "public_transport": "platform",
+        "ref": "T313",
+        "route_ref": "15;21A;30X;50;50X;56;72;N3;N5;N6",
+        "shelter": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2165428003,
+      "lat": 22.1608289,
+      "lon": 113.5563632,
+      "tags": {
+        "asset_ref": "T308",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "氹仔電訊 Av. Sun Yat Sen / CTM",
+        "name:pt": "Av. Sun Yat Sen / CTM",
+        "name:zh": "氹仔電訊",
+        "name:zh-Hans": "凼仔电讯",
+        "name:zh-Hant": "氹仔電訊",
+        "public_transport": "platform",
+        "route_ref": "21A;26A;30X;33;37;50;50X;N2;N3"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2165428054,
+      "lat": 22.1591081,
+      "lon": 113.5582304,
+      "tags": {
+        "asset_ref": "T309",
+        "bus": "yes",
+        "departures_board": "timetable",
+        "highway": "bus_stop",
+        "name": "泉亮花園 Edf. Chun Leong",
+        "name:pt": "Edf. Chun Leong",
+        "name:zh": "泉亮花園",
+        "name:zh-Hans": "泉亮花园",
+        "name:zh-Hant": "泉亮花園",
+        "public_transport": "platform",
+        "ref": "T309",
+        "route_ref": "21A;25;26A;72;N3;N5;N6",
+        "shelter": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2165428066,
+      "lat": 22.156182,
+      "lon": 113.5595137,
+      "tags": {
+        "asset_ref": "T318",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "泉悅花園 Edf. Chun Yuet Garden",
+        "name:pt": "Edf. Chun Yuet Garden",
+        "name:zh": "泉悅花園",
+        "name:zh-Hans": "泉悦花园",
+        "name:zh-Hant": "泉悅花園",
+        "public_transport": "platform",
+        "route_ref": "11;15;22;28A;30;33;34"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2165428092,
+      "lat": 22.1623382,
+      "lon": 113.5619377,
+      "tags": {
+        "asset_ref": "T342",
+        "highway": "bus_stop",
+        "name": "高勵雅馬路 Est. Alm. M. Correia",
+        "name:pt": "Est. Alm. M. Correia",
+        "name:zh": "高勵雅馬路",
+        "route_ref": "26;30;30X;34;56;MT3"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2165428109,
+      "lat": 22.1586767,
+      "lon": 113.5621366,
+      "tags": {
+        "asset_ref": "T409",
+        "highway": "bus_stop",
+        "name": "湖畔公園 Jardim do Lago",
+        "name:pt": "Jardim do Lago",
+        "name:zh": "湖畔公園",
+        "route_ref": "26;30;30X;34;56;MT3",
+        "shelter": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2165428110,
+      "lat": 22.1589616,
+      "lon": 113.5609836,
+      "tags": {
+        "amenity": "bus_station",
+        "asset_ref": "T408",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "local_ref": "A",
+        "name": "湖畔大廈 Edifício do Lago",
+        "name:pt": "Edifício do Lago",
+        "name:zh": "湖畔大廈",
+        "public_transport": "station",
+        "route_ref": "26;36;37;N2;N5",
+        "shelter": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2165428112,
+      "lat": 22.1634267,
+      "lon": 113.5593408,
+      "tags": {
+        "asset_ref": "T303",
+        "bench": "yes",
+        "bin": "yes",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "澳門旅遊大學 Universidade de Turismo de Macau",
+        "name:pt": "Universidade de Turismo de Macau",
+        "name:zh": "澳門旅遊大學",
+        "old_name": "澳大城區中心 UM Colina da Taipa",
+        "old_name:pt": "Campus da Taipa do I.F.T.;UM Colina da Taipa",
+        "old_name:zh": "旅遊學院氹仔校區;澳大城區中心",
+        "public_transport": "platform",
+        "route_ref": "11;37",
+        "shelter": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2165428117,
+      "lat": 22.163811,
+      "lon": 113.5563132,
+      "tags": {
+        "asset_ref": "T305",
+        "highway": "bus_stop",
+        "name": "城市大學 Universidade da Cidade",
+        "name:en": "City University of Macau",
+        "name:pt": "Universidade da Cidade",
+        "name:ru": "Городской Университет Макао",
+        "name:zh": "城市大學",
+        "old_name": "中福花園 Chong Fok Garden",
+        "old_name:pt": "Chong Fok Garden",
+        "old_name:zh": "中福花園",
+        "route_ref": "11;37"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2165428125,
+      "lat": 22.1553928,
+      "lon": 113.5550104,
+      "tags": {
+        "asset_ref": "T324",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "澳門運動場 Estádio de Macau",
+        "name:en": "Macau Stadium",
+        "name:pt": "Estádio de Macau",
+        "name:zh": "澳門運動場",
+        "public_transport": "platform",
+        "ref": "M324",
+        "route_ref": "1;15;22;25;25X;26;26A;28A;30;33;34;35;37;MT1;MT3"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2165428140,
+      "lat": 22.1616611,
+      "lon": 113.5513449,
+      "tags": {
+        "asset_ref": "T301",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "盧廉若/菩提園 Lou Lim Ieok / Templo de Pou Tai Un",
+        "name:pt": "Lou Lim Ieok / Templo de Pou Tai Un",
+        "name:zh": "盧廉若/菩提園",
+        "public_transport": "platform",
+        "route_ref": "35"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2165428141,
+      "lat": 22.1594628,
+      "lon": 113.5482607,
+      "tags": {
+        "asset_ref": "T302",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "盧廉若/葡京花園 Lou Lim Ieok / Jardins de Lisboa",
+        "name:pt": "Lou Lim Ieok / Jardins de Lisboa",
+        "name:zh": "盧廉若/葡京花園",
+        "public_transport": "platform",
+        "route_ref": "35"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2165428272,
+      "lat": 22.1561283,
+      "lon": 113.5571297,
+      "tags": {
+        "asset_ref": "T339",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "花城公園 Jardim Cidade das Flores",
+        "name:en": "Garden of Flower City",
+        "name:pt": "Jardim Cidade das Flores",
+        "name:zh": "花城公園",
+        "public_transport": "platform",
+        "ref": "T339/2",
+        "route_ref": "15;26;30;34;37;MT3;N2",
+        "shelter": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2165428298,
+      "lat": 22.1555163,
+      "lon": 113.5551642,
+      "tags": {
+        "asset_ref": "T325",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "華寶花園 Edf. Jardim de Va Pou",
+        "name:pt": "Edf. Jardim de Va Pou",
+        "name:zh": "華寶花園",
+        "public_transport": "platform",
+        "route_ref": "11;22;25;25X;26A;28A;33;MT2"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2165428430,
+      "lat": 22.1569044,
+      "lon": 113.5495312,
+      "tags": {
+        "asset_ref": "T327",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "賽馬會 Jockey Club",
+        "name:pt": "Jockey Club",
+        "name:zh": "賽馬會",
+        "name:zh-Hans": "赛马会",
+        "name:zh-Hant": "賽馬會",
+        "public_transport": "platform",
+        "route_ref": "15;26;35;36;MT2;MT4;N5"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2165428547,
+      "lat": 22.1552723,
+      "lon": 113.5526668,
+      "tags": {
+        "asset_ref": "T347",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "運動場/體育中心 Estádio/ Centro Desportivo",
+        "name:pt": "Estádio/ Centro Desportivo",
+        "name:zh": "運動場/體育中心",
+        "name:zh-Hans": "运动场/体育中心",
+        "name:zh-Hant": "運動場/體育中心",
+        "old_name": "運動場圓形地",
+        "public_transport": "platform",
+        "route_ref": "25;25X;26A;35;MT1;MT2;MT3;MT4;N6"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2165428847,
+      "lat": 22.1623055,
+      "lon": 113.5614593,
+      "tags": {
+        "asset_ref": "T343",
+        "highway": "bus_stop",
+        "name": "海灣花園/海城閣 Jardim Hoi Van/ Hoi Cheng",
+        "name:pt": "Jardim Hoi Van/ Hoi Cheng",
+        "name:zh": "海灣花園/海城閣",
+        "route_ref": "26;30;34;36;56;AP1;AP1X;MT3"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2165428886,
+      "lat": 22.1544774,
+      "lon": 113.5561453,
+      "tags": {
+        "asset_ref": "T323",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "黑橋/地堡街 Ponte Negra / R. do Regedor",
+        "name:pt": "Ponte Negra / R. do Regedor",
+        "name:zh": "黑橋/地堡街",
+        "name:zh-Hans": "黑桥/地堡街",
+        "name:zh-Hant": "黑橋/地堡街",
+        "public_transport": "platform",
+        "route_ref": "11;15;22;28A;30;33;34"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2491152762,
+      "lat": 22.1613458,
+      "lon": 113.5561235,
+      "tags": {
+        "asset_ref": "T402",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "泉澧花園 Chun Lai Garden",
+        "name:en": "Chun Lai Garden",
+        "name:pt": "Chun Lai Garden",
+        "name:zh": "泉澧花園",
+        "name:zh-Hans": "泉澧花园",
+        "name:zh-Hant": "泉澧花園",
+        "public_transport": "platform",
+        "route_ref": "21A;25;26A;72;N2;N3"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2493357534,
+      "lat": 22.1604276,
+      "lon": 113.5625589,
+      "tags": {
+        "asset_ref": "Temp",
+        "highway": "bus_stop",
+        "name": "雞頸馬路臨時站-1 Paragem Provisória Da Estrada da Ponta da Cabrita No 1",
+        "name:pt": "Paragem Provisória Da Estrada da Ponta da Cabrita No 1",
+        "name:zh": "雞頸馬路臨時站-1",
+        "route_ref": "孝思接駁專線"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2561588890,
+      "lat": 22.1638779,
+      "lon": 113.5497093,
+      "tags": {
+        "asset_ref": "T330",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "蘇利安圓形地 Rotunda Leonel Sousa",
+        "name:pt": "Rotunda Leonel Sousa",
+        "name:zh": "蘇利安圓形地",
+        "public_transport": "platform",
+        "route_ref": "11;21A;22;25;25X;26A;28A;30X;33;50;50X;MT2;MT5;N3"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2736904337,
+      "lat": 22.1579309,
+      "lon": 113.5555658,
+      "tags": {
+        "asset_ref": "T370",
+        "bench": "yes",
+        "bus": "yes",
+        "departures_board": "timetable",
+        "highway": "bus_stop",
+        "name": "基馬拉斯/濠珀 Guimarães / Nova Park",
+        "name:pt": "Guimarães / Nova Park",
+        "name:zh": "基馬拉斯/濠珀",
+        "public_transport": "platform",
+        "ref": "T370",
+        "route_ref": "37;H3;MT5;N2;N5;N6",
+        "shelter": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2736904362,
+      "lat": 22.165605,
+      "lon": 113.55894,
+      "tags": {
+        "asset_ref": "T428",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "聚龍明珠/榮苑 Tjoi Long Sea View/Bloco 1",
+        "name:pt": "Tjoi Long Sea View/Bloco 1",
+        "name:zh": "聚龍明珠/榮苑",
+        "public_transport": "platform",
+        "route_ref": "39;72"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2736904368,
+      "lat": 22.1574225,
+      "lon": 113.550016,
+      "tags": {
+        "asset_ref": "T416",
+        "bench": "yes",
+        "bus": "yes",
+        "departures_board": "timetable",
+        "highway": "bus_stop",
+        "name": "南新花園 Edf. Nam Sun",
+        "name:pt": "Edf. Nam Sun",
+        "name:zh": "南新花園",
+        "name:zh-Hans": "南新花园",
+        "name:zh-Hant": "南新花園",
+        "public_transport": "platform",
+        "ref": "T332/2",
+        "route_ref": "15;26;MT4",
+        "shelter": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2800435406,
+      "lat": 22.1589613,
+      "lon": 113.5605498,
+      "tags": {
+        "access": "yes",
+        "amenity": "parking",
+        "capacity": "1810",
+        "fee": "yes",
+        "layer": "-1",
+        "name": "湖畔大廈停車場 Auto-Silo de Edifício do Lago",
+        "name:pt": "Auto-Silo de Edifício do Lago",
+        "name:zh": "湖畔大廈停車場",
+        "parking": "underground",
+        "phone": "+853 2850 0103",
+        "supervised": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2800435411,
+      "lat": 22.158858,
+      "lon": 113.5548287,
+      "tags": {
+        "access": "yes",
+        "amenity": "parking",
+        "capacity": "2727",
+        "fee": "yes",
+        "name": "氹仔中央公園停車場 Auto-Silo do Parque Central da Taipa",
+        "name:pt": "Auto-Silo do Parque Central da Taipa",
+        "name:zh": "氹仔中央公園停車場",
+        "payment:cash": "yes",
+        "phone": "+853 2883 5360",
+        "supervised": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2805421754,
+      "lat": 22.1638741,
+      "lon": 113.5606854,
+      "tags": {
+        "name": "北安灣 Baía do Pac On",
+        "name:pt": "Baía do Pac On",
+        "name:zh": "北安灣",
+        "place": "quarter"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2992376894,
+      "lat": 22.1588902,
+      "lon": 113.5657964,
+      "tags": {
+        "ele": "158.2",
+        "name": "大潭山 Taipa Grande",
+        "name:pt": "Taipa Grande",
+        "name:zh": "大潭山",
+        "natural": "peak",
+        "wikidata": "Q27728382",
+        "wikimedia_commons": "Category:Taipa Grande",
+        "wikipedia": "zh:大潭山"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3100104704,
+      "lat": 22.1571505,
+      "lon": 113.551096,
+      "tags": {
+        "amenity": "place_of_worship",
+        "material": "metal",
+        "name": "四面佛 O Buda de Quatro Faces",
+        "name:en": "Four-Faced Buddha",
+        "name:pt": "O Buda de Quatro Faces",
+        "name:zh": "四面佛",
+        "name:zh-Hans": "四面佛",
+        "name:zh-Hant": "四面佛",
+        "religion": "hindu"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3100106907,
+      "lat": 22.1572186,
+      "lon": 113.5505337,
+      "tags": {
+        "amenity": "toilets",
+        "asset_ref": "T2",
+        "name": "T2 氹仔柯維納馬路(四面佛)公廁 T2 Sanitário Público na Estrada Governador Albano de Oliveira, Taipa (Buda de Quatro Faces)",
+        "name:en": "T2 Public toilet at Estrada Governador Albano de Oliveira (Four-faced Budda)",
+        "name:pt": "T2 Sanitário Público na Estrada Governador Albano de Oliveira, Taipa (Buda de Quatro Faces)",
+        "name:zh": "T2 氹仔柯維納馬路(四面佛)公廁",
+        "name:zh-Hans": "T2 凼仔柯维纳马路(四面佛)公厕",
+        "name:zh-Hant": "T2 氹仔柯維納馬路(四面佛)公廁",
+        "opening_hours": "24/7"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3212331674,
+      "lat": 22.154598,
+      "lon": 113.5562325,
+      "tags": {
+        "amenity": "taxi"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3290013562,
+      "lat": 22.1577443,
+      "lon": 113.5582709,
+      "tags": {
+        "addr:housenumber": "388",
+        "addr:street": "埃武拉街 Rua de Évora",
+        "amenity": "bank",
+        "brand": "BOC",
+        "brand:wikidata": "Q790068",
+        "brand:wikipedia": "en:Bank of China",
+        "fax": "+853 2882 5256",
+        "loc_name": "中銀",
+        "name": "BOC",
+        "name:en": "Bank of China",
+        "name:pt": "Banco da China",
+        "name:zh": "中國銀行(氹仔支行)",
+        "official_name": "Bank of China",
+        "official_name:pt": "Banco da China (Taipa Sub-Branch)",
+        "official_name:zh": "中國銀行 (氹仔支行)",
+        "opening_hours": "Mo-Fr 09:30-18:00",
+        "phone": "+853 2882 7093",
+        "short_name": "氹仔支行",
+        "website": "http://www.bocmacau.com/",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3290013563,
+      "lat": 22.1610646,
+      "lon": 113.5560628,
+      "tags": {
+        "addr:housenumber": "583-601",
+        "addr:street": "孫逸仙博士大馬路 Avenida Dr. Sun Yat Sen",
+        "amenity": "bank",
+        "brand": "中國銀行",
+        "brand:en": "Bank of China",
+        "brand:pt": "Banco da China",
+        "brand:wikidata": "Q790068",
+        "brand:wikipedia": "en:Bank of China",
+        "brand:zh": "中國銀行",
+        "brand:zh-Hans": "中国银行",
+        "brand:zh-Hant": "中國銀行",
+        "fax": "+853 2883 2361",
+        "loc_name": "中銀",
+        "name": "中國銀行 Banco da China",
+        "name:en": "Bank of China",
+        "name:pt": "Banco da China",
+        "name:zh": "中國銀行",
+        "name:zh-Hans": "中国银行",
+        "name:zh-Hant": "中國銀行",
+        "official_name": "Bank of China",
+        "official_name:pt": "Banco da China (Hoi Tou Sub-Branch)",
+        "official_name:zh": "中國銀行 (海島支行)",
+        "phone": "+853 2883 2363",
+        "short_name": "海島支行",
+        "website": "http://www.bocmacau.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3290013565,
+      "lat": 22.1576333,
+      "lon": 113.5522981,
+      "tags": {
+        "email": "royal10@royalsupermarket.com.mo",
+        "fax": "+853 2883 3719",
+        "loc_name": "來來",
+        "name": "來來超級市場 Royal Supermarket",
+        "name:en": "Royal Supermarket",
+        "name:zh": "來來超級市場",
+        "official_name": "來來超級市場 (金利達分店) Royal Supermarket (Kinglight Garden)",
+        "official_name:en": "Royal Supermarket (Kinglight Garden)",
+        "official_name:zh": "來來超級市場 (金利達分店)",
+        "opening_hours": "Mo-Su 09:00-22:30",
+        "phone": "+853 2883 3712",
+        "shop": "supermarket",
+        "short_name": "金利達分店",
+        "website": "https://www.royalsupermarket.com.mo/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3290013567,
+      "lat": 22.1569798,
+      "lon": 113.5569546,
+      "tags": {
+        "addr:housenumber": "40",
+        "addr:street": "埃武拉街 Rua de Évora",
+        "amenity": "bank",
+        "loc_name": "大西洋",
+        "name": "大西洋銀行 Banco Nacional Ultramarino",
+        "name:pt": "Banco Nacional Ultramarino",
+        "name:zh": "大西洋銀行",
+        "official_name": "大西洋銀行 (氹仔花城分行) Banco Nacional Ultramarino (Agência Flower City)",
+        "official_name:pt": "Banco Nacional Ultramarino (Agência Flower City)",
+        "official_name:zh": "大西洋銀行 (氹仔花城分行)",
+        "opening_hours": "Mo-Fr 09:30-18:00",
+        "phone": "+853 2883 3633",
+        "short_name": "氹仔花城分行",
+        "website": "https://www.bnu.com.mo/",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3290013568,
+      "lat": 22.1577071,
+      "lon": 113.5534821,
+      "tags": {
+        "addr:housenumber": "329",
+        "addr:street": "布拉干薩街 Rua de Bragança",
+        "amenity": "bank",
+        "loc_name": "大西洋",
+        "name": "大西洋銀行 Banco Nacional Ultramarino",
+        "name:pt": "Banco Nacional Ultramarino",
+        "name:zh": "大西洋銀行",
+        "official_name": "大西洋銀行 (金利達分行) Banco Nacional Ultramarino (Agência Kinglight Garden)",
+        "official_name:pt": "Banco Nacional Ultramarino (Agência Kinglight Garden)",
+        "official_name:zh": "大西洋銀行 (金利達分行)",
+        "opening_hours": "Mo-Fr 09:00-17:30",
+        "phone": "+853 2883 8028",
+        "short_name": "金利達分行",
+        "website": "https://www.bnu.com.mo/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3290013571,
+      "lat": 22.1565985,
+      "lon": 113.5580445,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "必勝客 Pizza Hut",
+        "brand:en": "Pizza Hut",
+        "brand:wikidata": "Q191615",
+        "brand:wikipedia": "en:Pizza Hut",
+        "brand:zh": "必勝客",
+        "brand:zh-Hans": "必胜客",
+        "brand:zh-Hant": "必勝客",
+        "cuisine": "pizza",
+        "name": "必勝客 Pizza Hut",
+        "name:en": "Pizza Hut",
+        "name:zh": "必勝客",
+        "name:zh-Hans": "必胜客",
+        "name:zh-Hant": "必勝客",
+        "phone": "+853 2884 3160"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3290013572,
+      "lat": 22.156698,
+      "lon": 113.5581986,
+      "tags": {
+        "fax": "+853 2883 3798",
+        "loc_name": "新苗",
+        "name": "新苗超級市場 Sanmiu Supermarket",
+        "name:en": "Sanmiu Supermarket",
+        "name:zh": "新苗超級市場",
+        "name:zh-Hans": "新苗超级市场",
+        "name:zh-Hant": "新苗超級市場",
+        "opening_hours": "24/7",
+        "phone": "+853 2899 9911",
+        "shop": "supermarket",
+        "website": "http://www.sanmiu.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3290013574,
+      "lat": 22.1591055,
+      "lon": 113.560164,
+      "tags": {
+        "fax": "+853 2850 0503",
+        "loc_name": "新苗",
+        "name": "新苗超級市場 Supermercado San Miu",
+        "name:en": "San Miu Supermarket",
+        "name:zh": "新苗超級市場",
+        "phone": "+853 2850 0500",
+        "shop": "supermarket",
+        "website": "http://www.sanmiu.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3290013576,
+      "lat": 22.1579425,
+      "lon": 113.5487968,
+      "tags": {
+        "addr:street": "廣東大馬路 Avenida de Kwong Tung",
+        "amenity": "bank",
+        "name": "澳門商業銀行 Banco Comercial de Macau",
+        "name:pt": "Banco Comercial de Macau",
+        "name:zh": "澳門商業銀行(氹仔德福分行)",
+        "official_name": "澳門商業銀行 (德福分行) Banco Comercial de Macau (Tak Fok Branch)",
+        "official_name:pt": "Banco Comercial de Macau (Tak Fok Branch)",
+        "official_name:zh": "澳門商業銀行 (德福分行)",
+        "opening_hours": "Mo-Fr 09:30-18:00",
+        "phone": "+853 2882 1308",
+        "short_name": "德福分行",
+        "website": "https://www.bcm.com.mo/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3290013577,
+      "lat": 22.1568445,
+      "lon": 113.556652,
+      "tags": {
+        "brand": "百佳超級市場 PARKnSHOP",
+        "brand:en": "PARKnSHOP",
+        "brand:wikidata": "Q7138619",
+        "brand:zh": "百佳超級市場",
+        "brand:zh-Hans": "百佳超級市場",
+        "brand:zh-Hant": "百佳超级市场",
+        "loc_name": "百佳",
+        "name": "百佳 PARKnSHOP",
+        "name:en": "PARKnSHOP",
+        "name:zh": "百佳",
+        "name:zh-Hans": "百佳",
+        "name:zh-Hant": "百佳",
+        "official_name": "百佳超級市場 (花城) PARKnSHOP (Flower City Superstore)",
+        "official_name:en": "PARKnSHOP (Flower City Superstore)",
+        "official_name:zh": "百佳超級市場 (花城)",
+        "opening_hours": "Mo-Su 09:00-22:30",
+        "operator": "屈臣氏集團 A.S. Watson Group",
+        "operator:en": "A.S. Watson Group",
+        "operator:wikidata": "Q4647401",
+        "operator:zh": "屈臣氏集團",
+        "operator:zh-Hans": "屈臣氏集团",
+        "operator:zh-Hant": "屈臣氏集團",
+        "phone": "+853 2884 0161",
+        "shop": "supermarket",
+        "website": "https://www.parknshop.com/",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3290014373,
+      "lat": 22.1568625,
+      "lon": 113.5568149,
+      "tags": {
+        "brand": "豐澤 Fortress",
+        "brand:en": "Fortress",
+        "brand:wikidata": "Q15904138",
+        "brand:zh": "豐澤",
+        "name": "豐澤 Fortress",
+        "name:en": "Fortress",
+        "name:zh": "豐澤",
+        "official_name": "豐澤 (氹仔花城分店) Fortress (Flower City Store)",
+        "official_name:en": "Fortress (Flower City Store)",
+        "official_name:zh": "豐澤 (氹仔花城分店)",
+        "opening_hours": "Mo-Fr 12:00-21:30; Sa,Su 11:30-21:30",
+        "phone": "+853 2884 3208",
+        "shop": "electronics"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3290014374,
+      "lat": 22.1580858,
+      "lon": 113.5494454,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Subway",
+        "brand:wikidata": "Q244457",
+        "brand:wikipedia": "en:Subway (restaurant)",
+        "cuisine": "sandwich",
+        "fax": "+853 2882 1495",
+        "name": "Subway",
+        "name:en": "Subway",
+        "name:zh": "賽百味",
+        "phone": "+853 2883 9889",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3290014376,
+      "lat": 22.159367,
+      "lon": 113.5575916,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "麥當勞 McDonald's",
+        "brand:en": "McDonald's",
+        "brand:wikidata": "Q38076",
+        "brand:wikipedia": "zh:麦当劳",
+        "brand:zh": "麥當勞",
+        "brand:zh-Hans": "麦当劳",
+        "brand:zh-Hant": "麥當勞",
+        "cuisine": "burger",
+        "name": "麥當勞 McDonald's",
+        "name:en": "McDonald's",
+        "name:zh": "麥當勞",
+        "name:zh-Hans": "麦当劳",
+        "name:zh-Hant": "麥當勞",
+        "opening_hours": "24/7",
+        "phone": "+853 2884 0725",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3294159864,
+      "lat": 22.1580849,
+      "lon": 113.5575427,
+      "tags": {
+        "brand": "OK便利店 Circle K",
+        "brand:en": "Circle K",
+        "brand:wikidata": "Q3268010",
+        "brand:wikipedia": "zh:OK便利店",
+        "brand:zh": "OK便利店",
+        "brand:zh-Hans": "OK便利店",
+        "brand:zh-Hant": "OK便利店",
+        "name": "OK便利店 Circle K",
+        "name:en": "Circle K",
+        "name:zh": "OK便利店",
+        "name:zh-Hans": "OK便利店",
+        "name:zh-Hant": "OK便利店",
+        "opening_hours": "24/7",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3294159866,
+      "lat": 22.1611666,
+      "lon": 113.5559978,
+      "tags": {
+        "brand": "OK便利店 Circle K",
+        "brand:en": "Circle K",
+        "brand:wikidata": "Q3268010",
+        "brand:zh": "OK便利店",
+        "brand:zh-Hans": "OK便利店",
+        "brand:zh-Hant": "OK便利店",
+        "name": "OK便利店 Circle K",
+        "name:en": "Circle K",
+        "name:zh": "OK便利店",
+        "name:zh-Hans": "OK便利店",
+        "name:zh-Hant": "OK便利店",
+        "opening_hours": "24/7",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3294159868,
+      "lat": 22.1573289,
+      "lon": 113.555881,
+      "tags": {
+        "amenity": "police",
+        "fax": "+853 2882 2009",
+        "name": "氹仔警司處 Comissariado da Taipa",
+        "name:en": "Islands Police Subdivision",
+        "name:pt": "Comissariado da Taipa",
+        "name:zh": "氹仔警司處",
+        "opening_hours": "24/7",
+        "phone": "+853 2882 1047",
+        "website": "https://www.fsm.gov.mo/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3294159870,
+      "lat": 22.1575385,
+      "lon": 113.5561557,
+      "tags": {
+        "amenity": "police",
+        "fax": "+853 8898 9592",
+        "name": "海島交通警司處 Comissariado de Trânsito das Ilhas",
+        "name:en": "Islands Traffic Subdivision",
+        "name:pt": "Comissariado de Trânsito das Ilhas",
+        "name:zh": "海島交通警司處",
+        "opening_hours": "24/7",
+        "phone": "+853 8898 9593",
+        "website": "https://www.fsm.gov.mo/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3294159872,
+      "lat": 22.158886,
+      "lon": 113.5526473,
+      "tags": {
+        "amenity": "post_office",
+        "email": "macpost@macaupost.gov.mo",
+        "name": "濠景郵政分局 Estação de Nova Taipa",
+        "name:en": "Nova Taipa Post Office",
+        "name:pt": "Estação de Nova Taipa",
+        "name:zh": "濠景郵政分局",
+        "opening_hours": "Mo-Fr 10:00-19:00; Sa 10:00-14:00",
+        "phone": "+853 2850 2525",
+        "website": "http://www.macaupost.gov.mo/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3294160450,
+      "lat": 22.1541381,
+      "lon": 113.5564522,
+      "tags": {
+        "amenity": "toilets",
+        "asset_ref": "T5",
+        "name": "T5 氹仔街市側公廁 T5 Sanitário Público ao lado do Mercado Municipal da Taipa",
+        "name:en": "T5 Public Toilet Next To The Taipa Municipal Market",
+        "name:pt": "T5 Sanitário Público ao lado do Mercado Municipal da Taipa",
+        "name:zh": "T5 氹仔街市側公廁",
+        "name:zh-Hans": "T5 凼仔街市侧公厕",
+        "name:zh-Hant": "T5 氹仔街市側公廁",
+        "opening_hours": "24/7"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3294160459,
+      "lat": 22.1544309,
+      "lon": 113.5556087,
+      "tags": {
+        "access": "yes",
+        "amenity": "parking_entrance",
+        "level": "-1"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3294160991,
+      "lat": 22.1633545,
+      "lon": 113.5491637,
+      "tags": {
+        "amenity": "toilets",
+        "asset_ref": "T1",
+        "name": "T1 氹仔浮雕公園公廁 T1 Sanitário Público do Jardim de Esculturas da Taipa",
+        "name:en": "T1 Public toilet at Taipa Sculpture Garden",
+        "name:pt": "T1 Sanitário Público do Jardim de Esculturas da Taipa",
+        "name:zh": "T1 氹仔浮雕公園公廁",
+        "opening_hours": "24/7"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3294161007,
+      "lat": 22.1542571,
+      "lon": 113.5560935,
+      "tags": {
+        "amenity": "clinic",
+        "fax": "+853 2882 7669",
+        "healthcare": "clinic",
+        "name": "老人保健站 Centro de Saúde para Idosos",
+        "name:pt": "Centro de Saúde para Idosos",
+        "name:zh": "老人保健站",
+        "name:zh-Hans": "老人保健站",
+        "name:zh-Hant": "老人保健站",
+        "opening_hours": "Mo-Th 08:30-13:00,14:30-17:15; Fr 08:30-13:00,14:30-17:00",
+        "phone": "+853 2882 7667"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3294161008,
+      "lat": 22.1574383,
+      "lon": 113.5580619,
+      "tags": {
+        "addr:housenumber": "356-366",
+        "addr:street": "埃武拉街 Rua de Évora",
+        "amenity": "bank",
+        "brand": "華僑銀行 Banco OCBC",
+        "brand:en": "OCBC Bank",
+        "brand:pt": "Banco OCBC",
+        "brand:wikidata": "Q837147",
+        "brand:zh": "華僑銀行",
+        "brand:zh-Hans": "华侨银行",
+        "brand:zh-Hant": "華僑銀行",
+        "loc_name": "華僑永亨",
+        "name": "華僑銀行 Banco OCBC",
+        "name:en": "OCBC Bank",
+        "name:pt": "Banco OCBC",
+        "name:zh": "華僑銀行",
+        "name:zh-Hans": "华侨银行",
+        "name:zh-Hant": "華僑銀行",
+        "official_name": "華僑永亨銀行 (氹仔花城分行) Banco OCBC Weng Hang (Agência Flower City)",
+        "official_name:pt": "Banco OCBC Weng Hang (Agência Flower City)",
+        "official_name:zh": "華僑永亨銀行 (氹仔花城分行)",
+        "old_name": "永亨銀行",
+        "opening_hours": "Mo-Fr 09:30-18:00",
+        "phone": "+853 2883 9135",
+        "short_name": "氹仔花城分行",
+        "website": "https://www.bnu.com.mo/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3294161009,
+      "lat": 22.1547623,
+      "lon": 113.5558092,
+      "tags": {
+        "amenity": "social_facility",
+        "fax": "+853 2882 7689",
+        "name": "離島區市民服務中心 Centro de Prestação de Serviços ao Público das Ilhas",
+        "name:pt": "Centro de Prestação de Serviços ao Público das Ilhas",
+        "name:zh": "離島區市民服務中心",
+        "opening_hours": "Mo-Fr 09:00-18:00",
+        "phone": "+853 2882 5252",
+        "short_name": "市民服務中心",
+        "website": "https://www.cpsp.gov.mo/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3294161010,
+      "lat": 22.1550215,
+      "lon": 113.5555436,
+      "tags": {
+        "amenity": "community_centre",
+        "fax": "+853 2882 5260",
+        "name": "黑橋市政康樂中心 Centro Recreativo Municipal da Ponte Negra",
+        "name:pt": "Centro Recreativo Municipal da Ponte Negra",
+        "name:zh": "黑橋市政康樂中心",
+        "opening_hours": "Mo-Su 10:00-21:00",
+        "phone": "+853 2882 7687"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3294161011,
+      "lat": 22.1544451,
+      "lon": 113.5555982,
+      "tags": {
+        "access": "yes",
+        "amenity": "parking",
+        "capacity": "175",
+        "fee": "yes",
+        "maxheight": "1.95",
+        "name": "黑橋街停車場 Auto-Silo da Rua da Ponte Negra",
+        "name:pt": "Auto-Silo da Rua da Ponte Negra",
+        "name:zh": "黑橋街停車場"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3294161014,
+      "lat": 22.1566138,
+      "lon": 113.5564958,
+      "tags": {
+        "brand": "7-Eleven",
+        "brand:wikidata": "Q259340",
+        "brand:wikipedia": "en:7-Eleven",
+        "name": "7-Eleven",
+        "opening_hours": "24/7",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3294161015,
+      "lat": 22.1568102,
+      "lon": 113.5536958,
+      "tags": {
+        "brand": "7-Eleven",
+        "brand:wikidata": "Q259340",
+        "brand:wikipedia": "en:7-Eleven",
+        "name": "7-Eleven",
+        "opening_hours": "24/7",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3294161016,
+      "lat": 22.1572818,
+      "lon": 113.5530756,
+      "tags": {
+        "name": "7-Eleven",
+        "opening_hours": "24/7",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3294161017,
+      "lat": 22.1574179,
+      "lon": 113.5515704,
+      "tags": {
+        "brand": "7-Eleven",
+        "brand:wikidata": "Q259340",
+        "brand:wikipedia": "en:7-Eleven",
+        "name": "7-Eleven",
+        "opening_hours": "24/7",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3294161018,
+      "lat": 22.1575503,
+      "lon": 113.5494766,
+      "tags": {
+        "brand": "7-Eleven",
+        "brand:wikidata": "Q259340",
+        "brand:wikipedia": "en:7-Eleven",
+        "name": "7-Eleven",
+        "opening_hours": "24/7",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3294161019,
+      "lat": 22.1578844,
+      "lon": 113.5582235,
+      "tags": {
+        "brand": "7-Eleven",
+        "brand:wikidata": "Q259340",
+        "brand:wikipedia": "en:7-Eleven",
+        "name": "7-Eleven",
+        "opening_hours": "24/7",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3294161020,
+      "lat": 22.160832,
+      "lon": 113.5552165,
+      "tags": {
+        "brand": "7-Eleven",
+        "brand:wikidata": "Q259340",
+        "brand:wikipedia": "en:7-Eleven",
+        "name": "7-Eleven",
+        "opening_hours": "24/7",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3343839677,
+      "lat": 22.1556367,
+      "lon": 113.5549805,
+      "tags": {
+        "amenity": "recycling",
+        "location": "overground",
+        "recycling:cans": "yes",
+        "recycling:paper": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3343839678,
+      "lat": 22.1559787,
+      "lon": 113.5527081,
+      "tags": {
+        "amenity": "recycling",
+        "recycling:cans": "yes",
+        "recycling:paper": "yes",
+        "recycling:scrap_metal": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3343839679,
+      "lat": 22.1565896,
+      "lon": 113.5599713,
+      "tags": {
+        "amenity": "recycling",
+        "location": "overground",
+        "recycling:cans": "yes",
+        "recycling:paper": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3343839680,
+      "lat": 22.1566853,
+      "lon": 113.5592337,
+      "tags": {
+        "amenity": "recycling",
+        "location": "underground",
+        "recycling:cans": "yes",
+        "recycling:paper": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3343839681,
+      "lat": 22.1586359,
+      "lon": 113.562092,
+      "tags": {
+        "amenity": "recycling",
+        "recycling:cans": "yes",
+        "recycling:paper": "yes",
+        "recycling:scrap_metal": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3343839683,
+      "lat": 22.1591502,
+      "lon": 113.5582682,
+      "tags": {
+        "amenity": "recycling",
+        "location": "overground",
+        "recycling:cans": "yes",
+        "recycling:paper": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3343839684,
+      "lat": 22.160944,
+      "lon": 113.5562222,
+      "tags": {
+        "amenity": "recycling",
+        "location": "overground",
+        "recycling:cans": "yes",
+        "recycling:paper": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3343839685,
+      "lat": 22.1617369,
+      "lon": 113.5606174,
+      "tags": {
+        "amenity": "recycling",
+        "recycling:cans": "yes",
+        "recycling:paper": "yes",
+        "recycling:scrap_metal": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3343839686,
+      "lat": 22.1620235,
+      "lon": 113.5570315,
+      "tags": {
+        "amenity": "recycling",
+        "recycling:cans": "yes",
+        "recycling:paper": "yes",
+        "recycling:scrap_metal": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3343839689,
+      "lat": 22.1626102,
+      "lon": 113.5550786,
+      "tags": {
+        "amenity": "recycling",
+        "recycling:cans": "yes",
+        "recycling:paper": "yes",
+        "recycling:scrap_metal": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3387972977,
+      "lat": 22.1572376,
+      "lon": 113.5501474,
+      "tags": {
+        "leisure": "playground",
+        "name": "四面佛休憩區 Zona de Lazer do Buda das Quatro Faces",
+        "name:en": "Leisure Area at Buda of Four Faces",
+        "name:pt": "Zona de Lazer do Buda das Quatro Faces",
+        "name:zh": "四面佛休憩區",
+        "name:zh-Hans": "四面佛休憩区",
+        "name:zh-Hant": "四面佛休憩區"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3387983895,
+      "lat": 22.1563479,
+      "lon": 113.5562116,
+      "tags": {
+        "amenity": "post_box"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3387983897,
+      "lat": 22.157019,
+      "lon": 113.5573833,
+      "tags": {
+        "amenity": "post_box"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3387983898,
+      "lat": 22.1573447,
+      "lon": 113.5515468,
+      "tags": {
+        "amenity": "post_box"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3387983901,
+      "lat": 22.1575752,
+      "lon": 113.5495746,
+      "tags": {
+        "amenity": "post_box",
+        "drive_through": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3387983902,
+      "lat": 22.1577493,
+      "lon": 113.5549666,
+      "tags": {
+        "amenity": "post_box"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3387983919,
+      "lat": 22.1590011,
+      "lon": 113.5568635,
+      "tags": {
+        "amenity": "post_box"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3387983920,
+      "lat": 22.1605402,
+      "lon": 113.5541469,
+      "tags": {
+        "amenity": "post_box"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3387983922,
+      "lat": 22.1610461,
+      "lon": 113.5561625,
+      "tags": {
+        "amenity": "post_box"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3387983924,
+      "lat": 22.1625867,
+      "lon": 113.5601604,
+      "tags": {
+        "amenity": "post_box"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3387983927,
+      "lat": 22.1626697,
+      "lon": 113.5675997,
+      "tags": {
+        "amenity": "post_box"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3387983947,
+      "lat": 22.1619415,
+      "lon": 113.5603527,
+      "tags": {
+        "leisure": "playground",
+        "name": "聖公會學校旁休憩區 Zona de Lazer, situada ao lado da Escola Sheng Kung Hui",
+        "name:en": "Leisure Area next to Macau Anglican College",
+        "name:pt": "Zona de Lazer, situada ao lado da Escola Sheng Kung Hui",
+        "name:zh": "聖公會學校旁休憩區"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3390802785,
+      "lat": 22.1575481,
+      "lon": 113.5500216,
+      "tags": {
+        "brand": "OK便利店 Circle K",
+        "brand:en": "Circle K",
+        "brand:wikidata": "Q3268010",
+        "brand:zh": "OK便利店",
+        "brand:zh-Hans": "OK便利店",
+        "brand:zh-Hant": "OK便利店",
+        "name": "OK便利店 Circle K",
+        "name:en": "Circle K",
+        "name:zh": "OK便利店",
+        "name:zh-Hans": "OK便利店",
+        "name:zh-Hant": "OK便利店",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3390802786,
+      "lat": 22.1587792,
+      "lon": 113.55826,
+      "tags": {
+        "name": "中國電信 (澳門) China Telecom (Macau)",
+        "name:en": "China Telecom (Macau)",
+        "name:zh": "中國電信 (澳門)",
+        "office": "telecommunication",
+        "official_name": "中國電信 (澳門) (氹仔分店) China Telecom (Macau) (Taipa Store)",
+        "official_name:en": "China Telecom (Macau) (Taipa Store)",
+        "official_name:zh": "中國電信 (澳門) (氹仔分店)",
+        "opening_hours": "Mo-Su 11:00-20:00",
+        "shop": "mobile_phone",
+        "website": "https://www.chinatelecom.com.mo/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3390802787,
+      "lat": 22.1578171,
+      "lon": 113.5525009,
+      "tags": {
+        "fax": "+853 2883 7133",
+        "loc_name": "來來電器",
+        "name": "來來電器廣場 Royal Electronics Square",
+        "name:en": "Royal Electronics Square",
+        "name:zh": "來來電器廣場",
+        "official_name": "來來電器廣場 (金利達分店) Royal Electronics Square (Kinglight Garden)",
+        "official_name:en": "Royal Electronics Square (Kinglight Garden)",
+        "official_name:zh": "來來電器廣場 (金利達分店)",
+        "opening_hours": "Mo-Su 11:00-22:30",
+        "phone": "+853 2883 7123",
+        "shop": "electronics",
+        "short_name": "金利達分店",
+        "website": "http://www.res.com.mo/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3390802788,
+      "lat": 22.1586083,
+      "lon": 113.5577417,
+      "tags": {
+        "brand": "Daiso",
+        "brand:wikidata": "Q866991",
+        "email": "daisostore4@sunstarmark.com",
+        "fax": "+853 2883 1629",
+        "loc_name": "大創 Daiso",
+        "name": "大創百貨 Daiso Japan",
+        "name:en": "Daiso Japan",
+        "name:zh": "大創百貨",
+        "name:zh-Hans": "大创百货",
+        "name:zh-Hant": "大創百貨",
+        "phone": "+853 2883 1629",
+        "shop": "variety_store",
+        "short_name": "Daiso",
+        "website": "http://www.sunstarmark.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3390802789,
+      "lat": 22.1587251,
+      "lon": 113.5583173,
+      "tags": {
+        "loc_name": "成昌",
+        "name": "成昌超級市場 Supermercado Seng Cheong",
+        "name:pt": "Supermercado Seng Cheong",
+        "name:zh": "成昌超級市場",
+        "opening_hours": "Mo-Su 09:00-18:00",
+        "phone": "+853 2883 1304",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3390802790,
+      "lat": 22.1568943,
+      "lon": 113.552299,
+      "tags": {
+        "fax": "+853 2841 6556",
+        "loc_name": "新苗",
+        "name": "新苗超級市場 San Miu Supermarket",
+        "name:en": "San Miu Supermarket",
+        "name:zh": "新苗超級市場",
+        "name:zh-Hans": "新苗超级市场",
+        "name:zh-Hant": "新苗超級市場",
+        "opening_hours": "Mo-Su,PH 00:00-24:00",
+        "phone": "+853 2884 4766",
+        "shop": "supermarket",
+        "website": "http://www.sanmiu.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3390802792,
+      "lat": 22.1580459,
+      "lon": 113.5583169,
+      "tags": {
+        "loc_name": "泰豐",
+        "name": "泰豐超級市場 Tai Fung Supermarket",
+        "name:en": "Tai Fung Supermarket",
+        "name:zh": "泰豐超級市場",
+        "name:zh-Hans": "泰丰超级市场",
+        "name:zh-Hant": "泰豐超級市場",
+        "phone": "+853 2883 9199",
+        "shop": "supermarket",
+        "website": "http://taifungmacau.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3390803997,
+      "lat": 22.1575403,
+      "lon": 113.5503955,
+      "tags": {
+        "fax": "+853 2882 1166",
+        "loc_name": "金龍電器",
+        "name": "金龍電器超級市場 Jin Long Electrical Supermarket",
+        "name:en": "Jin Long Electrical Supermarket",
+        "name:zh": "金龍電器超級市場",
+        "name:zh-Hans": "金龙电器超级市场",
+        "name:zh-Hant": "金龍電器超級市場",
+        "official_name": "金龍電器超級市場 (氹仔南新門市) Jin Long Electrical Supermarket (1st Branch)",
+        "official_name:en": "Jin Long Electrical Supermarket (1st Branch)",
+        "official_name:zh": "金龍電器超級市場",
+        "opening_hours": "Mo-Su 10:30-20:30",
+        "phone": "+853 2882 1199",
+        "shop": "electronics",
+        "website": "https://www.gdgmacau.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3412254929,
+      "lat": 22.1580893,
+      "lon": 113.5528614,
+      "tags": {
+        "amenity": "pharmacy",
+        "name": "仁輝藥房 Farmácia Yan Fai",
+        "name:pt": "Farmácia Yan Fai",
+        "name:zh": "仁輝藥房",
+        "phone": "+853 2884 2550"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3412254930,
+      "lat": 22.1609107,
+      "lon": 113.5565883,
+      "tags": {
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "億生大藥房 Farmácia Iek Sang",
+        "name:pt": "Farmácia Iek Sang",
+        "name:zh": "億生大藥房",
+        "name:zh-Hans": "亿生大药房",
+        "name:zh-Hant": "億生大藥房",
+        "phone": "+853 2883 7183"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3412261419,
+      "lat": 22.1571184,
+      "lon": 113.5569929,
+      "tags": {
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "萬輝大藥房 Farmácia Man Fai",
+        "name:pt": "Farmácia Man Fai",
+        "name:zh": "萬輝大藥房",
+        "phone": "+853 2884 0806"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3530373653,
+      "lat": 22.1584729,
+      "lon": 113.5613176,
+      "tags": {
+        "amenity": "clinic",
+        "email": "cstaipa@ssm.gov.mo",
+        "fax": "+853 2850 0398",
+        "healthcare": "clinic",
+        "name": "湖畔嘉模衛生中心 Centro de Saúde de Nossa Senhora do Carmo - Lago",
+        "name:en": "Nossa Senhora do Carmo - Lago Health Centre",
+        "name:pt": "Centro de Saúde de Nossa Senhora do Carmo - Lago",
+        "name:zh": "湖畔嘉模衛生中心",
+        "opening_hours": "Mo-Fr 08:30-18:00; Sa,Su 09:00-13:00",
+        "operator": "SSM",
+        "operator:type": "government",
+        "phone": "+853 2850 0400"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3723400349,
+      "lat": 22.1582588,
+      "lon": 113.5556648,
+      "tags": {
+        "asset_ref": "T369",
+        "bench": "yes",
+        "bus": "yes",
+        "departures_board": "timetable",
+        "highway": "bus_stop",
+        "name": "基馬拉斯/氹仔中央公園 Guimarães / Parque Central da Taipa",
+        "name:pt": "Guimarães / Parque Central da Taipa",
+        "name:zh": "基馬拉斯/氹仔中央公園",
+        "public_transport": "platform",
+        "ref": "T369",
+        "route_ref": "37;H3;MT5;N5;N6",
+        "shelter": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3923359050,
+      "lat": 22.1606131,
+      "lon": 113.5565871,
+      "tags": {
+        "asset_ref": "T308",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "氹仔電訊 Av. Sun Yat Sen / CTM",
+        "name:pt": "Av. Sun Yat Sen / CTM",
+        "name:zh": "氹仔電訊",
+        "name:zh-Hans": "凼仔电讯",
+        "name:zh-Hant": "氹仔電訊",
+        "public_transport": "platform",
+        "route_ref": "22;25;25X;28A;30X;MT2"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3923359637,
+      "lat": 22.1562775,
+      "lon": 113.5573816,
+      "tags": {
+        "asset_ref": "T339",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "花城公園 Jardim Cidade das Flores",
+        "name:en": "Garden of Flower City",
+        "name:pt": "Jardim Cidade das Flores",
+        "name:zh": "花城公園",
+        "public_transport": "platform",
+        "ref": "T339/1",
+        "route_ref": "11;22;25;25X;26A;28A;33;MT2",
+        "shelter": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3923359638,
+      "lat": 22.1556891,
+      "lon": 113.5547786,
+      "tags": {
+        "asset_ref": "T325",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "華寶花園 Edf. Jardim de Va Pou",
+        "name:pt": "Edf. Jardim de Va Pou",
+        "name:zh": "華寶花園",
+        "public_transport": "platform",
+        "route_ref": "15;26;30;34;37;MT3;N2"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3924942880,
+      "lat": 22.1584407,
+      "lon": 113.5544688,
+      "tags": {
+        "access": "yes",
+        "amenity": "parking_entrance",
+        "level": "-1",
+        "parking": "underground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3924942912,
+      "lat": 22.1590473,
+      "lon": 113.5552099,
+      "tags": {
+        "access": "yes",
+        "amenity": "parking_entrance",
+        "level": "-1",
+        "parking": "underground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3924942920,
+      "lat": 22.1591288,
+      "lon": 113.5538171,
+      "tags": {
+        "access": "yes",
+        "amenity": "parking_entrance",
+        "level": "-1",
+        "parking": "underground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3924942975,
+      "lat": 22.1597354,
+      "lon": 113.5545583,
+      "tags": {
+        "access": "yes",
+        "amenity": "parking_entrance",
+        "level": "-1",
+        "parking": "underground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4056140475,
+      "lat": 22.1587712,
+      "lon": 113.5617123,
+      "tags": {
+        "amenity": "community_centre",
+        "email": "caet@dsej.gov.mo",
+        "fax": "+853 8590 1511",
+        "name": "湖畔綜合活動中心 Centro de Actividades Polivalentes do Lago",
+        "name:pt": "Centro de Actividades Polivalentes do Lago",
+        "name:zh": "湖畔綜合活動中心",
+        "opening_hours": "Mo-Su 13:00-20:00",
+        "phone": "+853 2850 0218",
+        "website": "http://www.dsej.gov.mo/caet/caet/about/about_CAPL.html"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4056140754,
+      "lat": 22.1586034,
+      "lon": 113.5613499,
+      "tags": {
+        "amenity": "toilets"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4056140812,
+      "lat": 22.1587917,
+      "lon": 113.5606524,
+      "tags": {
+        "access": "yes",
+        "amenity": "parking_entrance"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4078365076,
+      "lat": 22.1588544,
+      "lon": 113.5546407,
+      "tags": {
+        "amenity": "toilets",
+        "asset_ref": "JT1",
+        "name": "JT1 氹仔中央公園公廁 JT1 Sanitários públicos do Parque Central da Taipa",
+        "name:en": "JT1 Public toilet at Central da Taipa Park",
+        "name:pt": "JT1 Sanitários públicos do Parque Central da Taipa",
+        "name:zh": "JT1 氹仔中央公園公廁"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4107983450,
+      "lat": 22.157112,
+      "lon": 113.5605843,
+      "tags": {
+        "leisure": "sports_centre",
+        "name": "運動培訓中心 Centro de Formação",
+        "name:en": "Sports Training Centre",
+        "name:pt": "Centro de Formação",
+        "name:zh": "運動培訓中心",
+        "name:zh-Hans": "运动培训中心",
+        "name:zh-Hant": "運動培訓中心",
+        "phone": "+853 2882 7049"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4192653899,
+      "lat": 22.1556242,
+      "lon": 113.5553441,
+      "tags": {
+        "addr:street": "大連街 Rua de Tai Lin",
+        "amenity": "bar",
+        "name": "Bar 171"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4192666992,
+      "lat": 22.1565609,
+      "lon": 113.5595584,
+      "tags": {
+        "addr:housenumber": "104-106",
+        "addr:street": "飛能便度街 Rua Fernão Mendes Pinto",
+        "amenity": "cafe",
+        "cuisine": "coffee_shop",
+        "email": "nata@nataworld.com",
+        "name": "Cuppa Coffee",
+        "name:en": "Cuppa Coffee",
+        "name:ja": "クッパ コーヒー",
+        "opening_hours": "Mo-Su 08:00-20:00",
+        "phone": "+853 28 825 201",
+        "website": "https://www.mycuppacoffee.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4194831027,
+      "lat": 22.1579771,
+      "lon": 113.5547081,
+      "tags": {
+        "addr:housenumber": "319A",
+        "addr:street": "成都街 Rua de Seng Tou",
+        "amenity": "restaurant",
+        "cuisine": "italian_pizza",
+        "internet_access": "wlan",
+        "name": "Il cafe",
+        "phone": "+85328838372"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4281812591,
+      "lat": 22.1589635,
+      "lon": 113.5537326,
+      "tags": {
+        "addr:housenumber": "18",
+        "addr:street": "成都街 Rua de Seng Tou",
+        "amenity": "restaurant",
+        "cuisine": "indian",
+        "email": "macau@indiankitchen.com.cn",
+        "internet_access": "wlan",
+        "name": "Indian Kitchen",
+        "opening_hours": "Mo-Su 12:00-14:45, 20:15-23:00",
+        "phone": "+85328837088",
+        "website": "http://www.indiankitchen.com.cn"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4288651489,
+      "lat": 22.157333,
+      "lon": 113.5526559,
+      "tags": {
+        "addr:street": "潮州街 Rua de Chiu Chau",
+        "amenity": "restaurant",
+        "cuisine": "arab",
+        "name": "Alibaba Kebab",
+        "opening_hours": "Mo-Su 11:00-00:00",
+        "phone": "+85362033350",
+        "website": "http://www.alibabakebab.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4310070189,
+      "lat": 22.1612839,
+      "lon": 113.5515106,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "心椽"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4310197648,
+      "lat": 22.1587386,
+      "lon": 113.5578993,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "金隆米線(氹仔店)"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4358627192,
+      "lat": 22.1572966,
+      "lon": 113.5542073,
+      "tags": {
+        "addr:city": "氹仔 Taipa",
+        "addr:housenumber": "208號",
+        "addr:street": "布拉干薩街 Rua de Bragança",
+        "branch": "濠景分行",
+        "brand": "中原地產 Centaline Property",
+        "brand:en": "Centaline Property",
+        "brand:wikidata": "Q5058993",
+        "brand:zh": "中原地產",
+        "name": "中原地產 Centaline Property",
+        "name:en": "Centaline Property",
+        "name:zh": "中原地產",
+        "office": "estate_agent"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4424808709,
+      "lat": 22.1583,
+      "lon": 113.5543686,
+      "tags": {
+        "amenity": "cafe",
+        "name:en": "Le Cesar Cafe"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4424808799,
+      "lat": 22.1557649,
+      "lon": 113.5563356,
+      "tags": {
+        "name:en": "Pro Employment Agency",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4424826096,
+      "lat": 22.1583567,
+      "lon": 113.5543023,
+      "tags": {
+        "name:en": "Dog n Cat House Ltd",
+        "shop": "pet"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4424830392,
+      "lat": 22.1579842,
+      "lon": 113.5546629,
+      "tags": {
+        "amenity": "restaurant",
+        "name:en": "Savory Crab"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4424852189,
+      "lat": 22.158238,
+      "lon": 113.554427,
+      "tags": {
+        "amenity": "cafe",
+        "name:en": "iL Cafe Italia"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4430518290,
+      "lat": 22.1576743,
+      "lon": 113.5498154,
+      "tags": {
+        "name": "Yifa Agency",
+        "name:en": "Yifa Agency",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4430518291,
+      "lat": 22.164662,
+      "lon": 113.5641769,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "IGLISIA NI CRSTO",
+        "name:en": "Iglisia Ni Cristo"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4443991389,
+      "lat": 22.1568577,
+      "lon": 113.5530605,
+      "tags": {
+        "addr:street": "運動場圓形地 Rotunda do Estádio",
+        "amenity": "restaurant",
+        "name:en": "Arirung Korean Restaurant"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4470960975,
+      "lat": 22.1639678,
+      "lon": 113.5608861,
+      "tags": {
+        "asset_ref": "T432",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "日昇樓 Edifício Iat Seng",
+        "name:pt": "Edifício Iat Seng",
+        "name:zh": "日昇樓",
+        "public_transport": "platform",
+        "route_ref": "39;72"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4537981489,
+      "lat": 22.1540804,
+      "lon": 113.5567338,
+      "tags": {
+        "addr:housenumber": "33-35",
+        "addr:street": "官也街 Rua do Cunha",
+        "name": "官也墟",
+        "name:en": "Cunha Bazaar",
+        "name:ja": "クーニャバザール",
+        "name:zh": "官也墟",
+        "name:zh-Hans": "官也墟",
+        "name:zh-Hant": "官也墟",
+        "opening_hours": "Mo-Su 09:30-22:00",
+        "shop": "gift"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4572292590,
+      "lat": 22.1580031,
+      "lon": 113.5501195,
+      "tags": {
+        "name": "卡夫卡",
+        "name:zh": "卡夫卡",
+        "shop": "confectionery"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4644370725,
+      "lat": 22.1546329,
+      "lon": 113.5574539,
+      "tags": {
+        "access": "yes",
+        "amenity": "parking",
+        "capacity": "394",
+        "fee": "yes",
+        "maxheight": "2",
+        "maxspeed": "30",
+        "name": "氹仔松樹尾停車場 Auto-Silo de Chun Su Mei",
+        "name:pt": "Auto-Silo de Chun Su Mei",
+        "name:zh": "氹仔松樹尾停車場",
+        "name:zh-Hans": "凼仔松树尾停车场",
+        "name:zh-Hant": "氹仔松樹尾停車場",
+        "payment:cash": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4666712689,
+      "lat": 22.1542448,
+      "lon": 113.5566211,
+      "tags": {
+        "name": "氹仔市集",
+        "name:zh": "氹仔市集",
+        "name:zh-Hans": "凼仔市集",
+        "name:zh-Hant": "氹仔市集",
+        "opening_hours": "Su 11:00-20:00",
+        "tourism": "market"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4730594122,
+      "lat": 22.1588441,
+      "lon": 113.5497035,
+      "tags": {
+        "addr:housenumber": "152",
+        "addr:street": "布拉格街 Rua de Braga",
+        "amenity": "cafe",
+        "cuisine": "ice_cream;japanese;sandwich;dessert",
+        "name": "KAFKA Sweets & Gourmandises 卡夫卡",
+        "name:en": "KAFKA Sweets & Gourmandises",
+        "name:zh": "卡夫卡",
+        "opening_hours": "Mo-Su 13:30-22:00",
+        "phone": "2880086"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4733771822,
+      "lat": 22.1564609,
+      "lon": 113.5595722,
+      "tags": {
+        "addr:housenumber": "84",
+        "addr:street": "飛能便度街 Rua Fernão Mendes Pinto",
+        "amenity": "restaurant",
+        "name": "喜蓮咖啡麵食 (牛尾湯通粉)",
+        "name:zh": "喜蓮咖啡麵食 (牛尾湯通粉)",
+        "name:zh-Hans": "喜莲咖啡面食 (牛尾汤通粉)",
+        "name:zh-Hant": "喜蓮咖啡麵食 (牛尾湯通粉)"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4822060408,
+      "lat": 22.1546888,
+      "lon": 113.5573389,
+      "tags": {
+        "access": "yes",
+        "amenity": "parking_entrance",
+        "level": "-1"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4824423710,
+      "lat": 22.1545585,
+      "lon": 113.5572893,
+      "tags": {
+        "amenity": "bus_station",
+        "asset_ref": "T440",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "松樹尾總站 Chun Su Mei / Terminal",
+        "name:pt": "Chun Su Mei / Terminal",
+        "name:zh": "松樹尾總站",
+        "name:zh-Hans": "松树尾总站",
+        "name:zh-Hant": "松樹尾總站",
+        "public_transport": "station",
+        "route_ref": "37",
+        "shelter": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4834815844,
+      "lat": 22.1613162,
+      "lon": 113.5558487,
+      "tags": {
+        "addr:housenumber": "611",
+        "addr:street": "孫逸仙博士大馬路 Avenida Dr. Sun Yat Sen",
+        "amenity": "bank",
+        "branch": "氹仔支行",
+        "name": "東亞銀行 Banco da East Asia",
+        "name:pt": "Banco da East Asia",
+        "name:zh": "東亞銀行",
+        "name:zh-Hans": "东亚银行",
+        "name:zh-Hant": "東亞銀行",
+        "source": "Kaart Ground Survey 2017"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4834815845,
+      "lat": 22.1593614,
+      "lon": 113.5574519,
+      "tags": {
+        "addr:street": "孫逸仙博士圓形地 Rotunda Dr. Sun Yat Sen",
+        "amenity": "bank",
+        "brand": "中國工商銀行",
+        "brand:en": "Industrial and Commercial Bank of China",
+        "brand:wikidata": "Q26463",
+        "brand:wikipedia": "en:Industrial and Commercial Bank of China",
+        "brand:zh": "中國工商銀行",
+        "brand:zh-Hans": "中国工商银行",
+        "brand:zh-Hant": "中國工商銀行",
+        "name": "工銀澳門 ICBC",
+        "name:en": "ICBC",
+        "name:zh": "工銀澳門",
+        "name:zh-Hans": "工银澳门",
+        "name:zh-Hant": "工銀澳門",
+        "source": "Kaart Ground Survey 2017"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4834815846,
+      "lat": 22.1585445,
+      "lon": 113.558481,
+      "tags": {
+        "addr:street": "孫逸仙博士大馬路 Avenida Dr. Sun Yat Sen",
+        "name": "Mega Sports",
+        "name:en": "Mega Sports",
+        "shop": "sports",
+        "source": "Kaart Ground Survey 2017"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4834829951,
+      "lat": 22.1585321,
+      "lon": 113.5585077,
+      "tags": {
+        "addr:street": "孫逸仙博士大馬路 Avenida Dr. Sun Yat Sen",
+        "name": "Ieslvi",
+        "name:en": "Ieslvi",
+        "shop": "clothes",
+        "source": "Kaart Ground Survey 2017"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4834829953,
+      "lat": 22.1583558,
+      "lon": 113.5586647,
+      "tags": {
+        "addr:street": "孫逸仙博士大馬路 Avenida Dr. Sun Yat Sen",
+        "name": "Mei Fong Gas",
+        "name:en": "Mei Fong Gas",
+        "shop": "gas",
+        "source": "Kaart Ground Survey 2017"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4834829954,
+      "lat": 22.1582072,
+      "lon": 113.5588,
+      "tags": {
+        "addr:street": "孫逸仙博士大馬路 Avenida Dr. Sun Yat Sen",
+        "amenity": "restaurant",
+        "name": "Tongkong Fishing Village",
+        "name:en": "Tongkong Fishing Village",
+        "source": "Kaart Ground Survey 2017"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4834829956,
+      "lat": 22.1580711,
+      "lon": 113.5589419,
+      "tags": {
+        "addr:street": "孫逸仙博士大馬路 Avenida Dr. Sun Yat Sen",
+        "name": "Amazing Beauty",
+        "shop": "beauty",
+        "source": "Kaart Ground Survey 2017"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4834829957,
+      "lat": 22.1578327,
+      "lon": 113.5590987,
+      "tags": {
+        "addr:street": "孫逸仙博士大馬路 Avenida Dr. Sun Yat Sen",
+        "amenity": "veterinary",
+        "name": "Elwood",
+        "source": "Kaart Ground Survey 2017"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4834829958,
+      "lat": 22.157715,
+      "lon": 113.5592242,
+      "tags": {
+        "addr:street": "孫逸仙博士大馬路 Avenida Dr. Sun Yat Sen",
+        "name": "Alwen",
+        "shop": "yes",
+        "source": "Kaart Ground Survey 2017"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4834829959,
+      "lat": 22.1574597,
+      "lon": 113.5594833,
+      "tags": {
+        "addr:street": "孫逸仙博士大馬路 Avenida Dr. Sun Yat Sen",
+        "amenity": "restaurant",
+        "name": "The Terrace",
+        "name:en": "The Terrace",
+        "source": "Kaart Ground Survey 2017"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4835191834,
+      "lat": 22.1615135,
+      "lon": 113.556048,
+      "tags": {
+        "addr:street": "孫逸仙博士大馬路 Avenida Dr. Sun Yat Sen",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "Chon Weng",
+        "name:en": "Chon Weng",
+        "source": "Kaart Ground Survey 2017"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4835191835,
+      "lat": 22.1603509,
+      "lon": 113.5571001,
+      "tags": {
+        "addr:street": "孫逸仙博士大馬路 Avenida Dr. Sun Yat Sen",
+        "name": "Fa Cheruo",
+        "name:pt": "Fa Cheruo",
+        "shop": "convenience",
+        "source": "Kaart Ground Survey 2017"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4835191836,
+      "lat": 22.1601346,
+      "lon": 113.5573111,
+      "tags": {
+        "amenity": "bank",
+        "name": "BDO Remit (Macau)",
+        "name:pt": "BDO Remit (Macau)",
+        "source": "Kaart Ground Survey 2017"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4835191838,
+      "lat": 22.1600738,
+      "lon": 113.5574318,
+      "tags": {
+        "addr:street": "孫逸仙博士大馬路 Avenida Dr. Sun Yat Sen",
+        "name": "Sen Yuan Trading",
+        "name:en": "Sen Yuan Trading",
+        "shop": "yes",
+        "source": "Kaart Ground Survey 2017"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4835191839,
+      "lat": 22.1595171,
+      "lon": 113.5578931,
+      "tags": {
+        "addr:street": "孫逸仙博士大馬路 Avenida Dr. Sun Yat Sen",
+        "name": "Ou Mei",
+        "shop": "furniture",
+        "source": "Kaart Ground Survey 2017"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4835191840,
+      "lat": 22.1593391,
+      "lon": 113.5580459,
+      "tags": {
+        "addr:street": "孫逸仙博士大馬路 Avenida Dr. Sun Yat Sen",
+        "name": "Fashion Furniture Plaza",
+        "name:en": "Fashion Furniture Plaza",
+        "shop": "furniture",
+        "source": "Kaart Ground Survey 2017"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4835191841,
+      "lat": 22.1592009,
+      "lon": 113.5581769,
+      "tags": {
+        "addr:street": "孫逸仙博士大馬路 Avenida Dr. Sun Yat Sen",
+        "name": "Family Depot",
+        "name:en": "Family Depot",
+        "shop": "yes",
+        "source": "Kaart Ground Survey 2017"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4835191842,
+      "lat": 22.1590256,
+      "lon": 113.5583936,
+      "tags": {
+        "addr:street": "孫逸仙博士大馬路 Avenida Dr. Sun Yat Sen",
+        "brand": "Mercedes-Benz",
+        "brand:wikidata": "Q36008",
+        "name": "Mercedes-Benz",
+        "name:en": "Mercedes-Benz",
+        "shop": "car",
+        "source": "Kaart Ground Survey 2017"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4835191843,
+      "lat": 22.1589137,
+      "lon": 113.5585005,
+      "tags": {
+        "addr:street": "孫逸仙博士大馬路 Avenida Dr. Sun Yat Sen",
+        "brand": "Audi",
+        "brand:wikidata": "Q23317",
+        "name": "Audi Macau",
+        "name:en": "Audi Macau",
+        "shop": "car",
+        "source": "Kaart Ground Survey 2017"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4835191846,
+      "lat": 22.1580568,
+      "lon": 113.5609923,
+      "tags": {
+        "addr:street": "美副將馬路 Estrada Coronel Nicolau de Mesquita",
+        "amenity": "dentist",
+        "name": "American Dental",
+        "source": "Kaart Ground Survey 2017"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4835191850,
+      "lat": 22.1617759,
+      "lon": 113.5606403,
+      "tags": {
+        "addr:street": "徐日昇寅公馬路 Avenida Padre Tomás Pereira",
+        "name": "Learn with Me, Macau",
+        "office": "educational_institution",
+        "source": "Kaart Ground Survey 2017"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4835191851,
+      "lat": 22.1621926,
+      "lon": 113.5611912,
+      "tags": {
+        "addr:street": "高勵雅馬路 Estrada Almirante Magalhães Correia",
+        "name": "Double",
+        "shop": "yes",
+        "source": "Kaart Ground Survey 2017"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4835223173,
+      "lat": 22.1622807,
+      "lon": 113.5613134,
+      "tags": {
+        "addr:street": "高勵雅馬路 Estrada Almirante Magalhães Correia",
+        "name": "Infiniti",
+        "shop": "car",
+        "source": "Kaart Ground Survey 2017"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4835420765,
+      "lat": 22.1627299,
+      "lon": 113.5601449,
+      "tags": {
+        "addr:street": "海灣街 Rua da Baía",
+        "name": "Dog One Life",
+        "shop": "pet",
+        "source": "Kaart Ground Survey 2017"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4835420766,
+      "lat": 22.1623846,
+      "lon": 113.5552541,
+      "tags": {
+        "addr:street": "孫逸仙博士大馬路 Avenida Dr. Sun Yat Sen",
+        "amenity": "nightclub",
+        "name": "Venus Disco Night Club",
+        "source": "Kaart Ground Survey 2017"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4835420767,
+      "lat": 22.1620311,
+      "lon": 113.5555427,
+      "tags": {
+        "addr:street": "孫逸仙博士大馬路 Avenida Dr. Sun Yat Sen",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "Loyal Health & Care",
+        "name:en": "Loyal Health & Care",
+        "source": "Kaart Ground Survey 2017"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4835420768,
+      "lat": 22.1618104,
+      "lon": 113.5557475,
+      "tags": {
+        "addr:street": "孫逸仙博士大馬路 Avenida Dr. Sun Yat Sen",
+        "amenity": "bureau_de_change",
+        "name": "Money Exchange",
+        "name:en": "Money Exchange",
+        "source": "Kaart Ground Survey 2017"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4836928008,
+      "lat": 22.155923,
+      "lon": 113.5599434,
+      "tags": {
+        "addr:street": "嘉樂庇總督馬路 Estrada Governador Nobre de Carvalho",
+        "amenity": "restaurant",
+        "fixme": "name",
+        "source": "Kaart Ground Survey 2017"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4836928009,
+      "lat": 22.1559678,
+      "lon": 113.5599562,
+      "tags": {
+        "addr:street": "嘉樂庇總督馬路 Estrada Governador Nobre de Carvalho",
+        "amenity": "restaurant",
+        "name": "Cozinha Pequena",
+        "source": "Kaart Ground Survey 2017"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4836928012,
+      "lat": 22.1567169,
+      "lon": 113.558715,
+      "tags": {
+        "addr:housenumber": "563-569",
+        "addr:street": "奧林匹克大馬路 Avenida Olímpica",
+        "amenity": "bank",
+        "branch": "奧林匹克分行",
+        "brand": "大豐銀行 Banco Tai Fung",
+        "brand:en": "Tai Fung Bank",
+        "brand:pt": "Banco Tai Fung",
+        "brand:wikidata": "Q10938051",
+        "brand:zh": "大豐銀行",
+        "name": "大豐銀行 Banco Tai Fung",
+        "name:en": "Tai Fung Bank",
+        "name:pt": "Banco Tai Fung",
+        "name:zh": "大豐銀行",
+        "source": "Kaart Ground Survey 2017"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4836928013,
+      "lat": 22.1566572,
+      "lon": 113.5584313,
+      "tags": {
+        "addr:street": "奧林匹克大馬路 Avenida Olímpica",
+        "name": "Advan",
+        "name:en": "Advan",
+        "shop": "car_repair",
+        "source": "Kaart Ground Survey 2017"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4836928014,
+      "lat": 22.1565776,
+      "lon": 113.5579391,
+      "tags": {
+        "addr:street": "奧林匹克大馬路 Avenida Olímpica",
+        "name": "Waheng",
+        "shop": "furniture",
+        "source": "Kaart Ground Survey 2017"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4836928015,
+      "lat": 22.1565557,
+      "lon": 113.5578364,
+      "tags": {
+        "addr:street": "奧林匹克大馬路 Avenida Olímpica",
+        "amenity": "fast_food",
+        "brand": "麥當勞 McDonald's",
+        "brand:en": "McDonald's",
+        "brand:wikidata": "Q38076",
+        "brand:wikipedia": "zh:麦当劳",
+        "brand:zh": "麥當勞",
+        "brand:zh-Hans": "麦当劳",
+        "brand:zh-Hant": "麥當勞",
+        "cuisine": "burger",
+        "name": "麥當勞 McDonald's",
+        "name:en": "McDonald's",
+        "name:zh": "麥當勞",
+        "name:zh-Hans": "麦当劳",
+        "name:zh-Hant": "麥當勞",
+        "source": "Kaart Ground Survey 2017",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4836928016,
+      "lat": 22.1554317,
+      "lon": 113.5558912,
+      "tags": {
+        "addr:street": "奧林匹克大馬路 Avenida Olímpica",
+        "name": "Oops!",
+        "shop": "yes",
+        "source": "Kaart Ground Survey 2017"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4836981240,
+      "lat": 22.1559065,
+      "lon": 113.5596718,
+      "tags": {
+        "addr:street": "嘉樂庇總督馬路 Estrada Governador Nobre de Carvalho",
+        "name": "Million Property",
+        "name:en": "Million Property",
+        "office": "estate_agent",
+        "source": "Kaart Ground Survey 2017"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4836981241,
+      "lat": 22.1559943,
+      "lon": 113.5596808,
+      "tags": {
+        "addr:street": "嘉樂庇總督馬路 Estrada Governador Nobre de Carvalho",
+        "name": "Greenhouse",
+        "name:en": "Greenhouse",
+        "shop": "yes",
+        "source": "Kaart Ground Survey 2017"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4836981242,
+      "lat": 22.1567223,
+      "lon": 113.5597639,
+      "tags": {
+        "addr:street": "嘉樂庇總督馬路 Estrada Governador Nobre de Carvalho",
+        "name": "Cheok Wang",
+        "name:en": "Cheok Wang",
+        "shop": "convenience",
+        "source": "Kaart Ground Survey 2017"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4836981243,
+      "lat": 22.1566699,
+      "lon": 113.5596024,
+      "tags": {
+        "addr:street": "飛能便度街 Rua Fernão Mendes Pinto",
+        "name": "Anson Beauty",
+        "name:en": "Anson Beauty",
+        "shop": "beauty",
+        "source": "Kaart Ground Survey 2017"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4836981244,
+      "lat": 22.1565778,
+      "lon": 113.559194,
+      "tags": {
+        "addr:street": "奧林匹克大馬路 Avenida Olímpica",
+        "name": "Élysée",
+        "name:en": "Élysée",
+        "shop": "yes",
+        "source": "Kaart Ground Survey 2017"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5035019731,
+      "lat": 22.1546526,
+      "lon": 113.556306,
+      "tags": {
+        "amenity": "restaurant",
+        "branch": "氹仔店",
+        "name": "世紀咖啡",
+        "name:zh": "世紀咖啡",
+        "name:zh-Hans": "世纪咖啡",
+        "name:zh-Hant": "世紀咖啡"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5180662621,
+      "lat": 22.1571365,
+      "lon": 113.5545952,
+      "tags": {
+        "addr:housenumber": "144號至尊花城",
+        "addr:street": "基馬拉斯大馬路 Avenida de Guimarães",
+        "amenity": "cafe",
+        "internet_access": "wlan",
+        "name:en": "U cafe Veng Kei",
+        "opening_hours": "Mo-Su 11:30-00:30"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5235163206,
+      "lat": 22.1632905,
+      "lon": 113.559568,
+      "tags": {
+        "amenity": "cafe",
+        "name": "中心咖啡店",
+        "name:zh": "中心咖啡店"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5273869423,
+      "lat": 22.1602852,
+      "lon": 113.5571453,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "肥仔文美食",
+        "name:zh": "肥仔文美食",
+        "name:zh-Hans": "肥仔文美食",
+        "name:zh-Hant": "肥仔文美食"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5347255344,
+      "lat": 22.1572404,
+      "lon": 113.5597648,
+      "tags": {
+        "addr:street": "孫逸仙博士大馬路 Avenida Dr. Sun Yat Sen",
+        "name": "Mits",
+        "name:en": "Mits",
+        "shop": "yes",
+        "source": "Kaart Ground Survey 2017"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5444231674,
+      "lat": 22.1589149,
+      "lon": 113.5606297,
+      "tags": {
+        "amenity": "toilets",
+        "asset_ref": "JT2",
+        "name": "JT2 湖畔大廈平台花園公廁 JT2 Sanitário Público da Plataforma ajardinada do Edif. do Lago",
+        "name:en": "JT2 Public toilet at Edif. do Lago Podium Garden",
+        "name:pt": "JT2 Sanitário Público da Plataforma ajardinada do Edif. do Lago",
+        "name:zh": "JT2 湖畔大廈平台花園公廁"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5444231675,
+      "lat": 22.1592012,
+      "lon": 113.5612293,
+      "tags": {
+        "amenity": "toilets",
+        "asset_ref": "JT3",
+        "name": "JT3 湖畔大廈平台花園公廁 JT3 Sanitário Público da Plataforma ajardinada do Edif. do Lago",
+        "name:en": "JT3 Public toilet at Edif. do Lago Podium Garden",
+        "name:pt": "JT3 Sanitário Público da Plataforma ajardinada do Edif. do Lago",
+        "name:zh": "JT3 湖畔大廈平台花園公廁"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5444925025,
+      "lat": 22.1640121,
+      "lon": 113.5486709,
+      "tags": {
+        "amenity": "toilets",
+        "asset_ref": "T15",
+        "name": "T15 氹仔小潭山觀景台公廁 T15 Sanitário Público do Miradouro da Colina da Taipa Pequena, Taipa",
+        "name:en": "T15 Public toilet in viewing platform of Taipa Pequena, Taipa",
+        "name:pt": "T15 Sanitário Público do Miradouro da Colina da Taipa Pequena, Taipa",
+        "name:zh": "T15 氹仔小潭山觀景台公廁",
+        "opening_hours": "24/7"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5455569624,
+      "lat": 22.1580203,
+      "lon": 113.5502685,
+      "tags": {
+        "addr:street": "布拉格街 Rua de Braga",
+        "amenity": "bar"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5553658869,
+      "lat": 22.1584889,
+      "lon": 113.554998,
+      "tags": {
+        "amenity": "vending_machine",
+        "currency:HKD": "yes",
+        "currency:MOP": "yes",
+        "payment:Macau_Pass": "yes",
+        "payment:cash": "yes",
+        "payment:coins": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5553658870,
+      "lat": 22.1597557,
+      "lon": 113.5542336,
+      "tags": {
+        "amenity": "vending_machine",
+        "currency:HKD": "yes",
+        "currency:MOP": "yes",
+        "payment:Macau_Pass": "yes",
+        "payment:cash": "yes",
+        "payment:coins": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5660417023,
+      "lat": 22.158291,
+      "lon": 113.5500283,
+      "tags": {
+        "amenity": "restaurant",
+        "name:pt": "Rest. indonésio."
+      }
+    },
+    {
+      "type": "node",
+      "id": 5688157423,
+      "lat": 22.1615804,
+      "lon": 113.5547029,
+      "tags": {
+        "name": "sound 17@12noon",
+        "name:en": "sound 17@12noon",
+        "shop": "outdoor"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5769905332,
+      "lat": 22.1555452,
+      "lon": 113.5523615,
+      "tags": {
+        "asset_ref": "T361",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "運動場/賽馬會 Estádio/ Jockey Club",
+        "name:pt": "Estádio/ Jockey Club",
+        "name:zh": "運動場/賽馬會",
+        "name:zh-Hans": "运动场/赛马会",
+        "name:zh-Hant": "運動場/賽馬會",
+        "old_name": "運動場道",
+        "public_transport": "platform",
+        "route_ref": "25B;26A;30X;35;72;MT1;MT3;MT4;N6"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5882130599,
+      "lat": 22.1587165,
+      "lon": 113.5600925,
+      "tags": {
+        "name": "三家村 Povoação de Sam Ka",
+        "place": "locality"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5882130600,
+      "lat": 22.1612113,
+      "lon": 113.5577693,
+      "tags": {
+        "name": "卓家村 Povoação de Cheok Ka",
+        "name:pt": "Povoação de Cheok Ka",
+        "name:zh": "卓家村",
+        "name:zh-Hans": "卓家村",
+        "name:zh-Hant": "卓家村",
+        "place": "locality"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5922075786,
+      "lat": 22.1575671,
+      "lon": 113.5566628,
+      "tags": {
+        "addr:housenumber": "28843946",
+        "amenity": "restaurant",
+        "name:en": "san mou i kuong",
+        "name:ko": "신무이"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5938615084,
+      "lat": 22.1588413,
+      "lon": 113.5613939,
+      "tags": {
+        "amenity": "bus_station",
+        "asset_ref": "T408",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "local_ref": "E",
+        "name": "湖畔大廈 Edifício do Lago",
+        "name:pt": "Edifício do Lago",
+        "name:zh": "湖畔大廈",
+        "public_transport": "station",
+        "route_ref": "39;N2;N5",
+        "shelter": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5938615985,
+      "lat": 22.1587103,
+      "lon": 113.5612234,
+      "tags": {
+        "amenity": "bus_station",
+        "asset_ref": "T408",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "local_ref": "E",
+        "name": "湖畔大廈 Edifício do Lago",
+        "name:pt": "Edifício do Lago",
+        "name:zh": "湖畔大廈",
+        "public_transport": "station",
+        "route_ref": "11",
+        "shelter": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5938615986,
+      "lat": 22.1586624,
+      "lon": 113.5610685,
+      "tags": {
+        "amenity": "bus_station",
+        "asset_ref": "T408",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "local_ref": "D",
+        "name": "湖畔大廈 Edifício do Lago",
+        "name:pt": "Edifício do Lago",
+        "name:zh": "湖畔大廈",
+        "public_transport": "station",
+        "route_ref": "MT5",
+        "shelter": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5938615987,
+      "lat": 22.1589661,
+      "lon": 113.5612777,
+      "tags": {
+        "amenity": "bus_station",
+        "asset_ref": "T408",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "local_ref": "C",
+        "name": "湖畔大廈 Edifício do Lago",
+        "name:pt": "Edifício do Lago",
+        "name:zh": "湖畔大廈",
+        "public_transport": "station",
+        "route_ref": "56;AP1;MT3",
+        "shelter": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5938615988,
+      "lat": 22.1588301,
+      "lon": 113.5611013,
+      "tags": {
+        "amenity": "bus_station",
+        "asset_ref": "T408",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "local_ref": "C",
+        "name": "湖畔大廈 Edifício do Lago",
+        "name:pt": "Edifício do Lago",
+        "name:zh": "湖畔大廈",
+        "public_transport": "station",
+        "route_ref": "30;34",
+        "shelter": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5938615989,
+      "lat": 22.1590984,
+      "lon": 113.561163,
+      "tags": {
+        "amenity": "bus_station",
+        "asset_ref": "T408",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "local_ref": "A",
+        "name": "湖畔大廈 Edifício do Lago",
+        "name:pt": "Edifício do Lago",
+        "name:zh": "湖畔大廈",
+        "public_transport": "station",
+        "route_ref": "35;36;72",
+        "shelter": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5948760737,
+      "lat": 22.1628678,
+      "lon": 113.55067,
+      "tags": {
+        "information": "guidepost",
+        "name": "2-02-01",
+        "tourism": "information"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5948760738,
+      "lat": 22.16168,
+      "lon": 113.5501317,
+      "tags": {
+        "information": "guidepost",
+        "name": "2-02-02",
+        "tourism": "information"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5948760739,
+      "lat": 22.1606048,
+      "lon": 113.5487199,
+      "tags": {
+        "information": "guidepost",
+        "name": "2-02-03",
+        "tourism": "information"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5948760749,
+      "lat": 22.1629953,
+      "lon": 113.5485625,
+      "tags": {
+        "information": "guidepost",
+        "name": "2-02-11",
+        "tourism": "information"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5948760751,
+      "lat": 22.1595472,
+      "lon": 113.5673272,
+      "tags": {
+        "information": "guidepost",
+        "name": "2-01-02",
+        "tourism": "information"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5948760752,
+      "lat": 22.1607796,
+      "lon": 113.566609,
+      "tags": {
+        "information": "guidepost",
+        "name": "2-01-03",
+        "tourism": "information"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5948760753,
+      "lat": 22.1612811,
+      "lon": 113.5648541,
+      "tags": {
+        "information": "guidepost",
+        "name": "2-01-04",
+        "tourism": "information"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5948760754,
+      "lat": 22.1606036,
+      "lon": 113.5636888,
+      "tags": {
+        "information": "guidepost",
+        "name": "2-01-05",
+        "tourism": "information"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5948760755,
+      "lat": 22.1589826,
+      "lon": 113.5637519,
+      "tags": {
+        "information": "guidepost",
+        "name": "2-01-06",
+        "tourism": "information"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5948760756,
+      "lat": 22.1575011,
+      "lon": 113.56319,
+      "tags": {
+        "information": "guidepost",
+        "name": "2-01-07",
+        "tourism": "information"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5948760757,
+      "lat": 22.1561247,
+      "lon": 113.5626533,
+      "tags": {
+        "information": "guidepost",
+        "name": "2-01-08",
+        "name:en": "2-01-08",
+        "tourism": "information"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5948760758,
+      "lat": 22.1552791,
+      "lon": 113.5630471,
+      "tags": {
+        "information": "guidepost",
+        "name": "2-01-09",
+        "name:en": "2-01-09",
+        "tourism": "information"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5948760760,
+      "lat": 22.1554336,
+      "lon": 113.5648631,
+      "tags": {
+        "information": "guidepost",
+        "name": "2-01-11",
+        "tourism": "information"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5948760761,
+      "lat": 22.1560737,
+      "lon": 113.5663102,
+      "tags": {
+        "information": "guidepost",
+        "name": "2-01-12",
+        "tourism": "information"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5948760762,
+      "lat": 22.1574618,
+      "lon": 113.56725,
+      "tags": {
+        "information": "guidepost",
+        "name": "2-01-13",
+        "tourism": "information"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5948760764,
+      "lat": 22.1607817,
+      "lon": 113.5658261,
+      "tags": {
+        "information": "guidepost",
+        "name": "2-01-15",
+        "tourism": "information"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5948760765,
+      "lat": 22.159547,
+      "lon": 113.5651528,
+      "tags": {
+        "information": "guidepost",
+        "name": "2-01-16",
+        "tourism": "information"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5948760766,
+      "lat": 22.1581884,
+      "lon": 113.5660184,
+      "tags": {
+        "information": "guidepost",
+        "name": "2-01-17",
+        "tourism": "information"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5948760767,
+      "lat": 22.1570163,
+      "lon": 113.5648049,
+      "tags": {
+        "information": "guidepost",
+        "name": "2-01-18",
+        "tourism": "information"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5948760768,
+      "lat": 22.1557905,
+      "lon": 113.5633737,
+      "tags": {
+        "information": "guidepost",
+        "name": "2-01-19",
+        "name:en": "2-01-19",
+        "tourism": "information"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6094512751,
+      "lat": 22.1577288,
+      "lon": 113.5513613,
+      "tags": {
+        "name:en": "Grand Mart",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6218311294,
+      "lat": 22.1610172,
+      "lon": 113.5544713,
+      "tags": {
+        "addr:housenumber": "732",
+        "addr:street": "廣東大馬路 Avenida de Kwong Tung",
+        "amenity": "bank",
+        "brand": "大西洋銀行 Banco Nacional Ultramarino",
+        "brand:pt": "Banco Nacional Ultramarino",
+        "brand:wikidata": "Q806190",
+        "brand:zh": "大西洋銀行",
+        "name": "大西洋銀行 Banco Nacional Ultramarino",
+        "name:pt": "Banco Nacional Ultramarino",
+        "name:zh": "大西洋銀行"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6218311298,
+      "lat": 22.1574971,
+      "lon": 113.5551252,
+      "tags": {
+        "addr:housenumber": "172-180",
+        "addr:street": "基馬拉斯大馬路 Avenida de Guimarães",
+        "amenity": "bank",
+        "brand": "大豐銀行 Banco Tai Fung",
+        "brand:en": "Tai Fung Bank",
+        "brand:pt": "Banco Tai Fung",
+        "brand:wikidata": "Q10938051",
+        "brand:zh": "大豐銀行",
+        "name": "大豐銀行 Banco Tai Fung",
+        "name:en": "Tai Fung Bank",
+        "name:pt": "Banco Tai Fung",
+        "name:zh": "大豐銀行"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6218311299,
+      "lat": 22.1575622,
+      "lon": 113.5493476,
+      "tags": {
+        "addr:housenumber": "390-400",
+        "addr:street": "柯維納馬路 Estrada Governador Albano de Oliveira",
+        "air_conditioning": "yes",
+        "amenity": "bank",
+        "branch": "南新分行",
+        "brand": "大豐銀行 Banco Tai Fung",
+        "brand:en": "Tai Fung Bank",
+        "brand:pt": "Banco Tai Fung",
+        "brand:wikidata": "Q10938051",
+        "brand:zh": "大豐銀行",
+        "name": "大豐銀行 Banco Tai Fung",
+        "name:en": "Tai Fung Bank",
+        "name:pt": "Banco Tai Fung",
+        "name:zh": "大豐銀行"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6218311311,
+      "lat": 22.1588113,
+      "lon": 113.5577198,
+      "tags": {
+        "addr:housenumber": "389",
+        "addr:street": "大連街 Rua de Tai Lin",
+        "amenity": "bank",
+        "branch": "Banco Industrial e Comercial da China",
+        "brand": "中國工商銀行",
+        "brand:en": "Industrial and Commercial Bank of China",
+        "brand:wikidata": "Q26463",
+        "brand:zh": "中國工商銀行",
+        "brand:zh-Hans": "中国工商银行",
+        "brand:zh-Hant": "中國工商銀行",
+        "name": "工銀澳門 ICBC",
+        "name:en": "ICBC",
+        "name:pt": "Banco Industrial e Comercial da China",
+        "name:zh": "工銀澳門",
+        "name:zh-Hans": "工银澳门",
+        "name:zh-Hant": "工銀澳門"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6218833924,
+      "lat": 22.1577907,
+      "lon": 113.5548352,
+      "tags": {
+        "addr:housenumber": "281-293",
+        "addr:street": "成都街 Rua de Seng Tou",
+        "amenity": "bank",
+        "brand": "中國工商銀行",
+        "brand:en": "Industrial and Commercial Bank of China",
+        "brand:wikidata": "Q26463",
+        "brand:wikipedia": "en:Industrial and Commercial Bank of China",
+        "brand:zh": "中國工商銀行",
+        "brand:zh-Hans": "中国工商银行",
+        "brand:zh-Hant": "中國工商銀行",
+        "name": "工銀澳門 ICBC",
+        "name:en": "ICBC",
+        "name:pt": "Banco Industrial e Comercial da China",
+        "name:zh": "工銀澳門",
+        "name:zh-Hans": "工银澳门",
+        "name:zh-Hant": "工銀澳門"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6219106926,
+      "lat": 22.1569315,
+      "lon": 113.5544902,
+      "tags": {
+        "addr:housenumber": "160",
+        "addr:street": "布拉干薩街 Rua de Bragança",
+        "amenity": "bank",
+        "brand": "中國建設銀行 Banco de Construção da China",
+        "brand:en": "China Construction Bank",
+        "brand:pt": "Banco de Construção da China",
+        "brand:wikidata": "Q26299",
+        "brand:wikipedia": "en:China Construction Bank",
+        "brand:zh": "中國建設銀行",
+        "brand:zh-Hans": "中国建设银行",
+        "brand:zh-Hant": "中國建設銀行",
+        "name": "中國建設銀行 Banco de Construção da China",
+        "name:en": "China Construction Bank",
+        "name:pt": "Banco de Construção da China",
+        "name:zh": "中國建設銀行",
+        "name:zh-Hans": "中国建设银行",
+        "name:zh-Hant": "中國建設銀行",
+        "short_name": "CCB"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6219106933,
+      "lat": 22.1572205,
+      "lon": 113.557251,
+      "tags": {
+        "addr:street": "埃武拉街 Rua de Évora",
+        "amenity": "bank",
+        "brand": "澳門商業銀行 Banco Comercial de Macau",
+        "brand:pt": "Banco Comercial de Macau",
+        "brand:wikidata": "Q22099041",
+        "brand:zh": "澳門商業銀行",
+        "name": "澳門商業銀行 Banco Comercial de Macau",
+        "name:pt": "Banco Comercial de Macau",
+        "name:zh": "澳門商業銀行"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6219106943,
+      "lat": 22.1573296,
+      "lon": 113.5549126,
+      "tags": {
+        "addr:housenumber": "152-158",
+        "addr:street": "基馬拉斯大馬路 Avenida de Guimarães",
+        "amenity": "bank",
+        "brand": "澳門國際銀行 Banco Luso Internacional",
+        "brand:en": "Luso International Banking",
+        "brand:pt": "Banco Luso Internacional",
+        "brand:wikidata": "Q15934810",
+        "brand:zh": "澳門國際銀行",
+        "name": "澳門國際銀行 Banco Luso Internacional",
+        "name:en": "Luso International Banking",
+        "name:pt": "Banco Luso Internacional",
+        "name:zh": "澳門國際銀行"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6219106945,
+      "lat": 22.1583082,
+      "lon": 113.5575588,
+      "tags": {
+        "addr:housenumber": "222",
+        "addr:street": "南京街 Rua de Nam Keng",
+        "amenity": "bank",
+        "atm": "yes",
+        "brand": "澳門國際銀行 Banco Luso Internacional",
+        "brand:en": "Luso International Banking",
+        "brand:pt": "Banco Luso Internacional",
+        "brand:wikidata": "Q15934810",
+        "brand:zh": "澳門國際銀行",
+        "name": "澳門國際銀行 Banco Luso Internacional",
+        "name:en": "Luso International Banking",
+        "name:pt": "Banco Luso Internacional",
+        "name:zh": "澳門國際銀行"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6239057401,
+      "lat": 22.1586599,
+      "lon": 113.5548282,
+      "tags": {
+        "name": "氹仔市中心 Centro de Taipa",
+        "name:pt": "Centro de Taipa",
+        "name:zh": "氹仔市中心",
+        "place": "quarter"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6285381939,
+      "lat": 22.1570161,
+      "lon": 113.5564997,
+      "tags": {
+        "name": "花城百佳購物廣場 Centro Comercial Park'nShop da  Cidade das Flores",
+        "name:pt": "Centro Comercial Park'nShop da  Cidade das Flores",
+        "name:zh": "花城百佳購物廣場",
+        "shop": "mall"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6285381940,
+      "lat": 22.1569614,
+      "lon": 113.5580098,
+      "tags": {
+        "name": "新苗花城購物商場",
+        "name:zh": "新苗花城購物商場",
+        "shop": "mall"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6317221485,
+      "lat": 22.1570111,
+      "lon": 113.5584752,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "囍囍茶餐厅",
+        "name:en": "Brilliant Gourmet",
+        "name:zh": "囍囍茶餐厅",
+        "name:zh-Hans": "囍囍茶餐厅",
+        "name:zh-Hant": "囍囍茶餐厅"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6339927726,
+      "lat": 22.1577433,
+      "lon": 113.5478774,
+      "tags": {
+        "amenity": "parking_entrance"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6383773432,
+      "lat": 22.160665,
+      "lon": 113.551615,
+      "tags": {
+        "access": "private",
+        "amenity": "parking_entrance",
+        "level": "-1",
+        "parking": "underground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6527920086,
+      "lat": 22.1542685,
+      "lon": 113.5578549,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "文記咖啡美食",
+        "name:zh": "文記咖啡美食",
+        "name:zh-Hans": "文记咖啡美食",
+        "name:zh-Hant": "文記咖啡美食"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6636571185,
+      "lat": 22.1612918,
+      "lon": 113.5510963,
+      "tags": {
+        "amenity": "cafe",
+        "name:en": "ZEN Macau"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6646099471,
+      "lat": 22.156629,
+      "lon": 113.5562176,
+      "tags": {
+        "name:en": "Gathering",
+        "shop": "beverages"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6646117328,
+      "lat": 22.156621,
+      "lon": 113.554807,
+      "tags": {
+        "amenity": "cafe",
+        "name:en": "LAX Cafe"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6646123476,
+      "lat": 22.1575449,
+      "lon": 113.5546021,
+      "tags": {
+        "amenity": "fast_food",
+        "branch": "中央公園店",
+        "branch:en": "Nova Park Branch",
+        "brand": "麥當勞 McDonald's",
+        "brand:en": "McDonald's",
+        "brand:wikidata": "Q38076",
+        "brand:zh": "麥當勞",
+        "brand:zh-Hans": "麦当劳",
+        "brand:zh-Hant": "麥當勞",
+        "cuisine": "burger",
+        "internet_access": "wlan",
+        "name": "麥當勞 McDonald's",
+        "name:en": "McDonald's",
+        "name:zh": "麥當勞",
+        "name:zh-Hans": "麦当劳",
+        "name:zh-Hant": "麥當勞",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6700393486,
+      "lat": 22.1565522,
+      "lon": 113.5577505,
+      "tags": {
+        "amenity": "bar",
+        "name:en": "Mugs Taipa"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7051569799,
+      "lat": 22.1541389,
+      "lon": 113.5517837,
+      "tags": {
+        "light_rail": "yes",
+        "name": "運動場 Estádio",
+        "name:en": "Stadium Station",
+        "name:pt": "Estádio",
+        "name:zh": "運動場",
+        "name:zh-Hans": "运动场",
+        "name:zh-Hant": "運動場",
+        "public_transport": "stop_position",
+        "railway": "stop"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7051569800,
+      "lat": 22.1545952,
+      "lon": 113.5519477,
+      "tags": {
+        "light_rail": "yes",
+        "name": "運動場 Estádio",
+        "name:en": "Stadium Station",
+        "name:pt": "Estádio",
+        "name:zh": "運動場",
+        "name:zh-Hans": "运动场",
+        "name:zh-Hant": "運動場",
+        "public_transport": "stop_position",
+        "railway": "stop"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7051569801,
+      "lat": 22.154363,
+      "lon": 113.5518827,
+      "tags": {
+        "level": "3",
+        "light_rail": "yes",
+        "name": "運動場 Estádio",
+        "name:en": "Stadium Station",
+        "name:pt": "Estádio",
+        "name:zh": "運動場",
+        "name:zh-Hans": "运动场",
+        "name:zh-Hant": "運動場",
+        "operator": "港鐵軌道營運（澳門） MTR Operações Ferroviárias (Macau)",
+        "operator:en": "MTR Railway Operations (Macau)",
+        "operator:pt": "MTR Operações Ferroviárias (Macau)",
+        "operator:zh": "港鐵軌道營運（澳門）",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "ST15",
+        "station": "light_rail",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7447963049,
+      "lat": 22.1607364,
+      "lon": 113.5535137,
+      "tags": {
+        "brand": "宜家家居 IKEA",
+        "brand:en": "IKEA",
+        "brand:wikidata": "Q54078",
+        "brand:wikipedia": "en:IKEA",
+        "brand:zh": "宜家家居",
+        "currency:MOP": "yes",
+        "name": "宜家家居 IKEA",
+        "name:en": "IKEA",
+        "name:zh": "宜家家居",
+        "shop": "furniture",
+        "start_date": "2020-04-23"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7447963050,
+      "lat": 22.1605016,
+      "lon": 113.5530818,
+      "tags": {
+        "name": "星皓廣場 Nova Mall",
+        "name:en": "Nova Mall",
+        "name:zh": "星皓廣場",
+        "opening_hours": "Mo-Su 10:00-22:00",
+        "shop": "mall"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7455731878,
+      "lat": 22.1606758,
+      "lon": 113.5536515,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "IKEA",
+        "brand:en": "IKEA",
+        "brand:wikidata": "Q54078",
+        "brand:wikipedia": "en:IKEA",
+        "brand:zh": "宜家家居",
+        "cuisine": "swedish",
+        "name": "宜家家居餐廳",
+        "name:en": "IKEA Restaurant",
+        "name:zh": "宜家家居餐廳",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7530994918,
+      "lat": 22.1638682,
+      "lon": 113.5584234,
+      "tags": {
+        "ele": "58.5",
+        "name": "北澳山",
+        "name:zh": "北澳山",
+        "natural": "peak"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7632802506,
+      "lat": 22.160626,
+      "lon": 113.553781,
+      "tags": {
+        "amenity": "cafe",
+        "brand": "星巴克 Starbucks",
+        "brand:en": "Starbucks",
+        "brand:wikidata": "Q37158",
+        "brand:wikipedia": "zh:星巴克",
+        "brand:zh": "星巴克",
+        "cuisine": "coffee_shop",
+        "name": "星巴克 Starbucks",
+        "name:en": "Starbucks",
+        "name:zh": "星巴克",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7632802507,
+      "lat": 22.1608011,
+      "lon": 113.5537609,
+      "tags": {
+        "brand": "玩具反斗城 Toys R Us",
+        "brand:en": "Toys R Us",
+        "brand:wikidata": "Q131521392",
+        "brand:wikipedia": "en:Toys \"R\" Us",
+        "brand:zh": "玩具反斗城",
+        "name": "玩具反斗城 Toys R Us",
+        "name:en": "Toys R Us",
+        "name:zh": "玩具反斗城",
+        "shop": "toys"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7637266557,
+      "lat": 22.164649,
+      "lon": 113.5587579,
+      "tags": {
+        "access": "private",
+        "amenity": "parking_entrance",
+        "level": "-1"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7654219744,
+      "lat": 22.1614319,
+      "lon": 113.5537871,
+      "tags": {
+        "amenity": "police",
+        "name": "司法警察局毒品罪案調查處 Divisão de Investigação e Combate ao Tráfico de Estupefacientes de Polícia Judiciária",
+        "name:pt": "Divisão de Investigação e Combate ao Tráfico de Estupefacientes de Polícia Judiciária",
+        "name:zh": "司法警察局毒品罪案調查處"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7654219750,
+      "lat": 22.1603556,
+      "lon": 113.5519118,
+      "tags": {
+        "access": "yes",
+        "amenity": "parking_entrance",
+        "level": "-1"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7654219754,
+      "lat": 22.1602408,
+      "lon": 113.5520745,
+      "tags": {
+        "access": "yes",
+        "amenity": "parking",
+        "fee": "yes",
+        "name": "星皓廣場停車場 Car Park of Nova Mall",
+        "name:en": "Car Park of Nova Mall",
+        "name:zh": "星皓廣場停車場",
+        "payment:cash": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7654219755,
+      "lat": 22.1607873,
+      "lon": 113.5538863,
+      "tags": {
+        "amenity": "bank",
+        "brand": "中國銀行",
+        "brand:en": "Bank of China",
+        "brand:pt": "Banco da China",
+        "brand:wikidata": "Q790068",
+        "brand:wikipedia": "en:Bank of China",
+        "brand:zh": "中國銀行",
+        "brand:zh-Hans": "中国银行",
+        "brand:zh-Hant": "中國銀行",
+        "name": "中國銀行 Banco da China",
+        "name:en": "Bank of China",
+        "name:pt": "Banco da China",
+        "name:zh": "中國銀行",
+        "name:zh-Hans": "中国银行",
+        "name:zh-Hant": "中國銀行",
+        "official_name": "Bank of China"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7654219756,
+      "lat": 22.1602172,
+      "lon": 113.5528403,
+      "tags": {
+        "name": "TASTE",
+        "name:en": "TASTE",
+        "name:zh": "TASTE",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "payment:mastercard": "yes",
+        "payment:unionpay": "yes",
+        "payment:visa": "yes",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7658012286,
+      "lat": 22.1580449,
+      "lon": 113.5590133,
+      "tags": {
+        "bus": "yes",
+        "departures_board": "timetable",
+        "highway": "bus_stop",
+        "name": "百利寶花園 Treasure Garden",
+        "name:pt": "Treasure Garden",
+        "name:zh": "百利寶花園",
+        "public_transport": "platform",
+        "ref": "T311/2",
+        "shelter": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7658890561,
+      "lat": 22.1606499,
+      "lon": 113.5533263,
+      "tags": {
+        "amenity": "pharmacy",
+        "brand": "萬寧 Mannings",
+        "brand:en": "Mannings",
+        "brand:wikidata": "Q13646560",
+        "brand:wikipedia": "en:Mannings",
+        "brand:zh": "萬寧",
+        "brand:zh-Hans": "万宁",
+        "brand:zh-Hant": "萬寧",
+        "dispensing": "yes",
+        "healthcare": "pharmacy",
+        "name": "萬寧 Mannings",
+        "name:en": "Mannings",
+        "name:zh": "萬寧",
+        "name:zh-Hans": "万宁",
+        "name:zh-Hant": "萬寧",
+        "shop": "chemist"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7658936624,
+      "lat": 22.1564554,
+      "lon": 113.558885,
+      "tags": {
+        "name": "Three.",
+        "name:en": "Three.",
+        "office": "telecommunication"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7658936625,
+      "lat": 22.1618807,
+      "lon": 113.5556978,
+      "tags": {
+        "brand": "7-Eleven",
+        "brand:wikidata": "Q259340",
+        "brand:wikipedia": "en:7-Eleven",
+        "name": "7-Eleven",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7658936626,
+      "lat": 22.159886,
+      "lon": 113.556135,
+      "tags": {
+        "brand": "澳門電訊 CTM",
+        "brand:en": "CTM",
+        "brand:pt": "CTM",
+        "brand:wikidata": "Q2990317",
+        "brand:zh": "澳門電訊",
+        "brand:zh-Hans": "澳门电讯",
+        "brand:zh-Hant": "澳門電訊",
+        "name": "澳門電訊 CTM",
+        "name:en": "CTM",
+        "name:pt": "CTM",
+        "name:zh": "澳門電訊",
+        "name:zh-Hans": "澳门电讯",
+        "name:zh-Hant": "澳門電訊",
+        "shop": "telecommunication"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7658936627,
+      "lat": 22.1573199,
+      "lon": 113.5513151,
+      "tags": {
+        "name": "中國電信 (澳門) China Telecom (Macau)",
+        "name:en": "China Telecom (Macau)",
+        "name:zh": "中國電信 (澳門)",
+        "name:zh-Hans": "中国电信 (澳门)",
+        "name:zh-Hant": "中國電信 (澳門)",
+        "office": "telecommunication"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7658936628,
+      "lat": 22.1573622,
+      "lon": 113.5534796,
+      "tags": {
+        "brand": "7-Eleven",
+        "brand:wikidata": "Q259340",
+        "brand:wikipedia": "en:7-Eleven",
+        "name": "7-Eleven",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7658936629,
+      "lat": 22.1566989,
+      "lon": 113.554751,
+      "tags": {
+        "name": "澳電氹仔客服中心 Centro de Atendimento ao Cliente da Taipa da CEM",
+        "name:en": "Taipa's Customer Service Center of CEM",
+        "name:pt": "Centro de Atendimento ao Cliente da Taipa da CEM",
+        "name:zh": "澳電氹仔客服中心",
+        "office": "energy_supplier"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7661011185,
+      "lat": 22.1573709,
+      "lon": 113.5575053,
+      "tags": {
+        "addr:housenumber": "317",
+        "addr:street": "埃武拉街 Rua de Évora",
+        "name": "上海快视澳门办事处",
+        "office": "company"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7663837485,
+      "lat": 22.1567332,
+      "lon": 113.5586708,
+      "tags": {
+        "addr:housenumber": "557",
+        "addr:street": "奧林匹克大馬路 Avenida Olímpica",
+        "amenity": "restaurant",
+        "cuisine": "beef_bowl;ramen",
+        "name": "优食家",
+        "name:zh": "优食家",
+        "name:zh-Hans": "优食家",
+        "name:zh-Hant": "优食家",
+        "opening_hours": "Mo-Su 11:15-21:00",
+        "phone": "28855795"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7667519386,
+      "lat": 22.1564455,
+      "lon": 113.5575765,
+      "tags": {
+        "amenity": "toilets",
+        "asset_ref": "T14",
+        "name": "T14 氹仔花城公園公廁 T14 Sanitários Públicos do Jardim da Cidade das Flores, Taipa",
+        "name:en": "T14 Public toilet at Garden of Flower City in Taipa",
+        "name:pt": "T14 Sanitários Públicos do Jardim da Cidade das Flores, Taipa",
+        "name:zh": "T14 氹仔花城公園公廁",
+        "opening_hours": "24/7"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7671450047,
+      "lat": 22.1625797,
+      "lon": 113.5546804,
+      "tags": {
+        "artwork_type": "statue",
+        "name": "宋玉生 Dr. Carlos Augusto Corrêa Paes d’Assumpção",
+        "name:pt": "Dr. Carlos Augusto Corrêa Paes d’Assumpção",
+        "name:zh": "宋玉生",
+        "name:zh-Hans": "宋玉生",
+        "name:zh-Hant": "宋玉生",
+        "tourism": "artwork"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7684121385,
+      "lat": 22.1561695,
+      "lon": 113.55645,
+      "tags": {
+        "air_conditioning": "yes",
+        "amenity": "restaurant",
+        "internet_access": "wlan",
+        "internet_access:fee": "customers",
+        "level": "0",
+        "name": "彪記 Piu Kei",
+        "opening_hours": "Mo-Su 07:00-03:00",
+        "phone": "+853 28305429"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7868960735,
+      "lat": 22.161795,
+      "lon": 113.5659146,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "雞頸馬路/孝思-1 Est. da Ponta da Cabrita/ Hau Si-1",
+        "name:pt": "Est. da Ponta da Cabrita/ Hau Si-1",
+        "name:zh": "雞頸馬路/孝思-1",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7940805636,
+      "lat": 22.1642853,
+      "lon": 113.5583585,
+      "tags": {
+        "amenity": "parking_entrance"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8189696862,
+      "lat": 22.1605889,
+      "lon": 113.5538299,
+      "tags": {
+        "amenity": "taxi"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8189696863,
+      "lat": 22.1619279,
+      "lon": 113.5548277,
+      "tags": {
+        "amenity": "taxi"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8410693494,
+      "lat": 22.1610405,
+      "lon": 113.5540175,
+      "tags": {
+        "leisure": "fitness_centre",
+        "name": "24/7 Fitness",
+        "name:en": "24/7 Fitness",
+        "name:zh": "24/7 Fitness",
+        "opening_hours": "24/7",
+        "sport": "fitness"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8720347476,
+      "lat": 22.1593067,
+      "lon": 113.5577405,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "大家樂 Café de Coral",
+        "brand:en": "Café de Coral",
+        "brand:wikidata": "Q16241484",
+        "brand:zh": "大家樂",
+        "brand:zh-Hans": "大家乐",
+        "brand:zh-Hant": "大家樂",
+        "cuisine": "cantonese;western",
+        "drive_through": "no",
+        "name": "大家樂 Café de Coral",
+        "name:en": "Café de Coral",
+        "name:zh": "大家樂",
+        "name:zh-Hans": "大家乐",
+        "name:zh-Hant": "大家樂",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8794816716,
+      "lat": 22.1613582,
+      "lon": 113.5612365,
+      "tags": {
+        "amenity": "grave_yard",
+        "name": "沙崗紀念花園 Jardim Comemorativo Sa Kong",
+        "name:pt": "Jardim Comemorativo Sa Kong",
+        "name:zh": "沙崗紀念花園"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8866082718,
+      "lat": 22.1581495,
+      "lon": 113.5577033,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "熊野日本料理",
+        "name:en": "Kumano",
+        "name:ru": "Японский Ресторан Кумано",
+        "name:zh": "熊野日本料理",
+        "name:zh-Hans": "熊野日本料理",
+        "name:zh-Hant": "熊野日本料理"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8868174522,
+      "lat": 22.1546474,
+      "lon": 113.5577407,
+      "tags": {
+        "name": "松樹尾 Chun Su Mei",
+        "name:pt": "Chun Su Mei",
+        "name:zh": "松樹尾",
+        "name:zh-Hans": "松树尾",
+        "name:zh-Hant": "松樹尾",
+        "place": "hamlet"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8868215500,
+      "lat": 22.1570752,
+      "lon": 113.5564535,
+      "tags": {
+        "name": "花城 Cidade das Flores",
+        "name:pt": "Cidade das Flores",
+        "name:zh": "花城",
+        "place": "hamlet"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8921497336,
+      "lat": 22.1574118,
+      "lon": 113.5569629,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "上海菜",
+        "name": "弄堂十三"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9014739931,
+      "lat": 22.1566499,
+      "lon": 113.5533226,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "美景花園 Edf. Mei Keng Garden",
+        "name:pt": "Edf. Mei Keng Garden",
+        "name:zh": "美景花園",
+        "name:zh-Hans": "美景花园",
+        "name:zh-Hant": "美景花園",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9097161101,
+      "lat": 22.1574754,
+      "lon": 113.553228,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "聖公會澳門聖士提反堂 St. Stephen's Church, Macau",
+        "name:en": "St. Stephen's Church, Macau",
+        "name:zh": "聖公會澳門聖士提反堂",
+        "religion": "christian"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9244968077,
+      "lat": 22.1594522,
+      "lon": 113.5581499,
+      "tags": {
+        "name": "泉亮廣場 Taipa Plaza",
+        "name:zh": "泉亮廣場",
+        "name:zh-Hans": "泉亮广场",
+        "name:zh-Hant": "泉亮廣場",
+        "operator": "CM Space",
+        "shop": "mall"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9246351534,
+      "lat": 22.1603953,
+      "lon": 113.5531705,
+      "tags": {
+        "amenity": "dentist",
+        "healthcare": "dentist",
+        "healthcare:speciality": "dentist",
+        "name": "齒康牙科中心 We Care Dental Center",
+        "name:en": "We Care Dental Center",
+        "name:zh": "齒康牙科中心"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9246351535,
+      "lat": 22.1575286,
+      "lon": 113.5539216,
+      "tags": {
+        "amenity": "childcare",
+        "name": "工聯童真托兒所 Creche “O Traquinas” da Federação das Associações dos Operários de Macau",
+        "name:pt": "Creche “O Traquinas” da Federação das Associações dos Operários de Macau",
+        "name:zh": "工聯童真托兒所"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9246351536,
+      "lat": 22.1573846,
+      "lon": 113.5512206,
+      "tags": {
+        "leisure": "fitness_centre",
+        "name": "Flex Fitness",
+        "name:en": "Flex Fitness",
+        "name:zh": "Flex Fitness",
+        "opening_hours": "24/7",
+        "sport": "fitness"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9246378952,
+      "lat": 22.1578888,
+      "lon": 113.5560861,
+      "tags": {
+        "government": "public_service",
+        "name": "離島政府綜合服務中心 Centro de Serviços da RAEM das Ilhas",
+        "name:pt": "Centro de Serviços da RAEM das Ilhas",
+        "name:zh": "離島政府綜合服務中心",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9246583774,
+      "lat": 22.1633413,
+      "lon": 113.5556008,
+      "tags": {
+        "amenity": "taxi"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9255023356,
+      "lat": 22.15633,
+      "lon": 113.5532076,
+      "tags": {
+        "artist_name": "廖惠蘭",
+        "artwork_type": "statue",
+        "name": "勝利在望 O Tento da Vitória",
+        "name:pt": "O Tento da Vitória",
+        "name:zh": "勝利在望",
+        "name:zh-Hans": "胜利在望",
+        "name:zh-Hant": "勝利在望",
+        "start_date": "1999-12-05",
+        "tourism": "artwork"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9255023357,
+      "lat": 22.1561686,
+      "lon": 113.5535093,
+      "tags": {
+        "artist_name": "廖惠蘭",
+        "artwork_type": "statue",
+        "name": "壯志凌雲 Corpo e Alma",
+        "name:pt": "Corpo e Alma",
+        "name:zh": "壯志凌雲",
+        "name:zh-Hans": "壮志凌云",
+        "name:zh-Hant": "壯志凌雲",
+        "start_date": "1999-12-05",
+        "tourism": "artwork"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9371566051,
+      "lat": 22.1599936,
+      "lon": 113.5522434,
+      "tags": {
+        "amenity": "cinema",
+        "name": "CGV Cinemas Macau",
+        "name:en": "CGV Cinemas Macau",
+        "name:zh": "CGV Cinemas Macau",
+        "payment:cash": "yes",
+        "screen": "5"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9520961648,
+      "lat": 22.1577882,
+      "lon": 113.5503982,
+      "tags": {
+        "amenity": "parking_entrance"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9685345217,
+      "lat": 22.1568671,
+      "lon": 113.5538974,
+      "tags": {
+        "shop": "hardware"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9726948608,
+      "lat": 22.155796,
+      "lon": 113.5618193,
+      "tags": {
+        "amenity": "toilets",
+        "asset_ref": "T9",
+        "name": "T9 氹仔大潭山眺望台公廁 T9 Sanitário público do Miradouro da Taipa Grande, Taipa",
+        "name:en": "T9 Public toilet at Taipa Grande Viewing Platform, Taipa",
+        "name:pt": "T9 Sanitário público do Miradouro da Taipa Grande, Taipa",
+        "name:zh": "T9 氹仔大潭山眺望台公廁",
+        "opening_hours": "24/7"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9726948612,
+      "lat": 22.1610687,
+      "lon": 113.5616305,
+      "tags": {
+        "amenity": "toilets",
+        "name": "LT01氹仔沙崗市政墳場公廁"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9726948613,
+      "lat": 22.1612878,
+      "lon": 113.5622038,
+      "tags": {
+        "amenity": "toilets",
+        "name": "LT02氹仔沙崗市政墳場公廁"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9726948614,
+      "lat": 22.1585243,
+      "lon": 113.5612676,
+      "tags": {
+        "amenity": "toilets"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9726948615,
+      "lat": 22.1560772,
+      "lon": 113.5525685,
+      "tags": {
+        "amenity": "toilets",
+        "asset_ref": "T3",
+        "name": "T3 氹仔運動場圓形地公廁 T3 Sanitário Público da Rotunda do Estádio, Taipa",
+        "name:en": "T3 Public toilet at the Roundabout at Macao Stadium, Taipa",
+        "name:pt": "T3 Sanitário Público da Rotunda do Estádio, Taipa",
+        "name:zh": "T3 氹仔運動場圓形地公廁",
+        "name:zh-Hans": "T3 凼仔运动场圆形地公厕",
+        "name:zh-Hant": "T3 氹仔運動場圓形地公廁",
+        "opening_hours": "24/7"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9742400645,
+      "lat": 22.159996,
+      "lon": 113.5537776,
+      "tags": {
+        "alt_name:en": "Gate of the Rat",
+        "alt_name:zh": "子鼠門",
+        "barrier": "gate",
+        "name": "氹仔中央公園1號門 Parque Central da Taipa Porta 1",
+        "name:en": "Central da Taipa Park Gate 1",
+        "name:pt": "Parque Central da Taipa Porta 1",
+        "name:zh": "氹仔中央公園1號門",
+        "opening_hours": "Mo-Su 06:00-24:00",
+        "opening_hours:covid19": "closed"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9747715732,
+      "lat": 22.1597473,
+      "lon": 113.5534377,
+      "tags": {
+        "alt_name:en": "Gate of the Pig",
+        "alt_name:zh": "亥豬門",
+        "barrier": "gate",
+        "name": "氹仔中央公園12號門 Parque Central da Taipa Porta 12",
+        "name:en": "Central da Taipa Park Gate 12",
+        "name:pt": "Parque Central da Taipa Porta 12",
+        "name:zh": "氹仔中央公園12號門",
+        "opening_hours": "Mo-Su 06:00-24:00",
+        "opening_hours:covid19": "closed"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9747715733,
+      "lat": 22.1601509,
+      "lon": 113.5539305,
+      "tags": {
+        "alt_name:en": "Gate of the Ox",
+        "alt_name:zh": "丑牛門",
+        "barrier": "gate",
+        "name": "氹仔中央公園2號門 Parque Central da Taipa Porta 2",
+        "name:en": "Central da Taipa Park Gate 2",
+        "name:pt": "Parque Central da Taipa Porta 2",
+        "name:zh": "氹仔中央公園2號門",
+        "opening_hours": "Mo-Su 06:00-24:00",
+        "opening_hours:covid19": "closed"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9748837766,
+      "lat": 22.1598324,
+      "lon": 113.554301,
+      "tags": {
+        "alt_name:en": "Gate of the Tiger",
+        "alt_name:zh": "寅虎門",
+        "barrier": "gate",
+        "name": "氹仔中央公園3號門 Parque Central da Taipa Porta 3",
+        "name:en": "Central da Taipa Park Gate 3",
+        "name:pt": "Parque Central da Taipa Porta 3",
+        "name:zh": "氹仔中央公園3號門",
+        "opening_hours": "Mo-Su 06:00-24:00",
+        "opening_hours:covid19": "closed"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9749328775,
+      "lat": 22.159517,
+      "lon": 113.554648,
+      "tags": {
+        "alt_name:en": "Gate of the Rabbit",
+        "alt_name:zh": "卯兔門",
+        "barrier": "gate",
+        "name": "氹仔中央公園4號門 Parque Central da Taipa Porta 4",
+        "name:en": "Central da Taipa Park Gate 4",
+        "name:pt": "Parque Central da Taipa Porta 4",
+        "name:zh": "氹仔中央公園4號門",
+        "opening_hours": "Mo-Su 06:00-24:00",
+        "opening_hours:covid19": "closed"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9749381418,
+      "lat": 22.1589775,
+      "lon": 113.5551097,
+      "tags": {
+        "alt_name:en": "Gate of the Dragon",
+        "alt_name:zh": "辰龍門",
+        "barrier": "gate",
+        "name": "氹仔中央公園5號門 Parque Central da Taipa Porta 5",
+        "name:en": "Central da Taipa Park Gate 5",
+        "name:pt": "Parque Central da Taipa Porta 5",
+        "name:zh": "氹仔中央公園5號門",
+        "opening_hours": "Mo-Su 06:00-24:00"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9749382189,
+      "lat": 22.1584155,
+      "lon": 113.5555792,
+      "tags": {
+        "alt_name:en": "Gate of the Snake",
+        "alt_name:zh": "巳蛇門",
+        "barrier": "gate",
+        "name": "氹仔中央公園6號門 Parque Central da Taipa Porta 6",
+        "name:en": "Central da Taipa Park Gate 6",
+        "name:pt": "Parque Central da Taipa Porta 6",
+        "name:zh": "氹仔中央公園6號門",
+        "opening_hours": "Mo-Su 06:00-24:00",
+        "opening_hours:covid19": "closed"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9749419793,
+      "lat": 22.1579992,
+      "lon": 113.5550921,
+      "tags": {
+        "alt_name:en": "Gate of the Goat",
+        "alt_name:zh": "未羊門",
+        "barrier": "gate",
+        "name": "氹仔中央公園8號門 Parque Central da Taipa Porta 8",
+        "name:en": "Central da Taipa Park Gate 8",
+        "name:pt": "Parque Central da Taipa Porta 8",
+        "name:zh": "氹仔中央公園8號門",
+        "opening_hours": "Mo-Su 06:00-24:00",
+        "opening_hours:covid19": "closed"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9749424182,
+      "lat": 22.158229,
+      "lon": 113.5553901,
+      "tags": {
+        "alt_name:en": "Gate of the Horse",
+        "alt_name:zh": "午馬門",
+        "barrier": "gate",
+        "name": "氹仔中央公園7號門 Parque Central da Taipa Porta 7",
+        "name:en": "Central da Taipa Park Gate 7",
+        "name:pt": "Parque Central da Taipa Porta 7",
+        "name:zh": "氹仔中央公園7號門",
+        "opening_hours": "Mo-Su 06:00-24:00",
+        "opening_hours:covid19": "closed"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9749442782,
+      "lat": 22.1583035,
+      "lon": 113.5547417,
+      "tags": {
+        "alt_name:en": "Gate of the Monkey",
+        "alt_name:zh": "申猴門",
+        "barrier": "gate",
+        "name": "氹仔中央公園9號門 Parque Central da Taipa Porta 9",
+        "name:en": "Central da Taipa Park Gate 9",
+        "name:pt": "Parque Central da Taipa Porta 9",
+        "name:zh": "氹仔中央公園9號門",
+        "opening_hours": "Mo-Su 06:00-24:00",
+        "opening_hours:covid19": "closed"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9749455264,
+      "lat": 22.1590636,
+      "lon": 113.553953,
+      "tags": {
+        "alt_name:en": "Gate of the Dog",
+        "alt_name:zh": "戌狗門",
+        "barrier": "gate",
+        "name": "氹仔中央公園11號門 Parque Central da Taipa Porta 11",
+        "name:en": "Central da Taipa Park Gate 11",
+        "name:pt": "Parque Central da Taipa Porta 11",
+        "name:zh": "氹仔中央公園11號門",
+        "opening_hours": "Mo-Su 06:00-24:00"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9749461743,
+      "lat": 22.1588203,
+      "lon": 113.5542684,
+      "tags": {
+        "alt_name:en": "Gate of the Rooster",
+        "alt_name:zh": "酉雞門",
+        "barrier": "gate",
+        "name": "氹仔中央公園10號門 Parque Central da Taipa Porta 10",
+        "name:en": "Central da Taipa Park Gate 10",
+        "name:pt": "Parque Central da Taipa Porta 10",
+        "name:zh": "氹仔中央公園10號門",
+        "opening_hours": "Mo-Su 06:00-24:00",
+        "opening_hours:covid19": "closed"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9759113588,
+      "lat": 22.1540393,
+      "lon": 113.5592746,
+      "tags": {
+        "amenity": "fountain"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9869532762,
+      "lat": 22.160796,
+      "lon": 113.5666096,
+      "tags": {
+        "information": "guidepost",
+        "name": "T3",
+        "tourism": "information"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9869532763,
+      "lat": 22.1555489,
+      "lon": 113.5623793,
+      "tags": {
+        "information": "guidepost",
+        "name": "T4",
+        "tourism": "information"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9869532764,
+      "lat": 22.1585937,
+      "lon": 113.5621624,
+      "tags": {
+        "information": "guidepost",
+        "name": "T4a",
+        "tourism": "information"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9869532765,
+      "lat": 22.1546986,
+      "lon": 113.5613461,
+      "tags": {
+        "information": "guidepost",
+        "name": "T5",
+        "name:en": "T5",
+        "tourism": "information"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9869532766,
+      "lat": 22.1585402,
+      "lon": 113.5662974,
+      "tags": {
+        "information": "guidepost",
+        "name": "T6",
+        "tourism": "information"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9869532768,
+      "lat": 22.1626447,
+      "lon": 113.5516221,
+      "tags": {
+        "information": "guidepost",
+        "name": "T7",
+        "name:en": "T7",
+        "tourism": "information"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10051764527,
+      "lat": 22.1585661,
+      "lon": 113.5612097,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "湖畔大廈 Edifício do Lago",
+        "name:pt": "Edifício do Lago",
+        "name:zh": "湖畔大廈",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10120224839,
+      "lat": 22.1562317,
+      "lon": 113.5591241,
+      "tags": {
+        "addr:city": "氹仔 Taipa",
+        "addr:housenumber": "649-A",
+        "addr:province": "Macau",
+        "addr:street": "飛能便度街 Rua Fernão Mendes Pinto",
+        "amenity": "restaurant",
+        "cuisine": "pizza;italian;italian_pizza",
+        "diet:mediterranean": "yes",
+        "name": "The Other Pizza 澳門 L' Altra Pizza Macau",
+        "name:it": "L' Altra Pizza Macau",
+        "name:zh": "The Other Pizza 澳門",
+        "name:zh-Hans": "The Other Pizza 澳门",
+        "name:zh-Hant": "The Other Pizza 澳門",
+        "opening_hours": "Mo-Su 11:00-22:00",
+        "phone": "+853 6881 3895"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10211150066,
+      "lat": 22.1591266,
+      "lon": 113.561435,
+      "tags": {
+        "leisure": "park",
+        "name": "湖畔大廈平台花園 Plataforma ajardinada do Edif. do Lago",
+        "name:en": "Edif. do Lago Podium Garden",
+        "name:pt": "Plataforma ajardinada do Edif. do Lago",
+        "name:zh": "湖畔大廈平台花園",
+        "opening_hours": "Mo-Su 08:00-22:00",
+        "operator": "IAM",
+        "smoking": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11166808331,
+      "lat": 22.154054,
+      "lon": 113.5585759,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "土地公",
+        "name:zh": "土地公",
+        "name:zh-Hans": "土地公",
+        "name:zh-Hant": "土地公"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11166808360,
+      "lat": 22.1584824,
+      "lon": 113.5620341,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "本村土地"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11250365648,
+      "lat": 22.1567816,
+      "lon": 113.5509816,
+      "tags": {
+        "loc_name": "馬會",
+        "name": "澳門賽馬會 Jockey Clube de Macau",
+        "name:en": "Macau Jockey Club",
+        "name:pt": "Jockey Clube de Macau",
+        "name:zh": "澳門賽馬會",
+        "name:zh-Hans": "澳门赛马会",
+        "name:zh-Hant": "澳門賽馬會",
+        "office": "company"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11400862810,
+      "lat": 22.1600118,
+      "lon": 113.5528949,
+      "tags": {
+        "brand": "OK便利店 Circle K",
+        "brand:en": "Circle K",
+        "brand:wikidata": "Q3268010",
+        "brand:zh": "OK便利店",
+        "brand:zh-Hans": "OK便利店",
+        "brand:zh-Hant": "OK便利店",
+        "name": "OK便利店 Circle K",
+        "name:en": "Circle K",
+        "name:zh": "OK便利店",
+        "name:zh-Hans": "OK便利店",
+        "name:zh-Hant": "OK便利店",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11401270734,
+      "lat": 22.1591756,
+      "lon": 113.55821,
+      "tags": {
+        "brand": "日本城 JHC",
+        "brand:en": "JHC",
+        "brand:wikidata": "Q11507765",
+        "brand:zh": "日本城",
+        "level": "0",
+        "name": "日本城 JHC",
+        "name:en": "JHC",
+        "name:zh": "日本城",
+        "opening_hours": "Mo-Su 10:00-20:45",
+        "phone": "+853 28856506",
+        "shop": "houseware"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11401270735,
+      "lat": 22.1571489,
+      "lon": 113.5577749,
+      "tags": {
+        "amenity": "cafe",
+        "branch": "氹仔花城店",
+        "cuisine": "bubble_tea",
+        "name": "KOI Thé",
+        "name:en": "KOI Thé"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11539269669,
+      "lat": 22.1600624,
+      "lon": 113.5576633,
+      "tags": {
+        "amenity": "recycling",
+        "recycling_type": "centre"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11617795064,
+      "lat": 22.1572953,
+      "lon": 113.5578185,
+      "tags": {
+        "amenity": "bank",
+        "brand": "大西洋銀行 Banco Nacional Ultramarino",
+        "brand:pt": "Banco Nacional Ultramarino",
+        "brand:wikidata": "Q806190",
+        "brand:zh": "大西洋銀行",
+        "name": "大西洋銀行 Banco Nacional Ultramarino",
+        "name:pt": "Banco Nacional Ultramarino",
+        "name:zh": "大西洋銀行"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11617795066,
+      "lat": 22.1598962,
+      "lon": 113.5526727,
+      "tags": {
+        "amenity": "cafe",
+        "brand": "喜茶 Heytea",
+        "brand:en": "Heytea",
+        "brand:wikidata": "Q60875376",
+        "brand:zh": "喜茶",
+        "cuisine": "bubble_tea",
+        "name": "喜茶 Heytea",
+        "name:en": "Heytea",
+        "name:zh": "喜茶",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11700020000,
+      "lat": 22.1553072,
+      "lon": 113.5616855,
+      "tags": {
+        "amenity": "drinking_water"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12346540667,
+      "lat": 22.1543082,
+      "lon": 113.5595324,
+      "tags": {
+        "artwork_type": "statue",
+        "name": "賈梅士",
+        "name:zh": "賈梅士",
+        "name:zh-Hans": "贾梅士",
+        "name:zh-Hant": "賈梅士",
+        "tourism": "artwork"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12438342952,
+      "lat": 22.1600459,
+      "lon": 113.5545564,
+      "tags": {
+        "addr:housenumber": "562",
+        "addr:street": "哥英布拉街 Rua de Coimbra",
+        "amenity": "restaurant",
+        "name": "E.S.Kimo"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12470368009,
+      "lat": 22.159933,
+      "lon": 113.5527492,
+      "tags": {
+        "amenity": "cafe",
+        "cuisine": "french",
+        "name": "Chénson",
+        "name:yue": "香頌",
+        "outdoor_seating": "no",
+        "phone": "+85328222880"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12475076012,
+      "lat": 22.1594566,
+      "lon": 113.5570278,
+      "tags": {
+        "addr:housenumber": "463",
+        "addr:street": "基馬拉斯大馬路 Avenida de Guimarães",
+        "amenity": "restaurant",
+        "cuisine": "noodle",
+        "name": "金利食店 Kam Lei",
+        "name:en": "Kam Lei",
+        "name:pt": "Kam Lei",
+        "name:yue": "金利食店",
+        "name:zh": "金利食店",
+        "name:zh-Hans": "金利食店",
+        "name:zh-Hant": "金利食店"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12487767901,
+      "lat": 22.1540812,
+      "lon": 113.5579194,
+      "tags": {
+        "addr:housenumber": "19",
+        "addr:street": "老虎巷 Travessa Lou Fu",
+        "name": "Hideout Coffee",
+        "name:en": "Hideout Coffee",
+        "shop": "coffee"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12828886898,
+      "lat": 22.1570401,
+      "lon": 113.5578706,
+      "tags": {
+        "amenity": "cafe",
+        "cuisine": "bubble_tea",
+        "name": "1點點",
+        "name:zh": "1點點"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12828886899,
+      "lat": 22.1572106,
+      "lon": 113.5578478,
+      "tags": {
+        "amenity": "cafe",
+        "cuisine": "bubble_tea",
+        "name": "茶理宜世",
+        "name:zh": "茶理宜世"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13194822387,
+      "lat": 22.1575148,
+      "lon": 113.5557547,
+      "tags": {
+        "addr:city": "氹仔 Taipa",
+        "addr:housenumber": "225",
+        "addr:province": "澳門",
+        "addr:street": "哥英布拉街 Rua de Coimbra",
+        "amenity": "community_centre",
+        "community_centre": "social_centre",
+        "name": "公務人員活動中心 Centro de Actividades para os Trabalhadores dos Serviços Públicos",
+        "name:pt": "Centro de Actividades para os Trabalhadores dos Serviços Públicos",
+        "name:zh": "公務人員活動中心"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13588571108,
+      "lat": 22.1548724,
+      "lon": 113.5582684,
+      "tags": {
+        "amenity": "bench"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13588571114,
+      "lat": 22.1547654,
+      "lon": 113.5586617,
+      "tags": {
+        "amenity": "bench"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13588571116,
+      "lat": 22.1548138,
+      "lon": 113.5583977,
+      "tags": {
+        "amenity": "bench"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13588571120,
+      "lat": 22.1548446,
+      "lon": 113.5584304,
+      "tags": {
+        "amenity": "waste_basket",
+        "waste": "trash"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13589558609,
+      "lat": 22.1564009,
+      "lon": 113.5590282,
+      "tags": {
+        "amenity": "parking_entrance"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13629945476,
+      "lat": 22.1569021,
+      "lon": 113.5586618,
+      "tags": {
+        "amenity": "pharmacy",
+        "brand": "萬寧 Mannings",
+        "brand:en": "Mannings",
+        "brand:wikidata": "Q13646560",
+        "brand:wikipedia": "en:Mannings",
+        "brand:zh": "萬寧",
+        "brand:zh-Hans": "万宁",
+        "brand:zh-Hant": "萬寧",
+        "dispensing": "yes",
+        "healthcare": "pharmacy",
+        "name": "萬寧 Mannings",
+        "name:en": "Mannings",
+        "name:zh": "萬寧",
+        "name:zh-Hans": "万宁",
+        "name:zh-Hant": "萬寧",
+        "shop": "chemist"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13629945477,
+      "lat": 22.1571655,
+      "lon": 113.5576258,
+      "tags": {
+        "amenity": "bank",
+        "brand": "中國工商銀行",
+        "brand:en": "Industrial and Commercial Bank of China",
+        "brand:wikidata": "Q26463",
+        "brand:zh": "中國工商銀行",
+        "brand:zh-Hans": "中国工商银行",
+        "brand:zh-Hant": "中國工商銀行",
+        "name": "工銀澳門 ICBC",
+        "name:en": "ICBC",
+        "name:zh": "工銀澳門",
+        "name:zh-Hans": "工银澳门",
+        "name:zh-Hant": "工銀澳門"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13655226959,
+      "lat": 22.1541051,
+      "lon": 113.5569035,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "木偶葡國餐廳"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13655259191,
+      "lat": 22.1544895,
+      "lon": 113.5565532,
+      "tags": {
+        "brand": "Nike",
+        "brand:wikidata": "Q483915",
+        "clothes": "sports",
+        "name": "Nike",
+        "shop": "clothes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13713922773,
+      "lat": 22.1540295,
+      "lon": 113.5567664,
+      "tags": {
+        "name": "咀香園",
+        "shop": "bakery"
+      }
+    }
+  ]
+}

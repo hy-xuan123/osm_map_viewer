@@ -1,0 +1,2693 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.4 2390de5a",
+  "osm3s": {
+    "timestamp_osm_base": "2026-06-26T13:01:07Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 2392038136,
+      "lat": 22.1493181,
+      "lon": 113.5516349,
+      "tags": {
+        "asset_ref": "T420",
+        "bench": "yes",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "蓮花海濱大馬路/銀河-1 Av. M. Flor de Lótus/ Galaxy-1",
+        "name:pt": "Av. M. Flor de Lótus/ Galaxy-1",
+        "name:zh": "蓮花海濱大馬路/銀河-1",
+        "public_transport": "platform",
+        "route_ref": "52;55;71;N6",
+        "shelter": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2392038138,
+      "lat": 22.1457877,
+      "lon": 113.5523642,
+      "tags": {
+        "asset_ref": "T423",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "蓮花海濱大馬路/百老匯 Av. M. Flor de Lótus / Broadway",
+        "name:pt": "Av. M. Flor de Lótus / Broadway",
+        "name:zh": "蓮花海濱大馬路/百老匯",
+        "old_name": "金都酒店 Grand Waldo Hotel",
+        "old_name:pt": "Grand Waldo Hotel",
+        "old_name:zh": "金都酒店",
+        "public_transport": "platform",
+        "route_ref": "52;55;71;N6",
+        "shelter": "no",
+        "tactile_paving": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2493357568,
+      "lat": 22.1411398,
+      "lon": 113.5522649,
+      "tags": {
+        "asset_ref": "T425",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "海濱圓形地/西堤馬路 Rotunda Marginal/ Est. do Dique Oeste",
+        "name:pt": "Rotunda Marginal/ Est. do Dique Oeste",
+        "name:zh": "海濱圓形地/西堤馬路",
+        "public_transport": "platform",
+        "route_ref": "52;55;72;73;N6",
+        "shelter": "no",
+        "tactile_paving": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2597928920,
+      "lat": 22.1339277,
+      "lon": 113.5432263,
+      "tags": {
+        "asset_ref": "T555",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "image": "http://www.dsat.gov.mo/bres/bus_stop_img/t555_1.jpg",
+        "name": "T555 澳大/綜合體育館 UM / Sport Complex",
+        "name:en": "T555 UM / Sport Complex",
+        "name:pt": "T555 UM / Complexo Desportivo",
+        "name:zh": "T555 澳大/綜合體育館",
+        "public_transport": "platform",
+        "route_ref": "71;71S;72;73",
+        "shelter": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2597928921,
+      "lat": 22.135698,
+      "lon": 113.5462997,
+      "tags": {
+        "asset_ref": "T550/2",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "image": "http://www.dsat.gov.mo/bres/bus_stop_img/t550_2.jpg",
+        "local_ref": "A",
+        "name": "T550/2 澳門大學總站(A車道) University of Macau / Terminal (Lane A)",
+        "name:en": "T550/2 University of Macau / Terminal (Lane A)",
+        "name:pt": "T550/2 Universidade de Macau / Terminal (Lane A)",
+        "name:zh": "T550/2 澳門大學總站(A車道)",
+        "public_transport": "platform",
+        "route_ref": "72",
+        "shelter": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2597928922,
+      "lat": 22.1341062,
+      "lon": 113.5463541,
+      "tags": {
+        "asset_ref": "T554",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "image": "http://www.dsat.gov.mo/bres/bus_stop_img/t554_1.jpg",
+        "name": "T554 澳大/大學會堂 UM / University Hall",
+        "name:en": "T554 UM / University Hall",
+        "name:pt": "T554 UM / Aula Magna da Universidade",
+        "name:zh": "T554 澳大/大學會堂",
+        "public_transport": "platform",
+        "ref": "T554",
+        "route_ref": "71;71S;72;73",
+        "shelter": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2772915210,
+      "lat": 22.1324004,
+      "lon": 113.5401026,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "濠江路口",
+        "public_transport": "platform",
+        "route_ref": "14;86;K10;K11"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2929238176,
+      "lat": 22.1340299,
+      "lon": 113.5436002,
+      "tags": {
+        "asset_ref": "T556",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "image": "http://www.dsat.gov.mo/bres/bus_stop_img/t556_1.jpg",
+        "name": "T556 澳大/行政樓 UM / Administration Building",
+        "name:en": "T556 UM / Administration Building",
+        "name:pt": "T556 UM / Edifício Administrativo",
+        "name:zh": "T556 澳大/行政樓",
+        "public_transport": "platform",
+        "route_ref": "71;71S;72;73",
+        "shelter": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2931449457,
+      "lat": 22.1343848,
+      "lon": 113.5437131,
+      "tags": {
+        "access": "private",
+        "amenity": "parking",
+        "description": "Location: Administration Building (N6)",
+        "description:en": "Location: Administration Building (N6)",
+        "description:zh": "所在位置: 行政樓(N6)",
+        "image": "https://map.um.edu.mo/emap_images/car-park_P2.jpg",
+        "name": "P2職員停車場 Staff Car Park P2",
+        "name:en": "Staff Car Park P2",
+        "name:zh": "P2職員停車場",
+        "opening_hours": "24/7",
+        "website": "https://sfs.cmdo.um.edu.mo/our-services/car-park-management/",
+        "website:en": "https://sfs.cmdo.um.edu.mo/our-services/car-park-management/",
+        "website:zh": "https://sfs.cmdo.um.edu.mo/%e6%88%91%e5%80%91%e7%9a%84%e6%9c%8d%e5%8b%99/%e5%81%9c%e8%bb%8a%e5%a0%b4%e7%ae%a1%e7%90%86/?lang=zh-hant"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2931449461,
+      "lat": 22.1332355,
+      "lon": 113.5460903,
+      "tags": {
+        "access": "yes",
+        "amenity": "parking",
+        "description": "Location: UM Guest House (N1) & University Hall (N2)",
+        "description:en": "Location: UM Guest House (N1) & University Hall (N2)",
+        "description:zh": "所在位置: 聚賢樓(N1)及大學會堂(N2)",
+        "image": "https://map.um.edu.mo/emap_images/car-park_P3.jpg",
+        "name": "P3訪客停車場 Visitor Car Park P3",
+        "name:en": "Visitor Car Park P3",
+        "name:zh": "P3訪客停車場",
+        "opening_hours": "24/7",
+        "website": "https://sfs.cmdo.um.edu.mo/our-services/car-park-management/",
+        "website:en": "https://sfs.cmdo.um.edu.mo/our-services/car-park-management/",
+        "website:zh": "https://sfs.cmdo.um.edu.mo/%e6%88%91%e5%80%91%e7%9a%84%e6%9c%8d%e5%8b%99/%e5%81%9c%e8%bb%8a%e5%a0%b4%e7%ae%a1%e7%90%86/?lang=zh-hant"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2931449477,
+      "lat": 22.1345372,
+      "lon": 113.5428093,
+      "tags": {
+        "access": "yes",
+        "amenity": "parking",
+        "description": "Location: UM Sports Complex (N8)",
+        "description:en": "Location: UM Sports Complex (N8)",
+        "description:zh": "所在位置: 澳大綜合體育館(N8)",
+        "fee": "yes",
+        "image": "https://map.um.edu.mo/emap_images/car-park_P1.jpg",
+        "name": "P1訪客停車場 Visitor Car Park P1",
+        "name:en": "Visitor Car Park P1",
+        "name:zh": "P1訪客停車場",
+        "payment:cash": "yes",
+        "website": "https://sfs.cmdo.um.edu.mo/our-services/car-park-management/",
+        "website:en": "https://sfs.cmdo.um.edu.mo/our-services/car-park-management/",
+        "website:zh": "https://sfs.cmdo.um.edu.mo/%e6%88%91%e5%80%91%e7%9a%84%e6%9c%8d%e5%8b%99/%e5%81%9c%e8%bb%8a%e5%a0%b4%e7%ae%a1%e7%90%86/?lang=zh-hant"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2936895090,
+      "lat": 22.1410194,
+      "lon": 113.5396497,
+      "tags": {
+        "alt_name": "横琴站;横琴火车站;Hengqin Railway Station",
+        "designation": "Zhuhai Airport Intercity Railway",
+        "int_name": "Henqin",
+        "name": "横琴",
+        "name:en": "Hengqin",
+        "name:zh": "横琴",
+        "name:zh-Latn-pinyin": "Hengqin",
+        "operator": "CRH",
+        "platforms": "2",
+        "public_transport": "station",
+        "railway": "station",
+        "train": "yes",
+        "wikidata": "Q98353920",
+        "wikipedia": "zh:橫琴站 (珠海)"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2943809911,
+      "lat": 22.1340381,
+      "lon": 113.5437063,
+      "tags": {
+        "access": "private",
+        "amenity": "parking_entrance",
+        "level": "-1"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3005526042,
+      "lat": 22.1355756,
+      "lon": 113.547382,
+      "tags": {
+        "leisure": "marina",
+        "seamark:harbour:category": "marina",
+        "seamark:type": "harbour"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3048670121,
+      "lat": 22.1335289,
+      "lon": 113.545715,
+      "tags": {
+        "amenity": "restaurant",
+        "description": "Location: G/F, UM Guest House(N1)",
+        "description:en": "Location: G/F, UM Guest House(N1)",
+        "description:zh": "所在位置: 聚賢樓(N1), G層",
+        "diet:local": "yes",
+        "image": "https://map.um.edu.mo/emap_images/dining-outlet_grand-plaza.jpg",
+        "name": "萬豪軒 Grand Plaza",
+        "name:en": "Grand Plaza",
+        "name:zh": "萬豪軒",
+        "opening_hours": "Mo-Su 08:00-15:00,17:30-22:00",
+        "website": "https://css.cmdo.um.edu.mo/portfolio-items/grandplaza/?portfolioCats=159%2C158%2C247"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3048670132,
+      "lat": 22.1352425,
+      "lon": 113.5473143,
+      "tags": {
+        "amenity": "vending_machine",
+        "vending": "drinks;food"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3048670333,
+      "lat": 22.134184,
+      "lon": 113.5422971,
+      "tags": {
+        "amenity": "vending_machine",
+        "vending": "drinks;food"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3048670334,
+      "lat": 22.135987,
+      "lon": 113.5470999,
+      "tags": {
+        "amenity": "toilets",
+        "asset_ref": "T13",
+        "name": "T13 橫琴澳大校區大學北(近旅遊巴站)公廁 T13 Zona Norte do campus da Universidade de Macau em Hengqin (perto da paragem dos autocarros de turismo)",
+        "name:en": "T13 Public toilet in the north of the Campus of University of Macau in Hengqin (near coach stop)",
+        "name:pt": "T13 Zona Norte do campus da Universidade de Macau em Hengqin (perto da paragem dos autocarros de turismo)",
+        "name:zh": "T13 橫琴澳大校區大學北(近旅遊巴站)公廁",
+        "opening_hours": "24/7"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3129282172,
+      "lat": 22.148414,
+      "lon": 113.5383246,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "横琴国际商务中心",
+        "name:zh-Hant": "橫琴國際商務中心",
+        "old_name": "银鑫花园",
+        "public_transport": "platform",
+        "route_ref": "14;86;K10;K11;N20"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3129295768,
+      "lat": 22.1340052,
+      "lon": 113.5394055,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "濠江路口",
+        "public_transport": "platform",
+        "route_ref": "14;86;K10;K11"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3212332499,
+      "lat": 22.1407111,
+      "lon": 113.5445681,
+      "tags": {
+        "amenity": "police",
+        "fax": "+853 2887 0163",
+        "name": "路環警司處橫琴口岸澳門口岸分站 Posto da Fronteira com Hengqin do Comissariado de Coloane",
+        "name:pt": "Posto da Fronteira com Hengqin do Comissariado de Coloane",
+        "name:zh": "路環警司處橫琴口岸澳門口岸分站",
+        "name:zh-Hans": "路环警司处横琴口岸澳门口岸分站",
+        "name:zh-Hant": "路環警司處橫琴口岸澳門口岸分站",
+        "opening_hours": "24/7",
+        "phone": "+853 8898 9617",
+        "website": "https://www.fsm.gov.mo/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3239578460,
+      "lat": 22.1494535,
+      "lon": 113.5385623,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "环岛东路中",
+        "name:zh-Hant": "環島東路中",
+        "public_transport": "platform",
+        "route_ref": "14;86;K10;K11;N20"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3239578716,
+      "lat": 22.1469003,
+      "lon": 113.5392255,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "横琴国际商务中心",
+        "name:zh-Hant": "橫琴國際商務中心",
+        "old_name": "银鑫花园",
+        "public_transport": "platform",
+        "route_ref": "14;86;K10;K11;N20"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3343839673,
+      "lat": 22.1342023,
+      "lon": 113.5436023,
+      "tags": {
+        "amenity": "recycling",
+        "recycling:cans": "yes",
+        "recycling:paper": "yes",
+        "recycling:scrap_metal": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3376142625,
+      "lat": 22.1358021,
+      "lon": 113.5463043,
+      "tags": {
+        "asset_ref": "T550/4",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "image": "http://www.dsat.gov.mo/bres/bus_stop_img/t550_4.jpg",
+        "local_ref": "B",
+        "name": "T550/4 澳門大學總站(B車道) University of Macau / Terminal (Lane B)",
+        "name:en": "T550/4 University of Macau / Terminal (Lane B)",
+        "name:pt": "T550/4 Universidade de Macau / Terminal (Lane B)",
+        "name:zh": "T550/4 澳門大學總站(B車道)",
+        "public_transport": "platform",
+        "route_ref": "73",
+        "shelter": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3396928056,
+      "lat": 22.1357057,
+      "lon": 113.5466619,
+      "tags": {
+        "asset_ref": "T550/1",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "image": "http://www.dsat.gov.mo/bres/bus_stop_img/t550_1.jpg",
+        "local_ref": "A",
+        "name": "T550/1 澳門大學總站(A車道) University of Macau / Terminal (Lane A)",
+        "name:en": "T550/1 University of Macau / Terminal (Lane A)",
+        "name:pt": "T550/1 Universidade de Macau / Terminal (Lane A)",
+        "name:zh": "T550/1 澳門大學總站(A車道)",
+        "public_transport": "platform",
+        "route_ref": "71;71S;",
+        "shelter": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3443018798,
+      "lat": 22.1425734,
+      "lon": 113.5389461,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "城轨横琴站",
+        "name:zh-Hant": "城軌橫琴站",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3759818885,
+      "lat": 22.1447434,
+      "lon": 113.5372586,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "横琴口岸西",
+        "name:zh-Hant": "橫琴口岸西",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3759818888,
+      "lat": 22.1437515,
+      "lon": 113.5349966,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "横琴口岸西",
+        "name:zh-Hant": "橫琴口岸西",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3901160360,
+      "lat": 22.1453611,
+      "lon": 113.5495556,
+      "tags": {
+        "name": "51号点 51號點 Ponto 51",
+        "name:pt": "Ponto 51",
+        "name:zh": "51号点 51號點",
+        "name:zh-Hans": "51号点",
+        "name:zh-Hant": "51號點",
+        "ref": "51"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4148074466,
+      "lat": 22.1399961,
+      "lon": 113.5385207,
+      "tags": {
+        "addr:city": "珠海市",
+        "addr:housenumber": "1889号",
+        "addr:street": "环岛东路",
+        "description": "横琴新区\n地址：珠海市横琴新区环岛东路1889号18号楼\n电话：（+86756）299 0700\n传真：（+86756）299 0000\n邮箱：hqchuangyegu@hqfi.com.cn",
+        "name": "横琴·澳门青年创业谷 Innovalley HQ"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4194855490,
+      "lat": 22.1472652,
+      "lon": 113.5516772,
+      "tags": {
+        "amenity": "pub",
+        "name": "The Roadhouse Macau",
+        "opening_hours": "Th-Sa 12:00-06:00, Su-We 12:00-04:00",
+        "phone": "+853 2875 2945",
+        "website": "https://www.broadwaymacau.com.mo/en/macau-restaurant/restaurant-directory/bar/the-road-house-macau"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4837056625,
+      "lat": 22.1467727,
+      "lon": 113.5520364,
+      "tags": {
+        "addr:street": "蓮花海濱大馬路 Avenida Marginal Flor de Lótus",
+        "amenity": "theatre",
+        "name": "百老匯舞台 Broadway Theater",
+        "name:en": "Broadway Theater",
+        "name:zh": "百老匯舞台",
+        "source": "Kaart Ground Survey 2017"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5161254723,
+      "lat": 22.1465608,
+      "lon": 113.5515732,
+      "tags": {
+        "amenity": "food_court",
+        "name": "百老匯美食街 Broadway Food Street",
+        "name:en": "Broadway Food Street",
+        "name:zh": "百老匯美食街",
+        "opening_hours": "Mo-Su 11:00-03:00"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5301580721,
+      "lat": 22.1443895,
+      "lon": 113.5521178,
+      "tags": {
+        "tourism": "picnic_site"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6237401122,
+      "lat": 22.1457176,
+      "lon": 113.552126,
+      "tags": {
+        "amenity": "taxi"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6449397574,
+      "lat": 22.1488729,
+      "lon": 113.5447528,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "兴澳路口",
+        "name:zh-Hant": "興澳路口",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6994357700,
+      "lat": 22.1460602,
+      "lon": 113.5520778,
+      "tags": {
+        "amenity": "parking"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7516808627,
+      "lat": 22.1459892,
+      "lon": 113.5521078,
+      "tags": {
+        "access": "yes",
+        "amenity": "parking_entrance",
+        "level": "0"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7618120955,
+      "lat": 22.134296,
+      "lon": 113.5430986,
+      "tags": {
+        "access": "yes",
+        "amenity": "parking_entrance",
+        "level": "-1"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7618120966,
+      "lat": 22.1335893,
+      "lon": 113.5422323,
+      "tags": {
+        "access": "yes",
+        "amenity": "sport",
+        "description": "Location: Room G015a, UM Sports Complex",
+        "description:en": "Location: Room G015a, UM Sports Complex",
+        "description:zh": "所在位置: 澳大綜合體育館, G015a室",
+        "image": "https://map.um.edu.mo/emap_images/building_N8.jpg",
+        "leisure": "swimming_pool",
+        "lit": "yes",
+        "location": "indoor",
+        "name": "澳大游泳館 UM Swimming Pool",
+        "name:en": "UM Swimming Pool",
+        "name:pt": "Piscina da Universidade de Macau",
+        "name:zh": "澳大游泳館",
+        "sport": "swimming",
+        "swimming_pool": "indoor",
+        "website": "https://facility.osa.um.edu.mo/projects/swimming-pool/",
+        "website:en": "https://facility.osa.um.edu.mo/projects/swimming-pool/",
+        "website:zh": "https://facility.osa.um.edu.mo/projects/swimming-pool/?lang=zh-hant"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7729882691,
+      "lat": 22.1329644,
+      "lon": 113.5442256,
+      "tags": {
+        "artwork_type": "sculpture",
+        "material": "stone",
+        "name": "博雅之璧 A Muralha da Grande Sabedoria",
+        "name:en": "the Wall of Great Wisdom",
+        "name:pt": "A Muralha da Grande Sabedoria",
+        "name:zh": "博雅之璧",
+        "tourism": "artwork"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7794305692,
+      "lat": 22.1399557,
+      "lon": 113.540274,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "横琴口岸",
+        "name:zh": "横琴口岸",
+        "name:zh-Hans": "横琴口岸",
+        "name:zh-Hant": "橫琴口岸",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7794305704,
+      "lat": 22.1404695,
+      "lon": 113.5422312,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "横琴口岸东",
+        "name:zh": "横琴口岸东",
+        "name:zh-Hans": "横琴口岸东",
+        "name:zh-Hant": "橫琴口岸東",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7817662622,
+      "lat": 22.1413162,
+      "lon": 113.5459506,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "local_ref": "F2",
+        "name": "橫琴澳方口岸 Posto Fronteiriço Macau - Hengqin",
+        "name:en": "Macao - Hengqin Frontier Post",
+        "name:pt": "Posto Fronteiriço Macau - Hengqin",
+        "name:zh": "橫琴澳方口岸",
+        "public_transport": "platform",
+        "ref": "T560/5"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7817662623,
+      "lat": 22.1413083,
+      "lon": 113.5457149,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "local_ref": "F2",
+        "name": "橫琴澳方口岸 Posto Fronteiriço Macau - Hengqin",
+        "name:en": "Macao - Hengqin Frontier Post",
+        "name:pt": "Posto Fronteiriço Macau - Hengqin",
+        "name:zh": "橫琴澳方口岸",
+        "public_transport": "platform",
+        "ref": "T560/4"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7817662624,
+      "lat": 22.1410304,
+      "lon": 113.5457562,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "local_ref": "F1",
+        "name": "橫琴澳方口岸 Posto Fronteiriço Macau - Hengqin",
+        "name:en": "Macao - Hengqin Frontier Post",
+        "name:pt": "Zona do Posto Fronteiriço de Macau do Posto Fronteiriço Hengqin",
+        "name:ru": "Пограничный переход Хэнцинь (Ваанкам)",
+        "name:zh": "橫琴澳方口岸",
+        "public_transport": "platform",
+        "ref": "T560/2"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7823597184,
+      "lat": 22.1340108,
+      "lon": 113.5522264,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "澳大河隧/西堤馬路 Túnel S. da UM/ Est. do Dique Oeste",
+        "name:pt": "Túnel S. da UM/ Est. do Dique Oeste",
+        "name:zh": "澳大河隧/西堤馬路",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8007328820,
+      "lat": 22.1475724,
+      "lon": 113.5454032,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "祥澳路口",
+        "name:zh-Hant": "祥澳路口",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8116645117,
+      "lat": 22.1408312,
+      "lon": 113.5459407,
+      "tags": {
+        "amenity": "taxi"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8246624291,
+      "lat": 22.149308,
+      "lon": 113.5523193,
+      "tags": {
+        "brand": "Hotel Okura",
+        "name": "澳門大倉酒店 Hotel Okura Macau",
+        "name:en": "Hotel Okura Macau",
+        "name:pt": "Hotel Okura Macau",
+        "name:zh": "澳門大倉酒店",
+        "rooms": "488",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8267186608,
+      "lat": 22.1406664,
+      "lon": 113.5458331,
+      "tags": {
+        "name": "橫琴口岸澳門口岸區 Zona do Posto Fronteiriço de Macau do Posto Fronteiriço Hengqin",
+        "name:en": "Hengqin Port Macau Border Zone",
+        "name:pt": "Zona do Posto Fronteiriço de Macau do Posto Fronteiriço Hengqin",
+        "name:zh": "橫琴口岸澳門口岸區",
+        "place": "locality"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9242255003,
+      "lat": 22.1334566,
+      "lon": 113.5367427,
+      "tags": {
+        "amenity": "university",
+        "name": "珠海澳科大科技研究院",
+        "name:en": "Zhuhai MUST Science & Technology Research Institute",
+        "name:zh": "珠海澳科大科技研究院",
+        "name:zh-Hans": "珠海澳科大科技研究院",
+        "name:zh-Hant": "珠海澳科大科技研究院",
+        "operator": "澳門科技大學 Macau University of Science And Technology"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9244944277,
+      "lat": 22.1344432,
+      "lon": 113.5371089,
+      "tags": {
+        "amenity": "university",
+        "name": "澳门旅游学院粤港澳大湾区旅游教育合作中心",
+        "name:en": "IFTM – Tourism Education Collaboration Centre for Guangdong-Hong Kong-Macao Greater Bay Area",
+        "name:zh": "澳门旅游学院粤港澳大湾区旅游教育合作中心",
+        "name:zh-Hans": "澳门旅游学院粤港澳大湾区旅游教育合作中心",
+        "name:zh-Hant": "澳門旅遊學院粵港澳大灣區旅遊教育合作中心",
+        "operator": "澳门旅游学院",
+        "operator:pt": "Instituto de Formação Turística de Macau",
+        "operator:type": "public",
+        "operator:zh": "澳门旅游学院",
+        "operator:zh-Hans": "澳门旅游学院",
+        "operator:zh-Hant": "澳門旅遊學院"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9726948605,
+      "lat": 22.1356608,
+      "lon": 113.5521652,
+      "tags": {
+        "amenity": "toilets",
+        "asset_ref": "T11",
+        "name": "T11 橫琴河底行人隧道(氹仔出入口側)公廁 T11 Túnel subaquático para peões do Novo Campus da Universidade de Macau na Ilha Henqin (saída na Taipa)",
+        "name:en": "T11 Public toilet next to entrance and exit of Hengqin Tunnel in Taipa",
+        "name:pt": "T11 Túnel subaquático para peões do Novo Campus da Universidade de Macau na Ilha Henqin (saída na Taipa)",
+        "name:zh": "T11 橫琴河底行人隧道(氹仔出入口側)公廁",
+        "opening_hours": "24/7"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9926505208,
+      "lat": 22.1375936,
+      "lon": 113.540276,
+      "tags": {
+        "brand": "希尔顿",
+        "name": "希尔顿逸林酒店",
+        "name:zh": "希尔顿逸林酒店",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10556610977,
+      "lat": 22.1352028,
+      "lon": 113.5455417,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "japanese;taiwanese;oriental",
+        "description": "Location: G/F, Research Building(N21)",
+        "description:en": "Location: G/F, Research Building(N21)",
+        "description:zh": "所在位置: 科研大樓(N21), G層",
+        "image": "https://map.um.edu.mo/emap_images/dining-outlet_azucar.jpg",
+        "name": "糖主 Azucar",
+        "name:en": "Azucar",
+        "name:zh": "糖主",
+        "opening_hours": "Mo-Su 11:30-20:00",
+        "phone": "+853 2892 0567",
+        "website": "https://css.cmdo.um.edu.mo/portfolio-items/azucar/?portfolioCats=159%2C158%2C247"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10755148482,
+      "lat": 22.1405503,
+      "lon": 113.5371678,
+      "tags": {
+        "amenity": "parking_entrance"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10778187950,
+      "lat": 22.1426892,
+      "lon": 113.5397379,
+      "tags": {
+        "exit": "yes",
+        "name": "横琴站8号进站口",
+        "railway": "subway_entrance",
+        "ref": "8"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10778187951,
+      "lat": 22.1421688,
+      "lon": 113.5388354,
+      "tags": {
+        "access": "yes",
+        "name": "横琴站11号进站口",
+        "railway": "subway_entrance",
+        "ref": "11"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10778187952,
+      "lat": 22.1409405,
+      "lon": 113.5388774,
+      "tags": {
+        "access": "yes",
+        "name": "横琴站1号进站口",
+        "railway": "subway_entrance",
+        "ref": "1"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10778187953,
+      "lat": 22.1395166,
+      "lon": 113.5400023,
+      "tags": {
+        "exit": "yes",
+        "name": "横琴站5号出站口 (暂未开通)",
+        "railway": "subway_entrance",
+        "ref": "5"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10920886498,
+      "lat": 22.1350747,
+      "lon": 113.5435601,
+      "tags": {
+        "branch": "(N22)",
+        "brand": "OK便利店",
+        "brand:en": "Circle K",
+        "brand:wikidata": "Q3268010",
+        "brand:zh": "OK便利店",
+        "description": "Location: G/F, Research Building(N22)",
+        "description:en": "Location: G/F, Research Building(N22)",
+        "description:zh": "所在位置: 科研大樓(N22), G層",
+        "image": "https://map.um.edu.mo/emap_images/retail-shop_N22-circle-k.jpg",
+        "name": "OK 便利店 Circle K Convenience Store",
+        "name:en": "Circle K Convenience Store",
+        "name:zh": "OK 便利店",
+        "shop": "convenience",
+        "website": "https://css.cmdo.um.edu.mo/portfolio-items/circle-k-convenience-store/?portfolioCats=159%2C158%2C247"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11149695110,
+      "lat": 22.1338084,
+      "lon": 113.542904,
+      "tags": {
+        "amenity": "clinic",
+        "description": "Location: Room G002, UM Sports Complex",
+        "description:en": "Location: Room G002, UM Sports Complex",
+        "description:zh": "所在位置: 澳大綜合體育館, G002室",
+        "email": "hseo@um.edu.mo",
+        "fax": "+853 88222352",
+        "healthcare": "clinic",
+        "image": "https://map.um.edu.mo/emap_images/building_N8.jpg",
+        "name": "澳門大學醫療中心 Medical Center of University of Macau",
+        "name:en": "Medical Center of University of Macau",
+        "name:zh": "澳門大學醫療中心",
+        "phone": "+853 88224123",
+        "website": "https://hseo.um.edu.mo/health-and-hygiene-affairs/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11158362101,
+      "lat": 22.1343194,
+      "lon": 113.5422452,
+      "tags": {
+        "leisure": "fitness_centre",
+        "name": "健身室 Fitness Room",
+        "name:en": "Fitness Room",
+        "name:zh": "健身室"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11162232236,
+      "lat": 22.1335258,
+      "lon": 113.5459242,
+      "tags": {
+        "amenity": "bank",
+        "atm": "yes",
+        "description": "Location: G/F, UM Guest House(N1)",
+        "description:en": "Location: G/F, UM Guest House(N1)",
+        "description:zh": "所在位置: 聚賢樓(N1), G層",
+        "drive_through": "no",
+        "image": "https://map.um.edu.mo/emap_images/bank_BNU.jpg",
+        "name": "大西洋銀行服務中心 BNU Service Center",
+        "name:en": "BNU Service Center",
+        "name:pt": "Banco Nacional Ultramarino",
+        "name:zh": "大西洋銀行服務中心",
+        "opening_hours": "24/7 Self-service Banking Center",
+        "operator": "大西洋銀行 Banco Nacional Ultramarino",
+        "website": "https://css.cmdo.um.edu.mo/portfolio-items/bnu/?portfolioCats=159%2C158%2C247"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11162232260,
+      "lat": 22.1341506,
+      "lon": 113.544854,
+      "tags": {
+        "amenity": "parking_entrance"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11162232271,
+      "lat": 22.1333661,
+      "lon": 113.545935,
+      "tags": {
+        "access": "yes",
+        "amenity": "parking_entrance",
+        "level": "-1"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11236669766,
+      "lat": 22.1413389,
+      "lon": 113.5463973,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "local_ref": "F2",
+        "name": "橫琴澳方口岸 Posto Fronteiriço Macau - Hengqin",
+        "name:en": "Macao - Hengqin Frontier Post",
+        "name:pt": "Posto Fronteiriço Macau - Hengqin",
+        "name:zh": "橫琴澳方口岸",
+        "public_transport": "platform",
+        "ref": "T560/7"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11236669767,
+      "lat": 22.1410376,
+      "lon": 113.5459237,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "local_ref": "F1",
+        "name": "橫琴澳方口岸 Posto Fronteiriço Macau - Hengqin",
+        "name:en": "Macao - Hengqin Frontier Post",
+        "name:pt": "Posto Fronteiriço Macau - Hengqin",
+        "name:zh": "橫琴澳方口岸",
+        "public_transport": "platform",
+        "ref": "T560/1"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11236669768,
+      "lat": 22.1357957,
+      "lon": 113.5466517,
+      "tags": {
+        "asset_ref": "T550/3",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "image": "http://www.dsat.gov.mo/bres/bus_stop_img/t550_3.jpg",
+        "local_ref": "B",
+        "name": "T550/3 澳門大學總站(B車道) University of Macau / Terminal (Lane B)",
+        "name:en": "T550/3 University of Macau / Terminal (Lane B)",
+        "name:pt": "T550/3 Universidade de Macau / Terminal (Lane B)",
+        "name:zh": "T550/3 澳門大學總站(B車道)",
+        "public_transport": "platform",
+        "route_ref": "701X;701XS;"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11285365841,
+      "lat": 22.1356033,
+      "lon": 113.5455348,
+      "tags": {
+        "description": "Location:  Research Building (N23)",
+        "description:en": "Location:  Research Building (N23)",
+        "description:zh": "所在位置: 科研大樓 (N23)",
+        "email": "iapme.enquiry@um.edu.mo",
+        "fax": "+853 8822 2454",
+        "image": "https://map.um.edu.mo/emap_images/building_N23.jpg",
+        "name": "應用物理及材料工程研究院 Institute of Applied Physics and Materials Engineering",
+        "name:en": "Institute of Applied Physics and Materials Engineering",
+        "name:zh": "應用物理及材料工程研究院",
+        "office": "university",
+        "phone": "+853 8822 4142",
+        "website": "https://iapme.um.edu.mo/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11285446604,
+      "lat": 22.1350048,
+      "lon": 113.54305,
+      "tags": {
+        "description": "Location:  Research Building (N22)",
+        "description:en": "Location:  Research Building (N22)",
+        "description:zh": "所在位置: 科研大樓 (N22)",
+        "email": "sklqrcm@um.edu.mo",
+        "fax": "+853 2884 1358",
+        "image": "https://map.um.edu.mo/emap_images/building_N22.jpg",
+        "name": "中華醫藥研究院 Institute of Chinese Medical Sciences",
+        "name:en": "Institute of Chinese Medical Sciences",
+        "name:zh": "中華醫藥研究院",
+        "office": "university",
+        "phone": "+853 8822 4685 , +853 8822 4697",
+        "website": "https://sklqrcm.um.edu.mo/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11295472303,
+      "lat": 22.1337317,
+      "lon": 113.5458206,
+      "tags": {
+        "amenity": "restaurant",
+        "description": "Location: G/F, UM Guest House(N1)",
+        "description:en": "Location: G/F, UM Guest House(N1)",
+        "description:zh": "所在位置: 聚賢樓(N1), G層",
+        "image": "https://map.um.edu.mo/emap_images/dining-outlet_eysee-bakery.jpg",
+        "name": "香榭里法式餐廳 Le Bistro by Élysée",
+        "name:en": "Le Bistro by Élysée",
+        "name:zh": "香榭里法式餐廳",
+        "website": "https://css.cmdo.um.edu.mo/portfolio-items/elysee/?portfolioCats=159%2C158%2C247"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11295480975,
+      "lat": 22.1337904,
+      "lon": 113.5451403,
+      "tags": {
+        "leisure": "fitness_centre",
+        "name": "職員小型健身室 Staff Mini Fitness Room",
+        "name:en": "Staff Mini Fitness Room",
+        "name:zh": "職員小型健身室"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11299554350,
+      "lat": 22.1336769,
+      "lon": 113.5441529,
+      "tags": {
+        "amenity": "administration",
+        "description": "Location: Room 1012, Administration Building",
+        "description:en": "Location: Room 1012, Administration Building",
+        "description:zh": "所在位置: 行政樓, 1012室",
+        "email": "fo@um.edu.mo",
+        "fax": "8822 2363",
+        "image": "https://map.um.edu.mo/emap_images/building_N6.jpg",
+        "name": "會計處 Accounts Section",
+        "name:en": "Accounts Section",
+        "name:zh": "會計處",
+        "phone": "8822 8349",
+        "website": "https://fo.um.edu.mo/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11350152382,
+      "lat": 22.1336803,
+      "lon": 113.5442327,
+      "tags": {
+        "amenity": "administration",
+        "description": "Location: Room 1012,  Administration Building",
+        "description:en": "Location: Room 1012,  Administration Building",
+        "description:zh": "所在位置: 行政樓, 1012室",
+        "email": "fo@um.edu.mo",
+        "fax": "+853 8822 2362",
+        "image": "https://map.um.edu.mo/emap_images/building_N6.jpg",
+        "name": "預算處 Budget Section",
+        "name:en": "Budget Section",
+        "name:zh": "預算處",
+        "phone": "+853 8822 8349",
+        "website": "https://fo.um.edu.mo/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11380948651,
+      "lat": 22.1350502,
+      "lon": 113.5453734,
+      "tags": {
+        "description": "Location: 3rd Floor,  Research Building (N21)",
+        "description:en": "Location: 3rd Floor,  Research Building (N21)",
+        "description:zh": "所在位置: 科研大樓 (N21) 3樓",
+        "email": "amsv.enquiry@um.edu.mo",
+        "fax": "+853 8822 2441",
+        "image": "https://map.um.edu.mo/emap_images/building_N21.jpg",
+        "name": "微電子研究院 Institute of Microelectronics",
+        "name:en": "Institute of Microelectronics",
+        "name:zh": "微電子研究院",
+        "office": "university",
+        "phone": "+853 8822 4700",
+        "website": "https://ime.um.edu.mo/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11380977674,
+      "lat": 22.1349555,
+      "lon": 113.5456331,
+      "tags": {
+        "description": "Location: Room 1003,  Research Building (N21)",
+        "description:en": "Location: Room 1003,  Research Building (N21)",
+        "description:zh": "所在位置: 科研大樓 (N21)",
+        "email": "ICI.enquiry@um.edu.mo",
+        "fax": "+853 8822 2456",
+        "image": "https://map.um.edu.mo/emap_images/building_N21.jpg",
+        "name": "協同創新研究所 Institute of Collaborative Innovation",
+        "name:en": "Institute of Collaborative Innovation",
+        "name:zh": "協同創新研究所",
+        "office": "university",
+        "phone": "+853 8822 4600",
+        "website": "https://ici.um.edu.mo/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11380983957,
+      "lat": 22.1340913,
+      "lon": 113.5438703,
+      "tags": {
+        "description": "Location: Room 6019, Administration Building (N6)",
+        "description:en": "Location: Room 6019, Administration Building (N6)",
+        "description:zh": "所在位置: 行政樓 (N6), 6019室",
+        "email": "spo.enquiry@um.edu.mo",
+        "fax": "+853 8822 2422",
+        "image": "https://map.um.edu.mo/emap_images/building_N6.jpg",
+        "name": "策略及規劃辦公室 Strategy and Planning Office",
+        "name:en": "Strategy and Planning Office",
+        "name:zh": "策略及規劃辦公室",
+        "office": "university",
+        "phone": "+853 8822 8072",
+        "website": "https://spo.um.edu.mo/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11381005337,
+      "lat": 22.1356789,
+      "lon": 113.5451176,
+      "tags": {
+        "description": "Location: Room 2022, Research Building (N23)",
+        "description:en": "Location: Room 2022, Research Building (N23)",
+        "description:zh": "所在位置: 科研大樓 (N23), 2022室",
+        "email": "cert@umac.mo",
+        "fax": "+853 2883 0604",
+        "image": "https://map.um.edu.mo/emap_images/building_N23.jpg",
+        "name": "工程研究及檢測中心 Centre for Engineering Research and Testing",
+        "name:en": "Centre for Engineering Research and Testing",
+        "name:zh": "工程研究及檢測中心",
+        "office": "university",
+        "phone": "+853 8822 9100",
+        "website": "https://www.fst.um.edu.mo/cert/web/aboutus.html"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11381015226,
+      "lat": 22.1350646,
+      "lon": 113.5451272,
+      "tags": {
+        "description": "Location: 3/F, Research Building (N21)",
+        "description:en": "Location: 3/F, Research Building (N21)",
+        "description:zh": "所在位置: 科研大樓 (N21), 3樓",
+        "email": "amsv.enquiry@um.edu.mo",
+        "fax": "+853 8822 2441",
+        "image": "https://map.um.edu.mo/emap_images/unit_AMSV.png",
+        "name": "模擬與混合信號超大規模集成電路國家重點實驗室 State Key Laboratory of Analog and Mixed-Signal VLSI (AMSV)",
+        "name:en": "State Key Laboratory of Analog and Mixed-Signal VLSI (AMSV)",
+        "name:zh": "模擬與混合信號超大規模集成電路國家重點實驗室",
+        "office": "university",
+        "phone": "+853 8822 4700",
+        "website": "https://ime.um.edu.mo/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11381015227,
+      "lat": 22.1350123,
+      "lon": 113.5428454,
+      "tags": {
+        "description": "Location: Research Building (N22)",
+        "description:en": "Location: Research Building (N22)",
+        "description:zh": "所在位置: 科研大樓 (N22)",
+        "email": "sklqrcm@um.edu.mo",
+        "fax": "+853 2884 1358",
+        "image": "https://map.um.edu.mo/emap_images/building_N22.jpg",
+        "name": "中藥質量研究國家重點實驗室 State Key Laboratory of Quality Research in Chinese Medicine",
+        "name:en": "State Key Laboratory of Quality Research in Chinese Medicine",
+        "name:zh": "中藥質量研究國家重點實驗室",
+        "office": "university",
+        "phone": "+853 8822 4685",
+        "website": "https://sklqrcm.um.edu.mo/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11381018978,
+      "lat": 22.1350647,
+      "lon": 113.5448507,
+      "tags": {
+        "description": "Location: Research Building (N21)",
+        "description:en": "Location: Building (N21)",
+        "description:zh": "所在位置: 科研大樓 (N21)",
+        "email": "iotsc.enquiry@um.edu.mo",
+        "fax": "+853 8822 2466",
+        "image": "https://map.um.edu.mo/emap_images/building_N21.jpg",
+        "name": "智慧城市物聯網國家重點實驗室 State Key Laboratory of Internet of Things for Smart City",
+        "name:en": "State Key Laboratory of Internet of Things for Smart City",
+        "name:zh": "智慧城市物聯網國家重點實驗室",
+        "office": "university",
+        "phone": "+853 8822 4200",
+        "website": "https://skliotsc.um.edu.mo/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11393744116,
+      "lat": 22.1337112,
+      "lon": 113.5439933,
+      "tags": {
+        "amenity": "administration",
+        "description": "Location: Room 2026,  Administration Building (N6)",
+        "description:en": "Location: Room 2026,  Administration Building (N6)",
+        "description:zh": "所在位置: 行政樓 (N6), 2026室",
+        "email": "aao@um.edu.mo",
+        "fax": "+853 8822 2424",
+        "image": "https://map.um.edu.mo/emap_images/building_N6.jpg",
+        "name": "學務部 Academic Affairs Office",
+        "name:en": "Academic Affairs Office",
+        "name:zh": "學務部",
+        "phone": "+853 8822 4807",
+        "website": "https://aao.um.edu.mo/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11393744117,
+      "lat": 22.1337192,
+      "lon": 113.543929,
+      "tags": {
+        "amenity": "administration",
+        "description": "Location: Room 3018,  Administration Building (N6)",
+        "description:en": "Location: Room 3018,  Administration Building (N6)",
+        "description:zh": "所在位置: 行政樓 (N6), 3018室",
+        "email": "cmdo.suggestion@um.edu.mo",
+        "fax": "+853 8822 2385",
+        "image": "https://map.um.edu.mo/emap_images/building_N6.jpg",
+        "name": "校園管理及發展部 Campus Management and Development Office",
+        "name:en": "Campus Management and Development Office",
+        "name:zh": "校園管理及發展部",
+        "phone": "+853 8822 8679",
+        "website": "https://cmdo.um.edu.mo/?lang=zh-hant"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11393744118,
+      "lat": 22.1337907,
+      "lon": 113.5439268,
+      "tags": {
+        "amenity": "administration",
+        "description": "Location: Room 3013,  Administration Building (N6)",
+        "description:en": "Location: Room 3013,  Administration Building (N6)",
+        "description:zh": "所在位置: 行政樓 (N6), 3013室",
+        "email": "css.suggestion@um.edu.mo",
+        "fax": "+853 8822 2438",
+        "image": "https://map.um.edu.mo/emap_images/building_N6.jpg",
+        "name": "校園服務處 Campus Services Section",
+        "name:en": "Campus Services Section",
+        "name:zh": "校園服務處",
+        "phone": "+853 8822 8427",
+        "website": "https://css.cmdo.um.edu.mo/?lang=zh-hant"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11393744119,
+      "lat": 22.133755,
+      "lon": 113.5440792,
+      "tags": {
+        "amenity": "administration",
+        "description": "Location: Room G012,  Administration Building (N6)",
+        "description:en": "Location: Room G012,  Administration Building (N6)",
+        "description:zh": "所在位置: 行政樓 (N6), G012室",
+        "email": "co@um.edu.mo",
+        "fax": "+853 8822 2360",
+        "image": "https://map.um.edu.mo/emap_images/building_N6.jpg",
+        "name": "傳訊部 Communications Office",
+        "name:en": "Communications Office",
+        "name:zh": "傳訊部",
+        "phone": "+853 8822 8400",
+        "website": "https://www.um.edu.mo/co/chi/index.php"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11393744120,
+      "lat": 22.1336357,
+      "lon": 113.5441972,
+      "tags": {
+        "amenity": "administration",
+        "description": "Location: Room 3025,  Administration Building (N6)",
+        "description:en": "Location: Room 3025,  Administration Building (N6)",
+        "description:zh": "所在位置: 行政樓 (N6), 3025室",
+        "email": "cfm_enquiry@um.edu.mo",
+        "fax": "+853 8822 2310",
+        "image": "https://map.um.edu.mo/emap_images/building_N6.jpg",
+        "name": "工程及設施維護處 Construction and Facilities Maintenance Section",
+        "name:en": "Construction and Facilities Maintenance Section",
+        "name:zh": "工程及設施維護處",
+        "phone": "+853 8822 4107",
+        "website": "https://cfm.cmdo.um.edu.mo/?lang=zh-hant"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11393744121,
+      "lat": 22.1337013,
+      "lon": 113.5438775,
+      "tags": {
+        "amenity": "administration",
+        "description": "Location: Room 3019,  Administration Building (N6)",
+        "description:en": "Location: Room 3019,  Administration Building (N6)",
+        "description:zh": "所在位置: 行政樓 (N6), 3019室",
+        "email": "ems.suggestion@um.edu.mo",
+        "fax": "+853 8822 2467",
+        "image": "https://map.um.edu.mo/emap_images/building_N6.jpg",
+        "name": "機電處 Electrical and Mechanical Section",
+        "name:en": "Electrical and Mechanical Section",
+        "name:zh": "機電處",
+        "phone": "+853 8822 8474",
+        "website": "https://ems.cmdo.um.edu.mo/?lang=zh-hant"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11393744122,
+      "lat": 22.1338106,
+      "lon": 113.5439805,
+      "tags": {
+        "amenity": "administration",
+        "description": "Location: Room 1012,  Administration Building (N6)",
+        "description:en": "Location: Room 1012,  Administration Building (N6)",
+        "description:zh": "所在位置: 行政樓 (N6), 3019室",
+        "email": "fo@um.edu.mo",
+        "fax": "+853 8822 2362",
+        "image": "https://map.um.edu.mo/emap_images/building_N6.jpg",
+        "name": "財務部 Finance Office",
+        "name:en": "Finance Office",
+        "name:zh": "財務部",
+        "phone": "+853 8822 8349",
+        "website": "https://fo.um.edu.mo/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11393744123,
+      "lat": 22.1336993,
+      "lon": 113.5444418,
+      "tags": {
+        "amenity": "administration",
+        "description": "Location: Room G018,  Administration Building (N6)",
+        "description:en": "Location: Room G018,  Administration Building (N6)",
+        "description:zh": "所在位置: 行政樓 (N6), G018室",
+        "email": "gao.enquiry@um.edu.mo",
+        "fax": "+853 8822 2347",
+        "image": "https://map.um.edu.mo/emap_images/building_N6.jpg",
+        "name": "全球事務部 Global Affairs Office",
+        "name:en": "Global Affairs Office",
+        "name:zh": "全球事務部",
+        "phone": "+853 8822 4386, +853 8822 4630",
+        "website": "https://gao.um.edu.mo/zh-hant"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11393744124,
+      "lat": 22.1337748,
+      "lon": 113.5444397,
+      "tags": {
+        "amenity": "administration",
+        "description": "Location: Room 1012,  Administration Building (N6)",
+        "description:en": "Location: Room 1012,  Administration Building (N6)",
+        "description:zh": "所在位置: 行政樓 (N6), 4018室",
+        "fax": "+853 8822 2412, +853 8822 2411",
+        "image": "https://map.um.edu.mo/emap_images/building_N6.jpg",
+        "name": "人力資源服務處 Human Resources Services Section",
+        "name:en": "Human Resources Services Section",
+        "name:zh": "人力資源服務處",
+        "phone": "+853 8822 8406, +853 8822 8577, +853 8822 8405",
+        "website": "https://hrs.admo.um.edu.mo/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11393744125,
+      "lat": 22.133755,
+      "lon": 113.5442959,
+      "tags": {
+        "amenity": "administration",
+        "description": "Location: Room 2017,  Administration Building (N6)",
+        "description:en": "Location: Room 2017,  Administration Building (N6)",
+        "description:zh": "所在位置: 行政樓 (N6), 2017室",
+        "email": "icto.suggestion@um.edu.mo",
+        "fax": "+853 8822 2408",
+        "image": "https://map.um.edu.mo/emap_images/building_N6.jpg",
+        "name": "資訊及通訊科技部 Information and Communication Technology Office",
+        "name:en": "Information and Communication Technology Office",
+        "name:zh": "資訊及通訊科技部",
+        "phone": "+853 8822 8617, +853 8822 8688, +853 8822 8611",
+        "website": "https://icto.um.edu.mo/?lang=zh-hant"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11393744126,
+      "lat": 22.1336973,
+      "lon": 113.544298,
+      "tags": {
+        "amenity": "administration",
+        "description": "Location: Room 2012,  Administration Building",
+        "description:en": "Location: Room 2012,  Administration Building",
+        "description:zh": "所在位置: 行政樓, 2012室",
+        "fax": "+853 8822 2408",
+        "image": "https://map.um.edu.mo/emap_images/building_N6.jpg",
+        "name": "資訊管理處 Information Management Section",
+        "name:en": "Information Management Section",
+        "name:zh": "資訊管理處",
+        "phone": "+853 8822 8500",
+        "website": "https://icto.um.edu.mo/about-icto/information-management-section-ims/?lang=zh-hant"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11399359299,
+      "lat": 22.1336439,
+      "lon": 113.5442637,
+      "tags": {
+        "amenity": "administration",
+        "description": "Location: Room 1012, Administration Building (N6)",
+        "description:en": "Location: Room 1012, Administration Building (N6)",
+        "description:zh": "所在位置: 行政樓 (N6), 1012室",
+        "email": "fo@um.edu.mo",
+        "fax": "+853 8822 2365",
+        "image": "https://map.um.edu.mo/emap_images/building_N6.jpg",
+        "name": "出納處 Treasury Section",
+        "name:en": "Treasury Section",
+        "name:zh": "出納處",
+        "phone": "+853 8822 8349",
+        "website": "https://fo.um.edu.mo/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11399359300,
+      "lat": 22.1339222,
+      "lon": 113.5441969,
+      "tags": {
+        "amenity": "administration",
+        "description": "Location: Room 6011, Administration Building (N6)",
+        "description:en": "Location: Room 6011, Administration Building (N6)",
+        "description:zh": "所在位置: 行政樓 (N6), 6011室",
+        "email": "uco.suggestion@um.edu.mo",
+        "fax": "+853 8822 2333",
+        "image": "https://map.um.edu.mo/emap_images/building_N6.jpg",
+        "name": "校董會(行政辦公室) University Council Office",
+        "name:en": "University Council Office",
+        "name:zh": "校董會(行政辦公室)",
+        "phone": "+853 8822 4316, +853 8822 4380",
+        "website": "https://www.um.edu.mo/uc/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11399363817,
+      "lat": 22.1338787,
+      "lon": 113.5440713,
+      "tags": {
+        "amenity": "administration",
+        "description": "Location: Room 4018, Administration Building (N6)",
+        "description:en": "Location: Room 4018, Administration Building (N6)",
+        "description:zh": "所在位置: 行政樓 (N6), 4018室",
+        "fax": "+853 8822 2436",
+        "image": "https://map.um.edu.mo/emap_images/building_N6.jpg",
+        "name": "行政部 Office of Administration",
+        "name:en": "Office of Administration",
+        "name:zh": "行政部",
+        "phone": "+853 8822 8536",
+        "website": "https://admo.um.edu.mo/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11399363818,
+      "lat": 22.1338856,
+      "lon": 113.5443856,
+      "tags": {
+        "amenity": "administration",
+        "description": "Location: Room 4011, Administration Building (N6)",
+        "description:en": "Location: Room 4011, Administration Building (N6)",
+        "description:zh": "所在位置: 行政樓 (N6), 4011室",
+        "email": "hseo.suggestion@um.edu.mo",
+        "fax": "+853 8822 2352",
+        "image": "https://map.um.edu.mo/emap_images/building_N6.jpg",
+        "name": "安健及環境事務辦公室 Office of Health, Safety and Environmental Affairs",
+        "name:en": "Office of Health, Safety and Environmental Affairs",
+        "name:zh": "安健及環境事務辦公室",
+        "phone": "+853 8822 4436",
+        "website": "https://hseo.um.edu.mo/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11399363819,
+      "lat": 22.1338429,
+      "lon": 113.5444157,
+      "tags": {
+        "amenity": "administration",
+        "description": "Location: Room 4011, Administration Building (N6)",
+        "description:en": "Location: Room 4011, Administration Building (N6)",
+        "description:zh": "所在位置: 行政樓 (N6), 4011室",
+        "email": "hseo.suggestion@um.edu.mo",
+        "fax": "+853 8822 2352",
+        "image": "https://map.um.edu.mo/emap_images/building_N6.jpg",
+        "name": "安健及環境事務辦公室 Office of Health, Safety and Environmental Affairs",
+        "name:en": "Office of Health, Safety and Environmental Affairs",
+        "name:zh": "安健及環境事務辦公室",
+        "phone": "+853 8822 4436",
+        "website": "https://hseo.um.edu.mo/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11399375127,
+      "lat": 22.1343212,
+      "lon": 113.5426126,
+      "tags": {
+        "amenity": "administration",
+        "description": "Location: Room 1017, UM Sports Complex (N8)",
+        "description:en": "Location: Room 1017, UM Sports Complex (N8)",
+        "description:zh": "所在位置: 澳大綜合體育館 (N8), 1017室",
+        "email": "osa.suggestion@um.edu.mo",
+        "fax": "+853 8822 2407",
+        "image": "https://map.um.edu.mo/emap_images/building_N8.jpg",
+        "name": "體育事務部 Office of Sports Affairs",
+        "name:en": "Office of Sports Affairs",
+        "name:zh": "體育事務部",
+        "phone": "+853 8822 4412, +853 8822 2512",
+        "website": "https://www.um.edu.mo/osa/en/index.html"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11399375128,
+      "lat": 22.1337252,
+      "lon": 113.5446013,
+      "tags": {
+        "amenity": "administration",
+        "description": "Location: Room 4012, Administration Building (N6)",
+        "description:en": "Location: Room 4012, Administration Building (N6)",
+        "description:zh": "所在位置: 行政樓 (N6), 4012室",
+        "fax": "+853 2883 1103",
+        "image": "https://map.um.edu.mo/emap_images/building_N6.jpg",
+        "name": "採購處 Procurement Section",
+        "name:en": "Procurement Section",
+        "name:zh": "採購處",
+        "phone": "+853 8822 4835, +853 8822 4888, +853 8822 4885",
+        "website": "https://pct.admo.um.edu.mo/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11399375129,
+      "lat": 22.1336648,
+      "lon": 113.5446034,
+      "tags": {
+        "amenity": "administration",
+        "description": "Location: G/F , Administration Building (N6)",
+        "description:en": "Location: G/F , Administration Building (N6)",
+        "description:zh": "所在位置: 行政樓 (N6), G樓",
+        "fax": "+853 8822 2360",
+        "image": "https://map.um.edu.mo/emap_images/building_N6.jpg",
+        "name": "公共關係處 Public Relations Section",
+        "name:en": "Public Relations Section",
+        "name:zh": "公共關係處",
+        "phone": "+853 8822 8400",
+        "website": "https://www.um.edu.mo/co/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11399375130,
+      "lat": 22.1338742,
+      "lon": 113.5437568,
+      "tags": {
+        "amenity": "administration",
+        "description": "Location: Room 4009, Administration Building (N6)",
+        "description:en": "Location: Room 4009, Administration Building (N6)",
+        "description:zh": "所在位置: 行政樓 (N6), 4009室",
+        "email": "pub.enquiry@um.edu.mo",
+        "fax": "+853 8822 2361",
+        "image": "https://map.um.edu.mo/emap_images/building_N6.jpg",
+        "name": "出版中心 Publications Centre",
+        "name:en": "Publications Centre",
+        "name:zh": "出版中心",
+        "phone": "+853 8822 4504, +853 8822 4505",
+        "website": "https://www.um.edu.mo/intranet/pub/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11399375131,
+      "lat": 22.1340555,
+      "lon": 113.5441983,
+      "tags": {
+        "amenity": "administration",
+        "description": "Location: 6/F , Administration Building (N6)",
+        "description:en": "Location: 6/F , Administration Building (N6)",
+        "description:zh": "所在位置: 行政樓 (N6), 6樓",
+        "email": "umrector@um.edu.mo",
+        "fax": "+853 2883 1694",
+        "image": "https://map.um.edu.mo/emap_images/building_N6.jpg",
+        "name": "校長辦公室 Rector’s Office",
+        "name:en": "Rector’s Office",
+        "name:zh": "校長辦公室",
+        "phone": "+853 8822 4631",
+        "website": "https://rto.um.edu.mo/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11399375132,
+      "lat": 22.1337913,
+      "lon": 113.5437598,
+      "tags": {
+        "amenity": "administration",
+        "description": "Location: Room G002, Administration Building",
+        "description:en": "Location: Room G002, Administration Building",
+        "description:zh": "所在位置: 行政樓, G002室",
+        "email": "registry@um.edu.mo",
+        "fax": "+853 8822 2425",
+        "image": "https://map.um.edu.mo/emap_images/building_N6.jpg",
+        "name": "註冊處 Registry",
+        "name:en": "Registry",
+        "name:zh": "註冊處",
+        "phone": "+853 8822 4007",
+        "website": "https://reg.um.edu.mo/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11399375133,
+      "lat": 22.133721,
+      "lon": 113.5437598,
+      "tags": {
+        "amenity": "administration",
+        "description": "Location: Room 3012, Administration Building (N6)",
+        "description:en": "Location: Room 3012, Administration Building (N6)",
+        "description:zh": "所在位置: 行政樓 (N6), 3012室",
+        "email": "sfs.suggestion@um.edu.mo",
+        "fax": "+853 8822 2436",
+        "image": "https://map.um.edu.mo/emap_images/building_N6.jpg",
+        "name": "保安及設施服務處 Security and Facilities Services Section",
+        "name:en": "Security and Facilities Services Section",
+        "name:zh": "保安及設施服務處",
+        "phone": "+853 8822 8536",
+        "website": "https://sfs.cmdo.um.edu.mo/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11418768723,
+      "lat": 22.1320091,
+      "lon": 113.5432475,
+      "tags": {
+        "amenity": "atm",
+        "branch": "BCM",
+        "description": "Location: G/F, Faculty of Science and Technology (At the Learning Commons of Faculty of Science and Technology)",
+        "description:en": "Location: G/F, Faculty of Science and Technology (At the Learning Commons of Faculty of Science and Technology)",
+        "description:zh": "所在位置: 科技學院, G樓 (位於科技學院學習共享空間)",
+        "image": "https://map.um.edu.mo/emap_images/atm_E11-BCM.jpg",
+        "name": "澳門商業銀行 Banco Comercial de Macau - 自動櫃員機 ATM (E11)",
+        "name:en": "Banco Comercial de Macau - ATM (E11)",
+        "name:zh": "澳門商業銀行 - 自動櫃員機 (E11)"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11418920580,
+      "lat": 22.1321734,
+      "lon": 113.5435626,
+      "tags": {
+        "amenity": "printing",
+        "description": "Location: G/F, Faculty of Science and Technology",
+        "description:en": "Location: G/F, Faculty of Science and Technology",
+        "description:zh": "所在位置: 科技學院, G樓",
+        "image": "https://map.um.edu.mo/emap_images/printing_E11-GF.jpg",
+        "name": "打印區域 (E11 學習共享空間) Printing Area (E11 Learning Commons)",
+        "name:en": "Printing Area (E11 Learning Commons)",
+        "name:zh": "打印區域 (E11 學習共享空間)"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11473299084,
+      "lat": 22.1456757,
+      "lon": 113.5518437,
+      "tags": {
+        "amenity": "casino",
+        "name": "百老匯娛樂場 Broadway Macau Casino",
+        "name:en": "Broadway Macau Casino",
+        "name:zh": "百老匯娛樂場",
+        "opening_hours": "24/7",
+        "smoking": "isolated"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11521352599,
+      "lat": 22.1336903,
+      "lon": 113.5440773,
+      "tags": {
+        "amenity": "administration",
+        "description": "Location: Room 2026, Administration Building",
+        "description:en": "Location: Room 2026, Administration Building",
+        "description:zh": "所在位置: 行政樓, 2026室",
+        "email": "aao@um.edu.mo",
+        "fax": "+853 8822 2424",
+        "image": "https://map.um.edu.mo/emap_images/building_N6.jpg",
+        "name": "校友及發展辦公室 Alumni and Development Office",
+        "name:en": "Alumni and Development Office",
+        "name:zh": "校友及發展辦公室",
+        "phone": "+853 8822 4807",
+        "website": "https://aao.um.edu.mo/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11521390235,
+      "lat": 22.1336996,
+      "lon": 113.544369,
+      "tags": {
+        "description": "Location: Room G001, Administration Building (N6)",
+        "description:en": "Location: Room G001, Administration Building (N6)",
+        "description:zh": "所在位置: 行政樓 (N6), G001室",
+        "email": "gradschool@um.edu.mo",
+        "fax": "+853 8822 2327",
+        "image": "https://map.um.edu.mo/emap_images/building_N6.jpg",
+        "name": "研究生院 Graduate School",
+        "name:en": "Graduate School",
+        "name:zh": "研究生院",
+        "office": "university",
+        "phone": "+853 8822 4898",
+        "website": "https://grs.um.edu.mo/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11530180107,
+      "lat": 22.1342349,
+      "lon": 113.5463546,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "image": "https://map.um.edu.mo/emap_images/campus-loop_03.jpg",
+        "name": "大學會堂 University Hall",
+        "name:en": "University Hall",
+        "name:zh": "大學會堂",
+        "public_transport": "platform",
+        "ref": "N2",
+        "website": "https://campusloop.cmdo.um.edu.mo/en_US/busstopinfo",
+        "website:en": "https://campusloop.cmdo.um.edu.mo/en_US/busstopinfo",
+        "website:zh": "https://campusloop.cmdo.um.edu.mo/zh_TW/busstopinfo"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11530199273,
+      "lat": 22.1320928,
+      "lon": 113.5424872,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "image": "https://map.um.edu.mo/emap_images/campus-loop_05.jpg",
+        "name": "科技學院 Faculty of Science and Technology",
+        "name:en": "Faculty of Science and Technology",
+        "name:zh": "科技學院",
+        "public_transport": "platform",
+        "ref": "E11",
+        "website": "https://campusloop.cmdo.um.edu.mo/en_US/busstopinfo",
+        "website:en": "https://campusloop.cmdo.um.edu.mo/en_US/busstopinfo",
+        "website:zh": "https://campusloop.cmdo.um.edu.mo/zh_TW/busstopinfo"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11530214723,
+      "lat": 22.1339638,
+      "lon": 113.5435984,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "image": "https://map.um.edu.mo/emap_images/campus-loop_04.jpg",
+        "name": "行政樓 Administration Building",
+        "name:en": "Administration Building",
+        "name:zh": "行政樓",
+        "public_transport": "platform",
+        "ref": "N6",
+        "website": "https://campusloop.cmdo.um.edu.mo/en_US/busstopinfo",
+        "website:en": "https://campusloop.cmdo.um.edu.mo/en_US/busstopinfo",
+        "website:zh": "https://campusloop.cmdo.um.edu.mo/zh_TW/busstopinfo"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11542069552,
+      "lat": 22.1338288,
+      "lon": 113.5441402,
+      "tags": {
+        "amenity": "administration",
+        "description": "Location: Room 5011, Administration Building (N6)",
+        "description:en": "Location: Room 5011, Administration Building (N6)",
+        "description:zh": "所在位置: 行政樓 (N6), 5011室",
+        "image": "https://map.um.edu.mo/emap_images/building_N6.jpg",
+        "name": "研究服務及知識轉移辦公室 Research Services and Knowledge Transfer Office",
+        "name:en": "Research Services and Knowledge Transfer Office",
+        "name:zh": "研究服務及知識轉移辦公室",
+        "website": "https://www.um.edu.mo/research/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11617858008,
+      "lat": 22.1472734,
+      "lon": 113.5521541,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "翠華餐廳 Tsui Wah Restaurant",
+        "brand:en": "Tsui Wah Restaurant",
+        "brand:wikidata": "Q7850018",
+        "brand:zh": "翠華餐廳",
+        "cuisine": "cantonese",
+        "name": "翠華餐廳 Tsui Wah Restaurant",
+        "name:en": "Tsui Wah Restaurant",
+        "name:zh": "翠華餐廳",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11629807849,
+      "lat": 22.1338493,
+      "lon": 113.5461006,
+      "tags": {
+        "description": "Location: Bus Stop,  UM Guest House (N1)",
+        "description:en": "Location: Bus Stop,  UM Guest House (N1)",
+        "description:zh": "所在位置: 聚賢樓 (N1) 巴士站",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "internet_access:ssid": "UM_PUBLIC_WIFI",
+        "name": "Outdoor WiFi AP (N1 Bus Stop)",
+        "name:en": "Outdoor WiFi AP (N1 Bus Stop)",
+        "name:zh": "室外無線網熱點 (N1 巴士站)",
+        "website": "https://icto.um.edu.mo/network/wireless-network-service/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11629807850,
+      "lat": 22.1336115,
+      "lon": 113.5446237,
+      "tags": {
+        "description": "Location: G/F corridor, Administration Building (N6)",
+        "description:en": "Location: G/F corridor, Administration Building (N6)",
+        "description:zh": "所在位置: 行政樓 (N6), G樓走廊",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "internet_access:ssid": "UM_PUBLIC_WIFI",
+        "name": "Outdoor WiFi AP (N6 South - 2)",
+        "name:en": "Outdoor WiFi AP (N6 South - 2)",
+        "name:zh": "室外無線網熱點 (N6 南面 - 2)",
+        "website": "https://icto.um.edu.mo/network/wireless-network-service/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11629807851,
+      "lat": 22.1337159,
+      "lon": 113.5436608,
+      "tags": {
+        "description": "Location: G/F corridor, Administration Building (N6)",
+        "description:en": "Location: G/F corridor, Administration Building (N6)",
+        "description:zh": "所在位置: 行政樓 (N6), G樓走廊",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "internet_access:ssid": "UM_PUBLIC_WIFI",
+        "name": "Outdoor WiFi AP (N6 Staff Bus Stop)",
+        "name:en": "Outdoor WiFi AP (N6 Staff Bus Stop)",
+        "name:zh": "室外無線網熱點 (N6 員工巴士站)",
+        "website": "https://icto.um.edu.mo/network/wireless-network-service/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11629807852,
+      "lat": 22.1334079,
+      "lon": 113.5438509,
+      "tags": {
+        "description": "Location: G/F corridor, Administration Building (N6)",
+        "description:en": "Location: G/F corridor, Administration Building (N6)",
+        "description:zh": "所在位置: 行政樓 (N6), G樓走廊",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "internet_access:ssid": "UM_PUBLIC_WIFI",
+        "name": "Outdoor WiFi AP (N6 South - 1)",
+        "name:en": "Outdoor WiFi AP (N6 South - 1)",
+        "name:zh": "室外無線網熱點 (N6 南面 - 1)",
+        "website": "https://icto.um.edu.mo/network/wireless-network-service/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11629807853,
+      "lat": 22.1340708,
+      "lon": 113.5436667,
+      "tags": {
+        "description": "Location: Bus Stop,  Administration Building (N6)",
+        "description:en": "Location: Bus Stop,  Administration Building (N6)",
+        "description:zh": "所在位置: 行政樓 (N6) 巴士站",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "internet_access:ssid": "UM_PUBLIC_WIFI",
+        "name": "Outdoor WiFi AP (N6 Bus Stop)",
+        "name:en": "Outdoor WiFi AP (N6 Bus Stop)",
+        "name:zh": "室外無線網熱點 (N6 巴士站)",
+        "website": "https://icto.um.edu.mo/network/wireless-network-service/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11629807854,
+      "lat": 22.1328521,
+      "lon": 113.5438882,
+      "tags": {
+        "description": "Location: Central Avenue, Faculty of Science and Technology (E11)",
+        "description:en": "Location: Central Avenue, Faculty of Science and Technology (E11)",
+        "description:zh": "所在位置: 科技學院 (E11), 中央大道",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "internet_access:ssid": "UM_PUBLIC_WIFI",
+        "name": "Outdoor WiFi AP (E11 East - 1)",
+        "name:en": "Outdoor WiFi AP (E11 East - 1)",
+        "name:zh": "室外無線網熱點 (E11 東面 - 1)",
+        "website": "https://icto.um.edu.mo/network/wireless-network-service/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11629807855,
+      "lat": 22.132557,
+      "lon": 113.5438829,
+      "tags": {
+        "description": "Location: Central Avenue, Faculty of Science and Technology (E11)",
+        "description:en": "Location: Central Avenue, Faculty of Science and Technology (E11)",
+        "description:zh": "所在位置: 科技學院 (E11), 中央大道",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "internet_access:ssid": "UM_PUBLIC_WIFI",
+        "name": "Outdoor WiFi AP (E11 East - 2)",
+        "name:en": "Outdoor WiFi AP (E11 East - 2)",
+        "name:zh": "室外無線網熱點 (E11 東面 - 2)",
+        "website": "https://icto.um.edu.mo/network/wireless-network-service/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11629807856,
+      "lat": 22.1320324,
+      "lon": 113.5438716,
+      "tags": {
+        "description": "Location: Central Avenue, Faculty of Science and Technology (E11)",
+        "description:en": "Location: Central Avenue, Faculty of Science and Technology (E11)",
+        "description:zh": "所在位置: 科技學院 (E11), 中央大道",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "internet_access:ssid": "UM_PUBLIC_WIFI",
+        "name": "Outdoor WiFi AP (E11 East - 3)",
+        "name:en": "Outdoor WiFi AP (E11 East - 3)",
+        "name:zh": "室外無線網熱點 (E11 東面 - 3)",
+        "website": "https://icto.um.edu.mo/network/wireless-network-service/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11629848780,
+      "lat": 22.1318241,
+      "lon": 113.5421055,
+      "tags": {
+        "description": "Location: G/F corridor, Moon Chun Memorial College (W11)",
+        "description:en": "Location: G/F corridor, Moon Chun Memorial College (W11)",
+        "description:zh": "所在位置: 滿珍紀念書院 (W11), G層走廊",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "internet_access:ssid": "UM_PUBLIC_WIFI",
+        "name": "Outdoor WiFi AP (Island 1)",
+        "name:en": "Outdoor WiFi AP (Island 1)",
+        "name:zh": "室外無線網熱點 (島1)",
+        "website": "https://icto.um.edu.mo/network/wireless-network-service/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11629848785,
+      "lat": 22.1318571,
+      "lon": 113.5424301,
+      "tags": {
+        "description": "Location: Alumni Avenue, Moon Chun Memorial College (W11)",
+        "description:en": "Location: Alumni Avenue, Moon Chun Memorial College (W11)",
+        "description:zh": "所在位置: 滿珍紀念書院 (W11), 校友大道",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "internet_access:ssid": "UM_PUBLIC_WIFI",
+        "name": "Outdoor WiFi AP (Island 1 Covered Walkway)",
+        "name:en": "Outdoor WiFi AP (Island 1 Covered Walkway)",
+        "name:zh": "室外無線網熱點 (島1連廊)",
+        "website": "https://icto.um.edu.mo/network/wireless-network-service/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11629848786,
+      "lat": 22.1322167,
+      "lon": 113.5422607,
+      "tags": {
+        "description": "Location: Alumni Avenue, Moon Chun Memorial College (W11)",
+        "description:en": "Location: Alumni Avenue, Moon Chun Memorial College (W11)",
+        "description:zh": "所在位置: 滿珍紀念書院 (W11), 校友大道",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "internet_access:ssid": "UM_PUBLIC_WIFI",
+        "name": "Outdoor WiFi AP (W11 East)",
+        "name:en": "Outdoor WiFi AP (W11 East)",
+        "name:zh": "室外無線網熱點 (W11 東面)",
+        "website": "https://icto.um.edu.mo/network/wireless-network-service/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11659081916,
+      "lat": 22.1334646,
+      "lon": 113.5347199,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "依依桥南",
+        "name:zh-Hant": "依依橋南",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11675123415,
+      "lat": 22.1323941,
+      "lon": 113.5433166,
+      "tags": {
+        "description": "Location: Room 4040, Faculty of Science and Technology (E11)",
+        "description:en": "Location: Room 4040, Faculty of Science and Technology (E11)",
+        "description:zh": "所在位置: 科技學院 (E11), 4040室",
+        "email": "fst.enquiry@um.edu.mo",
+        "fax": "+853 8822 2426",
+        "image": "https://map.um.edu.mo/emap_images/building_E11.jpg",
+        "name": "科技學院 Faculty of Science and Technology (FST)",
+        "name:en": "Faculty of Science and Technology (FST)",
+        "name:zh": "科技學院 (FST)",
+        "office": "university",
+        "phone": "+853 8822 4963",
+        "website": "https://www.fst.um.edu.mo"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11700019998,
+      "lat": 22.1353464,
+      "lon": 113.5521187,
+      "tags": {
+        "amenity": "drinking_water"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11963747345,
+      "lat": 22.1351567,
+      "lon": 113.5350511,
+      "tags": {
+        "name": "天沐河露营地",
+        "tourism": "camp_site"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12357355313,
+      "lat": 22.1413279,
+      "lon": 113.5462011,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "local_ref": "F2",
+        "name": "橫琴澳方口岸 Posto Fronteiriço Macau - Hengqin",
+        "name:zh": "橫琴澳方口岸",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12391564890,
+      "lat": 22.1406595,
+      "lon": 113.5449167,
+      "tags": {
+        "light_rail": "yes",
+        "name": "橫琴 Hengqin",
+        "name:en": "Hengqin",
+        "name:pt": "Hengqin",
+        "name:zh": "橫琴",
+        "name:zh-Hans": "横琴",
+        "name:zh-Hant": "橫琴",
+        "public_transport": "station",
+        "railway": "station",
+        "station": "light_rail",
+        "wikidata": "Q130146314",
+        "wikipedia": "zh:横琴站 (澳门)"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12391564891,
+      "lat": 22.1406693,
+      "lon": 113.5448501,
+      "tags": {
+        "light_rail": "yes",
+        "name": "橫琴 Hengqin",
+        "name:en": "Hengqin",
+        "name:pt": "Hengqin",
+        "name:zh": "橫琴",
+        "name:zh-Hans": "横琴",
+        "name:zh-Hant": "橫琴",
+        "public_transport": "stop_position",
+        "railway": "stop"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12882982160,
+      "lat": 22.1455403,
+      "lon": 113.546811,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "港澳大道路口",
+        "name:zh-Hant": "港澳大道路口",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12900954985,
+      "lat": 22.1337224,
+      "lon": 113.5441874,
+      "tags": {
+        "amenity": "administration",
+        "description": "Location: Room 5010,  Administration Building",
+        "description:en": "Location: Room 5010,  Administration Building",
+        "description:zh": "所在位置: 行政樓, 5010室",
+        "image": "https://map.um.edu.mo/emap_images/building_N6.jpg",
+        "name": "內部審計辦公室 Internal Audit Office (IAO)",
+        "name:en": "Internal Audit Office (IAO)",
+        "name:zh": "內部審計辦公室 (IAO)"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12905463213,
+      "lat": 22.1340732,
+      "lon": 113.5465823,
+      "tags": {
+        "asset_ref": "T557",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "image": "http://www.dsat.gov.mo/bres/bus_stop_img/t557_1.jpg",
+        "name": "T557 大學北 University North",
+        "name:en": "T557 University North",
+        "name:pt": "T557 Norte da Universidade",
+        "name:zh": "T557 大學北",
+        "public_transport": "platform",
+        "route_ref": "71;71S;72;73",
+        "shelter": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13064574764,
+      "lat": 22.1348398,
+      "lon": 113.5445916,
+      "tags": {
+        "description": "Location: G/F Entrance, Research Building (N21)",
+        "description:en": "Location: G/F Entrance, Research Building (N21)",
+        "description:zh": "所在位置: 科研大樓 (N21), G樓入口",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "internet_access:ssid": "UM_PUBLIC_WIFI",
+        "name": "Outdoor WiFi AP (N21 South Area)",
+        "name:en": "Outdoor WiFi AP (N21 South Area)",
+        "name:zh": "室外無線網熱點 (N21 南面區域)",
+        "website": "https://icto.um.edu.mo/network/wireless-network-service/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13064574765,
+      "lat": 22.1356857,
+      "lon": 113.5458724,
+      "tags": {
+        "description": "Location: G/F Entrance, Research Building (N23)",
+        "description:en": "Location: G/F Entrance, Research Building (N23)",
+        "description:zh": "所在位置: 科研大樓 (N23), G樓入口",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "internet_access:ssid": "UM_PUBLIC_WIFI",
+        "name": "Outdoor WiFi AP (N23 East Area)",
+        "name:en": "Outdoor WiFi AP (N23 East Area)",
+        "name:zh": "室外無線網熱點 (N23 東面區域)",
+        "website": "https://icto.um.edu.mo/network/wireless-network-service/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13064620121,
+      "lat": 22.1349007,
+      "lon": 113.5433185,
+      "tags": {
+        "description": "Location: G/F Main Entrance, Research Building (N22)",
+        "description:en": "Location: G/F Main Entrance, Research Building (N22)",
+        "description:zh": "所在位置: 科研大樓 (N22), G樓主入口",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "internet_access:ssid": "UM_PUBLIC_WIFI",
+        "name": "Outdoor WiFi AP (N22 South Area)",
+        "name:en": "Outdoor WiFi AP (N22 South Area)",
+        "name:zh": "室外無線網熱點 (N22 南面區域)",
+        "website": "https://icto.um.edu.mo/network/wireless-network-service/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13253397150,
+      "lat": 22.1333454,
+      "lon": 113.5445073,
+      "tags": {
+        "description": "Location: Lotus Square, University of Macau (In front of N6 Administration Building)",
+        "description:en": "Location: Lotus Square, University of Macau (In front of N6 Administration Building)",
+        "description:zh": "所在位置: 行政樓 (N6) 前地, 蓮花廣場",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "internet_access:ssid": "UM_PUBLIC_WIFI",
+        "name": "Outdoor WiFi AP (Lotus Square)",
+        "name:en": "Outdoor WiFi AP (Lotus Square)",
+        "name:zh": "室外無線網熱點 (蓮花廣場)",
+        "website": "https://icto.um.edu.mo/network/wireless-network-service/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13271655863,
+      "lat": 22.1344892,
+      "lon": 113.5457768,
+      "tags": {
+        "description": "Location: G/F Entrance, University Hall (N2)",
+        "description:en": "Location: G/F Entrance, University Hall (N2)",
+        "description:zh": "所在位置: 大學會堂 (N2)",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "internet_access:ssid": "UM_PUBLIC_WIFI",
+        "name": "Outdoor WiFi AP (N2 University Hall)",
+        "name:en": "Outdoor WiFi AP (N2 University Hall)",
+        "name:zh": "室外無線網熱點 (N2 大學會堂)",
+        "website": "https://icto.um.edu.mo/network/wireless-network-service/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13315587389,
+      "lat": 22.1335264,
+      "lon": 113.5458721,
+      "tags": {
+        "amenity": "atm",
+        "branch": "BNU",
+        "description": "Location: G/F, UM Guest House (24 Hour Self-service Banking Center)",
+        "description:en": "Location: G/F, UM Guest House (24 Hour Self-service Banking Center)",
+        "description:zh": "所在位置: 聚賢樓, G層 (24小時自助銀行)",
+        "image": "https://map.um.edu.mo/emap_images/bank_BNU.jpg",
+        "name": "大西洋銀行 Banco Nacional Ultramarino - 自動櫃員機 ATM (N1)",
+        "name:en": "Banco Nacional Ultramarino - ATM (N1)",
+        "name:zh": "大西洋銀行 - 自動櫃員機 (N1)"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13589628581,
+      "lat": 22.1407256,
+      "lon": 113.5424761,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "麦当劳",
+        "brand:en": "McDonald's",
+        "brand:wikidata": "Q38076",
+        "brand:zh": "麦当劳",
+        "cuisine": "burger",
+        "level": "-2",
+        "name": "麦当劳",
+        "name:en": "McDonald's",
+        "name:zh": "麦当劳",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13589628582,
+      "lat": 22.1424328,
+      "lon": 113.5396854,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "真功夫",
+        "brand:en": "Kungfu",
+        "brand:wikidata": "Q15909765",
+        "brand:zh": "真功夫",
+        "cuisine": "chinese",
+        "level": "-2",
+        "name": "真功夫",
+        "name:en": "Kungfu",
+        "name:zh": "真功夫",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13589628583,
+      "lat": 22.1405205,
+      "lon": 113.5383653,
+      "tags": {
+        "brand": "中国移动",
+        "brand:en": "China Mobile",
+        "brand:wikidata": "Q741618",
+        "brand:zh": "中国移动",
+        "level": "-1",
+        "name": "中国移动",
+        "name:en": "China Mobile",
+        "name:zh": "中国移动",
+        "shop": "telecommunication"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13589628584,
+      "lat": 22.1403861,
+      "lon": 113.542039,
+      "tags": {
+        "brand": "喜士多",
+        "brand:en": "C-Store",
+        "brand:wikidata": "Q60992580",
+        "brand:zh": "喜士多",
+        "level": "-2",
+        "name": "喜士多",
+        "name:en": "C-Store",
+        "name:zh": "喜士多",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13589628585,
+      "lat": 22.1407265,
+      "lon": 113.5427435,
+      "tags": {
+        "amenity": "cafe",
+        "brand": "喜茶",
+        "brand:en": "Heytea",
+        "brand:wikidata": "Q60875376",
+        "brand:zh": "喜茶",
+        "cuisine": "bubble_tea",
+        "level": "0",
+        "name": "喜茶",
+        "name:en": "Heytea",
+        "name:zh": "喜茶",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13589628586,
+      "lat": 22.140374,
+      "lon": 113.5424236,
+      "tags": {
+        "amenity": "cafe",
+        "brand": "奈雪的茶",
+        "brand:en": "Nayuki",
+        "brand:wikidata": "Q107351710",
+        "brand:zh": "奈雪的茶",
+        "cuisine": "bubble_tea",
+        "level": "0",
+        "name": "奈雪的茶",
+        "name:en": "Nayuki",
+        "name:zh": "奈雪的茶",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13589628587,
+      "lat": 22.1403891,
+      "lon": 113.5426991,
+      "tags": {
+        "amenity": "cafe",
+        "brand": "星巴克",
+        "brand:en": "Starbucks",
+        "brand:wikidata": "Q37158",
+        "brand:zh": "星巴克",
+        "cuisine": "coffee_shop",
+        "level": "0",
+        "name": "星巴克",
+        "name:en": "Starbucks",
+        "name:zh": "星巴克",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13589628588,
+      "lat": 22.1407287,
+      "lon": 113.5431708,
+      "tags": {
+        "amenity": "bureau_de_change"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13589628589,
+      "lat": 22.1404432,
+      "lon": 113.5431894,
+      "tags": {
+        "amenity": "bureau_de_change"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13589628590,
+      "lat": 22.1407222,
+      "lon": 113.5423769,
+      "tags": {
+        "brand": "7-Eleven",
+        "brand:wikidata": "Q259340",
+        "level": "1",
+        "name": "7-Eleven",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13589628591,
+      "lat": 22.1406082,
+      "lon": 113.5442263,
+      "tags": {
+        "barrier": "border_control",
+        "foot": "designated",
+        "name": "横琴口岸",
+        "name:en": "Hengqin Port",
+        "name:zh": "横琴口岸",
+        "name:zh-Hans": "横琴口岸",
+        "name:zh-Hant": "橫琴口岸"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13589719946,
+      "lat": 22.1374608,
+      "lon": 113.5392447,
+      "tags": {
+        "exit": "yes",
+        "name": "横琴站4号出站口 (暂未开通)",
+        "railway": "subway_entrance",
+        "ref": "4"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13589719947,
+      "lat": 22.1392521,
+      "lon": 113.5390046,
+      "tags": {
+        "exit": "yes",
+        "name": "横琴站2号出站口 (暂未开通)",
+        "railway": "subway_entrance",
+        "ref": "2"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13589719948,
+      "lat": 22.1411217,
+      "lon": 113.5399018,
+      "tags": {
+        "exit": "yes",
+        "name": "横琴站6号进站口",
+        "railway": "subway_entrance",
+        "ref": "6"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13589719949,
+      "lat": 22.1415676,
+      "lon": 113.5398495,
+      "tags": {
+        "exit": "yes",
+        "name": "横琴站7号进站口",
+        "railway": "subway_entrance",
+        "ref": "7"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13589719950,
+      "lat": 22.1428943,
+      "lon": 113.5397395,
+      "tags": {
+        "exit": "yes",
+        "name": "横琴站9号进站口",
+        "railway": "subway_entrance",
+        "ref": "9"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13592003025,
+      "lat": 22.1407925,
+      "lon": 113.5403346,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "横琴口岸(下客区)",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13592229378,
+      "lat": 22.1381609,
+      "lon": 113.5412209,
+      "tags": {
+        "brand": "美宜佳",
+        "brand:en": "Meiyijia",
+        "brand:wikidata": "Q55719551",
+        "brand:zh": "美宜佳",
+        "name": "美宜佳",
+        "name:en": "Meiyijia",
+        "name:zh": "美宜佳",
+        "shop": "convenience"
+      }
+    }
+  ]
+}

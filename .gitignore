@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py
+*.pyc
+*.bat
+
+# 文档
+*.md
+
+# 不需要上传的文件
+saved_markers/
+test_*.html
+osm_data_viewer.html
+check_html.py
+guigang_park_osm.json
+gen_junction_js.py
+organize_existing_data.py
+extract_junctions.py
+extract_osm_info.py
+test_osm_base.py
+verify_traffic_signals.py
+interactive_download.py

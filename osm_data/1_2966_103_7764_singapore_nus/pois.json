@@ -1,0 +1,2882 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-06-26T17:05:03Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 410460066,
+      "lat": 1.2993347,
+      "lon": 103.779294,
+      "tags": {
+        "bench": "yes",
+        "bin": "yes",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "lit": "yes",
+        "location": "AYE",
+        "name": "NUS Sports Ctr",
+        "public_transport": "platform",
+        "ref": "16091",
+        "route_ref": "97;197;198;963;963e",
+        "shelter": "yes",
+        "tactile_paving": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 410460099,
+      "lat": 1.3005951,
+      "lon": 103.7781651,
+      "tags": {
+        "bench": "yes",
+        "bin": "yes",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "location": "AYE",
+        "name": "Opp NUS Sports Ctr",
+        "public_transport": "platform",
+        "ref": "16099",
+        "route_ref": "97;197;198;963;963e",
+        "shelter": "yes",
+        "tactile_paving": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 410466856,
+      "lat": 1.3009692,
+      "lon": 103.7727456,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "location": "Kent Ridge Cresent",
+        "name": "NUS Raffles Hall",
+        "operator": "Land Transport Authority",
+        "public_transport": "platform",
+        "ref": "16169",
+        "route_ref": "96;96A;96B;151"
+      }
+    },
+    {
+      "type": "node",
+      "id": 410466857,
+      "lat": 1.3011676,
+      "lon": 103.7734711,
+      "tags": {
+        "bench": "yes",
+        "bin": "yes",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "lit": "yes",
+        "location": "Kent Ridge Cresent",
+        "name": "NUS Museums",
+        "operator": "Land Transport Authority",
+        "public_transport": "platform",
+        "ref": "16161",
+        "route_ref": "151",
+        "shelter": "yes",
+        "tactile_paving": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 410466860,
+      "lat": 1.2989244,
+      "lon": 103.7740478,
+      "tags": {
+        "bench": "yes",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "location": "Kent Ridge Cresent",
+        "name": "Opp Yusof Ishak Hse",
+        "name:en": "Opp Yusof Ishak Hse",
+        "name:zh": "尤索夫伊沙屋对面",
+        "operator": "Land Transport Authority",
+        "public_transport": "platform",
+        "ref": "16179",
+        "route_ref": "95;95B;96;96A;96B;151",
+        "shelter": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 410466861,
+      "lat": 1.2988628,
+      "lon": 103.7743214,
+      "tags": {
+        "bench": "yes",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "location": "Kent Ridge Cresent",
+        "name": "Yusof Ishak Hse",
+        "name:en": "Yusof Ishak Hse",
+        "name:zh": "尤索夫伊沙屋",
+        "operator": "Land Transport Authority",
+        "public_transport": "platform",
+        "ref": "16171",
+        "route_ref": "95;151",
+        "shelter": "yes",
+        "short_name": "YIH"
+      }
+    },
+    {
+      "type": "node",
+      "id": 410467175,
+      "lat": 1.2975399,
+      "lon": 103.7806909,
+      "tags": {
+        "bench": "yes",
+        "bin": "yes",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "lit": "yes",
+        "location": "Lower Kent Ridge Road",
+        "name": "Blk S17",
+        "name:en": "Blk S17",
+        "name:zh": "S17座",
+        "public_transport": "platform",
+        "ref": "18309",
+        "route_ref": "95;95B",
+        "shelter": "yes",
+        "tactile_paving": "yes",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 410467183,
+      "lat": 1.2987422,
+      "lon": 103.7756587,
+      "tags": {
+        "bench": "yes",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "location": "Lower Kent Ridge Road",
+        "name": "Opposite University Health Centre",
+        "name:zh": "大学医务中心对面",
+        "public_transport": "platform",
+        "ref": "18321",
+        "route_ref": "95",
+        "shelter": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 410467184,
+      "lat": 1.2974065,
+      "lon": 103.7809895,
+      "tags": {
+        "bench": "yes",
+        "bin": "yes",
+        "highway": "bus_stop",
+        "location": "Lower Kent Ridge Road",
+        "name": "Lim Seng Tjoe Building (LT 27)",
+        "name:zh": "林生珠大楼 (LT27)",
+        "note:name:zh": "fixme",
+        "ref": "18301",
+        "route_ref": "95",
+        "shelter": "yes",
+        "tactile_paving": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 410467187,
+      "lat": 1.2989593,
+      "lon": 103.7760594,
+      "tags": {
+        "bench": "yes",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "location": "Lower Kent Ridge Road",
+        "name": "University Health Centre",
+        "name:zh": "大学医务中心",
+        "public_transport": "platform",
+        "ref": "18329",
+        "route_ref": "95;95B",
+        "shelter": "yes",
+        "short_name": "UHC"
+      }
+    },
+    {
+      "type": "node",
+      "id": 687602963,
+      "lat": 1.2994266,
+      "lon": 103.7752657,
+      "tags": {
+        "amenity": "cafe",
+        "name": "The Tea Party"
+      }
+    },
+    {
+      "type": "node",
+      "id": 687602967,
+      "lat": 1.2991162,
+      "lon": 103.7763275,
+      "tags": {
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy"
+      }
+    },
+    {
+      "type": "node",
+      "id": 687602970,
+      "lat": 1.2945229,
+      "lon": 103.7744754,
+      "tags": {
+        "alt_name": "NUS Computing Canteen",
+        "amenity": "restaurant",
+        "level:ref": "1",
+        "name": "The Terrace",
+        "noname:zh": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1534827185,
+      "lat": 1.2981275,
+      "lon": 103.7719855,
+      "tags": {
+        "amenity": "taxi"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1534859239,
+      "lat": 1.2964457,
+      "lon": 103.7729481,
+      "tags": {
+        "amenity": "atm",
+        "operator": "POSB"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1534859794,
+      "lat": 1.2964362,
+      "lon": 103.7729913,
+      "tags": {
+        "amenity": "atm",
+        "operator": "UOB"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1553397915,
+      "lat": 1.2951884,
+      "lon": 103.7800984,
+      "tags": {
+        "fixme:zh": "chinese name",
+        "name": "Medicine+Science Library",
+        "name:zh": "医学+科学图书馆",
+        "was:amenity": "library"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1736137774,
+      "lat": 1.2943889,
+      "lon": 103.7810514,
+      "tags": {
+        "access": "yes",
+        "amenity": "parking",
+        "fee": "yes",
+        "layer": "-1",
+        "name": "Carpark 10C",
+        "name:zh": "10C号停场",
+        "parking": "underground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1736137784,
+      "lat": 1.2917853,
+      "lon": 103.7765051,
+      "tags": {
+        "access": "yes",
+        "amenity": "parking",
+        "fee": "yes",
+        "layer": "-1",
+        "name": "Carpark 12A",
+        "name:zh": "12A号停场",
+        "parking": "underground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1736137835,
+      "lat": 1.2970268,
+      "lon": 103.7773365,
+      "tags": {
+        "access": "yes",
+        "amenity": "parking",
+        "fee": "yes",
+        "name": "Carpark 6B",
+        "name:zh": "6B号停车场",
+        "parking": "surface"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1738410355,
+      "lat": 1.2934927,
+      "lon": 103.7718183,
+      "tags": {
+        "alt_name": "AS 5",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "location": "Kent Ridge Drive",
+        "name": "AS5",
+        "network": "NUS Internal Shuttle Bus Services",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1738410356,
+      "lat": 1.2932416,
+      "lon": 103.7750682,
+      "tags": {
+        "alt_name": "BIZ 2",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "location": "Business Link",
+        "name": "BIZ2",
+        "network": "NUS Internal Shuttle Bus Services",
+        "public_transport": "platform",
+        "shelter": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1738410359,
+      "lat": 1.29372,
+      "lon": 103.7770148,
+      "tags": {
+        "bus": "yes",
+        "fixme:zh": "chinese name",
+        "highway": "bus_stop",
+        "location": "Prince George's Park",
+        "name": "Opp TCOMS",
+        "name:en": "Opp TCOMS",
+        "name:zh": "TCOMS对面",
+        "network": "NUS Internal Shuttle Bus Services",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1738410361,
+      "lat": 1.2918246,
+      "lon": 103.7804209,
+      "tags": {
+        "amenity": "bus_station",
+        "bus": "yes",
+        "fixme:zh": "chinese name",
+        "name": "Prince George's Park Terminal",
+        "name:zh": "乔治太子园终站",
+        "network": "NUS ISB",
+        "note": "Routes A1, A2, D2, BTC 1",
+        "operator": "NUS Internal Shuttle Bus Services",
+        "public_transport": "station",
+        "short_name": "PGP Terminal",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1738421848,
+      "lat": 1.2935718,
+      "lon": 103.7770464,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "location": "Prince George's Park",
+        "name": "TCOMS",
+        "name:en": "TCOMS",
+        "name:zh": "TCOMS",
+        "network": "NUS Internal Shuttle Bus Services",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1738421864,
+      "lat": 1.2929533,
+      "lon": 103.7751183,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "location": "Business Link",
+        "name": "Opp Hon Sui Sen Memorial Library",
+        "name:zh": "韩瑞生纪念图书馆对面",
+        "network": "NUS Internal Shuttle Bus Services",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1738421866,
+      "lat": 1.2975739,
+      "lon": 103.7780877,
+      "tags": {
+        "bench": "yes",
+        "bin": "yes",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "lit": "yes",
+        "location": "Lower Kent Ridge Road",
+        "name": "Opp University Hall",
+        "note:name:zh": "check",
+        "public_transport": "platform",
+        "ref": "18319",
+        "route_ref": "95;95B",
+        "shelter": "yes",
+        "tactile_paving": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1748955732,
+      "lat": 1.2923164,
+      "lon": 103.7741546,
+      "tags": {
+        "amenity": "taxi"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1907922897,
+      "lat": 1.297111,
+      "lon": 103.7787488,
+      "tags": {
+        "highway": "bus_stop",
+        "location": "Lower Kent Ridge Road",
+        "name": "Blk S12",
+        "name:en": "Blk S12",
+        "name:zh": "S12座",
+        "ref": "18311",
+        "route_ref": "95"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2429952048,
+      "lat": 1.2962628,
+      "lon": 103.7722258,
+      "tags": {
+        "bench": "yes",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "location": "Kent Ridge Cresent",
+        "name": "Ctrl Lib",
+        "name:en": "Ctrl Lib",
+        "network": "Land Transport Authority",
+        "network:short": "LTA",
+        "network:wikidata": "Q3299279",
+        "operator": "Land Transport Authority",
+        "public_transport": "platform",
+        "ref": "16181",
+        "route_ref": "95;151",
+        "shelter": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2491307360,
+      "lat": 1.2983719,
+      "lon": 103.7752124,
+      "tags": {
+        "construction:office": "yes",
+        "level": "2",
+        "name": "CFG Careerspace"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2491314422,
+      "lat": 1.2986827,
+      "lon": 103.7749321,
+      "tags": {
+        "brand": "Cheers",
+        "brand:wikidata": "Q64154066",
+        "construction:shop": "convenience",
+        "ele": "1",
+        "level": "0",
+        "name": "Cheers",
+        "opening_hours": "24/7",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2491328390,
+      "lat": 1.2968976,
+      "lon": 103.7731788,
+      "tags": {
+        "amenity": "atm"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2491329523,
+      "lat": 1.2964821,
+      "lon": 103.7730096,
+      "tags": {
+        "ele": "1",
+        "name": "Central Forum"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2491356741,
+      "lat": 1.291789,
+      "lon": 103.7796402,
+      "tags": {
+        "name": "TV Room",
+        "name:zh": "电视房间"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2491357030,
+      "lat": 1.2918574,
+      "lon": 103.7797528,
+      "tags": {
+        "fixme:name:zh": "-",
+        "name": "Function (Study) Room",
+        "name:zh": "学习功能室"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2491357315,
+      "lat": 1.2918507,
+      "lon": 103.7797258,
+      "tags": {
+        "fixme:name:zh": "-",
+        "name": "Function (Study) Room",
+        "name:zh": "学习功能室"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3232898483,
+      "lat": 1.2944038,
+      "lon": 103.7741877,
+      "tags": {
+        "amenity": "vending_machine",
+        "vending": "drinks"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3445966845,
+      "lat": 1.2957333,
+      "lon": 103.7730403,
+      "tags": {
+        "level": "0",
+        "level:ref": "1",
+        "name": "NUS Co-op@Forum office",
+        "name:zh": "国大合作社@广场 办公室",
+        "office": "yes",
+        "opening_hours": "Mo-Fr 09:00-18:00"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3445966846,
+      "lat": 1.2965489,
+      "lon": 103.7731931,
+      "tags": {
+        "amenity": "photo_booth",
+        "internet_access": "no",
+        "operator": "Photomatico",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3524204697,
+      "lat": 1.3014296,
+      "lon": 103.773624,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:housenumber": "2",
+        "addr:postcode": "117377",
+        "addr:street": "Conservatory Drive",
+        "name": "Lee Kong Chian Natural History Museum",
+        "name:en": "Lee Kong Chian Natural History Museum",
+        "name:zh": "李光前自然历史博物馆",
+        "operator": "National University Of Singapore",
+        "phone": "+65 6601 3333",
+        "tourism": "museum",
+        "website": "https://lkcnhm.nus.edu.sg/nus/",
+        "wikidata": "Q19840336",
+        "wikimedia_commons": "Category:Lee Kong Chian Natural History Museum",
+        "wikipedia": "en:Lee Kong Chian Natural History Museum"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4018093552,
+      "lat": 1.2971068,
+      "lon": 103.7776255,
+      "tags": {
+        "amenity": "cafe",
+        "cuisine": "coffee_shop",
+        "name": "Spinelli",
+        "name:zh": "Spinelli"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4120557689,
+      "lat": 1.294729,
+      "lon": 103.7724858,
+      "tags": {
+        "amenity": "atm",
+        "operator": "DBS / UOB"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4132111947,
+      "lat": 1.2943336,
+      "lon": 103.7739955,
+      "tags": {
+        "amenity": "atm",
+        "operator": "DBS"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4132111948,
+      "lat": 1.2951355,
+      "lon": 103.7718363,
+      "tags": {
+        "access": "permissive",
+        "amenity": "toilets",
+        "male": "yes",
+        "toilets:disposal": "flush"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4286252394,
+      "lat": 1.2970694,
+      "lon": 103.7800945,
+      "tags": {
+        "name": "Centre for Quantum Technologies",
+        "name:zh": "量子技术中心",
+        "office": "research",
+        "operator": "National University of Singapore",
+        "short_name": "CQT",
+        "website": "https://www.quantumlah.org/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4365726785,
+      "lat": 1.2932426,
+      "lon": 103.7724383,
+      "tags": {
+        "bus": "yes",
+        "fixme:zh": "chinese name",
+        "highway": "bus_stop",
+        "name": "Opp NUSS",
+        "name:en": "Opp NUSS",
+        "name:zh": "NUSS对面",
+        "network": "NUS Internal Shuttle Bus Services",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4379291982,
+      "lat": 1.2967574,
+      "lon": 103.7805305,
+      "tags": {
+        "amenity": "restaurant",
+        "level": "1",
+        "name": "Platypus",
+        "note:name:zh": "no need for manual chinese name",
+        "outdoor_seating": "no",
+        "smoking": "no",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4379292089,
+      "lat": 1.2972535,
+      "lon": 103.7805221,
+      "tags": {
+        "amenity": "bicycle_parking",
+        "bicycle_parking": "wall_loops",
+        "covered": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4552260939,
+      "lat": 1.2971697,
+      "lon": 103.7781277,
+      "tags": {
+        "amenity": "vending_machine"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4869133625,
+      "lat": 1.29537,
+      "lon": 103.774811,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:country": "SG",
+        "addr:housenumber": "5",
+        "addr:street": "Research Link",
+        "amenity": "atm",
+        "branch": "NUS",
+        "brand": "UOB",
+        "brand:en": "UOB",
+        "brand:wikidata": "Q2064074",
+        "brand:zh": "大华银行",
+        "operator": "UOB",
+        "operator:wikidata": "Q2064074"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4869133639,
+      "lat": 1.2942717,
+      "lon": 103.7784984,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:country": "SG",
+        "addr:housenumber": "10",
+        "addr:postcode": "119219",
+        "addr:street": "Kent Ridge Road",
+        "amenity": "atm",
+        "branch": "National University of Singapore",
+        "brand": "UOB",
+        "brand:en": "UOB",
+        "brand:wikidata": "Q2064074",
+        "brand:zh": "大华银行",
+        "operator": "UOB",
+        "operator:wikidata": "Q2064074"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5083057551,
+      "lat": 1.2967509,
+      "lon": 103.7809568,
+      "tags": {
+        "amenity": "atm",
+        "check_date": "2021-12-17",
+        "operator": "DBS"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5083057552,
+      "lat": 1.2967674,
+      "lon": 103.7809406,
+      "tags": {
+        "amenity": "atm",
+        "check_date": "2021-12-17",
+        "operator": "OCBC"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5083057553,
+      "lat": 1.2968085,
+      "lon": 103.7809336,
+      "tags": {
+        "amenity": "vending_machine",
+        "check_date": "2021-12-17",
+        "vending": "drinks"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5088429578,
+      "lat": 1.2968168,
+      "lon": 103.7806649,
+      "tags": {
+        "amenity": "cafe",
+        "name": "Arise & Shine"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5120976524,
+      "lat": 1.2970707,
+      "lon": 103.7772506,
+      "tags": {
+        "amenity": "parking_entrance",
+        "parking": "underground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5128589587,
+      "lat": 1.2958199,
+      "lon": 103.7731806,
+      "tags": {
+        "access": "permissive",
+        "amenity": "toilets",
+        "fee": "no",
+        "female": "yes",
+        "male": "yes",
+        "note": "on most levels ithink"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5128589588,
+      "lat": 1.2940129,
+      "lon": 103.7740445,
+      "tags": {
+        "access": "permissive",
+        "amenity": "toilets",
+        "fee": "no",
+        "female": "yes",
+        "male": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5128589589,
+      "lat": 1.2960682,
+      "lon": 103.7720085,
+      "tags": {
+        "amenity": "cafe",
+        "name": "The Coffee Roaster",
+        "opening_hours": "Mo-Fr 07:30-18:30; Sa 09:00-17:00; PH off",
+        "outdoor_seating": "yes",
+        "smoking": "no",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5190120096,
+      "lat": 1.2972912,
+      "lon": 103.7809967,
+      "tags": {
+        "amenity": "vending_machine",
+        "check_date": "2026-01-10",
+        "level": "0",
+        "payment:coins": "yes",
+        "payment:notes": "yes",
+        "vending": "drinks"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5254518678,
+      "lat": 1.2983152,
+      "lon": 103.7748346,
+      "tags": {
+        "amenity": "parking_entrance",
+        "parking": "underground",
+        "source": "Bing"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5278319644,
+      "lat": 1.2929041,
+      "lon": 103.7714686,
+      "tags": {
+        "amenity": "taxi"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5363376090,
+      "lat": 1.2969498,
+      "lon": 103.7807085,
+      "tags": {
+        "fixme": "resurvey",
+        "name": "NUS Co-op@LT27",
+        "name:zh": "LT27国大合作社",
+        "shop": "books"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5894567819,
+      "lat": 1.2992078,
+      "lon": 103.7715671,
+      "tags": {
+        "amenity": "cafe",
+        "delivery": "no",
+        "drive_through": "no",
+        "name": "Arise and Shine",
+        "outdoor_seating": "no",
+        "smoking": "no",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5917129167,
+      "lat": 1.3010616,
+      "lon": 103.7767431,
+      "tags": {
+        "foot": "no",
+        "highway": "toll_gantry",
+        "motor_vehicle": "yes",
+        "name": "ERP"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5936483039,
+      "lat": 1.2977721,
+      "lon": 103.780656,
+      "tags": {
+        "access": "yes",
+        "amenity": "toilets",
+        "fee": "no",
+        "toilets:disposal": "flush"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5936483040,
+      "lat": 1.2927113,
+      "lon": 103.7753668,
+      "tags": {
+        "fixme:zh": "chinese name",
+        "level": "1",
+        "name": "i3 Auditorium",
+        "name:zh": "i3 礼堂",
+        "room": "lecture"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5936483041,
+      "lat": 1.2926209,
+      "lon": 103.775528,
+      "tags": {
+        "access": "yes",
+        "amenity": "toilets",
+        "fee": "no",
+        "toilets:disposal": "flush",
+        "unisex": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5936483042,
+      "lat": 1.2924599,
+      "lon": 103.7757432,
+      "tags": {
+        "access": "yes",
+        "amenity": "toilets",
+        "fee": "no",
+        "toilets:disposal": "flush",
+        "unisex": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5936483043,
+      "lat": 1.2932931,
+      "lon": 103.7753593,
+      "tags": {
+        "access": "yes",
+        "amenity": "toilets",
+        "fee": "no",
+        "toilets:disposal": "flush",
+        "unisex": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5936483044,
+      "lat": 1.2944518,
+      "lon": 103.7744336,
+      "tags": {
+        "access": "yes",
+        "amenity": "toilets",
+        "fee": "no",
+        "toilets:disposal": "flush",
+        "unisex": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5936531501,
+      "lat": 1.2952968,
+      "lon": 103.7737665,
+      "tags": {
+        "access": "yes",
+        "amenity": "toilets",
+        "fee": "no",
+        "level": "2",
+        "toilets:disposal": "flush",
+        "unisex": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5936531502,
+      "lat": 1.2952892,
+      "lon": 103.7737855,
+      "tags": {
+        "amenity": "drinking_water",
+        "level": "2"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5936531503,
+      "lat": 1.2946351,
+      "lon": 103.773893,
+      "tags": {
+        "amenity": "drinking_water",
+        "level": "1"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5936531504,
+      "lat": 1.2963752,
+      "lon": 103.7729716,
+      "tags": {
+        "amenity": "vending_machine",
+        "currency:sgd": "yes",
+        "payment:cash": "yes",
+        "payment:coins": "yes",
+        "vending": "drinks;food;books"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5936531505,
+      "lat": 1.2936836,
+      "lon": 103.7741557,
+      "tags": {
+        "amenity": "drinking_water",
+        "fountain": "bottle_refill"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5936531506,
+      "lat": 1.2935816,
+      "lon": 103.774305,
+      "tags": {
+        "access": "yes",
+        "amenity": "toilets",
+        "changing_table": "no",
+        "fee": "no",
+        "toilets:disposal": "flush",
+        "unisex": "yes",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5936541047,
+      "lat": 1.2987428,
+      "lon": 103.7714113,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:housenumber": "3",
+        "addr:postcode": "117579",
+        "addr:street": "Engineering Drive 2",
+        "amenity": "cafe",
+        "name": "Platypus Foodbar (E2A)",
+        "opening_hours": "Mo-Sa 08:30-20:00",
+        "outdoor_seating": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5971138868,
+      "lat": 1.295151,
+      "lon": 103.7723672,
+      "tags": {
+        "amenity": "toilets",
+        "note": "female on level=0, alternates"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5971138871,
+      "lat": 1.2959163,
+      "lon": 103.7724874,
+      "tags": {
+        "artwork_type": "mural",
+        "name": "Flows and Contours",
+        "tourism": "artwork"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5971138873,
+      "lat": 1.2950839,
+      "lon": 103.7723576,
+      "tags": {
+        "amenity": "drinking_water",
+        "indoor": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6132183506,
+      "lat": 1.2982744,
+      "lon": 103.7714109,
+      "tags": {
+        "amenity": "atm",
+        "cash_in": "no",
+        "currency:SGD": "yes",
+        "drive_through": "no",
+        "operator": "DBS"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6807575789,
+      "lat": 1.3014454,
+      "lon": 103.7725633,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:housenumber": "50",
+        "addr:postcode": "119279",
+        "addr:street": "Kent Ridge Crescent",
+        "contact:facebook": "https://www.facebook.com/nusmuseum",
+        "email": "museum@nus.edu.sg",
+        "name": "NUS Museum",
+        "name:zh": "国大博物馆",
+        "opening_hours": "Tu-Sa 10:00-18:00",
+        "operator": "National University of Singapore",
+        "phone": "+65 6516 8817",
+        "tourism": "museum",
+        "website": "https://museum.nus.edu.sg/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6938838856,
+      "lat": 1.2984003,
+      "lon": 103.7745308,
+      "tags": {
+        "construction:office": "yes",
+        "level": "0",
+        "name": "Student Service Centre",
+        "name:zh": "学生服务中心"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6938838857,
+      "lat": 1.298126,
+      "lon": 103.771437,
+      "tags": {
+        "amenity": "cafe",
+        "cuisine": "bubble_tea",
+        "level": "1",
+        "level:ref": "2",
+        "name": "LiHO",
+        "name:en": "LiHO",
+        "name:nan": "汝好茶",
+        "name:zh": "里喝茶"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6938838858,
+      "lat": 1.2984597,
+      "lon": 103.7751535,
+      "tags": {
+        "construction:office": "yes",
+        "level": "2",
+        "name": "Office of Student Affairs",
+        "name:zh": "学生事务处",
+        "short_name": "OSA"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6938838859,
+      "lat": 1.2986046,
+      "lon": 103.7749675,
+      "tags": {
+        "amenity": "food_court",
+        "construction:amenity": "food_court",
+        "level": "1",
+        "name": "Central Square Canteen"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6938838860,
+      "lat": 1.2984638,
+      "lon": 103.7748519,
+      "tags": {
+        "construction:office": "yes",
+        "level": "2",
+        "name": "NUSSU commIT"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6938838861,
+      "lat": 1.2985636,
+      "lon": 103.7748075,
+      "tags": {
+        "construction:amenity": "restaurant",
+        "level": "1",
+        "name": "Wild Skew"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6957980928,
+      "lat": 1.3007164,
+      "lon": 103.7754299,
+      "tags": {
+        "amenity": "taxi"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6968810621,
+      "lat": 1.2974701,
+      "lon": 103.7772028,
+      "tags": {
+        "amenity": "taxi"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7130452018,
+      "lat": 1.2968485,
+      "lon": 103.7803864,
+      "tags": {
+        "amenity": "taxi"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8002821813,
+      "lat": 1.2973057,
+      "lon": 103.777379,
+      "tags": {
+        "amenity": "taxi"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8002821814,
+      "lat": 1.2986524,
+      "lon": 103.7747763,
+      "tags": {
+        "amenity": "cafe",
+        "brand": "Chagee",
+        "brand:wikidata": "Q125052867",
+        "construction:amenity": "cafe",
+        "cuisine": "bubble_tea",
+        "name": "Chagee",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8156960534,
+      "lat": 1.2972857,
+      "lon": 103.7808045,
+      "tags": {
+        "artwork_type": "sculpture",
+        "name": "Science",
+        "tourism": "artwork"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8157382216,
+      "lat": 1.3013475,
+      "lon": 103.7720845,
+      "tags": {
+        "artwork_type": "sculpture",
+        "name": "I WAS HERE",
+        "name:zh": "I WAS HERE",
+        "tourism": "artwork"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8166285242,
+      "lat": 1.3015062,
+      "lon": 103.7715409,
+      "tags": {
+        "artist_name": "Ng Eng Teng",
+        "artwork_type": "sculpture",
+        "name": "Wealth and Contentment",
+        "tourism": "artwork"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8211958771,
+      "lat": 1.3005318,
+      "lon": 103.7757619,
+      "tags": {
+        "amenity": "taxi"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8415404623,
+      "lat": 1.2965587,
+      "lon": 103.7733894,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:housenumber": "12",
+        "addr:postcode": "119275",
+        "addr:street": "Kent Ridge Crescent",
+        "air_conditioning": "yes",
+        "amenity": "cafe",
+        "name": "Anna’s x Union The SoupSpoon",
+        "opening_hours": "Mo-Fr 08:30-18:00; Sa 08:30-17:00",
+        "outdoor_seating": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8666521241,
+      "lat": 1.2978334,
+      "lon": 103.7715256,
+      "tags": {
+        "amenity": "cafe",
+        "brand": "Starbucks",
+        "brand:wikidata": "Q37158",
+        "brand:wikipedia": "en:Starbucks",
+        "cuisine": "coffee_shop",
+        "level:ref": "3",
+        "name": "Starbucks",
+        "name:zh": "星巴克",
+        "official_name": "Starbucks Coffee",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8666521694,
+      "lat": 1.2965441,
+      "lon": 103.7807725,
+      "tags": {
+        "amenity": "cafe",
+        "brand": "Gong Cha",
+        "brand:wikidata": "Q5581670",
+        "brand:wikipedia": "en:Gong Cha",
+        "brand:zh": "貢茶",
+        "cuisine": "bubble_tea",
+        "int_name": "Gong Cha",
+        "name": "Gong Cha",
+        "name:zh": "貢茶",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8735574388,
+      "lat": 1.3013501,
+      "lon": 103.7718062,
+      "tags": {
+        "amenity": "taxi"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8735583452,
+      "lat": 1.3012919,
+      "lon": 103.772965,
+      "tags": {
+        "amenity": "taxi"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9166775235,
+      "lat": 1.2960529,
+      "lon": 103.7799816,
+      "tags": {
+        "amenity": "cafe",
+        "brand": "Starbucks",
+        "brand:wikidata": "Q37158",
+        "brand:wikipedia": "en:Starbucks",
+        "cuisine": "coffee_shop",
+        "name": "Starbucks",
+        "name:zh": "星巴克",
+        "official_name": "Starbucks Coffee",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9166775242,
+      "lat": 1.2963026,
+      "lon": 103.7793325,
+      "tags": {
+        "amenity": "shelter",
+        "shelter_type": "gazebo"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9166786241,
+      "lat": 1.2956294,
+      "lon": 103.779956,
+      "tags": {
+        "amenity": "taxi"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9326540667,
+      "lat": 1.2964228,
+      "lon": 103.7730361,
+      "tags": {
+        "amenity": "vending_machine",
+        "currency:sgd": "yes",
+        "payment:credit_cards": "yes",
+        "vending": "covid-19_test_kit"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9326540668,
+      "lat": 1.2964102,
+      "lon": 103.7730817,
+      "tags": {
+        "amenity": "vending_machine",
+        "vending": "sandwich"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9326562225,
+      "lat": 1.2988254,
+      "lon": 103.7765025,
+      "tags": {
+        "amenity": "vending_machine",
+        "currency:sgd": "yes",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:grabpay": "yes",
+        "payment:wechat": "yes",
+        "vending": "orange_juice"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9345938582,
+      "lat": 1.2970672,
+      "lon": 103.7810517,
+      "tags": {
+        "amenity": "drinking_water",
+        "bottle": "yes",
+        "cold_water": "yes",
+        "drinking_water": "yes",
+        "hot_water": "yes",
+        "man_made": "water_tap"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9345938583,
+      "lat": 1.2970569,
+      "lon": 103.7811506,
+      "tags": {
+        "amenity": "vending_machine",
+        "payment:cash": "no",
+        "payment:contactless": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "vending": "COVID-19 test kits"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9345938585,
+      "lat": 1.2969989,
+      "lon": 103.7811079,
+      "tags": {
+        "amenity": "vending_machine",
+        "payment:cash": "no",
+        "payment:contactless": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "vending": "COVID-19 test kits"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9345938586,
+      "lat": 1.2970638,
+      "lon": 103.7809622,
+      "tags": {
+        "access": "yes",
+        "amenity": "toilets",
+        "female": "yes",
+        "male": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9345938587,
+      "lat": 1.296902,
+      "lon": 103.7809913,
+      "tags": {
+        "amenity": "recycling",
+        "recycling:aluminium": "yes",
+        "recycling:cans": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9708507391,
+      "lat": 1.2993972,
+      "lon": 103.7798996,
+      "tags": {
+        "camera:direction": "123",
+        "camera:mount": "pole",
+        "camera:type": "fixed",
+        "man_made": "surveillance",
+        "name": "Near Dover Drive",
+        "note:name:zh": "-",
+        "operator": "Land Transport Authority",
+        "ref": "4708",
+        "surveillance": "public",
+        "surveillance:type": "camera",
+        "surveillance:zone": "traffic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9742517033,
+      "lat": 1.2930021,
+      "lon": 103.7732673,
+      "tags": {
+        "board_type": "welcome_sign",
+        "information": "board",
+        "name": "Shaw Foundation Alumni House",
+        "name:zh": "邵氏基金校友会大厦",
+        "note": "is this the right feature type?",
+        "tourism": "information"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9742757287,
+      "lat": 1.2983273,
+      "lon": 103.7735636,
+      "tags": {
+        "amenity": "taxi"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9781243796,
+      "lat": 1.2943392,
+      "lon": 103.775718,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:housenumber": "3",
+        "addr:postcode": "117602",
+        "addr:street": "Research Link",
+        "amenity": "cafe",
+        "check_date:opening_hours": "2024-07-13",
+        "cuisine": "japanese;coffee_shop",
+        "name": "Nami Café",
+        "opening_hours": "Mo-Fr 08:30-17:00",
+        "outdoor_seating": "no",
+        "website": "https://nami.sg/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9781262727,
+      "lat": 1.2943009,
+      "lon": 103.775546,
+      "tags": {
+        "amenity": "bicycle_parking",
+        "bicycle_parking": "two-tier",
+        "capacity": "25",
+        "covered": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9794258970,
+      "lat": 1.2960483,
+      "lon": 103.7765395,
+      "tags": {
+        "description": "conflicting sources from google results and elevationi maps https://moe-edugis.maps.arcgis.com/apps/View/index.html?appid=1854e92f5a334bbd98c0071e680522dc",
+        "ele": "~60",
+        "name": "~NUS Hill",
+        "name:zh": "~国大山",
+        "natural": "peak"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9849950852,
+      "lat": 1.2949196,
+      "lon": 103.7750111,
+      "tags": {
+        "alt_name": "COM 3",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "level:ref": "B2",
+        "name": "COM3",
+        "network": "NUS Internal Shuttle Bus Services",
+        "note": "alighting is on the other side of driveway(?)",
+        "public_transport": "platform",
+        "shelter": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9857399898,
+      "lat": 1.2979465,
+      "lon": 103.7715153,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:housenumber": "2",
+        "addr:postcode": "117584",
+        "addr:street": "Engineering Drive 2",
+        "amenity": "food_court",
+        "level:ref": "1",
+        "name": "Techno Edge Canteen",
+        "note:name:zh": "no need for manual chinese name"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9875850491,
+      "lat": 1.2983731,
+      "lon": 103.7748963,
+      "tags": {
+        "construction:shop": "copyshop",
+        "level": "0",
+        "name": "Goh Bros",
+        "note:name:zh": "-"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9891006015,
+      "lat": 1.2991982,
+      "lon": 103.7737058,
+      "tags": {
+        "amenity": "vending_machine",
+        "level": "1",
+        "vending": "drinks"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9891032617,
+      "lat": 1.2991221,
+      "lon": 103.7738072,
+      "tags": {
+        "amenity": "events_venue",
+        "level": "1",
+        "name": "Isaac Manasseh Meyer Trust Fund Auditorium",
+        "name:zh": "艾萨克玛纳西迈耶爵基金会礼堂"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9956523136,
+      "lat": 1.2965347,
+      "lon": 103.7809593,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:housenumber": "27",
+        "addr:postcode": "117541",
+        "addr:street": "Science Drive 1",
+        "amenity": "cafe",
+        "cuisine": "dessert",
+        "email": "hello@ninefresh.com",
+        "name": "Nine Fresh Desserts Taiwan",
+        "name:zh": "九鲜台湾甜品店",
+        "opening_hours": "Mo-Fr 11:00-18:30, Sa 11:00-15:00",
+        "outdoor_seating": "yes",
+        "website": "https://ninefresh.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9956528935,
+      "lat": 1.2963574,
+      "lon": 103.7810281,
+      "tags": {
+        "amenity": "toilets",
+        "male": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9956528936,
+      "lat": 1.2963511,
+      "lon": 103.7810479,
+      "tags": {
+        "amenity": "toilets",
+        "female": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10128318311,
+      "lat": 1.2950747,
+      "lon": 103.7748074,
+      "tags": {
+        "leisure": "picnic_table"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10128318312,
+      "lat": 1.2950532,
+      "lon": 103.7748313,
+      "tags": {
+        "leisure": "picnic_table"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10128318316,
+      "lat": 1.2950388,
+      "lon": 103.7748782,
+      "tags": {
+        "amenity": "bicycle_parking",
+        "capacity": "20",
+        "source:capacity": "guess"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10129699062,
+      "lat": 1.3012585,
+      "lon": 103.7809305,
+      "tags": {
+        "access": "no",
+        "barrier": "gate",
+        "name": "Gate A"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10539123934,
+      "lat": 1.2989668,
+      "lon": 103.7761793,
+      "tags": {
+        "leisure": "picnic_table"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10571950597,
+      "lat": 1.2967349,
+      "lon": 103.7733929,
+      "tags": {
+        "level": "0",
+        "name": "NUS Co-op@Central Forum",
+        "name:zh": "国大合作社@中央广场",
+        "shop": "stationery"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10574167528,
+      "lat": 1.2953548,
+      "lon": 103.7736463,
+      "tags": {
+        "level": "2",
+        "name": "COM1-0201"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10574193143,
+      "lat": 1.2949239,
+      "lon": 103.7736152,
+      "tags": {
+        "amenity": "bench",
+        "seats": "4"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10574193144,
+      "lat": 1.2949596,
+      "lon": 103.7734787,
+      "tags": {
+        "amenity": "bench"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10595296996,
+      "lat": 1.292412,
+      "lon": 103.779373,
+      "tags": {
+        "information": "guidepost",
+        "tourism": "information"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10595350812,
+      "lat": 1.293889,
+      "lon": 103.7763584,
+      "tags": {
+        "access": "private",
+        "amenity": "parking_entrance",
+        "level": "0",
+        "note:parking": "lvl0 only",
+        "parking": "underground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10595350828,
+      "lat": 1.2931825,
+      "lon": 103.7775963,
+      "tags": {
+        "amenity": "research_institute"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10598564862,
+      "lat": 1.2932025,
+      "lon": 103.7733688,
+      "tags": {
+        "amenity": "taxi"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10686208840,
+      "lat": 1.2964046,
+      "lon": 103.7803221,
+      "tags": {
+        "amenity": "toilets",
+        "unisex": "yes",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10686208843,
+      "lat": 1.2967816,
+      "lon": 103.7803879,
+      "tags": {
+        "amenity": "vending_machine",
+        "vending": "food"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10687313471,
+      "lat": 1.2925143,
+      "lon": 103.7810395,
+      "tags": {
+        "amenity": "taxi"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10698657251,
+      "lat": 1.2948008,
+      "lon": 103.7736677,
+      "tags": {
+        "amenity": "taxi"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10701624937,
+      "lat": 1.2924628,
+      "lon": 103.7741352,
+      "tags": {
+        "amenity": "parking",
+        "layer": "-1",
+        "parking": "underground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10703322126,
+      "lat": 1.2945965,
+      "lon": 103.7722681,
+      "tags": {
+        "amenity": "waste_disposal"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10708123198,
+      "lat": 1.294983,
+      "lon": 103.7731273,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "COM2",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10719085836,
+      "lat": 1.2961554,
+      "lon": 103.7735551,
+      "tags": {
+        "garden:type": "community",
+        "leisure": "garden"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10723919312,
+      "lat": 1.2972207,
+      "lon": 103.7727143,
+      "tags": {
+        "bench": "yes",
+        "bin": "yes",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "lit": "yes",
+        "location": "Kent Ridge Cresent",
+        "name": "Information Technology",
+        "operator": "Land Transport Authority",
+        "public_transport": "platform",
+        "ref": "16189",
+        "route_ref": "95;95B;96;96A;96B;151",
+        "shelter": "yes",
+        "tactile_paving": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10773610191,
+      "lat": 1.2964296,
+      "lon": 103.7798624,
+      "tags": {
+        "amenity": "toilets",
+        "level": "0"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10783545716,
+      "lat": 1.2917199,
+      "lon": 103.7737556,
+      "tags": {
+        "board_type": "welcome_sign",
+        "description": "Heng Mui Keng Terrace",
+        "information": "board",
+        "name": "NUS Entrance C",
+        "name:zh": "国大C号入口",
+        "tourism": "information"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10813975144,
+      "lat": 1.2969485,
+      "lon": 103.7788106,
+      "tags": {
+        "man_made": "observatory",
+        "name": "NUS Observatory",
+        "name:zh": "国大天文台"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10814040028,
+      "lat": 1.2946112,
+      "lon": 103.7746439,
+      "tags": {
+        "amenity": "taxi",
+        "level:ref": "B1"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10831778552,
+      "lat": 1.2960133,
+      "lon": 103.7721852,
+      "tags": {
+        "amenity": "school",
+        "name": "Asia Research Institute",
+        "name:zh": "亚洲研究所"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10858000127,
+      "lat": 1.2991834,
+      "lon": 103.7759864,
+      "tags": {
+        "leisure": "picnic_table"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10858000128,
+      "lat": 1.2989756,
+      "lon": 103.776387,
+      "tags": {
+        "amenity": "vending_machine",
+        "vending": "drinks"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10882687363,
+      "lat": 1.2950809,
+      "lon": 103.7736105,
+      "tags": {
+        "level": "2",
+        "name": "COM1-0204"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10901301127,
+      "lat": 1.3003504,
+      "lon": 103.7758386,
+      "tags": {
+        "amenity": "toilets"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10901301128,
+      "lat": 1.3003481,
+      "lon": 103.7758603,
+      "tags": {
+        "amenity": "drinking_water"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10901301129,
+      "lat": 1.3004714,
+      "lon": 103.7760668,
+      "tags": {
+        "amenity": "vending_machine",
+        "vending": "drinks"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10901301143,
+      "lat": 1.2993167,
+      "lon": 103.7752289,
+      "tags": {
+        "leisure": "outdoor_seating"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10901301144,
+      "lat": 1.299698,
+      "lon": 103.7752816,
+      "tags": {
+        "amenity": "toilets"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10901301145,
+      "lat": 1.2996643,
+      "lon": 103.7754615,
+      "tags": {
+        "leisure": "sports_hall"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10901301146,
+      "lat": 1.2995312,
+      "lon": 103.7754269,
+      "tags": {
+        "leisure": "sports_centre",
+        "sport": "climbing"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10902436952,
+      "lat": 1.2945206,
+      "lon": 103.7738901,
+      "tags": {
+        "amenity": "parking_space",
+        "capacity": "2",
+        "parking_space": "disabled"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11018992665,
+      "lat": 1.2995499,
+      "lon": 103.7754695,
+      "tags": {
+        "name": "Office of Student Affairs",
+        "note": "one of the branches? Student Service Ctr",
+        "office": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11018992693,
+      "lat": 1.2965978,
+      "lon": 103.7802378,
+      "tags": {
+        "amenity": "toilets",
+        "fee": "no",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11018992694,
+      "lat": 1.2966467,
+      "lon": 103.780415,
+      "tags": {
+        "amenity": "drinking_water",
+        "bottle": "yes",
+        "cold_water": "yes",
+        "drinking_water": "yes",
+        "hot_water": "yes",
+        "indoor": "yes",
+        "man_made": "water_tap",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11025729418,
+      "lat": 1.2963088,
+      "lon": 103.780013,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Pasta Express"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11025729419,
+      "lat": 1.2963034,
+      "lon": 103.7800389,
+      "tags": {
+        "amenity": "cafe",
+        "cuisine": "coffee_shop",
+        "name": "Li Ji Coffee"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11025729420,
+      "lat": 1.2962936,
+      "lon": 103.780081,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Ayam Penyet"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11025729421,
+      "lat": 1.296437,
+      "lon": 103.7803693,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Korean"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11025729422,
+      "lat": 1.2964683,
+      "lon": 103.7804364,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Mixed Veg"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11025729423,
+      "lat": 1.2964589,
+      "lon": 103.7804109,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Muslim"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11026965735,
+      "lat": 1.2948415,
+      "lon": 103.7723915,
+      "tags": {
+        "amenity": "restaurant",
+        "level": "0.5",
+        "name": "Thai"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11026965736,
+      "lat": 1.29487,
+      "lon": 103.7724667,
+      "tags": {
+        "amenity": "restaurant",
+        "level": "0.5",
+        "name": "Chinese Cooked Food"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11026965737,
+      "lat": 1.294858,
+      "lon": 103.7724326,
+      "tags": {
+        "amenity": "restaurant",
+        "level": "0.5",
+        "name": "Snacks & Kway Teow"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11026965738,
+      "lat": 1.2945401,
+      "lon": 103.7723662,
+      "tags": {
+        "amenity": "fast_food",
+        "cuisine": "juice",
+        "level": "0",
+        "name": "Fresh Fruits & Juices"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11026965739,
+      "lat": 1.2945401,
+      "lon": 103.7723303,
+      "tags": {
+        "level": "0",
+        "name": "Drinks & Snacks",
+        "shop": "beverages"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11026965740,
+      "lat": 1.2948251,
+      "lon": 103.7723283,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "chicken_rice",
+        "level": "0",
+        "name": "Roasted Delights"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11026965741,
+      "lat": 1.2947931,
+      "lon": 103.7722517,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "malay",
+        "level": "0",
+        "name": "Muslim"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11026965742,
+      "lat": 1.2948017,
+      "lon": 103.7722724,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "indian;north_indian",
+        "diet:vegetarian": "yes",
+        "level": "0",
+        "name": "Indian"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11026965743,
+      "lat": 1.2948112,
+      "lon": 103.7723036,
+      "tags": {
+        "amenity": "restaurant",
+        "level": "0",
+        "name": "Vegetarian"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11026965744,
+      "lat": 1.2948875,
+      "lon": 103.7724988,
+      "tags": {
+        "amenity": "restaurant",
+        "level": "0.5",
+        "name": "Yong Tau Foo & Laksa"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11026965745,
+      "lat": 1.2965042,
+      "lon": 103.7806167,
+      "tags": {
+        "shop": "beverages"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11137500570,
+      "lat": 1.2925203,
+      "lon": 103.774387,
+      "tags": {
+        "addr:postcode": "119245",
+        "amenity": "restaurant",
+        "contact:facebook": "thespread.sg",
+        "contact:instagram": "thespread.sg",
+        "cuisine": "italian",
+        "email": "hello@thespread.sg",
+        "name": "The Spread",
+        "opening_hours": "Mo 08:00-17:30; Tu-Th 08:00-18:00; Fr 08:00-15:00; Sa 08:00-15:00; Su,PH off",
+        "phone": "+65 6908 5955",
+        "website": "https://thespread.sg"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11137500578,
+      "lat": 1.292553,
+      "lon": 103.7738644,
+      "tags": {
+        "amenity": "drinking_water",
+        "bottle": "yes",
+        "fountain": "bottle_refill",
+        "level:ref": "3"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11137500580,
+      "lat": 1.2925974,
+      "lon": 103.7738868,
+      "tags": {
+        "amenity": "toilets",
+        "fee": "no",
+        "note": "on most levels",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11137500581,
+      "lat": 1.2923562,
+      "lon": 103.774448,
+      "tags": {
+        "amenity": "toilets",
+        "fee": "no",
+        "note": "on most levels"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11160723296,
+      "lat": 1.3011705,
+      "lon": 103.7738397,
+      "tags": {
+        "artist_name": "Chang Ting Hsuan, Lim XingYi, Subashri Sankarasubramanian, Lim Soo Ngee",
+        "artwork_type": "statue",
+        "name": "Alfred Russel Wallace & Ali Statue",
+        "name:zh": "阿尔弗雷德·拉塞尔·华莱士和阿里雕像",
+        "tourism": "artwork",
+        "wikidata": "Q122168341",
+        "wikimedia_commons": "Category:Alfred Russel Wallace & Ali Statue"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11173633074,
+      "lat": 1.2992744,
+      "lon": 103.7717876,
+      "tags": {
+        "brand": "Cheers",
+        "brand:wikidata": "Q64154066",
+        "name": "Cheers",
+        "opening_hours": "24/7",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11190454684,
+      "lat": 1.2967572,
+      "lon": 103.7805098,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Eighteen Chefs"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11210351493,
+      "lat": 1.2945913,
+      "lon": 103.7739082,
+      "tags": {
+        "amenity": "vending_machine",
+        "vending": "food;cooked_food;asian"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11210351494,
+      "lat": 1.294305,
+      "lon": 103.7740902,
+      "tags": {
+        "full_name": "Cool Spot | Snacks & Drinks",
+        "name": "Cool Spot",
+        "note:opening_hours": "approx",
+        "opening_hours": "Mo-Fr 06:00-21:00",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11224826736,
+      "lat": 1.296941,
+      "lon": 103.7732206,
+      "tags": {
+        "artwork_type": "installation",
+        "level:ref": "6",
+        "note": "poem by Fujian calligrapher",
+        "tourism": "artwork"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11224856637,
+      "lat": 1.2966789,
+      "lon": 103.7730577,
+      "tags": {
+        "amenity": "toilets",
+        "level": "1.5;2.5;3.5;4.5;5.5;6.5",
+        "note": "alternate levels. in between levels on staircases",
+        "unisex": "yes",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11224856638,
+      "lat": 1.2976764,
+      "lon": 103.7735249,
+      "tags": {
+        "amenity": "toilets"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11224856639,
+      "lat": 1.2979834,
+      "lon": 103.7737484,
+      "tags": {
+        "bench": "yes",
+        "covered": "yes",
+        "leisure": "picnic_table",
+        "note": "study table"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11224856640,
+      "lat": 1.2980011,
+      "lon": 103.7737759,
+      "tags": {
+        "bench": "yes",
+        "covered": "yes",
+        "leisure": "picnic_table",
+        "note": "study table"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11224856641,
+      "lat": 1.2980221,
+      "lon": 103.7738041,
+      "tags": {
+        "bench": "yes",
+        "covered": "yes",
+        "leisure": "picnic_table",
+        "note": "study table"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11243901178,
+      "lat": 1.2948535,
+      "lon": 103.7724102,
+      "tags": {
+        "amenity": "restaurant",
+        "level": "0.5",
+        "name": "Western"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11243901179,
+      "lat": 1.2948343,
+      "lon": 103.7723451,
+      "tags": {
+        "amenity": "restaurant",
+        "level": "0",
+        "name": "Noodle"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11243901180,
+      "lat": 1.2945133,
+      "lon": 103.7724353,
+      "tags": {
+        "amenity": "restaurant",
+        "level": "1",
+        "name": "Liang Ban Gong Fu"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11243901181,
+      "lat": 1.2945253,
+      "lon": 103.7724004,
+      "tags": {
+        "amenity": "restaurant",
+        "level": "1",
+        "name": "Fong Seng Nasi Lemak"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11252774939,
+      "lat": 1.2950374,
+      "lon": 103.7755743,
+      "tags": {
+        "amenity": "taxi"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11252774941,
+      "lat": 1.294349,
+      "lon": 103.7756185,
+      "tags": {
+        "amenity": "toilets",
+        "fee": "no",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11252774959,
+      "lat": 1.2941441,
+      "lon": 103.7758411,
+      "tags": {
+        "amenity": "taxi"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11252774986,
+      "lat": 1.2946824,
+      "lon": 103.7746761,
+      "tags": {
+        "amenity": "cafe",
+        "level:ref": "1",
+        "name": "The Coffee Bean & Tea Leaf"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11252774987,
+      "lat": 1.294792,
+      "lon": 103.7744855,
+      "tags": {
+        "amenity": "ice_cream",
+        "cuisine": "frozen_yogurt",
+        "level:ref": "1",
+        "name": "Smooy"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11252779752,
+      "lat": 1.296618,
+      "lon": 103.7734593,
+      "tags": {
+        "amenity": "toilets",
+        "level": "0"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11274534148,
+      "lat": 1.2955346,
+      "lon": 103.7725364,
+      "tags": {
+        "amenity": "toilets",
+        "note": "alternate genders"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11277450494,
+      "lat": 1.2959704,
+      "lon": 103.7719987,
+      "tags": {
+        "access": "private",
+        "amenity": "parking_entrance",
+        "note": "staff only"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11358426456,
+      "lat": 1.2925885,
+      "lon": 103.7743265,
+      "tags": {
+        "amenity": "parking_entrance",
+        "parking": "underground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11518340609,
+      "lat": 1.2948219,
+      "lon": 103.7742474,
+      "tags": {
+        "amenity": "toilets",
+        "level:ref": "B2,1"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12115085584,
+      "lat": 1.2918426,
+      "lon": 103.780457,
+      "tags": {
+        "amenity": "bicycle_parking"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12143862052,
+      "lat": 1.2944709,
+      "lon": 103.7810843,
+      "tags": {
+        "amenity": "parking_entrance",
+        "parking": "underground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12182416978,
+      "lat": 1.2951519,
+      "lon": 103.774876,
+      "tags": {
+        "level": "0",
+        "name": "Bus Captains' Office",
+        "office": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12187161007,
+      "lat": 1.2989705,
+      "lon": 103.7729576,
+      "tags": {
+        "amenity": "parking_entrance",
+        "parking": "underground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12189706383,
+      "lat": 1.2963159,
+      "lon": 103.7782863,
+      "tags": {
+        "access": "yes",
+        "amenity": "parking",
+        "fee": "yes",
+        "name": "Carpark 6A",
+        "name:zh": "6A号停车场",
+        "parking": "surface"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12189706385,
+      "lat": 1.2963601,
+      "lon": 103.7782989,
+      "tags": {
+        "amenity": "parking_entrance",
+        "parking": "multi-storey"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12257963138,
+      "lat": 1.2918235,
+      "lon": 103.7804833,
+      "tags": {
+        "access": "private",
+        "amenity": "toilets"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13136654599,
+      "lat": 1.2932336,
+      "lon": 103.7742922,
+      "tags": {
+        "amenity": "toilets"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13348031279,
+      "lat": 1.2959845,
+      "lon": 103.7766186,
+      "tags": {
+        "admin_level": "7",
+        "name": "National University of Singapore",
+        "place": "neighbourhood",
+        "type": "boundary",
+        "wikidata": "Q738236"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13449880518,
+      "lat": 1.2987744,
+      "lon": 103.7731724,
+      "tags": {
+        "access": "yes",
+        "amenity": "bicycle_parking",
+        "bicycle_parking": "rack",
+        "covered": "yes",
+        "fee": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13449880519,
+      "lat": 1.3000841,
+      "lon": 103.7754027,
+      "tags": {
+        "amenity": "bicycle_parking",
+        "bicycle_parking": "rack",
+        "covered": "yes",
+        "fee": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13449880520,
+      "lat": 1.3003709,
+      "lon": 103.7735801,
+      "tags": {
+        "amenity": "bicycle_parking",
+        "capacity": "3",
+        "covered": "no",
+        "fee": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13449880521,
+      "lat": 1.2986848,
+      "lon": 103.7751374,
+      "tags": {
+        "amenity": "bicycle_parking",
+        "bicycle_parking": "rack",
+        "covered": "no",
+        "fee": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13463448683,
+      "lat": 1.2959611,
+      "lon": 103.7723488,
+      "tags": {
+        "amenity": "research_institute",
+        "email": "chsbox9@nus.edu.sg",
+        "internet_access": "yes",
+        "internet_access:fee": "customers",
+        "name": "Wan Boo Sow Research Centre for Chinese Culture",
+        "name:en": "Wan Boo Sow Research Centre for Chinese Culture",
+        "name:zh": "云茂潮中华文化研究中心",
+        "name:zh-Hans": "云茂潮中华文化研究中心",
+        "name:zh-Hant": "雲茂潮中華文化研究中心",
+        "website": "https://fass.nus.edu.sg/wbsrc/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13578771901,
+      "lat": 1.2947392,
+      "lon": 103.7747275,
+      "tags": {
+        "addr:housenumber": "11",
+        "addr:street": "Research Link",
+        "amenity": "restaurant",
+        "name": "Makan Boleh"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13822938301,
+      "lat": 1.3004595,
+      "lon": 103.7714842,
+      "tags": {
+        "amenity": "taxi"
+      }
+    }
+  ]
+}

@@ -1,0 +1,609 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-06-26T09:59:18Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 748758713,
+      "lat": 43.869853,
+      "lon": 125.3352612,
+      "tags": {
+        "name": "Treck",
+        "shop": "bicycle"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3026992543,
+      "lat": 43.8622299,
+      "lon": 125.3366011,
+      "tags": {
+        "name": "南岭",
+        "name:en": "Nanling",
+        "place": "neighbourhood"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3026992546,
+      "lat": 43.8704917,
+      "lon": 125.3351838,
+      "tags": {
+        "name": "吉顺桥",
+        "place": "neighbourhood"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3026992568,
+      "lat": 43.8612714,
+      "lon": 125.3459985,
+      "tags": {
+        "name": "东岭",
+        "place": "neighbourhood"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4670550604,
+      "lat": 43.8553121,
+      "lon": 125.3427412,
+      "tags": {
+        "name": "东岭",
+        "place": "neighbourhood"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5729395121,
+      "lat": 43.8621953,
+      "lon": 125.3448451,
+      "tags": {
+        "name": "ouya",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6057035136,
+      "lat": 43.8426846,
+      "lon": 125.3367345,
+      "tags": {
+        "amenity": "arts_centre",
+        "name": "文化艺术中心",
+        "name:en": "Center for Culture and Arts"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6057035137,
+      "lat": 43.8435498,
+      "lon": 125.3385384,
+      "tags": {
+        "leisure": "garden",
+        "name": "雨水花园",
+        "name:en": "Rain garden"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6057035138,
+      "lat": 43.8427988,
+      "lon": 125.3313033,
+      "tags": {
+        "name": "南岭1932",
+        "name:en": "South Ridge 1932",
+        "office": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6057035140,
+      "lat": 43.8422616,
+      "lon": 125.3313254,
+      "tags": {
+        "amenity": "parking"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6416740353,
+      "lat": 43.8612479,
+      "lon": 125.343732,
+      "tags": {
+        "alt_name": "南关",
+        "alt_name:en": "Nanguan District",
+        "alt_name:zh": "南关",
+        "capital": "6",
+        "name": "南关区",
+        "name:en": "Nanguan",
+        "name:fr": "Nanguan",
+        "name:ko": "난관구",
+        "name:zh": "南关区",
+        "name:zh-Hans": "南关区",
+        "name:zh-Hant": "南關區",
+        "place": "city",
+        "place:CN": "district",
+        "wikidata": "Q545587",
+        "wikipedia": "zh:南关区"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6423665165,
+      "lat": 43.8479457,
+      "lon": 125.3447474,
+      "tags": {
+        "alt_name": "Nanling Subdistrict;鸿城",
+        "capital": "8",
+        "name": "鸿城街道",
+        "name:en": "Hongcheng",
+        "name:zh": "鸿城街道",
+        "name:zh-Latn-pinyin": "hóngchéng jiēdào",
+        "official_name": "鸿城街道",
+        "place": "suburb",
+        "place:CN": "subdistrict",
+        "wikidata": "Q11174546",
+        "wikipedia": "zh:鸿城街道"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6423665172,
+      "lat": 43.8534058,
+      "lon": 125.3298584,
+      "tags": {
+        "alt_name": "Nanling Subdistrict;南岭",
+        "capital": "8",
+        "name": "南岭街道",
+        "name:en": "Nanling",
+        "name:zh": "南岭街道",
+        "name:zh-Latn-pinyin": "nánlǐng jiēdào",
+        "official_name": "南岭街道",
+        "place": "suburb",
+        "place:CN": "subdistrict",
+        "wikidata": "Q10907634",
+        "wikipedia": "zh:南岭街道"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6423665174,
+      "lat": 43.8695539,
+      "lon": 125.3265112,
+      "tags": {
+        "alt_name": "Shuguang Subdistrict;曙光",
+        "capital": "8",
+        "name": "曙光街道",
+        "name:en": "Shuguang",
+        "name:zh": "曙光街道",
+        "name:zh-Latn-pinyin": "shǔguāng jiēdào",
+        "official_name": "曙光街道",
+        "place": "suburb",
+        "place:CN": "subdistrict",
+        "wikidata": "Q11090545",
+        "wikipedia": "zh:曙光街道 (长春市)"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6423665179,
+      "lat": 43.8700564,
+      "lon": 125.3414951,
+      "tags": {
+        "alt_name": "Yongji Subdistrict;永吉",
+        "capital": "8",
+        "name": "永吉街道",
+        "name:en": "Yongji",
+        "name:zh": "永吉街道",
+        "name:zh-Latn-pinyin": "yǒngjí jiēdào",
+        "official_name": "永吉街道",
+        "place": "suburb",
+        "place:CN": "subdistrict",
+        "wikidata": "Q11131284",
+        "wikipedia": "zh:永吉街道 (长春市)"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7981104718,
+      "lat": 43.8568933,
+      "lon": 125.3309739,
+      "tags": {
+        "amenity": "public_bath",
+        "name": "南岭浴池"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7981104723,
+      "lat": 43.856891,
+      "lon": 125.3301493,
+      "tags": {
+        "name": "致远超市",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7981104724,
+      "lat": 43.856955,
+      "lon": 125.3301506,
+      "tags": {
+        "name": "文印社",
+        "shop": "copyshop"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7981104725,
+      "lat": 43.8570035,
+      "lon": 125.3301506,
+      "tags": {
+        "name": "洗衣店",
+        "shop": "laundry"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7981104773,
+      "lat": 43.8528603,
+      "lon": 125.3268459,
+      "tags": {
+        "artwork_type": "sculpture",
+        "tourism": "artwork"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11645303167,
+      "lat": 43.8614733,
+      "lon": 125.3437177,
+      "tags": {
+        "addr:city": "长春市",
+        "addr:district": "南关区",
+        "addr:housenumber": "3388",
+        "addr:province": "吉林省",
+        "addr:street": "自由大路",
+        "government": "administrative",
+        "name": "长春市南关区人民政府",
+        "office": "government",
+        "website": "http://nanguan.changchun.gov.cn/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11645303168,
+      "lat": 43.8613912,
+      "lon": 125.3477994,
+      "tags": {
+        "addr:city": "长春市",
+        "addr:district": "南关区",
+        "addr:housenumber": "3708",
+        "addr:province": "吉林省",
+        "addr:street": "自由大路",
+        "government": "yes",
+        "name": "中国国民党革命委员会长春市委员会",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13038440498,
+      "lat": 43.8602705,
+      "lon": 125.326125,
+      "tags": {
+        "name": "天猫校园（东北师范大学本部店）",
+        "name:en": "Tmall Campus Store (NENU Ziyou Campus Branch)",
+        "name:zh": "天猫校园",
+        "name:zh-Hans": "天猫校园（东北师范大学本部店）",
+        "name:zh-Hant": "天貓校園（東北師範大學本部店）",
+        "payment:alipay": "yes",
+        "payment:cash": "yes",
+        "payment:coins": "yes",
+        "payment:unionpay": "yes",
+        "payment:wechat": "yes",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13038474813,
+      "lat": 43.8612414,
+      "lon": 125.3266978,
+      "tags": {
+        "amenity": "parcel_locker"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13038474814,
+      "lat": 43.8613349,
+      "lon": 125.3267019,
+      "tags": {
+        "amenity": "parcel_locker"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13038474815,
+      "lat": 43.861378,
+      "lon": 125.3266684,
+      "tags": {
+        "amenity": "parcel_locker"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13038474816,
+      "lat": 43.8612427,
+      "lon": 125.3266512,
+      "tags": {
+        "amenity": "parcel_locker"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13038474817,
+      "lat": 43.8613346,
+      "lon": 125.3266492,
+      "tags": {
+        "amenity": "parcel_locker"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13038474818,
+      "lat": 43.8612788,
+      "lon": 125.3265672,
+      "tags": {
+        "amenity": "post_office",
+        "name": "东师快递服务中心",
+        "name:en": "NENU Express Service Center",
+        "name:zh": "东师快递服务中心",
+        "name:zh-Hans": "东师快递服务中心",
+        "name:zh-Hant": "東師快遞服務中心",
+        "opening_hours": "Mo-Su 09:00-20:00"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13038474855,
+      "lat": 43.8603142,
+      "lon": 125.3274308,
+      "tags": {
+        "brand": "中国联通",
+        "brand:en": "China Unicom",
+        "brand:wikidata": "Q1068485",
+        "brand:zh": "中国联通",
+        "name": "中国联通",
+        "name:en": "China Unicom",
+        "name:zh": "中国联通",
+        "shop": "telecommunication"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13866367507,
+      "lat": 43.8675368,
+      "lon": 125.3322968,
+      "tags": {
+        "garden:type": "japanese",
+        "leisure": "garden",
+        "name": "吉林·宫城友谊园",
+        "name:en": "Jilin-Miyagi Friendship Garden",
+        "name:zh": "吉林·宫城友谊园",
+        "name:zh-Hans": "吉林·宫城友谊园",
+        "name:zh-Hant": "吉林·宮城友誼園"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13866368686,
+      "lat": 43.8678056,
+      "lon": 125.3262752,
+      "tags": {
+        "attraction": "animal",
+        "name": "鼬舍",
+        "name:en": "Weasel Enclosure",
+        "name:zh": "鼬舍",
+        "name:zh-Hans": "鼬舍",
+        "name:zh-Hant": "鼬舍",
+        "species": "Mustela",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13866368687,
+      "lat": 43.8676267,
+      "lon": 125.3266574,
+      "tags": {
+        "attraction": "animal",
+        "name": "松鼠猴",
+        "name:en": "Squirrel Monkey",
+        "name:zh": "松鼠猴",
+        "name:zh-Hans": "松鼠猴",
+        "name:zh-Hant": "松鼠猴",
+        "species": "Saimiri",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13866368688,
+      "lat": 43.8676519,
+      "lon": 125.3264375,
+      "tags": {
+        "attraction": "animal",
+        "name": "豪猪",
+        "name:en": "Porcupine",
+        "name:zh": "豪猪",
+        "name:zh-Hans": "豪猪",
+        "name:zh-Hant": "豪豬",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13866368689,
+      "lat": 43.8680048,
+      "lon": 125.3262296,
+      "tags": {
+        "attraction": "animal",
+        "name": "狐狸舍",
+        "name:en": "Fox Enclosure",
+        "name:zh": "狐狸舍",
+        "name:zh-Hans": "狐狸舍",
+        "name:zh-Hant": "狐狸舍",
+        "species": "Vulpes",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13919428053,
+      "lat": 43.8703609,
+      "lon": 125.3285883,
+      "tags": {
+        "amenity": "parking_entrance",
+        "parking": "underground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13935259157,
+      "lat": 43.8683673,
+      "lon": 125.3386268,
+      "tags": {
+        "addr:city": "长春市",
+        "addr:district": "南关区",
+        "addr:province": "吉林省",
+        "government": "administrative",
+        "name": "长春市冬季运动管理中心",
+        "name:en": "Changchun Winter Sports Management Center",
+        "name:ru": "Центр управления зимними видами спорта города Чанчунь",
+        "name:zh": "长春市冬季运动管理中心",
+        "name:zh-Hans": "长春市冬季运动管理中心",
+        "name:zh-Hant": "長春市冬季運動管理中心",
+        "office": "government",
+        "operator": "长春市体育局"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13935259158,
+      "lat": 43.8678085,
+      "lon": 125.3381856,
+      "tags": {
+        "addr:city": "长春市",
+        "addr:district": "南关区",
+        "addr:province": "吉林省",
+        "amenity": "school",
+        "name": "长春市体育运动学校",
+        "name:en": "Changchun Sports School",
+        "name:ru": "Спортивная школа города Чанчунь",
+        "name:zh": "长春市体育运动学校",
+        "name:zh-Hans": "长春市体育运动学校",
+        "name:zh-Hant": "長春市體育運動學校",
+        "operator": "长春市体育局"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13935259186,
+      "lat": 43.8686255,
+      "lon": 125.340566,
+      "tags": {
+        "addr:city": "长春市",
+        "addr:district": "南关区",
+        "addr:province": "吉林省",
+        "covered": "yes",
+        "indoor": "yes",
+        "leisure": "swimming_pool",
+        "name": "全民健身游泳馆",
+        "name:en": "National Fitness Swimming Hall",
+        "name:ru": "Плавательный зал центра массового спорта",
+        "name:zh": "全民健身游泳馆",
+        "name:zh-Hans": "全民健身游泳馆",
+        "name:zh-Hant": "全民健身游泳館",
+        "sport": "swimming"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13944690727,
+      "lat": 43.8614695,
+      "lon": 125.3301383,
+      "tags": {
+        "amenity": "parking_entrance",
+        "parking": "underground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13944690729,
+      "lat": 43.8614753,
+      "lon": 125.330662,
+      "tags": {
+        "amenity": "parking_entrance",
+        "parking": "underground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13947291509,
+      "lat": 43.8581401,
+      "lon": 125.3319669,
+      "tags": {
+        "building": "dormitory",
+        "name": "2-3公寓",
+        "name:en": "Apartment 2-3",
+        "name:ru": "Общежитие 2-3",
+        "name:zh": "2-3公寓",
+        "name:zh-Hans": "2-3公寓",
+        "name:zh-Hant": "2-3公寓",
+        "operator": "吉林体育学院",
+        "ref": "2-3"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13947291765,
+      "lat": 43.8606272,
+      "lon": 125.3330424,
+      "tags": {
+        "amenity": "research_institute",
+        "name": "吉林省体育科学研究所（吉林省反兴奋剂中心）",
+        "name:en": "Jilin Provincial Institute of Sports Science (Jilin Provincial Anti-Doping Center)",
+        "name:ru": "Цзилиньский провинциальный институт спортивной науки (Центр антидопинга провинции Цзилинь)",
+        "name:zh": "吉林省体育科学研究所（吉林省反兴奋剂中心）",
+        "name:zh-Hans": "吉林省体育科学研究所（吉林省反兴奋剂中心）",
+        "name:zh-Hant": "吉林省體育科學研究所（吉林省反興奮劑中心）",
+        "office": "research",
+        "operator": "吉林省体育局"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13960073992,
+      "lat": 43.852786,
+      "lon": 125.3305889,
+      "tags": {
+        "amenity": "research_institute",
+        "name": "汽车仿真与控制国家重点实验室",
+        "name:en": "State Key Laboratory of Automotive Simulation and Control",
+        "name:ru": "Государственная ключевая лаборатория моделирования и управления автомобилями",
+        "name:zh": "汽车仿真与控制国家重点实验室",
+        "name:zh-Hans": "汽车仿真与控制国家重点实验室",
+        "name:zh-Hant": "汽車仿真與控制國家重點實驗室",
+        "office": "research",
+        "operator": "吉林大学"
+      }
+    }
+  ]
+}

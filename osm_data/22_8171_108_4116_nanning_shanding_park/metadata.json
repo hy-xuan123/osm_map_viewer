@@ -1,0 +1,55 @@
+{
+  "download_time": "2026-06-27T00:59:39.625603",
+  "center_coordinates": {
+    "latitude": 22.8171272,
+    "longitude": 108.4115652
+  },
+  "download_range": {
+    "north": 22.8221272,
+    "south": 22.812127200000003,
+    "east": 108.4165652,
+    "west": 108.4065652,
+    "expand": 0.005
+  },
+  "alias": "nanning_shanding_park",
+  "data_categories": [
+    "roads",
+    "buildings",
+    "water",
+    "landuse",
+    "pois",
+    "traffic_signals"
+  ],
+  "statistics": {
+    "roads": {
+      "ways": 123,
+      "nodes": 1101,
+      "total_elements": 1224
+    },
+    "buildings": {
+      "ways": 9,
+      "nodes": 86,
+      "total_elements": 95
+    },
+    "water": {
+      "ways": 1,
+      "nodes": 26,
+      "total_elements": 27
+    },
+    "landuse": {
+      "ways": 29,
+      "nodes": 589,
+      "total_elements": 618
+    },
+    "pois": {
+      "ways": 0,
+      "nodes": 22,
+      "total_elements": 22
+    },
+    "traffic_signals": {
+      "ways": 0,
+      "nodes": 0,
+      "total_elements": 0
+    }
+  }
+}

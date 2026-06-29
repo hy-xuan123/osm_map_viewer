@@ -1,0 +1,110 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.4 2390de5a",
+  "osm3s": {
+    "timestamp_osm_base": "2026-06-26T17:22:26Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 305197308,
+      "lat": 32.0605559,
+      "lon": 118.7792803,
+      "tags": {
+        "crossing": "uncontrolled",
+        "highway": "traffic_signals"
+      }
+    },
+    {
+      "type": "node",
+      "id": 305197337,
+      "lat": 32.0602288,
+      "lon": 118.7787144,
+      "tags": {
+        "crossing": "uncontrolled",
+        "highway": "traffic_signals"
+      }
+    },
+    {
+      "type": "node",
+      "id": 305197340,
+      "lat": 32.0605079,
+      "lon": 118.7784847,
+      "tags": {
+        "crossing": "uncontrolled",
+        "highway": "traffic_signals"
+      }
+    },
+    {
+      "type": "node",
+      "id": 305197342,
+      "lat": 32.0612364,
+      "lon": 118.7785153,
+      "tags": {
+        "crossing": "uncontrolled",
+        "highway": "traffic_signals"
+      }
+    },
+    {
+      "type": "node",
+      "id": 305197346,
+      "lat": 32.0613867,
+      "lon": 118.778939,
+      "tags": {
+        "crossing": "uncontrolled",
+        "highway": "traffic_signals"
+      }
+    },
+    {
+      "type": "node",
+      "id": 305371123,
+      "lat": 32.0613844,
+      "lon": 118.7788181,
+      "tags": {
+        "crossing": "uncontrolled",
+        "highway": "traffic_signals"
+      }
+    },
+    {
+      "type": "node",
+      "id": 881963477,
+      "lat": 32.0523853,
+      "lon": 118.7788386,
+      "tags": {
+        "crossing": "traffic_signals",
+        "highway": "traffic_signals"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1120932553,
+      "lat": 32.0521761,
+      "lon": 118.7765042,
+      "tags": {
+        "crossing": "traffic_signals",
+        "highway": "traffic_signals"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1682448068,
+      "lat": 32.0606582,
+      "lon": 118.778473,
+      "tags": {
+        "crossing": "uncontrolled",
+        "highway": "traffic_signals"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4225753379,
+      "lat": 32.0525209,
+      "lon": 118.7708544,
+      "tags": {
+        "crossing": "traffic_signals",
+        "highway": "traffic_signals"
+      }
+    }
+  ]
+}

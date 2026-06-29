@@ -1,0 +1,169 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-06-26T17:11:15Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 1273351171,
+      "lat": 43.8256864,
+      "lon": 125.3990903,
+      "tags": {
+        "destination": "净月/世纪广场",
+        "highway": "motorway_junction",
+        "name": "净月",
+        "ref": "52"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1273402950,
+      "lat": 43.832796,
+      "lon": 125.4070623,
+      "tags": {
+        "destination": "净月/世纪广场",
+        "highway": "motorway_junction",
+        "name": "净月",
+        "ref": "52"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1274495137,
+      "lat": 43.8340937,
+      "lon": 125.3961907,
+      "tags": {
+        "light_rail": "yes",
+        "name": "世纪广场",
+        "name:en": "Shiji Square",
+        "name:zh": "世纪广场",
+        "name:zh-Latn-pinyin": "Shìjì Guǎngchǎng",
+        "public_transport": "stop_position",
+        "railway": "stop"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3088516174,
+      "lat": 43.8233755,
+      "lon": 125.4029095,
+      "tags": {
+        "name": "任家桥",
+        "place": "neighbourhood"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4863603671,
+      "lat": 43.8358902,
+      "lon": 125.3999151,
+      "tags": {
+        "amenity": "school",
+        "name": "长春设计学院"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6520747221,
+      "lat": 43.8341161,
+      "lon": 125.3961897,
+      "tags": {
+        "light_rail": "yes",
+        "name": "世纪广场",
+        "name:en": "Shiji Square",
+        "name:zh": "世纪广场",
+        "name:zh-Latn-pinyin": "Shìjì Guǎngchǎng",
+        "public_transport": "station",
+        "railway": "station",
+        "station": "light_rail"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6520747222,
+      "lat": 43.834134,
+      "lon": 125.396187,
+      "tags": {
+        "light_rail": "yes",
+        "name": "世纪广场",
+        "name:en": "Shiji Square",
+        "name:zh": "世纪广场",
+        "name:zh-Latn-pinyin": "Shìjì Guǎngchǎng",
+        "public_transport": "stop_position",
+        "railway": "stop"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6538522942,
+      "lat": 43.8201153,
+      "lon": 125.3978176,
+      "tags": {
+        "leisure": "stadium"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13533724866,
+      "lat": 43.8237448,
+      "lon": 125.4018311,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "任家桥",
+        "network": "长春公交",
+        "operator": "长春公共交通（集团）有限责任公司",
+        "public_transport": "platform",
+        "shelter": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13533724867,
+      "lat": 43.8247378,
+      "lon": 125.4019607,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "任家桥",
+        "network": "长春公交",
+        "operator": "长春公共交通（集团）有限责任公司",
+        "public_transport": "platform",
+        "shelter": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13533724868,
+      "lat": 43.8301982,
+      "lon": 125.4003074,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "连云港街",
+        "network": "长春公交",
+        "operator": "长春公共交通（集团）有限责任公司",
+        "public_transport": "platform",
+        "shelter": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13533724869,
+      "lat": 43.8306629,
+      "lon": 125.3997446,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "连云港街",
+        "network": "长春公交",
+        "operator": "长春公共交通（集团）有限责任公司",
+        "public_transport": "platform",
+        "shelter": "yes"
+      }
+    }
+  ]
+}

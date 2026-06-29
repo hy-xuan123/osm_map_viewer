@@ -1,0 +1,55 @@
+{
+  "download_time": "2026-06-26T22:07:24.446725",
+  "center_coordinates": {
+    "latitude": 23.1122,
+    "longitude": 109.599
+  },
+  "download_range": {
+    "north": 23.1212,
+    "south": 23.1032,
+    "east": 109.608,
+    "west": 109.59,
+    "expand": 0.009
+  },
+  "alias": null,
+  "data_categories": [
+    "roads",
+    "buildings",
+    "water",
+    "landuse",
+    "pois",
+    "traffic_signals"
+  ],
+  "statistics": {
+    "roads": {
+      "ways": 83,
+      "nodes": 579,
+      "total_elements": 662
+    },
+    "buildings": {
+      "ways": 27,
+      "nodes": 226,
+      "total_elements": 253
+    },
+    "water": {
+      "ways": 2,
+      "nodes": 63,
+      "total_elements": 65
+    },
+    "landuse": {
+      "ways": 10,
+      "nodes": 124,
+      "total_elements": 134
+    },
+    "pois": {
+      "ways": 0,
+      "nodes": 10,
+      "total_elements": 10
+    },
+    "traffic_signals": {
+      "ways": 0,
+      "nodes": 0,
+      "total_elements": 0
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "download_time": "2026-06-27T01:06:56.105724",
+  "center_coordinates": {
+    "latitude": 1.2966,
+    "longitude": 103.7764
+  },
+  "download_range": {
+    "north": 1.3015999999999999,
+    "south": 1.2916,
+    "east": 103.78139999999999,
+    "west": 103.7714,
+    "expand": 0.005
+  },
+  "alias": "singapore_nus",
+  "data_categories": [
+    "roads",
+    "buildings",
+    "water",
+    "landuse",
+    "pois",
+    "traffic_signals"
+  ],
+  "statistics": {
+    "roads": {
+      "ways": 1319,
+      "nodes": 3605,
+      "total_elements": 4924
+    },
+    "buildings": {
+      "ways": 323,
+      "nodes": 3003,
+      "total_elements": 3326
+    },
+    "water": {
+      "ways": 20,
+      "nodes": 60,
+      "total_elements": 80
+    },
+    "landuse": {
+      "ways": 171,
+      "nodes": 1553,
+      "total_elements": 1724
+    },
+    "pois": {
+      "ways": 0,
+      "nodes": 232,
+      "total_elements": 232
+    },
+    "traffic_signals": {
+      "ways": 0,
+      "nodes": 0,
+      "total_elements": 0
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "download_time": "2026-06-26T20:57:37.911355",
+  "center_coordinates": {
+    "latitude": 22.8128211,
+    "longitude": 108.5806229
+  },
+  "download_range": {
+    "north": 22.8218211,
+    "south": 22.8038211,
+    "east": 108.5896229,
+    "west": 108.5716229,
+    "expand": 0.009
+  },
+  "alias": "nanning_narong_overpass",
+  "data_categories": [
+    "roads",
+    "buildings",
+    "water",
+    "landuse",
+    "pois"
+  ],
+  "statistics": {
+    "roads": {
+      "ways": 55,
+      "nodes": 376,
+      "total_elements": 431
+    },
+    "buildings": {
+      "ways": 0,
+      "nodes": 0,
+      "total_elements": 0
+    },
+    "water": {
+      "ways": 3,
+      "nodes": 161,
+      "total_elements": 164
+    },
+    "landuse": {
+      "ways": 6,
+      "nodes": 40,
+      "total_elements": 46
+    },
+    "pois": {
+      "ways": 0,
+      "nodes": 1,
+      "total_elements": 1
+    }
+  }
+}

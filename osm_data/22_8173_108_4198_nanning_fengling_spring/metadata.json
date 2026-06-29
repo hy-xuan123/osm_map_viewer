@@ -1,0 +1,49 @@
+{
+  "download_time": "2026-06-26T19:14:11.143024",
+  "center_coordinates": {
+    "latitude": 22.8173,
+    "longitude": 108.4198
+  },
+  "download_range": {
+    "north": 22.8263,
+    "south": 22.8083,
+    "east": 108.4288,
+    "west": 108.4108,
+    "expand": 0.009
+  },
+  "alias": "nanning_fengling_spring",
+  "data_categories": [
+    "roads",
+    "buildings",
+    "water",
+    "landuse",
+    "pois"
+  ],
+  "statistics": {
+    "roads": {
+      "ways": 251,
+      "nodes": 2198,
+      "total_elements": 2449
+    },
+    "buildings": {
+      "ways": 61,
+      "nodes": 529,
+      "total_elements": 590
+    },
+    "water": {
+      "ways": 3,
+      "nodes": 61,
+      "total_elements": 64
+    },
+    "landuse": {
+      "ways": 87,
+      "nodes": 1114,
+      "total_elements": 1201
+    },
+    "pois": {
+      "ways": 0,
+      "nodes": 56,
+      "total_elements": 56
+    }
+  }
+}

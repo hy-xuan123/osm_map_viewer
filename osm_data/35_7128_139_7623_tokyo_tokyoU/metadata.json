@@ -1,0 +1,55 @@
+{
+  "download_time": "2026-06-29T11:39:06.821055",
+  "center_coordinates": {
+    "latitude": 35.7128,
+    "longitude": 139.7623
+  },
+  "download_range": {
+    "north": 35.7218,
+    "south": 35.7038,
+    "east": 139.7713,
+    "west": 139.75330000000002,
+    "expand": 0.009
+  },
+  "alias": "tokyo_tokyoU",
+  "data_categories": [
+    "roads",
+    "buildings",
+    "water",
+    "landuse",
+    "pois",
+    "traffic_signals"
+  ],
+  "statistics": {
+    "roads": {
+      "ways": 2744,
+      "nodes": 8742,
+      "total_elements": 11486
+    },
+    "buildings": {
+      "ways": 10206,
+      "nodes": 50764,
+      "total_elements": 60970
+    },
+    "water": {
+      "ways": 19,
+      "nodes": 197,
+      "total_elements": 216
+    },
+    "landuse": {
+      "ways": 273,
+      "nodes": 2600,
+      "total_elements": 2873
+    },
+    "pois": {
+      "ways": 0,
+      "nodes": 3722,
+      "total_elements": 3722
+    },
+    "traffic_signals": {
+      "ways": 0,
+      "nodes": 107,
+      "total_elements": 107
+    }
+  }
+}

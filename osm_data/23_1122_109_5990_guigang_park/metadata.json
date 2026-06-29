@@ -1,0 +1,68 @@
+{
+  "download_time": "2026-06-26T17:01:39.519493",
+  "original_file": "c:\\Users\\90640\\CodeBuddy\\20260625001312\\guigang_park_osm.json",
+  "organization_time": "2026-06-26T17:01:39.519493",
+  "center_coordinates": {
+    "latitude": 23.1122,
+    "longitude": 109.599
+  },
+  "download_range": {
+    "north": 23.1212,
+    "south": 23.1032,
+    "east": 109.608,
+    "west": 109.59,
+    "expand": 0.009
+  },
+  "alias": "guigang_park",
+  "data_categories": [
+    "roads",
+    "buildings",
+    "water",
+    "landuse",
+    "pois"
+  ],
+  "junction_data": {
+    "files": [
+      "guigang_junctions.json",
+      "junction_data.js",
+      "intersection_data.js"
+    ],
+    "description": {
+      "guigang_junctions.json": "交点数据（JSON格式）- 包含162个交点",
+      "junction_data.js": "交点数据（JavaScript格式）- 包含106个交点",
+      "intersection_data.js": "交叉口数据（JavaScript格式）- 包含56个主干道交叉口"
+    },
+    "statistics": {
+      "total_junctions": 162,
+      "total_intersections": 56,
+      "note": "junction_data.js已排除intersection重复数据"
+    }
+  },
+  "statistics": {
+    "roads": {
+      "ways": 83,
+      "nodes": 579,
+      "total_elements": 662
+    },
+    "buildings": {
+      "ways": 27,
+      "nodes": 226,
+      "total_elements": 253
+    },
+    "water": {
+      "ways": 2,
+      "nodes": 63,
+      "total_elements": 65
+    },
+    "landuse": {
+      "ways": 10,
+      "nodes": 124,
+      "total_elements": 134
+    },
+    "pois": {
+      "ways": 0,
+      "nodes": 10,
+      "total_elements": 10
+    }
+  }
+}

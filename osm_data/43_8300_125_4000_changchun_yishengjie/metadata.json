@@ -1,0 +1,55 @@
+{
+  "download_time": "2026-06-27T01:13:11.357114",
+  "center_coordinates": {
+    "latitude": 43.83,
+    "longitude": 125.4
+  },
+  "download_range": {
+    "north": 43.839999999999996,
+    "south": 43.82,
+    "east": 125.41000000000001,
+    "west": 125.39,
+    "expand": 0.01
+  },
+  "alias": "changchun_yishengjie",
+  "data_categories": [
+    "roads",
+    "buildings",
+    "water",
+    "landuse",
+    "pois",
+    "traffic_signals"
+  ],
+  "statistics": {
+    "roads": {
+      "ways": 140,
+      "nodes": 1274,
+      "total_elements": 1414
+    },
+    "buildings": {
+      "ways": 12,
+      "nodes": 175,
+      "total_elements": 187
+    },
+    "water": {
+      "ways": 11,
+      "nodes": 298,
+      "total_elements": 309
+    },
+    "landuse": {
+      "ways": 31,
+      "nodes": 475,
+      "total_elements": 506
+    },
+    "pois": {
+      "ways": 0,
+      "nodes": 12,
+      "total_elements": 12
+    },
+    "traffic_signals": {
+      "ways": 0,
+      "nodes": 0,
+      "total_elements": 0
+    }
+  }
+}

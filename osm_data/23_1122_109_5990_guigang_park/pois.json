@@ -1,0 +1,175 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-06-26T06:15:20Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 1949301592,
+      "lat": 23.1144539,
+      "lon": 109.5946193,
+      "tags": {
+        "alt_name:vi": "Quí Cảng",
+        "capital": "5",
+        "int_name": "Guigang",
+        "name": "贵港市",
+        "name:af": "Guigang",
+        "name:ar": "جويغانغ",
+        "name:cdo": "Gói-gē̤ng",
+        "name:ceb": "Guigang",
+        "name:cs": "Kuej-kang",
+        "name:da": "Guigang",
+        "name:de": "Guigang",
+        "name:en": "Guigang",
+        "name:es": "Guigang",
+        "name:et": "Guigang",
+        "name:eu": "Guigang",
+        "name:fa": "گویگانگ",
+        "name:fi": "Guigang",
+        "name:fr": "Guigang",
+        "name:hak": "Kui-kóng-sṳ",
+        "name:hr": "Guigang",
+        "name:id": "Guigang",
+        "name:it": "Guigang",
+        "name:ja": "貴港市",
+        "name:ki": "Guigang",
+        "name:ko": "구이강시",
+        "name:mg": "Guigang",
+        "name:ml": "ഗുയിഗാങ്",
+        "name:nan": "Kùi-káng-chhī",
+        "name:nl": "Guigang",
+        "name:nn": "Guigang",
+        "name:no": "Guigang",
+        "name:pl": "Guigang",
+        "name:pnb": "گوئیگانگ",
+        "name:pt": "Guigang",
+        "name:ru": "Гуйган",
+        "name:sv": "Guigang",
+        "name:tr": "Guigang",
+        "name:uk": "Гуйган",
+        "name:ur": "گوئگانگ",
+        "name:vi": "Quý Cảng",
+        "name:war": "Guigang",
+        "name:yue": "貴港市",
+        "name:yue-Latn": "Gvaigong-si",
+        "name:za": "Gveigangj",
+        "name:zh": "贵港市",
+        "name:zh-Hans": "贵港市",
+        "name:zh-Hant": "貴港市",
+        "name:zh-Latn-pinyin": "Guìgǎng Shì",
+        "place": "city",
+        "place:CN": "prefecture-level_city",
+        "population": "4118800",
+        "population:date": "2010-11-01",
+        "wikidata": "Q571808",
+        "wikipedia": "zh:贵港市"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4109734473,
+      "lat": 23.1165937,
+      "lon": 109.5967872,
+      "tags": {
+        "amenity": "library",
+        "name": "贵港市图书馆"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13033490175,
+      "lat": 23.1094683,
+      "lon": 109.5966864,
+      "tags": {
+        "amenity": "cafe",
+        "check_date": "2025-07-22",
+        "cuisine": "coffee_shop",
+        "name": "仔仔咖啡"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13033490176,
+      "lat": 23.1094617,
+      "lon": 109.5964771,
+      "tags": {
+        "amenity": "restaurant",
+        "check_date": "2025-07-22",
+        "name": "玉林一家脆皮狗肉"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13033490177,
+      "lat": 23.1094683,
+      "lon": 109.5963225,
+      "tags": {
+        "amenity": "restaurant",
+        "check_date": "2025-07-22",
+        "name": "以后饭庄"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13033490178,
+      "lat": 23.1098886,
+      "lon": 109.5968991,
+      "tags": {
+        "amenity": "cafe",
+        "check_date": "2025-07-22",
+        "name": "察先生"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13033490179,
+      "lat": 23.1168022,
+      "lon": 109.5931897,
+      "tags": {
+        "check_date": "2025-07-22",
+        "name": "维多利亚酒店",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13070431524,
+      "lat": 23.1174614,
+      "lon": 109.5942908,
+      "tags": {
+        "name": "贵港市文华国际大酒店",
+        "name:en": "Gui Gang WenHua international hotel",
+        "panoramax": "67050a3c-9d4c-4fdb-986b-ba7ed04de26c",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13070431529,
+      "lat": 23.1180265,
+      "lon": 109.5939713,
+      "tags": {
+        "amenity": "charging_station",
+        "fee": "yes",
+        "payment:alipay": "yes",
+        "payment:app": "yes",
+        "payment:wechat": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13070431530,
+      "lat": 23.1178573,
+      "lon": 109.5940107,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "xinjiang",
+        "name": "新疆新玉烤羊肉烧烤店",
+        "panoramax": "33b13fe0-a6b1-49f2-a8af-30794744541e"
+      }
+    }
+  ]
+}

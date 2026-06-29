@@ -1,0 +1,49 @@
+{
+  "download_time": "2026-06-26T20:53:52.860661",
+  "center_coordinates": {
+    "latitude": 22.8210295,
+    "longitude": 108.4672161
+  },
+  "download_range": {
+    "north": 22.830029500000002,
+    "south": 22.8120295,
+    "east": 108.4762161,
+    "west": 108.4582161,
+    "expand": 0.009
+  },
+  "alias": "minzudadao",
+  "data_categories": [
+    "roads",
+    "buildings",
+    "water",
+    "landuse",
+    "pois"
+  ],
+  "statistics": {
+    "roads": {
+      "ways": 63,
+      "nodes": 976,
+      "total_elements": 1039
+    },
+    "buildings": {
+      "ways": 7,
+      "nodes": 29,
+      "total_elements": 36
+    },
+    "water": {
+      "ways": 1,
+      "nodes": 8,
+      "total_elements": 9
+    },
+    "landuse": {
+      "ways": 13,
+      "nodes": 486,
+      "total_elements": 499
+    },
+    "pois": {
+      "ways": 0,
+      "nodes": 3,
+      "total_elements": 3
+    }
+  }
+}

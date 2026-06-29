@@ -1,0 +1,55 @@
+{
+  "download_time": "2026-06-26T23:47:04.687714",
+  "center_coordinates": {
+    "latitude": 38.8977,
+    "longitude": -77.0365
+  },
+  "download_range": {
+    "north": 38.9027,
+    "south": 38.8927,
+    "east": -77.03150000000001,
+    "west": -77.0415,
+    "expand": 0.005
+  },
+  "alias": "us_whitehouse",
+  "data_categories": [
+    "roads",
+    "buildings",
+    "water",
+    "landuse",
+    "pois",
+    "traffic_signals"
+  ],
+  "statistics": {
+    "roads": {
+      "ways": 1182,
+      "nodes": 3542,
+      "total_elements": 4724
+    },
+    "buildings": {
+      "ways": 234,
+      "nodes": 2447,
+      "total_elements": 2681
+    },
+    "water": {
+      "ways": 9,
+      "nodes": 192,
+      "total_elements": 201
+    },
+    "landuse": {
+      "ways": 312,
+      "nodes": 3636,
+      "total_elements": 3948
+    },
+    "pois": {
+      "ways": 0,
+      "nodes": 725,
+      "total_elements": 725
+    },
+    "traffic_signals": {
+      "ways": 0,
+      "nodes": 53,
+      "total_elements": 53
+    }
+  }
+}

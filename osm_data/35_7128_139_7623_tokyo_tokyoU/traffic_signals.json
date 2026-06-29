@@ -1,0 +1,1183 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-06-29T03:38:00Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 303749875,
+      "lat": 35.7094106,
+      "lon": 139.7695603,
+      "tags": {
+        "highway": "traffic_signals",
+        "name": "池之端一丁目",
+        "traffic_signals": "signal",
+        "traffic_signals:direction": "forward"
+      }
+    },
+    {
+      "type": "node",
+      "id": 306452137,
+      "lat": 35.7145737,
+      "lon": 139.7574056,
+      "tags": {
+        "crossing": "no",
+        "highway": "traffic_signals",
+        "name": "西片二丁目",
+        "name:en": "Nishikata 2"
+      }
+    },
+    {
+      "type": "node",
+      "id": 364299562,
+      "lat": 35.7195863,
+      "lon": 139.7698952,
+      "tags": {
+        "crossing": "traffic_signals",
+        "crossing_ref": "zebra",
+        "highway": "traffic_signals"
+      }
+    },
+    {
+      "type": "node",
+      "id": 364299564,
+      "lat": 35.7206514,
+      "lon": 139.7693977,
+      "tags": {
+        "crossing": "traffic_signals",
+        "crossing_ref": "zebra",
+        "highway": "traffic_signals",
+        "name": "谷中六丁目",
+        "name:en": "Yanaka 6",
+        "name:ja": "谷中六丁目"
+      }
+    },
+    {
+      "type": "node",
+      "id": 364299804,
+      "lat": 35.7191802,
+      "lon": 139.7639177,
+      "tags": {
+        "highway": "traffic_signals",
+        "name": "根津小学校入口",
+        "name:en": "Nezu Elem. Sch.",
+        "name:ja": "根津小学校入口",
+        "source": "Bing 2010"
+      }
+    },
+    {
+      "type": "node",
+      "id": 372721285,
+      "lat": 35.7075143,
+      "lon": 139.7637494,
+      "tags": {
+        "highway": "traffic_signals",
+        "name": "本富士警察署前",
+        "name:en": "Motofuji Police sta.",
+        "name:ja": "本富士警察署前",
+        "traffic_signals": "signal"
+      }
+    },
+    {
+      "type": "node",
+      "id": 372721300,
+      "lat": 35.7087478,
+      "lon": 139.7637252,
+      "tags": {
+        "highway": "traffic_signals",
+        "name": "竜岡門前",
+        "name:en": "Tastuokamon mae",
+        "name:ja": "竜岡門前",
+        "traffic_signals": "signal"
+      }
+    },
+    {
+      "type": "node",
+      "id": 382956921,
+      "lat": 35.7046856,
+      "lon": 139.7698349,
+      "tags": {
+        "highway": "traffic_signals",
+        "name": "三組坂下",
+        "name:en": "Mikumisakashita",
+        "name:ja": "三組坂下",
+        "traffic_signals": "signal"
+      }
+    },
+    {
+      "type": "node",
+      "id": 410162938,
+      "lat": 35.7058588,
+      "lon": 139.7624559,
+      "tags": {
+        "highway": "traffic_signals",
+        "name": "消防署前通り",
+        "name:en": "Shobosho maedori",
+        "name:ja": "消防署前通り"
+      }
+    },
+    {
+      "type": "node",
+      "id": 410164022,
+      "lat": 35.7054224,
+      "lon": 139.7645485,
+      "tags": {
+        "highway": "traffic_signals",
+        "name": "湯島二丁目",
+        "name:en": "Yushima 2",
+        "name:ja": "湯島二丁目"
+      }
+    },
+    {
+      "type": "node",
+      "id": 444349218,
+      "lat": 35.7171853,
+      "lon": 139.769801,
+      "tags": {
+        "crossing": "traffic_signals",
+        "crossing_ref": "zebra",
+        "highway": "traffic_signals"
+      }
+    },
+    {
+      "type": "node",
+      "id": 484203340,
+      "lat": 35.7211034,
+      "lon": 139.7708546,
+      "tags": {
+        "crossing": "traffic_signals",
+        "highway": "traffic_signals",
+        "name": "上野桜木",
+        "name:en": "Uenosakuragi",
+        "name:ja": "上野桜木二丁目",
+        "tactile_paving": "yes",
+        "traffic_signals": "signal"
+      }
+    },
+    {
+      "type": "node",
+      "id": 484203346,
+      "lat": 35.7199659,
+      "lon": 139.7711915,
+      "tags": {
+        "highway": "traffic_signals",
+        "traffic_signals": "signal"
+      }
+    },
+    {
+      "type": "node",
+      "id": 506125580,
+      "lat": 35.7199946,
+      "lon": 139.7631069,
+      "tags": {
+        "highway": "traffic_signals",
+        "name": "根津神社入口",
+        "name:en": "Nezujinja Shrine",
+        "name:ja": "根津神社入口"
+      }
+    },
+    {
+      "type": "node",
+      "id": 631514352,
+      "lat": 35.7074174,
+      "lon": 139.7648795,
+      "tags": {
+        "highway": "traffic_signals",
+        "traffic_signals": "signal"
+      }
+    },
+    {
+      "type": "node",
+      "id": 631514356,
+      "lat": 35.7074106,
+      "lon": 139.764949,
+      "tags": {
+        "highway": "traffic_signals",
+        "traffic_signals": "signal"
+      }
+    },
+    {
+      "type": "node",
+      "id": 673425825,
+      "lat": 35.7114741,
+      "lon": 139.7549812,
+      "tags": {
+        "crossing": "no",
+        "highway": "traffic_signals",
+        "name": "菊坂下",
+        "name:en": "Kikusakashita",
+        "name:ja": "菊坂下"
+      }
+    },
+    {
+      "type": "node",
+      "id": 727241502,
+      "lat": 35.7050539,
+      "lon": 139.7664837,
+      "tags": {
+        "highway": "traffic_signals",
+        "traffic_signals": "signal"
+      }
+    },
+    {
+      "type": "node",
+      "id": 849589656,
+      "lat": 35.7074015,
+      "lon": 139.7650393,
+      "tags": {
+        "highway": "traffic_signals",
+        "traffic_signals": "signal"
+      }
+    },
+    {
+      "type": "node",
+      "id": 888744905,
+      "lat": 35.7084029,
+      "lon": 139.7535587,
+      "tags": {
+        "crossing": "no",
+        "highway": "traffic_signals",
+        "name": "春日町",
+        "name:en": "Kasugacho",
+        "name:ja": "春日町"
+      }
+    },
+    {
+      "type": "node",
+      "id": 907892944,
+      "lat": 35.7168094,
+      "lon": 139.7662919,
+      "tags": {
+        "highway": "traffic_signals"
+      }
+    },
+    {
+      "type": "node",
+      "id": 951077687,
+      "lat": 35.7065488,
+      "lon": 139.7699457,
+      "tags": {
+        "highway": "traffic_signals",
+        "name": "湯島中坂下",
+        "name:en": "Yushimanaka-saka Hill",
+        "name:es": "Yushimanaka-saka Hill",
+        "name:ja": "湯島中坂下",
+        "traffic_signals": "signal"
+      }
+    },
+    {
+      "type": "node",
+      "id": 992674071,
+      "lat": 35.7049227,
+      "lon": 139.7672892,
+      "tags": {
+        "highway": "traffic_signals",
+        "name": "三組坂上",
+        "name:en": "Mikumisakaue"
+      }
+    },
+    {
+      "type": "node",
+      "id": 992674099,
+      "lat": 35.707409,
+      "lon": 139.7699977,
+      "tags": {
+        "highway": "traffic_signals"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1010807554,
+      "lat": 35.7043312,
+      "lon": 139.7590654,
+      "tags": {
+        "highway": "traffic_signals",
+        "name": "壱岐坂通り",
+        "name:en": "Ikizaka-dori",
+        "traffic_signals": "signal"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1034904147,
+      "lat": 35.7082644,
+      "lon": 139.7699059,
+      "tags": {
+        "highway": "traffic_signals",
+        "name": "天神下",
+        "name:en": "Tenjin Shrine",
+        "name:es": "Tenjin Shrine",
+        "name:ja": "天神下"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1035645677,
+      "lat": 35.7067869,
+      "lon": 139.7679054,
+      "tags": {
+        "highway": "traffic_signals",
+        "name": "湯島中坂上",
+        "name:en": "Yushimanakasakaue",
+        "traffic_signals": "signal"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1035645689,
+      "lat": 35.7065988,
+      "lon": 139.7627294,
+      "tags": {
+        "highway": "traffic_signals",
+        "source": "survey",
+        "traffic_signals": "signal"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1035675450,
+      "lat": 35.7056334,
+      "lon": 139.7633673,
+      "tags": {
+        "crossing": "traffic_signals",
+        "highway": "traffic_signals"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1065718034,
+      "lat": 35.7179122,
+      "lon": 139.7651742,
+      "tags": {
+        "highway": "traffic_signals",
+        "name": "根津一丁目",
+        "name:en": "Nezu 1",
+        "name:ja": "根津一丁目"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1065718064,
+      "lat": 35.7125536,
+      "lon": 139.7685145,
+      "tags": {
+        "highway": "traffic_signals"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1067372203,
+      "lat": 35.7187972,
+      "lon": 139.7664914,
+      "tags": {
+        "highway": "traffic_signals"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1067372451,
+      "lat": 35.7156439,
+      "lon": 139.7671282,
+      "tags": {
+        "highway": "traffic_signals",
+        "name": "池之端二丁目",
+        "name:en": "Ikenohata 2",
+        "name:ja": "池之端二丁目"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1067372470,
+      "lat": 35.7145785,
+      "lon": 139.7678248,
+      "tags": {
+        "highway": "traffic_signals",
+        "name": "忍岡小学校入口",
+        "name:en": "Shinobugaoka Elem. Sch.",
+        "name:ja": "忍岡小学校入口"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1067372825,
+      "lat": 35.7166735,
+      "lon": 139.7664263,
+      "tags": {
+        "highway": "traffic_signals"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1106225298,
+      "lat": 35.7212414,
+      "lon": 139.7621554,
+      "tags": {
+        "highway": "traffic_signals",
+        "name": "千駄木二丁目",
+        "name:en": "Sendagi 2",
+        "name:ja": "千駄木二丁目",
+        "source": "Bing 2010"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1106225301,
+      "lat": 35.7204262,
+      "lon": 139.7561927,
+      "tags": {
+        "highway": "traffic_signals",
+        "name": "向丘一丁目",
+        "name:en": "Mukogaoka 1",
+        "name:ja": "向丘一丁目"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1106225315,
+      "lat": 35.7205845,
+      "lon": 139.7584373,
+      "tags": {
+        "highway": "traffic_signals",
+        "name": "日本医大前",
+        "name:en": "Nihon-idai mae"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1309140405,
+      "lat": 35.7183727,
+      "lon": 139.7647251,
+      "tags": {
+        "highway": "traffic_signals"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1436550086,
+      "lat": 35.7174621,
+      "lon": 139.7581031,
+      "tags": {
+        "highway": "traffic_signals",
+        "name": "第六中学校前",
+        "name:en": "Dairoku chugakko"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1436550098,
+      "lat": 35.7203894,
+      "lon": 139.7561238,
+      "tags": {
+        "highway": "traffic_signals",
+        "name": "向丘一丁目",
+        "name:en": "Mukogaoka 1",
+        "name:ja": "向丘一丁目"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1436736506,
+      "lat": 35.7083782,
+      "lon": 139.7537292,
+      "tags": {
+        "crossing": "no",
+        "highway": "traffic_signals",
+        "name": "春日町",
+        "name:en": "Kasugacho",
+        "name:ja": "春日町"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1476959138,
+      "lat": 35.711976,
+      "lon": 139.7594089,
+      "tags": {
+        "highway": "traffic_signals",
+        "traffic_signals:direction": "backward"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1478206240,
+      "lat": 35.7085007,
+      "lon": 139.7536911,
+      "tags": {
+        "crossing": "no",
+        "highway": "traffic_signals",
+        "name": "春日町",
+        "name:en": "Kasugacho",
+        "name:ja": "春日町"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1478206243,
+      "lat": 35.7085196,
+      "lon": 139.7535248,
+      "tags": {
+        "crossing": "no",
+        "highway": "traffic_signals",
+        "name": "春日町",
+        "name:en": "Kasugacho",
+        "name:ja": "春日町"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1852653788,
+      "lat": 35.7159111,
+      "lon": 139.7586263,
+      "tags": {
+        "highway": "traffic_signals",
+        "traffic_signals:direction": "forward"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1891189584,
+      "lat": 35.7076395,
+      "lon": 139.7669718,
+      "tags": {
+        "highway": "traffic_signals",
+        "junction": "yes",
+        "name": "湯島天神入口",
+        "name:en": "Yushimatenjin Shrine",
+        "traffic_signals": "signal"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2150891052,
+      "lat": 35.7194136,
+      "lon": 139.7674873,
+      "tags": {
+        "highway": "traffic_signals",
+        "traffic_signals": "signal"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3202547169,
+      "lat": 35.7132442,
+      "lon": 139.7567129,
+      "tags": {
+        "crossing": "traffic_signals",
+        "highway": "traffic_signals",
+        "name": "慈愛病院前",
+        "name:en": "Jiaibyoin mae",
+        "tactile_paving": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3202584503,
+      "lat": 35.7174783,
+      "lon": 139.7581712,
+      "tags": {
+        "highway": "traffic_signals",
+        "name": "第六中学校前",
+        "name:en": "Dairoku chugakko"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3813464884,
+      "lat": 35.7056761,
+      "lon": 139.7541214,
+      "tags": {
+        "highway": "traffic_signals",
+        "name": "壱岐坂下",
+        "name:en": "Ikizakashita",
+        "name:ja": "壱岐坂下"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3813464887,
+      "lat": 35.7052279,
+      "lon": 139.7545125,
+      "tags": {
+        "highway": "traffic_signals",
+        "name": "壱岐坂下",
+        "name:en": "Ikizakashita",
+        "name:ja": "壱岐坂下"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3813464888,
+      "lat": 35.7057698,
+      "lon": 139.7545097,
+      "tags": {
+        "highway": "traffic_signals",
+        "name": "壱岐坂下",
+        "name:en": "Ikizakashita"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4543165502,
+      "lat": 35.7075241,
+      "lon": 139.7630751,
+      "tags": {
+        "highway": "traffic_signals",
+        "name": "本郷消防署前",
+        "name:en": "Hongo Fire sta.",
+        "name:es": "Estación de bomberos Hongo",
+        "name:ja": "本郷消防署前",
+        "traffic_signals": "signal"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4546573379,
+      "lat": 35.7103901,
+      "lon": 139.7687842,
+      "tags": {
+        "button_operated": "yes",
+        "crossing": "traffic_signals",
+        "crossing_ref": "zebra",
+        "highway": "traffic_signals",
+        "name": "不忍池西",
+        "name:en": "Shinobazu Pond -W.",
+        "name:ja": "不忍池西",
+        "tactile_paving": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7106477188,
+      "lat": 35.7209598,
+      "lon": 139.7609478,
+      "tags": {
+        "highway": "traffic_signals",
+        "traffic_signals": "signal",
+        "traffic_signals:direction": "backward"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7365811487,
+      "lat": 35.7103787,
+      "lon": 139.7600943,
+      "tags": {
+        "highway": "traffic_signals",
+        "traffic_signals:direction": "forward"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7365811488,
+      "lat": 35.7106813,
+      "lon": 139.7600134,
+      "tags": {
+        "highway": "traffic_signals",
+        "traffic_signals:direction": "backward"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7365811498,
+      "lat": 35.7119328,
+      "lon": 139.7596884,
+      "tags": {
+        "highway": "traffic_signals",
+        "traffic_signals:direction": "forward"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7365811499,
+      "lat": 35.712116,
+      "lon": 139.7596403,
+      "tags": {
+        "highway": "traffic_signals",
+        "traffic_signals:direction": "backward"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7365811504,
+      "lat": 35.7127519,
+      "lon": 139.7594737,
+      "tags": {
+        "highway": "traffic_signals",
+        "traffic_signals:direction": "forward"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7365811505,
+      "lat": 35.7131897,
+      "lon": 139.7593607,
+      "tags": {
+        "highway": "traffic_signals",
+        "traffic_signals:direction": "backward"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7365811510,
+      "lat": 35.7151121,
+      "lon": 139.7588558,
+      "tags": {
+        "highway": "traffic_signals",
+        "traffic_signals:direction": "forward"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7365811511,
+      "lat": 35.7153875,
+      "lon": 139.7590049,
+      "tags": {
+        "highway": "traffic_signals",
+        "traffic_signals:direction": "backward"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7365811512,
+      "lat": 35.7155303,
+      "lon": 139.7587338,
+      "tags": {
+        "highway": "traffic_signals",
+        "traffic_signals:direction": "backward"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7365811513,
+      "lat": 35.7152663,
+      "lon": 139.7585686,
+      "tags": {
+        "highway": "traffic_signals",
+        "traffic_signals:direction": "forward"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7366270224,
+      "lat": 35.7044733,
+      "lon": 139.7619418,
+      "tags": {
+        "highway": "traffic_signals",
+        "traffic_signals:direction": "forward"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7366270225,
+      "lat": 35.7044762,
+      "lon": 139.7616478,
+      "tags": {
+        "highway": "traffic_signals",
+        "traffic_signals:direction": "forward"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7366270226,
+      "lat": 35.704026,
+      "lon": 139.7620424,
+      "tags": {
+        "highway": "traffic_signals",
+        "traffic_signals:direction": "forward"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7366270227,
+      "lat": 35.7039881,
+      "lon": 139.7617619,
+      "tags": {
+        "highway": "traffic_signals",
+        "traffic_signals:direction": "backward"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7366270235,
+      "lat": 35.7050312,
+      "lon": 139.7611608,
+      "tags": {
+        "highway": "traffic_signals",
+        "traffic_signals:direction": "forward"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7366270236,
+      "lat": 35.7047449,
+      "lon": 139.761232,
+      "tags": {
+        "highway": "traffic_signals",
+        "traffic_signals:direction": "forward"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7366270237,
+      "lat": 35.7047548,
+      "lon": 139.7610055,
+      "tags": {
+        "highway": "traffic_signals",
+        "traffic_signals:direction": "forward"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7366270243,
+      "lat": 35.705523,
+      "lon": 139.7608253,
+      "tags": {
+        "highway": "traffic_signals",
+        "traffic_signals:direction": "forward"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7366270244,
+      "lat": 35.7058036,
+      "lon": 139.7608679,
+      "tags": {
+        "highway": "traffic_signals",
+        "traffic_signals:direction": "forward"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7366270245,
+      "lat": 35.7073231,
+      "lon": 139.7605809,
+      "tags": {
+        "highway": "traffic_signals",
+        "traffic_signals:direction": "forward"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7366270246,
+      "lat": 35.7075363,
+      "lon": 139.760357,
+      "tags": {
+        "highway": "traffic_signals",
+        "traffic_signals:direction": "forward"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7366270247,
+      "lat": 35.7076945,
+      "lon": 139.7605771,
+      "tags": {
+        "highway": "traffic_signals",
+        "traffic_signals:direction": "backward"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7366270248,
+      "lat": 35.7075349,
+      "lon": 139.7608231,
+      "tags": {
+        "highway": "traffic_signals",
+        "traffic_signals:direction": "backward"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7366270260,
+      "lat": 35.7094963,
+      "lon": 139.7603115,
+      "tags": {
+        "highway": "traffic_signals",
+        "traffic_signals:direction": "forward"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7366270261,
+      "lat": 35.7096621,
+      "lon": 139.7602809,
+      "tags": {
+        "highway": "traffic_signals",
+        "traffic_signals:direction": "backward"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9982837880,
+      "lat": 35.716011,
+      "lon": 139.7583977,
+      "tags": {
+        "highway": "traffic_signals",
+        "traffic_signals:direction": "backward"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9982837881,
+      "lat": 35.716299,
+      "lon": 139.7585556,
+      "tags": {
+        "highway": "traffic_signals",
+        "traffic_signals:direction": "forward"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9982837884,
+      "lat": 35.7165939,
+      "lon": 139.756996,
+      "tags": {
+        "highway": "traffic_signals",
+        "traffic_signals:direction": "forward"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9982837885,
+      "lat": 35.7167188,
+      "lon": 139.7568631,
+      "tags": {
+        "highway": "traffic_signals",
+        "traffic_signals:direction": "backward"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9982837886,
+      "lat": 35.7174054,
+      "lon": 139.7561176,
+      "tags": {
+        "highway": "traffic_signals",
+        "traffic_signals:direction": "forward"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9982837887,
+      "lat": 35.7175277,
+      "lon": 139.7559896,
+      "tags": {
+        "highway": "traffic_signals",
+        "traffic_signals:direction": "backward"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9982837888,
+      "lat": 35.7185057,
+      "lon": 139.7549539,
+      "tags": {
+        "highway": "traffic_signals",
+        "traffic_signals:direction": "forward"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9982837889,
+      "lat": 35.7184961,
+      "lon": 139.7550998,
+      "tags": {
+        "highway": "traffic_signals",
+        "traffic_signals:direction": "forward"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9982837890,
+      "lat": 35.7187427,
+      "lon": 139.7549049,
+      "tags": {
+        "highway": "traffic_signals",
+        "traffic_signals:direction": "backward"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9982837891,
+      "lat": 35.7203507,
+      "lon": 139.7539028,
+      "tags": {
+        "highway": "traffic_signals",
+        "traffic_signals:direction": "forward"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9982837892,
+      "lat": 35.7205751,
+      "lon": 139.7537789,
+      "tags": {
+        "highway": "traffic_signals",
+        "traffic_signals:direction": "backward"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9982837893,
+      "lat": 35.7204517,
+      "lon": 139.7537302,
+      "tags": {
+        "highway": "traffic_signals",
+        "traffic_signals:direction": "forward"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9982863937,
+      "lat": 35.7072907,
+      "lon": 139.7573233,
+      "tags": {
+        "highway": "traffic_signals",
+        "traffic_signals:direction": "forward"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9982863938,
+      "lat": 35.707358,
+      "lon": 139.7568769,
+      "tags": {
+        "highway": "traffic_signals",
+        "traffic_signals:direction": "forward"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9982863939,
+      "lat": 35.7074014,
+      "lon": 139.7578994,
+      "tags": {
+        "highway": "traffic_signals",
+        "traffic_signals:direction": "forward"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9982863940,
+      "lat": 35.7073167,
+      "lon": 139.7583125,
+      "tags": {
+        "highway": "traffic_signals",
+        "traffic_signals:direction": "forward"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9982863941,
+      "lat": 35.7073846,
+      "lon": 139.7597351,
+      "tags": {
+        "highway": "traffic_signals",
+        "traffic_signals:direction": "forward"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9982863942,
+      "lat": 35.7074696,
+      "lon": 139.7594772,
+      "tags": {
+        "highway": "traffic_signals",
+        "traffic_signals:direction": "forward"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11043195288,
+      "lat": 35.7208715,
+      "lon": 139.7606283,
+      "tags": {
+        "highway": "traffic_signals",
+        "traffic_signals": "signal",
+        "traffic_signals:direction": "forward"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11230813520,
+      "lat": 35.7048704,
+      "lon": 139.7562729,
+      "tags": {
+        "highway": "traffic_signals",
+        "traffic_signals": "signal",
+        "traffic_signals:direction": "backward"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11230813521,
+      "lat": 35.7045227,
+      "lon": 139.7572637,
+      "tags": {
+        "highway": "traffic_signals",
+        "traffic_signals": "signal",
+        "traffic_signals:direction": "forward"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11230813524,
+      "lat": 35.7046064,
+      "lon": 139.757024,
+      "tags": {
+        "highway": "traffic_signals",
+        "traffic_signals": "signal",
+        "traffic_signals:direction": "backward"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11230813525,
+      "lat": 35.7047749,
+      "lon": 139.756545,
+      "tags": {
+        "highway": "traffic_signals",
+        "traffic_signals": "signal",
+        "traffic_signals:direction": "forward"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11230813526,
+      "lat": 35.7053577,
+      "lon": 139.7548932,
+      "tags": {
+        "highway": "traffic_signals",
+        "traffic_signals": "signal",
+        "traffic_signals:direction": "backward"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12104430177,
+      "lat": 35.7090982,
+      "lon": 139.7698178,
+      "tags": {
+        "highway": "traffic_signals",
+        "name": "池之端一丁目",
+        "traffic_signals": "signal",
+        "traffic_signals:direction": "forward"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12104430180,
+      "lat": 35.7093423,
+      "lon": 139.7700389,
+      "tags": {
+        "highway": "traffic_signals",
+        "name": "池之端一丁目",
+        "traffic_signals": "signal",
+        "traffic_signals:direction": "backward"
+      }
+    }
+  ]
+}

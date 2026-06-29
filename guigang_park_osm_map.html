@@ -1,0 +1,2935 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>贵港市民族文化公园 - OSM 地图</title>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<style>
+* { margin:0; padding:0; box-sizing:border-box; }
+body { font-family: "Microsoft YaHei", "PingFang SC", sans-serif; }
+#map { width:100vw; height:100vh; }
+.info-panel {
+    position:absolute; top:10px; right:10px; z-index:1000;
+    background:rgba(255,255,255,0.95); border-radius:8px;
+    padding:12px 16px; box-shadow:0 2px 12px rgba(0,0,0,0.15);
+    font-size:13px; max-width:300px;
+}
+.info-panel h3 { margin-bottom:8px; color:#2c3e50; font-size:15px; border-bottom:2px solid #3498db; padding-bottom:4px; }
+.info-panel .legend { line-height:2; }
+.info-panel .stats { margin-top:8px; color:#666; font-size:12px; }
+.legend-toggle {
+    position:absolute; bottom:20px; left:10px; z-index:1000;
+}
+.legend-toggle button {
+    background:white; border:1px solid #ccc; border-radius:4px;
+    padding:6px 12px; cursor:pointer; font-size:12px;
+    box-shadow:0 1px 5px rgba(0,0,0,0.2);
+    transition: all 0.2s;
+}
+.legend-toggle button:hover { background:#e8e8e8; }
+.legend-toggle button.on {
+    background:#3498db; color:white; border-color:#2980b9; font-weight:bold;
+}
+.legend-toggle button.off {
+    background:#ddd; color:#999; border-color:#bbb;
+}
+.coord-overlay {
+    position:fixed; top:0; left:0; width:100vw; height:100vh;
+    background:rgba(0,0,0,0.5); z-index:10000;
+    display:flex; align-items:center; justify-content:center;
+}
+.coord-dialog {
+    background:white; border-radius:8px; width:90vw; max-width:700px;
+    max-height:80vh; display:flex; flex-direction:column;
+    box-shadow:0 4px 20px rgba(0,0,0,0.3);
+}
+.coord-dialog h3 {
+    padding:14px 18px; margin:0; font-size:16px;
+    border-bottom:1px solid #ddd; display:flex; justify-content:space-between;
+}
+.coord-dialog h3 span { cursor:pointer; color:#999; font-size:20px; }
+.coord-dialog h3 span:hover { color:#333; }
+.coord-tabs { display:flex; border-bottom:2px solid #ddd; padding:0 18px; }
+.coord-tabs button {
+    padding:8px 20px; border:none; background:none;
+    cursor:pointer; font-size:14px; color:#666;
+    border-bottom:3px solid transparent; margin-bottom:-2px;
+}
+.coord-tabs button.active {
+    color:#3498db; border-bottom-color:#3498db; font-weight:bold;
+}
+.coord-body {
+    flex:1; overflow-y:auto; padding:12px 18px;
+    font-size:13px; font-family:Consolas,monospace;
+    white-space:pre-wrap; line-height:1.7;
+}
+.coord-footer {
+    padding:10px 18px; border-top:1px solid #eee;
+    display:flex; justify-content:flex-end; gap:8px;
+}
+.coord-footer button {
+    padding:6px 16px; border:1px solid #ccc;
+    border-radius:4px; cursor:pointer; font-size:13px;
+    background:white;
+}
+.coord-footer button.primary {
+    background:#3498db; color:white; border-color:#2980b9;
+}
+.search-overlay {
+    position:fixed; top:0; left:0; width:100vw; height:100vh;
+    background:rgba(0,0,0,0.5); z-index:10000;
+    display:flex; align-items:flex-start; justify-content:flex-start;
+    padding:10px;
+}
+.search-dialog {
+    background:white; border-radius:8px; width:360px; max-width:90vw;
+    max-height:70vh; display:flex; flex-direction:column;
+    box-shadow:0 4px 20px rgba(0,0,0,0.3);
+    margin-top:10px; margin-left:10px;
+}
+.search-dialog h3 {
+    padding:10px 14px; margin:0; font-size:15px;
+    border-bottom:1px solid #ddd; display:flex; justify-content:space-between;
+}
+.search-dialog h3 span { cursor:pointer; color:#999; font-size:20px; }
+.search-dialog h3 span:hover { color:#333; }
+.search-input-area {
+    padding:10px 14px; display:flex; gap:6px; align-items:center; flex-wrap:wrap;
+    border-bottom:1px solid #eee;
+}
+.search-input-area input {
+    flex:1; min-width:90px; padding:6px 8px; border:1px solid #ccc; border-radius:4px;
+    font-size:13px; font-family:Consolas,monospace;
+}
+.search-input-area input:focus { outline:none; border-color:#3498db; }
+.search-input-area button {
+    padding:6px 12px; background:#3498db; color:white;
+    border:none; border-radius:4px; cursor:pointer; font-size:13px; white-space:nowrap;
+}
+.search-input-area button:hover { background:#2980b9; }
+.search-input-area button[style*="background:#27ae60"]:hover { background:#219a52 !important; }
+.search-input-area button[style*="background:#95a5a6"]:hover { background:#7f8c8d !important; }
+.pick-save-area {
+    display: none;
+    padding: 6px 14px;
+    border-bottom: 1px solid #eee;
+    gap: 6px;
+    align-items: center;
+    background: #fef9e7;
+    pointer-events: auto;
+}
+.pick-save-area.show {
+    display: flex;
+}
+.pick-save-area input {
+    flex: 1;
+    min-width: 120px;
+    padding: 6px 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 13px;
+    font-family: "Microsoft YaHei", sans-serif;
+}
+.pick-save-area input:focus {
+    outline: none;
+    border-color: #27ae60;
+}
+.pick-save-area button.save-btn {
+    padding: 6px 14px;
+    background: #27ae60;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 13px;
+    white-space: nowrap;
+    position: relative;
+    z-index: 1;
+    pointer-events: auto;
+}
+.pick-save-area button.save-btn:hover {
+    background: #219a52;
+}
+.file-label:hover { background:#e0e0e0 !important; }
+.map-pick-hint {
+    position: fixed;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 10001;
+    background: #27ae60;
+    color: white;
+    padding: 10px 24px;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: bold;
+    box-shadow: 0 4px 16px rgba(39,174,96,0.4);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    pointer-events: none;
+    animation: pulse-hint 1.5s ease-in-out infinite;
+}
+@keyframes pulse-hint {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.8; }
+}
+.map-pick-hint .cancel-pick {
+    pointer-events: auto;
+    background: rgba(255,255,255,0.25);
+    border: 1px solid rgba(255,255,255,0.5);
+    color: white;
+    padding: 4px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: normal;
+    transition: background 0.2s;
+}
+.map-pick-hint .cancel-pick:hover {
+    background: rgba(255,255,255,0.4);
+}
+.map-pick-btn {
+    background: #27ae60 !important;
+    color: white !important;
+    border-color: #219a52 !important;
+    font-weight: bold;
+}
+.map-pick-btn:hover {
+    background: #219a52 !important;
+}
+.map-pick-btn.picking {
+    background: #e74c3c !important;
+    border-color: #c0392b !important;
+}
+.map-pick-btn.picking:hover {
+    background: #c0392b !important;
+}
+.search-results {
+    flex:1; overflow-y:auto; padding:8px 12px;
+    font-size:12px; font-family:Consolas,monospace;
+    max-height:40vh; line-height:1.6;
+}
+.search-results .result-header {
+    color:#2c3e50; font-weight:bold; margin-bottom:8px;
+    font-size:14px; font-family:"Microsoft YaHei",sans-serif;
+}
+.search-results .junction-item {
+    padding:4px 0; border-bottom:1px solid #f0f0f0;
+    cursor:pointer; transition:background 0.15s;
+}
+.search-results .junction-item:hover { background:#f5f9ff; }
+.search-results .junction-item .type-tag {
+    display:inline-block; padding:1px 6px; border-radius:3px;
+    font-size:11px; margin-right:6px; color:white;
+}
+.search-results .empty { color:#999; text-align:center; padding:20px; }
+.search-footer {
+    padding:8px 14px; border-top:1px solid #eee;
+    display:flex; justify-content:flex-end; gap:8px;
+}
+.search-footer button {
+    padding:5px 14px; border:1px solid #ccc;
+    border-radius:4px; cursor:pointer; font-size:12px;
+    background:white;
+}
+.search-footer button.primary {
+    background:#e74c3c; color:white; border-color:#c0392b;
+}
+.download-progress {
+    padding:8px 14px; font-size:12px; color:#666;
+    border-top:1px solid #eee; display:none;
+}
+.download-progress.active {
+    display:block;
+}
+
+
+
+/* === 已保存标记点列表 === */
+.saved-markers-section {
+    border-bottom: 1px solid #eee;
+    padding: 8px 14px;
+    display: none;
+}
+.saved-markers-section.show {
+    display: block;
+}
+.saved-markers-section .section-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 6px;
+}
+.saved-markers-section .section-header strong {
+    font-size: 13px;
+    color: #2c3e50;
+}
+.saved-markers-section .section-header span button {
+    font-size: 11px;
+    padding: 2px 8px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    background: white;
+    margin-left: 4px;
+    transition: all 0.15s;
+}
+.saved-markers-section .section-header span button.export-btn {
+    background: #3498db;
+    color: white;
+    border-color: #2980b9;
+}
+.saved-markers-section .section-header span button.export-btn:hover {
+    background: #2980b9;
+}
+.saved-markers-section .section-header span button.danger-btn {
+    background: #e74c3c;
+    color: white;
+    border-color: #c0392b;
+}
+.saved-markers-section .section-header span button.danger-btn:hover {
+    background: #c0392b;
+}
+.saved-markers-section .section-header span button:hover {
+    background: #eee;
+}
+.saved-markers-list {
+    max-height: 160px;
+    overflow-y: auto;
+}
+.saved-marker-item {
+    display: flex;
+    align-items: center;
+    padding: 5px 6px;
+    border-bottom: 1px solid #f5f5f5;
+    border-radius: 3px;
+    font-size: 12px;
+    transition: background 0.15s;
+}
+.saved-marker-item:hover {
+    background: #f0f7ff;
+}
+.saved-marker-item .marker-index {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #8e44ad;
+    color: white;
+    font-size: 10px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 8px;
+    flex-shrink: 0;
+}
+.saved-marker-item .marker-info {
+    flex: 1;
+    min-width: 0;
+    cursor: pointer;
+}
+.saved-marker-item .marker-info .marker-name {
+    color: #2c3e50;
+    font-weight: 500;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.saved-marker-item .marker-info .marker-coords {
+    color: #999;
+    font-size: 11px;
+    font-family: monospace;
+}
+.saved-marker-item .marker-actions button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    padding: 2px 4px;
+    color: #999;
+    border-radius: 3px;
+    transition: all 0.15s;
+}
+.saved-marker-item .marker-actions button:hover {
+    color: #e74c3c;
+    background: #fde8e8;
+}
+.saved-marker-item .marker-actions button.fly-btn:hover {
+    color: #3498db;
+    background: #e8f4fd;
+}
+
+</style>
+</head>
+<body>
+<div id="map"></div>
+<div class="info-panel" id="info">
+    <h3>贵港市</h3>
+    <div class="legend"><span style="display:inline-block;width:14px;height:14px;background:#f39c12;border-radius:3px;margin-right:4px;vertical-align:middle"></span>主干道 <span style="display:inline-block;width:14px;height:14px;background:#999999;border-radius:3px;margin-right:4px;vertical-align:middle"></span>primary_link <span style="display:inline-block;width:14px;height:14px;background:#3498db;border-radius:3px;margin-right:4px;vertical-align:middle"></span>三级路 <span style="display:inline-block;width:14px;height:14px;background:#2ecc71;border-radius:3px;margin-right:4px;vertical-align:middle"></span>次干道 <span style="display:inline-block;width:14px;height:14px;background:#7f8c8d;border-radius:3px;margin-right:4px;vertical-align:middle"></span>服务路 <span style="display:inline-block;width:14px;height:14px;background:#9b59b6;border-radius:3px;margin-right:4px;vertical-align:middle"></span>住宅区路 <span style="display:inline-block;width:14px;height:14px;background:#999999;border-radius:3px;margin-right:4px;vertical-align:middle"></span>tertiary_link <span style="display:inline-block;width:14px;height:14px;background:#607d8b;border-radius:3px;margin-right:4px;vertical-align:middle"></span>未分类 <span style="display:inline-block;width:14px;height:14px;background:#999999;border-radius:3px;margin-right:4px;vertical-align:middle"></span>trunk_link <span style="display:inline-block;width:14px;height:14px;background:#1abc9c;border-radius:3px;margin-right:4px;vertical-align:middle"></span>人行道 </div>
+    <div class="stats">
+        道路: 83段 | 建筑: 27栋 | 水域: 2处 | 用地: 9块 | POI: 9<br>交叉口: 106个 | Intersection: 56个
+    </div>
+</div>
+<div class="legend-toggle">
+    <button onclick="switchBase('osm')" id="btn-osm" class="on">标准地图</button>
+    <button onclick="switchBase('satellite')" id="btn-satellite">卫星地图</button>
+    <span style="display:inline-block;width:8px"></span>
+    <button id="btn-primary" class="on" onclick="toggleRoadType('primary')">主干道</button>
+    <button id="btn-secondary" class="on" onclick="toggleRoadType('secondary')">次干道</button>
+    <button id="btn-tertiary" class="on" onclick="toggleRoadType('tertiary')">三级路</button>
+    <button id="btn-residential" class="on" onclick="toggleRoadType('residential')">住宅区路</button>
+    <button id="btn-service" class="on" onclick="toggleRoadType('service')">服务路</button>
+    <button id="btn-footway" class="on" onclick="toggleRoadType('footway')">人行道</button>
+    <button id="btn-unclassified" class="on" onclick="toggleRoadType('unclassified')">未分类</button>
+    <button id="btn-link" class="on" onclick="toggleRoadType('link')">匝道</button>
+    <span style="display:inline-block;width:8px"></span>
+    <button id="btn-overlay" class="on" onclick="toggleOverlay()">区域覆盖</button>
+    <button id="btn-pois" class="on" onclick="toggleLayer('pois')">POI</button>
+    <button id="btn-junctions" class="on" onclick="toggleJunctions()">Junction</button>
+    <button id="btn-intersection" class="on" onclick="toggleIntersection()">Intersection</button>
+    <button id="btn-traffic" class="off" onclick="toggleTrafficSignals()">🚦 信号灯</button>
+    <span style="display:inline-block;width:8px"></span>
+    <button onclick="showCoordinates()">Coordinates</button>
+    <span style="display:inline-block;width:8px"></span>
+    <button onclick="openLocalOsmData()" style="background:#27ae60;color:white;border:1px solid #219a52;font-weight:bold;">New Location</button>
+    <span style="display:inline-block;width:8px"></span>
+    <button onclick="showSearchLocation()">Search Location</button>
+</div>
+
+
+
+<script>
+// === 交叉口数据 (从 OSM 共享节点提取) ===
+// === Intersection数据 (主干道/次干道/三级路交叉) ===
+const intersectionData = [{"lat": 23.1080933, "lon": 109.592209, "way_count": 3, "roads": ["金港大道辅路", "[primary]", "中山路"], "highways": ["tertiary", "primary"]},{"lat": 23.1080879, "lon": 109.5920772, "way_count": 3, "roads": ["金港大道辅路", "[primary]", "中山路"], "highways": ["tertiary", "primary"]},{"lat": 23.1051745, "lon": 109.6025866, "way_count": 3, "roads": ["[tertiary]", "[tertiary]", "[tertiary]"], "highways": ["tertiary"]},{"lat": 23.1182204, "lon": 109.6016519, "way_count": 3, "roads": ["[tertiary]", "[tertiary]", "布山大道"], "highways": ["tertiary", "secondary"]},{"lat": 23.1084256, "lon": 109.6018267, "way_count": 3, "roads": ["金港大道辅路", "[tertiary]", "[residential]"], "highways": ["tertiary", "residential"]},{"lat": 23.108145, "lon": 109.6018939, "way_count": 3, "roads": ["金港大道辅路", "[tertiary]", "解放路"], "highways": ["tertiary", "secondary"]},{"lat": 23.1079157, "lon": 109.5969961, "way_count": 3, "roads": ["港宝路", "[tertiary]", "金港大道辅路"], "highways": ["tertiary"]},{"lat": 23.1044418, "lon": 109.6055827, "way_count": 3, "roads": ["圣湖路", "圣湖路", "[tertiary]"], "highways": ["tertiary"]},{"lat": 23.1082262, "lon": 109.6053978, "way_count": 3, "roads": ["金港大道辅路", "圣湖路", "金港大道辅路"], "highways": ["tertiary", "unclassified"]},{"lat": 23.1060432, "lon": 109.6054103, "way_count": 3, "roads": ["圣湖路", "[tertiary]", "[unclassified]"], "highways": ["tertiary", "unclassified"]},{"lat": 23.1113429, "lon": 109.5921784, "way_count": 2, "roads": ["[primary]", "[tertiary]"], "highways": ["tertiary", "primary"]},{"lat": 23.1132971, "lon": 109.5921676, "way_count": 2, "roads": ["[primary]", "[secondary]"], "highways": ["secondary", "primary"]},{"lat": 23.1134008, "lon": 109.5921715, "way_count": 2, "roads": ["[primary]", "[secondary]"], "highways": ["secondary", "primary"]},{"lat": 23.1160611, "lon": 109.5921728, "way_count": 2, "roads": ["[primary]", "[tertiary]"], "highways": ["tertiary", "primary"]},{"lat": 23.1182417, "lon": 109.5921774, "way_count": 2, "roads": ["[primary]", "布山大道"], "highways": ["secondary", "primary"]},{"lat": 23.1183914, "lon": 109.5921752, "way_count": 2, "roads": ["[primary]", "布山大道"], "highways": ["secondary", "primary"]},{"lat": 23.1494496, "lon": 109.592118, "way_count": 2, "roads": ["[primary]", "[primary]"], "highways": ["primary"]},{"lat": 23.1077527, "lon": 109.5921068, "way_count": 2, "roads": ["金港大道辅路", "中山路"], "highways": ["tertiary", "primary"]},{"lat": 23.102606, "lon": 109.5934026, "way_count": 2, "roads": ["中山路", "[tertiary]"], "highways": ["tertiary", "primary"]},{"lat": 23.1026251, "lon": 109.5935264, "way_count": 2, "roads": ["中山路", "[tertiary]"], "highways": ["tertiary", "primary"]},{"lat": 23.1077559, "lon": 109.5922426, "way_count": 2, "roads": ["金港大道辅路", "中山路"], "highways": ["tertiary", "primary"]},{"lat": 23.1031106, "lon": 109.5970761, "way_count": 2, "roads": ["港宝路", "[tertiary]"], "highways": ["tertiary"]},{"lat": 23.1133678, "lon": 109.6016262, "way_count": 2, "roads": ["[secondary]", "[tertiary]"], "highways": ["tertiary", "secondary"]},{"lat": 23.1133517, "lon": 109.5995756, "way_count": 2, "roads": ["[tertiary]", "[secondary]"], "highways": ["tertiary", "secondary"]},{"lat": 23.1133626, "lon": 109.5973803, "way_count": 2, "roads": ["[tertiary]", "[secondary]"], "highways": ["tertiary", "secondary"]},{"lat": 23.1134046, "lon": 109.592029, "way_count": 2, "roads": ["[secondary]", "[primary]"], "highways": ["secondary", "primary"]},{"lat": 23.118389, "lon": 109.5920232, "way_count": 2, "roads": ["[primary]", "布山大道"], "highways": ["secondary", "primary"]},{"lat": 23.1182435, "lon": 109.5920224, "way_count": 2, "roads": ["[primary]", "布山大道"], "highways": ["secondary", "primary"]},{"lat": 23.1160618, "lon": 109.5920393, "way_count": 2, "roads": ["[tertiary]", "[primary]"], "highways": ["tertiary", "primary"]},{"lat": 23.1132947, "lon": 109.5920246, "way_count": 2, "roads": ["[primary]", "[secondary]"], "highways": ["secondary", "primary"]},{"lat": 23.1113489, "lon": 109.5920165, "way_count": 2, "roads": ["[primary]", "[tertiary]"], "highways": ["tertiary", "primary"]},{"lat": 23.1095526, "lon": 109.5920262, "way_count": 2, "roads": ["[primary]", "[tertiary]"], "highways": ["tertiary", "primary"]},{"lat": 23.1182334, "lon": 109.5973511, "way_count": 2, "roads": ["[tertiary]", "布山大道"], "highways": ["tertiary", "secondary"]},{"lat": 23.1182146, "lon": 109.5995858, "way_count": 2, "roads": ["[tertiary]", "布山大道"], "highways": ["tertiary", "secondary"]},{"lat": 23.1182067, "lon": 109.6033748, "way_count": 2, "roads": ["[tertiary]", "布山大道"], "highways": ["tertiary", "secondary"]},{"lat": 23.118359, "lon": 109.6033899, "way_count": 2, "roads": ["[tertiary]", "布山大道"], "highways": ["tertiary", "secondary"]},{"lat": 23.1183685, "lon": 109.601656, "way_count": 2, "roads": ["[tertiary]", "布山大道"], "highways": ["tertiary", "secondary"]},{"lat": 23.1183625, "lon": 109.5973484, "way_count": 2, "roads": ["[tertiary]", "布山大道"], "highways": ["tertiary", "secondary"]},{"lat": 23.1132604, "lon": 109.5973845, "way_count": 2, "roads": ["[tertiary]", "[secondary]"], "highways": ["tertiary", "secondary"]},{"lat": 23.1132504, "lon": 109.5995771, "way_count": 2, "roads": ["[tertiary]", "[secondary]"], "highways": ["tertiary", "secondary"]},{"lat": 23.1132542, "lon": 109.6016249, "way_count": 2, "roads": ["[tertiary]", "[secondary]"], "highways": ["tertiary", "secondary"]},{"lat": 23.1082845, "lon": 109.5971821, "way_count": 2, "roads": ["金港大道辅路", "[tertiary]"], "highways": ["tertiary"]},{"lat": 23.1053782, "lon": 109.6028835, "way_count": 2, "roads": ["[tertiary]", "解放路"], "highways": ["tertiary", "secondary"]},{"lat": 23.1052303, "lon": 109.6029466, "way_count": 2, "roads": ["[tertiary]", "解放路"], "highways": ["tertiary", "secondary"]},{"lat": 23.1061795, "lon": 109.6052973, "way_count": 2, "roads": ["圣湖路", "[tertiary]"], "highways": ["tertiary"]},{"lat": 23.106035, "lon": 109.6053061, "way_count": 2, "roads": ["圣湖路", "[tertiary]"], "highways": ["tertiary"]},{"lat": 23.1113324, "lon": 109.5973603, "way_count": 2, "roads": ["[tertiary]", "[tertiary]"], "highways": ["tertiary"]},{"lat": 23.1113809, "lon": 109.599639, "way_count": 2, "roads": ["[tertiary]", "[tertiary]"], "highways": ["tertiary"]},{"lat": 23.1113926, "lon": 109.6016036, "way_count": 2, "roads": ["[tertiary]", "[tertiary]"], "highways": ["tertiary"]},{"lat": 23.1160207, "lon": 109.5995796, "way_count": 2, "roads": ["[tertiary]", "[tertiary]"], "highways": ["tertiary"]},{"lat": 23.1160614, "lon": 109.597359, "way_count": 2, "roads": ["[tertiary]", "[tertiary]"], "highways": ["tertiary"]},{"lat": 23.1083333, "lon": 109.6071236, "way_count": 2, "roads": ["金港大道辅路", "[tertiary]"], "highways": ["tertiary"]},{"lat": 23.1061885, "lon": 109.6054032, "way_count": 2, "roads": ["圣湖路", "[tertiary]"], "highways": ["tertiary"]},{"lat": 23.1061814, "lon": 109.6071797, "way_count": 2, "roads": ["[tertiary]", "[tertiary]"], "highways": ["tertiary"]},{"lat": 23.1063387, "lon": 109.6071736, "way_count": 2, "roads": ["[tertiary]", "[tertiary]"], "highways": ["tertiary"]},{"lat": 23.1065042, "lon": 109.6123365, "way_count": 2, "roads": ["[tertiary]", "[tertiary]"], "highways": ["tertiary"]}];
+
+const junctionData = [{"node_id": 1949306381, "lat": 23.1047498, "lon": 109.5928485, "way_count": 3, "roads": ["[residential]", "中山路", "[residential]"]},{"node_id": 5224204572, "lat": 23.1088142, "lon": 109.597371, "way_count": 3, "roads": ["[tertiary_link]", "[tertiary]", "[tertiary_link]"]},{"node_id": 7093569933, "lat": 23.1075251, "lon": 109.5900268, "way_count": 3, "roads": ["[residential]", "[residential]", "[service]"]},{"node_id": 9495514034, "lat": 23.1073775, "lon": 109.6053319, "way_count": 3, "roads": ["[unclassified]", "[trunk_link]", "[trunk_link]"]},{"node_id": 3915051204, "lat": 23.1181321, "lon": 109.5921772, "way_count": 2, "roads": ["[primary]", "[service]"]},{"node_id": 3915053917, "lat": 23.1184792, "lon": 109.5921743, "way_count": 2, "roads": ["[primary]", "[service]"]},{"node_id": 1949282205, "lat": 23.1080977, "lon": 109.598637, "way_count": 2, "roads": ["[trunk_link]", "金港大道"]},{"node_id": 9495760520, "lat": 23.1082339, "lon": 109.602179, "way_count": 2, "roads": ["金港大道", "[trunk_link]"]},{"node_id": 1949291744, "lat": 23.1071686, "lon": 109.5922246, "way_count": 2, "roads": ["[primary_link]", "中山路"]},{"node_id": 7093569940, "lat": 23.1047788, "lon": 109.5929637, "way_count": 2, "roads": ["[residential]", "中山路"]},{"node_id": 1949287043, "lat": 23.1071746, "lon": 109.5923719, "way_count": 2, "roads": ["[primary_link]", "中山路"]},{"node_id": 2214544553, "lat": 23.1077391, "lon": 109.591527, "way_count": 2, "roads": ["金港大道辅路", "[primary_link]"]},{"node_id": 7551326723, "lat": 23.1030684, "lon": 109.5967828, "way_count": 2, "roads": ["[tertiary]", "[residential]"]},{"node_id": 7551326711, "lat": 23.1024936, "lon": 109.590443, "way_count": 2, "roads": ["[residential]", "[tertiary]"]},{"node_id": 5224204583, "lat": 23.1134097, "lon": 109.5899188, "way_count": 2, "roads": ["[secondary]", "[residential]"]},{"node_id": 7556712132, "lat": 23.1208224, "lon": 109.5920225, "way_count": 2, "roads": ["[primary]", "[residential]"]},{"node_id": 7556712133, "lat": 23.1201876, "lon": 109.5920228, "way_count": 2, "roads": ["[primary]", "[residential]"]},{"node_id": 3915053909, "lat": 23.1184815, "lon": 109.5920237, "way_count": 2, "roads": ["[primary]", "[service]"]},{"node_id": 3915051252, "lat": 23.1181345, "lon": 109.5920247, "way_count": 2, "roads": ["[primary]", "[service]"]},{"node_id": 7556708075, "lat": 23.1103931, "lon": 109.5920217, "way_count": 2, "roads": ["[residential]", "[primary]"]},{"node_id": 3915051185, "lat": 23.1182369, "lon": 109.5890571, "way_count": 2, "roads": ["[residential]", "布山大道"]},{"node_id": 7556712129, "lat": 23.1182393, "lon": 109.5936627, "way_count": 2, "roads": ["[residential]", "布山大道"]},{"node_id": 11237562074, "lat": 23.1182377, "lon": 109.5946881, "way_count": 2, "roads": ["[service]", "布山大道"]},{"node_id": 7556712126, "lat": 23.1182359, "lon": 109.5957922, "way_count": 2, "roads": ["[residential]", "布山大道"]},{"node_id": 5224204576, "lat": 23.1180978, "lon": 109.5890549, "way_count": 2, "roads": ["[residential]", "[service]"]},{"node_id": 11237562072, "lat": 23.1181287, "lon": 109.5936631, "way_count": 2, "roads": ["[residential]", "[service]"]},{"node_id": 11237562073, "lat": 23.1181263, "lon": 109.5946908, "way_count": 2, "roads": ["[service]", "[service]"]},{"node_id": 13070445935, "lat": 23.1181262, "lon": 109.5947524, "way_count": 2, "roads": ["[footway]", "[service]"]},{"node_id": 11237562070, "lat": 23.1181238, "lon": 109.5957923, "way_count": 2, "roads": ["[residential]", "[service]"]},{"node_id": 5224204563, "lat": 23.1181202, "lon": 109.5973618, "way_count": 2, "roads": ["[tertiary]", "[service]"]},{"node_id": 3915053868, "lat": 23.1181186, "lon": 109.5995829, "way_count": 2, "roads": ["[tertiary]", "[service]"]},{"node_id": 3915053873, "lat": 23.1181057, "lon": 109.6016476, "way_count": 2, "roads": ["[tertiary]", "[service]"]},{"node_id": 5224204560, "lat": 23.1184913, "lon": 109.5973482, "way_count": 2, "roads": ["[tertiary]", "[service]"]},{"node_id": 3915051225, "lat": 23.1184703, "lon": 109.590016, "way_count": 2, "roads": ["[service]", "[residential]"]},{"node_id": 5224204584, "lat": 23.1132838, "lon": 109.5899105, "way_count": 2, "roads": ["[residential]", "[secondary]"]},{"node_id": 11505461136, "lat": 23.1087233, "lon": 109.6091051, "way_count": 2, "roads": ["金港大道辅路", "[residential]"]},{"node_id": 7556712117, "lat": 23.1086801, "lon": 109.6049818, "way_count": 2, "roads": ["金港大道辅路", "[residential]"]},{"node_id": 7551326700, "lat": 23.1082953, "lon": 109.5977426, "way_count": 2, "roads": ["金港大道辅路", "[tertiary_link]"]},{"node_id": 5224204570, "lat": 23.108278, "lon": 109.596844, "way_count": 2, "roads": ["金港大道辅路", "[tertiary_link]"]},{"node_id": 7551319684, "lat": 23.1082805, "lon": 109.5956773, "way_count": 2, "roads": ["金港大道辅路", "[residential]"]},{"node_id": 9495753113, "lat": 23.1081436, "lon": 109.5934229, "way_count": 2, "roads": ["金港大道辅路", "[trunk_link]"]},{"node_id": 7093569899, "lat": 23.1080544, "lon": 109.5912692, "way_count": 2, "roads": ["金港大道辅路", "[residential]"]},{"node_id": 1949298859, "lat": 23.1080066, "lon": 109.5900044, "way_count": 2, "roads": ["金港大道辅路", "[residential]"]},{"node_id": 7551326716, "lat": 23.1049053, "lon": 109.5970208, "way_count": 2, "roads": ["港宝路", "[residential]"]},{"node_id": 4804713576, "lat": 23.1082112, "lon": 109.6052796, "way_count": 2, "roads": ["圣湖路", "金港大道辅路"]},{"node_id": 7551326696, "lat": 23.1112987, "lon": 109.5986139, "way_count": 2, "roads": ["[tertiary]", "[residential]"]},{"node_id": 7551326691, "lat": 23.1112734, "lon": 109.5995586, "way_count": 2, "roads": ["[tertiary]", "[residential]"]},{"node_id": 7556712112, "lat": 23.1113857, "lon": 109.6004503, "way_count": 2, "roads": ["[tertiary]", "[residential]"]},{"node_id": 5224204550, "lat": 23.1168616, "lon": 109.5995919, "way_count": 2, "roads": ["[tertiary]", "[residential]"]},{"node_id": 5224204549, "lat": 23.1168825, "lon": 109.6015969, "way_count": 2, "roads": ["[tertiary]", "[residential]"]},{"node_id": 5224204552, "lat": 23.1149798, "lon": 109.5995788, "way_count": 2, "roads": ["[tertiary]", "[residential]"]},{"node_id": 5224204551, "lat": 23.1149859, "lon": 109.6016447, "way_count": 2, "roads": ["[tertiary]", "[residential]"]},{"node_id": 7551326695, "lat": 23.1095907, "lon": 109.5973584, "way_count": 2, "roads": ["[tertiary]", "[residential]"]},{"node_id": 7551326694, "lat": 23.1105594, "lon": 109.5973594, "way_count": 2, "roads": ["[tertiary]", "[residential]"]},{"node_id": 5224204582, "lat": 23.1160513, "lon": 109.589881, "way_count": 2, "roads": ["[tertiary]", "[residential]"]},{"node_id": 7556712128, "lat": 23.1160706, "lon": 109.5936715, "way_count": 2, "roads": ["[residential]", "[tertiary]"]},{"node_id": 13070445937, "lat": 23.1160769, "lon": 109.594775, "way_count": 2, "roads": ["[tertiary]", "[footway]"]},{"node_id": 7556712127, "lat": 23.1160828, "lon": 109.5957945, "way_count": 2, "roads": ["[residential]", "[tertiary]"]},{"node_id": 5224204587, "lat": 23.1081941, "lon": 109.5899749, "way_count": 2, "roads": ["[residential]", "[residential]"]},{"node_id": 5224204586, "lat": 23.1095414, "lon": 109.5898673, "way_count": 2, "roads": ["[residential]", "[tertiary]"]},{"node_id": 5224204585, "lat": 23.111321, "lon": 109.5899025, "way_count": 2, "roads": ["[residential]", "[tertiary]"]},{"node_id": 7556708072, "lat": 23.1113338, "lon": 109.590869, "way_count": 2, "roads": ["[tertiary]", "[residential]"]},{"node_id": 7556708073, "lat": 23.1095465, "lon": 109.5908908, "way_count": 2, "roads": ["[tertiary]", "[residential]"]},{"node_id": 7093569895, "lat": 23.1076656, "lon": 109.5900269, "way_count": 2, "roads": ["金港大道辅路", "[residential]"]},{"node_id": 3915284750, "lat": 23.1077671, "lon": 109.5927218, "way_count": 2, "roads": ["金港大道辅路", "[primary_link]"]},{"node_id": 9495753112, "lat": 23.1077747, "lon": 109.593443, "way_count": 2, "roads": ["金港大道辅路", "[trunk_link]"]},{"node_id": 7093569905, "lat": 23.1077721, "lon": 109.5950079, "way_count": 2, "roads": ["金港大道辅路", "[residential]"]},{"node_id": 3915284812, "lat": 23.1081235, "lon": 109.6022188, "way_count": 2, "roads": ["金港大道辅路", "金港大道辅路"]},{"node_id": 7093569947, "lat": 23.1051395, "lon": 109.5888976, "way_count": 2, "roads": ["[residential]", "[residential]"]},{"node_id": 7093569968, "lat": 23.1060573, "lon": 109.590067, "way_count": 2, "roads": ["[residential]", "[residential]"]},{"node_id": 7093569923, "lat": 23.1035529, "lon": 109.5904511, "way_count": 2, "roads": ["[residential]", "[residential]"]},{"node_id": 7093569927, "lat": 23.1045831, "lon": 109.5916334, "way_count": 2, "roads": ["[residential]", "[residential]"]},{"node_id": 7093569966, "lat": 23.1050568, "lon": 109.5941783, "way_count": 2, "roads": ["[residential]", "[residential]"]},{"node_id": 7556712120, "lat": 23.1123179, "lon": 109.6016142, "way_count": 2, "roads": ["[tertiary]", "[residential]"]},{"node_id": 7556712125, "lat": 23.1151405, "lon": 109.6016447, "way_count": 2, "roads": ["[residential]", "[tertiary]"]},{"node_id": 7551326686, "lat": 23.1095926, "lon": 109.5958379, "way_count": 2, "roads": ["[residential]", "[residential]"]},{"node_id": 7551326698, "lat": 23.1095941, "lon": 109.5986098, "way_count": 2, "roads": ["[residential]", "[residential]"]},{"node_id": 7551326690, "lat": 23.1101233, "lon": 109.6000619, "way_count": 2, "roads": ["[residential]", "[residential]"]},{"node_id": 7551326693, "lat": 23.1105106, "lon": 109.5995283, "way_count": 2, "roads": ["[residential]", "[residential]"]},{"node_id": 7551326697, "lat": 23.1105313, "lon": 109.5986096, "way_count": 2, "roads": ["[residential]", "[residential]"]},{"node_id": 7551326715, "lat": 23.1039734, "lon": 109.5967141, "way_count": 2, "roads": ["[residential]", "[residential]"]},{"node_id": 7551326722, "lat": 23.1048873, "lon": 109.5966659, "way_count": 2, "roads": ["[residential]", "[residential]"]},{"node_id": 7556708074, "lat": 23.1104011, "lon": 109.5908804, "way_count": 2, "roads": ["[residential]", "[residential]"]},{"node_id": 7556712119, "lat": 23.1122965, "lon": 109.6024201, "way_count": 2, "roads": ["[tertiary]", "[residential]"]},{"node_id": 7556712121, "lat": 23.114707, "lon": 109.6030025, "way_count": 2, "roads": ["[residential]", "[tertiary]"]},{"node_id": 13070445934, "lat": 23.1170308, "lon": 109.5957935, "way_count": 2, "roads": ["[residential]", "[footway]"]},{"node_id": 13070445933, "lat": 23.1170474, "lon": 109.5936675, "way_count": 2, "roads": ["[footway]", "[residential]"]},{"node_id": 7556712134, "lat": 23.1201946, "lon": 109.5900193, "way_count": 2, "roads": ["[residential]", "[residential]"]},{"node_id": 9495514027, "lat": 23.1057444, "lon": 109.6054593, "way_count": 2, "roads": ["[unclassified]", "[unclassified]"]},{"node_id": 9495514063, "lat": 23.1044011, "lon": 109.6062264, "way_count": 2, "roads": ["[unclassified]", "[unclassified]"]},{"node_id": 9495514036, "lat": 23.1046837, "lon": 109.6054176, "way_count": 2, "roads": ["[unclassified]", "[unclassified]"]},{"node_id": 9495514070, "lat": 23.1041445, "lon": 109.6079712, "way_count": 2, "roads": ["[unclassified]", "[unclassified]"]},{"node_id": 9495514060, "lat": 23.1040137, "lon": 109.6075393, "way_count": 2, "roads": ["[unclassified]", "[unclassified]"]},{"node_id": 9495753115, "lat": 23.107829, "lon": 109.5939955, "way_count": 2, "roads": ["[trunk_link]", "[trunk_link]"]},{"node_id": 9495753116, "lat": 23.1081238, "lon": 109.5939647, "way_count": 2, "roads": ["[trunk_link]", "[trunk_link]"]},{"node_id": 1949276629, "lat": 23.1081867, "lon": 109.5979544, "way_count": 2, "roads": ["[trunk_link]", "金港大道"]},{"node_id": 9495760533, "lat": 23.1079922, "lon": 109.6053579, "way_count": 2, "roads": ["[trunk_link]", "[trunk_link]"]},{"node_id": 3915284763, "lat": 23.108574, "lon": 109.6047968, "way_count": 2, "roads": ["[trunk_link]", "[trunk_link]"]},{"node_id": 9495760536, "lat": 23.1083111, "lon": 109.6012779, "way_count": 2, "roads": ["金港大道", "[trunk_link]"]},{"node_id": 9495760539, "lat": 23.1087036, "lon": 109.6065898, "way_count": 2, "roads": ["[trunk_link]", "[trunk_link]"]},{"node_id": 13070445938, "lat": 23.1170425, "lon": 109.5942851, "way_count": 2, "roads": ["[footway]", "[footway]"]},{"node_id": 13070445936, "lat": 23.1170391, "lon": 109.5947251, "way_count": 2, "roads": ["[footway]", "[footway]"]},{"node_id": 13070445944, "lat": 23.1170354, "lon": 109.5952014, "way_count": 2, "roads": ["[footway]", "[footway]"]},{"node_id": 13070445941, "lat": 23.1174727, "lon": 109.594736, "way_count": 2, "roads": ["[footway]", "[footway]"]},{"node_id": 13070445947, "lat": 23.1166625, "lon": 109.5947446, "way_count": 2, "roads": ["[footway]", "[footway]"]},{"node_id": 13071765220, "lat": 23.1042127, "lon": 109.6054217, "way_count": 2, "roads": ["[unclassified]", "[unclassified]"]}];
+
+const center = [23.1122, 109.599];
+const map = L.map('map', {
+    center: center,
+    zoom: 15,
+    zoomControl: true,
+});
+
+// 底图
+const osmLayer = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: '&copy; OpenStreetMap contributors',
+    maxZoom: 19,
+}).addTo(map);
+
+const satelliteLayer = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
+    attribution: '&copy; Esri',
+    maxZoom: 19,
+});
+
+function switchBase(type) {
+    const btnOsm = document.getElementById('btn-osm');
+    const btnSat = document.getElementById('btn-satellite');
+    if (type === 'satellite') {
+        map.removeLayer(osmLayer);
+        map.addLayer(satelliteLayer);
+        btnSat.className = 'on';
+        btnOsm.className = '';
+    } else {
+        map.removeLayer(satelliteLayer);
+        map.addLayer(osmLayer);
+        btnOsm.className = 'on';
+        btnSat.className = '';
+    }
+}
+
+// 比例尺
+L.control.scale({imperial:false, metric:true}).addTo(map);
+
+// === 道路层（按类型拆分） ===
+const roadData = [{"type": "Feature", "geometry": {"type": "LineString", "coordinates": [[109.592209, 23.1080933], [109.5921889, 23.1091834], [109.5921784, 23.1113429], [109.5921676, 23.1132971], [109.5921715, 23.1134008], [109.5921728, 23.1160611], [109.5921772, 23.1181321], [109.5921774, 23.1182417], [109.5921752, 23.1183914], [109.5921743, 23.1184792], [109.5921446, 23.1232158], [109.5921464, 23.1233023], [109.5921663, 23.1274638], [109.5921671, 23.1276421], [109.5921674, 23.1277177], [109.5921678, 23.1278062], [109.5921682, 23.1278366], [109.5921765, 23.1285488], [109.5921662, 23.1302223], [109.5921503, 23.1327458], [109.5921811, 23.1413028], [109.5922267, 23.1488297], [109.592204, 23.1491381], [109.5921968, 23.1492888], [109.592118, 23.1494496]]}, "properties": {"name": "", "highway": "primary", "color": "#f39c12", "type": "road", "label": "主干道"}}, {"type": "Feature", "geometry": {"type": "LineString", "coordinates": [[109.5889601, 23.1077177], [109.598637, 23.1080977], [109.602179, 23.1082339], [109.6108961, 23.1085691], [109.6127227, 23.1086234], [109.613805, 23.1085805], [109.616309, 23.1084171], [109.6241574, 23.1078616]]}, "properties": {"name": "金港大道", "highway": "primary", "color": "#f39c12", "type": "road", "label": "主干道"}}, {"type": "Feature", "geometry": {"type": "LineString", "coordinates": [[109.5920772, 23.1080879], [109.5921068, 23.1077527], [109.5922246, 23.1071686], [109.5928485, 23.1047498], [109.5934026, 23.102606], [109.593606, 23.1018265], [109.5937931, 23.1011166], [109.5942891, 23.0992642], [109.5947305, 23.097616], [109.5947552, 23.0975239], [109.5952651, 23.0953988], [109.5957357, 23.0934505], [109.5958528, 23.0929658], [109.5958743, 23.0928971], [109.5960227, 23.0923862], [109.5964084, 23.0910587], [109.5968678, 23.089434]]}, "properties": {"name": "中山路", "highway": "primary", "color": "#f39c12", "type": "road", "label": "主干道"}}, {"type": "Feature", "geometry": {"type": "LineString", "coordinates": [[109.5969394, 23.0894599], [109.596499, 23.0910808], [109.5961163, 23.0924799], [109.5959952, 23.0929227], [109.5959747, 23.0929895], [109.5958602, 23.0934443], [109.5953614, 23.0954246], [109.5948428, 23.0975208], [109.5948193, 23.0976125], [109.5939266, 23.1010944], [109.5937282, 23.1018513], [109.5935264, 23.1026251], [109.5929637, 23.1047788], [109.5923719, 23.1071746], [109.5922426, 23.1077559], [109.592209, 23.1080933]]}, "properties": {"name": "中山路", "highway": "primary", "color": "#f39c12", "type": "road", "label": "主干道"}}, {"type": "Feature", "geometry": {"type": "LineString", "coordinates": [[109.591527, 23.1077391], [109.591729, 23.1077009], [109.5918732, 23.1076276], [109.5920347, 23.1074493], [109.5922246, 23.1071686]]}, "properties": {"name": "", "highway": "primary_link", "color": "#999999", "type": "road", "label": "primary_link"}}, {"type": "Feature", "geometry": {"type": "LineString", "coordinates": [[109.6025866, 23.1051745], [109.5975924, 23.103228], [109.5970761, 23.1031106], [109.5967828, 23.1030684], [109.5935264, 23.1026251], [109.5934026, 23.102606], [109.590443, 23.1024936], [109.5879191, 23.1023772], [109.5866364, 23.1023181], [109.583547, 23.1021303], [109.580293, 23.1015912], [109.5801733, 23.1015706], [109.5727723, 23.1003309], [109.5716388, 23.1002797], [109.5698929, 23.1002161], [109.5640379, 23.1000269], [109.5638411, 23.100019]]}, "properties": {"name": "", "highway": "tertiary", "color": "#3498db", "type": "road", "label": "三级路"}}, {"type": "Feature", "geometry": {"type": "LineString", "coordinates": [[109.6016262, 23.1133678], [109.5995756, 23.1133517], [109.5973803, 23.1133626], [109.5921715, 23.1134008], [109.592029, 23.1134046], [109.5899188, 23.1134097], [109.5876746, 23.1134167], [109.5876033, 23.1134129], [109.5875119, 23.1134071], [109.584825, 23.1134043], [109.5822588, 23.1134017], [109.5785204, 23.1133747], [109.5783817, 23.1133747], [109.5717101, 23.1134247], [109.5696615, 23.1133667], [109.5690922, 23.1133671], [109.5669438, 23.1133606], [109.5664721, 23.1133592], [109.5636132, 23.1133606], [109.5634876, 23.1133649], [109.556999, 23.1137054], [109.5536313, 23.1138822]]}, "properties": {"name": "", "highway": "secondary", "color": "#2ecc71", "type": "road", "label": "次干道"}}, {"type": "Feature", "geometry": {"type": "LineString", "coordinates": [[109.592118, 23.1494496], [109.5920298, 23.1492976], [109.5920297, 23.1491513], [109.5920294, 23.1487727], [109.592007, 23.1413028], [109.5920202, 23.1327239], [109.5919911, 23.1302211], [109.5920003, 23.12906], [109.5920084, 23.1280357], [109.5920102, 23.1278367], [109.5920105, 23.1278049], [109.5920106, 23.1277178], [109.5920125, 23.1261191], [109.5920219, 23.1233027], [109.5920212, 23.1232172], [109.5920225, 23.1208224], [109.5920228, 23.1201876], [109.5920237, 23.1184815], [109.5920232, 23.118389], [109.5920224, 23.1182435], [109.5920247, 23.1181345], [109.5920393, 23.1160618], [109.592029, 23.1134046], [109.5920246, 23.1132947], [109.5920165, 23.1113489], [109.5920217, 23.1103931], [109.5920262, 23.1095526], [109.5920772, 23.1080879]]}, "properties": {"name": "", "highway": "primary", "color": "#f39c12", "type": "road", "label": "主干道"}}, {"type": "Feature", "geometry": {"type": "LineString", "coordinates": [[109.5634445, 23.1182425], [109.5636381, 23.1182394], [109.5666896, 23.1182318], [109.5690515, 23.118226], [109.5696288, 23.1182263], [109.5716954, 23.1182272], [109.5783646, 23.1182318], [109.57854, 23.118231], [109.5822148, 23.1182275], [109.587549, 23.1182109], [109.5876334, 23.1182106], [109.5877092, 23.1182363], [109.5890571, 23.1182369], [109.5920224, 23.1182435], [109.5921774, 23.1182417], [109.5936627, 23.1182393], [109.5946881, 23.1182377], [109.5957922, 23.1182359], [109.5973511, 23.1182334], [109.5995858, 23.1182146], [109.6016519, 23.1182204], [109.6033748, 23.1182067], [109.6098116, 23.1181553], [109.6104418, 23.1181578], [109.6104365, 23.1183184], [109.6098091, 23.1183237], [109.6033899, 23.118359], [109.601656, 23.1183685], [109.6005063, 23.1183794], [109.5973484, 23.1183625], [109.5921752, 23.1183914], [109.5920232, 23.118389], [109.5877106, 23.1183978], [109.5876347, 23.1183593], [109.5875507, 23.1183596], [109.5822146, 23.1183786], [109.5805411, 23.1183796], [109.5785381, 23.1183887], [109.57836, 23.1183878], [109.5750727, 23.1183843], [109.5716987, 23.1183808], [109.5693601, 23.1183857], [109.5666892, 23.1183913], [109.5636401, 23.1183978], [109.5634422, 23.1183955]]}, "properties": {"name": "布山大道", "highway": "secondary", "color": "#2ecc71", "type": "road", "label": "次干道"}}, {"type": "Feature", "geometry": {"type": "LineString", "coordinates": [[109.5876324, 23.1180996], [109.5877083, 23.118099], [109.5890549, 23.1180978], [109.5899539, 23.1180975], [109.5920247, 23.1181345], [109.5921772, 23.1181321], [109.5936631, 23.1181287], [109.5946908, 23.1181263], [109.5947524, 23.1181262], [109.5957849, 23.1181238], [109.5957923, 23.1181238], [109.5973618, 23.1181202], [109.5995829, 23.1181186], [109.6016476, 23.1181057]]}, "properties": {"name": "", "highway": "service", "color": "#7f8c8d", "type": "road", "label": "服务路"}}, {"type": "Feature", "geometry": {"type": "LineString", "coordinates": [[109.6014476, 23.1184884], [109.6005234, 23.1185082], [109.5973482, 23.1184913], [109.5921743, 23.1184792], [109.5920237, 23.1184815], [109.590016, 23.1184703], [109.5877115, 23.1184732], [109.5876357, 23.1184737]]}, "properties": {"name": "", "highway": "service", "color": "#7f8c8d", "type": "road", "label": "服务路"}}, {"type": "Feature", "geometry": {"type": "LineString", "coordinates": [[109.5536199, 23.1138197], [109.5569933, 23.1136384], [109.5634865, 23.1132895], [109.5636102, 23.1132852], [109.5664721, 23.113294], [109.5669518, 23.1132944], [109.569084, 23.1132964], [109.5696451, 23.1132969], [109.5716003, 23.1132987], [109.5717101, 23.1132988], [109.5734619, 23.1133004], [109.573879, 23.1133008], [109.5761864, 23.1132831], [109.5768483, 23.113278], [109.5783796, 23.1132662], [109.5785231, 23.1132662], [109.5822596, 23.1133079], [109.5848277, 23.1133127], [109.5875124, 23.1132973], [109.5876072, 23.113296], [109.587676, 23.1132956], [109.5899105, 23.1132838], [109.5920246, 23.1132947], [109.5921676, 23.1132971], [109.5973845, 23.1132604], [109.5995771, 23.1132504], [109.6016249, 23.1132542]]}, "properties": {"name": "", "highway": "secondary", "color": "#2ecc71", "type": "road", "label": "次干道"}}, {"type": "Feature", "geometry": {"type": "LineString", "coordinates": [[109.632099, 23.1088109], [109.6316191, 23.1088603], [109.6311661, 23.1087877], [109.6302576, 23.1086243], [109.6285799, 23.1083372], [109.6266809, 23.1080782], [109.6253881, 23.108014], [109.6242218, 23.1081035], [109.622628, 23.1082271], [109.620503, 23.1084059], [109.6203681, 23.1084173], [109.6191519, 23.1085196], [109.6184539, 23.1085523], [109.615928, 23.1087271], [109.6141613, 23.108775], [109.613101, 23.1088075], [109.6122104, 23.1088183], [109.6113735, 23.1087936], [109.610187, 23.1087622], [109.6091051, 23.1087233], [109.6061164, 23.108616], [109.6049818, 23.1086801], [109.6042576, 23.1086481], [109.6035361, 23.1085987], [109.6018267, 23.1084256], [109.598355, 23.1082643], [109.5977426, 23.1082953], [109.5971821, 23.1082845], [109.596844, 23.108278], [109.5956773, 23.1082805], [109.5939928, 23.1081966], [109.5934229, 23.1081436], [109.5928561, 23.1081201], [109.592209, 23.1080933], [109.5920772, 23.1080879], [109.5912692, 23.1080544], [109.5900044, 23.1080066], [109.5887759, 23.1079499], [109.5883897, 23.1078167]]}, "properties": {"name": "金港大道辅路", "highway": "tertiary", "color": "#3498db", "type": "road", "label": "三级路"}}, {"type": "Feature", "geometry": {"type": "LineString", "coordinates": [[109.6018939, 23.108145], [109.6019378, 23.1079459], [109.6023755, 23.1066935], [109.6024942, 23.1063152], [109.6028835, 23.1053782], [109.6029466, 23.1052303], [109.6034214, 23.1043444], [109.6036755, 23.1038514], [109.6037793, 23.1035257], [109.6038457, 23.1031327]]}, "properties": {"name": "解放路", "highway": "secondary", "color": "#2ecc71", "type": "road", "label": "次干道"}}, {"type": "Feature", "geometry": {"type": "LineString", "coordinates": [[109.597025, 23.0997344], [109.5970186, 23.1009837], [109.5970761, 23.1031106], [109.5970208, 23.1049053], [109.596912, 23.1076093], [109.5969363, 23.1077583], [109.5969961, 23.1079157]]}, "properties": {"name": "港宝路", "highway": "tertiary", "color": "#3498db", "type": "road", "label": "三级路"}}, {"type": "Feature", "geometry": {"type": "LineString", "coordinates": [[109.6052796, 23.1082112], [109.6052973, 23.1061795], [109.6053061, 23.106035], [109.6053866, 23.1046362], [109.6054579, 23.1045053], [109.6055827, 23.1044418]]}, "properties": {"name": "圣湖路", "highway": "tertiary", "color": "#3498db", "type": "road", "label": "三级路"}}, {"type": "Feature", "geometry": {"type": "LineString", "coordinates": [[109.5921784, 23.1113429], [109.5973603, 23.1113324], [109.5986139, 23.1112987], [109.5995586, 23.1112734], [109.599639, 23.1113809], [109.6004503, 23.1113857], [109.6016036, 23.1113926]]}, "properties": {"name": "", "highway": "tertiary", "color": "#3498db", "type": "road", "label": "三级路"}}, {"type": "Feature", "geometry": {"type": "LineString", "coordinates": [[109.5995919, 23.1168616], [109.6015969, 23.1168825]]}, "properties": {"name": "", "highway": "residential", "color": "#9b59b6", "type": "road", "label": "住宅区路"}}, {"type": "Feature", "geometry": {"type": "LineString", "coordinates": [[109.5995788, 23.1149798], [109.6016447, 23.1149859]]}, "properties": {"name": "", "highway": "residential", "color": "#9b59b6", "type": "road", "label": "住宅区路"}}, {"type": "Feature", "geometry": {"type": "LineString", "coordinates": [[109.5995858, 23.1182146], [109.5995829, 23.1181186], [109.5995919, 23.1168616], [109.5995796, 23.1160207], [109.5995788, 23.1149798], [109.5995756, 23.1133517], [109.5995771, 23.1132504], [109.599639, 23.1113809]]}, "properties": {"name": "", "highway": "tertiary", "color": "#3498db", "type": "road", "label": "三级路"}}, {"type": "Feature", "geometry": {"type": "LineString", "coordinates": [[109.5969961, 23.1079157], [109.5971821, 23.1082845], [109.5972854, 23.1084862], [109.5973389, 23.1086299], [109.597371, 23.1088142], [109.5973584, 23.1095907], [109.5973594, 23.1105594], [109.5973603, 23.1113324], [109.5973845, 23.1132604], [109.5973803, 23.1133626], [109.597359, 23.1160614], [109.5973752, 23.118011], [109.5973618, 23.1181202], [109.5973511, 23.1182334], [109.5973484, 23.1183625], [109.5973482, 23.1184913], [109.5973485, 23.123203], [109.5973498, 23.1233002], [109.5973551, 23.1277153], [109.5973551, 23.1277547], [109.5973543, 23.1278335], [109.5973496, 23.1283072], [109.5973525, 23.1322283]]}, "properties": {"name": "", "highway": "tertiary", "color": "#3498db", "type": "road", "label": "三级路"}}, {"type": "Feature", "geometry": {"type": "LineString", "coordinates": [[109.5977426, 23.1082953], [109.5976084, 23.1083668], [109.5975468, 23.1084754], [109.597371, 23.1088142]]}, "properties": {"name": "", "highway": "tertiary_link", "color": "#999999", "type": "road", "label": "tertiary_link"}}, {"type": "Feature", "geometry": {"type": "LineString", "coordinates": [[109.589881, 23.1160513], [109.5920393, 23.1160618], [109.5921728, 23.1160611], [109.5936715, 23.1160706], [109.594775, 23.1160769], [109.5957945, 23.1160828], [109.597359, 23.1160614], [109.5995796, 23.1160207]]}, "properties": {"name": "", "highway": "tertiary", "color": "#3498db", "type": "road", "label": "三级路"}}, {"type": "Feature", "geometry": {"type": "LineString", "coordinates": [[109.5900044, 23.1080066], [109.5899749, 23.1081941], [109.5898673, 23.1095414], [109.5898868, 23.1105295], [109.5899025, 23.111321], [109.5899105, 23.1132838], [109.5899188, 23.1134097], [109.589881, 23.1160513], [109.5898032, 23.1163597], [109.5896557, 23.1165299], [109.5894331, 23.1166162], [109.5891032, 23.1166409], [109.5890683, 23.1179886], [109.5890549, 23.1180978], [109.5890571, 23.1182369]]}, "properties": {"name": "", "highway": "residential", "color": "#9b59b6", "type": "road", "label": "住宅区路"}}, {"type": "Feature", "geometry": {"type": "LineString", "coordinates": [[109.5920165, 23.1113489], [109.590869, 23.1113338], [109.5899025, 23.111321], [109.5876936, 23.1113123], [109.5876185, 23.1113269], [109.5875321, 23.1113244], [109.5866496, 23.1113342], [109.5848205, 23.1113514], [109.5846926, 23.1113425], [109.584532, 23.1113078], [109.5843791, 23.111251], [109.5842375, 23.1111732], [109.5841105, 23.1110764], [109.5840011, 23.1109628], [109.583912, 23.1108351], [109.5838452, 23.1106963], [109.5838024, 23.1105497], [109.5837845, 23.1103728], [109.5837932, 23.1102383], [109.5838301, 23.1100812], [109.5838943, 23.1099317], [109.583984, 23.1097938], [109.5840968, 23.1096712], [109.5842298, 23.109567], [109.5843794, 23.1094841], [109.5845416, 23.1094246], [109.5847121, 23.1093901], [109.58479, 23.1093862], [109.5848864, 23.1093815], [109.5866226, 23.1095004], [109.5875045, 23.1095608], [109.587591, 23.1095681], [109.5876664, 23.1095734], [109.5898673, 23.1095414], [109.5898864, 23.1095411], [109.5908908, 23.1095465], [109.5920262, 23.1095526]]}, "properties": {"name": "", "highway": "tertiary", "color": "#3498db", "type": "road", "label": "三级路"}}, {"type": "Feature", "geometry": {"type": "LineString", "coordinates": [[109.5883931, 23.1076632], [109.5888591, 23.1076341], [109.5900269, 23.1076656], [109.591527, 23.1077391], [109.5921068, 23.1077527], [109.5922426, 23.1077559], [109.5927218, 23.1077671], [109.593443, 23.1077747], [109.5940036, 23.1077353], [109.5950079, 23.1077721], [109.5962359, 23.1078667], [109.5969961, 23.1079157], [109.5983417, 23.1080298], [109.6018939, 23.108145], [109.6022188, 23.1081235], [109.6027181, 23.1082459], [109.6046653, 23.1083175], [109.6053978, 23.1082262], [109.6058241, 23.108278], [109.6071236, 23.1083333], [109.6103908, 23.1084724], [109.611446, 23.1085173], [109.6120919, 23.1086], [109.6131384, 23.1085814], [109.6159143, 23.1083935], [109.6185431, 23.1082188], [109.6190812, 23.1079942], [109.6198237, 23.1079442], [109.6203498, 23.1079341], [109.6204917, 23.1079314], [109.6210724, 23.1079203], [109.6221587, 23.107866], [109.6240684, 23.1077254], [109.6252191, 23.1076711], [109.6261874, 23.107718], [109.6270832, 23.1077698], [109.6282017, 23.1079326], [109.6311763, 23.1084029], [109.6321338, 23.1085543], [109.6328285, 23.1087443], [109.6332228, 23.1089959]]}, "properties": {"name": "金港大道辅路", "highway": "tertiary", "color": "#3498db", "type": "road", "label": "三级路"}}, {"type": "Feature", "geometry": {"type": "LineString", "coordinates": [[109.6018101, 23.1278309], [109.6018103, 23.1277133], [109.6018143, 23.1232686], [109.6018135, 23.1231623], [109.6017806, 23.1185839], [109.601656, 23.1183685], [109.6016519, 23.1182204]]}, "properties": {"name": "", "highway": "tertiary", "color": "#3498db", "type": "road", "label": "三级路"}}, {"type": "Feature", "geometry": {"type": "LineString", "coordinates": [[109.5900268, 23.1075251], [109.5900269, 23.1076656]]}, "properties": {"name": "", "highway": "residential", "color": "#9b59b6", "type": "road", "label": "住宅区路"}}, {"type": "Feature", "geometry": {"type": "LineString", "coordinates": [[109.5888976, 23.1051395], [109.590067, 23.1060573], [109.5900268, 23.1075251]]}, "properties": {"name": "", "highway": "residential", "color": "#9b59b6", "type": "road", "label": "住宅区路"}}, {"type": "Feature", "geometry": {"type": "LineString", "coordinates": [[109.5878018, 23.1051056], [109.5888976, 23.1051395], [109.5904511, 23.1035529], [109.5916334, 23.1045831], [109.5928485, 23.1047498]]}, "properties": {"name": "", "highway": "residential", "color": "#9b59b6", "type": "road", "label": "住宅区路"}}, {"type": "Feature", "geometry": {"type": "LineString", "coordinates": [[109.5888761, 23.1074931], [109.5900268, 23.1075251], [109.5915708, 23.10757], [109.5918256, 23.1075132], [109.5920089, 23.107271], [109.5921806, 23.1066789]]}, "properties": {"name": "", "highway": "service", "color": "#7f8c8d", "type": "road", "label": "服务路"}}, {"type": "Feature", "geometry": {"type": "LineString", "coordinates": [[109.5928485, 23.1047498], [109.5929637, 23.1047788], [109.5941783, 23.1050568], [109.5950079, 23.1077721]]}, "properties": {"name": "", "highway": "residential", "color": "#9b59b6", "type": "road", "label": "住宅区路"}}, {"type": "Feature", "geometry": {"type": "LineString", "coordinates": [[109.590067, 23.1060573], [109.5916334, 23.1045831]]}, "properties": {"name": "", "highway": "residential", "color": "#9b59b6", "type": "road", "label": "住宅区路"}}, {"type": "Feature", "geometry": {"type": "LineString", "coordinates": [[109.5882539, 23.1081394], [109.5899749, 23.1081941], [109.5911936, 23.1082776], [109.5912692, 23.1080544]]}, "properties": {"name": "", "highway": "residential", "color": "#9b59b6", "type": "road", "label": "住宅区路"}}, {"type": "Feature", "geometry": {"type": "LineString", "coordinates": [[109.6016036, 23.1113926], [109.6016142, 23.1123179], [109.6016249, 23.1132542], [109.6016262, 23.1133678], [109.6016447, 23.1149859], [109.6016447, 23.1151405], [109.6015969, 23.1168825], [109.6016476, 23.1181057], [109.6016519, 23.1182204]]}, "properties": {"name": "", "highway": "tertiary", "color": "#3498db", "type": "road", "label": "三级路"}}, {"type": "Feature", "geometry": {"type": "LineString", "coordinates": [[109.5956773, 23.1082805], [109.5956711, 23.1094972], [109.5958379, 23.1095926]]}, "properties": {"name": "", "highway": "residential", "color": "#9b59b6", "type": "road", "label": "住宅区路"}}, {"type": "Feature", "geometry": {"type": "LineString", "coordinates": [[109.5958379, 23.1095926], [109.5973584, 23.1095907], [109.5986098, 23.1095941], [109.5995795, 23.1095967], [109.5996652, 23.1096299], [109.5997373, 23.1096838], [109.6000619, 23.1101233]]}, "properties": {"name": "", "highway": "residential", "color": "#9b59b6", "type": "road", "label": "住宅区路"}}, {"type": "Feature", "geometry": {"type": "LineString", "coordinates": [[109.5995586, 23.1112734], [109.5995283, 23.1105106], [109.6000619, 23.1101233]]}, "properties": {"name": "", "highway": "residential", "color": "#9b59b6", "type": "road", "label": "住宅区路"}}, {"type": "Feature", "geometry": {"type": "LineString", "coordinates": [[109.5995283, 23.1105106], [109.5986096, 23.1105313], [109.5973594, 23.1105594]]}, "properties": {"name": "", "highway": "residential", "color": "#9b59b6", "type": "road", "label": "住宅区路"}}, {"type": "Feature", "geometry": {"type": "LineString", "coordinates": [[109.5986139, 23.1112987], [109.5986096, 23.1105313], [109.5986098, 23.1095941]]}, "properties": {"name": "", "highway": "residential", "color": "#9b59b6", "type": "road", "label": "住宅区路"}}, {"type": "Feature", "geometry": {"type": "LineString", "coordinates": [[109.597371, 23.1088142], [109.5971578, 23.1084951], [109.5970532, 23.1083841], [109.596844, 23.108278]]}, "properties": {"name": "", "highway": "tertiary_link", "color": "#999999", "type": "road", "label": "tertiary_link"}}, {"type": "Feature", "geometry": {"type": "LineString", "coordinates": [[109.590443, 23.1024936], [109.5904511, 23.1035529]]}, "properties": {"name": "", "highway": "residential", "color": "#9b59b6", "type": "road", "label": "住宅区路"}}, {"type": "Feature", "geometry": {"type": "LineString", "coordinates": [[109.5941783, 23.1050568], [109.5960083, 23.1039105], [109.5960703, 23.103879], [109.5961409, 23.1038711], [109.5967141, 23.1039734]]}, "properties": {"name": "", "highway": "residential", "color": "#9b59b6", "type": "road", "label": "住宅区路"}}, {"type": "Feature", "geometry": {"type": "LineString", "coordinates": [[109.5970208, 23.1049053], [109.5966659, 23.1048873], [109.596048, 23.1048559], [109.5959127, 23.1048973], [109.5958406, 23.1049554], [109.5958045, 23.1050549], [109.595755, 23.1063361]]}, "properties": {"name": "", "highway": "residential", "color": "#9b59b6", "type": "road", "label": "住宅区路"}}, {"type": "Feature", "geometry": {"type": "LineString", "coordinates": [[109.5966659, 23.1048873], [109.5967141, 23.1039734], [109.5967828, 23.1030684]]}, "properties": {"name": "", "highway": "residential", "color": "#9b59b6", "type": "road", "label": "住宅区路"}}, {"type": "Feature", "geometry": {"type": "LineString", "coordinates": [[109.6055827, 23.1044418], [109.6054997, 23.1046344], [109.6054103, 23.1060432], [109.6054032, 23.1061885], [109.6053978, 23.1082262]]}, "properties": {"name": "圣湖路", "highway": "tertiary", "color": "#3498db", "type": "road", "label": "三级路"}}, {"type": "Feature", "geometry": {"type": "LineString", "coordinates": [[109.6055827, 23.1044418], [109.6057677, 23.104385], [109.6069962, 23.1044248], [109.6071366, 23.1044626], [109.6072202, 23.1045436], [109.6072538, 23.1046441], [109.6071797, 23.1061814], [109.6071736, 23.1063387], [109.6071236, 23.1083333]]}, "properties": {"name": "", "highway": "tertiary", "color": "#3498db", "type": "road", "label": "三级路"}}, {"type": "Feature", "geometry": {"type": "LineString", "coordinates": [[109.6025866, 23.1051745], [109.6029466, 23.1052303], [109.6047786, 23.1058852], [109.6053061, 23.106035], [109.6054103, 23.1060432], [109.6071797, 23.1061814], [109.6104752, 23.1063327], [109.6121165, 23.1064031], [109.6123365, 23.1065042]]}, "properties": {"name": "", "highway": "tertiary", "color": "#3498db", "type": "road", "label": "三级路"}}, {"type": "Feature", "geometry": {"type": "LineString", "coordinates": [[109.6123365, 23.1065042], [109.6121165, 23.106561], [109.6104674, 23.1064785], [109.6071736, 23.1063387], [109.6054032, 23.1061885], [109.6052973, 23.1061795], [109.6047296, 23.1060365], [109.6028835, 23.1053782], [109.6025866, 23.1051745]]}, "properties": {"name": "", "highway": "tertiary", "color": "#3498db", "type": "road", "label": "三级路"}}, {"type": "Feature", "geometry": {"type": "LineString", "coordinates": [[109.590869, 23.1113338], [109.5908804, 23.1104011], [109.5908908, 23.1095465]]}, "properties": {"name": "", "highway": "residential", "color": "#9b59b6", "type": "road", "label": "住宅区路"}}, {"type": "Feature", "geometry": {"type": "LineString", "coordinates": [[109.5908804, 23.1104011], [109.5920217, 23.1103931]]}, "properties": {"name": "", "highway": "residential", "color": "#9b59b6", "type": "road", "label": "住宅区路"}}, {"type": "Feature", "geometry": {"type": "LineString", "coordinates": [[109.6004503, 23.1113857], [109.6018267, 23.1084256]]}, "properties": {"name": "", "highway": "residential", "color": "#9b59b6", "type": "road", "label": "住宅区路"}}, {"type": "Feature", "geometry": {"type": "LineString", "coordinates": [[109.6046547, 23.1113442], [109.6047448, 23.1108691], [109.6048049, 23.1108691], [109.6049818, 23.1086801]]}, "properties": {"name": "", "highway": "residential", "color": "#9b59b6", "type": "road", "label": "住宅区路"}}, {"type": "Feature", "geometry": {"type": "LineString", "coordinates": [[109.6024201, 23.1122965], [109.6016142, 23.1123179]]}, "properties": {"name": "", "highway": "residential", "color": "#9b59b6", "type": "road", "label": "住宅区路"}}, {"type": "Feature", "geometry": {"type": "LineString", "coordinates": [[109.6030025, 23.114707], [109.6026663, 23.1148475], [109.6022775, 23.1149078], [109.6018043, 23.1151189], [109.6016447, 23.1151405]]}, "properties": {"name": "", "highway": "residential", "color": "#9b59b6", "type": "road", "label": "住宅区路"}}, {"type": "Feature", "geometry": {"type": "LineString", "coordinates": [[109.5957922, 23.1182359], [109.5957923, 23.1181238], [109.5957935, 23.1170308], [109.5957945, 23.1160828]]}, "properties": {"name": "", "highway": "residential", "color": "#9b59b6", "type": "road", "label": "住宅区路"}}, {"type": "Feature", "geometry": {"type": "LineString", "coordinates": [[109.5936715, 23.1160706], [109.593668, 23.1169337], [109.5936675, 23.1170474], [109.5936631, 23.1181287], [109.5936627, 23.1182393]]}, "properties": {"name": "", "highway": "residential", "color": "#9b59b6", "type": "road", "label": "住宅区路"}}, {"type": "Feature", "geometry": {"type": "LineString", "coordinates": [[109.590016, 23.1184703], [109.5900193, 23.1201946], [109.5900204, 23.120781], [109.5900578, 23.1208251], [109.5920225, 23.1208224]]}, "properties": {"name": "", "highway": "residential", "color": "#9b59b6", "type": "road", "label": "住宅区路"}}, {"type": "Feature", "geometry": {"type": "LineString", "coordinates": [[109.5920228, 23.1201876], [109.5900193, 23.1201946]]}, "properties": {"name": "", "highway": "residential", "color": "#9b59b6", "type": "road", "label": "住宅区路"}}, {"type": "Feature", "geometry": {"type": "LineString", "coordinates": [[109.6054593, 23.1057444], [109.6054103, 23.1060432]]}, "properties": {"name": "", "highway": "unclassified", "color": "#607d8b", "type": "road", "label": "未分类"}}, {"type": "Feature", "geometry": {"type": "LineString", "coordinates": [[109.6062264, 23.1044011], [109.6057999, 23.1044393], [109.6057187, 23.1044734], [109.6056457, 23.1045244], [109.6055885, 23.1045868], [109.6055492, 23.1046547], [109.6055234, 23.1047404], [109.6054593, 23.1057444]]}, "properties": {"name": "", "highway": "unclassified", "color": "#607d8b", "type": "road", "label": "未分类"}}, {"type": "Feature", "geometry": {"type": "LineString", "coordinates": [[109.6053319, 23.1073775], [109.6053386, 23.1061021], [109.6054176, 23.1046837], [109.6054337, 23.1046281], [109.6054585, 23.1045753], [109.6054914, 23.1045264], [109.6055317, 23.1044825], [109.6055806, 23.1044429], [109.6056355, 23.1044106], [109.6056951, 23.1043864], [109.605758, 23.1043707], [109.6059045, 23.1043665], [109.6062264, 23.1044011], [109.6069291, 23.1044331], [109.607031, 23.104427], [109.6071598, 23.1044085], [109.6073073, 23.1043591], [109.6076654, 23.1041864], [109.607778, 23.1041506], [109.6079712, 23.1041445], [109.6098299, 23.1042414], [109.6100411, 23.1042621], [109.6101429, 23.1042836], [109.6102599, 23.1043254], [109.610381, 23.1043918], [109.6106373, 23.1045491], [109.6107486, 23.1046008], [109.6108666, 23.1046356], [109.611057, 23.1046551], [109.6112435, 23.1046527], [109.6120065, 23.1046859], [109.6121083, 23.1047006], [109.6122058, 23.1047392], [109.6123017, 23.1048106], [109.6123682, 23.1048996], [109.6124069, 23.1050112], [109.6124073, 23.1051298], [109.6122533, 23.1075996]]}, "properties": {"name": "", "highway": "unclassified", "color": "#607d8b", "type": "road", "label": "未分类"}}, {"type": "Feature", "geometry": {"type": "LineString", "coordinates": [[109.6075393, 23.1040137], [109.6076506, 23.1040347], [109.6077579, 23.1040668], [109.6079712, 23.1041445]]}, "properties": {"name": "", "highway": "unclassified", "color": "#607d8b", "type": "road", "label": "未分类"}}, {"type": "Feature", "geometry": {"type": "LineString", "coordinates": [[109.5923719, 23.1071746], [109.5924211, 23.1074762], [109.5924988, 23.107607], [109.5927218, 23.1077671]]}, "properties": {"name": "", "highway": "primary_link", "color": "#999999", "type": "road", "label": "primary_link"}}, {"type": "Feature", "geometry": {"type": "LineString", "coordinates": [[109.6022188, 23.1081235], [109.6027234, 23.1080954], [109.6049309, 23.108167], [109.6052796, 23.1082112], [109.6053978, 23.1082262]]}, "properties": {"name": "金港大道辅路", "highway": "unclassified", "color": "#607d8b", "type": "road", "label": "未分类"}}, {"type": "Feature", "geometry": {"type": "LineString", "coordinates": [[109.593443, 23.1077747], [109.5939955, 23.107829]]}, "properties": {"name": "", "highway": "trunk_link", "color": "#999999", "type": "road", "label": "trunk_link"}}, {"type": "Feature", "geometry": {"type": "LineString", "coordinates": [[109.5939647, 23.1081238], [109.5934229, 23.1081436]]}, "properties": {"name": "", "highway": "trunk_link", "color": "#999999", "type": "road", "label": "trunk_link"}}, {"type": "Feature", "geometry": {"type": "LineString", "coordinates": [[109.5939955, 23.107829], [109.5962459, 23.1079339], [109.598637, 23.1080977]]}, "properties": {"name": "", "highway": "trunk_link", "color": "#999999", "type": "road", "label": "trunk_link"}}, {"type": "Feature", "geometry": {"type": "LineString", "coordinates": [[109.5979544, 23.1081867], [109.5967729, 23.108225], [109.5961641, 23.1082311], [109.5939647, 23.1081238]]}, "properties": {"name": "", "highway": "trunk_link", "color": "#999999", "type": "road", "label": "trunk_link"}}, {"type": "Feature", "geometry": {"type": "LineString", "coordinates": [[109.602179, 23.1082339], [109.6035495, 23.1081929], [109.6045178, 23.1082163], [109.6046902, 23.1082005], [109.6048547, 23.1081503], [109.6050033, 23.1080683], [109.6051201, 23.1079678], [109.6052124, 23.1078476], [109.6052765, 23.1077127], [109.6053319, 23.1073775]]}, "properties": {"name": "", "highway": "trunk_link", "color": "#999999", "type": "road", "label": "trunk_link"}}, {"type": "Feature", "geometry": {"type": "LineString", "coordinates": [[109.6053579, 23.1079922], [109.6053319, 23.1073775]]}, "properties": {"name": "", "highway": "trunk_link", "color": "#999999", "type": "road", "label": "trunk_link"}}, {"type": "Feature", "geometry": {"type": "LineString", "coordinates": [[109.6047968, 23.108574], [109.6044414, 23.1085321], [109.6040578, 23.1085136], [109.6035509, 23.1084951], [109.6012779, 23.1083111]]}, "properties": {"name": "", "highway": "trunk_link", "color": "#999999", "type": "road", "label": "trunk_link"}}, {"type": "Feature", "geometry": {"type": "LineString", "coordinates": [[109.6065898, 23.1087036], [109.6060829, 23.1086604], [109.6058757, 23.1086062], [109.6057105, 23.1085233], [109.6055692, 23.1084088], [109.6054689, 23.1082839], [109.6053975, 23.1081432], [109.6053579, 23.1079922]]}, "properties": {"name": "", "highway": "trunk_link", "color": "#999999", "type": "road", "label": "trunk_link"}}, {"type": "Feature", "geometry": {"type": "LineString", "coordinates": [[109.6122117, 23.1089059], [109.6113883, 23.1088861], [109.6109457, 23.1088553], [109.6065898, 23.1087036], [109.6058911, 23.1086937], [109.605529, 23.1086616], [109.6047968, 23.108574]]}, "properties": {"name": "", "highway": "trunk_link", "color": "#999999", "type": "road", "label": "trunk_link"}}, {"type": "Feature", "geometry": {"type": "LineString", "coordinates": [[109.6241637, 23.107961], [109.6163087, 23.1085338], [109.6138221, 23.1086965], [109.6127187, 23.1087344], [109.6109042, 23.1086715], [109.6012779, 23.1083111], [109.5979544, 23.1081867], [109.5889637, 23.1078413]]}, "properties": {"name": "金港大道", "highway": "primary", "color": "#f39c12", "type": "road", "label": "主干道"}}, {"type": "Feature", "geometry": {"type": "LineString", "coordinates": [[109.5946908, 23.1181263], [109.5946881, 23.1182377]]}, "properties": {"name": "", "highway": "service", "color": "#7f8c8d", "type": "road", "label": "服务路"}}, {"type": "Feature", "geometry": {"type": "LineString", "coordinates": [[109.6018939, 23.108145], [109.6018267, 23.1084256], [109.6019522, 23.1100636], [109.6020208, 23.1106439], [109.6024201, 23.1122965], [109.6030025, 23.114707], [109.6030439, 23.1148784], [109.6033748, 23.1182067], [109.6033899, 23.118359], [109.6033967, 23.1184272], [109.6035363, 23.1215979]]}, "properties": {"name": "", "highway": "tertiary", "color": "#3498db", "type": "road", "label": "三级路"}}, {"type": "Feature", "geometry": {"type": "LineString", "coordinates": [[109.6091051, 23.1087233], [109.6091049, 23.1089507], [109.6099647, 23.1091834], [109.6100066, 23.1106265], [109.6101006, 23.110672], [109.6101088, 23.1110245], [109.6079663, 23.1109149], [109.6080042, 23.1095128], [109.6084644, 23.1093079], [109.6085783, 23.1091149], [109.6091049, 23.1089507]]}, "properties": {"name": "", "highway": "residential", "color": "#9b59b6", "type": "road", "label": "住宅区路"}}, {"type": "Feature", "geometry": {"type": "LineString", "coordinates": [[109.5936675, 23.1170474], [109.5942851, 23.1170425], [109.5947251, 23.1170391], [109.5952014, 23.1170354], [109.5957935, 23.1170308]]}, "properties": {"name": "", "highway": "footway", "color": "#1abc9c", "type": "road", "label": "人行道"}}, {"type": "Feature", "geometry": {"type": "LineString", "coordinates": [[109.5947524, 23.1181262], [109.594736, 23.1174727], [109.5947251, 23.1170391], [109.5947446, 23.1166625], [109.594775, 23.1160769]]}, "properties": {"name": "", "highway": "footway", "color": "#1abc9c", "type": "road", "label": "人行道"}}, {"type": "Feature", "geometry": {"type": "LineString", "coordinates": [[109.5942851, 23.1170425], [109.5942807, 23.1172518], [109.5944984, 23.1174479], [109.594736, 23.1174727], [109.594961, 23.1174479], [109.5951651, 23.1172852], [109.5952014, 23.1170354], [109.5951832, 23.1168806], [109.5950653, 23.1167387], [109.5947446, 23.1166625], [109.5945392, 23.1166678], [109.5943079, 23.1168847], [109.5942851, 23.1170425]]}, "properties": {"name": "", "highway": "footway", "color": "#1abc9c", "type": "road", "label": "人行道"}}, {"type": "Feature", "geometry": {"type": "LineString", "coordinates": [[109.6054176, 23.1046837], [109.6054217, 23.1042127]]}, "properties": {"name": "", "highway": "unclassified", "color": "#607d8b", "type": "road", "label": "未分类"}}, {"type": "Feature", "geometry": {"type": "LineString", "coordinates": [[109.6054217, 23.1042127], [109.6054351, 23.1036083], [109.6073612, 23.1036744], [109.6073988, 23.1037756], [109.6073907, 23.1039631], [109.6074202, 23.1040025], [109.6075393, 23.1040137]]}, "properties": {"name": "", "highway": "unclassified", "color": "#607d8b", "type": "road", "label": "未分类"}}];
+
+// 按 highway 类型分组
+const roadGroups = {};
+roadData.forEach(f => {
+    const hw = f.properties.highway;
+    if (!roadGroups[hw]) roadGroups[hw] = [];
+    roadGroups[hw].push(f);
+});
+
+// 创建各类型道路层
+const roadTypeConfig = {
+    'primary':       { color:'#f39c12', weight:4, label:'主干道' },
+    'primary_link':  { color:'#999999', weight:3, label:'primary_link' },
+    'secondary':     { color:'#2ecc71', weight:4, label:'次干道' },
+    'tertiary':      { color:'#3498db', weight:3, label:'三级路' },
+    'tertiary_link': { color:'#999999', weight:2, label:'tertiary_link' },
+    'residential':   { color:'#9b59b6', weight:3, label:'住宅区路' },
+    'service':       { color:'#7f8c8d', weight:2, label:'服务路' },
+    'unclassified':  { color:'#607d8b', weight:2, label:'未分类' },
+    'trunk_link':    { color:'#999999', weight:2, label:'trunk_link' },
+    'footway':       { color:'#1abc9c', weight:2, label:'人行道' },
+};
+
+const roadLayers = {};
+Object.keys(roadTypeConfig).forEach(hw => {
+    const cfg = roadTypeConfig[hw];
+    const layer = L.layerGroup();
+    if (roadGroups[hw]) {
+        roadGroups[hw].forEach(f => {
+            const line = L.polyline(
+                f.geometry.coordinates.map(c => [c[1], c[0]]),
+                { color:cfg.color, weight:cfg.weight, opacity:0.85 }
+            );
+            if (f.properties.name) {
+                line.bindTooltip(`<b>${f.properties.name}</b><br>${cfg.label}`, {direction:'top', offset:[0,-5]});
+            }
+            layer.addLayer(line);
+        });
+    }
+    roadLayers[hw] = layer;
+    layer.addTo(map);
+});
+
+// === 建筑层 ===
+const buildingData = [{"type": "Feature", "geometry": {"type": "Polygon", "coordinates": [[[109.6081019, 23.1039073], [109.6097844, 23.1039974], [109.6097876, 23.1039627], [109.6100039, 23.1039751], [109.6100343, 23.103471], [109.6098145, 23.1034599], [109.6098181, 23.1034219], [109.6089828, 23.1033738], [109.6081375, 23.103325], [109.6081362, 23.103361], [109.6079163, 23.1033506], [109.6078878, 23.1038543], [109.6081016, 23.103862], [109.6081019, 23.1039073]]]}, "properties": {"name": "贵港站", "type": "building", "building": "train_station"}}, {"type": "Feature", "geometry": {"type": "Polygon", "coordinates": [[[109.6093981, 23.1080387], [109.607664, 23.1079857], [109.6075903, 23.1079524], [109.6075098, 23.107887], [109.6074414, 23.1078043], [109.6074119, 23.1077402], [109.6074495, 23.1070371], [109.6074817, 23.1069915], [109.6075286, 23.106952], [109.607601, 23.1069162], [109.6082434, 23.1069384], [109.6084888, 23.1071876], [109.6086256, 23.1071938], [109.6086618, 23.1072197], [109.6086632, 23.1072554], [109.6087892, 23.1072579], [109.6087892, 23.1072246], [109.6088684, 23.1071962], [109.6096006, 23.1072258], [109.609677, 23.1072986], [109.6096489, 23.1079092], [109.6095993, 23.1079622], [109.6095201, 23.1080103], [109.6094652, 23.1080325], [109.6093981, 23.1080387]]]}, "properties": {"name": "", "type": "building", "building": "commercial"}}, {"type": "Feature", "geometry": {"type": "Polygon", "coordinates": [[[109.6086457, 23.1070729], [109.6085773, 23.1070729], [109.6083239, 23.1068175], [109.6076024, 23.1067966], [109.6075957, 23.1066078], [109.6076238, 23.1065745], [109.6076734, 23.106556], [109.6085317, 23.1065807], [109.6086216, 23.106635], [109.6086779, 23.1069902], [109.6086457, 23.1070729]]]}, "properties": {"name": "", "type": "building", "building": "commercial"}}, {"type": "Feature", "geometry": {"type": "Polygon", "coordinates": [[[109.604309, 23.1041568], [109.6043536, 23.1033199], [109.6047494, 23.1033378], [109.6047049, 23.1041746], [109.604309, 23.1041568]]]}, "properties": {"name": "", "type": "building", "building": "construction"}}, {"type": "Feature", "geometry": {"type": "Polygon", "coordinates": [[[109.5969164, 23.1163177], [109.5966182, 23.1163126], [109.5966048, 23.1169762], [109.596903, 23.1169813], [109.5969164, 23.1163177]]]}, "properties": {"name": "", "type": "building", "building": "yes"}}, {"type": "Feature", "geometry": {"type": "Polygon", "coordinates": [[[109.5915748, 23.1155801], [109.5915735, 23.1157257], [109.591678, 23.1157265], [109.5916793, 23.1155809], [109.5915748, 23.1155801]]]}, "properties": {"name": "", "type": "building", "building": "yes"}}, {"type": "Feature", "geometry": {"type": "Polygon", "coordinates": [[[109.5915151, 23.115281], [109.5915125, 23.1154222], [109.5916114, 23.1154238], [109.5916141, 23.1152826], [109.5915151, 23.115281]]]}, "properties": {"name": "", "type": "building", "building": "yes"}}, {"type": "Feature", "geometry": {"type": "Polygon", "coordinates": [[[109.5914065, 23.1151614], [109.5914045, 23.1152816], [109.5915013, 23.115283], [109.5915033, 23.1151627], [109.5914065, 23.1151614]]]}, "properties": {"name": "", "type": "building", "building": "yes"}}, {"type": "Feature", "geometry": {"type": "Polygon", "coordinates": [[[109.591495, 23.1151028], [109.5916546, 23.1151059], [109.5916563, 23.1150332], [109.5914967, 23.1150302], [109.591495, 23.1151028]]]}, "properties": {"name": "", "type": "building", "building": "yes"}}, {"type": "Feature", "geometry": {"type": "Polygon", "coordinates": [[[109.60098, 23.1118206], [109.6009827, 23.1127728], [109.6013448, 23.1127719], [109.6013421, 23.1118197], [109.60098, 23.1118206]]]}, "properties": {"name": "", "type": "building", "building": "yes"}}, {"type": "Feature", "geometry": {"type": "Polygon", "coordinates": [[[109.5929669, 23.1169998], [109.593439, 23.1170035], [109.593442, 23.1166736], [109.5929699, 23.1166699], [109.5929669, 23.1169998]]]}, "properties": {"name": "", "type": "building", "building": "yes"}}, {"type": "Feature", "geometry": {"type": "Polygon", "coordinates": [[[109.5914964, 23.1162517], [109.5914289, 23.1162524], [109.5914309, 23.1164312], [109.5914984, 23.1164306], [109.5914964, 23.1162517]]]}, "properties": {"name": "", "type": "building", "building": "yes"}}, {"type": "Feature", "geometry": {"type": "Polygon", "coordinates": [[[109.5914266, 23.116565], [109.5915829, 23.1165656], [109.5915832, 23.1164886], [109.591427, 23.116488], [109.5914266, 23.116565]]]}, "properties": {"name": "", "type": "building", "building": "yes"}}, {"type": "Feature", "geometry": {"type": "Polygon", "coordinates": [[[109.5908983, 23.1198907], [109.5906384, 23.1198903], [109.5906395, 23.1192686], [109.5909031, 23.1192689], [109.5909032, 23.1192076], [109.591236, 23.119208], [109.5912359, 23.1192757], [109.5914984, 23.1192761], [109.5914975, 23.1198291], [109.5912567, 23.1198288], [109.5912572, 23.119569], [109.5908989, 23.1195685], [109.5908983, 23.1198907]]]}, "properties": {"name": "贵港市中级人民法院", "type": "building", "building": "yes"}}, {"type": "Feature", "geometry": {"type": "Polygon", "coordinates": [[[109.5900753, 23.120115], [109.5900766, 23.1198168], [109.5904293, 23.1198181], [109.590428, 23.1201162], [109.5900753, 23.120115]]]}, "properties": {"name": "", "type": "building", "building": "yes"}}, {"type": "Feature", "geometry": {"type": "Polygon", "coordinates": [[[109.5935793, 23.1086189], [109.5935901, 23.1083167], [109.5940361, 23.1083301], [109.5941538, 23.108437], [109.5941434, 23.1086454], [109.5935793, 23.1086189]]]}, "properties": {"name": "中国人民银行贵港分行", "type": "building", "building": "yes"}}, {"type": "Feature", "geometry": {"type": "Polygon", "coordinates": [[[109.5926611, 23.1072883], [109.5927188, 23.106998], [109.5929407, 23.1070349], [109.592917, 23.1071319], [109.5931495, 23.1074277], [109.5932924, 23.1074474], [109.5932884, 23.107607], [109.5930247, 23.1075784], [109.5928556, 23.1075577], [109.5926611, 23.1072883]]]}, "properties": {"name": "中银大厦", "type": "building", "building": "office"}}, {"type": "Feature", "geometry": {"type": "Polygon", "coordinates": [[[109.5911009, 23.1110908], [109.591515, 23.1110923], [109.591584, 23.1110192], [109.5915846, 23.1105471], [109.5913632, 23.1105452], [109.5913625, 23.1107692], [109.5911023, 23.1107686], [109.5911009, 23.1110908]]]}, "properties": {"name": "中国电信", "type": "building", "building": "yes"}}, {"type": "Feature", "geometry": {"type": "Polygon", "coordinates": [[[109.5911039, 23.1101875], [109.5911037, 23.1099446], [109.5913895, 23.1099444], [109.5913893, 23.109655], [109.5915648, 23.1096549], [109.5915654, 23.1101871], [109.5911039, 23.1101875]]]}, "properties": {"name": "中国邮政", "type": "building", "building": "yes"}}, {"type": "Feature", "geometry": {"type": "Polygon", "coordinates": [[[109.5937897, 23.1171088], [109.5937924, 23.1178785], [109.5946105, 23.1178908], [109.5946212, 23.1175824], [109.5944576, 23.1175553], [109.5943959, 23.1175035], [109.5944442, 23.1174344], [109.5943262, 23.117316], [109.5942377, 23.1173481], [109.5941706, 23.1172026], [109.594176, 23.1171212], [109.5937897, 23.1171088]]]}, "properties": {"name": "", "type": "building", "building": "yes"}}, {"type": "Feature", "geometry": {"type": "Polygon", "coordinates": [[[109.5948814, 23.1177773], [109.5950396, 23.1177502], [109.5951442, 23.1179056], [109.5954822, 23.1176762], [109.5953991, 23.1175627], [109.5954849, 23.1174443], [109.5955466, 23.117316], [109.5955573, 23.1171384], [109.59534, 23.1171409], [109.5953427, 23.1172593], [109.5952864, 23.1173678], [109.5952086, 23.1174344], [109.5951255, 23.1175183], [109.5950188, 23.1175746], [109.594882, 23.1175877], [109.5948814, 23.1177773]]]}, "properties": {"name": "", "type": "building", "building": "yes"}}, {"type": "Feature", "geometry": {"type": "Polygon", "coordinates": [[[109.5955943, 23.1169636], [109.5957048, 23.1169631], [109.5957016, 23.1163249], [109.5949497, 23.1163281], [109.5949505, 23.1164853], [109.5955458, 23.1164828], [109.5955461, 23.1165344], [109.5955922, 23.1165342], [109.5955943, 23.1169636]]]}, "properties": {"name": "", "type": "building", "building": "yes"}}, {"type": "Feature", "geometry": {"type": "Polygon", "coordinates": [[[109.5937883, 23.1169621], [109.5939156, 23.1169606], [109.5939087, 23.1164834], [109.594547, 23.1164757], [109.5945446, 23.1163108], [109.5937792, 23.1163199], [109.5937883, 23.1169621]]]}, "properties": {"name": "", "type": "building", "building": "yes"}}, {"type": "Feature", "geometry": {"type": "Polygon", "coordinates": [[[109.5939373, 23.1169781], [109.5940043, 23.1168079], [109.5941036, 23.1166376], [109.5942618, 23.1167437], [109.5941766, 23.11688], [109.5941559, 23.1169966], [109.5939373, 23.1169781]]]}, "properties": {"name": "", "type": "building", "building": "yes"}}, {"type": "Feature", "geometry": {"type": "Polygon", "coordinates": [[[109.5954264, 23.1178997], [109.5957032, 23.1178976], [109.5956996, 23.1175], [109.5955666, 23.1175011], [109.595569, 23.1177741], [109.5954253, 23.1177752], [109.5954264, 23.1178997]]]}, "properties": {"name": "", "type": "building", "building": "yes"}}, {"type": "Feature", "geometry": {"type": "Polygon", "coordinates": [[[109.5957045, 23.1174644], [109.5957045, 23.1171409], [109.5955875, 23.1171409], [109.5955875, 23.1174644], [109.5957045, 23.1174644]]]}, "properties": {"name": "", "type": "building", "building": "yes"}}, {"type": "Feature", "geometry": {"type": "Polygon", "coordinates": [[[109.5940602, 23.1154775], [109.5947091, 23.1154775], [109.5947139, 23.1157288], [109.5948798, 23.1157243], [109.5948701, 23.1154865], [109.595519, 23.1154865], [109.5949286, 23.1149256], [109.5949335, 23.1147506], [109.5951433, 23.1149301], [109.5953384, 23.1147461], [109.5955238, 23.1147461], [109.5955482, 23.1145801], [109.5956409, 23.1145846], [109.5959629, 23.1148583], [109.5960849, 23.1147506], [109.5957727, 23.1144589], [109.5957727, 23.1143961], [109.5957092, 23.1143512], [109.5956361, 23.1143378], [109.5955678, 23.1143737], [109.5955141, 23.1143692], [109.5955092, 23.1142839], [109.5940114, 23.1142704], [109.5940048, 23.1144006], [109.593964, 23.1144006], [109.5939386, 23.114365], [109.5939001, 23.1143445], [109.5938449, 23.1143414], [109.5937662, 23.1143854], [109.593765, 23.1144735], [109.5934503, 23.1147573], [109.5935296, 23.1148543], [109.5938717, 23.1145708], [109.593994, 23.1145771], [109.5939966, 23.1147373], [109.5941589, 23.1147411], [109.5943425, 23.1149225], [109.5945368, 23.114735], [109.5946046, 23.114749], [109.5946042, 23.1149514], [109.5940602, 23.1154775]]]}, "properties": {"name": "贵港市人民政府", "type": "building", "building": "yes"}}];
+const buildingsLayer = L.layerGroup();
+buildingData.forEach(f => {
+    const polygon = L.polygon(
+        f.geometry.coordinates[0].map(c => [c[1], c[0]]),
+        { color:'#e67e22', fillColor:'#f39c12', fillOpacity:0.35, weight:1.5 }
+    );
+    if (f.properties.name) polygon.bindTooltip(f.properties.name);
+    buildingsLayer.addLayer(polygon);
+});
+buildingsLayer.addTo(map);
+
+// === 水域层 ===
+const waterData = [{"type": "Feature", "geometry": {"type": "Polygon", "coordinates": [[[109.6092728, 23.1124031], [109.608981, 23.1123041], [109.6088576, 23.1121807], [109.6086055, 23.1120919], [109.6081817, 23.1120771], [109.6075755, 23.1121709], [109.6073073, 23.1120821], [109.6072322, 23.1119291], [109.6072215, 23.1116824], [109.6071142, 23.1114949], [109.6068084, 23.1114752], [109.6064597, 23.1118008], [109.6064115, 23.1120377], [109.6064275, 23.1123682], [109.6064651, 23.1131922], [109.6066046, 23.113582], [109.6072107, 23.1139915], [109.6077794, 23.1134981], [109.6080208, 23.1134241], [109.608348, 23.113355], [109.6088415, 23.1132711], [109.6091098, 23.1132711], [109.6093565, 23.1133205], [109.6095979, 23.1133599], [109.609732, 23.1132613], [109.6098661, 23.113133], [109.6099949, 23.1129751], [109.6101505, 23.1128369], [109.6102148, 23.1126445], [109.6101826, 23.1124669], [109.6100807, 23.1123584], [109.6098822, 23.112309], [109.609614, 23.1121857], [109.6094155, 23.1121413], [109.6092728, 23.1124031]]]}, "properties": {"name": "", "type": "water", "waterway": "", "natural": "water"}}, {"type": "Feature", "geometry": {"type": "Polygon", "coordinates": [[[109.5938024, 23.121017], [109.5935208, 23.1208863], [109.5934188, 23.1208049], [109.593333, 23.120721], [109.593341, 23.1206174], [109.5934135, 23.1205014], [109.5934698, 23.1203066], [109.5934403, 23.1201586], [109.5934081, 23.1200796], [109.5933947, 23.1199094], [109.5936415, 23.1198058], [109.5936897, 23.1197071], [109.5936924, 23.1195369], [109.5937273, 23.1194531], [109.5937997, 23.1194383], [109.5938721, 23.1194407], [109.5939311, 23.1194975], [109.5939338, 23.1195542], [109.5938426, 23.1196529], [109.5937729, 23.1197639], [109.5937568, 23.1198724], [109.5938265, 23.120055], [109.5939687, 23.1202252], [109.5939365, 23.1205902], [109.5939687, 23.120721], [109.5940009, 23.1208591], [109.5939875, 23.1209109], [109.5939231, 23.1209751], [109.593856, 23.121017], [109.5938024, 23.121017]]]}, "properties": {"name": "", "type": "water", "waterway": "", "natural": "water"}}];
+const waterLayer = L.layerGroup();
+waterData.forEach(f => {
+    const polygon = L.polygon(
+        f.geometry.coordinates[0].map(c => [c[1], c[0]]),
+        { color:'#2980b9', fillColor:'#3498db', fillOpacity:0.4, weight:1.5 }
+    );
+    if (f.properties.name) polygon.bindTooltip(f.properties.name);
+    waterLayer.addLayer(polygon);
+});
+waterLayer.addTo(map);
+
+// === 土地利用层 ===
+const landuseData = [{"type": "Feature", "geometry": {"type": "Polygon", "coordinates": [[[109.6002148, 23.1024204], [109.6018273, 23.1026353], [109.6019345, 23.1026907], [109.6026242, 23.1027338], [109.6036032, 23.102995], [109.6035683, 23.1032872], [109.6034798, 23.1036276], [109.6031928, 23.1042543], [109.6028227, 23.1049179], [109.6026349, 23.1049845], [109.6025035, 23.1049845], [109.5999044, 23.104015], [109.6002148, 23.1024204]]]}, "properties": {"name": "", "type": "landuse", "landuse": "residential", "leisure": ""}}, {"type": "Feature", "geometry": {"type": "Polygon", "coordinates": [[[109.597491, 23.1229141], [109.5975193, 23.1186306], [109.6014832, 23.1185916], [109.6015965, 23.1229141], [109.597491, 23.1229141]]]}, "properties": {"name": "国际新城", "type": "landuse", "landuse": "residential", "leisure": ""}}, {"type": "Feature", "geometry": {"type": "Polygon", "coordinates": [[[109.5924474, 23.1131165], [109.5955619, 23.113097], [109.5956115, 23.1083314], [109.5942312, 23.1082794], [109.59421, 23.1089695], [109.5934596, 23.1089629], [109.5934613, 23.1083758], [109.5924561, 23.1083432], [109.5923924, 23.1094825], [109.5939497, 23.1094956], [109.5939803, 23.1114254], [109.5926307, 23.1114111], [109.59239, 23.1116001], [109.5924474, 23.1131165]]]}, "properties": {"name": "新世纪广场", "type": "landuse", "landuse": "park", "leisure": "park"}}, {"type": "Feature", "geometry": {"type": "Polygon", "coordinates": [[[109.597575, 23.1020686], [109.6002148, 23.1024204], [109.6018273, 23.1026353], [109.6019345, 23.1026907], [109.6026242, 23.1027338], [109.6036032, 23.102995], [109.6051648, 23.1031253], [109.6065939, 23.1032511], [109.6079163, 23.1033506], [109.6100538, 23.1034835], [109.6114913, 23.1035681], [109.6120664, 23.1035407], [109.6136468, 23.1035531], [109.619975, 23.1039165], [109.6264171, 23.1042799], [109.6250912, 23.1032759], [109.6245048, 23.1032389], [109.6189176, 23.1028763], [109.6188171, 23.1024818], [109.6182938, 23.1025565], [109.6178408, 23.1025937], [109.6166245, 23.1026124], [109.6124646, 23.1023068], [109.6124671, 23.1022505], [109.6124085, 23.1022472], [109.6072157, 23.1019532], [109.6072066, 23.1020472], [109.6066357, 23.1020098], [109.606657, 23.1016851], [109.6047202, 23.1016128], [109.6047324, 23.1013088], [109.6035952, 23.1012555], [109.6023296, 23.1012248], [109.6016934, 23.1013295], [109.5975951, 23.1012186], [109.597575, 23.1020686]]]}, "properties": {"name": "", "type": "landuse", "landuse": "railway", "leisure": ""}}, {"type": "Feature", "geometry": {"type": "Polygon", "coordinates": [[[109.5980374, 23.1032857], [109.5974055, 23.103095], [109.5973989, 23.10207], [109.597575, 23.1020686], [109.6002148, 23.1024204], [109.5999044, 23.104015], [109.5980374, 23.1032857]]]}, "properties": {"name": "", "type": "landuse", "landuse": "construction", "leisure": ""}}, {"type": "Feature", "geometry": {"type": "Polygon", "coordinates": [[[109.6041803, 23.1034145], [109.6043023, 23.1031406], [109.6063028, 23.1032574], [109.6066843, 23.1033753], [109.6072314, 23.1034072], [109.6076841, 23.103528], [109.6077537, 23.1036044], [109.6078535, 23.1036483], [109.6078294, 23.1039581], [109.6075302, 23.1039445], [109.6075273, 23.1041729], [109.6074334, 23.1041679], [109.6070978, 23.1043594], [109.6056348, 23.1043277], [109.6052709, 23.1045331], [109.6052456, 23.1047485], [109.6050524, 23.1046954], [109.6042165, 23.1041651], [109.6041803, 23.1034145]]]}, "properties": {"name": "贵港市高铁综合客运枢纽", "type": "landuse", "landuse": "construction", "leisure": ""}}, {"type": "Feature", "geometry": {"type": "Polygon", "coordinates": [[[109.6076667, 23.1064549], [109.6083748, 23.1064524], [109.6089569, 23.1064697], [109.6094638, 23.1065141], [109.6098742, 23.106524], [109.6100137, 23.1065782], [109.6101478, 23.106672], [109.6102148, 23.1067731], [109.6102524, 23.1069853], [109.6101907, 23.1080658], [109.6101424, 23.1082015], [109.6100566, 23.108278], [109.6099091, 23.1083372], [109.6093619, 23.1083199], [109.6090722, 23.1083495], [109.60834, 23.1083249], [109.6082729, 23.1082829], [109.6074066, 23.1082459], [109.6073073, 23.1081818], [109.6072564, 23.1081004], [109.6072295, 23.107977], [109.6072564, 23.1075749], [109.607318, 23.1074096], [109.6073288, 23.1066917], [109.6073636, 23.1065955], [109.60742, 23.1065042], [109.6075192, 23.1064672], [109.6076667, 23.1064549]]]}, "properties": {"name": "贵港新城吾悦广场", "type": "landuse", "landuse": "commercial", "leisure": ""}}, {"type": "Feature", "geometry": {"type": "Polygon", "coordinates": [[[109.592704, 23.1166495], [109.592708, 23.1168728], [109.5928144, 23.1168711], [109.5928104, 23.1166479], [109.592704, 23.1166495]]]}, "properties": {"name": "", "type": "landuse", "landuse": "pitch", "leisure": "pitch"}}, {"type": "Feature", "geometry": {"type": "Polygon", "coordinates": [[[109.6067846, 23.1060432], [109.6056653, 23.1059352], [109.6055326, 23.1057866], [109.6055887, 23.104671], [109.6056874, 23.1045646], [109.605866, 23.1045067], [109.6070091, 23.1045536], [109.6071027, 23.1047492], [109.6070159, 23.1059321], [109.6067846, 23.1060432]]]}, "properties": {"name": "", "type": "landuse", "landuse": "grass", "leisure": ""}}];
+const landuseLayer = L.layerGroup();
+landuseData.forEach(f => {
+    const lu = f.properties.landuse;
+    const isPark = lu === 'park' || f.properties.leisure === 'park';
+    const isGreen = lu === 'grass' || lu === 'forest' || lu === 'greenfield';
+    const color = isPark ? '#27ae60' : isGreen ? '#2ecc71' : '#95a5a6';
+    const polygon = L.polygon(
+        f.geometry.coordinates[0].map(c => [c[1], c[0]]),
+        { color:color, fillColor:color, fillOpacity:0.25, weight:1.5, dashArray: isPark ? null : '5,5' }
+    );
+    const label = isPark ? '公园' : lu;
+    if (f.properties.name) polygon.bindTooltip(f.properties.name);
+    else polygon.bindTooltip(label);
+    landuseLayer.addLayer(polygon);
+});
+landuseLayer.addTo(map);
+
+// === POI 层 ===
+const poiData = [{"type": "Feature", "geometry": {"type": "Point", "coordinates": [109.5946193, 23.1144539]}, "properties": {"name": "贵港市", "type": "poi", "amenity": "", "leisure": "", "tourism": "", "shop": ""}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [109.5967872, 23.1165937]}, "properties": {"name": "贵港市图书馆", "type": "poi", "amenity": "library", "leisure": "", "tourism": "", "shop": ""}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [109.5966864, 23.1094683]}, "properties": {"name": "仔仔咖啡", "type": "poi", "amenity": "cafe", "leisure": "", "tourism": "", "shop": ""}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [109.5964771, 23.1094617]}, "properties": {"name": "玉林一家脆皮狗肉", "type": "poi", "amenity": "restaurant", "leisure": "", "tourism": "", "shop": ""}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [109.5963225, 23.1094683]}, "properties": {"name": "以后饭庄", "type": "poi", "amenity": "restaurant", "leisure": "", "tourism": "", "shop": ""}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [109.5968991, 23.1098886]}, "properties": {"name": "察先生", "type": "poi", "amenity": "cafe", "leisure": "", "tourism": "", "shop": ""}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [109.5931897, 23.1168022]}, "properties": {"name": "维多利亚酒店", "type": "poi", "amenity": "", "leisure": "", "tourism": "hotel", "shop": ""}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [109.5942908, 23.1174614]}, "properties": {"name": "贵港市文华国际大酒店", "type": "poi", "amenity": "", "leisure": "", "tourism": "hotel", "shop": ""}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [109.5940107, 23.1178573]}, "properties": {"name": "新疆新玉烤羊肉烧烤店", "type": "poi", "amenity": "restaurant", "leisure": "", "tourism": "", "shop": ""}}];
+const poisLayer = L.layerGroup();
+const poiIcon = L.divIcon({
+    className: 'custom-poi',
+    html: '<div style="background:#e74c3c;width:10px;height:10px;border-radius:50%;border:2px solid white;box-shadow:0 1px 4px rgba(0,0,0,0.3)"></div>',
+    iconSize: [14, 14],
+    iconAnchor: [7, 7],
+});
+poiData.forEach(f => {
+    const marker = L.marker([f.geometry.coordinates[1], f.geometry.coordinates[0]], {icon:poiIcon});
+    marker.bindTooltip(`<b>${f.properties.name}</b>`);
+    poisLayer.addLayer(marker);
+});
+poisLayer.addTo(map);
+
+// === 图层切换 ===
+const layers = { pois: poisLayer };
+const overlayLayers = { buildings: buildingsLayer, water: waterLayer, landuse: landuseLayer };
+let overlayVisible = true;
+
+function updateBtnState(btnId, visible) {
+    const btn = document.getElementById(btnId);
+    if (btn) btn.className = visible ? 'on' : 'off';
+}
+
+function toggleLayer(name) {
+    if (name === 'pois') {
+        // POI 切换：同时管理内嵌和下载的 POI 图层
+        const embeddedVisible = map.hasLayer(layers[name]);
+        const downloadedVisible = downloadedPoisLayer && map.hasLayer(downloadedPoisLayer);
+        const isVisible = embeddedVisible || downloadedVisible;
+
+        if (isVisible) {
+            if (map.hasLayer(layers[name])) map.removeLayer(layers[name]);
+            if (downloadedPoisLayer && map.hasLayer(downloadedPoisLayer)) map.removeLayer(downloadedPoisLayer);
+            updateBtnState('btn-pois', false);
+        } else {
+            if (!map.hasLayer(layers[name])) map.addLayer(layers[name]);
+            if (downloadedPoisLayer && !map.hasLayer(downloadedPoisLayer)) map.addLayer(downloadedPoisLayer);
+            updateBtnState('btn-pois', true);
+        }
+    } else {
+        if (map.hasLayer(layers[name])) {
+            map.removeLayer(layers[name]);
+            updateBtnState('btn-pois', false);
+        } else {
+            map.addLayer(layers[name]);
+            updateBtnState('btn-pois', true);
+        }
+    }
+}
+
+function toggleOverlay() {
+    overlayVisible = !overlayVisible;
+    Object.values(overlayLayers).forEach(layer => {
+        if (overlayVisible) map.addLayer(layer);
+        else map.removeLayer(layer);
+    });
+    // 同时切换下载的非道路图层
+    const downloadedExtra = [downloadedBuildingLayer, downloadedWaterLayer, downloadedLanduseLayer];
+    downloadedExtra.forEach(layer => {
+        if (layer) {
+            if (overlayVisible) map.addLayer(layer);
+            else map.removeLayer(layer);
+        }
+    });
+    updateBtnState('btn-overlay', overlayVisible);
+}
+
+function toggleRoadType(hw) {
+    // "link" 特殊处理：切换 primary_link, tertiary_link, trunk_link
+    if (hw === 'link') {
+        const linkTypes = ['primary_link','tertiary_link','trunk_link'];
+        const allVisible = linkTypes.every(k => map.hasLayer(roadLayers[k]));
+        linkTypes.forEach(k => {
+            if (allVisible) {
+                if (roadLayers[k]) map.removeLayer(roadLayers[k]);
+                if (downloadedRoadLayers[k]) map.removeLayer(downloadedRoadLayers[k]);
+            } else {
+                if (roadLayers[k]) map.addLayer(roadLayers[k]);
+                if (downloadedRoadLayers[k]) map.addLayer(downloadedRoadLayers[k]);
+            }
+        });
+        updateBtnState('btn-link', !allVisible);
+        return;
+    }
+    // 判断当前可见性：优先看内嵌图层，再看下载图层
+    const embeddedVisible = roadLayers[hw] && map.hasLayer(roadLayers[hw]);
+    const downloadedVisible = downloadedRoadLayers[hw] && map.hasLayer(downloadedRoadLayers[hw]);
+    const isVisible = embeddedVisible || downloadedVisible;
+
+    if (isVisible) {
+        if (roadLayers[hw]) map.removeLayer(roadLayers[hw]);
+        if (downloadedRoadLayers[hw]) map.removeLayer(downloadedRoadLayers[hw]);
+        updateBtnState('btn-' + hw, false);
+    } else {
+        if (roadLayers[hw]) map.addLayer(roadLayers[hw]);
+        if (downloadedRoadLayers[hw]) map.addLayer(downloadedRoadLayers[hw]);
+        updateBtnState('btn-' + hw, true);
+    }
+}
+
+// === 交叉口层 ===
+let junctionsVisible = true;
+const junctionsLayer = L.layerGroup();
+
+// 根据汇聚道路数量设置颜色和大小
+function getJunctionStyle(wayCount) {
+    if (wayCount >= 5) return { radius: 10, color: '#e74c3c', fillColor: '#e74c3c', fillOpacity: 0.9, weight: 3 };
+    if (wayCount >= 4) return { radius: 8, color: '#e67e22', fillColor: '#e67e22', fillOpacity: 0.85, weight: 2.5 };
+    if (wayCount >= 3) return { radius: 7, color: '#f1c40f', fillColor: '#f1c40f', fillOpacity: 0.85, weight: 2 };
+    return { radius: 5, color: '#e74c3c', fillColor: '#e74c3c', fillOpacity: 0.6, weight: 1.5 };
+}
+
+junctionData.forEach(j => {
+    const style = getJunctionStyle(j.way_count);
+    const circle = L.circleMarker([j.lat, j.lon], style);
+
+    // 构建 tooltip 内容
+    const roadNames = j.roads.filter(r => !r.startsWith('['));
+    const roadLabels = j.roads.map(r => r.startsWith('[') ? r.replace(/[\[\]]/g,'') : '<b>'+r+'</b>');
+    const title = j.way_count >= 3 ? '主要交叉口' : '交叉口';
+    circle.bindTooltip(
+        `<b>${title}</b> | ${j.way_count}条道路汇聚<br>${roadLabels.join(', ')}`,
+        { direction: 'top', offset: [0, -style.radius - 2] }
+    );
+    junctionsLayer.addLayer(circle);
+});
+junctionsLayer.addTo(map);
+
+function toggleJunctions() {
+    const btn = document.getElementById('btn-junctions');
+    // 用按钮 CSS 类判断当前状态（而非 map.hasLayer，避免与下载数据图层冲突）
+    const isOn = btn && btn.classList.contains('on');
+
+    if (isOn) {
+        // 关闭：移除所有 junction 图层
+        if (map.hasLayer(junctionsLayer)) {
+            map.removeLayer(junctionsLayer);
+        }
+        if (downloadedJunctionLayer && map.hasLayer(downloadedJunctionLayer)) {
+            map.removeLayer(downloadedJunctionLayer);
+        }
+        junctionsVisible = false;
+        updateBtnState('btn-junctions', false);
+    } else {
+        // 打开：添加 junction 图层
+        if (!map.hasLayer(junctionsLayer)) {
+            map.addLayer(junctionsLayer);
+        }
+        if (downloadedJunctionLayer && !map.hasLayer(downloadedJunctionLayer)) {
+            map.addLayer(downloadedJunctionLayer);
+        }
+        junctionsVisible = true;
+        updateBtnState('btn-junctions', true);
+    }
+}
+
+// === Intersection 层 (主干道/次干道/三级路交叉口) ===
+const intersectionLayer = L.layerGroup();
+
+// 根据汇聚的 highway 类型组合设置颜色
+function getIntersectionStyle(j) {
+    const hw = j.highways || [];
+    const hasPrimary = hw.includes('primary');
+    const hasSecondary = hw.includes('secondary');
+    const hasTertiary = hw.includes('tertiary');
+    // primary + secondary = 最重要 (红)
+    if (hasPrimary && hasSecondary) return { radius: 9, color: '#e74c3c', fillColor: '#e74c3c', fillOpacity: 0.9, weight: 3 };
+    // primary + tertiary (橙)
+    if (hasPrimary && hasTertiary) return { radius: 8, color: '#e67e22', fillColor: '#e67e22', fillOpacity: 0.85, weight: 2.5 };
+    // secondary + tertiary (蓝)
+    if (hasSecondary && hasTertiary) return { radius: 7, color: '#2980b9', fillColor: '#3498db', fillOpacity: 0.85, weight: 2.5 };
+    // tertiary only (三级路之间汇聚，绿色)
+    if (hasTertiary) return { radius: 6, color: '#27ae60', fillColor: '#2ecc71', fillOpacity: 0.8, weight: 2 };
+    return { radius: 6, color: '#f1c40f', fillColor: '#f1c40f', fillOpacity: 0.8, weight: 2 };
+}
+
+intersectionData.forEach(j => {
+    const style = getIntersectionStyle(j);
+    const circle = L.circleMarker([j.lat, j.lon], style);
+
+    // 构建 highway 类型标签
+    const hwLabels = (j.highways || []).map(h => {
+        const map = {primary:'主干道', secondary:'次干道', tertiary:'三级路'};
+        return map[h] || h;
+    });
+    const roadLabels = j.roads.map(r => r.startsWith('[') ? r.replace(/[\[\]]/g,'') : '<b>'+r+'</b>');
+    circle.bindTooltip(
+        `<b>Intersection</b> | ${j.way_count}条道路<br>类型: ${hwLabels.join(' + ')}<br>${roadLabels.join(', ')}`,
+        { direction: 'top', offset: [0, -style.radius - 2] }
+    );
+    intersectionLayer.addLayer(circle);
+});
+intersectionLayer.addTo(map);
+
+function toggleIntersection() {
+    const btn = document.getElementById('btn-intersection');
+    const isOn = btn && btn.classList.contains('on');
+
+    if (isOn) {
+        // 关闭：移除所有 intersection 图层
+        if (map.hasLayer(intersectionLayer)) {
+            map.removeLayer(intersectionLayer);
+        }
+        if (downloadedIntersectionLayer && map.hasLayer(downloadedIntersectionLayer)) {
+            map.removeLayer(downloadedIntersectionLayer);
+        }
+        updateBtnState('btn-intersection', false);
+    } else {
+        // 打开：添加 intersection 图层
+        if (!map.hasLayer(intersectionLayer)) {
+            map.addLayer(intersectionLayer);
+        }
+        if (downloadedIntersectionLayer && !map.hasLayer(downloadedIntersectionLayer)) {
+            map.addLayer(downloadedIntersectionLayer);
+        }
+        updateBtnState('btn-intersection', true);
+    }
+}
+
+// === 交通信号灯层 ===
+let trafficSignalsVisible = false;
+let trafficSignalsLayer = null;
+let trafficSignalsData = [];  // 存储交通信号灯数据
+let downloadedTrafficSignalsLayer = null;
+let downloadedTrafficSignalsData = [];
+
+// === 当前数据集跟踪 ===
+let currentDataset = null;  // 当前加载的数据集信息
+let currentOsmPath = null;  // 当前加载的OSM数据路径
+
+// 渲染交通信号灯数据
+function renderTrafficSignals(data, isDownloaded = false) {
+    if (!data || data.length === 0) {
+        console.log('该区域无交通信号灯数据');
+        return;
+    }
+
+    const layer = L.layerGroup();
+
+    data.forEach(ts => {
+        const marker = L.circleMarker([ts.lat, ts.lon], {
+            radius: 8,
+            color: '#00FF00',
+            fillColor: '#00FF00',
+            fillOpacity: 0.7,
+            weight: 2
+        });
+
+        let popupContent = '<b>🚦 交通信号灯</b>';
+        if (ts.tags) {
+            if (ts.tags.name) popupContent += `<br>名称: ${ts.tags.name}`;
+            if (ts.tags.crossing) popupContent += `<br>人行横道: ${ts.tags.crossing}`;
+            if (ts.tags.traffic_signals) popupContent += `<br>类型: ${ts.tags.traffic_signals}`;
+        }
+        marker.bindPopup(popupContent);
+        layer.addLayer(marker);
+    });
+
+    if (isDownloaded) {
+        if (downloadedTrafficSignalsLayer) {
+            map.removeLayer(downloadedTrafficSignalsLayer);
+        }
+        downloadedTrafficSignalsLayer = layer;
+    } else {
+        if (trafficSignalsLayer) {
+            map.removeLayer(trafficSignalsLayer);
+        }
+        trafficSignalsLayer = layer;
+    }
+
+    layer.addTo(map);
+    trafficSignalsVisible = true;
+    updateBtnState('btn-traffic', true);
+}
+
+function toggleTrafficSignals() {
+    const btn = document.getElementById('btn-traffic');
+    const isOn = btn && btn.classList.contains('on');
+
+    if (isOn) {
+        // 关闭信号灯图层
+        if (trafficSignalsLayer && map.hasLayer(trafficSignalsLayer)) {
+            map.removeLayer(trafficSignalsLayer);
+        }
+        if (downloadedTrafficSignalsLayer && map.hasLayer(downloadedTrafficSignalsLayer)) {
+            map.removeLayer(downloadedTrafficSignalsLayer);
+        }
+        trafficSignalsVisible = false;
+        updateBtnState('btn-traffic', false);
+    } else {
+        // 打开信号灯图层
+        let hasData = false;
+        
+        if (trafficSignalsLayer) {
+            if (!map.hasLayer(trafficSignalsLayer)) {
+                map.addLayer(trafficSignalsLayer);
+            }
+            hasData = true;
+        }
+        
+        if (downloadedTrafficSignalsLayer) {
+            if (!map.hasLayer(downloadedTrafficSignalsLayer)) {
+                map.addLayer(downloadedTrafficSignalsLayer);
+            }
+            hasData = true;
+        }
+        
+        if (!hasData) {
+            // 尝试加载本地信号灯数据
+            loadLocalTrafficSignals();
+            return;
+        }
+        
+        trafficSignalsVisible = true;
+        updateBtnState('btn-traffic', true);
+    }
+}
+
+// 尝试加载本地信号灯数据
+async function loadLocalTrafficSignals() {
+    const btn = document.getElementById('btn-traffic');
+    
+    try {
+        // 动态获取当前加载的数据集路径
+        let baseDir = null;
+        
+        // 方法1: 从全局变量获取当前数据集
+        if (typeof currentDataset !== 'undefined' && currentDataset && currentDataset.directory) {
+            baseDir = 'osm_data/' + currentDataset.directory;
+        }
+        // 方法2: 从窗口标题或URL参数获取
+        else if (typeof currentOsmPath !== 'undefined' && currentOsmPath) {
+            baseDir = currentOsmPath;
+        }
+        // 方法3: 默认使用第一个可用数据集
+        else {
+            // 尝试从 index.json 获取第一个数据集
+            const indexResp = await fetch('osm_data/index.json');
+            if (indexResp.ok) {
+                const indexData = await indexResp.json();
+                if (indexData.datasets && indexData.datasets.length > 0) {
+                    baseDir = indexData.datasets[0].path;
+                }
+            }
+        }
+        
+        if (!baseDir) {
+            alert('无法确定数据目录！请先加载一个数据集。');
+            return;
+        }
+        
+        console.log('尝试从目录加载交通信号灯:', baseDir);
+        
+        // 尝试加载 traffic_signals.json
+        const resp = await fetch(baseDir + '/traffic_signals.json');
+        
+        if (resp.ok) {
+            const data = await resp.json();
+            
+            // 检查数据格式并正确解析
+            let signals = [];
+            
+            if (Array.isArray(data)) {
+                // 简化格式：直接是对象数组
+                signals = data;
+            } else if (data.elements && Array.isArray(data.elements)) {
+                // OSM完整格式：从 elements 中提取 traffic_signals 节点
+                data.elements.forEach(elem => {
+                    if (elem.type === 'node' && elem.tags && elem.tags.highway === 'traffic_signals') {
+                        signals.push({
+                            lat: elem.lat,
+                            lon: elem.lon,
+                            tags: elem.tags
+                        });
+                    }
+                });
+            }
+            
+            if (signals.length > 0) {
+                trafficSignalsData = signals;
+                renderTrafficSignals(trafficSignalsData, false);
+                trafficSignalsVisible = true;
+                updateBtnState('btn-traffic', true);
+                // 更新信息面板中的信号灯统计数量
+                updateInfoPanel(lastTitle, lastRoadTypeCounts, lastBuildingCount, lastWaterCount, lastLanduseCount, lastPoiCount, lastJunctionCount, lastIntersectionCount, trafficSignalsData.length);
+                alert(`成功加载 ${signals.length} 个信号灯！`);
+                return;
+            }
+        }
+        
+        // 如果 traffic_signals.json 不存在或为空，尝试从 combined.json 中提取
+        const combinedResp = await fetch(baseDir + '/combined.json');
+        if (combinedResp.ok) {
+            const combinedData = await combinedResp.json();
+            const result = parseOSMData(combinedData);
+            
+            if (result.trafficSignals && result.trafficSignals.length > 0) {
+                // 转换为 renderTrafficSignals 期望的格式
+                trafficSignalsData = result.trafficSignals.map(ts => ({
+                    lat: ts.geometry.coordinates[1],
+                    lon: ts.geometry.coordinates[0],
+                    tags: ts.properties.tags || {}
+                }));
+
+                renderTrafficSignals(trafficSignalsData, false);
+                trafficSignalsVisible = true;
+                updateBtnState('btn-traffic', true);
+                // 更新信息面板中的信号灯统计数量
+                updateInfoPanel(lastTitle, lastRoadTypeCounts, lastBuildingCount, lastWaterCount, lastLanduseCount, lastPoiCount, lastJunctionCount, lastIntersectionCount, trafficSignalsData.length);
+                alert(`成功从 combined.json 加载 ${trafficSignalsData.length} 个信号灯！`);
+                return;
+            }
+        }
+        
+        // 如果所有方法都失败，提示用户
+        alert('该区域无交通信号灯数据！\n\n可能的解决方案：\n1. 使用 "Search Location" 下载其他区域数据\n2. 检查 OSM 原始数据中是否包含 traffic_signals');
+    } catch (error) {
+        console.error('加载本地信号灯数据失败:', error);
+        alert('加载交通信号灯数据失败：' + error.message);
+    }
+}
+
+// === Coordinates 交互模式 ===
+let coordModeActive = false;
+let coordInfoPanel = null;
+let coordModeBtn = null;
+
+function showCoordinates() {
+    coordModeActive = !coordModeActive;
+    coordModeBtn = document.querySelector('#btn-coord') || document.querySelector('button[onclick="showCoordinates()"]');
+    
+    // 移除旧的 info 面板
+    if (coordInfoPanel) { coordInfoPanel.remove(); coordInfoPanel = null; }
+    
+    if (coordModeActive) {
+        coordModeBtn.textContent = 'Coordinates ✓';
+        coordModeBtn.style.background = '#e74c3c';
+        coordModeBtn.style.color = 'white';
+        coordModeBtn.style.fontWeight = 'bold';
+        
+        // 创建浮动坐标信息面板
+        coordInfoPanel = document.createElement('div');
+        coordInfoPanel.id = 'coord-info-panel';
+        coordInfoPanel.style.cssText = 'position:absolute;bottom:50px;left:50%;transform:translateX(-50%);z-index:1001;background:rgba(0,0,0,0.85);color:#fff;border-radius:8px;padding:10px 18px;font-size:13px;font-family:Consolas,monospace;pointer-events:none;min-width:200px;text-align:center;display:none;box-shadow:0 2px 12px rgba(0,0,0,0.3);';
+        coordInfoPanel.innerHTML = '<span style="color:#aaa">将鼠标移到交叉口标记上查看坐标</span>';
+        document.getElementById('map').appendChild(coordInfoPanel);
+        
+        // 为 junctionsLayer 和 intersectionLayer 添加 mouseover/mouseout
+        junctionsLayer.eachLayer(function(layer) {
+            layer.on('mouseover', function(e) {
+                const ll = e.target.getLatLng();
+                const data = junctionData.find(j => Math.abs(j.lat - ll.lat) < 0.00001 && Math.abs(j.lon - ll.lng) < 0.00001);
+                if (data) {
+                    const roads = data.roads.map(r => r.startsWith('[') ? r.replace(/[\[\]]/g,'') : r).join(', ');
+                    coordInfoPanel.innerHTML = `<b style="color:#f1c40f">Junction</b> | ${data.lat}, ${data.lon}<br><span style="color:#ccc">${data.way_count}条: ${roads}</span>`;
+                } else {
+                    coordInfoPanel.innerHTML = `<b style="color:#f1c40f">Junction</b> | ${ll.lat.toFixed(7)}, ${ll.lng.toFixed(7)}`;
+                }
+                coordInfoPanel.style.display = 'block';
+            });
+            layer.on('mouseout', function() {
+                coordInfoPanel.style.display = 'none';
+            });
+        });
+        
+        intersectionLayer.eachLayer(function(layer) {
+            layer.on('mouseover', function(e) {
+                const ll = e.target.getLatLng();
+                const data = intersectionData.find(j => Math.abs(j.lat - ll.lat) < 0.00001 && Math.abs(j.lon - ll.lng) < 0.00001);
+                if (data) {
+                    const hwLabels = (data.highways || []).map(h => ({primary:'主干道',secondary:'次干道',tertiary:'三级路'})[h]||h).join('+');
+                    const roads = data.roads.map(r => r.startsWith('[') ? r.replace(/[\[\]]/g,'') : r).join(', ');
+                    coordInfoPanel.innerHTML = `<b style="color:#3498db">Intersection</b> | ${data.lat}, ${data.lon}<br><span style="color:#ccc">${data.way_count}条 | ${hwLabels}: ${roads}</span>`;
+                } else {
+                    coordInfoPanel.innerHTML = `<b style="color:#3498db">Intersection</b> | ${ll.lat.toFixed(7)}, ${ll.lng.toFixed(7)}`;
+                }
+                coordInfoPanel.style.display = 'block';
+            });
+            layer.on('mouseout', function() {
+                coordInfoPanel.style.display = 'none';
+            });
+        });
+
+        // 为下载的 junction/intersection 图层也添加 mouseover/mouseout
+        if (downloadedJunctionLayer) {
+            downloadedJunctionLayer.eachLayer(function(layer) {
+                layer.on('mouseover', function(e) {
+                    const ll = e.target.getLatLng();
+                    const data = downloadedJunctionData.find(j => Math.abs(j.lat - ll.lat) < 0.00001 && Math.abs(j.lon - ll.lng) < 0.00001);
+                    if (data) {
+                        const roads = data.roads.map(r => r.startsWith('[') ? r.replace(/[\[\]]/g,'') : r).join(', ');
+                        coordInfoPanel.innerHTML = `<b style="color:#f1c40f">Junction</b> | ${data.lat}, ${data.lon}<br><span style="color:#ccc">${data.way_count}条: ${roads}</span>`;
+                    } else {
+                        coordInfoPanel.innerHTML = `<b style="color:#f1c40f">Junction</b> | ${ll.lat.toFixed(7)}, ${ll.lng.toFixed(7)}`;
+                    }
+                    coordInfoPanel.style.display = 'block';
+                });
+                layer.on('mouseout', function() {
+                    coordInfoPanel.style.display = 'none';
+                });
+            });
+        }
+        if (downloadedIntersectionLayer) {
+            downloadedIntersectionLayer.eachLayer(function(layer) {
+                layer.on('mouseover', function(e) {
+                    const ll = e.target.getLatLng();
+                    const data = downloadedIntersectionData.find(j => Math.abs(j.lat - ll.lat) < 0.00001 && Math.abs(j.lon - ll.lng) < 0.00001);
+                    if (data) {
+                        const hwLabels = (data.highways || []).map(h => ({primary:'主干道',secondary:'次干道',tertiary:'三级路'})[h]||h).join('+');
+                        const roads = data.roads.map(r => r.startsWith('[') ? r.replace(/[\[\]]/g,'') : r).join(', ');
+                        coordInfoPanel.innerHTML = `<b style="color:#3498db">Intersection</b> | ${data.lat}, ${data.lon}<br><span style="color:#ccc">${data.way_count}条 | ${hwLabels}: ${roads}</span>`;
+                    } else {
+                        coordInfoPanel.innerHTML = `<b style="color:#3498db">Intersection</b> | ${ll.lat.toFixed(7)}, ${ll.lng.toFixed(7)}`;
+                    }
+                    coordInfoPanel.style.display = 'block';
+                });
+                layer.on('mouseout', function() {
+                    coordInfoPanel.style.display = 'none';
+                });
+            });
+        }
+    } else {
+        coordModeBtn.textContent = 'Coordinates';
+        coordModeBtn.style.background = 'white';
+        coordModeBtn.style.color = '';
+        coordModeBtn.style.fontWeight = '';
+        if (coordInfoPanel) { coordInfoPanel.remove(); coordInfoPanel = null; }
+    }
+}
+
+// === Search Location: 以坐标为中心300m范围查找交叉口 ===
+let searchCircle = null;
+let searchMarker = null;
+let searchHighlighted = []; // 高亮的 marker
+
+// 计算两点距离 (米), Haversine formula
+function haversineDistance(lat1, lon1, lat2, lon2) {
+    const R = 6371000;
+    const dLat = (lat2 - lat1) * Math.PI / 180;
+    const dLon = (lon2 - lon1) * Math.PI / 180;
+    const a = Math.sin(dLat/2) * Math.sin(dLat/2) +
+              Math.cos(lat1 * Math.PI/180) * Math.cos(lat2 * Math.PI/180) *
+              Math.sin(dLon/2) * Math.sin(dLon/2);
+    const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a));
+    return R * c;
+}
+
+function clearSearchHighlight() {
+    searchHighlighted.forEach(m => {
+        if (m._originalRadius) {
+            m.setRadius(m._originalRadius);
+            m.setStyle({ fillOpacity: m._originalFillOpacity, weight: m._originalWeight });
+        }
+    });
+    searchHighlighted = [];
+    if (searchCircle) { map.removeLayer(searchCircle); searchCircle = null; }
+    if (searchMarker) { map.removeLayer(searchMarker); searchMarker = null; }
+}
+
+// === 为 Search Location 加载已有 OSM 数据坐标列表 ===
+let _searchOsmDatasets = [];
+
+async function loadOsmDatasetsForSearch() {
+    if (_searchOsmDatasets.length > 0) return _searchOsmDatasets;
+    
+    try {
+        const resp = await fetch('osm_data/index.json');
+        if (resp.ok) {
+            const index = await resp.json();
+            if (index.datasets && index.datasets.length > 0) {
+                _searchOsmDatasets = index.datasets.map(ds => ({
+                    lat: ds.lat,
+                    lon: ds.lon,
+                    alias: ds.alias || ds.directory,
+                    directory: ds.directory,
+                    path: ds.path || ('osm_data/' + (ds.directory || ds.alias))
+                }));
+            }
+        }
+    } catch (e) {
+        console.warn('加载 OSM 数据集索引失败:', e);
+    }
+    return _searchOsmDatasets;
+}
+
+async function showSearchLocation(lat, lon) {
+    const existing = document.getElementById('search-overlay');
+    if (existing) existing.remove();
+
+    clearSearchHighlight();
+
+    const showLat = (lat !== undefined) ? lat : center[0];
+    const showLon = (lon !== undefined) ? lon : center[1];
+
+    // 加载已有 OSM 数据集
+    const datasets = await loadOsmDatasetsForSearch();
+
+    // 构建数据集快捷选择 HTML
+    let datasetQuickSelectHTML = '';
+    if (datasets.length > 0) {
+        datasetQuickSelectHTML = `
+            <div class="search-dataset-picker" style="padding:8px 14px; border-bottom:1px solid #eee;">
+                <label style="font-size:12px; color:#666; font-weight:500; display:block; margin-bottom:6px;">
+                    📍 已有数据快捷选择：
+                </label>
+                <div style="max-height:150px; overflow-y:auto;">`;
+        datasets.forEach((ds, i) => {
+            datasetQuickSelectHTML += `
+                <div class="result-item" onclick="fillSearchCoords(${ds.lat}, ${ds.lon})"
+                     style="padding:6px 8px; cursor:pointer; border-bottom:1px solid #f5f5f5; border-radius:3px; display:flex; justify-content:space-between; align-items:center;"
+                     onmouseover="this.style.background='#e8f4fd'" 
+                     onmouseout="this.style.background=''">
+                    <span style="font-size:13px; color:#2c3e50;">${ds.alias || ds.directory}</span>
+                    <span style="font-size:11px; color:#999; font-family:monospace;">${ds.lat}, ${ds.lon}</span>
+                </div>`;
+        });
+        datasetQuickSelectHTML += `</div></div>`;
+    }
+
+    const overlay = document.createElement('div');
+    overlay.id = 'search-overlay';
+    overlay.className = 'search-overlay';
+    overlay.innerHTML = `
+        <div class="search-dialog">
+            <h3>Search Location <span onclick="closeSearchOverlay()">&times;</span></h3>
+            <div class="search-input-area">
+                <input id="search-lat" type="text" placeholder="纬度" value="${showLat}">
+                <input id="search-lon" type="text" placeholder="经度" value="${showLon}">
+                <input id="search-radius" type="number" placeholder="半径(m)" value="300" min="10" max="5000" style="width:90px;">
+                <button onclick="doSearchLocation()">搜索</button>
+                <button id="map-pick-btn" class="map-pick-btn" onclick="toggleMapPick()" title="在地图上点击选点并搜索">🗺️ 地图选点</button>
+            </div>
+            <div class="pick-save-area" id="pick-save-area">
+                <input id="pick-name-input" type="text" placeholder="输入标记点名称（可选）" maxlength="50">
+                <button class="save-btn" onclick="savePickMarker()">💾 保存标记点</button>
+            </div>
+            <div class="saved-markers-section" id="saved-markers-section">
+                <div class="section-header">
+                    <strong>📌 已保存标记点 (<span id="saved-count">0</span>)</strong>
+                    <span>
+                        <button class="export-btn" onclick="exportSavedMarkers()" title="导出所有标记点">💾 导出</button>
+                        <button class="danger-btn" onclick="clearAllSavedMarkers()" title="清空所有标记点">🗑 清空</button>
+                    </span>
+                </div>
+                <div class="saved-markers-list" id="saved-markers-list"></div>
+            </div>
+            ${datasetQuickSelectHTML}
+            <div class="search-results" id="search-results">
+                <div class="empty">输入坐标和半径后点击搜索，查找指定范围内的交叉口</div>
+            </div>
+            <div class="search-footer">
+                <button class="primary" onclick="closeSearchOverlay()">关闭</button>
+            </div>
+        </div>`;
+    document.body.appendChild(overlay);
+
+    overlay.addEventListener('click', function(e) {
+        if (e.target === overlay) closeSearchOverlay();
+    });
+
+    // 回车触发搜索
+    setTimeout(() => {
+        document.getElementById('search-lat').focus();
+        const latInput = document.getElementById('search-lat');
+        const lonInput = document.getElementById('search-lon');
+        [latInput, lonInput].forEach(inp => {
+            inp.addEventListener('keydown', function(e) {
+                if (e.key === 'Enter') doSearchLocation();
+            });
+        });
+        // 名称输入框回车保存
+        const nameInput = document.getElementById('pick-name-input');
+        if (nameInput) {
+            nameInput.addEventListener('keydown', function(e) {
+                if (e.key === 'Enter') {
+                    savePickMarker();
+                }
+            });
+        }
+    }, 100);
+}
+
+function closeSearchOverlay() {
+    stopMapPick(); // 退出地图选点模式
+    clearSearchHighlight();
+    const overlay = document.getElementById('search-overlay');
+    if (overlay) overlay.remove();
+}
+
+// === 地图选点模式 ===
+let _mapPickMode = false;
+let _mapClickHandler = null;
+let _pickHintEl = null;
+
+// === 已保存标记点 ===
+let _savedMarkers = [];           // { id, name, lat, lon, marker, created_at }
+let _savedMarkersLayer = null;    // L.layerGroup
+let _savedMarkerCount = 0;        // 自动编号
+let _pendingPickLatlng = null;    // 待命名的点击位置
+
+function toggleMapPick() {
+    if (_mapPickMode) {
+        stopMapPick();
+    } else {
+        startMapPick();
+    }
+}
+
+function startMapPick() {
+    _mapPickMode = true;
+
+    // 更新按钮状态
+    const btn = document.getElementById('map-pick-btn');
+    if (btn) {
+        btn.textContent = '🔴 取消选点';
+        btn.classList.add('picking');
+    }
+
+    // 改变地图光标
+    map.getContainer().style.cursor = 'crosshair';
+
+    // 显示浮动提示
+    _pickHintEl = document.createElement('div');
+    _pickHintEl.className = 'map-pick-hint';
+    _pickHintEl.innerHTML = '📍 请在地图上点击选择搜索位置 <button class="cancel-pick" onclick="stopMapPick()">取消</button>';
+    document.body.appendChild(_pickHintEl);
+
+    // 绑定地图点击事件
+    _mapClickHandler = function(e) {
+        handleMapPick(e);
+    };
+    map.on('click', _mapClickHandler);
+
+    // ★ overlay保持高层(z-index:10000)，只通过pointer-events穿透点击到地图
+    const overlay = document.getElementById('search-overlay');
+    if (overlay) {
+        // 不修改z-index，保持overlay在高层
+        overlay.style.pointerEvents = 'none'; // 让点击穿透到地图
+        overlay.style.background = 'transparent'; // 去掉半透明背景
+    }
+    // dialog在overlay内部，通过pointer-events:auto保持可交互
+    const dialog = document.querySelector('.search-dialog');
+    if (dialog) {
+        dialog.style.position = 'relative';
+        dialog.style.zIndex = '10001';
+        dialog.style.pointerEvents = 'auto'; // 恢复可交互，按钮能响应点击
+    }
+}
+
+function stopMapPick() {
+    if (!_mapPickMode) return;
+    _mapPickMode = false;
+
+    // 恢复按钮状态
+    const btn = document.getElementById('map-pick-btn');
+    if (btn) {
+        btn.textContent = '🗺️ 地图选点';
+        btn.classList.remove('picking');
+    }
+
+    // 恢复地图光标
+    map.getContainer().style.cursor = '';
+
+    // 移除浮动提示
+    if (_pickHintEl) {
+        _pickHintEl.remove();
+        _pickHintEl = null;
+    }
+
+    // 解绑地图点击事件
+    if (_mapClickHandler) {
+        map.off('click', _mapClickHandler);
+        _mapClickHandler = null;
+    }
+
+    // 隐藏名称输入区域
+    _pendingPickLatlng = null;
+    const pickArea = document.getElementById('pick-save-area');
+    if (pickArea) pickArea.classList.remove('show');
+
+    // ★ 恢复遮罩层（z-index未修改过，无需恢复）
+    const overlay = document.getElementById('search-overlay');
+    if (overlay) {
+        overlay.style.pointerEvents = '';     // 恢复默认事件拦截
+        overlay.style.background = '';        // 恢复半透明背景
+    }
+    // 恢复对话框样式
+    const dialog = document.querySelector('.search-dialog');
+    if (dialog) {
+        dialog.style.position = '';
+        dialog.style.zIndex = '';
+        dialog.style.pointerEvents = '';
+    }
+}
+
+function handleMapPick(e) {
+    const lat = e.latlng.lat.toFixed(7);
+    const lon = e.latlng.lng.toFixed(7);
+
+    // 填入搜索框
+    const latInput = document.getElementById('search-lat');
+    const lonInput = document.getElementById('search-lon');
+    if (latInput) latInput.value = lat;
+    if (lonInput) lonInput.value = lon;
+
+    // 先保存坐标（在 doSearchLocation 之前）
+    _pendingPickLatlng = e.latlng;
+
+    // 自动执行搜索
+    doSearchLocation();
+
+    // 显示名称输入区域并聚焦
+    const pickArea = document.getElementById('pick-save-area');
+    const nameInput = document.getElementById('pick-name-input');
+    if (pickArea) pickArea.classList.add('show');
+    if (nameInput) {
+        nameInput.value = '';
+        nameInput.focus();
+    }
+}
+
+// === 保存地图选点的标记 ===
+function savePickMarker() {
+    if (!_pendingPickLatlng) {
+        alert('请先在地图上点击选点！');
+        return;
+    }
+
+    const input = document.getElementById('pick-name-input');
+    let name = (input ? input.value.trim() : '') || '';
+
+    const lat = _pendingPickLatlng.lat;
+    const lon = _pendingPickLatlng.lng;
+
+    // 如果没有输入名称，使用自动编号
+    if (!name) {
+        _savedMarkerCount++;
+        name = '标记点' + _savedMarkerCount;
+    }
+
+    saveNamedMarker(name, lat, lon);
+
+    // 清空输入并隐藏
+    if (input) input.value = '';
+    _pendingPickLatlng = null;
+    const pickArea = document.getElementById('pick-save-area');
+    if (pickArea) pickArea.classList.remove('show');
+}
+
+function saveNamedMarker(name, lat, lon) {
+    // 初始化图层
+    if (!_savedMarkersLayer) {
+        _savedMarkersLayer = L.layerGroup().addTo(map);
+    }
+
+    const id = Date.now() + '_' + Math.random().toString(36).substr(2, 6);
+    const created_at = new Date().toISOString();
+
+    // 创建 Leaflet 标记（紫色圆点 + 名称标签）
+    const marker = L.circleMarker([lat, lon], {
+        radius: 8,
+        color: '#8e44ad',
+        fillColor: '#8e44ad',
+        fillOpacity: 0.85,
+        weight: 3
+    });
+
+    // 绑定 tooltip 显示名称
+    marker.bindTooltip(`<b>${name}</b><br>${lat.toFixed(6)}, ${lon.toFixed(6)}`, {
+        permanent: false,
+        direction: 'top',
+        offset: [0, -10]
+    });
+
+    // 点击标记点弹出信息
+    marker.on('click', function() {
+        const popup = L.popup()
+            .setLatLng([lat, lon])
+            .setContent(`<b>📌 ${name}</b><br>纬度: ${lat.toFixed(6)}<br>经度: ${lon.toFixed(6)}<br><small>创建: ${created_at.substring(0, 19).replace('T', ' ')}</small>`)
+            .openOn(map);
+    });
+
+    _savedMarkersLayer.addLayer(marker);
+
+    // 存入数组
+    const savedItem = { id, name, lat, lon, marker, created_at };
+    _savedMarkers.push(savedItem);
+
+    // 更新列表 UI
+    updateSavedMarkersList();
+}
+
+function updateSavedMarkersList() {
+    const section = document.getElementById('saved-markers-section');
+    const listDiv = document.getElementById('saved-markers-list');
+    const countSpan = document.getElementById('saved-count');
+
+    if (!section || !listDiv) return;
+
+    const count = _savedMarkers.length;
+
+    if (count === 0) {
+        section.classList.remove('show');
+        return;
+    }
+
+    section.classList.add('show');
+    if (countSpan) countSpan.textContent = count;
+
+    let html = '';
+    _savedMarkers.forEach((item, i) => {
+        html += `
+            <div class="saved-marker-item">
+                <div class="marker-index">${i + 1}</div>
+                <div class="marker-info" onclick="flyToSavedMarker('${item.id}')" title="点击飞至该点">
+                    <div class="marker-name">${escapeHtml(item.name)}</div>
+                    <div class="marker-coords">${item.lat.toFixed(6)}, ${item.lon.toFixed(6)}</div>
+                </div>
+                <div class="marker-actions">
+                    <button class="fly-btn" onclick="flyToSavedMarker('${item.id}')" title="飞至该点">🎯</button>
+                    <button onclick="removeSavedMarker('${item.id}')" title="删除">✕</button>
+                </div>
+            </div>`;
+    });
+    listDiv.innerHTML = html;
+}
+
+function escapeHtml(str) {
+    const div = document.createElement('div');
+    div.textContent = str;
+    return div.innerHTML;
+}
+
+function flyToSavedMarker(id) {
+    const item = _savedMarkers.find(m => m.id === id);
+    if (!item) return;
+
+    map.flyTo([item.lat, item.lon], 17, { duration: 0.5 });
+
+    // 闪烁效果
+    setTimeout(() => {
+        if (item.marker) {
+            const origRadius = item.marker.options.radius;
+            const origColor = item.marker.options.color;
+            item.marker.setRadius(14);
+            item.marker.setStyle({ color: '#e74c3c', fillColor: '#e74c3c', fillOpacity: 0.6 });
+            setTimeout(() => {
+                item.marker.setRadius(origRadius);
+                item.marker.setStyle({ color: origColor, fillColor: origColor, fillOpacity: 0.85 });
+            }, 1200);
+        }
+    }, 600);
+}
+
+function removeSavedMarker(id) {
+    const idx = _savedMarkers.findIndex(m => m.id === id);
+    if (idx === -1) return;
+
+    const item = _savedMarkers[idx];
+
+    // 从地图上移除
+    if (_savedMarkersLayer && item.marker) {
+        _savedMarkersLayer.removeLayer(item.marker);
+    }
+
+    // 从数组中移除
+    _savedMarkers.splice(idx, 1);
+
+    // 更新列表
+    updateSavedMarkersList();
+}
+
+function clearAllSavedMarkers() {
+    if (_savedMarkers.length === 0) {
+        alert('没有已保存的标记点。');
+        return;
+    }
+    if (!confirm(`确定要清空全部 ${_savedMarkers.length} 个已保存标记点吗？此操作不可撤销。`)) {
+        return;
+    }
+
+    // 从地图上清除所有标记
+    if (_savedMarkersLayer) {
+        map.removeLayer(_savedMarkersLayer);
+        _savedMarkersLayer = null;
+    }
+
+    _savedMarkers = [];
+    _savedMarkerCount = 0;
+
+    updateSavedMarkersList();
+}
+
+// === 导出已保存标记点 ===
+async function exportSavedMarkers() {
+    if (_savedMarkers.length === 0) {
+        alert('没有已保存的标记点可导出。');
+        return;
+    }
+
+    const exportData = _savedMarkers.map((item, i) => ({
+        index: i + 1,
+        name: item.name,
+        lat: item.lat,
+        lon: item.lon,
+        created_at: item.created_at
+    }));
+
+    const now = new Date();
+    const timestamp = now.getFullYear() +
+        String(now.getMonth() + 1).padStart(2, '0') +
+        String(now.getDate()).padStart(2, '0') + '_' +
+        String(now.getHours()).padStart(2, '0') +
+        String(now.getMinutes()).padStart(2, '0') +
+        String(now.getSeconds()).padStart(2, '0');
+
+    const filename = `markers_${timestamp}.json`;
+    const jsonStr = JSON.stringify({
+        export_time: now.toISOString(),
+        total_count: exportData.length,
+        markers: exportData
+    }, null, 2);
+
+    // 尝试使用 File System Access API 保存到指定目录
+    // 如果不可用，则使用下载方式
+    try {
+        // 方式1: 尝试使用 showDirectoryPicker 保存到 saved_markers 目录
+        if (window.showDirectoryPicker) {
+            // 使用 Blob 下载作为 fallback
+            downloadJsonFile(filename, jsonStr);
+        } else {
+            downloadJsonFile(filename, jsonStr);
+        }
+    } catch (e) {
+        downloadJsonFile(filename, jsonStr);
+    }
+}
+
+function downloadJsonFile(filename, content) {
+    const blob = new Blob([content], { type: 'application/json' });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = filename;
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+    URL.revokeObjectURL(url);
+
+    alert(`标记点数据已导出！\n文件名: ${filename}\n共 ${_savedMarkers.length} 个标记点\n\n请将文件保存到 saved_markers/ 目录下。`);
+}
+
+// === 点击已有数据坐标，填入搜索框并自动搜索 ===
+function fillSearchCoords(lat, lon) {
+    const latInput = document.getElementById('search-lat');
+    const lonInput = document.getElementById('search-lon');
+    if (latInput) latInput.value = lat;
+    if (lonInput) lonInput.value = lon;
+    // 自动触发搜索
+    doSearchLocation();
+}
+
+let lastSearchResults = { junctions: [], intersections: [], lat: 0, lon: 0 };
+
+function doSearchLocation() {
+    const latStr = document.getElementById('search-lat').value.trim();
+    const lonStr = document.getElementById('search-lon').value.trim();
+    const lat = parseFloat(latStr);
+    const lon = parseFloat(lonStr);
+
+    if (isNaN(lat) || isNaN(lon) || lat < -90 || lat > 90 || lon < -180 || lon > 180) {
+        alert('请输入有效的经纬度坐标！\n纬度: -90 ~ 90\n经度: -180 ~ 180');
+        return;
+    }
+
+    const radiusStr = document.getElementById('search-radius').value.trim();
+    const RADIUS = parseInt(radiusStr) || 300;
+    if (RADIUS < 10 || RADIUS > 5000) {
+        alert('请输入有效的搜索半径（10~5000米）！');
+        return;
+    }
+    lastSearchResults = { lat, lon, junctions: [], intersections: [] };
+
+    // 合并原始数据和下载数据
+    const allJunctionData = [...junctionData, ...downloadedJunctionData];
+    const allIntersectionData = [...intersectionData, ...downloadedIntersectionData];
+
+    // 筛选范围内的 junction（合并后）
+    const foundJunctions = allJunctionData.filter(j => {
+        const d = haversineDistance(lat, lon, j.lat, j.lon);
+        j._distance = d;
+        return d <= RADIUS;
+    }).sort((a, b) => a._distance - b._distance);
+
+    // 筛选范围内的 intersection（合并后）
+    const foundIntersections = allIntersectionData.filter(j => {
+        const d = haversineDistance(lat, lon, j.lat, j.lon);
+        j._distance = d;
+        return d <= RADIUS;
+    }).sort((a, b) => a._distance - b._distance);
+
+    lastSearchResults.junctions = foundJunctions;
+    lastSearchResults.intersections = foundIntersections;
+
+    // 【新增】筛选范围内的 buildings，统计 OSM 原始高度数据（只读取，不计算）
+    let maxLevels = null;
+    let maxHeight = null;
+    let levelsOnlyCount = 0;    // 仅有层数
+    let heightOnlyCount = 0;    // 仅有高度(m)
+    let bothCount = 0;          // 两者都有
+    let buildingsInRange = [];
+
+    if (_downloadedBuildingsRaw && _downloadedBuildingsRaw.length > 0) {
+        _downloadedBuildingsRaw.forEach(f => {
+            if (!f.geometry || !f.geometry.coordinates || !f.geometry.coordinates[0]) return;
+            const coords = f.geometry.coordinates[0];
+            // 计算建筑中心点
+            let sumLat = 0, sumLon = 0, count = 0;
+            coords.forEach(c => {
+                if (c.length >= 2) {
+                    sumLat += c[1]; // lat
+                    sumLon += c[0]; // lon
+                    count++;
+                }
+            });
+            if (count === 0) return;
+            const centerLat = sumLat / count;
+            const centerLon = sumLon / count;
+            const d = haversineDistance(lat, lon, centerLat, centerLon);
+            if (d <= RADIUS) {
+                buildingsInRange.push(f);
+                // 只统计有 OSM 原始高度标签的建筑
+                const levels = f.properties.levels;
+                const height = f.properties.height;
+                const hasLevels = !!levels;
+                const hasHeight = !!height;
+
+                if (hasLevels || hasHeight) {
+                    if (hasLevels && hasHeight) bothCount++;
+                    else if (hasLevels) levelsOnlyCount++;
+                    else heightOnlyCount++;
+
+                    // 解析 building:levels（可能带"层"等后缀，取纯数字）
+                    if (hasLevels) {
+                        const parsed = parseFloat(levels.toString().replace(/[^0-9.\-]/g, ''));
+                        if (!isNaN(parsed) && (maxLevels === null || parsed > maxLevels)) {
+                            maxLevels = parsed;
+                        }
+                    }
+                    // 解析 height（可能带"m"等单位，取纯数字）
+                    if (hasHeight) {
+                        const parsed = parseFloat(height.toString().replace(/[^0-9.\-]/g, ''));
+                        if (!isNaN(parsed) && (maxHeight === null || parsed > maxHeight)) {
+                            maxHeight = parsed;
+                        }
+                    }
+                }
+            }
+        });
+    }
+
+    // 在地图上绘制圆和中心点
+    clearSearchHighlight();
+    searchCircle = L.circle([lat, lon], {
+        radius: RADIUS,
+        color: '#e74c3c',
+        fillColor: '#e74c3c',
+        fillOpacity: 0.1,
+        weight: 2,
+        dashArray: '8,4'
+    }).addTo(map);
+
+    searchMarker = L.circleMarker([lat, lon], {
+        radius: 8,
+        color: '#e74c3c',
+        fillColor: '#e74c3c',
+        fillOpacity: 0.9,
+        weight: 3
+    }).addTo(map);
+    searchMarker.bindTooltip(`<b>搜索中心</b><br>${lat}, ${lon}`, { permanent: true, direction: 'top' });
+
+    // 高亮范围内的 marker —— 同时覆盖原始图层和下载数据图层
+    [junctionsLayer, intersectionLayer, downloadedJunctionLayer, downloadedIntersectionLayer].forEach(layerGroup => {
+        if (!layerGroup) return;
+        layerGroup.eachLayer(function(layer) {
+            const ll = layer.getLatLng();
+            const d = haversineDistance(lat, lon, ll.lat, ll.lng);
+            if (d <= RADIUS) {
+                layer._originalRadius = layer.options.radius;
+                layer._originalFillOpacity = layer.options.fillOpacity;
+                layer._originalWeight = layer.options.weight;
+                layer.setRadius(Math.max(layer.options.radius, 9));
+                layer.setStyle({ fillOpacity: 1, weight: 4 });
+                layer.bringToFront();
+                searchHighlighted.push(layer);
+            }
+        });
+    });
+
+    // 地图飞到中心点，并向左偏移避免被右侧 info-panel 遮挡
+    map.flyTo([lat, lon], 16, { duration: 0.8 });
+    setTimeout(() => {
+        const infoPanel = document.getElementById('info');
+        const pw = infoPanel ? infoPanel.offsetWidth + 20 : 320;
+        const mw = map.getSize().x;
+        if (pw > 0 && mw > pw) {
+            map.panBy([-pw / 2, 0], { animate: true });
+        }
+    }, 900);
+
+    // 渲染结果列表
+    renderSearchResults(foundJunctions, foundIntersections, lat, lon, RADIUS);
+
+    // 【新增】在搜索结果头部显示范围内建筑最大高度（纯 OSM 原始数据，不计算）
+    setTimeout(() => {
+        const container = document.getElementById('search-results');
+        if (!container) return;
+        const header = container.querySelector('.result-header');
+        if (!header) return;
+
+        // 移除之前可能已添加的高度信息行
+        const oldHeightInfo = container.querySelector('.building-height-info');
+        if (oldHeightInfo) oldHeightInfo.remove();
+
+        const totalWithData = levelsOnlyCount + heightOnlyCount + bothCount;
+
+        if (totalWithData > 0) {
+            let heightInfo = document.createElement('div');
+            heightInfo.className = 'building-height-info';
+            heightInfo.style.cssText = 'margin-top:8px; padding:10px 12px; background:#f8f9fa; border-radius:6px; border-left:3px solid #e65100; font-size:13px; color:#333; line-height:1.6;';
+
+            // 主行：最大层数 + 最大高度
+            let parts = [];
+            if (maxLevels !== null) parts.push(`<span style="font-weight:700;font-size:16px;color:#e65100;">${maxLevels}</span> 层`);
+            if (maxHeight !== null) parts.push(`<span style="font-weight:700;font-size:16px;color:#e65100;">${maxHeight}</span> m`);
+            let mainLine = '🏢 ' + parts.join(' &nbsp;·&nbsp; ');
+
+            // 副行：数据覆盖说明
+            let detail = [];
+            if (bothCount > 0) detail.push(`${bothCount} 栋有完整数据`);
+            if (levelsOnlyCount > 0) detail.push(`${levelsOnlyCount} 栋仅有层数`);
+            if (heightOnlyCount > 0) detail.push(`${heightOnlyCount} 栋仅有高度`);
+            let subLine = `<span style="color:#888;font-size:12px;">${detail.join('，')}（共 ${totalWithData} 栋）</span>`;
+
+            heightInfo.innerHTML = `<div>${mainLine}</div><div style="margin-top:2px;">${subLine}</div>`;
+            header.insertAdjacentElement('afterend', heightInfo);
+        } else if (buildingsInRange.length > 0) {
+            // 有建筑但没有高度数据
+            let heightInfo = document.createElement('div');
+            heightInfo.className = 'building-height-info';
+            heightInfo.style.cssText = 'margin-top:8px; padding:8px 12px; background:#f8f9fa; border-radius:6px; border-left:3px solid #ccc; font-size:13px; color:#999;';
+            heightInfo.innerHTML = `🏢 范围内 ${buildingsInRange.length} 栋建筑暂无高度数据`;
+            header.insertAdjacentElement('afterend', heightInfo);
+        }
+    }, 0);
+}
+
+function renderSearchResults(junctions, intersections, lat, lon, RADIUS) {
+    const container = document.getElementById('search-results');
+    if (!container) return;
+
+    const total = junctions.length + intersections.length;
+    let html = `<div class="result-header">搜索中心: ${lat}, ${lon} | ${RADIUS}m范围内共 ${total} 个交叉口</div>`;
+
+    if (total === 0) {
+        html += `<div class="empty">该坐标${RADIUS}m范围内未找到任何交叉口</div>`;
+    }
+
+    // Junction 列表
+    if (junctions.length > 0) {
+        html += `<div style="margin-top:8px;color:#f1c40f;font-weight:bold;font-size:13px;">Junction (${junctions.length}个)</div>`;
+        junctions.forEach((j, i) => {
+            const roads = j.roads.map(r => r.startsWith('[') ? r.replace(/[\[\]]/g,'') : r).join(', ');
+            html += `<div class="junction-item" onclick="flyToJunction(${j.lat},${j.lon})">
+                <span class="type-tag" style="background:#f1c40f;color:#333;">J</span>
+                ${i+1}. ${j.lat}, ${j.lon} | ${j._distance.toFixed(0)}m | ${j.way_count}条: ${roads}
+            </div>`;
+        });
+    }
+
+    // Intersection 列表
+    if (intersections.length > 0) {
+        html += `<div style="margin-top:10px;color:#3498db;font-weight:bold;font-size:13px;">Intersection (${intersections.length}个)</div>`;
+        intersections.forEach((j, i) => {
+            const hwLabels = (j.highways || []).map(h => ({primary:'主干道',secondary:'次干道',tertiary:'三级路'})[h]||h).join('+');
+            const roads = j.roads.map(r => r.startsWith('[') ? r.replace(/[\[\]]/g,'') : r).join(', ');
+            html += `<div class="junction-item" onclick="flyToJunction(${j.lat},${j.lon})">
+                <span class="type-tag" style="background:#3498db;">I</span>
+                ${i+1}. ${j.lat}, ${j.lon} | ${j._distance.toFixed(0)}m | ${j.way_count}条 | ${hwLabels}: ${roads}
+            </div>`;
+        });
+    }
+
+    container.innerHTML = html;
+}
+
+function flyToJunction(lat, lon) {
+    // 右侧 info-panel 宽度约 320px，将目标点向左偏移，避免被遮挡
+    const infoPanel = document.getElementById('info');
+    const panelWidth = infoPanel ? infoPanel.offsetWidth + 20 : 320; // 面板宽度 + 间距
+    const mapWidth = map.getSize().x;
+    // 计算需要横向偏移的百分比，使目标点位于(地图宽度 - 面板宽度)的中心
+    const offsetX = -(panelWidth / mapWidth) * 100 / 2; // 负值表示向左偏移
+    map.flyTo([lat, lon], 18, {
+        duration: 0.5,
+        pan: { animate: true },
+    });
+    // 飞行结束后，再向左微调偏移，确保不被 info-panel 遮挡
+    setTimeout(() => {
+        const pw = panelWidth;
+        const mw = map.getSize().x;
+        if (pw > 0 && mw > pw) {
+            // 将地图中心点向左偏移，使目标点位于 info-panel 左侧区域的中心
+            map.panBy([-pw / 2, 0], { animate: true });
+        }
+    }, 600);
+    // 闪烁效果
+    setTimeout(() => {
+        const temp = L.circleMarker([lat, lon], {
+            radius: 14, color: '#e74c3c', fillColor: '#e74c3c',
+            fillOpacity: 0.3, weight: 4
+        }).addTo(map);
+        setTimeout(() => map.removeLayer(temp), 1500);
+    }, 600);
+}
+
+function copySearchResults() {
+    const { junctions, intersections, lat, lon } = lastSearchResults;
+    let text = `搜索中心: ${lat}, ${lon} | 300m范围\n`;
+    text += `共 ${junctions.length + intersections.length} 个交叉口\n\n`;
+
+    if (junctions.length > 0) {
+        text += `=== Junction (${junctions.length}个) ===\n`;
+        junctions.forEach((j, i) => {
+            const roads = j.roads.map(r => r.startsWith('[') ? r.replace(/[\[\]]/g,'') : r).join(', ');
+            text += `${i+1}. ${j.lat}, ${j.lon} | ${j._distance.toFixed(0)}m | ${j.way_count}条: ${roads}\n`;
+        });
+        text += '\n';
+    }
+    if (intersections.length > 0) {
+        text += `=== Intersection (${intersections.length}个) ===\n`;
+        intersections.forEach((j, i) => {
+            const hwLabels = (j.highways || []).map(h => ({primary:'主干道',secondary:'次干道',tertiary:'三级路'})[h]||h).join('+');
+            const roads = j.roads.map(r => r.startsWith('[') ? r.replace(/[\[\]]/g,'') : r).join(', ');
+            text += `${i+1}. ${j.lat}, ${j.lon} | ${j._distance.toFixed(0)}m | ${j.way_count}条 | ${hwLabels}: ${roads}\n`;
+        });
+    }
+
+    navigator.clipboard.writeText(text).then(() => {
+        alert('已复制搜索结果到剪贴板！');
+    }).catch(() => {
+        const ta = document.createElement('textarea');
+        ta.value = text;
+        document.body.appendChild(ta);
+        ta.select();
+        document.execCommand('copy');
+        document.body.removeChild(ta);
+        alert('已复制！');
+    });
+}
+
+// === New Location: 从 osm_data 目录加载本地 OSM 数据 ===
+
+async function openLocalOsmData() {
+    // 先关闭可能已存在的选择器
+    closeOsmSelector();
+
+    // 显示加载中
+    const overlay = document.createElement('div');
+    overlay.id = 'osm-selector-overlay';
+    overlay.className = 'search-overlay';
+    overlay.innerHTML = `
+        <div class="search-dialog" style="width:420px;">
+            <h3>New Location - 选择本地 OSM 数据 <span onclick="closeOsmSelector()">&times;</span></h3>
+            <div id="osm-dataset-list" style="max-height:55vh;overflow-y:auto;padding:8px 14px;">
+                <div class="empty">正在扫描 osm_data 目录...</div>
+            </div>
+            <div class="search-footer">
+                <button onclick="closeOsmSelector()">取消</button>
+            </div>
+        </div>`;
+    document.body.appendChild(overlay);
+
+    overlay.addEventListener('click', function(e) {
+        if (e.target === overlay) closeOsmSelector();
+    });
+
+    // 扫描 osm_data 目录
+    await scanOsmDataDirectory();
+}
+
+async function scanOsmDataDirectory() {
+    const listDiv = document.getElementById('osm-dataset-list');
+    if (!listDiv) return;
+
+    const datasets = [];
+    const baseDir = 'osm_data';
+
+    // 遍历 osm_data 下的子目录
+    try {
+        // 列出已知的数据集（硬编码已知目录 + 尝试扫描）
+        const knownDirs = [];
+        
+        // 方法1: 尝试读取 index.json
+        try {
+            const resp = await fetch(baseDir + '/index.json');
+            if (resp.ok) {
+                const index = await resp.json();
+                if (index.datasets && index.datasets.length > 0) {
+                    index.datasets.forEach(ds => {
+                        knownDirs.push({
+                            directory: ds.directory || ds.alias,
+                            path: ds.path || (baseDir + '/' + (ds.directory || ds.alias)),
+                            alias: ds.alias || null,
+                            lat: ds.lat,
+                            lon: ds.lon,
+                            download_time: ds.download_time || ''
+                        });
+                    });
+                }
+            }
+        } catch (e) {
+            // index.json 不存在或无法解析，继续
+        }
+
+        // 方法2: 如果 index.json 不存在，从已知目录中解析
+        if (knownDirs.length === 0) {
+            // 尝试通过 metadata.json 来发现数据集
+            // 先列出已知的目录模式
+            const possiblePatterns = ['23_1122_109_5990_guigang_park'];
+            for (const dirName of possiblePatterns) {
+                try {
+                    const metaResp = await fetch(baseDir + '/' + dirName + '/metadata.json');
+                    if (metaResp.ok) {
+                        const meta = await metaResp.json();
+                        const parts = dirName.split('_');
+                        knownDirs.push({
+                            directory: dirName,
+                            path: baseDir + '/' + dirName,
+                            alias: meta.alias || dirName,
+                            lat: meta.center_coordinates ? meta.center_coordinates.latitude : parseFloat(parts[0] + '.' + parts[1]),
+                            lon: meta.center_coordinates ? meta.center_coordinates.longitude : parseFloat(parts[2] + '.' + parts[3]),
+                            download_time: meta.download_time || ''
+                        });
+                    }
+                } catch (e) {
+                    // 跳过无法访问的目录
+                }
+            }
+        }
+
+        // 渲染数据集列表
+        if (knownDirs.length === 0) {
+            listDiv.innerHTML = '<div class="empty">未找到本地 OSM 数据。<br>请使用 Python 脚本下载数据:<br><code>python download_guigang_park.py 纬度 经度 范围 别名</code></div>';
+            return;
+        }
+
+        // 去重
+        const unique = [];
+        const seen = new Set();
+        knownDirs.forEach(ds => {
+            if (!seen.has(ds.path)) {
+                seen.add(ds.path);
+                unique.push(ds);
+            }
+        });
+
+        let html = '';
+        unique.forEach((ds, i) => {
+            const displayName = ds.alias || ds.directory;
+            const timeStr = ds.download_time ? ds.download_time.substring(0, 16).replace('T', ' ') : '';
+            html += `
+                <div class="result-item" onclick="loadLocalOsmDataset(${i})" 
+                     style="padding:10px;cursor:pointer;border-bottom:1px solid #eee;margin-bottom:2px;border-radius:4px;"
+                     onmouseover="this.style.background='#e8f4fd'" 
+                     onmouseout="this.style.background=''">
+                    <b style="color:#2c3e50;">${displayName}</b><br>
+                    <small style="color:#666;">📍 ${ds.lat}, ${ds.lon}</small>
+                    ${timeStr ? `<br><small style="color:#999;">🕐 ${timeStr}</small>` : ''}
+                </div>`;
+        });
+        listDiv.innerHTML = html;
+
+        // 存储数据集列表到全局变量供加载时使用
+        window._osmDatasets = unique;
+
+    } catch (error) {
+        console.error('扫描 OSM 目录失败:', error);
+        listDiv.innerHTML = '<div class="empty">扫描目录失败: ' + error.message + '</div>';
+    }
+}
+
+async function loadLocalOsmDataset(index) {
+    const datasets = window._osmDatasets;
+    if (!datasets || index >= datasets.length) {
+        alert('数据集信息无效！');
+        return;
+    }
+
+    const ds = datasets[index];
+    
+    // 设置当前数据集全局变量
+    currentDataset = ds;
+    currentOsmPath = ds.path || ('osm_data/' + ds.directory);
+    
+    const listDiv = document.getElementById('osm-dataset-list');
+    if (listDiv) {
+        listDiv.innerHTML = '<div class="empty" style="color:#3498db;">正在加载: ' + (ds.alias || ds.directory) + '...</div>';
+    }
+
+    try {
+        // 加载 combined.json
+        const osmUrl = ds.path + '/combined.json';
+        const resp = await fetch(osmUrl);
+        if (!resp.ok) {
+            throw new Error('无法加载 ' + osmUrl + ' (HTTP ' + resp.status + ')');
+        }
+
+        const osmData = await resp.json();
+
+        // 解析数据 (parseOSMData 支持 combined.json 的 {roads:..., buildings:...} 结构)
+        const result = parseOSMData(osmData);
+
+        // 清除旧数据
+        clearDownloadedDataSilent();
+
+        // 渲染到地图
+        renderDownloadedRoads(result.roads);
+        renderDownloadedJunctions(result.junctions, result.intersections);
+        if (result.buildings && result.buildings.length > 0) {
+            _downloadedBuildingsRaw = result.buildings; // 保存原始数据供搜索使用
+            renderDownloadedBuildings(result.buildings);
+        } else {
+            _downloadedBuildingsRaw = null;
+        }
+        if (result.water && result.water.length > 0) renderDownloadedWater(result.water);
+        if (result.landuse && result.landuse.length > 0) renderDownloadedLanduse(result.landuse);
+        if (result.pois && result.pois.length > 0) renderDownloadedPois(result.pois);
+        if (result.trafficSignals && result.trafficSignals.length > 0) {
+            downloadedTrafficSignalsData = result.trafficSignals.map(ts => ({
+                lat: ts.geometry.coordinates[1],
+                lon: ts.geometry.coordinates[0],
+                tags: ts.properties.tags || {}
+            }));
+            renderTrafficSignals(downloadedTrafficSignalsData, true);
+        }
+
+        // 更新信息面板
+        const title = ds.alias || ds.directory || 'OSM数据';
+        updateInfoPanel(title, result.roadTypeCounts, (result.buildings || []).length, (result.water || []).length, (result.landuse || []).length, (result.pois || []).length, (result.junctions || []).length, (result.intersections || []).length, (result.trafficSignals || []).length);
+
+        // 移动地图到数据集中心
+        map.flyTo([ds.lat, ds.lon], 15, { duration: 1 });
+
+        // 恢复所有图层按钮状态为显示
+        const allRoadBtns = ['primary', 'secondary', 'tertiary', 'residential', 'service', 'footway', 'unclassified', 'link'];
+        allRoadBtns.forEach(hw => updateBtnState('btn-' + hw, true));
+        updateBtnState('btn-overlay', true);
+        updateBtnState('btn-pois', true);
+        updateBtnState('btn-junctions', true);
+        updateBtnState('btn-intersection', true);
+        updateBtnState('btn-traffic', (result.trafficSignals || []).length > 0);
+
+        // 关闭选择器
+        closeOsmSelector();
+
+    } catch (error) {
+        console.error('加载 OSM 数据失败:', error);
+        if (listDiv) {
+            listDiv.innerHTML = '<div class="empty" style="color:#e74c3c;">加载失败: ' + error.message + '</div>';
+        }
+        alert('加载 OSM 数据失败: ' + error.message);
+    }
+}
+
+function clearDownloadedDataSilent() {
+    Object.values(downloadedRoadLayers).forEach(layer => {
+        map.removeLayer(layer);
+    });
+    downloadedRoadLayers = {};
+    if (downloadedJunctionLayer) {
+        map.removeLayer(downloadedJunctionLayer);
+        downloadedJunctionLayer = null;
+    }
+    if (downloadedIntersectionLayer) {
+        map.removeLayer(downloadedIntersectionLayer);
+        downloadedIntersectionLayer = null;
+    }
+    if (downloadedTrafficSignalsLayer) {
+        map.removeLayer(downloadedTrafficSignalsLayer);
+        downloadedTrafficSignalsLayer = null;
+    }
+    downloadedTrafficSignalsData = [];
+    // 清除下载的非道路图层
+    clearDownloadedExtraLayers();
+    // 清空下载的交点数据数组
+    downloadedJunctionData = [];
+    downloadedIntersectionData = [];
+    // 清空原始 buildings 数据
+    _downloadedBuildingsRaw = null;
+    // 恢复默认信息面板
+    restoreDefaultInfoPanel();
+    // 清除下载数据后，恢复原始 junction/intersection 图层和按钮状态
+    if (!map.hasLayer(junctionsLayer)) {
+        map.addLayer(junctionsLayer);
+    }
+    if (!map.hasLayer(intersectionLayer)) {
+        map.addLayer(intersectionLayer);
+    }
+    updateBtnState('btn-junctions', true);
+    updateBtnState('btn-intersection', true);
+    updateBtnState('btn-traffic', false);
+}
+
+function closeOsmSelector() {
+    const overlay = document.getElementById('osm-selector-overlay');
+    if (overlay) overlay.remove();
+    window._osmDatasets = null;
+}
+
+// === 下载 OSM 数据并渲染 ===
+let downloadedRoadLayers = {};      // 按道路类型分组的下载图层 { 'primary': L.layerGroup, ... }
+let downloadedJunctionLayer = null;
+let downloadedIntersectionLayer = null;
+let downloadedJunctionData = [];    // 存储下载数据的 junctions 供 Search Location 搜索
+let downloadedIntersectionData = []; // 存储下载数据的 intersections 供 Search Location 搜索
+let _downloadedBuildingsRaw = null; // 存储下载的原始 buildings 数据（含高度标签）供 Search Location 统计高度使用
+
+function clearDownloadedData() {
+    Object.values(downloadedRoadLayers).forEach(layer => {
+        map.removeLayer(layer);
+    });
+    downloadedRoadLayers = {};
+    if (downloadedJunctionLayer) {
+        map.removeLayer(downloadedJunctionLayer);
+        downloadedJunctionLayer = null;
+    }
+    if (downloadedIntersectionLayer) {
+        map.removeLayer(downloadedIntersectionLayer);
+        downloadedIntersectionLayer = null;
+    }
+    if (downloadedTrafficSignalsLayer) {
+        map.removeLayer(downloadedTrafficSignalsLayer);
+        downloadedTrafficSignalsLayer = null;
+    }
+    downloadedTrafficSignalsData = [];
+    // 清除下载的非道路图层
+    clearDownloadedExtraLayers();
+    // 清空下载的交点数据数组
+    downloadedJunctionData = [];
+    downloadedIntersectionData = [];
+    // 清空原始 buildings 数据
+    _downloadedBuildingsRaw = null;
+    // 恢复默认信息面板
+    restoreDefaultInfoPanel();
+    // 清除下载数据后，恢复原始 junction/intersection 图层和按钮状态
+    if (!map.hasLayer(junctionsLayer)) {
+        map.addLayer(junctionsLayer);
+    }
+    if (!map.hasLayer(intersectionLayer)) {
+        map.addLayer(intersectionLayer);
+    }
+    updateBtnState('btn-junctions', true);
+    updateBtnState('btn-intersection', true);
+    updateBtnState('btn-traffic', false);
+    // 清除进度显示
+    const progressEl = document.getElementById('download-progress');
+    if (progressEl) progressEl.classList.remove('active');
+    alert('已清除下载的数据');
+}
+
+async function downloadOSMAndRender() {
+    const latStr = document.getElementById('search-lat').value.trim();
+    const lonStr = document.getElementById('search-lon').value.trim();
+    const expandStr = document.getElementById('download-expand').value.trim();
+
+    const lat = parseFloat(latStr);
+    const lon = parseFloat(lonStr);
+    const expand = parseFloat(expandStr) || 0.01;
+
+    if (isNaN(lat) || isNaN(lon) || lat < -90 || lat > 90 || lon < -180 || lon > 180) {
+        alert('请输入有效的经纬度坐标！\n纬度: -90 ~ 90\n经度: -180 ~ 180');
+        return;
+    }
+
+    // 显示进度
+    const progressEl = document.getElementById('download-progress');
+    if (progressEl) {
+        progressEl.classList.add('active');
+        progressEl.textContent = '正在下载 OSM 数据...';
+    }
+
+    // 计算范围
+    const north = lat + expand;
+    const south = lat - expand;
+    const east = lon + expand;
+    const west = lon - expand;
+
+    // Overpass API 查询语句
+    const query = `
+        [out:json][timeout:90];
+        (
+            way["highway"](${south},${west},${north},${east});
+        );
+        out body;
+        >;
+        out skel qt;
+    `;
+
+    try {
+        // 调用 Overpass API
+        const response = await fetch('https://overpass-api.de/api/interpreter', {
+            method: 'POST',
+            body: 'data=' + encodeURIComponent(query.trim()),
+            headers: { 'Content-Type': 'application/x-www-form-urlencoded' }
+        });
+
+        if (!response.ok) {
+            throw new Error(`Overpass API 返回错误: ${response.status}`);
+        }
+
+        const data = await response.json();
+
+        if (!data.elements || data.elements.length === 0) {
+            if (progressEl) progressEl.classList.remove('active');
+            alert('该坐标范围内未找到任何道路数据！');
+            return;
+        }
+
+        // 解析数据
+        if (progressEl) progressEl.textContent = '正在解析道路数据...';
+
+        const result = parseOSMData(data);
+
+        // 清除旧数据
+        clearDownloadedData();
+
+        // 渲染到地图
+        if (progressEl) progressEl.textContent = '正在渲染地图...';
+
+        renderDownloadedRoads(result.roads);
+        renderDownloadedJunctions(result.junctions, result.intersections);
+        if (result.buildings && result.buildings.length > 0) {
+            _downloadedBuildingsRaw = result.buildings; // 保存原始数据供搜索使用
+            renderDownloadedBuildings(result.buildings);
+        } else {
+            _downloadedBuildingsRaw = null;
+        }
+        if (result.water && result.water.length > 0) renderDownloadedWater(result.water);
+        if (result.landuse && result.landuse.length > 0) renderDownloadedLanduse(result.landuse);
+        if (result.pois && result.pois.length > 0) renderDownloadedPois(result.pois);
+        if (result.trafficSignals && result.trafficSignals.length > 0) {
+            downloadedTrafficSignalsData = result.trafficSignals.map(ts => ({
+                lat: ts.geometry.coordinates[1],
+                lon: ts.geometry.coordinates[0],
+                tags: ts.properties.tags || {}
+            }));
+            renderTrafficSignals(downloadedTrafficSignalsData, true);
+        }
+
+        // 更新信息面板
+        const title = `OSM (${lat.toFixed(4)}, ${lon.toFixed(4)})`;
+        updateInfoPanel(title, result.roadTypeCounts, (result.buildings || []).length, (result.water || []).length, (result.landuse || []).length, (result.pois || []).length, (result.junctions || []).length, (result.intersections || []).length, (result.trafficSignals || []).length);
+
+        // 移动地图到新坐标
+        map.flyTo([lat, lon], 15, { duration: 1 });
+
+        if (progressEl) progressEl.classList.remove('active');
+
+        alert(`下载完成！\n共 ${result.roads.length} 条道路\n${result.junctions.length} 个交叉口\n${result.intersections.length} 个主干交叉口\n${result.trafficSignals.length} 个交通信号灯`);
+
+    } catch (error) {
+        console.error('下载 OSM 数据失败:', error);
+        if (progressEl) progressEl.classList.remove('active');
+        alert('下载失败: ' + error.message + '\n\n建议:\n1. 检查网络连接\n2. 尝试增大下载范围\n3. 稍后重试');
+    }
+}
+
+function parseOSMData(data) {
+    // 支持两种数据格式:
+    // 1. Overpass API 直接返回: { elements: [...] }
+    // 2. combined.json 分类格式: { roads: {elements: [...]}, buildings: {...}, ... }
+    let elements = data.elements || [];
+
+    // 如果是 combined.json 格式，合并所有分类的 elements
+    if (!elements.length && typeof data === 'object') {
+        const categories = ['roads', 'buildings', 'water', 'landuse', 'pois'];
+        categories.forEach(cat => {
+            if (data[cat] && data[cat].elements) {
+                elements = elements.concat(data[cat].elements);
+            }
+        });
+    }
+
+    // 提取节点坐标
+    const nodeCoords = {};
+    elements.forEach(elem => {
+        if (elem.type === 'node') {
+            nodeCoords[elem.id] = [elem.lat, elem.lon];
+        }
+    });
+
+    // 提取道路
+    const roads = [];
+    const ways = [];
+
+    elements.forEach(elem => {
+        if (elem.type === 'way' && elem.tags && elem.tags.highway) {
+            ways.push(elem);
+        }
+    });
+
+    // 构建道路 GeoJSON
+    const roadColors = {
+        'motorway': '#e74c3c', 'trunk': '#e67e22', 'primary': '#f39c12',
+        'secondary': '#2ecc71', 'tertiary': '#3498db', 'residential': '#9b59b6',
+        'service': '#7f8c8d', 'footway': '#1abc9c', 'path': '#8bc34a',
+        'unclassified': '#607d8b', 'primary_link': '#999999', 'secondary_link': '#999999',
+        'tertiary_link': '#999999', 'trunk_link': '#999999', 'motorway_link': '#999999',
+        'living_street': '#9b59b6', 'pedestrian': '#1abc9c', 'cycleway': '#8bc34a',
+    };
+
+    ways.forEach(way => {
+        const coords = [];
+        if (way.nodes) {
+            way.nodes.forEach(nid => {
+                if (nodeCoords[nid]) {
+                    coords.push([nodeCoords[nid][1], nodeCoords[nid][0]]); // [lon, lat]
+                }
+            });
+        }
+
+        if (coords.length >= 2) {
+            const highway = way.tags.highway || 'other';
+            roads.push({
+                type: 'Feature',
+                geometry: { type: 'LineString', coordinates: coords },
+                properties: {
+                    name: way.tags.name || '',
+                    highway: highway,
+                    color: roadColors[highway] || '#999999',
+                }
+            });
+        }
+    });
+
+    // 提取交叉口
+    const nodeWayCount = {};
+    ways.forEach(way => {
+        const wid = way.id;
+        if (way.nodes) {
+            way.nodes.forEach(nid => {
+                if (!nodeWayCount[nid]) nodeWayCount[nid] = new Set();
+                nodeWayCount[nid].add(wid);
+            });
+        }
+    });
+
+    const junctions = [];
+    const intersections = [];
+    const MAIN_HIGHWAYS = new Set(['primary', 'secondary', 'tertiary']);
+
+    Object.keys(nodeWayCount).forEach(nid => {
+        const wayCount = nodeWayCount[nid].size;
+        if (wayCount < 2 || !nodeCoords[nid]) return;
+
+        const lat = nodeCoords[nid][0];
+        const lon = nodeCoords[nid][1];
+
+        // 获取道路信息
+        const roadHighways = [];
+        const roadNames = [];
+
+        ways.forEach(way => {
+            if (way.nodes && way.nodes.includes(parseInt(nid))) {
+                const name = way.tags.name || '';
+                const hw = way.tags.highway || '';
+                roadHighways.push(hw);
+                roadNames.push(name || `[${hw}]`);
+            }
+        });
+
+        const junction = {
+            node_id: parseInt(nid),
+            lat: lat,
+            lon: lon,
+            way_count: wayCount,
+            roads: roadNames,
+            highways: [...new Set(roadHighways)],
+        };
+
+        junctions.push(junction);
+
+        // 检查是否为主干交叉口
+        const mainCount = roadHighways.filter(h => MAIN_HIGHWAYS.has(h)).length;
+        if (mainCount >= 2) {
+            intersections.push(junction);
+        }
+    });
+
+    // 排序
+    junctions.sort((a, b) => b.way_count - a.way_count);
+    intersections.sort((a, b) => b.way_count - a.way_count);
+
+    // 提取非道路数据 (buildings, water, landuse, pois)
+    const buildings = [];
+    const water = [];
+    const landuse = [];
+    const pois = [];
+    const nodeCoordsExtra = {}; // 专门用于非道路way的节点坐标
+
+    // 重新构建nodeCoordsExtra（从非道路元素中）
+    elements.forEach(elem => {
+        if (elem.type === 'node') {
+            nodeCoordsExtra[elem.id] = [elem.lat, elem.lon];
+        }
+    });
+
+    elements.forEach(elem => {
+        if (elem.type === 'way') {
+            const tags = elem.tags || {};
+            const coords = [];
+            if (elem.nodes) {
+                elem.nodes.forEach(nid => {
+                    if (nodeCoordsExtra[nid]) {
+                        coords.push([nodeCoordsExtra[nid][1], nodeCoordsExtra[nid][0]]); // [lon, lat]
+                    }
+                });
+            }
+            if (coords.length < 3) return; // polygon 至少需要3个点
+
+            if (tags.building || tags['building:part']) {
+                buildings.push({
+                    type: 'Feature',
+                    geometry: { type: 'Polygon', coordinates: [coords] },
+                    properties: {
+                        name: tags.name || '',
+                        type: 'building',
+                        building: tags.building || 'yes',
+                        // 保存 OSM 原始高度数据（不计算，只保存原始值）
+                        levels: tags['building:levels'] || null,
+                        height: tags['height'] || null
+                    }
+                });
+            } else if (tags.natural === 'water' || tags.waterway === 'riverbank' || tags.water || tags.natural === 'bay') {
+                water.push({
+                    type: 'Feature',
+                    geometry: { type: 'Polygon', coordinates: [coords] },
+                    properties: { name: tags.name || '', type: 'water' }
+                });
+            } else if (tags.landuse || tags.leisure || tags.natural === 'wood' || tags.natural === 'grassland') {
+                landuse.push({
+                    type: 'Feature',
+                    geometry: { type: 'Polygon', coordinates: [coords] },
+                    properties: {
+                        name: tags.name || '',
+                        type: 'landuse',
+                        landuse: tags.landuse || tags.leisure || tags.natural || '',
+                        leisure: tags.leisure || ''
+                    }
+                });
+            }
+        } else if (elem.type === 'node' && elem.tags) {
+            const tags = elem.tags;
+            if (tags.amenity || tags.leisure || tags.tourism || tags.shop || tags.place || tags.historic) {
+                pois.push({
+                    type: 'Feature',
+                    geometry: { type: 'Point', coordinates: [elem.lon, elem.lat] },
+                    properties: {
+                        name: tags.name || '',
+                        type: 'poi',
+                        amenity: tags.amenity || '',
+                        leisure: tags.leisure || '',
+                        tourism: tags.tourism || '',
+                        shop: tags.shop || '',
+                        place: tags.place || ''
+                    }
+                });
+            }
+        }
+    });
+
+    // 提取交通信号灯
+    const trafficSignals = [];
+    elements.forEach(elem => {
+        if (elem.type === 'node' && elem.tags && elem.tags.highway === 'traffic_signals') {
+            trafficSignals.push({
+                type: 'Feature',
+                geometry: { type: 'Point', coordinates: [elem.lon, elem.lat] },
+                properties: {
+                    name: elem.tags.name || '',
+                    type: 'traffic_signals',
+                    tags: {
+                        name: elem.tags.name || '',
+                        crossing: elem.tags.crossing || '',
+                        traffic_signals: elem.tags.traffic_signals || ''
+                    }
+                }
+            });
+        }
+    });
+
+    // 道路类型统计
+    const roadTypeCounts = {};
+    roads.forEach(f => {
+        const hw = f.properties.highway;
+        roadTypeCounts[hw] = (roadTypeCounts[hw] || 0) + 1;
+    });
+
+    return {
+        roads,
+        junctions,
+        intersections,
+        buildings,
+        water,
+        landuse,
+        pois,
+        trafficSignals,
+        roadTypeCounts
+    };
+}
+
+function renderDownloadedRoads(roads) {
+    // 清除旧的下载道路图层
+    Object.values(downloadedRoadLayers).forEach(layer => {
+        map.removeLayer(layer);
+    });
+    downloadedRoadLayers = {};
+
+    const roadTypeConfig = {
+        'primary': { color: '#f39c12', weight: 4 },
+        'primary_link': { color: '#999999', weight: 3 },
+        'secondary': { color: '#2ecc71', weight: 4 },
+        'tertiary': { color: '#3498db', weight: 3 },
+        'tertiary_link': { color: '#999999', weight: 2 },
+        'residential': { color: '#9b59b6', weight: 3 },
+        'service': { color: '#7f8c8d', weight: 2 },
+        'unclassified': { color: '#607d8b', weight: 2 },
+        'trunk_link': { color: '#999999', weight: 2 },
+        'footway': { color: '#1abc9c', weight: 2 },
+        'motorway': { color: '#e74c3c', weight: 5 },
+        'trunk': { color: '#e67e22', weight: 4 },
+        'living_street': { color: '#9b59b6', weight: 3 },
+        'pedestrian': { color: '#1abc9c', weight: 2 },
+        'cycleway': { color: '#8bc34a', weight: 2 },
+    };
+
+    // 将 footway/pedestrian/path/steps/bridleway 统一归到 footway 图层组
+    const footwayGroupTypes = ['footway', 'pedestrian', 'path', 'steps', 'bridleway'];
+
+    roads.forEach(feature => {
+        let hw = feature.properties.highway;
+        const cfg = roadTypeConfig[hw] || { color: '#999999', weight: 2 };
+
+        // 将其他人行道类型映射到 footway，以便按钮统一控制
+        if (footwayGroupTypes.includes(hw)) {
+            hw = 'footway';
+        }
+
+        // 按道路类型分组创建 layerGroup
+        if (!downloadedRoadLayers[hw]) {
+            downloadedRoadLayers[hw] = L.layerGroup();
+        }
+
+        const line = L.polyline(
+            feature.geometry.coordinates.map(c => [c[1], c[0]]), // [lat, lng]
+            { color: cfg.color, weight: cfg.weight, opacity: 0.8 }
+        );
+
+        if (feature.properties.name) {
+            line.bindTooltip(`<b>${feature.properties.name}</b><br>${hw}`, { direction: 'top', offset: [0, -5] });
+        }
+
+        downloadedRoadLayers[hw].addLayer(line);
+    });
+
+    // 将所有下载道路图层添加到地图
+    Object.values(downloadedRoadLayers).forEach(layer => {
+        layer.addTo(map);
+    });
+}
+
+function renderDownloadedJunctions(junctions, intersections) {
+    // 保存数据供 Search Location 搜索使用
+    downloadedJunctionData = junctions;
+    downloadedIntersectionData = intersections;
+
+    // 渲染全部交叉口
+    downloadedJunctionLayer = L.layerGroup();
+
+    junctions.forEach(j => {
+        let radius = 5;
+        let color = '#e74c3c';
+        let fillColor = '#e74c3c';
+
+        if (j.way_count >= 5) { radius = 10; color = '#e74c3c'; fillColor = '#e74c3c'; }
+        else if (j.way_count >= 4) { radius = 8; color = '#e67e22'; fillColor = '#e67e22'; }
+        else if (j.way_count >= 3) { radius = 7; color = '#f1c40f'; fillColor = '#f1c40f'; }
+
+        const circle = L.circleMarker([j.lat, j.lon], {
+            radius: radius,
+            color: color,
+            fillColor: fillColor,
+            fillOpacity: 0.85,
+            weight: 2,
+        });
+
+        const roadLabels = j.roads.map(r => r.startsWith('[') ? r.replace(/[\[\]]/g, '') : `<b>${r}</b>`);
+        circle.bindTooltip(
+            `<b>交叉口</b> | ${j.way_count}条道路<br>${roadLabels.join(', ')}`,
+            { direction: 'top', offset: [0, -radius - 2] }
+        );
+
+        downloadedJunctionLayer.addLayer(circle);
+    });
+
+    downloadedJunctionLayer.addTo(map);
+
+    // 渲染主干交叉口
+    downloadedIntersectionLayer = L.layerGroup();
+
+    intersections.forEach(j => {
+        const hw = j.highways || [];
+        let color = '#f1c40f';
+        let fillColor = '#f1c40f';
+        const radius = 8;
+
+        if (hw.includes('primary') && hw.includes('secondary')) {
+            color = '#e74c3c'; fillColor = '#e74c3c';
+        } else if (hw.includes('primary') && hw.includes('tertiary')) {
+            color = '#e67e22'; fillColor = '#e67e22';
+        } else if (hw.includes('secondary') && hw.includes('tertiary')) {
+            color = '#2980b9'; fillColor = '#3498db';
+        }
+
+        const circle = L.circleMarker([j.lat, j.lon], {
+            radius: radius,
+            color: color,
+            fillColor: fillColor,
+            fillOpacity: 0.9,
+            weight: 3,
+        });
+
+        const hwLabels = (j.highways || []).map(h => {
+            const map = { primary: '主干道', secondary: '次干道', tertiary: '三级路', motorway: '高速公路', trunk: '干道' };
+            return map[h] || h;
+        });
+
+        const roadLabels = j.roads.map(r => r.startsWith('[') ? r.replace(/[\[\]]/g, '') : `<b>${r}</b>`);
+        circle.bindTooltip(
+            `<b>主干交叉口</b> | ${j.way_count}条道路<br>类型: ${hwLabels.join(' + ')}<br>${roadLabels.join(', ')}`,
+            { direction: 'top', offset: [0, -radius - 2] }
+        );
+
+        downloadedIntersectionLayer.addLayer(circle);
+    });
+
+    downloadedIntersectionLayer.addTo(map);
+}
+
+// === 渲染下载的非道路图层 ===
+let downloadedBuildingLayer = null;
+let downloadedWaterLayer = null;
+let downloadedLanduseLayer = null;
+let downloadedPoisLayer = null;
+
+function renderDownloadedBuildings(buildings) {
+    if (downloadedBuildingLayer) map.removeLayer(downloadedBuildingLayer);
+    downloadedBuildingLayer = L.layerGroup();
+    let shownCount = 0;
+    let skippedCount = 0;
+
+    buildings.forEach(f => {
+        // 只显示有 OSM 原始高度数据的建筑（building:levels 或 height 标签）
+        const hasLevels = f.properties.levels;
+        const hasHeight = f.properties.height;
+        if (!hasLevels && !hasHeight) {
+            skippedCount++;
+            return; // 跳过，不显示
+        }
+        shownCount++;
+
+        const coords = f.geometry.coordinates[0].map(c => [c[1], c[0]]);
+        const polygon = L.polygon(coords, {
+            color: '#e67e22', fillColor: '#f39c12', fillOpacity: 0.35, weight: 1.5
+        });
+
+        // 构建 popup，只显示 OSM 原始数据
+        let tooltipContent = '';
+        if (f.properties.name) tooltipContent += f.properties.name;
+        polygon.bindTooltip(tooltipContent || '建筑');
+
+        // 添加 popup 显示详细高度信息
+        let popupContent = '<b>建筑</b>';
+        if (f.properties.name) popupContent += `<br>名称: ${f.properties.name}`;
+        if (f.properties.building) popupContent += `<br>类型: ${f.properties.building}`;
+        if (hasLevels) popupContent += `<br>层数: ${f.properties.levels} 层 (building:levels)`;
+        if (hasHeight) popupContent += `<br>高度: ${f.properties.height} (height)`;
+        polygon.bindPopup(popupContent);
+
+        downloadedBuildingLayer.addLayer(polygon);
+    });
+    downloadedBuildingLayer.addTo(map);
+
+    console.log(`建筑渲染: 显示 ${shownCount} 个(有OSM高度数据), 跳过 ${skippedCount} 个(无高度数据)`);
+}
+
+function renderDownloadedWater(water) {
+    if (downloadedWaterLayer) map.removeLayer(downloadedWaterLayer);
+    downloadedWaterLayer = L.layerGroup();
+    water.forEach(f => {
+        const coords = f.geometry.coordinates[0].map(c => [c[1], c[0]]);
+        const polygon = L.polygon(coords, {
+            color: '#2980b9', fillColor: '#3498db', fillOpacity: 0.4, weight: 1.5
+        });
+        if (f.properties.name) polygon.bindTooltip(f.properties.name);
+        downloadedWaterLayer.addLayer(polygon);
+    });
+    downloadedWaterLayer.addTo(map);
+}
+
+function renderDownloadedLanduse(landuse) {
+    if (downloadedLanduseLayer) map.removeLayer(downloadedLanduseLayer);
+    downloadedLanduseLayer = L.layerGroup();
+    landuse.forEach(f => {
+        const lu = f.properties.landuse;
+        const isPark = lu === 'park' || f.properties.leisure === 'park';
+        const isGreen = lu === 'grass' || lu === 'forest' || lu === 'greenfield';
+        const color = isPark ? '#27ae60' : isGreen ? '#2ecc71' : '#95a5a6';
+        const coords = f.geometry.coordinates[0].map(c => [c[1], c[0]]);
+        const polygon = L.polygon(coords, {
+            color: color, fillColor: color, fillOpacity: 0.25, weight: 1.5,
+            dashArray: isPark ? null : '5,5'
+        });
+        const label = isPark ? '公园' : lu;
+        if (f.properties.name) polygon.bindTooltip(f.properties.name);
+        else polygon.bindTooltip(label);
+        downloadedLanduseLayer.addLayer(polygon);
+    });
+    downloadedLanduseLayer.addTo(map);
+}
+
+function renderDownloadedPois(pois) {
+    if (downloadedPoisLayer) map.removeLayer(downloadedPoisLayer);
+    downloadedPoisLayer = L.layerGroup();
+    const poiIcon = L.divIcon({
+        className: 'custom-poi',
+        html: '<div style="background:#e74c3c;width:10px;height:10px;border-radius:50%;border:2px solid white;box-shadow:0 1px 4px rgba(0,0,0,0.3)"></div>',
+        iconSize: [14, 14],
+        iconAnchor: [7, 7],
+    });
+    pois.forEach(f => {
+        const marker = L.marker([f.geometry.coordinates[1], f.geometry.coordinates[0]], { icon: poiIcon });
+        marker.bindTooltip(`<b>${f.properties.name}</b>`);
+        downloadedPoisLayer.addLayer(marker);
+    });
+    downloadedPoisLayer.addTo(map);
+}
+
+// === 动态更新信息面板 ===
+// 道路类型中文标签映射
+const roadTypeLabels = {
+    'primary': '主干道', 'primary_link': 'primary_link',
+    'secondary': '次干道', 'tertiary': '三级路',
+    'tertiary_link': 'tertiary_link', 'residential': '住宅区路',
+    'service': '服务路', 'unclassified': '未分类',
+    'trunk_link': 'trunk_link', 'footway': '人行道',
+    'motorway': '高速公路', 'trunk': '干道',
+    'living_street': '生活街道', 'pedestrian': '步行街',
+    'path': '小路', 'cycleway': '自行车道',
+    'motorway_link': 'motorway_link', 'secondary_link': 'secondary_link',
+};
+
+const roadTypeColors = {
+    'primary': '#f39c12', 'primary_link': '#999999',
+    'secondary': '#2ecc71', 'tertiary': '#3498db',
+    'tertiary_link': '#999999', 'residential': '#9b59b6',
+    'service': '#7f8c8d', 'unclassified': '#607d8b',
+    'trunk_link': '#999999', 'footway': '#1abc9c',
+    'motorway': '#e74c3c', 'trunk': '#e67e22',
+    'living_street': '#9b59b6', 'pedestrian': '#1abc9c',
+    'path': '#8bc34a', 'cycleway': '#8bc34a',
+    'motorway_link': '#999999', 'secondary_link': '#999999',
+};
+
+// 保存最近一次 updateInfoPanel 调用的统计数据（供动态更新信号灯数量使用）
+// 默认值对应贵港市原始数据
+let lastRoadTypeCounts = {'primary': 5, 'primary_link': 2, 'secondary': 8, 'tertiary': 10, 'tertiary_link': 1, 'residential': 15, 'service': 20, 'unclassified': 5, 'trunk_link': 1, 'footway': 10, 'motorway': 2, 'trunk': 1, 'living_street': 1, 'path': 1, 'cycleway': 1};
+let lastBuildingCount = 27;
+let lastWaterCount = 2;
+let lastLanduseCount = 9;
+let lastPoiCount = 9;
+let lastJunctionCount = 106;
+let lastIntersectionCount = 56;
+let lastTitle = '贵港市';
+
+// 默认图例和统计（贵港市原始数据）
+const defaultInfo = {
+    title: '贵港市',
+    legend: `<span style="display:inline-block;width:14px;height:14px;background:#f39c12;border-radius:3px;margin-right:4px;vertical-align:middle"></span>主干道 <span style="display:inline-block;width:14px;height:14px;background:#999999;border-radius:3px;margin-right:4px;vertical-align:middle"></span>primary_link <span style="display:inline-block;width:14px;height:14px;background:#3498db;border-radius:3px;margin-right:4px;vertical-align:middle"></span>三级路 <span style="display:inline-block;width:14px;height:14px;background:#2ecc71;border-radius:3px;margin-right:4px;vertical-align:middle"></span>次干道 <span style="display:inline-block;width:14px;height:14px;background:#7f8c8d;border-radius:3px;margin-right:4px;vertical-align:middle"></span>服务路 <span style="display:inline-block;width:14px;height:14px;background:#9b59b6;border-radius:3px;margin-right:4px;vertical-align:middle"></span>住宅区路 <span style="display:inline-block;width:14px;height:14px;background:#999999;border-radius:3px;margin-right:4px;vertical-align:middle"></span>tertiary_link <span style="display:inline-block;width:14px;height:14px;background:#607d8b;border-radius:3px;margin-right:4px;vertical-align:middle"></span>未分类 <span style="display:inline-block;width:14px;height:14px;background:#999999;border-radius:3px;margin-right:4px;vertical-align:middle"></span>trunk_link <span style="display:inline-block;width:14px;height:14px;background:#1abc9c;border-radius:3px;margin-right:4px;vertical-align:middle"></span>人行道`,
+    stats: '道路: 83段 | 建筑: 27栋 | 水域: 2处 | 用地: 9块 | POI: 9<br>交叉口: 106个 | Intersection: 56个 | 信号灯: 0个'
+};
+
+function updateInfoPanel(title, roadTypeCounts, buildingCount, waterCount, landuseCount, poiCount, junctionCount, intersectionCount, trafficSignalsCount) {
+    const infoDiv = document.getElementById('info');
+    if (!infoDiv) return;
+
+    // 更新标题
+    infoDiv.querySelector('h3').textContent = title || 'OSM数据';
+
+    // 动态生成图例 - 只显示实际存在的道路类型
+    let legendHtml = '';
+    if (roadTypeCounts && Object.keys(roadTypeCounts).length > 0) {
+        const sortedTypes = Object.keys(roadTypeCounts).sort((a, b) => {
+            // 排序: 主要道路在前
+            const order = ['primary', 'trunk', 'motorway', 'secondary', 'tertiary', 'residential', 'unclassified', 'service', 'footway', 'pedestrian', 'path', 'primary_link', 'secondary_link', 'tertiary_link', 'trunk_link', 'motorway_link', 'living_street', 'cycleway'];
+            const ai = order.indexOf(a);
+            const bi = order.indexOf(b);
+            return (ai === -1 ? 99 : ai) - (bi === -1 ? 99 : bi);
+        });
+        sortedTypes.forEach(hw => {
+            const color = roadTypeColors[hw] || '#999999';
+            const label = roadTypeLabels[hw] || hw;
+            legendHtml += `<span style="display:inline-block;width:14px;height:14px;background:${color};border-radius:3px;margin-right:4px;vertical-align:middle"></span>${label} `;
+        });
+    } else {
+        legendHtml = '<span style="color:#999;">无道路数据</span>';
+    }
+
+    // 添加交通信号灯图例
+    const tCount = trafficSignalsCount || 0;
+    if (tCount > 0) {
+        legendHtml += `<span style="margin-left:8px;display:inline-block;width:14px;height:14px;text-align:center;line-height:14px;font-size:12px;vertical-align:middle;">🚦</span> 信号灯 `;
+    }
+    infoDiv.querySelector('.legend').innerHTML = legendHtml;
+
+    // 更新统计信息
+    const roadTotal = roadTypeCounts ? Object.values(roadTypeCounts).reduce((a, b) => a + b, 0) : 0;
+    const bCount = buildingCount || 0;
+    const wCount = waterCount || 0;
+    const lCount = landuseCount || 0;
+    const pCount = poiCount || 0;
+    const jCount = junctionCount || 0;
+    const iCount = intersectionCount || 0;
+    // tCount 已在上方声明，此处直接使用
+
+    infoDiv.querySelector('.stats').innerHTML =
+        `道路: ${roadTotal}段 | 建筑: ${bCount}栋 | 水域: ${wCount}处 | 用地: ${lCount}块 | POI: ${pCount}<br>交叉口: ${jCount}个 | Intersection: ${iCount}个 | 信号灯: ${tCount}个`;
+
+    // 保存统计数据到全局变量，供 loadLocalTrafficSignals 等函数更新信号灯数量时使用
+    lastRoadTypeCounts = roadTypeCounts || {};
+    lastBuildingCount = bCount;
+    lastWaterCount = wCount;
+    lastLanduseCount = lCount;
+    lastPoiCount = pCount;
+    lastJunctionCount = jCount;
+    lastIntersectionCount = iCount;
+    lastTitle = title || 'OSM数据';
+}
+
+function restoreDefaultInfoPanel() {
+    const infoDiv = document.getElementById('info');
+    if (!infoDiv) return;
+    infoDiv.querySelector('h3').textContent = defaultInfo.title;
+    infoDiv.querySelector('.legend').innerHTML = defaultInfo.legend;
+    infoDiv.querySelector('.stats').innerHTML = defaultInfo.stats;
+    // 同步更新全局变量为贵港市默认值
+    lastTitle = defaultInfo.title;
+    lastRoadTypeCounts = {'primary': 5, 'primary_link': 2, 'secondary': 8, 'tertiary': 10, 'tertiary_link': 1, 'residential': 15, 'service': 20, 'unclassified': 5, 'trunk_link': 1, 'footway': 10, 'motorway': 2, 'trunk': 1, 'living_street': 1, 'path': 1, 'cycleway': 1};
+    lastBuildingCount = 27;
+    lastWaterCount = 2;
+    lastLanduseCount = 9;
+    lastPoiCount = 9;
+    lastJunctionCount = 106;
+    lastIntersectionCount = 56;
+}
+
+// === 清除下载的非道路图层 ===
+function clearDownloadedExtraLayers() {
+    if (downloadedBuildingLayer) { map.removeLayer(downloadedBuildingLayer); downloadedBuildingLayer = null; }
+    if (downloadedWaterLayer) { map.removeLayer(downloadedWaterLayer); downloadedWaterLayer = null; }
+    if (downloadedLanduseLayer) { map.removeLayer(downloadedLanduseLayer); downloadedLanduseLayer = null; }
+    if (downloadedPoisLayer) { map.removeLayer(downloadedPoisLayer); downloadedPoisLayer = null; }
+}
+
+
+
+
+
+
+
+
+</script>
+</body>
+</html>
