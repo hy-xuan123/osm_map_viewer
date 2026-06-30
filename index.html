@@ -382,11 +382,170 @@ body { font-family: "Microsoft YaHei", "PingFang SC", sans-serif; }
     background: #e8f4fd;
 }
 
+/* === 手机端悬浮菜单按钮 === */
+.mobile-menu-btn {
+    display: none;
+}
+/* 手机端图例面板可收起 */
+.info-panel .collapse-btn {
+    display: none;
+    position: absolute; top: 4px; right: 8px;
+    background: none; border: none; cursor: pointer;
+    font-size: 16px; color: #999; padding: 2px 4px;
+}
+.info-panel.collapsed {
+    padding: 6px 10px;
+    max-width: 40px;
+    max-height: 40px;
+    overflow: hidden;
+    cursor: pointer;
+    border-radius: 50%;
+}
+.info-panel.collapsed h3 { display: none; }
+.info-panel.collapsed .legend { display: none; }
+.info-panel.collapsed .stats { display: none; }
+.info-panel.collapsed .collapse-btn {
+    display: block;
+    right: auto; left: 50%; top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 14px;
+}
+
+/* 搜索面板最小化状态 */
+.search-overlay.minimized .search-dialog {
+    transform: scale(0.35) translate(0, 0);
+    transform-origin: top left;
+    opacity: 0.45;
+    pointer-events: none;
+    transition: all 0.4s ease;
+}
+.search-overlay.minimized::after {
+    content: '🔍 点击恢复搜索面板';
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    background: rgba(0,0,0,0.75);
+    color: white;
+    padding: 8px 14px;
+    border-radius: 6px;
+    font-size: 12px;
+    z-index: 10001;
+    cursor: pointer;
+    pointer-events: auto;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+}
+
+@media (max-width: 768px) {
+    /* 右上角图例：默认收起 */
+    .info-panel {
+        max-width: 200px;
+        font-size: 12px;
+        padding: 8px 10px;
+    }
+    .info-panel .collapse-btn {
+        display: block;
+    }
+    .info-panel.collapsed {
+        display: block;
+    }
+
+    /* 隐藏桌面端按钮栏 */
+    .legend-toggle { display: none; }
+
+    /* 手机端悬浮菜单按钮 */
+    .mobile-menu-btn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        z-index: 9999;
+        width: 52px;
+        height: 52px;
+        border-radius: 50%;
+        background: #3498db;
+        color: white;
+        border: none;
+        box-shadow: 0 4px 16px rgba(52,152,219,0.4);
+        font-size: 22px;
+        cursor: pointer;
+        transition: all 0.2s;
+    }
+    .mobile-menu-btn.open {
+        background: #e74c3c;
+        box-shadow: 0 4px 16px rgba(231,76,60,0.4);
+    }
+
+    /* 手机端弹出面板 */
+    .mobile-panel {
+        display: none;
+        position: fixed;
+        bottom: 80px;
+        right: 10px;
+        left: 10px;
+        z-index: 9998;
+        background: rgba(255,255,255,0.98);
+        border-radius: 12px;
+        padding: 14px;
+        box-shadow: 0 4px 20px rgba(0,0,0,0.25);
+        max-height: 60vh;
+        overflow-y: auto;
+    }
+    .mobile-panel.show { display: block; }
+    .mobile-panel .panel-section {
+        margin-bottom: 10px;
+    }
+    .mobile-panel .panel-section:last-child { margin-bottom: 0; }
+    .mobile-panel .panel-label {
+        font-size: 11px;
+        color: #999;
+        margin-bottom: 6px;
+        font-weight: bold;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+    }
+    .mobile-panel button {
+        padding: 6px 11px;
+        margin: 2px 3px;
+        border: 1px solid #e0e0e0;
+        border-radius: 6px;
+        background: white;
+        font-size: 12px;
+        cursor: pointer;
+        transition: all 0.2s;
+        color: #555;
+    }
+    .mobile-panel button.on {
+        background: #3498db;
+        color: white;
+        border-color: #2980b9;
+    }
+    .mobile-panel button.off {
+        background: #f5f5f5;
+        color: #aaa;
+    }
+    .mobile-panel .close-panel {
+        position: sticky;
+        bottom: 0;
+        width: 100%;
+        padding: 8px;
+        background: #e74c3c;
+        color: white;
+        border: none;
+        border-radius: 6px;
+        font-size: 13px;
+        cursor: pointer;
+        margin-top: 10px;
+    }
+}
+
 </style>
 </head>
 <body>
 <div id="map"></div>
 <div class="info-panel" id="info">
+    <span class="collapse-btn" onclick="event.stopPropagation(); toggleInfoPanel()" title="收起/展开">📋</span>
     <h3>贵港市</h3>
     <div class="legend"><span style="display:inline-block;width:14px;height:14px;background:#f39c12;border-radius:3px;margin-right:4px;vertical-align:middle"></span>主干道 <span style="display:inline-block;width:14px;height:14px;background:#e67e22;border-radius:3px;margin-right:4px;vertical-align:middle"></span>主路匝道 <span style="display:inline-block;width:14px;height:14px;background:#3498db;border-radius:3px;margin-right:4px;vertical-align:middle"></span>三级路 <span style="display:inline-block;width:14px;height:14px;background:#2ecc71;border-radius:3px;margin-right:4px;vertical-align:middle"></span>次干道 <span style="display:inline-block;width:14px;height:14px;background:#7f8c8d;border-radius:3px;margin-right:4px;vertical-align:middle"></span>服务路 <span style="display:inline-block;width:14px;height:14px;background:#9b59b6;border-radius:3px;margin-right:4px;vertical-align:middle"></span>住宅区路 <span style="display:inline-block;width:14px;height:14px;background:#2980b9;border-radius:3px;margin-right:4px;vertical-align:middle"></span>三级路匝道 <span style="display:inline-block;width:14px;height:14px;background:#607d8b;border-radius:3px;margin-right:4px;vertical-align:middle"></span>未分类 <span style="display:inline-block;width:14px;height:14px;background:#8e44ad;border-radius:3px;margin-right:4px;vertical-align:middle"></span>主干路匝道 <span style="display:inline-block;width:14px;height:14px;background:#1abc9c;border-radius:3px;margin-right:4px;vertical-align:middle"></span>人行道 </div>
     <div class="stats">
@@ -419,7 +578,43 @@ body { font-family: "Microsoft YaHei", "PingFang SC", sans-serif; }
     <button onclick="showSearchLocation()">Search Location</button>
 </div>
 
+<!-- 手机端悬浮菜单按钮 -->
+<button class="mobile-menu-btn" id="mobileMenuBtn" onclick="toggleMobilePanel()">☰</button>
 
+<!-- 手机端弹出面板 -->
+<div class="mobile-panel" id="mobilePanel">
+    <div class="panel-section">
+        <div class="panel-label">底图</div>
+        <button onclick="switchBase('osm'); updateMobilePanel()" id="m-btn-osm" class="on">标准地图</button>
+        <button onclick="switchBase('satellite'); updateMobilePanel()" id="m-btn-satellite">卫星地图</button>
+    </div>
+    <div class="panel-section">
+        <div class="panel-label">道路类型</div>
+        <button id="m-btn-primary" class="on" onclick="toggleRoadType('primary'); updateMobilePanel()">主干道</button>
+        <button id="m-btn-secondary" class="on" onclick="toggleRoadType('secondary'); updateMobilePanel()">次干道</button>
+        <button id="m-btn-tertiary" class="on" onclick="toggleRoadType('tertiary'); updateMobilePanel()">三级路</button>
+        <button id="m-btn-residential" class="on" onclick="toggleRoadType('residential'); updateMobilePanel()">住宅区路</button>
+        <button id="m-btn-service" class="on" onclick="toggleRoadType('service'); updateMobilePanel()">服务路</button>
+        <button id="m-btn-footway" class="on" onclick="toggleRoadType('footway'); updateMobilePanel()">人行道</button>
+        <button id="m-btn-unclassified" class="on" onclick="toggleRoadType('unclassified'); updateMobilePanel()">未分类</button>
+        <button id="m-btn-link" class="on" onclick="toggleRoadType('link'); updateMobilePanel()">匝道</button>
+    </div>
+    <div class="panel-section">
+        <div class="panel-label">图层</div>
+        <button id="m-btn-overlay" class="on" onclick="toggleOverlay(); updateMobilePanel()">Spatial Coverage</button>
+        <button id="m-btn-pois" class="on" onclick="toggleLayer('pois'); updateMobilePanel()">POI</button>
+        <button id="m-btn-junctions" class="on" onclick="toggleJunctions(); updateMobilePanel()">Junction</button>
+        <button id="m-btn-intersection" class="on" onclick="toggleIntersection(); updateMobilePanel()">Intersection</button>
+        <button id="m-btn-traffic" class="off" onclick="toggleTrafficSignals(); updateMobilePanel()">🚦 信号灯</button>
+    </div>
+    <div class="panel-section">
+        <div class="panel-label">功能</div>
+        <button onclick="showCoordinates(); toggleMobilePanel()">Coordinates</button>
+        <button onclick="openLocalOsmData(); toggleMobilePanel()" style="background:#27ae60;color:white;border:1px solid #219a52;">New Location</button>
+        <button onclick="showSearchLocation(); toggleMobilePanel()">Search Location</button>
+    </div>
+    <button class="close-panel" onclick="toggleMobilePanel()">关闭菜单</button>
+</div>
 
 <script>
 // === 交叉口数据 (从 OSM 共享节点提取) ===
@@ -1217,7 +1412,13 @@ async function showSearchLocation(lat, lon) {
     document.body.appendChild(overlay);
 
     overlay.addEventListener('click', function(e) {
-        if (e.target === overlay) closeSearchOverlay();
+        if (e.target === overlay) {
+            if (overlay.classList.contains('minimized')) {
+                overlay.classList.remove('minimized');
+            } else {
+                closeSearchOverlay();
+            }
+        }
     });
 
     // 回车触发搜索
@@ -1930,26 +2131,37 @@ function flyToJunction(lat, lon, type = 'junction') {
     clearJunctionHighlight();
     highlightSelectedJunction(lat, lon, type);
 
-    // 右侧 info-panel 宽度约 320px，将目标点向左偏移，避免被遮挡
+    // 检测是否有搜索对话框，如果有则最小化它，让用户能看到地图标记
+    const searchOverlay = document.getElementById('search-overlay');
+    if (searchOverlay) {
+        searchOverlay.classList.add('minimized');
+    }
+
+    // 检测屏幕宽度，决定是否需要偏移
+    const isMobile = window.innerWidth <= 768;
     const infoPanel = document.getElementById('info');
-    const panelWidth = infoPanel ? infoPanel.offsetWidth + 20 : 320; // 面板宽度 + 间距
-    const mapWidth = map.getSize().x;
-    // 计算需要横向偏移的百分比，使目标点位于(地图宽度 - 面板宽度)的中心
-    const offsetX = -(panelWidth / mapWidth) * 100 / 2; // 负值表示向左偏移
-    map.flyTo([lat, lon], 18, {
+
+    let panelWidth = 0;
+    if (!isMobile && infoPanel) {
+        panelWidth = infoPanel.offsetWidth + 20;
+    }
+
+    map.flyTo([lat, lon], isMobile ? 17 : 18, {
         duration: 0.5,
         pan: { animate: true },
     });
-    // 飞行结束后，再向左微调偏移，确保不被 info-panel 遮挡
+
+    // 飞行结束后，做偏移和闪烁
     setTimeout(() => {
-        const pw = panelWidth;
-        const mw = map.getSize().x;
-        if (pw > 0 && mw > pw) {
-            // 将地图中心点向左偏移，使目标点位于 info-panel 左侧区域的中心
-            map.panBy([-pw / 2, 0], { animate: true });
+        if (panelWidth > 0) {
+            const mw = map.getSize().x;
+            if (mw > panelWidth) {
+                map.panBy([-panelWidth / 2, 0], { animate: true });
+            }
         }
     }, 600);
-    // 闪烁效果
+
+    // 闪烁效果（让用户能更清楚地看到位置）
     setTimeout(() => {
         const temp = L.circleMarker([lat, lon], {
             radius: 14, color: '#e74c3c', fillColor: '#e74c3c',
@@ -3029,12 +3241,49 @@ function clearDownloadedExtraLayers() {
     if (downloadedPoisLayer) { map.removeLayer(downloadedPoisLayer); downloadedPoisLayer = null; }
 }
 
+// === 手机端菜单 ===
+function toggleMobilePanel() {
+    const panel = document.getElementById('mobilePanel');
+    const btn = document.getElementById('mobileMenuBtn');
+    const isOpen = panel.classList.toggle('show');
+    btn.classList.toggle('open');
+    btn.textContent = isOpen ? '✕' : '☰';
+    if (isOpen) updateMobilePanel();
+}
 
+function updateMobilePanel() {
+    // 同步桌面端按钮状态到手机端
+    const mapping = {
+        'btn-osm': 'm-btn-osm',
+        'btn-satellite': 'm-btn-satellite',
+        'btn-primary': 'm-btn-primary',
+        'btn-secondary': 'm-btn-secondary',
+        'btn-tertiary': 'm-btn-tertiary',
+        'btn-residential': 'm-btn-residential',
+        'btn-service': 'm-btn-service',
+        'btn-footway': 'm-btn-footway',
+        'btn-unclassified': 'm-btn-unclassified',
+        'btn-link': 'm-btn-link',
+        'btn-overlay': 'm-btn-overlay',
+        'btn-pois': 'm-btn-pois',
+        'btn-junctions': 'm-btn-junctions',
+        'btn-intersection': 'm-btn-intersection',
+        'btn-traffic': 'm-btn-traffic'
+    };
+    Object.keys(mapping).forEach(id => {
+        const src = document.getElementById(id);
+        const tgt = document.getElementById(mapping[id]);
+        if (src && tgt) {
+            tgt.className = src.className;
+        }
+    });
+}
 
-
-
-
-
+// === 图例面板收起/展开 ===
+function toggleInfoPanel() {
+    const panel = document.getElementById('info');
+    panel.classList.toggle('collapsed');
+}
 
 </script>
 </body>
