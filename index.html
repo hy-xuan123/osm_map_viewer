@@ -11,7 +11,7 @@
 body { font-family: "Microsoft YaHei", "PingFang SC", sans-serif; }
 #map { width:100vw; height:100vh; }
 .info-panel {
-    position:absolute; top:10px; right:10px; z-index:1000;
+    position:fixed; top:10px; right:10px; z-index:1000;
     background:rgba(255,255,255,0.95); border-radius:8px;
     padding:12px 16px; box-shadow:0 2px 12px rgba(0,0,0,0.15);
     font-size:13px; max-width:300px;
@@ -51,7 +51,7 @@ body { font-family: "Microsoft YaHei", "PingFang SC", sans-serif; }
 .info-panel .legend { line-height:2; }
 .info-panel .stats { margin-top:8px; color:#666; font-size:12px; }
 .legend-toggle {
-    position:absolute; bottom:20px; left:10px; z-index:1000;
+    position:fixed; bottom:20px; left:10px; z-index:1000;
 }
 .legend-toggle button {
     background: rgba(255,255,255,0.95);
@@ -428,9 +428,29 @@ body { font-family: "Microsoft YaHei", "PingFang SC", sans-serif; }
     background: #e8f4fd;
 }
 
-/* === 手机端悬浮菜单按钮 === */
+/* === 桌面端/手机端通用悬浮菜单按钮 === */
 .mobile-menu-btn {
-    display: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 10001;
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    background: #3498db;
+    color: white;
+    border: none;
+    box-shadow: 0 4px 16px rgba(52,152,219,0.4);
+    font-size: 22px;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+.mobile-menu-btn.open {
+    background: #e74c3c;
+    box-shadow: 0 4px 16px rgba(231,76,60,0.4);
 }
 /* 手机端图例面板可收起 */
 .info-panel .collapse-btn {
@@ -522,30 +542,7 @@ body { font-family: "Microsoft YaHei", "PingFang SC", sans-serif; }
     /* 隐藏桌面端按钮栏 */
     .legend-toggle { display: none; }
 
-    /* 手机端悬浮菜单按钮 */
-    .mobile-menu-btn {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        position: fixed;
-        bottom: 20px;
-        right: 20px;
-        z-index: 10001;
-        width: 52px;
-        height: 52px;
-        border-radius: 50%;
-        background: #3498db;
-        color: white;
-        border: none;
-        box-shadow: 0 4px 16px rgba(52,152,219,0.4);
-        font-size: 22px;
-        cursor: pointer;
-        transition: all 0.2s;
-    }
-    .mobile-menu-btn.open {
-        background: #e74c3c;
-        box-shadow: 0 4px 16px rgba(231,76,60,0.4);
-    }
+    /* 手机端：移动端菜单按钮无需额外基础样式（已由全局定义） */
 
     /* iOS 安全区域适配：悬浮按钮避让刘海屏和底部横条 */
     .mobile-menu-btn {
