@@ -457,6 +457,10 @@ body { font-family: "Microsoft YaHei", "PingFang SC", sans-serif; }
 .search-overlay.minimized {
     background: transparent !important;
     pointer-events: none !important;
+    /* 最小化时缩小到 0 尺寸，不再覆盖全屏，避免移动端遮挡地图控件 */
+    width: 0 !important;
+    height: 0 !important;
+    overflow: hidden;
 }
 
 /* 最小化悬浮图标（左上角 SL） */
