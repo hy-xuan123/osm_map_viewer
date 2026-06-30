@@ -453,6 +453,11 @@ body { font-family: "Microsoft YaHei", "PingFang SC", sans-serif; }
 .search-overlay.minimized .search-dialog {
     display: none;
 }
+/* 最小化时让遮罩层透明且不拦截事件，确保地图可交互 */
+.search-overlay.minimized {
+    background: transparent !important;
+    pointer-events: none !important;
+}
 
 /* 最小化悬浮图标（左上角 SL） */
 .search-minimized-icon {
@@ -923,6 +928,8 @@ function toggleRoadType(hw) {
 let junctionsVisible = true;
 const junctionsLayer = L.layerGroup();
 let _selectedJunction = null;  // 当前选中高亮的交点: { lat, lon, type: 'junction'|'intersection' }
+let _selectedMarker = null;    // 持久选中的内层标记
+let _selectedMarkerOuter = null; // 持久选中的外层标记
 
 // 根据汇聚道路数量设置颜色和大小
 function getJunctionStyle(wayCount) {
@@ -2167,7 +2174,6 @@ function highlightSelectedJunction(lat, lon, type) {
     _selectedJunction = { lat, lon, type };
 
     const highlightStyle = { radius: 14, fillOpacity: 1, weight: 5, color: '#e74c3c', fillColor: '#e74c3c' };
-    const dimStyle = { radius: 4, fillOpacity: 0.2, weight: 1, color: '#999', fillColor: '#999' };
 
     // 确定要处理的图层
     const layersToProcess = [];
@@ -2196,19 +2202,8 @@ function highlightSelectedJunction(lat, lon, type) {
                 }
                 layer.setStyle(highlightStyle);
                 layer.bringToFront();
-            } else {
-                // 保存原始样式
-                if (!layer._originalStyle) {
-                    layer._originalStyle = {
-                        radius: layer.options.radius,
-                        fillOpacity: layer.options.fillOpacity,
-                        weight: layer.options.weight,
-                        color: layer.options.color,
-                        fillColor: layer.options.fillColor
-                    };
-                }
-                layer.setStyle(dimStyle);
             }
+            // 不再将其他交点变暗，保持地图清晰
         });
     });
 }
@@ -2226,18 +2221,28 @@ function clearJunctionHighlight() {
         });
     });
 
+    // 清除持久标记
+    if (_selectedMarker) {
+        map.removeLayer(_selectedMarker);
+        _selectedMarker = null;
+    }
+    if (_selectedMarkerOuter) {
+        map.removeLayer(_selectedMarkerOuter);
+        _selectedMarkerOuter = null;
+    }
+
     _selectedJunction = null;
 }
 
 function flyToJunction(lat, lon, type = 'junction') {
-    // 先清除上一次的高亮，再高亮当前选中的交点
+    // 先清除上一次的高亮和标记
     clearJunctionHighlight();
     highlightSelectedJunction(lat, lon, type);
 
     // 检测是否有搜索对话框，如果有则最小化它，让用户能看到地图标记
     const searchOverlay = document.getElementById('search-overlay');
-    if (searchOverlay) {
-        searchOverlay.classList.add('minimized');
+    if (searchOverlay && !searchOverlay.classList.contains('minimized')) {
+        toggleSearchMinimize();
     }
 
     // 检测屏幕宽度，决定是否需要偏移
@@ -2254,7 +2259,7 @@ function flyToJunction(lat, lon, type = 'junction') {
         pan: { animate: true },
     });
 
-    // 飞行结束后，做偏移和闪烁
+    // 飞行结束后，做偏移使交点居中
     setTimeout(() => {
         if (panelWidth > 0) {
             const mw = map.getSize().x;
@@ -2264,13 +2269,53 @@ function flyToJunction(lat, lon, type = 'junction') {
         }
     }, 600);
 
-    // 闪烁效果（让用户能更清楚地看到位置）
+    // 添加持久醒目的选中标记（替代短暂的闪烁效果）
     setTimeout(() => {
-        const temp = L.circleMarker([lat, lon], {
-            radius: 14, color: '#e74c3c', fillColor: '#e74c3c',
-            fillOpacity: 0.3, weight: 4
+        // 清除旧的标记
+        if (_selectedMarker) {
+            map.removeLayer(_selectedMarker);
+        }
+        if (_selectedMarkerOuter) {
+            map.removeLayer(_selectedMarkerOuter);
+        }
+
+        // 外层大圆圈 - 带白色边框的醒目红色半透明圆
+        _selectedMarkerOuter = L.circleMarker([lat, lon], {
+            radius: 20,
+            color: '#ffffff',
+            fillColor: '#e74c3c',
+            fillOpacity: 0.25,
+            weight: 4,
+            opacity: 0.9,
+            className: 'selected-junction-marker'
         }).addTo(map);
-        setTimeout(() => map.removeLayer(temp), 1500);
+
+        // 内层小圆圈 - 实心红色
+        _selectedMarker = L.circleMarker([lat, lon], {
+            radius: 8,
+            color: '#ffffff',
+            fillColor: '#e74c3c',
+            fillOpacity: 1,
+            weight: 3,
+            opacity: 1,
+            className: 'selected-junction-marker'
+        }).addTo(map);
+
+        // 添加脉动动画的 CSS（如果还没有）
+        if (!document.getElementById('junction-pulse-style')) {
+            const style = document.createElement('style');
+            style.id = 'junction-pulse-style';
+            style.textContent = `
+                .selected-junction-marker {
+                    animation: junction-pulse 1.2s ease-in-out infinite;
+                }
+                @keyframes junction-pulse {
+                    0%, 100% { opacity: 1; }
+                    50% { opacity: 0.5; }
+                }
+            `;
+            document.head.appendChild(style);
+        }
     }, 600);
 }
 
