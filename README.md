@@ -1,4 +1,4 @@
-# OSM Map Viewer
+# OSM-Vis
 
 ## Abstract
 
@@ -197,7 +197,7 @@ MIT
 
 ---
 
-# OSM Map Viewer（中文版）
+# OSM-Vis（中文版）
 
 ## 摘要
 
