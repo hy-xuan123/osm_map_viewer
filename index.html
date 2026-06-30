@@ -130,9 +130,15 @@ body { font-family: "Microsoft YaHei", "PingFang SC", sans-serif; }
 }
 .search-overlay {
     position:fixed; top:0; left:0; width:100vw; height:100vh;
+    height: -webkit-fill-available; /* iOS Safari 兼容 */
     background:rgba(0,0,0,0.5); z-index:10000;
     display:flex; align-items:flex-start; justify-content:flex-start;
     padding:10px;
+}
+/* iOS Safari 适配：使用 100dvh 替代 100vh，避免底部工具栏遮挡 */
+@supports (height: 100dvh) {
+    .search-overlay { height: 100dvh; }
+    .coord-overlay { height: 100dvh; }
 }
 .search-dialog {
     background:white; border-radius:8px; width:360px; max-width:90vw;
@@ -457,10 +463,13 @@ body { font-family: "Microsoft YaHei", "PingFang SC", sans-serif; }
 .search-overlay.minimized {
     background: transparent !important;
     pointer-events: none !important;
-    /* 最小化时缩小到 0 尺寸，不再覆盖全屏，避免移动端遮挡地图控件 */
-    width: 0 !important;
-    height: 0 !important;
+    /* 完全从布局中移除，不影响其他 fixed 元素的定位参考 */
+    position: absolute !important;
+    width: 1px !important;
+    height: 1px !important;
     overflow: hidden;
+    clip: rect(0,0,0,0);
+    white-space: nowrap;
 }
 
 /* 最小化悬浮图标（左上角 SL） */
@@ -537,6 +546,23 @@ body { font-family: "Microsoft YaHei", "PingFang SC", sans-serif; }
         background: #e74c3c;
         box-shadow: 0 4px 16px rgba(231,76,60,0.4);
     }
+
+    /* iOS 安全区域适配：悬浮按钮避让刘海屏和底部横条 */
+    .mobile-menu-btn {
+        bottom: calc(20px + env(safe-area-inset-bottom, 0px));
+        right: calc(20px + env(safe-area-inset-right, 0px));
+    }
+    .search-minimized-icon.visible {
+        top: calc(10px + env(safe-area-inset-top, 0px));
+        left: calc(10px + env(safe-area-inset-left, 0px));
+    }
+    .info-panel {
+        top: calc(10px + env(safe-area-inset-top, 0px));
+        right: calc(10px + env(safe-area-inset-right, 0px));
+    }
+    /* Leaflet 缩放控件：始终在 overlay 之上 */
+    .leaflet-control-zoom { z-index: 10003 !important; }
+    .leaflet-control-attribution { z-index: 10003 !important; }
 
     /* 手机端弹出面板 */
     .mobile-panel {
@@ -696,7 +722,9 @@ const map = L.map('map', {
 // 提升 Leaflet zoom 控件的 z-index，使其在 search-overlay(10000) 之上可见可操作
 setTimeout(() => {
     const zoomCtrl = document.querySelector('.leaflet-control-zoom');
-    if (zoomCtrl) zoomCtrl.style.zIndex = '10001';
+    if (zoomCtrl) zoomCtrl.style.zIndex = '10003';
+    const attrCtrl = document.querySelector('.leaflet-control-attribution');
+    if (attrCtrl) attrCtrl.style.zIndex = '10003';
 }, 100);
 
 // 底图
