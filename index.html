@@ -629,7 +629,7 @@ body { font-family: "Microsoft YaHei", "PingFang SC", sans-serif; }
     <span style="display:inline-block;width:8px"></span>
     <button id="btn-newlocation" class="off" onclick="openLocalOsmData()">New Location</button>
     <span style="display:inline-block;width:8px"></span>
-    <button id="btn-searchlocation" class="off" onclick="showSearchLocation()">Search Location</button>
+    <button id="btn-searchlocation" class="off" onclick="showSearchLocation()">Locate Junctions</button>
 </div>
 
 <!-- 手机端悬浮菜单按钮 -->
@@ -665,7 +665,7 @@ body { font-family: "Microsoft YaHei", "PingFang SC", sans-serif; }
         <div class="panel-label">功能</div>
         <button id="m-btn-coord" class="off" onclick="showCoordinates(); updateMobilePanel()">Coordinates</button>
         <button id="m-btn-newlocation" class="off" onclick="openLocalOsmData(); updateMobilePanel()">New Location</button>
-        <button id="m-btn-searchlocation" class="off" onclick="showSearchLocation(); updateMobilePanel()">Search Location</button>
+        <button id="m-btn-searchlocation" class="off" onclick="showSearchLocation(); updateMobilePanel()">Locate Junctions</button>
     </div>
     <button class="close-panel" onclick="toggleMobilePanel()">关闭菜单</button>
 </div>
@@ -1440,7 +1440,7 @@ async function showSearchLocation(lat, lon) {
     overlay.className = 'search-overlay';
     overlay.innerHTML = `
         <div class="search-dialog">
-            <h3>Search Location <span onclick="closeSearchOverlay()">&times;</span></h3>
+            <h3>Locate Junctions <span onclick="closeSearchOverlay()">&times;</span></h3>
             <div class="search-input-area">
                 <input id="search-lat" type="text" placeholder="纬度" value="${showLat}">
                 <input id="search-lon" type="text" placeholder="经度" value="${showLon}">

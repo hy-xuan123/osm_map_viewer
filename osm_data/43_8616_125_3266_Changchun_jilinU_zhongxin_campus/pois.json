@@ -1,0 +1,1748 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-06-30T06:30:59Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 736968987,
+      "lat": 43.8656064,
+      "lon": 125.3120558,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "赛百味",
+        "brand:en": "Subway",
+        "brand:wikidata": "Q244457",
+        "brand:wikipedia": "en:Subway (restaurant)",
+        "brand:zh": "赛百味",
+        "cuisine": "sandwich",
+        "name": "赛百味",
+        "name:en": "Subway",
+        "name:zh": "赛百味",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 748758713,
+      "lat": 43.869853,
+      "lon": 125.3352612,
+      "tags": {
+        "name": "Treck",
+        "shop": "bicycle"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1296161409,
+      "lat": 43.8612916,
+      "lon": 125.3180987,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "麦当劳",
+        "brand:en": "McDonald's",
+        "brand:wikidata": "Q38076",
+        "brand:zh": "麦当劳",
+        "cuisine": "burger",
+        "name": "麦当劳",
+        "name:en": "McDonald's",
+        "name:zh": "麦当劳",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3016393875,
+      "lat": 43.8660287,
+      "lon": 125.3118929,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "汉堡王",
+        "brand:en": "Burger King",
+        "brand:wikidata": "Q177054",
+        "brand:wikipedia": "en:Burger King",
+        "brand:zh": "汉堡王",
+        "cuisine": "burger",
+        "drive_through": "no",
+        "name": "汉堡王",
+        "name:en": "Burger King",
+        "name:zh": "汉堡王",
+        "opening_hours": "off",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3016393878,
+      "lat": 43.8647095,
+      "lon": 125.3118076,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "肯德基",
+        "brand:en": "KFC",
+        "brand:wikidata": "Q524757",
+        "brand:zh": "肯德基",
+        "cuisine": "chicken",
+        "name": "肯德基",
+        "name:en": "KFC",
+        "name:zh": "肯德基",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3016834594,
+      "lat": 43.8619539,
+      "lon": 125.3135623,
+      "tags": {
+        "amenity": "post_office",
+        "brand": "中国邮政",
+        "brand:en": "China Post",
+        "brand:wikidata": "Q1066476",
+        "brand:zh": "中国邮政",
+        "name": "中国邮政",
+        "name:en": "China Post",
+        "name:zh": "中国邮政"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3016834632,
+      "lat": 43.8629625,
+      "lon": 125.3120509,
+      "tags": {
+        "name": "同仁书店Tongren Bookstore",
+        "shop": "books"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3016844353,
+      "lat": 43.8626337,
+      "lon": 125.3120724,
+      "tags": {
+        "name": "太阳花",
+        "shop": "gift"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3016844355,
+      "lat": 43.8626646,
+      "lon": 125.3124761,
+      "tags": {
+        "name": "宝丽金",
+        "shop": "music"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3016844356,
+      "lat": 43.8623204,
+      "lon": 125.3129951,
+      "tags": {
+        "name": "民生",
+        "shop": "music"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3016844357,
+      "lat": 43.8623552,
+      "lon": 125.3152749,
+      "tags": {
+        "amenity": "cafe",
+        "name": "素族 Suzu Cafe",
+        "name:en": "Suzu Cafe",
+        "name:zh": "素族"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3018782181,
+      "lat": 43.8641609,
+      "lon": 125.31184,
+      "tags": {
+        "brand": "屈臣氏",
+        "brand:en": "Watsons",
+        "brand:wikidata": "Q7974785",
+        "brand:zh": "屈臣氏",
+        "name": "屈臣氏",
+        "name:en": "Watsons",
+        "name:zh": "屈臣氏",
+        "shop": "chemist"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3022945228,
+      "lat": 43.8661486,
+      "lon": 125.3118931,
+      "tags": {
+        "name": "中东福万家超市",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3026991229,
+      "lat": 43.8634992,
+      "lon": 125.3207857,
+      "tags": {
+        "name": "师大一教",
+        "place": "neighbourhood"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3026991230,
+      "lat": 43.8752355,
+      "lon": 125.3119877,
+      "tags": {
+        "name": "四分局",
+        "place": "neighbourhood"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3026992543,
+      "lat": 43.8622299,
+      "lon": 125.3366011,
+      "tags": {
+        "name": "南岭",
+        "name:en": "Nanling",
+        "place": "neighbourhood"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3026992546,
+      "lat": 43.8704917,
+      "lon": 125.3351838,
+      "tags": {
+        "name": "吉顺桥",
+        "place": "neighbourhood"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3026992549,
+      "lat": 43.8739566,
+      "lon": 125.3404624,
+      "tags": {
+        "name": "永安桥",
+        "place": "neighbourhood"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3027690288,
+      "lat": 43.8753673,
+      "lon": 125.3281271,
+      "tags": {
+        "name": "平阳",
+        "place": "neighbourhood"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3027692646,
+      "lat": 43.8724845,
+      "lon": 125.3252544,
+      "tags": {
+        "name": "曙光",
+        "name:en": "Dawn",
+        "place": "neighbourhood"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3033928559,
+      "lat": 43.8627962,
+      "lon": 125.3194512,
+      "tags": {
+        "amenity": "bank",
+        "atm": "yes",
+        "name": "华夏银行"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3039119356,
+      "lat": 43.8753105,
+      "lon": 125.3121821,
+      "tags": {
+        "amenity": "bank",
+        "brand": "中国农业银行",
+        "brand:en": "Agricultural Bank of China",
+        "brand:wikidata": "Q26298",
+        "brand:zh": "中国农业银行",
+        "name": "中国农业银行",
+        "name:en": "Agricultural Bank of China",
+        "name:zh": "中国农业银行"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3039232007,
+      "lat": 43.8695972,
+      "lon": 125.3178001,
+      "tags": {
+        "amenity": "bank",
+        "atm": "yes",
+        "brand": "HSBC",
+        "brand:wikidata": "Q190464",
+        "name": "汇丰银行(长春分行)"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3088516165,
+      "lat": 43.8642849,
+      "lon": 125.3119082,
+      "tags": {
+        "name": "桂林路",
+        "place": "neighbourhood"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3256343893,
+      "lat": 43.862067,
+      "lon": 125.3167671,
+      "tags": {
+        "amenity": "bank",
+        "atm": "yes",
+        "name": "招商银行",
+        "name:en": "China Merchants Bank"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3256348146,
+      "lat": 43.8655118,
+      "lon": 125.311874,
+      "tags": {
+        "amenity": "school",
+        "name": "清华外语"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3318135985,
+      "lat": 43.8669502,
+      "lon": 125.3117893,
+      "tags": {
+        "amenity": "bank",
+        "name": "东方证券"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3318135986,
+      "lat": 43.8679916,
+      "lon": 125.3117369,
+      "tags": {
+        "brand": "中国移动",
+        "brand:en": "China Mobile",
+        "brand:wikidata": "Q741618",
+        "brand:zh": "中国移动",
+        "name": "中国移动",
+        "name:en": "China Mobile",
+        "name:zh": "中国移动",
+        "shop": "telecommunication"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3318168334,
+      "lat": 43.8663498,
+      "lon": 125.3118933,
+      "tags": {
+        "amenity": "school",
+        "name": "学大教育"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3318168335,
+      "lat": 43.8662492,
+      "lon": 125.3118932,
+      "tags": {
+        "brand": "屈臣氏",
+        "brand:en": "Watsons",
+        "brand:wikidata": "Q7974785",
+        "brand:zh": "屈臣氏",
+        "name": "屈臣氏",
+        "name:en": "Watsons",
+        "name:zh": "屈臣氏",
+        "shop": "chemist"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3318168342,
+      "lat": 43.8654267,
+      "lon": 125.311874,
+      "tags": {
+        "amenity": "school",
+        "name": "哈孚英语"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3318168343,
+      "lat": 43.8652526,
+      "lon": 125.3120564,
+      "tags": {
+        "amenity": "school",
+        "name": "博大教育"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3318168344,
+      "lat": 43.8653184,
+      "lon": 125.311874,
+      "tags": {
+        "name": "雅戈尔",
+        "shop": "clothes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3318168346,
+      "lat": 43.8649828,
+      "lon": 125.3118096,
+      "tags": {
+        "name": "阿满食品",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3318168348,
+      "lat": 43.8648707,
+      "lon": 125.311815,
+      "tags": {
+        "amenity": "telephone",
+        "name": "中国电信营业厅"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3318168349,
+      "lat": 43.864624,
+      "lon": 125.3118514,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "欧罗巴"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3318168352,
+      "lat": 43.8639801,
+      "lon": 125.3118485,
+      "tags": {
+        "amenity": "bank",
+        "atm": "yes",
+        "brand": "中国建设银行",
+        "brand:en": "China Construction Bank",
+        "brand:wikidata": "Q26299",
+        "brand:zh": "中国建设银行",
+        "name": "中国建设银行",
+        "name:en": "China Construction Bank",
+        "name:zh": "中国建设银行"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3318178271,
+      "lat": 43.8629668,
+      "lon": 125.3118418,
+      "tags": {
+        "amenity": "bank",
+        "atm": "yes",
+        "brand": "中国银行",
+        "brand:en": "Bank of China",
+        "brand:wikidata": "Q790068",
+        "brand:zh": "中国银行",
+        "name": "中国银行",
+        "name:en": "Bank of China",
+        "name:zh": "中国银行"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3318178273,
+      "lat": 43.8628585,
+      "lon": 125.3118472,
+      "tags": {
+        "name": "金叶烟草",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3318178274,
+      "lat": 43.8621991,
+      "lon": 125.3119893,
+      "tags": {
+        "amenity": "bank",
+        "atm": "yes",
+        "brand": "中国工商银行",
+        "brand:en": "Industrial and Commercial Bank of China",
+        "brand:wikidata": "Q26463",
+        "brand:zh": "中国工商银行",
+        "name": "中国工商银行",
+        "name:en": "Industrial and Commercial Bank of China",
+        "name:zh": "中国工商银行"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3318178275,
+      "lat": 43.8621333,
+      "lon": 125.3119893,
+      "tags": {
+        "name": "Bread618",
+        "shop": "bakery"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4574643091,
+      "lat": 43.8637579,
+      "lon": 125.3127855,
+      "tags": {
+        "brand": "City Market",
+        "brand:wikidata": "Q5123299",
+        "description": "Western Supermarket. Small but has most of the essentials",
+        "name": "City Market",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4574650081,
+      "lat": 43.8644246,
+      "lon": 125.3150906,
+      "tags": {
+        "description": "Breads and pasteries",
+        "name": "Ding Xiang - Clove Bakery",
+        "shop": "bakery"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4574651503,
+      "lat": 43.8646649,
+      "lon": 125.3140418,
+      "tags": {
+        "description": "Bakery - breads and pasteries",
+        "name": "Chez Mamon",
+        "shop": "bakery"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4825764921,
+      "lat": 43.8641693,
+      "lon": 125.3158922,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "pizza",
+        "description": "New York style thin crust pizza, salads and fried foods",
+        "internet_access": "wlan",
+        "name": "King Ranch"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4825765121,
+      "lat": 43.8642829,
+      "lon": 125.3155036,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "burger",
+        "name": "High Five BeefBurger",
+        "phone": "+86 431 8555 5800"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5065402796,
+      "lat": 43.8619735,
+      "lon": 125.3142326,
+      "tags": {
+        "amenity": "cafe",
+        "name": "Zoo Coffee",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6373329140,
+      "lat": 43.8742938,
+      "lon": 125.3180161,
+      "tags": {
+        "name": "解放大路C出口",
+        "name:en": "Jiefang Avenue C",
+        "name:zh": "解放大路C出口",
+        "railway": "subway_entrance",
+        "ref": "C"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6373329141,
+      "lat": 43.8742755,
+      "lon": 125.3187985,
+      "tags": {
+        "name": "解放大路D出口",
+        "name:en": "Jiefang Avenue D",
+        "name:zh": "解放大路D出口",
+        "railway": "subway_entrance",
+        "ref": "D"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6423665172,
+      "lat": 43.8534058,
+      "lon": 125.3298584,
+      "tags": {
+        "alt_name": "Nanling Subdistrict;南岭",
+        "capital": "8",
+        "name": "南岭街道",
+        "name:en": "Nanling",
+        "name:zh": "南岭街道",
+        "name:zh-Latn-pinyin": "nánlǐng jiēdào",
+        "official_name": "南岭街道",
+        "place": "suburb",
+        "place:CN": "subdistrict",
+        "wikidata": "Q10907634",
+        "wikipedia": "zh:南岭街道"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6423665174,
+      "lat": 43.8695539,
+      "lon": 125.3265112,
+      "tags": {
+        "alt_name": "Shuguang Subdistrict;曙光",
+        "capital": "8",
+        "name": "曙光街道",
+        "name:en": "Shuguang",
+        "name:zh": "曙光街道",
+        "name:zh-Latn-pinyin": "shǔguāng jiēdào",
+        "official_name": "曙光街道",
+        "place": "suburb",
+        "place:CN": "subdistrict",
+        "wikidata": "Q11090545",
+        "wikipedia": "zh:曙光街道 (长春市)"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6423665179,
+      "lat": 43.8700564,
+      "lon": 125.3414951,
+      "tags": {
+        "alt_name": "Yongji Subdistrict;永吉",
+        "capital": "8",
+        "name": "永吉街道",
+        "name:en": "Yongji",
+        "name:zh": "永吉街道",
+        "name:zh-Latn-pinyin": "yǒngjí jiēdào",
+        "official_name": "永吉街道",
+        "place": "suburb",
+        "place:CN": "subdistrict",
+        "wikidata": "Q11131284",
+        "wikipedia": "zh:永吉街道 (长春市)"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6520150651,
+      "lat": 43.8758652,
+      "lon": 125.3182627,
+      "tags": {
+        "name": "解放大路",
+        "name:en": "Jiefang Avenue",
+        "public_transport": "station",
+        "railway": "station",
+        "station": "subway",
+        "subway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6520150652,
+      "lat": 43.8757666,
+      "lon": 125.3185758,
+      "tags": {
+        "name": "解放大路",
+        "name:en": "Jiefang Avenue",
+        "public_transport": "station",
+        "railway": "station",
+        "station": "subway",
+        "subway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6520150653,
+      "lat": 43.861682,
+      "lon": 125.3185925,
+      "tags": {
+        "name": "东北师大",
+        "name:en": "Northeast Normal University",
+        "public_transport": "station",
+        "railway": "station",
+        "station": "subway",
+        "subway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6520150654,
+      "lat": 43.8485811,
+      "lon": 125.3188767,
+      "tags": {
+        "name": "工农广场",
+        "name:en": "Gongnong Square",
+        "public_transport": "station",
+        "railway": "station",
+        "station": "subway",
+        "subway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6520538369,
+      "lat": 43.8758743,
+      "lon": 125.3276525,
+      "tags": {
+        "name": "平阳街",
+        "name:en": "Pingyang Street",
+        "public_transport": "station",
+        "railway": "station",
+        "station": "subway",
+        "subway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6792801969,
+      "lat": 43.8606871,
+      "lon": 125.3211103,
+      "tags": {
+        "artwork_type": "sculpture",
+        "material": "metal",
+        "name": "音符雕塑",
+        "tourism": "artwork"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7082030831,
+      "lat": 43.8718688,
+      "lon": 125.3157752,
+      "tags": {
+        "shop": "greengrocer"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7082050346,
+      "lat": 43.8692825,
+      "lon": 125.3166611,
+      "tags": {
+        "addr:housenumber": "4",
+        "addr:street": "明德路",
+        "name": "锦江之星",
+        "name:en": "Jinjiang Inn",
+        "phone": "+86 431 8914 1666",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7082529145,
+      "lat": 43.8656481,
+      "lon": 125.316319,
+      "tags": {
+        "amenity": "bar",
+        "name": "AM/PM"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7082542981,
+      "lat": 43.8668743,
+      "lon": 125.3139651,
+      "tags": {
+        "leisure": "fitness_station",
+        "sport": "fitness"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7082550244,
+      "lat": 43.8646553,
+      "lon": 125.3148383,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Steaking Kitchen + Brew"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7082569671,
+      "lat": 43.8666751,
+      "lon": 125.3139978,
+      "tags": {
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7083917160,
+      "lat": 43.8633386,
+      "lon": 125.313029,
+      "tags": {
+        "amenity": "cafe",
+        "name": "Maoo Coffee"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7083919341,
+      "lat": 43.8619526,
+      "lon": 125.3136945,
+      "tags": {
+        "amenity": "bank",
+        "name:en": "China Postal Service Bank"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7083934712,
+      "lat": 43.8626556,
+      "lon": 125.315501,
+      "tags": {
+        "shop": "pet"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7083938703,
+      "lat": 43.8659641,
+      "lon": 125.3169175,
+      "tags": {
+        "shop": "alcohol"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7083942528,
+      "lat": 43.8630834,
+      "lon": 125.3128719,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "chinese"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7083951893,
+      "lat": 43.8632858,
+      "lon": 125.3132901,
+      "tags": {
+        "amenity": "fast_food"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7083956401,
+      "lat": 43.8646538,
+      "lon": 125.3168324,
+      "tags": {
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7083960365,
+      "lat": 43.8630863,
+      "lon": 125.3130136,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "japanese",
+        "name:en": "Sakuyaki"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7083976031,
+      "lat": 43.8621206,
+      "lon": 125.3137464,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "sushi",
+        "name": "Mrs. Sushi"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7902468785,
+      "lat": 43.8650413,
+      "lon": 125.312489,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "indian",
+        "name:en": "Indian Curry"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7981104718,
+      "lat": 43.8568933,
+      "lon": 125.3309739,
+      "tags": {
+        "amenity": "public_bath",
+        "name": "南岭浴池"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7981104723,
+      "lat": 43.856891,
+      "lon": 125.3301493,
+      "tags": {
+        "name": "致远超市",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7981104724,
+      "lat": 43.856955,
+      "lon": 125.3301506,
+      "tags": {
+        "name": "文印社",
+        "shop": "copyshop"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7981104725,
+      "lat": 43.8570035,
+      "lon": 125.3301506,
+      "tags": {
+        "name": "洗衣店",
+        "shop": "laundry"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7981104773,
+      "lat": 43.8528603,
+      "lon": 125.3268459,
+      "tags": {
+        "artwork_type": "sculpture",
+        "tourism": "artwork"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11928460238,
+      "lat": 43.8570938,
+      "lon": 125.3194307,
+      "tags": {
+        "barrier": "gate",
+        "name": "北1门"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11928485858,
+      "lat": 43.8572644,
+      "lon": 125.3236544,
+      "tags": {
+        "barrier": "gate",
+        "full_name": "东北师范大学 (南门)",
+        "name": "南门"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11928485861,
+      "lat": 43.8570926,
+      "lon": 125.3203354,
+      "tags": {
+        "barrier": "gate",
+        "name": "北2门"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12062568188,
+      "lat": 43.859974,
+      "lon": 125.3120688,
+      "tags": {
+        "artwork_type": "installation",
+        "name": "I ❤️ CCIT",
+        "tourism": "artwork"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12146586554,
+      "lat": 43.8765685,
+      "lon": 125.3201629,
+      "tags": {
+        "amenity": "cafe",
+        "brand": "星巴克",
+        "brand:en": "Starbucks",
+        "brand:wikidata": "Q37158",
+        "brand:zh": "星巴克",
+        "check_date": "2024-08-30",
+        "cuisine": "coffee_shop",
+        "name": "星巴克",
+        "name:en": "Starbucks",
+        "name:he": "סטארבקס",
+        "name:ko": "스타벅스",
+        "name:zh": "星巴克",
+        "smoking": "no",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12146586555,
+      "lat": 43.8764558,
+      "lon": 125.3200406,
+      "tags": {
+        "amenity": "ice_cream",
+        "check_date": "2024-08-30",
+        "name": "火山橘",
+        "name:en": "Jeju Izakaya",
+        "name:ja": "済州島居酒屋",
+        "name:ko": "제주도 볼케이노 오렌지"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12180309441,
+      "lat": 43.8758018,
+      "lon": 125.3276501,
+      "tags": {
+        "name": "平阳街",
+        "name:en": "Pingyang Street",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "subway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12180309442,
+      "lat": 43.8756987,
+      "lon": 125.3185777,
+      "tags": {
+        "name": "解放大路",
+        "name:en": "Jiefang Avenue",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "subway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12180309501,
+      "lat": 43.8759321,
+      "lon": 125.327647,
+      "tags": {
+        "name": "平阳街",
+        "name:en": "Pingyang Street",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "subway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12180309502,
+      "lat": 43.875829,
+      "lon": 125.3185748,
+      "tags": {
+        "name": "解放大路",
+        "name:en": "Jiefang Avenue",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "subway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12180309581,
+      "lat": 43.8758339,
+      "lon": 125.3181592,
+      "tags": {
+        "name": "解放大路",
+        "name:en": "Jiefang Avenue",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "subway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12180309582,
+      "lat": 43.8616582,
+      "lon": 125.3185403,
+      "tags": {
+        "name": "东北师大",
+        "name:en": "Northeast Normal University",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "station": "subway",
+        "subway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12180309583,
+      "lat": 43.8485746,
+      "lon": 125.3188407,
+      "tags": {
+        "name": "工农广场",
+        "name:en": "Gongnong Square",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "subway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12180309638,
+      "lat": 43.8758362,
+      "lon": 125.3183398,
+      "tags": {
+        "name": "解放大路",
+        "name:en": "Jiefang Avenue",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "subway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12180309639,
+      "lat": 43.8616605,
+      "lon": 125.3187209,
+      "tags": {
+        "name": "东北师大",
+        "name:en": "Northeast Normal University",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "station": "subway",
+        "subway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12180309640,
+      "lat": 43.8485765,
+      "lon": 125.3190213,
+      "tags": {
+        "name": "工农广场",
+        "name:en": "Gongnong Square",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "subway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12766361802,
+      "lat": 43.8640972,
+      "lon": 125.3137531,
+      "tags": {
+        "name:en": "Street food night market",
+        "name:ru": "Ночной рынок еды",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13038440498,
+      "lat": 43.8602705,
+      "lon": 125.326125,
+      "tags": {
+        "name": "天猫校园（东北师范大学本部店）",
+        "name:en": "Tmall Campus Store (NENU Ziyou Campus Branch)",
+        "name:zh": "天猫校园",
+        "name:zh-Hans": "天猫校园（东北师范大学本部店）",
+        "name:zh-Hant": "天貓校園（東北師範大學本部店）",
+        "payment:alipay": "yes",
+        "payment:cash": "yes",
+        "payment:coins": "yes",
+        "payment:unionpay": "yes",
+        "payment:wechat": "yes",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13038474813,
+      "lat": 43.8612414,
+      "lon": 125.3266978,
+      "tags": {
+        "amenity": "parcel_locker"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13038474814,
+      "lat": 43.8613349,
+      "lon": 125.3267019,
+      "tags": {
+        "amenity": "parcel_locker"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13038474815,
+      "lat": 43.861378,
+      "lon": 125.3266684,
+      "tags": {
+        "amenity": "parcel_locker"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13038474816,
+      "lat": 43.8612427,
+      "lon": 125.3266512,
+      "tags": {
+        "amenity": "parcel_locker"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13038474817,
+      "lat": 43.8613346,
+      "lon": 125.3266492,
+      "tags": {
+        "amenity": "parcel_locker"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13038474818,
+      "lat": 43.8612788,
+      "lon": 125.3265672,
+      "tags": {
+        "amenity": "post_office",
+        "name": "东师快递服务中心",
+        "name:en": "NENU Express Service Center",
+        "name:zh": "东师快递服务中心",
+        "name:zh-Hans": "东师快递服务中心",
+        "name:zh-Hant": "東師快遞服務中心",
+        "opening_hours": "Mo-Su 09:00-20:00"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13038474855,
+      "lat": 43.8603142,
+      "lon": 125.3274308,
+      "tags": {
+        "brand": "中国联通",
+        "brand:en": "China Unicom",
+        "brand:wikidata": "Q1068485",
+        "brand:zh": "中国联通",
+        "name": "中国联通",
+        "name:en": "China Unicom",
+        "name:zh": "中国联通",
+        "shop": "telecommunication"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13061633194,
+      "lat": 43.8574413,
+      "lon": 125.3196304,
+      "tags": {
+        "amenity": "parking_entrance",
+        "parking": "underground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13389808870,
+      "lat": 43.8744389,
+      "lon": 125.3166067,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "noodle",
+        "diet:halal": "yes",
+        "name:en": "Lanzhou Noodels",
+        "name:zh-Hans": "兰州拉面",
+        "name:zh-Hant": "蘭州拉麵"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13784176293,
+      "lat": 43.8752823,
+      "lon": 125.312999,
+      "tags": {
+        "government": "administrative",
+        "name": "中国证券监督管理委员会吉林监管局",
+        "office": "government",
+        "operator": "中国证券监督管理委员会",
+        "short_name": "吉林证监局"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13784176294,
+      "lat": 43.8752804,
+      "lon": 125.3127656,
+      "tags": {
+        "government": "transportation",
+        "name": "吉林省交通运输厅",
+        "office": "government",
+        "operator": "吉林省人民政府"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13784375729,
+      "lat": 43.8753398,
+      "lon": 125.3171396,
+      "tags": {
+        "addr:city": "长春市",
+        "addr:district": "朝阳区",
+        "addr:housenumber": "3515",
+        "addr:postcode": "130061",
+        "addr:province": "吉林省",
+        "addr:street": "人民大街",
+        "amenity": "bank",
+        "branch": "吉林省分行",
+        "brand": "交通银行",
+        "brand:en": "Bank of Communications",
+        "brand:wikidata": "Q806680",
+        "name": "交通银行吉林省分行",
+        "operator": "交通银行股份有限公司吉林省分行"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13784739620,
+      "lat": 43.8721998,
+      "lon": 125.3178638,
+      "tags": {
+        "addr:city": "长春市",
+        "addr:district": "朝阳区",
+        "addr:housenumber": "3855",
+        "addr:province": "吉林省",
+        "addr:street": "人民大街",
+        "government": "administrative",
+        "name": "吉林省商务厅信访接待室",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13785932665,
+      "lat": 43.8703904,
+      "lon": 125.3177834,
+      "tags": {
+        "name": "北苑酒店",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13865656045,
+      "lat": 43.8676509,
+      "lon": 125.3211361,
+      "tags": {
+        "amenity": "parking_entrance",
+        "parking": "underground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13866367507,
+      "lat": 43.8675368,
+      "lon": 125.3322968,
+      "tags": {
+        "garden:type": "japanese",
+        "leisure": "garden",
+        "name": "吉林·宫城友谊园",
+        "name:en": "Jilin-Miyagi Friendship Garden",
+        "name:zh": "吉林·宫城友谊园",
+        "name:zh-Hans": "吉林·宫城友谊园",
+        "name:zh-Hant": "吉林·宮城友誼園"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13866368686,
+      "lat": 43.8678056,
+      "lon": 125.3262752,
+      "tags": {
+        "attraction": "animal",
+        "name": "鼬舍",
+        "name:en": "Weasel Enclosure",
+        "name:zh": "鼬舍",
+        "name:zh-Hans": "鼬舍",
+        "name:zh-Hant": "鼬舍",
+        "species": "Mustela",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13866368687,
+      "lat": 43.8676267,
+      "lon": 125.3266574,
+      "tags": {
+        "attraction": "animal",
+        "name": "松鼠猴",
+        "name:en": "Squirrel Monkey",
+        "name:zh": "松鼠猴",
+        "name:zh-Hans": "松鼠猴",
+        "name:zh-Hant": "松鼠猴",
+        "species": "Saimiri",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13866368688,
+      "lat": 43.8676519,
+      "lon": 125.3264375,
+      "tags": {
+        "attraction": "animal",
+        "name": "豪猪",
+        "name:en": "Porcupine",
+        "name:zh": "豪猪",
+        "name:zh-Hans": "豪猪",
+        "name:zh-Hant": "豪豬",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13866368689,
+      "lat": 43.8680048,
+      "lon": 125.3262296,
+      "tags": {
+        "attraction": "animal",
+        "name": "狐狸舍",
+        "name:en": "Fox Enclosure",
+        "name:zh": "狐狸舍",
+        "name:zh-Hans": "狐狸舍",
+        "name:zh-Hant": "狐狸舍",
+        "species": "Vulpes",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13866368694,
+      "lat": 43.8682233,
+      "lon": 125.3254062,
+      "tags": {
+        "attraction": "animal",
+        "name": "水獭",
+        "name:en": "Otter",
+        "name:zh": "水獭",
+        "name:zh-Hans": "水獭",
+        "name:zh-Hant": "水獺",
+        "species": "Lutrinae",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13866495852,
+      "lat": 43.8686226,
+      "lon": 125.3224289,
+      "tags": {
+        "amenity": "parking_entrance",
+        "parking": "underground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13914295180,
+      "lat": 43.8723052,
+      "lon": 125.3250924,
+      "tags": {
+        "addr:city": "长春市",
+        "addr:district": "南关区",
+        "addr:housenumber": "982",
+        "addr:province": "吉林省",
+        "addr:street": "树勋街",
+        "admin_level": "8",
+        "government": "administrative",
+        "name": "长春市南关区曙光街道办事处",
+        "name:en": "Shuguang Subdistrict Office, Nanguan District, Changchun",
+        "name:ru": "Администрация подрайона Шугуан района Наньгуань города Чанчунь",
+        "name:zh": "长春市南关区曙光街道办事处",
+        "name:zh-Hans": "长春市南关区曙光街道办事处",
+        "name:zh-Hant": "長春市南關區曙光街道辦事處",
+        "office": "government",
+        "official_name": "长春市南关区人民政府曙光街道办事处",
+        "operator": "长春市南关区人民政府",
+        "operator:type": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13919152372,
+      "lat": 43.8746013,
+      "lon": 125.3279851,
+      "tags": {
+        "name": "平阳综合商城",
+        "shop": "mall"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13919428053,
+      "lat": 43.8703609,
+      "lon": 125.3285883,
+      "tags": {
+        "amenity": "parking_entrance",
+        "parking": "underground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13930265251,
+      "lat": 43.8741909,
+      "lon": 125.3408879,
+      "tags": {
+        "addr:city": "长春市",
+        "addr:district": "南关区",
+        "addr:province": "吉林省",
+        "admin_level": "6",
+        "government": "environment",
+        "name": "长春市生态环境局南关区分局",
+        "name:en": "Changchun Ecology and Environment Bureau Nanguan Branch",
+        "name:ru": "Наньгуаньский филиал Управления экологии и окружающей среды города Чанчунь",
+        "name:zh": "长春市生态环境局南关区分局",
+        "name:zh-Hans": "长春市生态环境局南关区分局",
+        "name:zh-Hant": "長春市生態環境局南關區分局",
+        "office": "government",
+        "operator": "长春市生态环境局",
+        "operator:type": "government",
+        "short_name": "长春市生态环境局南关分局"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13931144762,
+      "lat": 43.8725295,
+      "lon": 125.3405164,
+      "tags": {
+        "addr:city": "长春市",
+        "addr:district": "南关区",
+        "addr:housenumber": "3909",
+        "addr:province": "吉林省",
+        "addr:street": "亚泰大街",
+        "amenity": "arts_centre",
+        "name": "长春市朝鲜族群众艺术馆",
+        "name:en": "Changchun Korean Mass Art Center",
+        "name:ru": "Чанчуньский корейский центр массового искусства",
+        "name:zh": "长春市朝鲜族群众艺术馆",
+        "name:zh-Hans": "长春市朝鲜族群众艺术馆",
+        "name:zh-Hant": "長春市朝鮮族群眾藝術館",
+        "operator:type": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13935259157,
+      "lat": 43.8683673,
+      "lon": 125.3386268,
+      "tags": {
+        "addr:city": "长春市",
+        "addr:district": "南关区",
+        "addr:province": "吉林省",
+        "government": "administrative",
+        "name": "长春市冬季运动管理中心",
+        "name:en": "Changchun Winter Sports Management Center",
+        "name:ru": "Центр управления зимними видами спорта города Чанчунь",
+        "name:zh": "长春市冬季运动管理中心",
+        "name:zh-Hans": "长春市冬季运动管理中心",
+        "name:zh-Hant": "長春市冬季運動管理中心",
+        "office": "government",
+        "operator": "长春市体育局"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13935259158,
+      "lat": 43.8678085,
+      "lon": 125.3381856,
+      "tags": {
+        "addr:city": "长春市",
+        "addr:district": "南关区",
+        "addr:province": "吉林省",
+        "amenity": "school",
+        "name": "长春市体育运动学校",
+        "name:en": "Changchun Sports School",
+        "name:ru": "Спортивная школа города Чанчунь",
+        "name:zh": "长春市体育运动学校",
+        "name:zh-Hans": "长春市体育运动学校",
+        "name:zh-Hant": "長春市體育運動學校",
+        "operator": "长春市体育局"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13935259186,
+      "lat": 43.8686255,
+      "lon": 125.340566,
+      "tags": {
+        "addr:city": "长春市",
+        "addr:district": "南关区",
+        "addr:province": "吉林省",
+        "covered": "yes",
+        "indoor": "yes",
+        "leisure": "swimming_pool",
+        "name": "全民健身游泳馆",
+        "name:en": "National Fitness Swimming Hall",
+        "name:ru": "Плавательный зал центра массового спорта",
+        "name:zh": "全民健身游泳馆",
+        "name:zh-Hans": "全民健身游泳馆",
+        "name:zh-Hant": "全民健身游泳館",
+        "sport": "swimming"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13942049536,
+      "lat": 43.8602598,
+      "lon": 125.3204656,
+      "tags": {
+        "museum": "history",
+        "name": "校史馆",
+        "name:en": "University History Museum",
+        "name:ru": "Музей истории университета",
+        "name:zh": "校史馆",
+        "name:zh-Hans": "校史馆",
+        "name:zh-Hant": "校史館",
+        "operator": "东北师范大学",
+        "operator:type": "university",
+        "tourism": "museum"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13942274289,
+      "lat": 43.8581256,
+      "lon": 125.3215063,
+      "tags": {
+        "amenity": "parking_entrance",
+        "parking": "underground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13944690727,
+      "lat": 43.8614695,
+      "lon": 125.3301383,
+      "tags": {
+        "amenity": "parking_entrance",
+        "parking": "underground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13944690729,
+      "lat": 43.8614753,
+      "lon": 125.330662,
+      "tags": {
+        "amenity": "parking_entrance",
+        "parking": "underground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13946796214,
+      "lat": 43.8557525,
+      "lon": 125.3217403,
+      "tags": {
+        "amenity": "parking_entrance",
+        "parking": "underground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13947291509,
+      "lat": 43.8581401,
+      "lon": 125.3319669,
+      "tags": {
+        "building": "dormitory",
+        "name": "2-3公寓",
+        "name:en": "Apartment 2-3",
+        "name:ru": "Общежитие 2-3",
+        "name:zh": "2-3公寓",
+        "name:zh-Hans": "2-3公寓",
+        "name:zh-Hant": "2-3公寓",
+        "operator": "吉林体育学院",
+        "ref": "2-3"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13947291765,
+      "lat": 43.8606272,
+      "lon": 125.3330424,
+      "tags": {
+        "amenity": "research_institute",
+        "name": "吉林省体育科学研究所（吉林省反兴奋剂中心）",
+        "name:en": "Jilin Provincial Institute of Sports Science (Jilin Provincial Anti-Doping Center)",
+        "name:ru": "Цзилиньский провинциальный институт спортивной науки (Центр антидопинга провинции Цзилинь)",
+        "name:zh": "吉林省体育科学研究所（吉林省反兴奋剂中心）",
+        "name:zh-Hans": "吉林省体育科学研究所（吉林省反兴奋剂中心）",
+        "name:zh-Hant": "吉林省體育科學研究所（吉林省反興奮劑中心）",
+        "office": "research",
+        "operator": "吉林省体育局"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13960073992,
+      "lat": 43.852786,
+      "lon": 125.3305889,
+      "tags": {
+        "amenity": "research_institute",
+        "name": "汽车仿真与控制国家重点实验室",
+        "name:en": "State Key Laboratory of Automotive Simulation and Control",
+        "name:ru": "Государственная ключевая лаборатория моделирования и управления автомобилями",
+        "name:zh": "汽车仿真与控制国家重点实验室",
+        "name:zh-Hans": "汽车仿真与控制国家重点实验室",
+        "name:zh-Hant": "汽車仿真與控制國家重點實驗室",
+        "office": "research",
+        "operator": "吉林大学"
+      }
+    }
+  ]
+}
