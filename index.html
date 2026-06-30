@@ -571,11 +571,11 @@ body { font-family: "Microsoft YaHei", "PingFang SC", sans-serif; }
     <button id="btn-intersection" class="on" onclick="toggleIntersection()">Intersection</button>
     <button id="btn-traffic" class="off" onclick="toggleTrafficSignals()">🚦 信号灯</button>
     <span style="display:inline-block;width:8px"></span>
-    <button onclick="showCoordinates()">Coordinates</button>
+    <button id="btn-coord" class="off" onclick="showCoordinates()">Coordinates</button>
     <span style="display:inline-block;width:8px"></span>
-    <button onclick="openLocalOsmData()" style="background:#27ae60;color:white;border:1px solid #219a52;font-weight:bold;">New Location</button>
+    <button id="btn-newlocation" class="off" onclick="openLocalOsmData()">New Location</button>
     <span style="display:inline-block;width:8px"></span>
-    <button onclick="showSearchLocation()">Search Location</button>
+    <button id="btn-searchlocation" class="off" onclick="showSearchLocation()">Search Location</button>
 </div>
 
 <!-- 手机端悬浮菜单按钮 -->
@@ -609,9 +609,9 @@ body { font-family: "Microsoft YaHei", "PingFang SC", sans-serif; }
     </div>
     <div class="panel-section">
         <div class="panel-label">功能</div>
-        <button onclick="showCoordinates(); toggleMobilePanel()">Coordinates</button>
-        <button onclick="openLocalOsmData(); toggleMobilePanel()" style="background:#27ae60;color:white;border:1px solid #219a52;">New Location</button>
-        <button onclick="showSearchLocation(); toggleMobilePanel()">Search Location</button>
+        <button id="m-btn-coord" class="off" onclick="showCoordinates(); updateMobilePanel()">Coordinates</button>
+        <button id="m-btn-newlocation" class="off" onclick="openLocalOsmData(); updateMobilePanel()">New Location</button>
+        <button id="m-btn-searchlocation" class="off" onclick="showSearchLocation(); updateMobilePanel()">Search Location</button>
     </div>
     <button class="close-panel" onclick="toggleMobilePanel()">关闭菜单</button>
 </div>
@@ -774,6 +774,18 @@ let overlayVisible = true;
 function updateBtnState(btnId, visible) {
     const btn = document.getElementById(btnId);
     if (btn) btn.className = visible ? 'on' : 'off';
+}
+
+// 同步桌面+手机端功能按钮的开关状态
+function setFunctionBtnState(btnIdSuffix, active) {
+    const desktopBtn = document.getElementById('btn-' + btnIdSuffix);
+    const mobileBtn = document.getElementById('m-btn-' + btnIdSuffix);
+    [desktopBtn, mobileBtn].forEach(btn => {
+        if (btn) {
+            btn.classList.toggle('on', active);
+            btn.classList.toggle('off', !active);
+        }
+    });
 }
 
 function toggleLayer(name) {
@@ -1179,20 +1191,16 @@ async function loadLocalTrafficSignals() {
 // === Coordinates 交互模式 ===
 let coordModeActive = false;
 let coordInfoPanel = null;
-let coordModeBtn = null;
 
 function showCoordinates() {
     coordModeActive = !coordModeActive;
-    coordModeBtn = document.querySelector('#btn-coord') || document.querySelector('button[onclick="showCoordinates()"]');
     
     // 移除旧的 info 面板
     if (coordInfoPanel) { coordInfoPanel.remove(); coordInfoPanel = null; }
     
     if (coordModeActive) {
-        coordModeBtn.textContent = 'Coordinates ✓';
-        coordModeBtn.style.background = '#e74c3c';
-        coordModeBtn.style.color = 'white';
-        coordModeBtn.style.fontWeight = 'bold';
+        // 激活态：按钮高亮
+        setFunctionBtnState('coord', true);
         
         // 创建浮动坐标信息面板
         coordInfoPanel = document.createElement('div');
@@ -1276,10 +1284,8 @@ function showCoordinates() {
             });
         }
     } else {
-        coordModeBtn.textContent = 'Coordinates';
-        coordModeBtn.style.background = 'white';
-        coordModeBtn.style.color = '';
-        coordModeBtn.style.fontWeight = '';
+        // 关闭态：按钮还原
+        setFunctionBtnState('coord', false);
         if (coordInfoPanel) { coordInfoPanel.remove(); coordInfoPanel = null; }
     }
 }
@@ -1342,7 +1348,8 @@ async function loadOsmDatasetsForSearch() {
 
 async function showSearchLocation(lat, lon) {
     const existing = document.getElementById('search-overlay');
-    if (existing) existing.remove();
+    if (existing) { existing.remove(); setFunctionBtnState('searchlocation', false); return; }
+    setFunctionBtnState('searchlocation', true);
 
     clearSearchHighlight();
 
@@ -1449,6 +1456,7 @@ function closeSearchOverlay() {
     clearJunctionHighlight(); // 清除交点高亮状态
     const overlay = document.getElementById('search-overlay');
     if (overlay) overlay.remove();
+    setFunctionBtnState('searchlocation', false);
 }
 
 // === 地图选点模式 ===
@@ -2211,6 +2219,8 @@ function copySearchResults() {
 async function openLocalOsmData() {
     // 先关闭可能已存在的选择器
     closeOsmSelector();
+    // 按钮高亮
+    setFunctionBtnState('newlocation', true);
 
     // 显示加载中
     const overlay = document.createElement('div');
@@ -2473,6 +2483,7 @@ function closeOsmSelector() {
     const overlay = document.getElementById('osm-selector-overlay');
     if (overlay) overlay.remove();
     window._osmDatasets = null;
+    setFunctionBtnState('newlocation', false);
 }
 
 // === 下载 OSM 数据并渲染 ===
@@ -3268,7 +3279,10 @@ function updateMobilePanel() {
         'btn-pois': 'm-btn-pois',
         'btn-junctions': 'm-btn-junctions',
         'btn-intersection': 'm-btn-intersection',
-        'btn-traffic': 'm-btn-traffic'
+        'btn-traffic': 'm-btn-traffic',
+        'btn-coord': 'm-btn-coord',
+        'btn-newlocation': 'm-btn-newlocation',
+        'btn-searchlocation': 'm-btn-searchlocation'
     };
     Object.keys(mapping).forEach(id => {
         const src = document.getElementById(id);
