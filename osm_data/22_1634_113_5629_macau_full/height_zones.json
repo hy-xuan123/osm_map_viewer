@@ -1,0 +1,110 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              113.525,
+              22.217
+            ],
+            [
+              113.56,
+              22.217
+            ],
+            [
+              113.56,
+              22.18
+            ],
+            [
+              113.525,
+              22.18
+            ],
+            [
+              113.525,
+              22.217
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "澳门半岛 (人口密集区)",
+        "max_height_m": 60,
+        "color": "#ff9800"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              113.545,
+              22.18
+            ],
+            [
+              113.59,
+              22.18
+            ],
+            [
+              113.59,
+              22.115
+            ],
+            [
+              113.545,
+              22.115
+            ],
+            [
+              113.545,
+              22.18
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "氹仔/路氹 (旅游区)",
+        "max_height_m": 90,
+        "color": "#ffc107"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              113.545,
+              22.14
+            ],
+            [
+              113.59,
+              22.14
+            ],
+            [
+              113.59,
+              22.115
+            ],
+            [
+              113.545,
+              22.115
+            ],
+            [
+              113.545,
+              22.14
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "路环 (低密度区)",
+        "max_height_m": 90,
+        "color": "#8bc34a"
+      }
+    }
+  ]
+}

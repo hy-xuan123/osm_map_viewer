@@ -175,6 +175,22 @@
       "directory": "35_7128_139_7623_tokyo_tokyoU",
       "path": "osm_data/35_7128_139_7623_tokyo_tokyoU",
       "download_time": "2026-06-29T11:39:06.834430"
+    },
+    {
+      "lat": 22.1634,
+      "lon": 113.5629,
+      "alias": "macau_full",
+      "directory": "22_1634_113_5629_macau_full",
+      "path": "osm_data/22_1634_113_5629_macau_full",
+      "download_time": "2026-06-29T18:56:20.690572"
+    },
+    {
+      "lat": 22.6092,
+      "lon": 114.0289,
+      "alias": "shenzhen_north_station",
+      "directory": "22_6092_114_0289_shenzhen_north_station",
+      "path": "osm_data/22_6092_114_0289_shenzhen_north_station",
+      "download_time": "2026-06-30T00:48:15.486485"
     }
   ]
 }

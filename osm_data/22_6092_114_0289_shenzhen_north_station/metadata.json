@@ -1,0 +1,55 @@
+{
+  "download_time": "2026-06-30T00:48:15.482655",
+  "center_coordinates": {
+    "latitude": 22.6092,
+    "longitude": 114.0289
+  },
+  "download_range": {
+    "north": 22.624200000000002,
+    "south": 22.5942,
+    "east": 114.0439,
+    "west": 114.01389999999999,
+    "expand": 0.015
+  },
+  "alias": "shenzhen_north_station",
+  "data_categories": [
+    "roads",
+    "buildings",
+    "water",
+    "landuse",
+    "pois",
+    "traffic_signals"
+  ],
+  "statistics": {
+    "roads": {
+      "ways": 1789,
+      "nodes": 10756,
+      "total_elements": 12545
+    },
+    "buildings": {
+      "ways": 1188,
+      "nodes": 9423,
+      "total_elements": 10611
+    },
+    "water": {
+      "ways": 43,
+      "nodes": 857,
+      "total_elements": 900
+    },
+    "landuse": {
+      "ways": 215,
+      "nodes": 2674,
+      "total_elements": 2889
+    },
+    "pois": {
+      "ways": 0,
+      "nodes": 393,
+      "total_elements": 393
+    },
+    "traffic_signals": {
+      "ways": 0,
+      "nodes": 123,
+      "total_elements": 123
+    }
+  }
+}

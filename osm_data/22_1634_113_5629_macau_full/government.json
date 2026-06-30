@@ -1,0 +1,291 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-06-29T10:55:00Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 2165428052,
+      "lat": 22.1919138,
+      "lon": 113.5467445,
+      "tags": {
+        "asset_ref": "M157",
+        "bench": "yes",
+        "bus": "yes",
+        "departures_board": "timetable",
+        "highway": "bus_stop",
+        "name": "治安警察局 C.P.S.P.",
+        "name:pt": "C.P.S.P.",
+        "name:zh": "治安警察局",
+        "public_transport": "platform",
+        "ref": "M157",
+        "route_ref": "3;5;6A;10;10B;10X;25X;28A;28B;28BX;28C;32",
+        "shelter": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2165428160,
+      "lat": 22.1830164,
+      "lon": 113.5393904,
+      "tags": {
+        "asset_ref": "M178",
+        "bench": "yes",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "立法會前地 Praça da Assembleia Legislativa",
+        "name:pt": "Praça da Assembleia Legislativa",
+        "name:zh": "立法會前地",
+        "public_transport": "platform",
+        "route_ref": "9A;23;32",
+        "shelter": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2165428506,
+      "lat": 22.1205615,
+      "lon": 113.5535124,
+      "tags": {
+        "asset_ref": "C657",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "路環警察訓練營-1 Est. do Campo / PSP-1",
+        "name:pt": "Est. do Campo / PSP-1",
+        "name:zh": "路環警察訓練營-1",
+        "public_transport": "platform",
+        "route_ref": "15;21A;25;26;26A;50;N3",
+        "shelter": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2165428507,
+      "lat": 22.1204861,
+      "lon": 113.5533533,
+      "tags": {
+        "asset_ref": "C656",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "路環警察訓練營-2 Est. do Campo / PSP-2",
+        "name:pt": "Est. do Campo / PSP-2",
+        "name:zh": "路環警察訓練營-2",
+        "public_transport": "platform",
+        "route_ref": "15;21A;25;26;26A;50;N3",
+        "shelter": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3508125247,
+      "lat": 22.1920989,
+      "lon": 113.5512278,
+      "tags": {
+        "amenity": "police",
+        "name": "司法警察局 Polícia Judiciária",
+        "name:en": "Judiciary Police",
+        "name:pt": "Polícia Judiciária",
+        "name:zh": "司法警察局",
+        "name:zh-Hans": "司法警察局",
+        "name:zh-Hant": "司法警察局"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4074554789,
+      "lat": 22.2060123,
+      "lon": 113.5547904,
+      "tags": {
+        "amenity": "college",
+        "name": "消防學校",
+        "name:zh": "消防學校"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5016251019,
+      "lat": 22.1845492,
+      "lon": 113.5375231,
+      "tags": {
+        "asset_ref": "M176",
+        "bench": "no",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "初級法院刑事大樓 Edf. dos Juízos Criminals do Tribunal Judicial de Base",
+        "name:pt": "Edf. dos Juízos Criminals do Tribunal Judicial de Base",
+        "name:zh": "初級法院刑事大樓",
+        "public_transport": "platform",
+        "route_ref": "9A;18;23;32;N2",
+        "shelter": "no",
+        "start_date": "2017年8月5日"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7654219744,
+      "lat": 22.1614319,
+      "lon": 113.5537871,
+      "tags": {
+        "amenity": "police",
+        "name": "司法警察局毒品罪案調查處 Divisão de Investigação e Combate ao Tráfico de Estupefacientes de Polícia Judiciária",
+        "name:pt": "Divisão de Investigação e Combate ao Tráfico de Estupefacientes de Polícia Judiciária",
+        "name:zh": "司法警察局毒品罪案調查處"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7684262904,
+      "lat": 22.191481,
+      "lon": 113.5413916,
+      "tags": {
+        "amenity": "courthouse",
+        "name": "初級法院 Tribunal Judicial de Base",
+        "name:pt": "Tribunal Judicial de Base",
+        "name:zh": "初級法院",
+        "name:zh-Hans": "初级法院",
+        "name:zh-Hant": "初級法院"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8246399246,
+      "lat": 22.192394,
+      "lon": 113.5404461,
+      "tags": {
+        "amenity": "courthouse",
+        "name": "行政法院 Tribunal Administrativo",
+        "name:pt": "Tribunal Administrativo",
+        "name:zh": "行政法院",
+        "name:zh-Hans": "行政法院",
+        "name:zh-Hant": "行政法院"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8246399247,
+      "lat": 22.1922797,
+      "lon": 113.5404729,
+      "tags": {
+        "amenity": "college",
+        "education": "college",
+        "name": "司法警察學校 Escola de Polícia Judiciária",
+        "name:en": "Judiciary Police School",
+        "name:pt": "Escola de Polícia Judiciária",
+        "name:zh": "司法警察學校",
+        "name:zh-Hans": "司法警察学校",
+        "name:zh-Hant": "司法警察學校"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9246378952,
+      "lat": 22.1578888,
+      "lon": 113.5560861,
+      "tags": {
+        "government": "public_service",
+        "name": "離島政府綜合服務中心 Centro de Serviços da RAEM das Ilhas",
+        "name:pt": "Centro de Serviços da RAEM das Ilhas",
+        "name:zh": "離島政府綜合服務中心",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9264329826,
+      "lat": 22.1950144,
+      "lon": 113.5516818,
+      "tags": {
+        "government": "office",
+        "name": "澳門特別行政區政府體育局 Instituto do Desporto da Macau",
+        "name:en": "Macao Sports Bureau",
+        "name:pt": "Instituto do Desporto da Macau",
+        "name:zh": "澳門特別行政區政府體育局",
+        "name:zh-Hans": "澳门特别行政区政府体育局",
+        "name:zh-Hant": "澳門特別行政區政府體育局",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11672418431,
+      "lat": 22.2127541,
+      "lon": 113.5420082,
+      "tags": {
+        "addr:street": "何賢紳士大馬路 Avenida do Comendador Ho Yin",
+        "name": "政府(青茂)辦公大樓 Edifício de Escritórios do Governo (Qingmao)",
+        "name:en": "Government Office Building (Qingmao)",
+        "name:pt": "Edifício de Escritórios do Governo (Qingmao)",
+        "name:zh": "政府(青茂)辦公大樓",
+        "office": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11853323586,
+      "lat": 22.1946487,
+      "lon": 113.5405529,
+      "tags": {
+        "addr:housenumber": "1A-1C",
+        "addr:street": "板樟堂街 Rua de S. Domingos",
+        "amenity": "police",
+        "name": "南灣警司處分站 / 旅遊警察服務中心 Posto do Comissariado da Praia Grande /  Centro de Apoio a Turistas",
+        "name:pt": "Posto do Comissariado da Praia Grande /  Centro de Apoio a Turistas",
+        "name:zh": "南灣警司處分站 / 旅遊警察服務中心",
+        "name:zh-Hans": "南湾警司处分站 / 旅游警察服务中心",
+        "name:zh-Hant": "南灣警司處分站 / 旅遊警察服務中心"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12792067505,
+      "lat": 22.2048574,
+      "lon": 113.5546157,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "望信樓/慕拉士政府綜合服務中心-1 Edf. Mong Son/ Centr. Serv. RAEM na Av. Venc. Morais-1",
+        "name:pt": "Edf. Mong Son/ Centr. Serv. RAEM na Av. Venc. Morais-1",
+        "name:zh": "望信樓/慕拉士政府綜合服務中心-1",
+        "old_name": "慕拉士馬路/望信樓 Av. Venc. Morais/ Edf. Mong Son",
+        "public_transport": "platform",
+        "ref": "M49"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12792067506,
+      "lat": 22.204562,
+      "lon": 113.5543063,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "望信樓/慕拉士政府綜合服務中心-2 Edf. Mong Son/ Centr. Serv. RAEM na Av. Venc. Morais-2",
+        "name:pt": "Edf. Mong Son/ Centr. Serv. RAEM na Av. Venc. Morais-2",
+        "name:zh": "望信樓/慕拉士政府綜合服務中心-2",
+        "old_name": "望信樓 Edf. Mong Son",
+        "public_transport": "platform",
+        "ref": "M56"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13197769880,
+      "lat": 22.2051385,
+      "lon": 113.5540405,
+      "tags": {
+        "government": "public_service",
+        "name": "政府綜合服務中心 Centro de Serviços da RAEM",
+        "name:pt": "Centro de Serviços da RAEM",
+        "name:zh": "政府綜合服務中心",
+        "office": "government",
+        "opening_hours": "Mo-Fr 09:00-18:00",
+        "phone": "85328451515",
+        "start_date": "2025-10-06",
+        "website": "https://www.csraem.gov.mo/"
+      }
+    }
+  ]
+}

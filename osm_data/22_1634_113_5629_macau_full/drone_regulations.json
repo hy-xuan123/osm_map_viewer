@@ -1,0 +1,77 @@
+{
+  "authority": "澳门特别行政区民航局 (AACM)",
+  "official_url": "https://www.aacm.gov.mo/zh-hans/guide/DronesandOthers/Drones",
+  "categories": [
+    {
+      "class": 1,
+      "name": "第1类 (轻型)",
+      "weight_limit_g": 250,
+      "weight_desc": "≤ 250g",
+      "registration_required": false,
+      "insurance_required": false,
+      "license_required": false
+    },
+    {
+      "class": 2,
+      "name": "第2类 (中型)",
+      "weight_limit_g": 7000,
+      "weight_desc": "250g ~ 7kg",
+      "registration_required": true,
+      "insurance_required": false,
+      "license_required": false
+    },
+    {
+      "class": 3,
+      "name": "第3类 (大型)",
+      "weight_limit_g": 25000,
+      "weight_desc": "7kg ~ 25kg",
+      "registration_required": true,
+      "insurance_required": true,
+      "license_required": true
+    }
+  ],
+  "general_rules": [
+    "无人机操作者须遵守《澳门空中航行规章》第184条",
+    "不得在禁飞区（机场1000m、世遗景点、政府建筑50m）内飞行",
+    "无人机须在视距内飞行（VLOS）",
+    "不得在人群上空飞行",
+    "不得携带危险物品",
+    "夜间飞行须提前申请许可",
+    "须购买第三方责任保险（第3类必须）"
+  ],
+  "height_limits": {
+    "general_max_m": 120,
+    "macau_peninsula_m": 60,
+    "cotai_strip_m": 90,
+    "uninhabited_area_m": 90,
+    "near_airport_m": 0,
+    "near_helipad_m": 0
+  },
+  "no_fly_summary": {
+    "airport": {
+      "name": "澳门国际机场",
+      "center": [
+        22.1498,
+        113.5919
+      ],
+      "radius_m": 1000,
+      "type": "permanent_no_fly",
+      "description": "机场1000米范围内严禁无人机飞行"
+    },
+    "helipads_count": 2,
+    "government_buildings_count": 4,
+    "world_heritage_count": 22
+  },
+  "bounds": {
+    "north": 22.217,
+    "south": 22.115,
+    "east": 113.59,
+    "west": 113.525,
+    "center": [
+      22.1634,
+      113.5629
+    ]
+  },
+  "total_heritage_sites": 22,
+  "total_heritage_squares": 8
+}

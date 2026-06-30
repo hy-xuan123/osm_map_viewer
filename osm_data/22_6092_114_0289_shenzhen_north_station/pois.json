@@ -1,0 +1,5495 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-06-29T16:47:00Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 533891761,
+      "lat": 22.6238767,
+      "lon": 114.0429961,
+      "tags": {
+        "highway": "motorway_junction",
+        "name": "华南物流",
+        "name:en": "Huananwuliu",
+        "name:zh": "华南物流",
+        "name:zh-Hans": "华南物流",
+        "ref": "1"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2301385055,
+      "lat": 22.6203757,
+      "lon": 114.0360964,
+      "tags": {
+        "name": "民治",
+        "name:en": "Minzhi",
+        "public_transport": "station",
+        "railway": "station",
+        "station": "subway",
+        "subway": "yes",
+        "wheelchair": "yes",
+        "wikidata": "Q5939058"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2308705924,
+      "lat": 22.6019312,
+      "lon": 114.04364,
+      "tags": {
+        "highway": "motorway_junction",
+        "name": "梅坂大道",
+        "name:en": "Meiban Blvd",
+        "name:zh": "梅坂大道",
+        "name:zh-Hans": "梅坂大道"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2308739231,
+      "lat": 22.5946788,
+      "lon": 114.0261484,
+      "tags": {
+        "highway": "motorway_junction",
+        "name": "玉龙",
+        "name:en": "Yulong",
+        "name:zh": "玉龙",
+        "name:zh-Hans": "玉龙",
+        "ref": "7"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2959672931,
+      "lat": 22.6199596,
+      "lon": 114.0291353,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "铁路桥",
+        "name:en": "Railway Bridge",
+        "name:zh": "铁路桥",
+        "public_transport": "platform",
+        "shelter": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2959673333,
+      "lat": 22.6222699,
+      "lon": 114.0279013,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "东泉新村",
+        "name:en": "Dongquan Xincun",
+        "name:zh": "东泉新村",
+        "public_transport": "platform",
+        "shelter": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2959673334,
+      "lat": 22.6061542,
+      "lon": 114.0392794,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "石龙路口",
+        "name:en": "Shinglong Road Crossing",
+        "name:zh": "石龙路口",
+        "public_transport": "platform",
+        "shelter": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2959673341,
+      "lat": 22.6176256,
+      "lon": 114.0298461,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "铁路桥",
+        "name:en": "Railway Bridge",
+        "name:zh": "铁路桥",
+        "public_transport": "platform",
+        "shelter": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2959673377,
+      "lat": 22.6017742,
+      "lon": 114.0412708,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "书香门第",
+        "name:en": "Shuxiangmendi",
+        "name:zh": "书香门第",
+        "public_transport": "platform",
+        "shelter": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2959673387,
+      "lat": 22.6056441,
+      "lon": 114.040245,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "惠鑫公寓 ②",
+        "name:en": "Huixin Apartment 2",
+        "name:zh": "惠鑫公寓 ②",
+        "public_transport": "platform",
+        "shelter": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3410834333,
+      "lat": 22.612711,
+      "lon": 114.0402783,
+      "tags": {
+        "alt_name": "民治天虹",
+        "branch": "民治商场",
+        "name": "天虹",
+        "shop": "mall"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3739507120,
+      "lat": 22.6080208,
+      "lon": 114.0297676,
+      "tags": {
+        "addr:housenumber": "彩旺大厦",
+        "addr:street": "新区大道",
+        "amenity": "bank",
+        "atm": "yes",
+        "branch": "北站支行",
+        "brand": "深圳农商银行",
+        "brand:en": "Shenzhen Rural Commercial Bank",
+        "name": "深圳农商银行",
+        "name:en": "Shenzhen Rural Commercial Bank",
+        "name:zh": "深圳农商银行",
+        "opening_hours": "工作日：08:30-12:00 14:00-17:00",
+        "website": "https://www.4001961200.com/",
+        "wikidata": "Q30948133",
+        "wikipedia": "zh:深圳农村商业银行"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3739508474,
+      "lat": 22.6233612,
+      "lon": 114.0288239,
+      "tags": {
+        "name": "国安居（民乐店）",
+        "name:en": "Guoanju (Minle Store)",
+        "shop": "furniture"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3739508475,
+      "lat": 22.6231533,
+      "lon": 114.0286665,
+      "tags": {
+        "amenity": "bank",
+        "atm": "yes",
+        "brand": "中国工商银行",
+        "brand:en": "Industrial and Commercial Bank of China",
+        "brand:wikidata": "Q26463",
+        "brand:zh": "中国工商银行",
+        "name": "中国工商银行",
+        "name:en": "Industrial and Commercial Bank of China",
+        "name:zh": "中国工商银行"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4316610000,
+      "lat": 22.6204569,
+      "lon": 114.0298508,
+      "tags": {
+        "name:en": "Baijiayi Hotel",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4863839322,
+      "lat": 22.6104286,
+      "lon": 114.0406927,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "横岭",
+        "name:en": "Hengling",
+        "name:zh": "横岭",
+        "public_transport": "platform",
+        "shelter": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5189411026,
+      "lat": 22.6101158,
+      "lon": 114.0227627,
+      "tags": {
+        "amenity": "parking_entrance"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5189411036,
+      "lat": 22.6110881,
+      "lon": 114.0218156,
+      "tags": {
+        "amenity": "parking_entrance"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5189411048,
+      "lat": 22.6102941,
+      "lon": 114.0238475,
+      "tags": {
+        "amenity": "parking_entrance"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5192381649,
+      "lat": 22.6036347,
+      "lon": 114.0377312,
+      "tags": {
+        "name": "C",
+        "railway": "subway_entrance",
+        "ref": "C"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5192381652,
+      "lat": 22.6038553,
+      "lon": 114.0381369,
+      "tags": {
+        "name": "D",
+        "railway": "subway_entrance",
+        "ref": "D"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5192381654,
+      "lat": 22.604774,
+      "lon": 114.0370398,
+      "tags": {
+        "name": "A",
+        "railway": "subway_entrance",
+        "ref": "A"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5192381658,
+      "lat": 22.6044097,
+      "lon": 114.0367334,
+      "tags": {
+        "name": "B",
+        "railway": "subway_entrance",
+        "ref": "B"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5214636455,
+      "lat": 22.6134575,
+      "lon": 114.0256979,
+      "tags": {
+        "name": "深圳北站",
+        "name:en": "Shenzhen North Railway Station",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "subway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5214636456,
+      "lat": 22.6134699,
+      "lon": 114.0256839,
+      "tags": {
+        "name": "深圳北站",
+        "name:en": "Shenzhen North Railway Station",
+        "public_transport": "station",
+        "railway": "station",
+        "station": "subway",
+        "subway": "yes",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5214753196,
+      "lat": 22.6130571,
+      "lon": 114.0251803,
+      "tags": {
+        "name": "深圳北站",
+        "name:en": "Shenzhen North Railway Station",
+        "name:zh": "深圳北站",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "subway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5214753197,
+      "lat": 22.6131652,
+      "lon": 114.0252952,
+      "tags": {
+        "name": "深圳北站",
+        "name:en": "Shenzhen North Railway Station",
+        "name:zh": "深圳北站",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "subway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5214753198,
+      "lat": 22.6131419,
+      "lon": 114.0252287,
+      "tags": {
+        "name": "深圳北站",
+        "name:en": "Shenzhen North Railway Station",
+        "public_transport": "station",
+        "railway": "station",
+        "station": "subway",
+        "subway": "yes",
+        "wikidata": "Q5266987"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5214753199,
+      "lat": 22.6041019,
+      "lon": 114.0373216,
+      "tags": {
+        "name": "白石龙",
+        "name:en": "Baishilong",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "subway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5214753200,
+      "lat": 22.6041939,
+      "lon": 114.0374097,
+      "tags": {
+        "name": "白石龙",
+        "name:en": "Baishilong",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "subway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5214753201,
+      "lat": 22.6041719,
+      "lon": 114.0373808,
+      "tags": {
+        "name": "白石龙",
+        "name:en": "Baishilong",
+        "public_transport": "station",
+        "railway": "station",
+        "station": "subway",
+        "subway": "yes",
+        "wikidata": "Q4848683"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5214753202,
+      "lat": 22.5969992,
+      "lon": 114.0436278,
+      "tags": {
+        "name": "民乐",
+        "name:en": "Minle",
+        "name:zh": "民乐",
+        "network": "深圳地铁",
+        "operator": "港铁（深圳）",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "subway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5214753203,
+      "lat": 22.5969249,
+      "lon": 114.0435128,
+      "tags": {
+        "name": "民乐",
+        "name:en": "Minle",
+        "name:zh": "民乐",
+        "network": "深圳地铁",
+        "operator": "港铁（深圳）",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "subway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5214753204,
+      "lat": 22.5969602,
+      "lon": 114.0435674,
+      "tags": {
+        "name": "民乐",
+        "name:en": "Minle",
+        "name:zh": "民乐",
+        "network": "深圳地铁",
+        "operator": "港铁轨道交通 ( 深圳 ) 有限公司",
+        "operator:short": "港铁（深圳）",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:position:exact": "9.88118",
+        "station": "subway",
+        "subway": "yes",
+        "wikidata": "Q5942233"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5369745039,
+      "lat": 22.6120365,
+      "lon": 114.0239469,
+      "tags": {
+        "air_conditioning": "yes",
+        "alt_name": "深圳北站;Shenzhen North;Shenzhen North Railway Station;Shenzhenbei Railway Station;Shenzhenbei",
+        "internet_access": "no",
+        "name": "深圳北",
+        "name:en": "Shenzhen North",
+        "name:zh": "深圳北",
+        "operator": "中国铁路广州局集团有限公司",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "65860",
+        "train": "yes",
+        "wheelchair": "yes",
+        "wikidata": "Q3272538"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5369745064,
+      "lat": 22.6141215,
+      "lon": 114.0264497,
+      "tags": {
+        "addr:floor": "3",
+        "artwork_type": "sculpture",
+        "level": "2",
+        "material": "steel",
+        "name": "天行健",
+        "name:en": "Tianxingjian",
+        "name:zh": "天行健",
+        "source": "http://ilonghua.sznews.com/content/2019-03/01/content_21441333_0.htm",
+        "tourism": "artwork"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5960373145,
+      "lat": 22.6102624,
+      "lon": 114.0229417,
+      "tags": {
+        "access": "yes",
+        "amenity": "parking",
+        "fee": "yes",
+        "parking": "underground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6485738485,
+      "lat": 22.6239051,
+      "lon": 114.0344778,
+      "tags": {
+        "addr:housenumber": "437",
+        "addr:postcode": "518131",
+        "addr:street": "民治大道",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "brand": "麦当劳",
+        "brand:en": "McDonald's",
+        "brand:wikidata": "Q38076",
+        "brand:zh": "麦当劳",
+        "brand:zh-Hans": "麦当劳",
+        "check_date": "2024-03-13",
+        "cuisine": "burger",
+        "delivery": "yes",
+        "diet:halal": "no",
+        "diet:kosher": "no",
+        "diet:vegan": "yes",
+        "diet:vegetarian": "yes",
+        "drive_through": "no",
+        "highchair": "yes",
+        "indoor_seating": "yes",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "麦当劳",
+        "name:en": "McDonald's",
+        "name:zh": "麦当劳",
+        "name:zh-Hans": "麦当劳",
+        "opening_hours": "24/7",
+        "outdoor_seating": "no",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "smoking": "no",
+        "takeaway": "yes",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6534895699,
+      "lat": 22.5997072,
+      "lon": 114.0424911,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "海底捞火锅",
+        "brand:en": "Haidilao Hot Pot",
+        "brand:wikidata": "Q5638920",
+        "brand:wikipedia": "zh:海底捞",
+        "brand:zh": "海底捞火锅",
+        "brand:zh-Hans": "海底捞火锅",
+        "brand:zh-Hant": "海底撈火鍋",
+        "cuisine": "chinese;hotpot",
+        "name": "海底捞火锅",
+        "name:en": "Haidilao Hot Pot",
+        "name:zh": "海底捞火锅",
+        "name:zh-Hans": "海底捞火锅",
+        "name:zh-Hant": "海底撈火鍋"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6584251131,
+      "lat": 22.598429,
+      "lon": 114.0351801,
+      "tags": {
+        "artwork_type": "sculpture",
+        "name": "彩云追月",
+        "tourism": "artwork"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6586851723,
+      "lat": 22.5994973,
+      "lon": 114.0422221,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "chinese",
+        "name": "海南椰子鸡"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6586851724,
+      "lat": 22.6000569,
+      "lon": 114.0417947,
+      "tags": {
+        "brand": "Nike",
+        "brand:wikidata": "Q483915",
+        "name": "Nike",
+        "name:en": "Nike",
+        "name:zh": "耐克",
+        "shop": "clothes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6586851725,
+      "lat": 22.6001767,
+      "lon": 114.0419325,
+      "tags": {
+        "brand": "阿迪达斯",
+        "brand:en": "Adidas",
+        "brand:wikidata": "Q3895",
+        "brand:wikipedia": "en:Adidas",
+        "brand:zh": "阿迪达斯",
+        "name": "阿迪达斯",
+        "name:en": "Adidas",
+        "name:zh": "阿迪达斯",
+        "shop": "sports"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6586851726,
+      "lat": 22.6021859,
+      "lon": 114.0423274,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "肯德基",
+        "brand:en": "KFC",
+        "brand:wikidata": "Q524757",
+        "brand:wikipedia": "zh:肯德基",
+        "brand:zh": "肯德基",
+        "cuisine": "chicken",
+        "name": "肯德基",
+        "name:en": "KFC",
+        "name:zh": "肯德基",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6586851727,
+      "lat": 22.6020504,
+      "lon": 114.0420849,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "真功夫",
+        "brand:en": "Kungfu",
+        "brand:wikidata": "Q15909765",
+        "brand:zh": "真功夫",
+        "cuisine": "chinese",
+        "name": "真功夫",
+        "name:en": "Kungfu",
+        "name:zh": "真功夫",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6612437364,
+      "lat": 22.599522,
+      "lon": 114.0343241,
+      "tags": {
+        "artwork_type": "sculpture",
+        "material": "bronze",
+        "name": "贝多芬",
+        "tourism": "artwork"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6612437366,
+      "lat": 22.59827,
+      "lon": 114.0349623,
+      "tags": {
+        "artwork_type": "sculpture",
+        "name": "音乐塑像2",
+        "tourism": "artwork"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6612437367,
+      "lat": 22.5984167,
+      "lon": 114.0347979,
+      "tags": {
+        "artwork_type": "sculpture",
+        "name": "音乐塑像1",
+        "tourism": "artwork"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6612437368,
+      "lat": 22.5992812,
+      "lon": 114.034434,
+      "tags": {
+        "amenity": "shelter",
+        "name": "山顶凉亭"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6612485270,
+      "lat": 22.6045053,
+      "lon": 114.0289972,
+      "tags": {
+        "artwork_type": "sculpture",
+        "name": "蝴蝶",
+        "tourism": "artwork"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6612485279,
+      "lat": 22.6038952,
+      "lon": 114.0293791,
+      "tags": {
+        "amenity": "shelter"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6612491888,
+      "lat": 22.5998301,
+      "lon": 114.0340411,
+      "tags": {
+        "artwork_type": "sculpture",
+        "name": "童年",
+        "tourism": "artwork"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6612491897,
+      "lat": 22.5979128,
+      "lon": 114.035457,
+      "tags": {
+        "artist_name": "未知",
+        "artwork_type": "sculpture",
+        "material": "metal",
+        "name": "琵琶",
+        "tourism": "artwork"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6612506807,
+      "lat": 22.6035052,
+      "lon": 114.0408156,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "木屋烧烤",
+        "brand:wikidata": "Q113694089",
+        "brand:zh": "木屋烧烤",
+        "cuisine": "chinese",
+        "diet:halal": "no",
+        "name": "木屋烧烤",
+        "name:zh": "木屋烧烤"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6612506808,
+      "lat": 22.5990063,
+      "lon": 114.0424883,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "木屋烧烤",
+        "brand:wikidata": "Q113694089",
+        "brand:zh": "木屋烧烤",
+        "cuisine": "chinese",
+        "diet:halal": "no",
+        "name": "木屋烧烤",
+        "name:zh": "木屋烧烤"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6612506809,
+      "lat": 22.5994219,
+      "lon": 114.0425945,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "chinese"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6612506810,
+      "lat": 22.5992816,
+      "lon": 114.0422918,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "chinese",
+        "name": "老佛爷铜锅田鸡"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6612506811,
+      "lat": 22.6005178,
+      "lon": 114.0416139,
+      "tags": {
+        "brand": "安踏",
+        "brand:en": "Anta",
+        "brand:wikidata": "Q4653060",
+        "brand:zh": "安踏",
+        "name": "安踏",
+        "name:en": "Anta",
+        "name:zh": "安踏",
+        "shop": "clothes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6612506812,
+      "lat": 22.599974,
+      "lon": 114.0420666,
+      "tags": {
+        "name": "华为客户服务中心",
+        "name:en": "Huawei Customer Service Center",
+        "name:zh": "华为客户服务中心",
+        "shop": "mobile_phone"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6612506813,
+      "lat": 22.6008138,
+      "lon": 114.0420309,
+      "tags": {
+        "amenity": "bank",
+        "brand": "交通银行",
+        "brand:en": "Bank of Communications",
+        "brand:wikidata": "Q806680",
+        "brand:wikipedia": "en:Bank of Communications",
+        "brand:zh": "交通银行",
+        "name": "交通银行",
+        "name:en": "Bank of Communications",
+        "name:zh": "交通银行"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6612506817,
+      "lat": 22.6018059,
+      "lon": 114.042254,
+      "tags": {
+        "name": "人人乐",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6612506818,
+      "lat": 22.6015327,
+      "lon": 114.0414988,
+      "tags": {
+        "amenity": "childcare",
+        "name": "红黄蓝"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6612506819,
+      "lat": 22.6012814,
+      "lon": 114.0412526,
+      "tags": {
+        "name": "优优小王国",
+        "shop": "photo"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6612506820,
+      "lat": 22.6010781,
+      "lon": 114.041191,
+      "tags": {
+        "amenity": "cafe",
+        "name": "茜诚咖啡"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6612506821,
+      "lat": 22.6009055,
+      "lon": 114.0411011,
+      "tags": {
+        "name": "balabala",
+        "shop": "clothes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6612506822,
+      "lat": 22.6011802,
+      "lon": 114.042434,
+      "tags": {
+        "amenity": "shelter"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6612506823,
+      "lat": 22.6011131,
+      "lon": 114.0425451,
+      "tags": {
+        "amenity": "waste_transfer_station"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6612506829,
+      "lat": 22.6079224,
+      "lon": 114.0387888,
+      "tags": {
+        "artwork_type": "sculpture",
+        "tourism": "artwork"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6612506830,
+      "lat": 22.6081267,
+      "lon": 114.0393007,
+      "tags": {
+        "artwork_type": "sculpture",
+        "tourism": "artwork"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6612506831,
+      "lat": 22.608034,
+      "lon": 114.0391534,
+      "tags": {
+        "artwork_type": "sculpture",
+        "tourism": "artwork"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6612506836,
+      "lat": 22.6040948,
+      "lon": 114.0371637,
+      "tags": {
+        "artwork_type": "sculpture",
+        "tourism": "artwork"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6612506837,
+      "lat": 22.6040392,
+      "lon": 114.0372608,
+      "tags": {
+        "artwork_type": "sculpture",
+        "tourism": "artwork"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6612506838,
+      "lat": 22.6035477,
+      "lon": 114.0378299,
+      "tags": {
+        "artwork_type": "sculpture",
+        "tourism": "artwork"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6612506839,
+      "lat": 22.5988794,
+      "lon": 114.033176,
+      "tags": {
+        "artwork_type": "sculpture",
+        "material": "metal",
+        "name": "深圳4040",
+        "tourism": "artwork"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6612506840,
+      "lat": 22.5990352,
+      "lon": 114.0328812,
+      "tags": {
+        "artwork_type": "sculpture",
+        "name": "春天的故事",
+        "tourism": "artwork"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6612506841,
+      "lat": 22.5988303,
+      "lon": 114.0333394,
+      "tags": {
+        "artwork_type": "sculpture",
+        "name": "故乡情",
+        "tourism": "artwork"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6612506842,
+      "lat": 22.59994,
+      "lon": 114.0323885,
+      "tags": {
+        "artwork_type": "sculpture",
+        "tourism": "artwork"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6612506843,
+      "lat": 22.5982935,
+      "lon": 114.0337906,
+      "tags": {
+        "artwork_type": "sculpture",
+        "name": "城市音乐广场",
+        "tourism": "artwork"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6612523587,
+      "lat": 22.6063419,
+      "lon": 114.0274272,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "麦当劳",
+        "brand:en": "McDonald's",
+        "brand:wikidata": "Q38076",
+        "brand:wikipedia": "zh:麦当劳",
+        "brand:zh": "麦当劳",
+        "brand:zh-Hans": "麦当劳",
+        "cuisine": "burger",
+        "name": "麦当劳",
+        "name:en": "McDonald's",
+        "name:zh": "麦当劳",
+        "name:zh-Hans": "麦当劳",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6612523588,
+      "lat": 22.6106749,
+      "lon": 114.0223339,
+      "tags": {
+        "artwork_type": "sculpture",
+        "material": "metal",
+        "name": "雨露",
+        "tourism": "artwork"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6612523589,
+      "lat": 22.61437,
+      "lon": 114.0266841,
+      "tags": {
+        "amenity": "fountain"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6625432406,
+      "lat": 22.6001967,
+      "lon": 114.0415272,
+      "tags": {
+        "amenity": "fountain"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6625447589,
+      "lat": 22.6017429,
+      "lon": 114.0309824,
+      "tags": {
+        "artwork_type": "sculpture",
+        "name": "逸秀新村",
+        "tourism": "artwork"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6625449249,
+      "lat": 22.5997455,
+      "lon": 114.0390379,
+      "tags": {
+        "amenity": "fountain"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6625449250,
+      "lat": 22.5994721,
+      "lon": 114.0391816,
+      "tags": {
+        "amenity": "fountain"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6625449251,
+      "lat": 22.5996445,
+      "lon": 114.0388263,
+      "tags": {
+        "amenity": "fountain"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6625449252,
+      "lat": 22.5996256,
+      "lon": 114.0407178,
+      "tags": {
+        "artwork_type": "sculpture",
+        "tourism": "artwork"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6625449253,
+      "lat": 22.5997633,
+      "lon": 114.0408872,
+      "tags": {
+        "artwork_type": "sculpture",
+        "tourism": "artwork"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6625449254,
+      "lat": 22.600194,
+      "lon": 114.0402756,
+      "tags": {
+        "amenity": "shelter"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6627056983,
+      "lat": 22.6106519,
+      "lon": 114.0353534,
+      "tags": {
+        "artwork_type": "sculpture",
+        "tourism": "artwork"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6627269681,
+      "lat": 22.6192047,
+      "lon": 114.0399852,
+      "tags": {
+        "artwork_type": "sculpture",
+        "tourism": "artwork"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6631006052,
+      "lat": 22.6000315,
+      "lon": 114.0424038,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "chinese",
+        "name": "东来顺火锅"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6633052402,
+      "lat": 22.5982377,
+      "lon": 114.0363217,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "白石龙音乐公园",
+        "name:en": "Baishilongyinyue Park",
+        "name:zh": "白石龙音乐公园",
+        "public_transport": "platform",
+        "shelter": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6633052403,
+      "lat": 22.5979904,
+      "lon": 114.0363102,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "白石龙音乐公园",
+        "name:en": "Baishilongyinyue Park",
+        "name:zh": "白石龙音乐公园",
+        "public_transport": "platform",
+        "shelter": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6635063352,
+      "lat": 22.5998264,
+      "lon": 114.0428888,
+      "tags": {
+        "leisure": "fitness_centre",
+        "name": "威斯特迈"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6635065573,
+      "lat": 22.5997279,
+      "lon": 114.0417432,
+      "tags": {
+        "amenity": "parking"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6635166637,
+      "lat": 22.6011903,
+      "lon": 114.0426236,
+      "tags": {
+        "amenity": "parking",
+        "fee": "yes",
+        "layer": "-1",
+        "parking": "underground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6635166639,
+      "lat": 22.5996466,
+      "lon": 114.0427366,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "chinese"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6709895808,
+      "lat": 22.605484,
+      "lon": 114.040815,
+      "tags": {
+        "amenity": "cafe",
+        "brand": "星巴克",
+        "brand:en": "Starbucks",
+        "brand:wikidata": "Q37158",
+        "brand:wikipedia": "zh:星巴克",
+        "brand:zh": "星巴克",
+        "cuisine": "coffee_shop",
+        "name": "星巴克",
+        "name:en": "Starbucks",
+        "name:zh": "星巴克",
+        "official_name": "Starbucks Coffee",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6709895810,
+      "lat": 22.6056871,
+      "lon": 114.0413729,
+      "tags": {
+        "amenity": "cafe",
+        "brand": "Costa咖啡",
+        "brand:en": "Costa",
+        "brand:wikidata": "Q608845",
+        "brand:wikipedia": "en:Costa Coffee",
+        "brand:zh": "Costa咖啡",
+        "cuisine": "coffee_shop",
+        "name": "Costa咖啡",
+        "name:en": "Costa",
+        "name:zh": "Costa咖啡",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6709895811,
+      "lat": 22.6039438,
+      "lon": 114.0420488,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "chinese"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6787753469,
+      "lat": 22.6054017,
+      "lon": 114.0328413,
+      "tags": {
+        "amenity": "parking"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6802069565,
+      "lat": 22.601165,
+      "lon": 114.0301742,
+      "tags": {
+        "amenity": "parking"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6813768227,
+      "lat": 22.6055534,
+      "lon": 114.042316,
+      "tags": {
+        "amenity": "parking"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6956801168,
+      "lat": 22.6240435,
+      "lon": 114.0270329,
+      "tags": {
+        "addr:city": "Shenzhen",
+        "addr:district": "Longhua",
+        "addr:housenumber": "43",
+        "addr:postcode": "518000",
+        "addr:province": "Guangdong",
+        "addr:street": "梅龙路",
+        "email": "info@jinyutranslation.com",
+        "fax": "+86 755 2973 8906",
+        "language:zh": "yes",
+        "name": "Jinyu Translation",
+        "office": "translator",
+        "opening_hours": "Mo-Fr 09:00-18:00",
+        "phone": "+86 755 2973 8712",
+        "website": "https://www.jinyutranslation.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7062176159,
+      "lat": 22.6100624,
+      "lon": 114.0209156,
+      "tags": {
+        "amenity": "fountain",
+        "name": "深圳北站中心公园"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7176669283,
+      "lat": 22.6227797,
+      "lon": 114.0296138,
+      "tags": {
+        "capital": "8",
+        "division_code": "440309006",
+        "name": "民治街道",
+        "name:en": "Minzhi",
+        "name:yue-Latn": "Manzi-gaaidou",
+        "name:zh": "民治街道",
+        "name:zh-Hans": "民治街道",
+        "name:zh-Hant": "民治街道",
+        "name:zh-Latn-pinyin": "Mínzhì Jiēdào",
+        "place": "suburb",
+        "place:CN": "subdistrict",
+        "wikidata": "Q11129171",
+        "wikipedia": "zh:民治街道"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7191811489,
+      "lat": 22.6206958,
+      "lon": 114.0351725,
+      "tags": {
+        "name": "D",
+        "railway": "subway_entrance"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7278924989,
+      "lat": 22.6062526,
+      "lon": 114.0329598,
+      "tags": {
+        "amenity": "marketplace",
+        "name": "菜市场"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7416449646,
+      "lat": 22.6203282,
+      "lon": 114.0361279,
+      "tags": {
+        "name": "民治",
+        "name:en": "Minzhi",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "subway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7416449982,
+      "lat": 22.6143843,
+      "lon": 114.026467,
+      "tags": {
+        "brand": "华为",
+        "brand:en": "Huawei",
+        "brand:wikidata": "Q160120",
+        "brand:zh": "华为",
+        "name": "华为",
+        "name:en": "Huawei",
+        "name:zh": "华为",
+        "shop": "mobile_phone"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7428360825,
+      "lat": 22.6036236,
+      "lon": 114.0426071,
+      "tags": {
+        "brand": "华润万家",
+        "brand:en": "Vanguard",
+        "brand:wikidata": "Q5099892",
+        "brand:zh": "华润万家",
+        "name": "华润万家",
+        "name:en": "Vanguard",
+        "name:zh": "华润万家",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7750445757,
+      "lat": 22.6119818,
+      "lon": 114.0239507,
+      "tags": {
+        "name": "深圳北",
+        "name:de": "Shenzhen Nord",
+        "name:en": "Shenzhenbei",
+        "name:zh": "深圳北",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7750445758,
+      "lat": 22.6120307,
+      "lon": 114.0240104,
+      "tags": {
+        "name": "深圳北",
+        "name:de": "Shenzhen Nord",
+        "name:en": "Shenzhenbei",
+        "name:zh": "深圳北",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7779745450,
+      "lat": 22.6041254,
+      "lon": 114.0368091,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "麦当劳",
+        "brand:en": "McDonald's",
+        "brand:wikidata": "Q38076",
+        "brand:wikipedia": "zh:麦当劳",
+        "brand:zh": "麦当劳",
+        "brand:zh-Hans": "麦当劳",
+        "cuisine": "burger",
+        "name": "麦当劳",
+        "name:en": "McDonald's",
+        "name:zh": "麦当劳",
+        "name:zh-Hans": "麦当劳",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7779745451,
+      "lat": 22.6050883,
+      "lon": 114.0323491,
+      "tags": {
+        "addr:city": "深圳市",
+        "addr:district": "龙华新区",
+        "addr:province": "广东省",
+        "addr:street": "宁远路",
+        "description": "手工刺绣，Handicraft Embroidery",
+        "level": "12",
+        "name": "致衣匠手工刺绣工作室",
+        "name:en": "Handicraft Embroidery Studio",
+        "name:zh": "致衣匠手工刺绣工作室",
+        "office": "company",
+        "opening_hours": "Mo-Su 09:00-18:00"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7822253163,
+      "lat": 22.6130215,
+      "lon": 114.0251358,
+      "tags": {
+        "name": "深圳北站",
+        "name:en": "Shenzhen North Railway Station",
+        "name:zh": "深圳北站",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "subway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7822253164,
+      "lat": 22.6129359,
+      "lon": 114.025029,
+      "tags": {
+        "name": "深圳北站",
+        "name:en": "Shenzhen North Railway Station",
+        "name:zh": "深圳北站",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "subway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8022722605,
+      "lat": 22.6117043,
+      "lon": 114.0194778,
+      "tags": {
+        "amenity": "parking_entrance"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8022722606,
+      "lat": 22.6098476,
+      "lon": 114.0214177,
+      "tags": {
+        "amenity": "parking_entrance"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8229750071,
+      "lat": 22.6241077,
+      "lon": 114.018591,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "红山地铁站",
+        "name:en": "Hongshan Metro Station",
+        "name:zh": "红山地铁站",
+        "public_transport": "platform",
+        "shelter": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8261147596,
+      "lat": 22.6054323,
+      "lon": 114.0325344,
+      "tags": {
+        "amenity": "fountain",
+        "name": "新彩苑入户喷泉"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8261187657,
+      "lat": 22.599466,
+      "lon": 114.038891,
+      "tags": {
+        "brand": "Holiday Inn",
+        "brand:wikidata": "Q2717882",
+        "name": "智选假日酒店",
+        "name:en": "Holiday INN",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8436365304,
+      "lat": 22.6148626,
+      "lon": 114.026915,
+      "tags": {
+        "amenity": "cafe",
+        "brand": "星巴克",
+        "brand:en": "Starbucks",
+        "brand:wikidata": "Q37158",
+        "brand:wikipedia": "en:Starbucks",
+        "brand:zh": "星巴克",
+        "cuisine": "coffee_shop",
+        "name": "星巴克",
+        "name:en": "Starbucks",
+        "name:zh": "星巴克",
+        "official_name": "Starbucks Coffee",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8436365305,
+      "lat": 22.614453,
+      "lon": 114.0271795,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "麦当劳",
+        "brand:en": "McDonald's",
+        "brand:wikidata": "Q38076",
+        "brand:wikipedia": "en:McDonald's",
+        "brand:zh": "麦当劳",
+        "brand:zh-Hans": "麦当劳",
+        "cuisine": "burger",
+        "name": "麦当劳",
+        "name:en": "McDonald's",
+        "name:zh": "麦当劳",
+        "name:zh-Hans": "麦当劳",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8637525817,
+      "lat": 22.6211067,
+      "lon": 114.0410887,
+      "tags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8693080444,
+      "lat": 22.6240631,
+      "lon": 114.0215876,
+      "tags": {
+        "amenity": "fountain",
+        "drinking_water": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8693080446,
+      "lat": 22.6237556,
+      "lon": 114.0204971,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "农耕记"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8693080447,
+      "lat": 22.6241247,
+      "lon": 114.0193704,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "达美乐比萨",
+        "brand:en": "Domino's",
+        "brand:wikidata": "Q839466",
+        "brand:zh": "达美乐比萨",
+        "cuisine": "pizza",
+        "indoor_seating": "yes",
+        "name": "达美乐比萨",
+        "name:en": "Domino's",
+        "name:zh": "达美乐比萨",
+        "outdoor_seating": "no",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8693080448,
+      "lat": 22.6237761,
+      "lon": 114.0211445,
+      "tags": {
+        "name": "深发烟酒商行",
+        "shop": "alcohol"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8693080454,
+      "lat": 22.6241428,
+      "lon": 114.0194831,
+      "tags": {
+        "name": "易站",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8693080457,
+      "lat": 22.6235038,
+      "lon": 114.0199253,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "重庆先生"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8693080464,
+      "lat": 22.6237649,
+      "lon": 114.0197605,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "鱼你在一起"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8693080470,
+      "lat": 22.6236178,
+      "lon": 114.0198071,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "尚顶香"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8693080471,
+      "lat": 22.6240979,
+      "lon": 114.0195226,
+      "tags": {
+        "amenity": "toilets"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8693080475,
+      "lat": 22.6240003,
+      "lon": 114.019443,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "胖哥俩"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8693080476,
+      "lat": 22.6235425,
+      "lon": 114.0202392,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "蛙来哒"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8693080477,
+      "lat": 22.6237195,
+      "lon": 114.0214868,
+      "tags": {
+        "amenity": "bank",
+        "atm": "yes",
+        "branch": "深圳红山支行",
+        "brand": "中国工商银行",
+        "brand:en": "Industrial and Commercial Bank of China",
+        "brand:wikidata": "Q26463",
+        "brand:zh": "中国工商银行",
+        "name": "中国工商银行",
+        "name:en": "Industrial and Commercial Bank of China",
+        "name:zh": "中国工商银行",
+        "opening_hours": "Mo-Fr 09:00-17:00; Sa 10:00-16:00; PH closed"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8693080480,
+      "lat": 22.6233584,
+      "lon": 114.0199386,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "木屋烧烤",
+        "brand:wikidata": "Q113694089",
+        "brand:zh": "木屋烧烤",
+        "cuisine": "chinese",
+        "diet:halal": "no",
+        "name": "木屋烧烤",
+        "name:zh": "木屋烧烤"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8693080485,
+      "lat": 22.6239085,
+      "lon": 114.0194979,
+      "tags": {
+        "addr:housenumber": "22-1",
+        "addr:street": "腾龙路",
+        "amenity": "restaurant",
+        "name": "瑞记食府"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8693080489,
+      "lat": 22.623298,
+      "lon": 114.0200935,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "野妹经典"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8693080491,
+      "lat": 22.623775,
+      "lon": 114.0207497,
+      "tags": {
+        "amenity": "cafe",
+        "name": "都可"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8693080493,
+      "lat": 22.6236648,
+      "lon": 114.0213015,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "龙妹火锅"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8693080498,
+      "lat": 22.6239836,
+      "lon": 114.0214745,
+      "tags": {
+        "amenity": "bar",
+        "name": "Zpub Berry",
+        "outdoor_seating": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8693080504,
+      "lat": 22.6232351,
+      "lon": 114.0200047,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "火烧云"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8913115100,
+      "lat": 22.6216823,
+      "lon": 114.0352794,
+      "tags": {
+        "bench": "yes",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "沙元埔",
+        "name:en": "Shayuanpu",
+        "name:zh": "沙元埔",
+        "public_transport": "platform",
+        "shelter": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8913115101,
+      "lat": 22.6213443,
+      "lon": 114.0356686,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "沙元埔",
+        "name:en": "Shayuanpu",
+        "name:zh": "沙元埔",
+        "public_transport": "platform",
+        "shelter": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8913115102,
+      "lat": 22.6195341,
+      "lon": 114.035932,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "民治地铁站",
+        "name:en": "Minzhi Metro Station",
+        "name:zh": "民治地铁站",
+        "old_name": "民康路口",
+        "public_transport": "platform",
+        "shelter": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8913115103,
+      "lat": 22.6188899,
+      "lon": 114.0365343,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "民治地铁站",
+        "name:en": "Minzhi Metro Station",
+        "name:zh": "民治地铁站",
+        "old_name": "民康路口",
+        "public_transport": "platform",
+        "shelter": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8913115104,
+      "lat": 22.6160565,
+      "lon": 114.0375928,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "横岭二区",
+        "name:en": "Hengling Area 2",
+        "name:zh": "横岭二区",
+        "old_name": "横岭工业区",
+        "public_transport": "platform",
+        "shelter": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8913115105,
+      "lat": 22.6155521,
+      "lon": 114.0381743,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "横岭二区",
+        "name:en": "Hengling Area 2",
+        "name:zh": "横岭二区",
+        "name:zh-Hans": "横岭二区",
+        "old_name": "横岭工业区",
+        "public_transport": "platform",
+        "shelter": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8913115106,
+      "lat": 22.6104722,
+      "lon": 114.0403951,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "横岭",
+        "name:en": "Hengling",
+        "name:zh": "横岭",
+        "public_transport": "platform",
+        "shelter": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9062180342,
+      "lat": 22.6135037,
+      "lon": 114.0256511,
+      "tags": {
+        "name": "深圳北站",
+        "name:en": "Shenzhen North Railway Station",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "subway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9062180355,
+      "lat": 22.6204301,
+      "lon": 114.0360708,
+      "tags": {
+        "name": "民治",
+        "name:en": "Minzhi",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "subway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9100406730,
+      "lat": 22.6004574,
+      "lon": 114.0312058,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "逸秀新村",
+        "name:en": "Yixiuxincun",
+        "name:zh": "逸秀新村",
+        "public_transport": "platform",
+        "shelter": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9100406731,
+      "lat": 22.5993929,
+      "lon": 114.0315751,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "逸秀新村",
+        "name:en": "Yixiuxincun",
+        "name:zh": "逸秀新村",
+        "public_transport": "platform",
+        "shelter": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9100406774,
+      "lat": 22.6047176,
+      "lon": 114.0283068,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "龙悦居三期",
+        "name:en": "Longyueju Phase 3",
+        "name:zh": "龙悦居三期",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9100406775,
+      "lat": 22.6049665,
+      "lon": 114.0279663,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "龙悦居三期",
+        "name:en": "Longyueju Phase 3",
+        "name:zh": "龙悦居三期",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9100481645,
+      "lat": 22.6055013,
+      "lon": 114.026903,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "龙悦居",
+        "name:en": "Longyueju",
+        "name:zh": "龙悦居",
+        "public_transport": "platform",
+        "shelter": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9100481646,
+      "lat": 22.6053946,
+      "lon": 114.0270494,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "龙悦居",
+        "name:en": "Longyueju",
+        "name:zh": "龙悦居",
+        "public_transport": "platform",
+        "shelter": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9218583683,
+      "lat": 22.6214802,
+      "lon": 114.0163606,
+      "tags": {
+        "bench": "yes",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "创业花园",
+        "name:en": "Chuangye Garden",
+        "name:zh": "创业花园",
+        "public_transport": "platform",
+        "shelter": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9218583684,
+      "lat": 22.6186658,
+      "lon": 114.0179878,
+      "tags": {
+        "bench": "yes",
+        "bin": "yes",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "lit": "yes",
+        "name": "创业花园",
+        "name:en": "Chuangye Garden",
+        "name:zh": "创业花园",
+        "public_transport": "platform",
+        "shelter": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9218583685,
+      "lat": 22.6220948,
+      "lon": 114.0192565,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "民宝路中",
+        "name:en": "Minbao Road Middle",
+        "name:zh": "民宝路中",
+        "public_transport": "platform",
+        "shelter": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9218583694,
+      "lat": 22.6114092,
+      "lon": 114.0206657,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "深圳北汽车站",
+        "name:en": "Shenzhen North Railway Station Coach Station",
+        "name:zh": "深圳北汽车站",
+        "public_transport": "platform",
+        "shelter": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9218583695,
+      "lat": 22.6103045,
+      "lon": 114.0212838,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "深圳北汽车站",
+        "name:en": "Shenzhen North Railway Station Coach Station",
+        "name:zh": "深圳北汽车站",
+        "public_transport": "platform",
+        "shelter": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9218583696,
+      "lat": 22.6054846,
+      "lon": 114.0227155,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "玉龙路天桥",
+        "name:en": "Yvlonglu Overpass",
+        "name:zh": "玉龙路天桥",
+        "public_transport": "platform",
+        "shelter": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9218583697,
+      "lat": 22.6057215,
+      "lon": 114.0239158,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "龙悦居二期",
+        "name:en": "Longyueju Phase 2",
+        "name:zh": "龙悦居二期",
+        "public_transport": "platform",
+        "shelter": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9218583698,
+      "lat": 22.6043635,
+      "lon": 114.0249455,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "龙悦居总站",
+        "name:en": "Longyueju Bus Terminus",
+        "name:zh": "龙悦居总站",
+        "public_transport": "platform",
+        "shelter": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9218583699,
+      "lat": 22.605881,
+      "lon": 114.0252724,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "致远南路",
+        "name:en": "Zhiyuan South Road",
+        "name:zh": "致远南路",
+        "public_transport": "platform",
+        "shelter": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9218583700,
+      "lat": 22.606892,
+      "lon": 114.0255876,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "龙悦居四期",
+        "name:en": "Longyueju Phase 4",
+        "name:zh": "龙悦居四期",
+        "public_transport": "platform",
+        "shelter": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9218583701,
+      "lat": 22.6067282,
+      "lon": 114.0260266,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "龙悦居四期",
+        "name:en": "Longyueju Phase 4",
+        "name:zh": "龙悦居四期",
+        "public_transport": "platform",
+        "shelter": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9218583702,
+      "lat": 22.6081353,
+      "lon": 114.0304322,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "营救文化名人旧址",
+        "name:en": "Yingjiuwenhuamingrenjiuzhi",
+        "name:zh": "营救文化名人旧址",
+        "public_transport": "platform",
+        "shelter": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9218583703,
+      "lat": 22.6078257,
+      "lon": 114.0304545,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "营救文化名人旧址",
+        "name:en": "Yingjiuwenhuamingrenjiuzhi",
+        "name:zh": "营救文化名人旧址",
+        "public_transport": "platform",
+        "shelter": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9218583704,
+      "lat": 22.6060707,
+      "lon": 114.0304222,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "新彩苑社康",
+        "name:en": "Xincaiyuan Community Healthcare Center",
+        "name:zh": "新彩苑社康",
+        "public_transport": "platform",
+        "shelter": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9218583705,
+      "lat": 22.6063078,
+      "lon": 114.0307677,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "新彩苑社康",
+        "name:en": "Xincaiyuan Community Healthcare Center",
+        "name:zh": "新彩苑社康",
+        "public_transport": "platform",
+        "shelter": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9218583706,
+      "lat": 22.6057625,
+      "lon": 114.0315827,
+      "tags": {
+        "amenity": "bus_station",
+        "bus": "yes",
+        "name": "新龙大厦公交首末站",
+        "name:en": "Xinlong Building Bus Terminal",
+        "name:zh": "新龙大厦公交首末站",
+        "public_transport": "station"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9218583707,
+      "lat": 22.6040371,
+      "lon": 114.0357606,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "白石龙地铁站西",
+        "name:en": "Baishilong Metro Station West",
+        "name:zh": "白石龙地铁站西",
+        "public_transport": "platform",
+        "shelter": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9218583708,
+      "lat": 22.6035365,
+      "lon": 114.0358407,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "白石龙地铁站西",
+        "name:en": "Baishilong Metro Station West",
+        "name:zh": "白石龙地铁站西",
+        "public_transport": "platform",
+        "shelter": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9218583709,
+      "lat": 22.6014244,
+      "lon": 114.0349674,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "白石龙音乐公园北",
+        "name:en": "Baishilong Yinyue Park North",
+        "name:zh": "白石龙音乐公园北",
+        "public_transport": "platform",
+        "shelter": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9218583710,
+      "lat": 22.6001893,
+      "lon": 114.0368237,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "警犬基地",
+        "name:en": "Jingquan Base",
+        "name:zh": "警犬基地",
+        "public_transport": "platform",
+        "shelter": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9218583711,
+      "lat": 22.598344,
+      "lon": 114.0381617,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "警犬基地",
+        "name:en": "Jingquan Base",
+        "name:zh": "警犬基地",
+        "public_transport": "platform",
+        "shelter": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9218583712,
+      "lat": 22.5986844,
+      "lon": 114.0261743,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "水榭山",
+        "name:en": "Shuixieshan",
+        "name:zh": "水榭山",
+        "public_transport": "platform",
+        "shelter": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9218583713,
+      "lat": 22.598802,
+      "lon": 114.0265618,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "水榭山",
+        "name:en": "Shuixieshan",
+        "name:zh": "水榭山",
+        "public_transport": "platform",
+        "shelter": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9220579440,
+      "lat": 22.6001134,
+      "lon": 114.0409149,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "上河坊",
+        "name:en": "Shanghefang",
+        "name:zh": "上河坊",
+        "public_transport": "platform",
+        "shelter": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9220579441,
+      "lat": 22.6022206,
+      "lon": 114.0395198,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "澳门新村",
+        "name:en": "Aomen Xincun",
+        "name:zh": "澳门新村",
+        "public_transport": "platform",
+        "shelter": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9220579442,
+      "lat": 22.6039648,
+      "lon": 114.0373472,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "白石龙地铁站",
+        "name:en": "Baishilong Metro Station",
+        "name:zh": "白石龙地铁站",
+        "public_transport": "platform",
+        "shelter": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9220579443,
+      "lat": 22.6044384,
+      "lon": 114.0373457,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "白石龙地铁站",
+        "name:en": "Baishilong Metro Station",
+        "name:zh": "白石龙地铁站",
+        "public_transport": "platform",
+        "shelter": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9220579444,
+      "lat": 22.6042024,
+      "lon": 114.0389711,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "龙泽苑公交首末站 (上客区)",
+        "name:en": "Longzeyuan Bus Terminal (Start)",
+        "name:zh": "龙泽苑公交首末站 (上客区)",
+        "public_transport": "platform",
+        "shelter": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9220579445,
+      "lat": 22.6041908,
+      "lon": 114.0409138,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "惠鑫公寓 ②",
+        "name:en": "Huixin Apartment 2",
+        "name:zh": "惠鑫公寓 ②",
+        "public_transport": "platform",
+        "shelter": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9220579446,
+      "lat": 22.6050285,
+      "lon": 114.0408013,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "惠鑫公寓 ①",
+        "name:en": "Huixin Apartment 1",
+        "name:zh": "惠鑫公寓 ①",
+        "public_transport": "platform",
+        "shelter": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9220579447,
+      "lat": 22.6053456,
+      "lon": 114.0399602,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "惠鑫公寓 ①",
+        "name:en": "Huixin Apartment 1",
+        "name:zh": "惠鑫公寓 ①",
+        "public_transport": "platform",
+        "shelter": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9220579448,
+      "lat": 22.6064913,
+      "lon": 114.0376447,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "汇龙苑",
+        "name:en": "Huilongyuan",
+        "name:zh": "汇龙苑",
+        "public_transport": "platform",
+        "shelter": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9220579449,
+      "lat": 22.6064577,
+      "lon": 114.0348746,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "白石龙村",
+        "name:en": "Baishilong Village",
+        "name:zh": "白石龙村",
+        "public_transport": "platform",
+        "shelter": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9220579450,
+      "lat": 22.6061171,
+      "lon": 114.0347672,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "白石龙村",
+        "name:en": "Baishilong Village",
+        "name:zh": "白石龙村",
+        "public_transport": "platform",
+        "shelter": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9220579451,
+      "lat": 22.6079942,
+      "lon": 114.0324294,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "白石龙幼儿园",
+        "name:en": "Baishilong Kindergarten",
+        "name:zh": "白石龙幼儿园",
+        "public_transport": "platform",
+        "shelter": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9220579452,
+      "lat": 22.6076316,
+      "lon": 114.0334275,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "白石龙幼儿园",
+        "name:en": "Baishilong Kindergarten",
+        "name:zh": "白石龙幼儿园",
+        "public_transport": "platform",
+        "shelter": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9220579453,
+      "lat": 22.609471,
+      "lon": 114.0315411,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "民治南园公园",
+        "name:en": "Minzhi Nanyuan Park",
+        "name:zh": "民治南园公园",
+        "public_transport": "platform",
+        "shelter": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9220579454,
+      "lat": 22.6112534,
+      "lon": 114.0297833,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "民治南园公园",
+        "name:en": "Minzhi Nanyuan Park",
+        "name:zh": "民治南园公园",
+        "public_transport": "platform",
+        "shelter": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9220579455,
+      "lat": 22.6085103,
+      "lon": 114.0379515,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "石龙路口",
+        "name:en": "Shilong Road Crossing",
+        "name:zh": "石龙路口",
+        "public_transport": "platform",
+        "shelter": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9220579456,
+      "lat": 22.6132209,
+      "lon": 114.0390832,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "民治天虹",
+        "name:en": "Minzhi Rainbow Department Store",
+        "name:zh": "民治天虹",
+        "public_transport": "platform",
+        "shelter": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9220579457,
+      "lat": 22.6131491,
+      "lon": 114.0374069,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "潜龙学校",
+        "name:en": "Qianlong School",
+        "name:zh": "潜龙学校",
+        "public_transport": "platform",
+        "shelter": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9220579458,
+      "lat": 22.6122874,
+      "lon": 114.036739,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "潜龙学校",
+        "name:en": "Qianlong School",
+        "name:zh": "潜龙学校",
+        "public_transport": "platform",
+        "shelter": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9220579459,
+      "lat": 22.6101828,
+      "lon": 114.0359695,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "民丰天桥",
+        "name:en": "Minfeng Overpass",
+        "name:zh": "民丰天桥",
+        "public_transport": "platform",
+        "shelter": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9220579460,
+      "lat": 22.612202,
+      "lon": 114.0349041,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "民丰天桥",
+        "name:en": "Minfeng Overpass",
+        "name:zh": "民丰天桥",
+        "public_transport": "platform",
+        "shelter": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9220579461,
+      "lat": 22.6103675,
+      "lon": 114.034582,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "白石龙下一区",
+        "name:en": "Baishilong Area Xia1",
+        "name:zh": "白石龙下一区",
+        "public_transport": "platform",
+        "shelter": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9220579462,
+      "lat": 22.6092432,
+      "lon": 114.0337255,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "白石龙下一区",
+        "name:en": "Baishilong Area Xia1",
+        "name:zh": "白石龙下一区",
+        "public_transport": "platform",
+        "shelter": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9220579463,
+      "lat": 22.6137868,
+      "lon": 114.0286562,
+      "tags": {
+        "bench": "yes",
+        "bin": "yes",
+        "bus": "yes",
+        "departures_board": "yes",
+        "highway": "bus_stop",
+        "lit": "yes",
+        "name": "深圳北站东广场",
+        "name:en": "East Square of Shenzhen North Railway Station",
+        "name:zh": "深圳北站东广场",
+        "public_transport": "platform",
+        "shelter": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9220579464,
+      "lat": 22.6149381,
+      "lon": 114.0275162,
+      "tags": {
+        "bus": "yes",
+        "departures_board": "yes",
+        "highway": "bus_stop",
+        "name": "深圳北站东广场",
+        "name:en": "East Square of Shenzhen North Railway Station",
+        "name:zh": "深圳北站东广场",
+        "public_transport": "platform",
+        "shelter": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9220579465,
+      "lat": 22.6131717,
+      "lon": 114.0305203,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "玉龙民塘路口",
+        "name:en": "Yvlong-Mintang Road Crossing",
+        "name:zh": "玉龙民塘路口",
+        "public_transport": "platform",
+        "shelter": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9220579466,
+      "lat": 22.614125,
+      "lon": 114.031097,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "玉龙民塘路口",
+        "name:en": "Yvlong-Mintang Road Crossing",
+        "name:zh": "玉龙民塘路口",
+        "public_transport": "platform",
+        "shelter": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9220579467,
+      "lat": 22.6137585,
+      "lon": 114.0330201,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "樟坑",
+        "name:en": "Zhangkeng",
+        "name:zh": "樟坑",
+        "public_transport": "platform",
+        "shelter": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9220579468,
+      "lat": 22.6160686,
+      "lon": 114.0316951,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "樟坑",
+        "name:en": "Zhangkeng",
+        "name:zh": "樟坑",
+        "public_transport": "platform",
+        "shelter": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9220579469,
+      "lat": 22.6158578,
+      "lon": 114.0338739,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "樟坑村口",
+        "name:en": "Entrance to Zhangkeng Village",
+        "name:zh": "樟坑村口",
+        "public_transport": "platform",
+        "shelter": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9220579470,
+      "lat": 22.6156471,
+      "lon": 114.0340526,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "樟坑村口",
+        "name:en": "Entrance to Zhangkeng Village",
+        "name:zh": "樟坑村口",
+        "public_transport": "platform",
+        "shelter": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9220579471,
+      "lat": 22.6169212,
+      "lon": 114.0359496,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "樟坑三区",
+        "name:en": "Zhangkeng Area 3",
+        "name:zh": "樟坑三区",
+        "public_transport": "platform",
+        "shelter": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9220579472,
+      "lat": 22.6164981,
+      "lon": 114.0356399,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "樟坑三区",
+        "name:en": "Zhangkeng Area 3",
+        "name:zh": "樟坑三区",
+        "public_transport": "platform",
+        "shelter": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9220579473,
+      "lat": 22.6150049,
+      "lon": 114.0395624,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "民治体育公园南",
+        "name:en": "Minzhi Sports Park South",
+        "name:zh": "民治体育公园南",
+        "name:zh-Hans": "民治体育公园南",
+        "public_transport": "platform",
+        "shelter": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9220579474,
+      "lat": 22.6167234,
+      "lon": 114.0406259,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "行知实验小学",
+        "name:en": "Xingzhi Experimental Primary School",
+        "name:zh": "行知实验小学",
+        "name:zh-Hans": "行知实验小学",
+        "public_transport": "platform",
+        "shelter": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9220579475,
+      "lat": 22.6165078,
+      "lon": 114.0408967,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "行知实验小学",
+        "name:en": "Xingzhi Experimental Primary School",
+        "name:zh": "行知实验小学",
+        "name:zh-Hans": "行知实验小学",
+        "public_transport": "platform",
+        "shelter": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9220579476,
+      "lat": 22.6180931,
+      "lon": 114.0382315,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "皓月花园",
+        "name:en": "Haoyue Garden",
+        "name:zh": "皓月花园",
+        "name:zh-Hans": "皓月花园",
+        "name:zh-Hant": "皓月花園",
+        "public_transport": "platform",
+        "shelter": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9220579477,
+      "lat": 22.6177925,
+      "lon": 114.0381926,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "皓月花园",
+        "name:en": "Haoyue Garden",
+        "name:zh": "皓月花园",
+        "name:zh-Hans": "皓月花园",
+        "name:zh-Hant": "皓月花園",
+        "public_transport": "platform",
+        "shelter": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9220579478,
+      "lat": 22.6196786,
+      "lon": 114.0413972,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "荣域碧水龙庭",
+        "name:en": "Rongyubishuilongting",
+        "name:zh": "荣域碧水龙庭",
+        "name:zh-Hans": "荣域碧水龙庭",
+        "public_transport": "platform",
+        "shelter": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9220579479,
+      "lat": 22.6195964,
+      "lon": 114.0416654,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "荣域碧水龙庭",
+        "name:en": "Rongyubishuilongting",
+        "name:zh": "荣域碧水龙庭",
+        "name:zh-Hans": "荣域碧水龙庭",
+        "public_transport": "platform",
+        "shelter": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9220579480,
+      "lat": 22.6180641,
+      "lon": 114.028174,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "彩悦大厦",
+        "name:en": "Caiyue Building",
+        "name:zh": "彩悦大厦",
+        "public_transport": "platform",
+        "shelter": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9220579481,
+      "lat": 22.6179087,
+      "lon": 114.0258883,
+      "tags": {
+        "bench": "yes",
+        "bin": "yes",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "lit": "yes",
+        "name": "龙华绿廊公园",
+        "name:en": "Longhualvlang Park",
+        "name:zh": "龙华绿廊公园",
+        "public_transport": "platform",
+        "shelter": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9220579482,
+      "lat": 22.6189932,
+      "lon": 114.0249695,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "龙华绿廊公园",
+        "name:en": "Longhualvlang Park",
+        "name:zh": "龙华绿廊公园",
+        "public_transport": "platform",
+        "shelter": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9220579483,
+      "lat": 22.6228106,
+      "lon": 114.0210789,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "民宝路中",
+        "name:en": "Minbao Road Middle",
+        "name:zh": "民宝路中",
+        "public_transport": "platform",
+        "shelter": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9220579484,
+      "lat": 22.6227506,
+      "lon": 114.0240772,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "高级中学北校区",
+        "name:en": "North Campus of Shenzhen Senior Middle School",
+        "name:zh": "高级中学北校区",
+        "old_name": "民治花场",
+        "public_transport": "platform",
+        "shelter": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9220579485,
+      "lat": 22.6222479,
+      "lon": 114.0245127,
+      "tags": {
+        "bench": "yes",
+        "bin": "yes",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "lit": "yes",
+        "name": "高级中学北校区",
+        "name:en": "North Campus of Shenzhen Senior Middle School",
+        "name:zh": "高级中学北校区",
+        "old_name": "民治花场",
+        "public_transport": "platform",
+        "shelter": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9220579486,
+      "lat": 22.623548,
+      "lon": 114.0256119,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "南贤广场",
+        "name:en": "Nanxian Plaza",
+        "name:zh": "南贤广场",
+        "public_transport": "platform",
+        "shelter": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9220579487,
+      "lat": 22.6238426,
+      "lon": 114.0259412,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "南贤广场",
+        "name:en": "Nanxian Plaza",
+        "name:zh": "南贤广场",
+        "public_transport": "platform",
+        "shelter": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9220579488,
+      "lat": 22.6239297,
+      "lon": 114.0296467,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "民治文体中心",
+        "name:en": "Minzhi Cultural Sports Center",
+        "name:zh": "民治文体中心",
+        "old_name": "民治邮局",
+        "public_transport": "platform",
+        "shelter": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9220579489,
+      "lat": 22.6239212,
+      "lon": 114.0302579,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "民治文体中心",
+        "name:en": "Minzhi Cultural Sports Center",
+        "name:zh": "民治文体中心",
+        "old_name": "民治邮局",
+        "public_transport": "platform",
+        "shelter": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9419621442,
+      "lat": 22.6142654,
+      "lon": 114.0382479,
+      "tags": {
+        "addr:postcode": "518131",
+        "amenity": "fast_food",
+        "brand": "麦当劳",
+        "brand:en": "McDonald's",
+        "brand:wikidata": "Q38076",
+        "brand:zh": "麦当劳",
+        "brand:zh-Hans": "麦当劳",
+        "cuisine": "burger",
+        "drive_through": "no",
+        "name": "麦当劳",
+        "name:en": "McDonald's",
+        "name:zh": "麦当劳",
+        "name:zh-Hans": "麦当劳",
+        "operator": "McDonald's",
+        "takeaway": "yes",
+        "website": "https://www.mcdonalds.com.cn/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9419666731,
+      "lat": 22.6150691,
+      "lon": 114.0338568,
+      "tags": {
+        "amenity": "waste_transfer_station"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9419666732,
+      "lat": 22.6152102,
+      "lon": 114.0337281,
+      "tags": {
+        "amenity": "fire_station",
+        "operator": "应急管理部消防救援局",
+        "operator:wikidata": "Q60573921",
+        "operator:wikipedia": "zh:应急管理部消防救援局",
+        "operator:zh": "应急管理部消防救援局"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9419666733,
+      "lat": 22.6151681,
+      "lon": 114.033771,
+      "tags": {
+        "amenity": "charging_station",
+        "bicycle": "yes",
+        "capacity": "10",
+        "charge": "100min/1cny",
+        "fee": "yes",
+        "motor_vehicle": "no",
+        "name": "两轮电瓶车充电站",
+        "name:en": "Electric Bike Charging Station",
+        "name:zh": "两轮电瓶车充电站",
+        "note": "电瓶车_electric_bicycle",
+        "payment:alipay": "yes",
+        "payment:wechat": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9419666734,
+      "lat": 22.6149082,
+      "lon": 114.0349914,
+      "tags": {
+        "amenity": "charging_station",
+        "capacity": "10",
+        "charge": "100min/1cny",
+        "fee": "yes",
+        "name": "两轮电瓶车充电站",
+        "name:en": "Electric Bike Charging Station",
+        "name:zh": "两轮电瓶车充电站",
+        "payment:alipay": "yes",
+        "payment:wechat": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9419668692,
+      "lat": 22.6053116,
+      "lon": 114.0410058,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "汉堡王",
+        "brand:en": "Burger King",
+        "brand:wikidata": "Q177054",
+        "brand:zh": "汉堡王",
+        "cuisine": "burger",
+        "drive_through": "no",
+        "name": "汉堡王",
+        "name:en": "Burger King",
+        "name:zh": "汉堡王",
+        "takeaway": "yes",
+        "website": "https://www.bkchina.cn/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9419684506,
+      "lat": 22.6142646,
+      "lon": 114.0263197,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "汉堡王",
+        "brand:en": "Burger King",
+        "brand:wikidata": "Q177054",
+        "brand:zh": "汉堡王",
+        "cuisine": "burger",
+        "drive_through": "no",
+        "name": "汉堡王",
+        "name:en": "Burger King",
+        "name:zh": "汉堡王",
+        "opening_hours": "Mo-Su 7:30-22:00",
+        "phone": "+86 755 6682 1008",
+        "takeaway": "yes",
+        "website": "https://www.bkchina.cn/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9670127821,
+      "lat": 22.6204708,
+      "lon": 114.0232816,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "创想大厦公交首末站",
+        "name:en": "Create Ideal Landmark Bus Terminal",
+        "name:zh": "创想大厦公交首末站",
+        "operator": "深圳市交通场站建设发展有限公司",
+        "public_transport": "platform",
+        "shelter": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9894788409,
+      "lat": 22.5990969,
+      "lon": 114.0424534,
+      "tags": {
+        "amenity": "bar",
+        "name": "猫员外酒馆"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9894794808,
+      "lat": 22.6004286,
+      "lon": 114.0413789,
+      "tags": {
+        "brand": "李宁",
+        "brand:en": "Li-Ning",
+        "brand:wikidata": "Q1272525",
+        "brand:zh": "李宁",
+        "name": "李宁",
+        "name:en": "Li-Ning",
+        "name:zh": "李宁",
+        "shop": "clothes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10146529329,
+      "lat": 22.6132116,
+      "lon": 114.0203852,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "北站留仙大道桥",
+        "name:en": "Beizhan Bridge, Liuxian Boulevard",
+        "name:zh": "北站留仙大道桥",
+        "public_transport": "platform",
+        "shelter": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10146529330,
+      "lat": 22.6132002,
+      "lon": 114.0208751,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "北站西广场应急停车场 (下客区)",
+        "name:en": "West Plaza of Shenzhen North Railway Station (End)",
+        "name:zh": "北站西广场应急停车场 (下客区)",
+        "public_transport": "platform",
+        "shelter": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10146529331,
+      "lat": 22.6124294,
+      "lon": 114.0202836,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "北站西广场应急停车场 (上客区)",
+        "name:en": "West Plaza of Shenzhen North Railway Station (Start)",
+        "name:zh": "北站西广场应急停车场 (上客区)",
+        "public_transport": "platform",
+        "shelter": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10271161974,
+      "lat": 22.6142964,
+      "lon": 114.0264923,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "麦当劳",
+        "brand:en": "McDonald's",
+        "brand:wikidata": "Q38076",
+        "brand:zh": "麦当劳",
+        "brand:zh-Hans": "麦当劳",
+        "cuisine": "burger",
+        "name": "麦当劳",
+        "name:en": "McDonald's",
+        "name:zh": "麦当劳",
+        "name:zh-Hans": "麦当劳",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10271161975,
+      "lat": 22.6143731,
+      "lon": 114.0265419,
+      "tags": {
+        "addr:floor": "2",
+        "amenity": "fast_food",
+        "brand": "食其家",
+        "brand:en": "Sukiya",
+        "brand:ja": "すき家",
+        "brand:wikidata": "Q6137375",
+        "brand:zh": "食其家",
+        "check_date": "2025-01-22",
+        "cuisine": "beef_bowl",
+        "level": "1",
+        "name": "食其家",
+        "name:en": "Sukiya",
+        "name:ja": "すき家",
+        "name:zh": "食其家",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10271161976,
+      "lat": 22.6141792,
+      "lon": 114.027026,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "萨莉亚",
+        "brand:en": "Saizeriya",
+        "brand:wikidata": "Q886564",
+        "brand:zh": "萨莉亚",
+        "cuisine": "italian",
+        "name": "萨莉亚",
+        "name:en": "Saizeriya",
+        "name:zh": "萨莉亚"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10271161977,
+      "lat": 22.6144067,
+      "lon": 114.0263756,
+      "tags": {
+        "brand": "Nike",
+        "brand:wikidata": "Q483915",
+        "name": "Nike",
+        "shop": "clothes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10271161978,
+      "lat": 22.6141685,
+      "lon": 114.026606,
+      "tags": {
+        "brand": "7-Eleven",
+        "brand:wikidata": "Q259340",
+        "name": "7-Eleven",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10784613867,
+      "lat": 22.6240199,
+      "lon": 114.0295584,
+      "tags": {
+        "amenity": "bank",
+        "brand": "中国邮政储蓄银行",
+        "brand:en": "Postal Savings Bank of China",
+        "brand:wikidata": "Q986744",
+        "brand:zh": "中国邮政储蓄银行",
+        "name": "中国邮政储蓄银行",
+        "name:en": "Postal Savings Bank of China",
+        "name:zh": "中国邮政储蓄银行"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10792638770,
+      "lat": 22.6237482,
+      "lon": 114.0342095,
+      "tags": {
+        "access": "yes",
+        "amenity": "parking_entrance",
+        "level": "0",
+        "parking": "surface"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10831352304,
+      "lat": 22.6077108,
+      "lon": 114.0168859,
+      "tags": {
+        "highway": "rest_area",
+        "name": "聚贤坡",
+        "toilets": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10831352335,
+      "lat": 22.6044856,
+      "lon": 114.0180206,
+      "tags": {
+        "denotation": "park",
+        "leaf_cycle": "evergreen",
+        "leaf_type": "broadleaved",
+        "name": "智慧树",
+        "name:en": "Tree of Wisdom",
+        "name:zh": "智慧树",
+        "name:zh-Hans": "智慧树",
+        "natural": "tree"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10831352558,
+      "lat": 22.6180509,
+      "lon": 114.039713,
+      "tags": {
+        "artwork_type": "sculpture",
+        "name": "一滴水",
+        "name:en": "A Drop of Water",
+        "tourism": "artwork"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10864177349,
+      "lat": 22.6190297,
+      "lon": 114.0335666,
+      "tags": {
+        "access": "permissive",
+        "amenity": "parking_entrance",
+        "parking": "surface"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10870912441,
+      "lat": 22.621193,
+      "lon": 114.0257419,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "民治股份商业中心公交首末站 (上客区)",
+        "name:en": "Minzhi Holding Business Center Bus Terminal (Start)",
+        "name:zh": "民治股份商业中心公交首末站 (上客区)",
+        "operator": "深圳市交通场站建设发展有限公司",
+        "public_transport": "platform",
+        "shelter": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10870912442,
+      "lat": 22.6211088,
+      "lon": 114.0253101,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "民治股份商业中心公交首末站 (下客区)",
+        "name:en": "Minzhi Holding Business Center Bus Terminal (End)",
+        "name:zh": "民治股份商业中心公交首末站 (下客区)",
+        "operator": "深圳市交通场站建设发展有限公司",
+        "public_transport": "platform",
+        "shelter": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10875026547,
+      "lat": 22.6239937,
+      "lon": 114.0340472,
+      "tags": {
+        "name": "民强社区",
+        "name:en": "Minqiang Community",
+        "name:zh": "民强社区",
+        "name:zh-Hans": "民强社区",
+        "place": "quarter"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10875026548,
+      "lat": 22.6239908,
+      "lon": 114.0340291,
+      "tags": {
+        "amenity": "community_centre",
+        "check_date": "2024-03-15",
+        "name": "民强社区工作站",
+        "name:en": "Minqiang Commiunity Workstation",
+        "operator:type": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10889704293,
+      "lat": 22.6172199,
+      "lon": 114.0413745,
+      "tags": {
+        "name": "民新社区",
+        "name:en": "Minxin Community",
+        "name:zh": "民新社区",
+        "name:zh-Hans": "民新社区",
+        "place": "quarter"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10889704339,
+      "lat": 22.6189932,
+      "lon": 114.0345213,
+      "tags": {
+        "name": "樟坑社区",
+        "name:en": "Zhangkeng Community",
+        "name:zh": "樟坑社区",
+        "name:zh-Hans": "樟坑社区",
+        "place": "quarter"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10959920175,
+      "lat": 22.6186608,
+      "lon": 114.0299854,
+      "tags": {
+        "access": "private",
+        "amenity": "parking_entrance",
+        "parking": "surface"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10959920180,
+      "lat": 22.6186827,
+      "lon": 114.0299663,
+      "tags": {
+        "access": "private",
+        "amenity": "parking_entrance",
+        "parking": "surface"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10960079323,
+      "lat": 22.6184197,
+      "lon": 114.0310542,
+      "tags": {
+        "name": "樟坑二区3#公变",
+        "name:en": "Second Area of Zhangkeng Village 3# Substation",
+        "name:zh": "樟坑二区3#公变",
+        "name:zh-Hans": "樟坑二区3#公变",
+        "power": "substation",
+        "substation": "minor_distribution"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10960079325,
+      "lat": 22.6232031,
+      "lon": 114.0333194,
+      "tags": {
+        "access": "private",
+        "amenity": "parking_entrance",
+        "parking": "surface"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10976883952,
+      "lat": 22.6224607,
+      "lon": 114.0377617,
+      "tags": {
+        "name": "沙元埔",
+        "name:en": "Shayuanpu",
+        "name:zh": "沙元埔",
+        "name:zh-Hans": "沙元埔",
+        "place": "hamlet"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10976892639,
+      "lat": 22.6070965,
+      "lon": 114.031977,
+      "tags": {
+        "name": "白石龙",
+        "name:en": "Baishilong",
+        "name:zh": "白石龙",
+        "name:zh-Hans": "白石龙",
+        "place": "hamlet"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10976894979,
+      "lat": 22.6204489,
+      "lon": 114.0313683,
+      "tags": {
+        "name": "樟坑",
+        "name:en": "Zhangkeng",
+        "name:zh": "樟坑",
+        "name:zh-Hans": "樟坑",
+        "place": "hamlet"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10976899881,
+      "lat": 22.6109336,
+      "lon": 114.0403313,
+      "tags": {
+        "name": "横岭",
+        "name:en": "Hengling",
+        "name:zh": "横岭",
+        "name:zh-Hans": "横岭",
+        "name:zh-Hant": "橫嶺",
+        "place": "hamlet"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11211796951,
+      "lat": 22.5981037,
+      "lon": 114.0183061,
+      "tags": {
+        "name": "亚寄山",
+        "natural": "peak",
+        "official_name": "丫髻山"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11246784032,
+      "lat": 22.6132581,
+      "lon": 114.0311492,
+      "tags": {
+        "name": "黄金台",
+        "name:en": "Huangjintai",
+        "name:zh": "黄金台",
+        "name:zh-Hans": "黄金台",
+        "place": "locality"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11246784033,
+      "lat": 22.6153339,
+      "lon": 114.034072,
+      "tags": {
+        "name": "坳背",
+        "name:en": "Aobei",
+        "name:zh": "坳背",
+        "name:zh-Hans": "坳背",
+        "place": "locality"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11262426275,
+      "lat": 22.6188674,
+      "lon": 114.0344279,
+      "tags": {
+        "name": "向南",
+        "name:en": "Xiangnan",
+        "name:zh": "向南",
+        "name:zh-Hans": "向南",
+        "place": "hamlet"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11405363600,
+      "lat": 22.5960033,
+      "lon": 114.0434574,
+      "tags": {
+        "historic": "ruins",
+        "historic:civilization": "modern",
+        "name": "深圳经济特区新区大道检查站",
+        "name:en": "Shenzhen Special Economic Zone Xinqu Blvd Checkpoint",
+        "name:zh": "深圳经济特区新区大道检查站",
+        "name:zh-Hans": "深圳经济特区新区大道检查站"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11422512739,
+      "lat": 22.6241675,
+      "lon": 114.034444,
+      "tags": {
+        "check_date": "2024-03-13",
+        "name": "起航星",
+        "office": "educational_institution"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11422521594,
+      "lat": 22.6222779,
+      "lon": 114.0414454,
+      "tags": {
+        "leisure": "sports_centre",
+        "name": "民治羽毛球馆",
+        "name:zh": "民治羽毛球馆",
+        "name:zh-Hans": "民治羽毛球馆",
+        "sport": "badminton"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11423215904,
+      "lat": 22.6054818,
+      "lon": 114.0229328,
+      "tags": {
+        "historic": "ruins",
+        "historic:civilization": "modern",
+        "name": "深圳经济特区玉龙路检查站",
+        "name:en": "Shenzhen Economic Special Zone Yulong Rd Checkpoint",
+        "name:zh": "深圳经济特区玉龙路检查站",
+        "name:zh-Hans": "深圳经济特区玉龙路检查站"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11512725157,
+      "lat": 22.6148333,
+      "lon": 114.0397938,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "民治体育公园南",
+        "name:en": "Minzhi Sports Park South",
+        "name:zh": "民治体育公园南",
+        "name:zh-Hans": "民治体育公园南",
+        "public_transport": "platform",
+        "shelter": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11513997911,
+      "lat": 22.6232802,
+      "lon": 114.0181293,
+      "tags": {
+        "amenity": "vending_machine"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11533754493,
+      "lat": 22.6212003,
+      "lon": 114.0358534,
+      "tags": {
+        "amenity": "bank",
+        "name": "深圳农商银行"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11543228558,
+      "lat": 22.6146658,
+      "lon": 114.0252207,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "深圳北站交通枢纽公交场站（二层）",
+        "name:en": "Shenzhen North Station Transportation Hub Bus Terminus",
+        "name:zh": "深圳北站交通枢纽公交场站",
+        "public_transport": "platform",
+        "shelter": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11571651656,
+      "lat": 22.6137096,
+      "lon": 114.0259424,
+      "tags": {
+        "addr:floor": "3",
+        "artwork_type": "sculpture",
+        "level": "2",
+        "tourism": "artwork"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11590958712,
+      "lat": 22.5951729,
+      "lon": 114.0218494,
+      "tags": {
+        "amenity": "bench"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11590972412,
+      "lat": 22.5955623,
+      "lon": 114.0207587,
+      "tags": {
+        "name": "城市商务工作者",
+        "tourism": "artwork"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11590986831,
+      "lat": 22.6033287,
+      "lon": 114.0182368,
+      "tags": {
+        "amenity": "shelter",
+        "shelter_type": "gazebo"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11590986931,
+      "lat": 22.5962929,
+      "lon": 114.0245601,
+      "tags": {
+        "amenity": "bench"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11591000271,
+      "lat": 22.5994033,
+      "lon": 114.02109,
+      "tags": {
+        "name": "礼贤台",
+        "tourism": "attraction",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11591000749,
+      "lat": 22.6051017,
+      "lon": 114.0190101,
+      "tags": {
+        "amenity": "shelter"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11591000779,
+      "lat": 22.5955774,
+      "lon": 114.0210685,
+      "tags": {
+        "name": "志愿者",
+        "tourism": "artwork"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11591000780,
+      "lat": 22.5950127,
+      "lon": 114.0218319,
+      "tags": {
+        "amenity": "bench"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11591007020,
+      "lat": 22.5967668,
+      "lon": 114.0206717,
+      "tags": {
+        "name": "工程师",
+        "tourism": "artwork"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11591007465,
+      "lat": 22.5949565,
+      "lon": 114.0210308,
+      "tags": {
+        "amenity": "shelter",
+        "shelter_type": "gazebo"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11599009348,
+      "lat": 22.6096792,
+      "lon": 114.0171832,
+      "tags": {
+        "amenity": "charging_station",
+        "brand": "NIO Power",
+        "brand:en": "NIO Power",
+        "brand:wikidata": "Q29921278",
+        "name": "蔚来换电站",
+        "name:en": "NIO Power Swap",
+        "name:zh": "蔚来换电站"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11636617251,
+      "lat": 22.6203224,
+      "lon": 114.0357413,
+      "tags": {
+        "name": "民治",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "subway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11636617257,
+      "lat": 22.6085319,
+      "lon": 114.0407935,
+      "tags": {
+        "name": "民新",
+        "old_name": "横岭",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "subway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11636617383,
+      "lat": 22.6085616,
+      "lon": 114.0408467,
+      "tags": {
+        "name": "民新",
+        "old_name": "横岭",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "subway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11636617392,
+      "lat": 22.6203308,
+      "lon": 114.0357676,
+      "tags": {
+        "name": "民治",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "subway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11725080633,
+      "lat": 22.6234551,
+      "lon": 114.0184417,
+      "tags": {
+        "amenity": "vending_machine"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11727901019,
+      "lat": 22.6240077,
+      "lon": 114.0344564,
+      "tags": {
+        "check_date": "2024-03-13",
+        "name": "天天惠",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11782630109,
+      "lat": 22.6205253,
+      "lon": 114.0295771,
+      "tags": {
+        "access": "yes",
+        "amenity": "parking_entrance",
+        "parking": "surface"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11782630110,
+      "lat": 22.6221376,
+      "lon": 114.0312282,
+      "tags": {
+        "access": "yes",
+        "amenity": "parking_entrance",
+        "parking": "surface"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11832423859,
+      "lat": 22.6126858,
+      "lon": 114.024761,
+      "tags": {
+        "name": "深圳北",
+        "name:de": "Shenzhen Nord",
+        "name:en": "Shenzhenbei",
+        "name:zh": "深圳北",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11832423860,
+      "lat": 22.6126365,
+      "lon": 114.0247045,
+      "tags": {
+        "name": "深圳北",
+        "name:de": "Shenzhen Nord",
+        "name:en": "Shenzhenbei",
+        "name:zh": "深圳北",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11832423861,
+      "lat": 22.6125574,
+      "lon": 114.0246139,
+      "tags": {
+        "name": "深圳北",
+        "name:de": "Shenzhen Nord",
+        "name:en": "Shenzhenbei",
+        "name:zh": "深圳北",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11832423862,
+      "lat": 22.6125127,
+      "lon": 114.0245627,
+      "tags": {
+        "name": "深圳北",
+        "name:de": "Shenzhen Nord",
+        "name:en": "Shenzhenbei",
+        "name:zh": "深圳北",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11832423863,
+      "lat": 22.6124222,
+      "lon": 114.0244589,
+      "tags": {
+        "name": "深圳北",
+        "name:de": "Shenzhen Nord",
+        "name:en": "Shenzhenbei",
+        "name:zh": "深圳北",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11832423864,
+      "lat": 22.6123749,
+      "lon": 114.0244048,
+      "tags": {
+        "name": "深圳北",
+        "name:de": "Shenzhen Nord",
+        "name:en": "Shenzhenbei",
+        "name:zh": "深圳北",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11832423865,
+      "lat": 22.612289,
+      "lon": 114.0243064,
+      "tags": {
+        "name": "深圳北",
+        "name:de": "Shenzhen Nord",
+        "name:en": "Shenzhenbei",
+        "name:zh": "深圳北",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11832423866,
+      "lat": 22.6122431,
+      "lon": 114.0242538,
+      "tags": {
+        "name": "深圳北",
+        "name:de": "Shenzhen Nord",
+        "name:en": "Shenzhenbei",
+        "name:zh": "深圳北",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11832423867,
+      "lat": 22.6121542,
+      "lon": 114.0241519,
+      "tags": {
+        "name": "深圳北",
+        "name:de": "Shenzhen Nord",
+        "name:en": "Shenzhenbei",
+        "name:zh": "深圳北",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11832423868,
+      "lat": 22.6121045,
+      "lon": 114.0240949,
+      "tags": {
+        "name": "深圳北",
+        "name:de": "Shenzhen Nord",
+        "name:en": "Shenzhenbei",
+        "name:zh": "深圳北",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11832440169,
+      "lat": 22.6118982,
+      "lon": 114.0238551,
+      "tags": {
+        "name": "深圳北",
+        "name:de": "Shenzhen Nord",
+        "name:en": "Shenzhenbei",
+        "name:zh": "深圳北",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11832440170,
+      "lat": 22.6118572,
+      "lon": 114.0238082,
+      "tags": {
+        "name": "深圳北",
+        "name:de": "Shenzhen Nord",
+        "name:en": "Shenzhenbei",
+        "name:zh": "深圳北",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11832440171,
+      "lat": 22.61177,
+      "lon": 114.0237086,
+      "tags": {
+        "name": "深圳北",
+        "name:de": "Shenzhen Nord",
+        "name:en": "Shenzhenbei",
+        "name:zh": "深圳北",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11832440172,
+      "lat": 22.611721,
+      "lon": 114.0236525,
+      "tags": {
+        "name": "深圳北",
+        "name:de": "Shenzhen Nord",
+        "name:en": "Shenzhenbei",
+        "name:zh": "深圳北",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11832440173,
+      "lat": 22.6116447,
+      "lon": 114.0235654,
+      "tags": {
+        "name": "深圳北",
+        "name:de": "Shenzhen Nord",
+        "name:en": "Shenzhenbei",
+        "name:zh": "深圳北",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11832440174,
+      "lat": 22.6115861,
+      "lon": 114.0234984,
+      "tags": {
+        "name": "深圳北",
+        "name:de": "Shenzhen Nord",
+        "name:en": "Shenzhenbei",
+        "name:zh": "深圳北",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11832440175,
+      "lat": 22.6115062,
+      "lon": 114.023407,
+      "tags": {
+        "name": "深圳北",
+        "name:de": "Shenzhen Nord",
+        "name:en": "Shenzhenbei",
+        "name:zh": "深圳北",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11832440176,
+      "lat": 22.6114497,
+      "lon": 114.0233424,
+      "tags": {
+        "name": "深圳北",
+        "name:de": "Shenzhen Nord",
+        "name:en": "Shenzhenbei",
+        "name:zh": "深圳北",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11919979542,
+      "lat": 22.6210265,
+      "lon": 114.0358453,
+      "tags": {
+        "amenity": "parking_entrance"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11921270289,
+      "lat": 22.6100222,
+      "lon": 114.0368593,
+      "tags": {
+        "amenity": "parking_entrance"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12046094588,
+      "lat": 22.6015418,
+      "lon": 114.0196198,
+      "tags": {
+        "abandoned": "yes",
+        "landuse": "quarry",
+        "name": "东荣石场",
+        "name:en": "Dongrong Quarry",
+        "name:zh": "东荣石场",
+        "name:zh-Hans": "东荣石场"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12050445657,
+      "lat": 22.6232958,
+      "lon": 114.0276557,
+      "tags": {
+        "name": "樟坑北",
+        "old_name": "民宝",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "subway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12050458775,
+      "lat": 22.604798,
+      "lon": 114.036571,
+      "tags": {
+        "name": "白石龙",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "subway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12050458777,
+      "lat": 22.6039853,
+      "lon": 114.0242791,
+      "tags": {
+        "name": "民丰路",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "subway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12050458795,
+      "lat": 22.6093871,
+      "lon": 114.0214501,
+      "tags": {
+        "name": "北站西广场",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "subway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12050459017,
+      "lat": 22.60942,
+      "lon": 114.0215294,
+      "tags": {
+        "name": "北站西广场",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "subway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12050459059,
+      "lat": 22.623286,
+      "lon": 114.0276074,
+      "tags": {
+        "name": "樟坑北",
+        "old_name": "民宝",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "subway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12050459095,
+      "lat": 22.6148164,
+      "lon": 114.0323224,
+      "tags": {
+        "name": "民康",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "subway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12050459096,
+      "lat": 22.61477,
+      "lon": 114.0322565,
+      "tags": {
+        "name": "民康",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "subway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12050459097,
+      "lat": 22.6049294,
+      "lon": 114.0364142,
+      "tags": {
+        "name": "白石龙",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "subway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12050459098,
+      "lat": 22.603988,
+      "lon": 114.0243126,
+      "tags": {
+        "name": "民丰路",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "subway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12086509120,
+      "lat": 22.6045994,
+      "lon": 114.0394505,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "龙泽苑公交首末站 (下客区)",
+        "name:en": "Longzeyuan Bus Terminal (End)",
+        "name:zh": "龙泽苑公交首末站 (下客区)",
+        "public_transport": "platform",
+        "shelter": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12450713179,
+      "lat": 22.6217925,
+      "lon": 114.0401767,
+      "tags": {
+        "access": "yes",
+        "amenity": "toilets",
+        "changing_table": "no",
+        "female": "yes",
+        "male": "yes",
+        "toilets:disposal": "flush"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12451314628,
+      "lat": 22.6081122,
+      "lon": 114.0295673,
+      "tags": {
+        "brand": "全季酒店",
+        "brand:en": "Ji Hotel",
+        "brand:wikidata": "Q116895638",
+        "brand:zh": "全季酒店",
+        "name": "全季酒店",
+        "name:en": "Ji Hotel",
+        "name:zh": "全季酒店",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12519590086,
+      "lat": 22.6137115,
+      "lon": 114.0268564,
+      "tags": {
+        "addr:floor": "2",
+        "amenity": "restaurant",
+        "branch": "缤果店",
+        "brand": "美颐美",
+        "brewery": "no",
+        "check_date": "2025-01-22",
+        "cuisine": "chinese",
+        "level": "1",
+        "name": "美颐美",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12519595093,
+      "lat": 22.6113444,
+      "lon": 114.0212236,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "麦当劳",
+        "brand:en": "McDonald's",
+        "brand:wikidata": "Q38076",
+        "brand:zh": "麦当劳",
+        "check_date": "2025-01-21",
+        "cuisine": "burger",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "麦当劳",
+        "name:en": "McDonald's",
+        "name:zh": "麦当劳",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "takeaway": "yes",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12522174579,
+      "lat": 22.613207,
+      "lon": 114.0259323,
+      "tags": {
+        "addr:floor": "3",
+        "amenity": "bureau_de_change",
+        "check_date": "2025-01-22",
+        "internet_access": "no",
+        "level": "2",
+        "name": "韵汇通",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12676974801,
+      "lat": 22.6159311,
+      "lon": 114.0258708,
+      "tags": {
+        "name:en": "Huidelong International Apartment",
+        "phone": "+8618138204441",
+        "tourism": "apartment"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12761628287,
+      "lat": 22.6082237,
+      "lon": 114.0405308,
+      "tags": {
+        "amenity": "cafe",
+        "cuisine": "coffee_shop",
+        "name": "豆舞咖啡"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12761646414,
+      "lat": 22.6035559,
+      "lon": 114.0388463,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "江猪脚饭"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12761651666,
+      "lat": 22.6098968,
+      "lon": 114.0409489,
+      "tags": {
+        "internet_access": "yes",
+        "name": "万世昌公寓",
+        "name:en": "Wanshi Chang Anshun Express Apartment",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12852380508,
+      "lat": 22.6133792,
+      "lon": 114.0209051,
+      "tags": {
+        "direction": "65",
+        "loc_name": "深圳好吃米餐厅（深圳北店）",
+        "name": "留仙大道铁路观景点",
+        "tourism": "viewpoint"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12964011472,
+      "lat": 22.6053637,
+      "lon": 114.0261514,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "肯德基",
+        "brand:en": "KFC",
+        "brand:wikidata": "Q524757",
+        "brand:zh": "肯德基",
+        "cuisine": "chicken",
+        "name": "肯德基",
+        "name:en": "KFC",
+        "name:zh": "肯德基",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12985097692,
+      "lat": 22.5978056,
+      "lon": 114.0425662,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "民乐公交接驳站 (上客区)",
+        "name:en": "Minle Bus Terminus (Start)",
+        "name:zh": "民乐公交接驳站 (上客区)",
+        "operator": "深圳市交通场站建设发展有限公司",
+        "public_transport": "platform",
+        "shelter": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12985097693,
+      "lat": 22.5972524,
+      "lon": 114.0422127,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "民乐公交接驳站 (下客区)",
+        "name:en": "Minle Bus Terminus (End)",
+        "name:zh": "民乐公交接驳站 (下客区)",
+        "operator": "深圳市交通场站建设发展有限公司",
+        "public_transport": "platform",
+        "shelter": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13254672416,
+      "lat": 22.6000102,
+      "lon": 114.0187339,
+      "tags": {
+        "ele": "286.5",
+        "name": "新嘴塘",
+        "natural": "peak"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13255211538,
+      "lat": 22.6053967,
+      "lon": 114.0409214,
+      "tags": {
+        "amenity": "cafe",
+        "brand": "丘大叔",
+        "brand:en": "UNCLE.Q",
+        "cuisine": "bubble_tea",
+        "name": "丘大叔",
+        "name:en": "UNCLE.Q",
+        "name:zh": "丘大叔",
+        "operator": "广州山丘餐饮管理有限公司",
+        "website": "http://www.qiudashu.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13255211539,
+      "lat": 22.604359,
+      "lon": 114.0418162,
+      "tags": {
+        "amenity": "bank",
+        "brand": "中国农业银行",
+        "brand:en": "Agricultural Bank of China",
+        "brand:wikidata": "Q26298",
+        "brand:zh": "中国农业银行",
+        "name": "中国农业银行",
+        "name:en": "Agricultural Bank of China",
+        "name:zh": "中国农业银行"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13255211540,
+      "lat": 22.6045154,
+      "lon": 114.0422583,
+      "tags": {
+        "brand": "西西弗书店",
+        "brand:en": "Sisyphe Bookstore",
+        "brand:wikidata": "Q15904402",
+        "brand:zh": "西西弗书店",
+        "name": "西西弗书店",
+        "name:en": "Sisyphe Bookstore",
+        "name:zh": "西西弗书店",
+        "shop": "books"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13255211541,
+      "lat": 22.6071351,
+      "lon": 114.0405083,
+      "tags": {
+        "brand": "苏宁易购",
+        "brand:en": "Suning",
+        "brand:wikidata": "Q17066824",
+        "brand:zh": "苏宁易购",
+        "name": "苏宁易购",
+        "name:en": "Suning",
+        "name:zh": "苏宁易购",
+        "shop": "electronics"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13255211542,
+      "lat": 22.6063031,
+      "lon": 114.0417176,
+      "tags": {
+        "amenity": "cinema",
+        "name": "博纳国际影城",
+        "name:zh": "博纳国际影城"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13255211543,
+      "lat": 22.6083446,
+      "lon": 114.0418952,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "麦当劳",
+        "brand:en": "McDonald's",
+        "brand:wikidata": "Q38076",
+        "brand:zh": "麦当劳",
+        "cuisine": "burger",
+        "name": "麦当劳",
+        "name:en": "McDonald's",
+        "name:zh": "麦当劳",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13255754765,
+      "lat": 22.6155872,
+      "lon": 114.0260103,
+      "tags": {
+        "amenity": "bank",
+        "brand": "南洋商业银行",
+        "brand:en": "Nanyang Commercial Bank",
+        "name": "南洋商业银行",
+        "name:en": "Nanyang Commercial Bank",
+        "name:zh": "南洋商业银行",
+        "name:zh-Hant": "南洋商業銀行",
+        "operator": "中国信达资产管理股份有限公司",
+        "wikidata": "Q3335816",
+        "wikipedia": "zh:南洋商業銀行"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13256972246,
+      "lat": 22.6124319,
+      "lon": 114.0403259,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "老碗会·西安面馆",
+        "cuisine": "noodle",
+        "name": "老碗会·西安面馆",
+        "name:en": "LAOWANHUI",
+        "name:zh": "老碗会·西安面馆",
+        "operator": "深圳老碗会餐饮投资管理有限公司",
+        "phone": "+86 400 8786 182",
+        "website": "http://laowanhui.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13256972247,
+      "lat": 22.6123457,
+      "lon": 114.0402687,
+      "tags": {
+        "amenity": "cafe",
+        "brand": "瑞幸咖啡",
+        "brand:en": "Luckin Coffee",
+        "brand:wikidata": "Q56811344",
+        "brand:zh": "瑞幸咖啡",
+        "cuisine": "coffee_shop",
+        "name": "瑞幸咖啡",
+        "name:en": "Luckin Coffee",
+        "name:zh": "瑞幸咖啡",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13256972248,
+      "lat": 22.6129966,
+      "lon": 114.0400528,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "肯德基",
+        "brand:en": "KFC",
+        "brand:wikidata": "Q524757",
+        "brand:zh": "肯德基",
+        "cuisine": "chicken",
+        "name": "肯德基",
+        "name:en": "KFC",
+        "name:zh": "肯德基",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13256972249,
+      "lat": 22.6130354,
+      "lon": 114.0402874,
+      "tags": {
+        "brand": "六福珠宝",
+        "brand:en": "Lukfook Jewellery",
+        "brand:wikidata": "Q10893397",
+        "brand:zh": "六福珠宝",
+        "name": "六福珠宝",
+        "name:en": "Lukfook Jewellery",
+        "name:zh": "六福珠宝",
+        "shop": "jewelry"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13256972250,
+      "lat": 22.6126205,
+      "lon": 114.0404952,
+      "tags": {
+        "brand": "Nike",
+        "brand:wikidata": "Q483915",
+        "name": "Nike",
+        "shop": "clothes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13256972251,
+      "lat": 22.6121278,
+      "lon": 114.0406319,
+      "tags": {
+        "amenity": "bank",
+        "brand": "中国银行",
+        "brand:en": "Bank of China",
+        "brand:wikidata": "Q790068",
+        "brand:zh": "中国银行",
+        "name": "中国银行",
+        "name:en": "Bank of China",
+        "name:zh": "中国银行"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13256972252,
+      "lat": 22.6054023,
+      "lon": 114.0415392,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "老碗会·西安面馆",
+        "cuisine": "noodle",
+        "name": "老碗会·西安面馆",
+        "name:en": "LAOWANHUI",
+        "name:zh": "老碗会·西安面馆",
+        "operator": "深圳老碗会餐饮投资管理有限公司",
+        "phone": "+86 400 8786 182",
+        "website": "http://laowanhui.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13256972253,
+      "lat": 22.6081532,
+      "lon": 114.0404109,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "老碗会·西安面馆",
+        "cuisine": "noodle",
+        "name": "老碗会·西安面馆",
+        "name:en": "LAOWANHUI",
+        "name:zh": "老碗会·西安面馆",
+        "operator": "深圳老碗会餐饮投资管理有限公司",
+        "phone": "+86 400 8786 182",
+        "website": "http://laowanhui.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13256972254,
+      "lat": 22.6065342,
+      "lon": 114.0255517,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "老碗会·西安面馆",
+        "cuisine": "noodle",
+        "name": "老碗会·西安面馆",
+        "name:en": "LAOWANHUI",
+        "name:zh": "老碗会·西安面馆",
+        "operator": "深圳老碗会餐饮投资管理有限公司",
+        "phone": "+86 400 8786 182",
+        "website": "http://laowanhui.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13256972255,
+      "lat": 22.6059294,
+      "lon": 114.0269898,
+      "tags": {
+        "amenity": "cafe",
+        "brand": "蜜雪冰城",
+        "brand:en": "Mixue Ice Cream & Tea",
+        "brand:wikidata": "Q107406476",
+        "brand:zh": "蜜雪冰城",
+        "brand:zh-Latn-pinyin": "Mìxuě Bīngchéng",
+        "cuisine": "ice_cream;bubble_tea",
+        "name": "蜜雪冰城",
+        "name:en": "Mixue Ice Cream & Tea",
+        "name:zh": "蜜雪冰城",
+        "name:zh-Latn-pinyin": "Mìxuě Bīngchéng",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13256972256,
+      "lat": 22.6060656,
+      "lon": 114.0268092,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "面点王",
+        "brand:zh": "面点王",
+        "cuisine": "chinese",
+        "name": "面点王",
+        "name:en": "Mian Dian Wang",
+        "name:zh": "面点王",
+        "name:zh-Hans": "面点王",
+        "name:zh-Hant": "面點王",
+        "operator": "深圳面点王饮食连锁有限公司",
+        "website": "https://www.mdw.com.cn/",
+        "wikidata": "Q15935877",
+        "wikipedia": "zh:面點王"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13256972257,
+      "lat": 22.6060499,
+      "lon": 114.0268512,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "真功夫",
+        "brand:en": "Kungfu",
+        "brand:wikidata": "Q15909765",
+        "brand:zh": "真功夫",
+        "cuisine": "chinese",
+        "name": "真功夫",
+        "name:en": "Kungfu",
+        "name:zh": "真功夫",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13256972258,
+      "lat": 22.61259,
+      "lon": 114.0405816,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "面点王",
+        "brand:zh": "面点王",
+        "cuisine": "chinese",
+        "name": "面点王",
+        "name:en": "Mian Dian Wang",
+        "name:zh": "面点王",
+        "name:zh-Hans": "面点王",
+        "name:zh-Hant": "面點王",
+        "operator": "深圳面点王饮食连锁有限公司",
+        "website": "https://www.mdw.com.cn/",
+        "wikidata": "Q15935877",
+        "wikipedia": "zh:面點王"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13290245311,
+      "lat": 22.619566,
+      "lon": 114.0232915,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "肯德基",
+        "brand:en": "KFC",
+        "brand:wikidata": "Q524757",
+        "brand:zh": "肯德基",
+        "cuisine": "chicken",
+        "name": "肯德基",
+        "name:en": "KFC",
+        "name:zh": "肯德基",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13290245312,
+      "lat": 22.6199988,
+      "lon": 114.0239745,
+      "tags": {
+        "amenity": "cafe",
+        "brand": "瑞幸咖啡",
+        "brand:en": "Luckin Coffee",
+        "brand:wikidata": "Q56811344",
+        "brand:zh": "瑞幸咖啡",
+        "cuisine": "coffee_shop",
+        "name": "瑞幸咖啡",
+        "name:en": "Luckin Coffee",
+        "name:zh": "瑞幸咖啡",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13290245313,
+      "lat": 22.6206269,
+      "lon": 114.0254406,
+      "tags": {
+        "amenity": "cafe",
+        "brand": "瑞幸咖啡",
+        "brand:en": "Luckin Coffee",
+        "brand:wikidata": "Q56811344",
+        "brand:zh": "瑞幸咖啡",
+        "cuisine": "coffee_shop",
+        "name": "瑞幸咖啡",
+        "name:en": "Luckin Coffee",
+        "name:zh": "瑞幸咖啡",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13290245314,
+      "lat": 22.6205754,
+      "lon": 114.0251194,
+      "tags": {
+        "amenity": "bank",
+        "brand": "中国建设银行",
+        "brand:en": "China Construction Bank",
+        "brand:wikidata": "Q26299",
+        "brand:zh": "中国建设银行",
+        "name": "中国建设银行",
+        "name:en": "China Construction Bank",
+        "name:zh": "中国建设银行"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13290245315,
+      "lat": 22.6199577,
+      "lon": 114.025643,
+      "tags": {
+        "amenity": "bank",
+        "brand": "招商银行",
+        "brand:en": "China Merchants Bank",
+        "brand:wikidata": "Q1073327",
+        "brand:zh": "招商银行",
+        "name": "招商银行",
+        "name:en": "China Merchants Bank",
+        "name:zh": "招商银行"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13290245316,
+      "lat": 22.620599,
+      "lon": 114.0266555,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "麦当劳",
+        "brand:en": "McDonald's",
+        "brand:wikidata": "Q38076",
+        "brand:zh": "麦当劳",
+        "cuisine": "burger",
+        "name": "麦当劳",
+        "name:en": "McDonald's",
+        "name:zh": "麦当劳",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13290245321,
+      "lat": 22.6210107,
+      "lon": 114.0353685,
+      "tags": {
+        "amenity": "cafe",
+        "brand": "瑞幸咖啡",
+        "brand:en": "Luckin Coffee",
+        "brand:wikidata": "Q56811344",
+        "brand:zh": "瑞幸咖啡",
+        "cuisine": "coffee_shop",
+        "name": "瑞幸咖啡",
+        "name:en": "Luckin Coffee",
+        "name:zh": "瑞幸咖啡",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13290245322,
+      "lat": 22.6215967,
+      "lon": 114.0352482,
+      "tags": {
+        "amenity": "cafe",
+        "brand": "库迪咖啡",
+        "brand:en": "Cotti Coffee",
+        "brand:wikidata": "Q123370986",
+        "brand:zh": "库迪咖啡",
+        "cuisine": "coffee_shop",
+        "name": "库迪咖啡",
+        "name:en": "Cotti Coffee",
+        "name:zh": "库迪咖啡",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13290245323,
+      "lat": 22.6215481,
+      "lon": 114.0352588,
+      "tags": {
+        "amenity": "cafe",
+        "brand": "古茗",
+        "brand:en": "Good me",
+        "brand:wikidata": "Q101500324",
+        "brand:zh": "古茗",
+        "cuisine": "bubble_tea",
+        "name": "古茗",
+        "name:en": "Good me",
+        "name:zh": "古茗",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13290245324,
+      "lat": 22.6215028,
+      "lon": 114.0352659,
+      "tags": {
+        "amenity": "cafe",
+        "brand": "茶百道",
+        "brand:en": "ChaPanda",
+        "brand:wikidata": "Q108165952",
+        "brand:zh": "茶百道",
+        "cuisine": "bubble_tea",
+        "name": "茶百道",
+        "name:en": "ChaPanda",
+        "name:zh": "茶百道",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13290245325,
+      "lat": 22.621981,
+      "lon": 114.0358078,
+      "tags": {
+        "brand": "美宜佳",
+        "brand:en": "Meiyijia",
+        "brand:wikidata": "Q55719551",
+        "brand:zh": "美宜佳",
+        "name": "美宜佳",
+        "name:en": "Meiyijia",
+        "name:zh": "美宜佳",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13411053233,
+      "lat": 22.6085144,
+      "lon": 114.0214412,
+      "tags": {
+        "amenity": "shelter",
+        "shelter_type": "gazebo"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13411053276,
+      "lat": 22.5944368,
+      "lon": 114.0227236,
+      "tags": {
+        "amenity": "bench"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13411062538,
+      "lat": 22.6055873,
+      "lon": 114.0179801,
+      "tags": {
+        "name": "揽贤台",
+        "tourism": "viewpoint"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13411062799,
+      "lat": 22.6099768,
+      "lon": 114.0200548,
+      "tags": {
+        "amenity": "toilets"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13411845005,
+      "lat": 22.6001254,
+      "lon": 114.0185668,
+      "tags": {
+        "tourism": "viewpoint"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13411845009,
+      "lat": 22.6043341,
+      "lon": 114.0180746,
+      "tags": {
+        "amenity": "vending_machine",
+        "vending": "drinks"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13411845010,
+      "lat": 22.6011302,
+      "lon": 114.0200628,
+      "tags": {
+        "amenity": "vending_machine",
+        "vending": "drinks"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13411845011,
+      "lat": 22.6042941,
+      "lon": 114.0180887,
+      "tags": {
+        "amenity": "toilets"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13411845012,
+      "lat": 22.5961999,
+      "lon": 114.0211666,
+      "tags": {
+        "amenity": "toilets"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13481626887,
+      "lat": 22.6028459,
+      "lon": 114.0156477,
+      "tags": {
+        "historic": "memorial",
+        "inscription": "革命烈士永垂不朽",
+        "material": "granite",
+        "memorial": "war_memorial",
+        "name": "长源社区革命烈士纪念碑",
+        "start_date": "1985"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13942693229,
+      "lat": 22.608039,
+      "lon": 114.0432615,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "深国际万科和颂轩公交首末站 (下客区)",
+        "name:en": "Shenguoji Wanke Hesongxuan Bus Terminal (End)",
+        "name:zh": "深国际万科和颂轩公交首末站 (下客区)",
+        "operator": "深圳市交通场站建设发展有限公司",
+        "public_transport": "platform",
+        "shelter": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13942693230,
+      "lat": 22.6069281,
+      "lon": 114.0433082,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "深国际万科和颂轩公交首末站 (上客区)",
+        "name:en": "Shenguoji Wanke Hesongxuan Bus Terminal (Start)",
+        "name:zh": "深国际万科和颂轩公交首末站 (上客区)",
+        "operator": "深圳市交通场站建设发展有限公司",
+        "public_transport": "platform",
+        "shelter": "yes",
+        "wikipedia": "zh:https://sztrans.fandom.com/wiki/深国际万科和颂轩公交首末站"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13966982181,
+      "lat": 22.6054773,
+      "lon": 114.0260796,
+      "tags": {
+        "air_conditioning": "yes",
+        "amenity": "restaurant",
+        "cuisine": "chinese",
+        "diet:halal": "yes",
+        "diet:vegan": "only",
+        "diet:vegetarian": "only",
+        "indoor_seating": "yes",
+        "name": "静颐茶馆",
+        "outdoor_seating": "roof",
+        "payment:credit_cards": "no",
+        "payment:debit_cards": "no",
+        "smoking": "no",
+        "wheelchair": "yes"
+      }
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "download_time": "2026-06-29T18:56:20.652455",
+  "region": "澳门特别行政区 (全境)",
+  "center_coordinates": {
+    "latitude": 22.1634,
+    "longitude": 113.5629
+  },
+  "download_range": {
+    "north": 22.2184,
+    "south": 22.1084,
+    "east": 113.6179,
+    "west": 113.50789999999999,
+    "expand": 0.055
+  },
+  "alias": "macau_full",
+  "data_categories": [
+    "roads",
+    "buildings",
+    "water",
+    "landuse",
+    "pois",
+    "traffic_signals",
+    "aerodrome",
+    "government",
+    "religious_heritage"
+  ],
+  "statistics": {
+    "roads": {
+      "ways": 16318,
+      "nodes": 84172,
+      "relations": 0,
+      "total_elements": 100490
+    },
+    "buildings": {
+      "ways": 12963,
+      "nodes": 89743,
+      "relations": 0,
+      "total_elements": 102706
+    },
+    "water": {
+      "ways": 281,
+      "nodes": 10770,
+      "relations": 15,
+      "total_elements": 11066
+    },
+    "landuse": {
+      "ways": 2881,
+      "nodes": 42441,
+      "relations": 0,
+      "total_elements": 45322
+    },
+    "pois": {
+      "ways": 0,
+      "nodes": 3444,
+      "relations": 0,
+      "total_elements": 3444
+    },
+    "traffic_signals": {
+      "ways": 0,
+      "nodes": 339,
+      "relations": 0,
+      "total_elements": 339
+    },
+    "aerodrome": {
+      "ways": 10,
+      "nodes": 63,
+      "relations": 0,
+      "total_elements": 73
+    },
+    "government": {
+      "ways": 0,
+      "nodes": 18,
+      "relations": 0,
+      "total_elements": 18
+    },
+    "religious_heritage": {
+      "ways": 53,
+      "nodes": 606,
+      "relations": 0,
+      "total_elements": 659
+    }
+  }
+}

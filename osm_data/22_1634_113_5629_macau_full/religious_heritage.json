@@ -1,0 +1,5713 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-06-29T10:55:00Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 1758263006,
+      "lat": 22.2159386,
+      "lon": 113.5492052,
+      "tags": {
+        "historic": "monument",
+        "name": "關閘 Portas do Cerco",
+        "name:pt": "Portas do Cerco",
+        "name:ru": "Портас-ду-Серку",
+        "name:zh": "關閘",
+        "name:zh-Hans": "关闸",
+        "name:zh-Hant": "關閘",
+        "wikidata": "Q3272047",
+        "wikimedia_commons": "Category:Portas do Cerco",
+        "wikipedia": "zh:關閘"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3100104704,
+      "lat": 22.1571505,
+      "lon": 113.551096,
+      "tags": {
+        "amenity": "place_of_worship",
+        "material": "metal",
+        "name": "四面佛 O Buda de Quatro Faces",
+        "name:en": "Four-Faced Buddha",
+        "name:pt": "O Buda de Quatro Faces",
+        "name:zh": "四面佛",
+        "name:zh-Hans": "四面佛",
+        "name:zh-Hant": "四面佛",
+        "religion": "hindu"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3124646751,
+      "lat": 22.1187266,
+      "lon": 113.5509455,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "三聖宮廟 Templo de Sam Seng Kong",
+        "name:en": "Sam Seng Kong Temple",
+        "name:pt": "Templo de Sam Seng Kong",
+        "name:zh": "三聖宮廟",
+        "name:zh-Hans": "三圣宫庙",
+        "name:zh-Hant": "三聖宮廟"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3261056769,
+      "lat": 22.1997503,
+      "lon": 113.5399068,
+      "tags": {
+        "alt_name": "Morrison Chapel",
+        "alt_name:en": "Morrison Chapel",
+        "amenity": "place_of_worship",
+        "denomination": "protestant",
+        "name": "馬禮遜教堂 Capela Protestante de Macau",
+        "name:en": "Morrison Chapel",
+        "name:pt": "Capela Protestante de Macau",
+        "name:zh": "馬禮遜教堂",
+        "name:zh-Hans": "马礼逊教堂",
+        "name:zh-Hant": "馬禮遜教堂",
+        "religion": "christian",
+        "source": "survey",
+        "wikidata": "Q46074",
+        "wikimedia_commons": "Category:Macau Protestant Chapel",
+        "wikipedia": "en:Macau Protestant Chapel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4072761722,
+      "lat": 22.1260587,
+      "lon": 113.5569328,
+      "tags": {
+        "description:en": "Single-engine CS-ALG Mooney M20E aircraft “Sagres” flown from Lisbon to Macao in 1987 and now preserved on display in Seac Pai Van Park, Coloane.",
+        "historic": "aircraft",
+        "man_made": "aircraft",
+        "name": "Sagres",
+        "start_date": "1987"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4416593989,
+      "lat": 22.1940105,
+      "lon": 113.5393604,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "三街會館 Templo Sam Kai Vui Kun",
+        "name:en": "Sam Kai Vui Kun Temple",
+        "name:pt": "Templo Sam Kai Vui Kun",
+        "name:zh": "三街會館",
+        "name:zh-Hans": "三街会馆",
+        "name:zh-Hant": "三街會館",
+        "wikidata": "Q2200748",
+        "wikimedia_commons": "Category:Sam Kai Vui Kun",
+        "wikipedia": "en:Sam Kai Vui Kun"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4416596892,
+      "lat": 22.1973272,
+      "lon": 113.545366,
+      "tags": {
+        "amenity": "place_of_worship",
+        "check_date": "2023-11-06",
+        "name": "望德聖母堂 Igreja de São Lázaro",
+        "name:en": "St. Lazarus Church",
+        "name:pt": "Igreja de São Lázaro",
+        "name:zh": "望德聖母堂",
+        "name:zh-Hans": "望德圣母堂",
+        "name:zh-Hant": "望德聖母堂",
+        "religion": "christian",
+        "wikidata": "Q3582336",
+        "wikimedia_commons": "Category:Igreja de São Lázaro (Macau)",
+        "wikipedia": "en:St. Lazarus' Church, Macau"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4430518291,
+      "lat": 22.164662,
+      "lon": 113.5641769,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "IGLISIA NI CRSTO",
+        "name:en": "Iglisia Ni Cristo"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4694461592,
+      "lat": 22.1951072,
+      "lon": 113.5429903,
+      "tags": {
+        "addr:housenumber": "41",
+        "addr:street": "伯多祿局長街(白馬行) Rua de Pedro Nolasco da Silva",
+        "amenity": "place_of_worship",
+        "name": "澳門浸信會",
+        "name:en": "Macau Baptist Church",
+        "religion": "christian"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4818967814,
+      "lat": 22.1981205,
+      "lon": 113.5440296,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Evangelize China Fellowship",
+        "name:en": "Evangelize China Fellowship",
+        "religion": "christian",
+        "source": "Kaart Ground Survey 2017"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5035380521,
+      "lat": 22.1976268,
+      "lon": 113.5405347,
+      "tags": {
+        "historic": "citywalls",
+        "name": "舊城牆遺址 Troço das Antigas Muralhas de Defesa",
+        "name:pt": "Troço das Antigas Muralhas de Defesa",
+        "name:zh": "舊城牆遺址",
+        "tourism": "attraction",
+        "wikidata": "Q7963233",
+        "wikimedia_commons": "Category:Section of the Old City Walls of Macau",
+        "wikipedia": "en:Walls of Macau"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5117496072,
+      "lat": 22.1995866,
+      "lon": 113.5424592,
+      "tags": {
+        "artwork_type": "statue",
+        "historic": "memorial",
+        "material": "metal",
+        "name": "孫中山雕像 Estátua de Sun Yat-Sen",
+        "name:en": "Sun Yat-Sen Statue",
+        "name:pt": "Estátua de Sun Yat-Sen",
+        "name:zh": "孫中山雕像",
+        "name:zh-Hans": "孙中山雕像",
+        "name:zh-Hant": "孫中山雕像",
+        "tourism": "artwork"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5256972401,
+      "lat": 22.207303,
+      "lon": 113.540117,
+      "tags": {
+        "alt_name": "海口土地公",
+        "alt_name:zh": "海口土地公",
+        "alt_name:zh-Hans": "海口土地公",
+        "alt_name:zh-Hant": "海口土地公",
+        "amenity": "place_of_worship",
+        "name": "筷子基坊眾永和堂花炮會海口土地公",
+        "name:zh": "筷子基坊眾永和堂花炮會海口土地公",
+        "name:zh-Hans": "筷子基坊众永和堂花炮会海口土地公",
+        "name:zh-Hant": "筷子基坊眾永和堂花炮會海口土地公",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5264142403,
+      "lat": 22.2037849,
+      "lon": 113.5505566,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5692359322,
+      "lat": 22.1936819,
+      "lon": 113.5398859,
+      "tags": {
+        "historic": "memorial",
+        "name": "噴水池 San Ma Lou",
+        "name:en": "San Ma Lou (Putol na simbahan)",
+        "name:zh": "噴水池",
+        "name:zh-Hans": "喷水池",
+        "name:zh-Hant": "噴水池"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6361627599,
+      "lat": 22.2075878,
+      "lon": 113.5348539,
+      "tags": {
+        "historic": "boundary_stone",
+        "inscription": "澳門 MACAU 6B 國務院 Conselho do Estado 2016年 Ano 2016",
+        "name": "广东省-澳門特別行政區界碑（6B）"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7235309825,
+      "lat": 22.1125926,
+      "lon": 113.5550773,
+      "tags": {
+        "historic": "ruins"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7299435185,
+      "lat": 22.1969196,
+      "lon": 113.5475719,
+      "tags": {
+        "amenity": "place_of_worship"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7654791294,
+      "lat": 22.1986899,
+      "lon": 113.548728,
+      "tags": {
+        "historic": "memorial",
+        "material": "stone",
+        "memorial": "war_memorial",
+        "name": "得勝紀念碑 Monumento da Vitória",
+        "name:en": "Victory Monument",
+        "name:pt": "Monumento da Vitória",
+        "name:zh": "得勝紀念碑",
+        "name:zh-Hans": "得胜纪念碑",
+        "name:zh-Hant": "得勝紀念碑"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7668244537,
+      "lat": 22.1964334,
+      "lon": 113.5528479,
+      "tags": {
+        "access": "no",
+        "historic": "monument",
+        "name": "蓮花雕像 Estátua de Lotus",
+        "name:en": "Lotus Statue",
+        "name:pt": "Estátua de Lotus",
+        "name:zh": "蓮花雕像",
+        "name:zh-Hans": "莲花雕像",
+        "name:zh-Hant": "蓮花雕像",
+        "start_date": "1995-06-10"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7671393327,
+      "lat": 22.1967331,
+      "lon": 113.540913,
+      "tags": {
+        "access": "no",
+        "historic": "monument",
+        "name": "男與女 Homens e Mulheres",
+        "name:en": "Men and Women",
+        "name:pt": "Homens e Mulheres",
+        "name:zh": "男與女",
+        "name:zh-Hans": "男与女",
+        "name:zh-Hant": "男與女"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7671526074,
+      "lat": 22.13153,
+      "lon": 113.5629233,
+      "tags": {
+        "historic": "memorial",
+        "name": "聖母像及拜苦路碑 Estátua de Nossa Senhora e placas de Via-Sacra",
+        "name:pt": "Estátua de Nossa Senhora e placas de Via-Sacra",
+        "name:zh": "聖母像及拜苦路碑",
+        "name:zh-Hans": "圣母像及拜苦路碑",
+        "name:zh-Hant": "聖母像及拜苦路碑"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9097161101,
+      "lat": 22.1574754,
+      "lon": 113.553228,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "聖公會澳門聖士提反堂 St. Stephen's Church, Macau",
+        "name:en": "St. Stephen's Church, Macau",
+        "name:zh": "聖公會澳門聖士提反堂",
+        "religion": "christian"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9097245903,
+      "lat": 22.2059337,
+      "lon": 113.5588417,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "聖公會澳門聖保羅堂 St. Paul's Church, Macau",
+        "name:en": "St. Paul's Church, Macau",
+        "name:zh": "聖公會澳門聖保羅堂",
+        "religion": "christian"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9097263228,
+      "lat": 22.1950539,
+      "lon": 113.5442354,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "聖公會澳門聖馬可堂 St. Mark's Church, Macau",
+        "name:en": "St. Mark's Church, Macau",
+        "name:zh": "聖公會澳門聖馬可堂",
+        "religion": "christian"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9908906354,
+      "lat": 22.1170145,
+      "lon": 113.5510265,
+      "tags": {
+        "historic": "memorial",
+        "inscription": "Combates de Coloane, de 12 a 13 de Julho de 1910",
+        "material": "stone",
+        "memorial": "war_memorial",
+        "name": "打海盜紀念碑 Placa Comemorativa da Vitória sobre os Piratas",
+        "name:en": "Memorial Tablet for Victory over Sea Pirates",
+        "name:pt": "Placa Comemorativa da Vitória sobre os Piratas",
+        "name:zh": "打海盜紀念碑"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10211212270,
+      "lat": 22.2060432,
+      "lon": 113.551194,
+      "tags": {
+        "historic": "memorial",
+        "memorial": "plaque"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10706254901,
+      "lat": 22.1984662,
+      "lon": 113.5523777,
+      "tags": {
+        "historic": "ruins",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11162879362,
+      "lat": 22.212454,
+      "lon": 113.5476478,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "福德祠",
+        "name:zh": "福德祠",
+        "name:zh-Hans": "福德祠",
+        "name:zh-Hant": "福德祠"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11162879363,
+      "lat": 22.2120386,
+      "lon": 113.547861,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "蓮環社稷神位"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11162879368,
+      "lat": 22.1954593,
+      "lon": 113.5425951,
+      "tags": {
+        "amenity": "place_of_worship"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11162879371,
+      "lat": 22.1935918,
+      "lon": 113.543237,
+      "tags": {
+        "amenity": "place_of_worship"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11162879372,
+      "lat": 22.193762,
+      "lon": 113.5430127,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "本坊威靈土地財神"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11162879373,
+      "lat": 22.1939065,
+      "lon": 113.5430357,
+      "tags": {
+        "amenity": "place_of_worship"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11162879374,
+      "lat": 22.1940136,
+      "lon": 113.5430923,
+      "tags": {
+        "amenity": "place_of_worship"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11162879375,
+      "lat": 22.1942975,
+      "lon": 113.5428644,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "井泉龍王神"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11166808326,
+      "lat": 22.1879259,
+      "lon": 113.5370856,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "土地公"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11166808327,
+      "lat": 22.1910999,
+      "lon": 113.5365186,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "本坊土地公",
+        "name:zh": "本坊土地公",
+        "name:zh-Hans": "本坊土地公",
+        "name:zh-Hant": "本坊土地公"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11166808328,
+      "lat": 22.1163842,
+      "lon": 113.5523279,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "永安社土地福德神"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11166808329,
+      "lat": 22.2031556,
+      "lon": 113.5432127,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "沙龍社"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11166808330,
+      "lat": 22.1897274,
+      "lon": 113.5355223,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "土地公"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11166808331,
+      "lat": 22.154054,
+      "lon": 113.5585759,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "土地公",
+        "name:zh": "土地公",
+        "name:zh-Hans": "土地公",
+        "name:zh-Hant": "土地公"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11166808332,
+      "lat": 22.214513,
+      "lon": 113.5524473,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "龍母娘娘福德正神",
+        "name:zh": "龍母娘娘福德正神",
+        "name:zh-Hans": "龙母娘娘福德正神",
+        "name:zh-Hant": "龍母娘娘福德正神"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11166808333,
+      "lat": 22.1983836,
+      "lon": 113.5385831,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "永樂社社稷土地神位"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11166808334,
+      "lat": 22.2016652,
+      "lon": 113.5417221,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "城隍行臺"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11166808335,
+      "lat": 22.1915624,
+      "lon": 113.5385987,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "龍新社福德祠"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11166808336,
+      "lat": 22.153125,
+      "lon": 113.5575628,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "鍾秀本坊社稷",
+        "name:zh": "鍾秀本坊社稷",
+        "name:zh-Hans": "钟秀本坊社稷",
+        "name:zh-Hant": "鍾秀本坊社稷"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11166808337,
+      "lat": 22.2039555,
+      "lon": 113.5502251,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "居仁社稷之神"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11166808338,
+      "lat": 22.2039755,
+      "lon": 113.5502437,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "啟明社稷之神"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11166808339,
+      "lat": 22.1999451,
+      "lon": 113.5422984,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "定安社"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11166808342,
+      "lat": 22.2019637,
+      "lon": 113.5401134,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "銀龍社稷土地財神"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11166808343,
+      "lat": 22.1880145,
+      "lon": 113.5346199,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "福德正神"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11166808344,
+      "lat": 22.1316848,
+      "lon": 113.5813441,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "土地公"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11166808345,
+      "lat": 22.1970197,
+      "lon": 113.5396243,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "本坊土地福德正神",
+        "name:zh": "本坊土地福德正神",
+        "name:zh-Hans": "本坊土地福德正神",
+        "name:zh-Hant": "本坊土地福德正神"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11166808346,
+      "lat": 22.1969915,
+      "lon": 113.5389618,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "社稷土地 泰山石敢當神位",
+        "name:zh": "社稷土地 泰山石敢當神位",
+        "name:zh-Hans": "社稷土地 泰山石敢当神位",
+        "name:zh-Hant": "社稷土地 泰山石敢當神位"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11166808347,
+      "lat": 22.1967871,
+      "lon": 113.5394924,
+      "tags": {
+        "amenity": "place_of_worship"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11166808348,
+      "lat": 22.1965807,
+      "lon": 113.540041,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "本街土地",
+        "name:zh": "本街土地",
+        "name:zh-Hans": "本街土地",
+        "name:zh-Hant": "本街土地"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11166808349,
+      "lat": 22.1939118,
+      "lon": 113.5377245,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "本坊土地福德正神位"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11166808350,
+      "lat": 22.1909157,
+      "lon": 113.5384821,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "福德祠"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11166808351,
+      "lat": 22.1161215,
+      "lon": 113.5667793,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "土地廟"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11166808352,
+      "lat": 22.2022239,
+      "lon": 113.5411173,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "包公老爺 城隍老爺"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11166808353,
+      "lat": 22.2009361,
+      "lon": 113.5382568,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "平安社"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11166808354,
+      "lat": 22.1900427,
+      "lon": 113.5342045,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "包相府"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11166808355,
+      "lat": 22.2048746,
+      "lon": 113.5443552,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "天安土地神位",
+        "name:zh": "天安土地神位",
+        "name:zh-Hans": "天安土地神位",
+        "name:zh-Hant": "天安土地神位"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11166808356,
+      "lat": 22.18935,
+      "lon": 113.5338931,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "土地公"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11166808357,
+      "lat": 22.2015526,
+      "lon": 113.5403306,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "迎龍社土地福神位"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11166808358,
+      "lat": 22.2075579,
+      "lon": 113.5424868,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "福德祠",
+        "name:zh": "福德祠",
+        "name:zh-Hans": "福德祠",
+        "name:zh-Hant": "福德祠"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11166808359,
+      "lat": 22.2001068,
+      "lon": 113.5379189,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "土地公"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11166808360,
+      "lat": 22.1584824,
+      "lon": 113.5620341,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "本村土地"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11166808361,
+      "lat": 22.1899244,
+      "lon": 113.5342154,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "旺相本坊土地福德正神"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11166808362,
+      "lat": 22.1957875,
+      "lon": 113.5410851,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "土地公公"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11166808363,
+      "lat": 22.1954749,
+      "lon": 113.5423958,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "福德祠"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11166808364,
+      "lat": 22.1901264,
+      "lon": 113.5334838,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "土地福德財神",
+        "name:zh": "土地福德財神",
+        "name:zh-Hans": "土地福德财神",
+        "name:zh-Hant": "土地福德財神"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11166808365,
+      "lat": 22.190338,
+      "lon": 113.533984,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "本街土地爺爺"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11166808366,
+      "lat": 22.1880498,
+      "lon": 113.5372857,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "定福社稷和本坊土地社稷福德之神"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11166808367,
+      "lat": 22.2089165,
+      "lon": 113.5510456,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "黑沙環區社稷之神"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11166808368,
+      "lat": 22.1900965,
+      "lon": 113.5358505,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "福德祠"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11166808369,
+      "lat": 22.1951938,
+      "lon": 113.5421339,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "永安坊土地財神"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11166808370,
+      "lat": 22.1993243,
+      "lon": 113.5407369,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "福德祠"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11166808371,
+      "lat": 22.2140057,
+      "lon": 113.5455117,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "蓮花村本坊土地社稷福神"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11166808372,
+      "lat": 22.1951164,
+      "lon": 113.5409666,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "本圍土地福德正神",
+        "name:zh": "本圍土地福德正神",
+        "name:zh-Hans": "本围土地福德正神",
+        "name:zh-Hant": "本圍土地福德正神"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11166808373,
+      "lat": 22.1929586,
+      "lon": 113.5362699,
+      "tags": {
+        "amenity": "place_of_worship"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11166808374,
+      "lat": 22.1947464,
+      "lon": 113.5414926,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "德香社",
+        "name:zh": "德香社",
+        "name:zh-Hans": "德香社",
+        "name:zh-Hant": "德香社"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11166808375,
+      "lat": 22.1941408,
+      "lon": 113.5383737,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "宏隆坊 本坊社稷土地之神",
+        "name:zh": "宏隆坊 本坊社稷土地之神",
+        "name:zh-Hans": "宏隆坊 本坊社稷土地之神",
+        "name:zh-Hant": "宏隆坊 本坊社稷土地之神"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11166808376,
+      "lat": 22.1953315,
+      "lon": 113.5391877,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "旺丁社",
+        "name:zh": "旺丁社",
+        "name:zh-Hans": "旺丁社",
+        "name:zh-Hant": "旺丁社"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11166808377,
+      "lat": 22.1960687,
+      "lon": 113.5397977,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "福德祠",
+        "name:zh": "福德祠",
+        "name:zh-Hans": "福德祠",
+        "name:zh-Hant": "福德祠"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11166808378,
+      "lat": 22.2019451,
+      "lon": 113.5390635,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "土地公"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11166808379,
+      "lat": 22.1971263,
+      "lon": 113.5386321,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "埠寧社稷之神",
+        "name:zh": "埠寧社稷之神",
+        "name:zh-Hans": "埠宁社稷之神",
+        "name:zh-Hant": "埠寧社稷之神"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11166808380,
+      "lat": 22.1162951,
+      "lon": 113.551484,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "本境社官水仙尊王"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11166808381,
+      "lat": 22.2122855,
+      "lon": 113.5440877,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "啟德星君爺爺"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11166808382,
+      "lat": 22.1930786,
+      "lon": 113.5378393,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "福德祠"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11166808383,
+      "lat": 22.1894812,
+      "lon": 113.5332862,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "本坊土地福德正神"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11556479359,
+      "lat": 22.152649,
+      "lon": 113.5565156,
+      "tags": {
+        "amenity": "place_of_worship"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11556479360,
+      "lat": 22.15311,
+      "lon": 113.5567347,
+      "tags": {
+        "amenity": "place_of_worship"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11846087226,
+      "lat": 22.2001748,
+      "lon": 113.5384218,
+      "tags": {
+        "amenity": "place_of_worship"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11953665243,
+      "lat": 22.206681,
+      "lon": 113.5569258,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "廣華土地公",
+        "name:zh": "廣華土地公"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12723729907,
+      "lat": 22.1962537,
+      "lon": 113.5465721,
+      "tags": {
+        "historic": "memorial"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12846316167,
+      "lat": 22.2061034,
+      "lon": 113.5476451,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "城隍廟 Templo do Chan Vong",
+        "name:pt": "Templo do Chan Vong",
+        "name:zh": "城隍廟",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13476218938,
+      "lat": 22.2166961,
+      "lon": 113.5494444,
+      "tags": {
+        "historic": "boundary_stone",
+        "inscription": "广东 GUANG DONG/澳門 MACAU 2 国务院/國務院 Conselho do Estado 2016年 Ano 2016",
+        "material": "stone",
+        "name": "广东省-澳門特別行政區界碑（2）"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13476218939,
+      "lat": 22.2169701,
+      "lon": 113.5443597,
+      "tags": {
+        "historic": "boundary_stone",
+        "inscription": "广东 4 国务院 2020年",
+        "name": "广东省-澳門特別行政區界碑（4）"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13478833336,
+      "lat": 22.1797521,
+      "lon": 113.5371382,
+      "tags": {
+        "historic": "memorial",
+        "source": "survey"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13645880217,
+      "lat": 22.1989978,
+      "lon": 113.5392827,
+      "tags": {
+        "historic": "wayside_cross",
+        "material": "stone",
+        "religion": "christian"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13645904271,
+      "lat": 22.1870172,
+      "lon": 113.5352472,
+      "tags": {
+        "historic": "wayside_cross",
+        "material": "stone"
+      }
+    },
+    {
+      "type": "way",
+      "id": 192187333,
+      "nodes": [
+        2027585526,
+        12497573434,
+        12497573451,
+        12497573435,
+        11084343989,
+        12497573436,
+        7650128623,
+        2027585490,
+        2027585491,
+        7650128619,
+        2027585503,
+        12497573458,
+        2168716983,
+        2027585523,
+        2027585531,
+        2027585526
+      ],
+      "tags": {
+        "alt_name": "媽祖廟",
+        "alt_name:zh": "媽祖廟",
+        "alt_name:zh-Hans": "妈祖庙",
+        "alt_name:zh-Hant": "媽祖廟",
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "height": "8.2",
+        "name": "媽閣廟 Templo de A-Ma",
+        "name:en": "A-Ma Temple",
+        "name:ko": "아마 사원",
+        "name:pt": "Templo de A-Má",
+        "name:th": "วัดอาม่า เปิด 7-18.00",
+        "name:zh": "媽閣廟",
+        "name:zh-Hans": "妈阁庙",
+        "name:zh-Hant": "媽閣廟",
+        "religion": "buddhist",
+        "tourism": "attraction",
+        "wikidata": "Q2149114",
+        "wikimedia_commons": "Category:A-Ma Temple",
+        "wikipedia": "en:A-Ma Temple"
+      }
+    },
+    {
+      "type": "way",
+      "id": 192573688,
+      "nodes": [
+        2031208665,
+        2031208667,
+        7406282872,
+        7406282862,
+        6745834114,
+        6745834115,
+        6745834116,
+        2157626606,
+        6745834118,
+        6745834119,
+        2031208663,
+        2031208659,
+        7711297722,
+        7711297721,
+        7711297723,
+        7711297720,
+        7711297719,
+        7711297718,
+        7711297717,
+        2031208665
+      ],
+      "tags": {
+        "addr:city": "澳門",
+        "addr:country": "MO",
+        "addr:street": "板樟堂前地 Largo de S. Domingos",
+        "alt_name:zh": "板樟堂",
+        "alt_name_1": "舊聖道明會院",
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "denomination": "catholic",
+        "height": "17.9",
+        "is_in:country": "China",
+        "is_in:country_code": "CN",
+        "is_in:iso_3166_2": "CN-92",
+        "is_in:province": "Macau Special Administrative Region",
+        "is_in:province_code": "CN-MO",
+        "name": "玫瑰聖母堂",
+        "name:en": "St. Dominic's Church",
+        "name:es": "Iglesia de Santo Domingo",
+        "name:it": "Chiesa di San Domenico",
+        "name:ja": "聖ドミニコ教会",
+        "name:ja-Hira": "せいどみにこきょうかい",
+        "name:ko": "성 도미니크 성당",
+        "name:pt": "Igreja de São Domingos",
+        "name:sv": "Igreja de São Domingos",
+        "name:th": "วัดเจ้าแม่กวนอิม",
+        "name:zh": "玫瑰聖母堂",
+        "official_name:pt": "Igreja do Convento dos Dominicanos de Nossa Senhora do Rosário",
+        "religion": "christian",
+        "source": "Bing",
+        "wikidata": "Q4130614",
+        "wikimedia_commons": "Category:Igreja de São Domingos (Macau)",
+        "wikipedia": "zh:玫瑰堂 (澳門)",
+        "wikipedia:en": "St. Dominic's Church, Macau"
+      }
+    },
+    {
+      "type": "way",
+      "id": 206105309,
+      "nodes": [
+        2161059492,
+        7319681142,
+        7319681144,
+        7319681138,
+        2161059458,
+        7264110169,
+        7319730692,
+        2161059434,
+        7319730694,
+        11556479325,
+        2161059461,
+        2161059492
+      ],
+      "tags": {
+        "addr:housenumber": "S/N",
+        "addr:street": "嘉妹前地 Largo Camões",
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "height": "10.1",
+        "name": "北帝廟 Templo Pak Tai",
+        "name:en": "Pak Tai Temple",
+        "name:pt": "Templo de Pak Tai",
+        "name:zh": "北帝廟",
+        "religion": "taoist",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "type": "way",
+      "id": 229191940,
+      "nodes": [
+        2378160384,
+        2697520648,
+        2378160382,
+        7264029608,
+        7264029607,
+        2378160314,
+        2378160264,
+        7264029603,
+        7264029604,
+        7264029605,
+        7264029606,
+        5166422880,
+        2378160384
+      ],
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "媽祖文化村 Aldeia Cultural de A-Ma",
+        "name:en": "A-Ma Cultural Village",
+        "name:pt": "Aldeia Cultural de A-Ma de Coloane",
+        "name:zh": "媽祖文化村",
+        "religion": "taoist",
+        "wikidata": "Q123035683",
+        "wikimedia_commons": "Category:Aldeia Cultural de A-Má",
+        "wikipedia": "zh:澳門媽祖文化村"
+      }
+    },
+    {
+      "type": "way",
+      "id": 229205163,
+      "nodes": [
+        2378279692,
+        2378279619,
+        12701717978,
+        12701717979,
+        2378279662,
+        2378279728,
+        2378279635,
+        2378279663,
+        2378279621,
+        12701717984,
+        12701717980,
+        2378279727,
+        2378279680,
+        2378279649,
+        2378279692
+      ],
+      "tags": {
+        "addr:city": "Coloane",
+        "addr:district": "Macao",
+        "addr:housenumber": "748-790",
+        "addr:postcode": "999078",
+        "addr:street": "竹灣馬路 Estrada de Cheoc Van",
+        "amenity": "place_of_worship",
+        "denomination": "catholic",
+        "height": "56.2",
+        "name": "竹灣聖若瑟靜院",
+        "name:en": "Vila São José",
+        "religion": "christian"
+      }
+    },
+    {
+      "type": "way",
+      "id": 229290411,
+      "nodes": [
+        2379102219,
+        2379102864,
+        2379101474,
+        2379101526,
+        2379101766,
+        2379102758,
+        2379102094,
+        2379102845,
+        2379102219
+      ],
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "building:levels": "1",
+        "denomination": "catholic",
+        "height": "27.5",
+        "name": "九澳七苦聖母小堂 Igreja de Nossa Senhora das Dores",
+        "name:en": "Church of Our Lady of Sorrows",
+        "name:pt": "Igreja de Nossa Senhora das Dores",
+        "name:zh": "九澳七苦聖母小堂",
+        "religion": "christian",
+        "wikidata": "Q10300450",
+        "wikipedia": "pt:Igreja de Nossa Senhora das Dores (Macau)"
+      }
+    },
+    {
+      "type": "way",
+      "id": 230576209,
+      "nodes": [
+        2390671484,
+        2390671479,
+        2390671476,
+        2390671473,
+        2390671477,
+        9621171300,
+        9621171301,
+        9621171302,
+        9621171303,
+        2390671486,
+        2390671484
+      ],
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "denomination": "catholic",
+        "name": "聖母雪地殿教堂 Capela de Nossa Senhora da Guia",
+        "name:en": "Chapel of Guia",
+        "name:pt": "Capela de Nossa Senhora da Guia",
+        "name:zh": "聖母雪地殿教堂",
+        "name:zh-Hans": "圣母雪地殿教堂",
+        "name:zh-Hant": "聖母雪地殿教堂",
+        "religion": "christian",
+        "start_date": "1622",
+        "wikidata": "Q6730067",
+        "wikimedia_commons": "Category:Capela de Nossa Senhora da Guia",
+        "wikipedia": "zh:聖母雪地殿"
+      }
+    },
+    {
+      "type": "way",
+      "id": 265429440,
+      "nodes": [
+        2710985274,
+        2710985279,
+        2710985287,
+        12153027395,
+        12153027394,
+        2710985293,
+        2710985297,
+        2710985301,
+        2710985305,
+        2710985308,
+        12153057403,
+        2710985311,
+        12153057402,
+        12153057401,
+        12153027400,
+        12153027399,
+        12153027398,
+        12153027397,
+        12153027396,
+        2710985315,
+        2710985274
+      ],
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "普濟禪院 (觀音堂) Templo Kun Iam",
+        "name:en": "Kun-Iam Temple",
+        "name:pt": "Templo Kun Iam",
+        "name:zh": "普濟禪院 (觀音堂)",
+        "short_name": "觀音堂",
+        "wikidata": "Q281550",
+        "wikimedia_commons": "Category:Kun Iam Temple",
+        "wikipedia": "zh:普濟禪院"
+      }
+    },
+    {
+      "type": "way",
+      "id": 265436724,
+      "nodes": [
+        2711056992,
+        2711056993,
+        2711056994,
+        2711056995,
+        2711056996,
+        2711056997,
+        2711057017,
+        2711057019,
+        5262115789,
+        2711056992
+      ],
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "height": "39.7",
+        "religion": "christian"
+      }
+    },
+    {
+      "type": "way",
+      "id": 279952093,
+      "nodes": [
+        9663396845,
+        9663396846,
+        2841329779,
+        9663396847,
+        2841329777,
+        2841329776,
+        2841329775,
+        2841329774,
+        9663396838,
+        9663396837,
+        9663396836,
+        9663396835,
+        9663396834,
+        2841329773,
+        9663396833,
+        2841329771,
+        2841329767,
+        2841329766,
+        2841329763,
+        2841329762,
+        2841329765,
+        2841329764,
+        2841329768,
+        9663396844,
+        9663396843,
+        9663396842,
+        2841329769,
+        9663396841,
+        9663396840,
+        9663396839,
+        2841329770,
+        2841329772,
+        9663396845
+      ],
+      "tags": {
+        "addr:street": "風順堂街 Rua de S. Lourenço",
+        "alt_name": "風順堂",
+        "alt_name:zh": "風順堂",
+        "alt_name:zh-Hans": "风顺堂",
+        "alt_name:zh-Hant": "風順堂",
+        "amenity": "place_of_worship",
+        "building": "church",
+        "denomination": "catholic",
+        "height": "40.5",
+        "name": "聖老楞佐堂 Igreja de S. Lourenço",
+        "name:en": "St. Lawrence Church",
+        "name:pt": "Igreja de São Lourenço",
+        "name:zh": "聖老楞佐堂",
+        "name:zh-Hans": "圣老楞佐堂",
+        "name:zh-Hant": "聖老楞佐堂",
+        "religion": "christian",
+        "website": "http://www.stlawrencechurchmacau.com/",
+        "wikidata": "Q3271236",
+        "wikimedia_commons": "Category:Igreja de São Lourenço (Macau)",
+        "wikipedia": "zh:聖老楞佐堂 (澳門)"
+      }
+    },
+    {
+      "type": "way",
+      "id": 319660135,
+      "nodes": [
+        3261056761,
+        3261056762,
+        3261056763,
+        3261056764,
+        3261056761
+      ],
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "denomination": "protestant",
+        "name": "馬禮遜教堂 Capela Protestante de Macau",
+        "name:en": "Morrison Chapel",
+        "name:pt": "Capela Protestante de Macau",
+        "name:zh": "馬禮遜教堂",
+        "name:zh-Hans": "马礼逊教堂",
+        "name:zh-Hant": "馬禮遜教堂",
+        "religion": "christian",
+        "source": "Bing, Feb/2011;survey",
+        "wikidata": "Q46074",
+        "wikimedia_commons": "Category:Macau Protestant Chapel",
+        "wikipedia": "en:Macau Protestant Chapel"
+      }
+    },
+    {
+      "type": "way",
+      "id": 319660137,
+      "nodes": [
+        3261056770,
+        7164357130,
+        7164357133,
+        7164357132,
+        7164357131,
+        3261056771,
+        3261056772,
+        3261056773,
+        7164357146,
+        3261056774,
+        3261056775,
+        7164357139,
+        3261056776,
+        5285547945,
+        7164357138,
+        7164357137,
+        7164357136,
+        7164357135,
+        7164357134,
+        3261056777,
+        3261056770
+      ],
+      "tags": {
+        "alt_name": "花王堂",
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "denomination": "catholic",
+        "height": "23.3",
+        "name": "聖安多尼堂 (花王堂) Igreja de Santo António",
+        "name:en": "St. Anthony's Church",
+        "name:pt": "Igreja de Santo António",
+        "name:zh": "聖安多尼堂",
+        "religion": "christian",
+        "source": "Bing, Feb/2011",
+        "wikidata": "Q6730196",
+        "wikimedia_commons": "Category:Igreja de Santo António (Macau)",
+        "wikipedia": "zh:聖安多尼堂 (澳門)"
+      }
+    },
+    {
+      "type": "way",
+      "id": 322228650,
+      "nodes": [
+        3290013631,
+        3290013630,
+        3290013626,
+        6727058351,
+        6727058346,
+        3290013628,
+        3290013631
+      ],
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "三婆廟 Templo de Sam Po",
+        "name:en": "Sam Po Temple",
+        "name:pt": "Templo de Sam Po",
+        "name:zh": "三婆廟",
+        "religion": "buddhist",
+        "tourism": "attraction",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "way",
+      "id": 322228684,
+      "nodes": [
+        3290013608,
+        3290013609,
+        6513492895,
+        3290013607,
+        3290013606,
+        3290013608
+      ],
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "觀音堂",
+        "name:zh": "觀音堂",
+        "name:zh-Hans": "观音堂",
+        "name:zh-Hant": "觀音堂",
+        "religion": "buddhist",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "type": "way",
+      "id": 322228685,
+      "nodes": [
+        3290013614,
+        3290013612,
+        3290013611,
+        7474105018,
+        6513492931,
+        3290013613,
+        3290013614
+      ],
+      "tags": {
+        "alt_name": "嘉善堂",
+        "alt_name:zh": "嘉善堂",
+        "alt_name:zh-Hans": "嘉善堂",
+        "alt_name:zh-Hant": "嘉善堂",
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "醫靈廟 Templo de I Leng",
+        "name:pt": "Templo de I Leng",
+        "name:zh": "醫靈廟",
+        "name:zh-Hans": "医灵庙",
+        "name:zh-Hant": "醫靈廟",
+        "religion": "buddhist",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "type": "way",
+      "id": 322228686,
+      "nodes": [
+        3290014297,
+        3290014281,
+        3290014269,
+        3290014264,
+        3290014262,
+        3290014275,
+        3290014297
+      ],
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "height": "10.1",
+        "loc_name": "天后廟",
+        "name": "關帝廟 Templo de Kuan Tai",
+        "name:pt": "Templo de Kuan Tai",
+        "name:zh": "關帝廟",
+        "name:zh-Hans": "关帝庙",
+        "religion": "buddhist",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "type": "way",
+      "id": 330368426,
+      "nodes": [
+        3373310064,
+        3373310065,
+        3373310066,
+        6750641545,
+        3373310067,
+        6750641544,
+        6750641543,
+        12460507391,
+        6750641542,
+        6750641541,
+        6159078133,
+        6750641540,
+        6750641539,
+        3373310064
+      ],
+      "tags": {
+        "alt_name": "大堂",
+        "alt_name_1": "聖母聖誕堂",
+        "amenity": "place_of_worship",
+        "building": "church",
+        "denomination": "catholic",
+        "name": "主教座堂 (大堂/聖母誕辰主教座堂) Igreja da Sé (Sé Catedral da Natividade de Nossa Senhora)",
+        "name:en": "Sé Cathedral (Cathedral of the Nativity of Our Lady)",
+        "name:pt": "Igreja da Sé (Sé Catedral da Natividade de Nossa Senhora)",
+        "name:zh": "澳門主教座堂(聖母誕辰主教座堂)",
+        "religion": "christian",
+        "wikidata": "Q1106554",
+        "wikimedia_commons": "Category:Cathedral of the Nativity of Our Lady of Macau",
+        "wikipedia": "zh:聖母誕辰主教座堂"
+      }
+    },
+    {
+      "type": "way",
+      "id": 333975736,
+      "nodes": [
+        3410466845,
+        3410466843,
+        3410466834,
+        3410466839,
+        3410466845
+      ],
+      "tags": {
+        "addr:street": "天后廟前地 Largo Tin Hau Miu",
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "height": "13.8",
+        "name": "天后古廟 Templo de Tin Hau",
+        "name:en": "Tin Hau Temple",
+        "name:pt": "Templo de Tin Hau",
+        "name:zh": "天后古廟",
+        "religion": "taoist"
+      }
+    },
+    {
+      "type": "way",
+      "id": 389129453,
+      "nodes": [
+        3120533972,
+        3922921453,
+        7781344869,
+        3922921454,
+        3922921455,
+        7781344865,
+        7781344866,
+        7781344867,
+        7781344868,
+        3922921456,
+        3922921557,
+        7685211598,
+        7685211601,
+        3922921558,
+        3120533971,
+        3120533972
+      ],
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "church",
+        "height": "39.2",
+        "name": "聖奧斯定教堂 Igreja de Santo Agostinho",
+        "name:en": "St. Augustine's Church",
+        "name:pt": "Igreja de Santo Agostinho",
+        "name:zh": "聖奧斯定教堂",
+        "name:zh-Hans": "圣奥斯定教堂",
+        "name:zh-Hant": "聖奧斯定教堂",
+        "religion": "christian",
+        "wikidata": "Q4587786",
+        "wikimedia_commons": "Category:Igreja de Santo Agostinho (Macau)",
+        "wikipedia": "zh:聖奧斯定堂"
+      }
+    },
+    {
+      "type": "way",
+      "id": 427220571,
+      "nodes": [
+        4264613389,
+        7117307239,
+        7117307240,
+        7117307241,
+        7117307242,
+        4264613390,
+        7117307243,
+        7117307244,
+        7117307238,
+        7117307237,
+        7117307236,
+        7117307235,
+        4264613391,
+        4264613392,
+        4264613389
+      ],
+      "tags": {
+        "addr:housenumber": "250-306",
+        "addr:street": "李寶椿街 Rua de Lei Pou Ch'ôn",
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "花地瑪聖母堂 Paróquia de Fátima Macau",
+        "name:en": "Our Lady of Fatima Church Macau",
+        "name:pt": "Paróquia de Fátima Macau",
+        "name:zh": "花地瑪聖母堂",
+        "religion": "christian",
+        "wikidata": "Q22101553",
+        "wikimedia_commons": "Category:Our Lady of Fátima Church (Macau)",
+        "wikipedia": "en:Our Lady of Fátima Church, Macau"
+      }
+    },
+    {
+      "type": "way",
+      "id": 461192545,
+      "nodes": [
+        4567317798,
+        4567317799,
+        6221608316,
+        6221608315,
+        4567317800,
+        6221608328,
+        6710367615,
+        6221608287,
+        6710367616,
+        13484634547,
+        6221608288,
+        6710367635,
+        4567317802,
+        7629838485,
+        6221607071,
+        4567317804,
+        13484634557,
+        4567317805,
+        4567317798
+      ],
+      "tags": {
+        "addr:housenumber": "56",
+        "addr:street": "連勝馬路 Estrada de Coelho do Amaral",
+        "amenity": "place_of_worship",
+        "name": "竹林寺",
+        "name:en": "Zhulin Temple",
+        "name:zh": "竹林寺"
+      }
+    },
+    {
+      "type": "way",
+      "id": 461365084,
+      "nodes": [
+        4568716820,
+        4568716821,
+        4568716822,
+        4568716823,
+        4568716820
+      ],
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "loc_name": "觀音仔",
+        "name": "觀音古廟",
+        "name:zh": "觀音古廟",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "type": "way",
+      "id": 490954721,
+      "nodes": [
+        4831188207,
+        4831188208,
+        4831188213,
+        4831188218,
+        5259635030,
+        6980242769,
+        6980242770,
+        4831188207
+      ],
+      "tags": {
+        "addr:housenumber": "10-12",
+        "addr:street": "高士德大馬路 Avenida de Horta e Costa",
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "height": "21.1",
+        "name": "二龍喉浸信會 Igreja Baptista Ye Lung Hau",
+        "name:en": "Ye Lung Hau Baptist Church",
+        "name:zh": "二龍喉浸信會",
+        "religion": "christian",
+        "source": "Kaart Ground Survey 2017"
+      }
+    },
+    {
+      "type": "way",
+      "id": 503082489,
+      "nodes": [
+        4934273082,
+        4934273083,
+        4934273084,
+        4934273085,
+        4934273082
+      ],
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "福德祠",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "type": "way",
+      "id": 542809864,
+      "nodes": [
+        5247615266,
+        5247615267,
+        6378466817,
+        6378466818,
+        6378466819,
+        5247615268,
+        5247615269,
+        5247615266
+      ],
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "天后宮 Templo de Tin Hau",
+        "name:en": "Tin Hau Temple",
+        "name:pt": "Templo de Tin Hau",
+        "name:zh": "天后宮",
+        "religion": "taoist"
+      }
+    },
+    {
+      "type": "way",
+      "id": 544062672,
+      "nodes": [
+        5259238579,
+        13003562026,
+        13003562024,
+        5259238580,
+        5259238585,
+        5259238581,
+        13003562023,
+        13003562025,
+        5259238582,
+        5259238579
+      ],
+      "tags": {
+        "addr:housenumber": "4-6A",
+        "addr:street": "巴士度街 Rua de António Basto",
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "height": "22.5",
+        "name": "澳門佛學社 Escola Budista Macau",
+        "name:pt": "Escola Budista Macau",
+        "name:zh": "澳門佛學社"
+      }
+    },
+    {
+      "type": "way",
+      "id": 544082912,
+      "nodes": [
+        5259437710,
+        5259437711,
+        5259437712,
+        5259437713,
+        5259437710
+      ],
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "height": "9.2",
+        "name": "天后廟"
+      }
+    },
+    {
+      "type": "way",
+      "id": 544093058,
+      "nodes": [
+        5257827976,
+        12185350816,
+        3811303808,
+        12185350817,
+        5259522909,
+        5259522910,
+        5257827975,
+        5257827976
+      ],
+      "tags": {
+        "addr:housenumber": "4",
+        "addr:street": "雅廉訪大馬路 Avenida do Ouvidor Arriaga",
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "菩提堂",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "type": "way",
+      "id": 544331876,
+      "nodes": [
+        5261993705,
+        5261993706,
+        5261993707,
+        5261993708,
+        11948071123,
+        5261993705
+      ],
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "觀音廟（九澳）Templo de Kun Iam (Ká-Hó)",
+        "name:pt": "Templo de Kun Iam (Ká-Hó)",
+        "name:zh": "觀音廟（九澳）",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "type": "way",
+      "id": 544343368,
+      "nodes": [
+        5262107350,
+        5262107351,
+        5262107352,
+        5262107353,
+        5262107350
+      ],
+      "tags": {
+        "addr:housenumber": "30",
+        "addr:street": "得勝馬路 Estrada da Vitória",
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "height": "33.1",
+        "name": "善牧會 Sisters of The Good Shepherd",
+        "name:en": "Sisters of The Good Shepherd",
+        "name:zh": "善牧會",
+        "name:zh-Hans": "善牧会",
+        "name:zh-Hant": "善牧會"
+      }
+    },
+    {
+      "type": "way",
+      "id": 544588485,
+      "nodes": [
+        5264142404,
+        5264142405,
+        5264142407,
+        7434528861,
+        5264142406,
+        5264142404
+      ],
+      "tags": {
+        "addr:housenumber": "2L-2M",
+        "addr:street": "美副將大馬路 Avenida do Coronel Mesquita",
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "height": "14.6",
+        "name": "康真君廟, 望廈坊眾互助會 Associação de Mútuo Auxílio dos Moradores de Mong-Há",
+        "name:zh": "康真君廟, 望廈坊眾互助會"
+      }
+    },
+    {
+      "type": "way",
+      "id": 655138584,
+      "nodes": [
+        6138508132,
+        6138508133,
+        8979643737,
+        8979643739,
+        8979643740,
+        8979643738,
+        6138508134,
+        6138508135,
+        6138508132
+      ],
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "大三巴哪吒廟 Templo de Na Tcha, junto às Ruínas de S. Paulo",
+        "name:en": "Na Tcha Temple",
+        "name:ja": "ナーチャ廟",
+        "name:ko": "나차 사원",
+        "name:pt": "Templo de Na Tcha, junto às Ruínas de S. Paulo",
+        "name:zh": "大三巴哪吒廟",
+        "religion": "buddhist",
+        "wikidata": "Q709079",
+        "wikipedia": "en:Na Tcha Temple"
+      }
+    },
+    {
+      "type": "way",
+      "id": 655240802,
+      "nodes": [
+        6139352520,
+        6139352525,
+        6139352524,
+        6139352521,
+        6139352561,
+        6139352523,
+        6139352526,
+        6139352522,
+        6139352520
+      ],
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "主教山教堂 Ermida da Penha",
+        "name:en": "Penha Church",
+        "name:pt": "Ermida da Penha",
+        "name:zh": "主教山教堂",
+        "name:zh-Hans": "主教山教堂",
+        "name:zh-Hant": "主教山教堂",
+        "religion": "christian"
+      }
+    },
+    {
+      "type": "way",
+      "id": 659329439,
+      "nodes": [
+        6173046332,
+        6173046337,
+        6173046333,
+        6173046334,
+        6173046335,
+        6173046332
+      ],
+      "tags": {
+        "addr:housenumber": "116",
+        "addr:street": "草堆街 Rua das Estalagens",
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "height": "12.4",
+        "name": "悅城龍母 (女媧廟) Yui Seng Lonh Mou",
+        "name:en": "Yui Seng Lonh Mou",
+        "name:zh": "悅城龍母 (女媧廟)",
+        "name:zh-Hans": "悦城龙母 (女娲庙)",
+        "name:zh-Hant": "悅城龍母 (女媧廟)"
+      }
+    },
+    {
+      "type": "way",
+      "id": 659929154,
+      "nodes": [
+        3945185727,
+        6178648138,
+        3945185725,
+        11950059491,
+        6178648139,
+        3945185727
+      ],
+      "tags": {
+        "addr:street": "計單奴巷 Travessa do Caetano",
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "觀音古廟 Templo Kun lam",
+        "name:en": "Kun lam Temple",
+        "name:pt": "Templo Kun lam",
+        "name:zh": "觀音古廟",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "type": "way",
+      "id": 664699722,
+      "nodes": [
+        6221743752,
+        6221743753,
+        6221743754,
+        6221743755,
+        6221744096,
+        6221743752
+      ],
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "先鋒廟 Templo de Pioneiro",
+        "name:en": "Pioneer Temple",
+        "name:pt": "Pagode Sin Fong",
+        "name:zh": "先鋒廟",
+        "religion": "taoist"
+      }
+    },
+    {
+      "type": "way",
+      "id": 673644890,
+      "nodes": [
+        6308554880,
+        6308554881,
+        6308554882,
+        6308554883,
+        6308554880
+      ],
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "福和社"
+      }
+    },
+    {
+      "type": "way",
+      "id": 679973157,
+      "nodes": [
+        6366737326,
+        6366737327,
+        6366737328,
+        6366737329,
+        6366737330,
+        6366737331,
+        6366737332,
+        6366737333,
+        6366737334,
+        6366737335,
+        6366737353,
+        6366737352,
+        6366737336,
+        6366737337,
+        6366737338,
+        6366737339,
+        6366737340,
+        6366737341,
+        6366737342,
+        6366737343,
+        6366737344,
+        6366737345,
+        6366737346,
+        6366737347,
+        6366737348,
+        6383417747,
+        6366737349,
+        12159523275,
+        6383417746,
+        6366737354,
+        6366737358,
+        6366737357,
+        6366737356,
+        6366737355,
+        6366737350,
+        6366737351,
+        6366737326
+      ],
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "菩提園 Templo de Pou Tai Un",
+        "name:pt": "Templo de Pou Tai Un",
+        "name:zh": "菩提園",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "type": "way",
+      "id": 680830775,
+      "nodes": [
+        6375226299,
+        6375226300,
+        6375226301,
+        6375226302,
+        6375226303,
+        6375226304,
+        6375226305,
+        6375226306,
+        6375226299
+      ],
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "height": "7.5",
+        "name": "譚僊聖廟 (譚公廟) Templo de Tam Kong",
+        "name:en": "Tam Kong Tample",
+        "name:pt": "Templo de Tam Kong",
+        "name:zh": "譚僊聖廟 (譚公廟)",
+        "religion": "taoist"
+      }
+    },
+    {
+      "type": "way",
+      "id": 681663121,
+      "nodes": [
+        6383772559,
+        6383772560,
+        6383772563,
+        6383772578,
+        6383772561,
+        6383773411,
+        6383773414,
+        6383773413,
+        6383773412,
+        6383773415,
+        6383773420,
+        6383773419,
+        6383773418,
+        6383773417,
+        6383773416,
+        6383772562,
+        6383772559
+      ],
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "觀音岩 Pequeno Templo de Kun Iam",
+        "name:en": "Kun Iam Small Temple",
+        "name:pt": "Pequeno Templo de Kun Iam",
+        "name:ru": "Малый Храм Гун Ям",
+        "name:zh": "觀音岩",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "type": "way",
+      "id": 693561337,
+      "nodes": [
+        6511536821,
+        7674183646,
+        6511536822,
+        6511536823,
+        6511536824,
+        6511536825,
+        6511536826,
+        6511536821
+      ],
+      "tags": {
+        "addr:housenumber": "15",
+        "addr:street": "老饕巷 Travessa de Sancho Pança",
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "哪咤古廟"
+      }
+    },
+    {
+      "type": "way",
+      "id": 702056328,
+      "nodes": [
+        6592981432,
+        6592981433,
+        6592981434,
+        6592981438,
+        6592981439,
+        6592981441,
+        6592981440,
+        6592981432
+      ],
+      "tags": {
+        "addr:housenumber": "71-73",
+        "addr:street": "大興街 Rua de João de Araújo",
+        "air_conditioning": "yes",
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "denomination": "protestant",
+        "height": "9.9",
+        "image": "https://macauccc.org/uploads/ueditor/image/20230427/1682592352487413.jpeg",
+        "mobile": "+853 2830 0224",
+        "name": "新橋宣道堂",
+        "name:zh": "新橋宣道堂",
+        "name:zh-Hans": "新桥宣道堂",
+        "name:zh-Hant": "新橋宣道堂",
+        "religion": "christian",
+        "source": "local knowledge;https://macauccc.org",
+        "website": "https://macauccc.org"
+      }
+    },
+    {
+      "type": "way",
+      "id": 704605667,
+      "nodes": [
+        6617013734,
+        6617013738,
+        6617013735,
+        6617013736,
+        6617013734
+      ],
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "height": "25.8",
+        "name": "南山廟,包公廟,醫靈廟",
+        "name:en": "Pao Kong Temple",
+        "name:zh": "南山廟,包公廟,醫靈廟",
+        "name:zh-Hans": "南山庙,包公庙,医灵庙",
+        "name:zh-Hant": "南山廟,包公廟,醫靈廟",
+        "religion": "taoist",
+        "wikidata": "Q123644483"
+      }
+    },
+    {
+      "type": "way",
+      "id": 704605668,
+      "nodes": [
+        6617013737,
+        6617013735,
+        6617013738,
+        6617013739,
+        6617013740,
+        6617013741,
+        6617013737
+      ],
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "height": "20.4",
+        "name": "呂祖仙院 Templos de Loi Tsou",
+        "name:pt": "Templos de Loi Tsou",
+        "name:zh": "呂祖仙院",
+        "name:zh-Hans": "吕祖仙院",
+        "name:zh-Hant": "呂祖仙院",
+        "religion": "taoist"
+      }
+    },
+    {
+      "type": "way",
+      "id": 718157866,
+      "nodes": [
+        6744328466,
+        6744328476,
+        6744328467,
+        6744328468,
+        6744328469,
+        6744328466
+      ],
+      "tags": {
+        "addr:housenumber": "6-8",
+        "addr:street": "福慶街 Rua da Figueira",
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "黃曹二仙廟 Templo de Vong Chow Yi Sin",
+        "name:en": "Vong Chow Yi Sin Temple",
+        "name:pt": "Templo de Vong Chow Yi Sin",
+        "name:zh": "黃曹二仙廟",
+        "name:zh-Hans": "黄曹二仙庙",
+        "name:zh-Hant": "黃曹二仙廟",
+        "religion": "taoist"
+      }
+    },
+    {
+      "type": "way",
+      "id": 740768095,
+      "nodes": [
+        6935371848,
+        6935371849,
+        6935371850,
+        6935371851,
+        6935371852,
+        6935371853,
+        6935371848
+      ],
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "雀仔園福德祠 Templo Foc Tac Chi do Bairro da Horta da Mitra",
+        "name:pt": "Templo Foc Tac Chi do Bairro da Horta da Mitra",
+        "name:zh": "雀仔園福德祠",
+        "religion": "taoist"
+      }
+    },
+    {
+      "type": "way",
+      "id": 778305617,
+      "nodes": [
+        7264029613,
+        7264029614,
+        7264029640,
+        7264029615,
+        7264029616,
+        7264029613
+      ],
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "天后宮 Palácio de Tin Hau",
+        "name:en": "Tin Hau Temple",
+        "name:pt": "Palácio de Tin Hau",
+        "name:zh": "天后宮",
+        "religion": "taoist"
+      }
+    },
+    {
+      "type": "way",
+      "id": 823695024,
+      "nodes": [
+        7690509219,
+        7690509214,
+        7690509235,
+        7690509205,
+        7690509215,
+        7690509206,
+        7690509208,
+        7690509209,
+        7690509210,
+        7690509230,
+        7690509229,
+        7690509228,
+        7690509211,
+        7690509212,
+        7690509226,
+        7690509227,
+        7690509232,
+        7690509224,
+        7690509233,
+        7690509222,
+        7690509225,
+        7690509217,
+        7690509223,
+        7690509221,
+        7690509220,
+        7690509218,
+        7690509219
+      ],
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "沙梨頭土地廟 Templo de Tou Tei",
+        "name:en": "Tou Tei Temple",
+        "name:pt": "Templo de Tou Tei",
+        "name:zh": "沙梨頭土地廟",
+        "name:zh-Hans": "沙梨头土地庙",
+        "name:zh-Hant": "沙梨頭土地廟",
+        "religion": "buddhist",
+        "wikidata": "Q24834773",
+        "wikimedia_commons": "Category:Tou Tei Temple (Patane)",
+        "wikipedia": "zh:沙梨頭土地廟"
+      }
+    },
+    {
+      "type": "way",
+      "id": 824733411,
+      "nodes": [
+        7700978439,
+        7700978446,
+        7700978440,
+        7700978441,
+        7700978442,
+        7700978417,
+        7700978443,
+        7700978444,
+        7700978445,
+        7700978439
+      ],
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "蓮峰廟 Templo Lin Fung",
+        "name:pt": "Templo Lin Fung",
+        "name:zh": "蓮峰廟",
+        "name:zh-Hans": "莲峰庙",
+        "name:zh-Hant": "蓮峰廟"
+      }
+    },
+    {
+      "type": "way",
+      "id": 933439833,
+      "nodes": [
+        8652193786,
+        8652193787,
+        8652193788,
+        8652193789,
+        8652193786
+      ],
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "religion": "muslim"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1288411741,
+      "nodes": [
+        11948101435,
+        11948101436,
+        11948101437,
+        11948101438,
+        11948101440,
+        11948101435
+      ],
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "三聖廟 Templo de Sam Seng",
+        "name:pt": "Templo de Sam Seng",
+        "name:zh": "三聖廟",
+        "religion": "taoist"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1288411745,
+      "nodes": [
+        11948101456,
+        11948101457,
+        11948101458,
+        11948101459,
+        11948101456
+      ],
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "大王廟 Templo de Tai Wong",
+        "name:en": "Tai Wong Temple",
+        "name:pt": "Templo de Tai Wong",
+        "name:zh": "大王廟"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1350844552,
+      "nodes": [
+        12497573439,
+        12497573440,
+        12497573457,
+        12497573441,
+        12497573445,
+        12497573439
+      ],
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3410466834,
+      "lat": 22.1151334,
+      "lon": 113.5518641
+    },
+    {
+      "type": "node",
+      "id": 6375226299,
+      "lat": 22.1142175,
+      "lon": 113.549978
+    },
+    {
+      "type": "node",
+      "id": 6375226300,
+      "lat": 22.1142724,
+      "lon": 113.5501721
+    },
+    {
+      "type": "node",
+      "id": 6375226301,
+      "lat": 22.1142268,
+      "lon": 113.5501871
+    },
+    {
+      "type": "node",
+      "id": 6375226302,
+      "lat": 22.1142127,
+      "lon": 113.5501375
+    },
+    {
+      "type": "node",
+      "id": 6375226303,
+      "lat": 22.1141217,
+      "lon": 113.5501675
+    },
+    {
+      "type": "node",
+      "id": 6375226304,
+      "lat": 22.1140958,
+      "lon": 113.550076
+    },
+    {
+      "type": "node",
+      "id": 6375226305,
+      "lat": 22.1141904,
+      "lon": 113.5500448
+    },
+    {
+      "type": "node",
+      "id": 6375226306,
+      "lat": 22.1141754,
+      "lon": 113.5499919
+    },
+    {
+      "type": "node",
+      "id": 3410466839,
+      "lat": 22.1152389,
+      "lon": 113.551726
+    },
+    {
+      "type": "node",
+      "id": 3410466843,
+      "lat": 22.1153136,
+      "lon": 113.5520246
+    },
+    {
+      "type": "node",
+      "id": 3410466845,
+      "lat": 22.1154191,
+      "lon": 113.5518865
+    },
+    {
+      "type": "node",
+      "id": 3945185725,
+      "lat": 22.1161702,
+      "lon": 113.551251
+    },
+    {
+      "type": "node",
+      "id": 3945185727,
+      "lat": 22.1161617,
+      "lon": 113.5513408
+    },
+    {
+      "type": "node",
+      "id": 6178648138,
+      "lat": 22.1161362,
+      "lon": 113.5513271
+    },
+    {
+      "type": "node",
+      "id": 6178648139,
+      "lat": 22.1161953,
+      "lon": 113.5512687
+    },
+    {
+      "type": "node",
+      "id": 11950059491,
+      "lat": 22.1161807,
+      "lon": 113.5512584
+    },
+    {
+      "type": "node",
+      "id": 2378279619,
+      "lat": 22.1133896,
+      "lon": 113.5626661
+    },
+    {
+      "type": "node",
+      "id": 2378279621,
+      "lat": 22.1129595,
+      "lon": 113.5632452
+    },
+    {
+      "type": "node",
+      "id": 2378279635,
+      "lat": 22.1128948,
+      "lon": 113.5633289
+    },
+    {
+      "type": "node",
+      "id": 2378279649,
+      "lat": 22.1128902,
+      "lon": 113.5627241
+    },
+    {
+      "type": "node",
+      "id": 2378279662,
+      "lat": 22.1131451,
+      "lon": 113.5627701
+    },
+    {
+      "type": "node",
+      "id": 2378279663,
+      "lat": 22.1128989,
+      "lon": 113.5632448
+    },
+    {
+      "type": "node",
+      "id": 2378279680,
+      "lat": 22.1128901,
+      "lon": 113.5627603
+    },
+    {
+      "type": "node",
+      "id": 2378279692,
+      "lat": 22.1132369,
+      "lon": 113.5625754
+    },
+    {
+      "type": "node",
+      "id": 2378279727,
+      "lat": 22.1129774,
+      "lon": 113.5627307
+    },
+    {
+      "type": "node",
+      "id": 2378279728,
+      "lat": 22.1131136,
+      "lon": 113.5633012
+    },
+    {
+      "type": "node",
+      "id": 12701717978,
+      "lat": 22.1133633,
+      "lon": 113.5627095
+    },
+    {
+      "type": "node",
+      "id": 12701717979,
+      "lat": 22.1133312,
+      "lon": 113.5626956
+    },
+    {
+      "type": "node",
+      "id": 12701717980,
+      "lat": 22.1129919,
+      "lon": 113.562731
+    },
+    {
+      "type": "node",
+      "id": 12701717984,
+      "lat": 22.1129598,
+      "lon": 113.56324
+    },
+    {
+      "type": "node",
+      "id": 11948101456,
+      "lat": 22.1198719,
+      "lon": 113.567558
+    },
+    {
+      "type": "node",
+      "id": 11948101457,
+      "lat": 22.1198175,
+      "lon": 113.5675979
+    },
+    {
+      "type": "node",
+      "id": 11948101458,
+      "lat": 22.1197911,
+      "lon": 113.5675681
+    },
+    {
+      "type": "node",
+      "id": 11948101459,
+      "lat": 22.1198479,
+      "lon": 113.5675229
+    },
+    {
+      "type": "node",
+      "id": 2378160264,
+      "lat": 22.1234379,
+      "lon": 113.5623746
+    },
+    {
+      "type": "node",
+      "id": 2378160314,
+      "lat": 22.1230448,
+      "lon": 113.5621099
+    },
+    {
+      "type": "node",
+      "id": 2378160382,
+      "lat": 22.1224067,
+      "lon": 113.563143
+    },
+    {
+      "type": "node",
+      "id": 2378160384,
+      "lat": 22.1228989,
+      "lon": 113.5634131
+    },
+    {
+      "type": "node",
+      "id": 2697520648,
+      "lat": 22.1226485,
+      "lon": 113.5632792
+    },
+    {
+      "type": "node",
+      "id": 5166422880,
+      "lat": 22.1229573,
+      "lon": 113.5633097
+    },
+    {
+      "type": "node",
+      "id": 7264029603,
+      "lat": 22.1232845,
+      "lon": 113.5626549
+    },
+    {
+      "type": "node",
+      "id": 7264029604,
+      "lat": 22.1233035,
+      "lon": 113.562806
+    },
+    {
+      "type": "node",
+      "id": 7264029605,
+      "lat": 22.1230299,
+      "lon": 113.5633054
+    },
+    {
+      "type": "node",
+      "id": 7264029606,
+      "lat": 22.122975,
+      "lon": 113.563272
+    },
+    {
+      "type": "node",
+      "id": 7264029607,
+      "lat": 22.1225302,
+      "lon": 113.563034
+    },
+    {
+      "type": "node",
+      "id": 7264029608,
+      "lat": 22.122478,
+      "lon": 113.5630039
+    },
+    {
+      "type": "node",
+      "id": 7264029613,
+      "lat": 22.1231777,
+      "lon": 113.5626277
+    },
+    {
+      "type": "node",
+      "id": 7264029614,
+      "lat": 22.123057,
+      "lon": 113.5628478
+    },
+    {
+      "type": "node",
+      "id": 7264029615,
+      "lat": 22.1228225,
+      "lon": 113.5626979
+    },
+    {
+      "type": "node",
+      "id": 7264029616,
+      "lat": 22.1229433,
+      "lon": 113.5624778
+    },
+    {
+      "type": "node",
+      "id": 7264029640,
+      "lat": 22.12294,
+      "lon": 113.5627699
+    },
+    {
+      "type": "node",
+      "id": 5261993705,
+      "lat": 22.1310956,
+      "lon": 113.5818556
+    },
+    {
+      "type": "node",
+      "id": 5261993706,
+      "lat": 22.1310589,
+      "lon": 113.5819061
+    },
+    {
+      "type": "node",
+      "id": 5261993707,
+      "lat": 22.1310912,
+      "lon": 113.5819335
+    },
+    {
+      "type": "node",
+      "id": 5261993708,
+      "lat": 22.1311279,
+      "lon": 113.5818829
+    },
+    {
+      "type": "node",
+      "id": 11948071123,
+      "lat": 22.1311052,
+      "lon": 113.5818637
+    },
+    {
+      "type": "node",
+      "id": 11948101435,
+      "lat": 22.1349034,
+      "lon": 113.5816477
+    },
+    {
+      "type": "node",
+      "id": 11948101436,
+      "lat": 22.1348524,
+      "lon": 113.5817136
+    },
+    {
+      "type": "node",
+      "id": 11948101437,
+      "lat": 22.1348118,
+      "lon": 113.5816771
+    },
+    {
+      "type": "node",
+      "id": 11948101438,
+      "lat": 22.1348628,
+      "lon": 113.5816111
+    },
+    {
+      "type": "node",
+      "id": 11948101440,
+      "lat": 22.1348798,
+      "lon": 113.5816264
+    },
+    {
+      "type": "node",
+      "id": 2379101474,
+      "lat": 22.1324961,
+      "lon": 113.5893873
+    },
+    {
+      "type": "node",
+      "id": 2379101526,
+      "lat": 22.1325414,
+      "lon": 113.5894113
+    },
+    {
+      "type": "node",
+      "id": 2379101766,
+      "lat": 22.1325,
+      "lon": 113.5895026
+    },
+    {
+      "type": "node",
+      "id": 2379102094,
+      "lat": 22.1324299,
+      "lon": 113.5893652
+    },
+    {
+      "type": "node",
+      "id": 2379102219,
+      "lat": 22.1324632,
+      "lon": 113.5891379
+    },
+    {
+      "type": "node",
+      "id": 2379102758,
+      "lat": 22.1323932,
+      "lon": 113.5894462
+    },
+    {
+      "type": "node",
+      "id": 2379102845,
+      "lat": 22.1323736,
+      "lon": 113.5893354
+    },
+    {
+      "type": "node",
+      "id": 2379102864,
+      "lat": 22.132581,
+      "lon": 113.5892002
+    },
+    {
+      "type": "node",
+      "id": 2161059434,
+      "lat": 22.1525751,
+      "lon": 113.5556929
+    },
+    {
+      "type": "node",
+      "id": 2161059458,
+      "lat": 22.152652,
+      "lon": 113.5557798
+    },
+    {
+      "type": "node",
+      "id": 2161059461,
+      "lat": 22.1526732,
+      "lon": 113.5555832
+    },
+    {
+      "type": "node",
+      "id": 2161059492,
+      "lat": 22.1527559,
+      "lon": 113.5556615
+    },
+    {
+      "type": "node",
+      "id": 3290013606,
+      "lat": 22.1532303,
+      "lon": 113.5577918
+    },
+    {
+      "type": "node",
+      "id": 3290013607,
+      "lat": 22.1532481,
+      "lon": 113.5578248
+    },
+    {
+      "type": "node",
+      "id": 3290013608,
+      "lat": 22.1533147,
+      "lon": 113.5577336
+    },
+    {
+      "type": "node",
+      "id": 3290013609,
+      "lat": 22.1533347,
+      "lon": 113.5577679
+    },
+    {
+      "type": "node",
+      "id": 3290013611,
+      "lat": 22.1538385,
+      "lon": 113.5586402
+    },
+    {
+      "type": "node",
+      "id": 3290013612,
+      "lat": 22.153886,
+      "lon": 113.558673
+    },
+    {
+      "type": "node",
+      "id": 3290013613,
+      "lat": 22.1539097,
+      "lon": 113.55852
+    },
+    {
+      "type": "node",
+      "id": 3290013614,
+      "lat": 22.1539572,
+      "lon": 113.5585528
+    },
+    {
+      "type": "node",
+      "id": 5247615266,
+      "lat": 22.1522651,
+      "lon": 113.5556179
+    },
+    {
+      "type": "node",
+      "id": 5247615267,
+      "lat": 22.152111,
+      "lon": 113.5557037
+    },
+    {
+      "type": "node",
+      "id": 5247615268,
+      "lat": 22.1521739,
+      "lon": 113.5558858
+    },
+    {
+      "type": "node",
+      "id": 5247615269,
+      "lat": 22.1523467,
+      "lon": 113.5558019
+    },
+    {
+      "type": "node",
+      "id": 6378466817,
+      "lat": 22.152145,
+      "lon": 113.5557736
+    },
+    {
+      "type": "node",
+      "id": 6378466818,
+      "lat": 22.1521161,
+      "lon": 113.5557903
+    },
+    {
+      "type": "node",
+      "id": 6378466819,
+      "lat": 22.1521082,
+      "lon": 113.5558514
+    },
+    {
+      "type": "node",
+      "id": 6513492895,
+      "lat": 22.1532763,
+      "lon": 113.5578077
+    },
+    {
+      "type": "node",
+      "id": 6513492931,
+      "lat": 22.1538617,
+      "lon": 113.558601
+    },
+    {
+      "type": "node",
+      "id": 7264110169,
+      "lat": 22.1526146,
+      "lon": 113.5557433
+    },
+    {
+      "type": "node",
+      "id": 7319681138,
+      "lat": 22.1526906,
+      "lon": 113.5557375
+    },
+    {
+      "type": "node",
+      "id": 7319681142,
+      "lat": 22.1527414,
+      "lon": 113.5556781
+    },
+    {
+      "type": "node",
+      "id": 7319681144,
+      "lat": 22.152716,
+      "lon": 113.5557085
+    },
+    {
+      "type": "node",
+      "id": 7319730692,
+      "lat": 22.1525842,
+      "lon": 113.5557077
+    },
+    {
+      "type": "node",
+      "id": 7319730694,
+      "lat": 22.1525948,
+      "lon": 113.5556708
+    },
+    {
+      "type": "node",
+      "id": 7474105018,
+      "lat": 22.1538454,
+      "lon": 113.5586286
+    },
+    {
+      "type": "node",
+      "id": 11556479325,
+      "lat": 22.1526345,
+      "lon": 113.5556264
+    },
+    {
+      "type": "node",
+      "id": 6366737337,
+      "lat": 22.1608145,
+      "lon": 113.5522043
+    },
+    {
+      "type": "node",
+      "id": 6366737338,
+      "lat": 22.1607909,
+      "lon": 113.5522164
+    },
+    {
+      "type": "node",
+      "id": 6366737339,
+      "lat": 22.1607599,
+      "lon": 113.5522204
+    },
+    {
+      "type": "node",
+      "id": 6366737340,
+      "lat": 22.1607338,
+      "lon": 113.5522164
+    },
+    {
+      "type": "node",
+      "id": 6366737341,
+      "lat": 22.1607139,
+      "lon": 113.5522043
+    },
+    {
+      "type": "node",
+      "id": 6366737342,
+      "lat": 22.1606891,
+      "lon": 113.5521695
+    },
+    {
+      "type": "node",
+      "id": 6366737343,
+      "lat": 22.1606568,
+      "lon": 113.5521198
+    },
+    {
+      "type": "node",
+      "id": 6366737344,
+      "lat": 22.1605984,
+      "lon": 113.552038
+    },
+    {
+      "type": "node",
+      "id": 6366737345,
+      "lat": 22.1605438,
+      "lon": 113.5519629
+    },
+    {
+      "type": "node",
+      "id": 6366737346,
+      "lat": 22.1603885,
+      "lon": 113.5517805
+    },
+    {
+      "type": "node",
+      "id": 6366737347,
+      "lat": 22.1606551,
+      "lon": 113.5515172
+    },
+    {
+      "type": "node",
+      "id": 6366737348,
+      "lat": 22.1607304,
+      "lon": 113.5516044
+    },
+    {
+      "type": "node",
+      "id": 6366737349,
+      "lat": 22.1608328,
+      "lon": 113.5515043
+    },
+    {
+      "type": "node",
+      "id": 6383417747,
+      "lat": 22.1607993,
+      "lon": 113.5515266
+    },
+    {
+      "type": "node",
+      "id": 3290013626,
+      "lat": 22.1554876,
+      "lon": 113.5594564
+    },
+    {
+      "type": "node",
+      "id": 3290013628,
+      "lat": 22.1555106,
+      "lon": 113.5593828
+    },
+    {
+      "type": "node",
+      "id": 3290013630,
+      "lat": 22.1555602,
+      "lon": 113.5594861
+    },
+    {
+      "type": "node",
+      "id": 3290013631,
+      "lat": 22.1555858,
+      "lon": 113.5594126
+    },
+    {
+      "type": "node",
+      "id": 6727058346,
+      "lat": 22.1555073,
+      "lon": 113.5593934
+    },
+    {
+      "type": "node",
+      "id": 6727058351,
+      "lat": 22.1554908,
+      "lon": 113.5594462
+    },
+    {
+      "type": "node",
+      "id": 6366737326,
+      "lat": 22.1615014,
+      "lon": 113.5512361
+    },
+    {
+      "type": "node",
+      "id": 6366737327,
+      "lat": 22.1618864,
+      "lon": 113.5515137
+    },
+    {
+      "type": "node",
+      "id": 6366737328,
+      "lat": 22.1618442,
+      "lon": 113.5516062
+    },
+    {
+      "type": "node",
+      "id": 6366737329,
+      "lat": 22.1618293,
+      "lon": 113.5516236
+    },
+    {
+      "type": "node",
+      "id": 6366737330,
+      "lat": 22.1618057,
+      "lon": 113.5516357
+    },
+    {
+      "type": "node",
+      "id": 6366737331,
+      "lat": 22.1617721,
+      "lon": 113.5516451
+    },
+    {
+      "type": "node",
+      "id": 6366737332,
+      "lat": 22.1617311,
+      "lon": 113.551637
+    },
+    {
+      "type": "node",
+      "id": 6366737333,
+      "lat": 22.1616616,
+      "lon": 113.5516263
+    },
+    {
+      "type": "node",
+      "id": 6366737334,
+      "lat": 22.1616206,
+      "lon": 113.551625
+    },
+    {
+      "type": "node",
+      "id": 6366737335,
+      "lat": 22.1615523,
+      "lon": 113.5516437
+    },
+    {
+      "type": "node",
+      "id": 6366737336,
+      "lat": 22.1613585,
+      "lon": 113.5517537
+    },
+    {
+      "type": "node",
+      "id": 6366737350,
+      "lat": 22.16138,
+      "lon": 113.5512827
+    },
+    {
+      "type": "node",
+      "id": 6366737351,
+      "lat": 22.1614324,
+      "lon": 113.5513329
+    },
+    {
+      "type": "node",
+      "id": 6366737352,
+      "lat": 22.1614579,
+      "lon": 113.551684
+    },
+    {
+      "type": "node",
+      "id": 6366737353,
+      "lat": 22.1615088,
+      "lon": 113.5516558
+    },
+    {
+      "type": "node",
+      "id": 6366737354,
+      "lat": 22.1611446,
+      "lon": 113.5513841
+    },
+    {
+      "type": "node",
+      "id": 6366737355,
+      "lat": 22.1612623,
+      "lon": 113.5513334
+    },
+    {
+      "type": "node",
+      "id": 6366737356,
+      "lat": 22.161237,
+      "lon": 113.5513365
+    },
+    {
+      "type": "node",
+      "id": 6366737357,
+      "lat": 22.1612358,
+      "lon": 113.5513508
+    },
+    {
+      "type": "node",
+      "id": 6366737358,
+      "lat": 22.1611637,
+      "lon": 113.5513705
+    },
+    {
+      "type": "node",
+      "id": 6383417746,
+      "lat": 22.1610557,
+      "lon": 113.5514185
+    },
+    {
+      "type": "node",
+      "id": 12159523275,
+      "lat": 22.1610298,
+      "lon": 113.5514284
+    },
+    {
+      "type": "node",
+      "id": 3290014262,
+      "lat": 22.1619309,
+      "lon": 113.5585611
+    },
+    {
+      "type": "node",
+      "id": 3290014264,
+      "lat": 22.1619562,
+      "lon": 113.5585831
+    },
+    {
+      "type": "node",
+      "id": 3290014269,
+      "lat": 22.1619807,
+      "lon": 113.5585504
+    },
+    {
+      "type": "node",
+      "id": 3290014275,
+      "lat": 22.1620156,
+      "lon": 113.5584479
+    },
+    {
+      "type": "node",
+      "id": 3290014281,
+      "lat": 22.1620301,
+      "lon": 113.5585935
+    },
+    {
+      "type": "node",
+      "id": 3290014297,
+      "lat": 22.1620902,
+      "lon": 113.558513
+    },
+    {
+      "type": "node",
+      "id": 6383772559,
+      "lat": 22.1645109,
+      "lon": 113.5559331
+    },
+    {
+      "type": "node",
+      "id": 6383772560,
+      "lat": 22.1642563,
+      "lon": 113.5558714
+    },
+    {
+      "type": "node",
+      "id": 6383772561,
+      "lat": 22.1641606,
+      "lon": 113.5560873
+    },
+    {
+      "type": "node",
+      "id": 6383772562,
+      "lat": 22.1645216,
+      "lon": 113.5561257
+    },
+    {
+      "type": "node",
+      "id": 6383772563,
+      "lat": 22.1642314,
+      "lon": 113.5560062
+    },
+    {
+      "type": "node",
+      "id": 6383772578,
+      "lat": 22.1641632,
+      "lon": 113.556062
+    },
+    {
+      "type": "node",
+      "id": 6383773411,
+      "lat": 22.1642274,
+      "lon": 113.5560638
+    },
+    {
+      "type": "node",
+      "id": 6383773412,
+      "lat": 22.1643373,
+      "lon": 113.556097
+    },
+    {
+      "type": "node",
+      "id": 6383773413,
+      "lat": 22.1642848,
+      "lon": 113.5560703
+    },
+    {
+      "type": "node",
+      "id": 6383773414,
+      "lat": 22.1642561,
+      "lon": 113.5560617
+    },
+    {
+      "type": "node",
+      "id": 6383773415,
+      "lat": 22.1643533,
+      "lon": 113.5561063
+    },
+    {
+      "type": "node",
+      "id": 6383773416,
+      "lat": 22.1644972,
+      "lon": 113.5560902
+    },
+    {
+      "type": "node",
+      "id": 6383773417,
+      "lat": 22.1644708,
+      "lon": 113.5560835
+    },
+    {
+      "type": "node",
+      "id": 6383773418,
+      "lat": 22.1644364,
+      "lon": 113.5560888
+    },
+    {
+      "type": "node",
+      "id": 6383773419,
+      "lat": 22.1644163,
+      "lon": 113.5561045
+    },
+    {
+      "type": "node",
+      "id": 6383773420,
+      "lat": 22.1643941,
+      "lon": 113.5561067
+    },
+    {
+      "type": "node",
+      "id": 2027585490,
+      "lat": 22.1858894,
+      "lon": 113.5312081
+    },
+    {
+      "type": "node",
+      "id": 2027585491,
+      "lat": 22.1858987,
+      "lon": 113.5313098
+    },
+    {
+      "type": "node",
+      "id": 2027585503,
+      "lat": 22.1859775,
+      "lon": 113.5314032
+    },
+    {
+      "type": "node",
+      "id": 2027585523,
+      "lat": 22.1861589,
+      "lon": 113.5313217
+    },
+    {
+      "type": "node",
+      "id": 2027585526,
+      "lat": 22.1862373,
+      "lon": 113.5312005
+    },
+    {
+      "type": "node",
+      "id": 2027585531,
+      "lat": 22.1862475,
+      "lon": 113.5313123
+    },
+    {
+      "type": "node",
+      "id": 2168716983,
+      "lat": 22.1861645,
+      "lon": 113.5313833
+    },
+    {
+      "type": "node",
+      "id": 7650128619,
+      "lat": 22.1859683,
+      "lon": 113.5313024
+    },
+    {
+      "type": "node",
+      "id": 7650128623,
+      "lat": 22.1859907,
+      "lon": 113.5311974
+    },
+    {
+      "type": "node",
+      "id": 11084343989,
+      "lat": 22.1860473,
+      "lon": 113.5311514
+    },
+    {
+      "type": "node",
+      "id": 12497573434,
+      "lat": 22.1862052,
+      "lon": 113.5312039
+    },
+    {
+      "type": "node",
+      "id": 12497573435,
+      "lat": 22.1861989,
+      "lon": 113.5311352
+    },
+    {
+      "type": "node",
+      "id": 12497573436,
+      "lat": 22.185987,
+      "lon": 113.5311578
+    },
+    {
+      "type": "node",
+      "id": 12497573439,
+      "lat": 22.1864003,
+      "lon": 113.5312603
+    },
+    {
+      "type": "node",
+      "id": 12497573440,
+      "lat": 22.186408,
+      "lon": 113.5313458
+    },
+    {
+      "type": "node",
+      "id": 12497573441,
+      "lat": 22.1862975,
+      "lon": 113.5312711
+    },
+    {
+      "type": "node",
+      "id": 12497573445,
+      "lat": 22.1863543,
+      "lon": 113.5312651
+    },
+    {
+      "type": "node",
+      "id": 12497573451,
+      "lat": 22.1862022,
+      "lon": 113.5311711
+    },
+    {
+      "type": "node",
+      "id": 12497573457,
+      "lat": 22.1863052,
+      "lon": 113.5313566
+    },
+    {
+      "type": "node",
+      "id": 12497573458,
+      "lat": 22.1860582,
+      "lon": 113.5313946
+    },
+    {
+      "type": "node",
+      "id": 6139352520,
+      "lat": 22.1869763,
+      "lon": 113.535127
+    },
+    {
+      "type": "node",
+      "id": 6139352521,
+      "lat": 22.1868082,
+      "lon": 113.5353493
+    },
+    {
+      "type": "node",
+      "id": 6139352522,
+      "lat": 22.1869115,
+      "lon": 113.5350645
+    },
+    {
+      "type": "node",
+      "id": 6139352523,
+      "lat": 22.1868588,
+      "lon": 113.5351123
+    },
+    {
+      "type": "node",
+      "id": 6139352524,
+      "lat": 22.1869395,
+      "lon": 113.5351904
+    },
+    {
+      "type": "node",
+      "id": 6139352525,
+      "lat": 22.1869308,
+      "lon": 113.535182
+    },
+    {
+      "type": "node",
+      "id": 6139352526,
+      "lat": 22.1868662,
+      "lon": 113.5351194
+    },
+    {
+      "type": "node",
+      "id": 6139352561,
+      "lat": 22.1867274,
+      "lon": 113.5352714
+    },
+    {
+      "type": "node",
+      "id": 2841329762,
+      "lat": 22.1904105,
+      "lon": 113.536725
+    },
+    {
+      "type": "node",
+      "id": 2841329763,
+      "lat": 22.1904499,
+      "lon": 113.536916
+    },
+    {
+      "type": "node",
+      "id": 2841329764,
+      "lat": 22.1904727,
+      "lon": 113.5366777
+    },
+    {
+      "type": "node",
+      "id": 2841329765,
+      "lat": 22.1904791,
+      "lon": 113.5367083
+    },
+    {
+      "type": "node",
+      "id": 2841329766,
+      "lat": 22.1905193,
+      "lon": 113.5368991
+    },
+    {
+      "type": "node",
+      "id": 2841329767,
+      "lat": 22.1905237,
+      "lon": 113.5369201
+    },
+    {
+      "type": "node",
+      "id": 2841329768,
+      "lat": 22.1906155,
+      "lon": 113.536643
+    },
+    {
+      "type": "node",
+      "id": 2841329769,
+      "lat": 22.190632,
+      "lon": 113.5366114
+    },
+    {
+      "type": "node",
+      "id": 2841329770,
+      "lat": 22.1906638,
+      "lon": 113.5366218
+    },
+    {
+      "type": "node",
+      "id": 2841329771,
+      "lat": 22.1906634,
+      "lon": 113.536886
+    },
+    {
+      "type": "node",
+      "id": 2841329772,
+      "lat": 22.1906676,
+      "lon": 113.5366302
+    },
+    {
+      "type": "node",
+      "id": 2841329773,
+      "lat": 22.190674,
+      "lon": 113.5369008
+    },
+    {
+      "type": "node",
+      "id": 2841329774,
+      "lat": 22.1907148,
+      "lon": 113.5368828
+    },
+    {
+      "type": "node",
+      "id": 2841329775,
+      "lat": 22.1907153,
+      "lon": 113.5368735
+    },
+    {
+      "type": "node",
+      "id": 2841329776,
+      "lat": 22.190782,
+      "lon": 113.5368573
+    },
+    {
+      "type": "node",
+      "id": 2841329777,
+      "lat": 22.1907841,
+      "lon": 113.536867
+    },
+    {
+      "type": "node",
+      "id": 2841329779,
+      "lat": 22.190931,
+      "lon": 113.5368312
+    },
+    {
+      "type": "node",
+      "id": 3120533971,
+      "lat": 22.1921408,
+      "lon": 113.5382012
+    },
+    {
+      "type": "node",
+      "id": 3120533972,
+      "lat": 22.1924216,
+      "lon": 113.5383178
+    },
+    {
+      "type": "node",
+      "id": 3922921453,
+      "lat": 22.1924082,
+      "lon": 113.5383539
+    },
+    {
+      "type": "node",
+      "id": 3922921454,
+      "lat": 22.1924576,
+      "lon": 113.5383729
+    },
+    {
+      "type": "node",
+      "id": 3922921455,
+      "lat": 22.1924445,
+      "lon": 113.538418
+    },
+    {
+      "type": "node",
+      "id": 3922921456,
+      "lat": 22.1925805,
+      "lon": 113.5384745
+    },
+    {
+      "type": "node",
+      "id": 3922921557,
+      "lat": 22.1925412,
+      "lon": 113.5385972
+    },
+    {
+      "type": "node",
+      "id": 3922921558,
+      "lat": 22.1920705,
+      "lon": 113.5384149
+    },
+    {
+      "type": "node",
+      "id": 7685211598,
+      "lat": 22.1925262,
+      "lon": 113.5385914
+    },
+    {
+      "type": "node",
+      "id": 7685211601,
+      "lat": 22.1924762,
+      "lon": 113.538572
+    },
+    {
+      "type": "node",
+      "id": 7781344865,
+      "lat": 22.1924647,
+      "lon": 113.5384266
+    },
+    {
+      "type": "node",
+      "id": 7781344866,
+      "lat": 22.1924822,
+      "lon": 113.5383781
+    },
+    {
+      "type": "node",
+      "id": 7781344867,
+      "lat": 22.19255,
+      "lon": 113.5384458
+    },
+    {
+      "type": "node",
+      "id": 7781344868,
+      "lat": 22.192546,
+      "lon": 113.5384561
+    },
+    {
+      "type": "node",
+      "id": 7781344869,
+      "lat": 22.1924417,
+      "lon": 113.5383668
+    },
+    {
+      "type": "node",
+      "id": 9663396833,
+      "lat": 22.1906677,
+      "lon": 113.5368946
+    },
+    {
+      "type": "node",
+      "id": 9663396834,
+      "lat": 22.1906819,
+      "lon": 113.5369046
+    },
+    {
+      "type": "node",
+      "id": 9663396835,
+      "lat": 22.1906904,
+      "lon": 113.5369055
+    },
+    {
+      "type": "node",
+      "id": 9663396836,
+      "lat": 22.1906988,
+      "lon": 113.5369034
+    },
+    {
+      "type": "node",
+      "id": 9663396837,
+      "lat": 22.1907062,
+      "lon": 113.5368986
+    },
+    {
+      "type": "node",
+      "id": 9663396838,
+      "lat": 22.1907117,
+      "lon": 113.5368914
+    },
+    {
+      "type": "node",
+      "id": 9663396839,
+      "lat": 22.1906578,
+      "lon": 113.5366151
+    },
+    {
+      "type": "node",
+      "id": 9663396840,
+      "lat": 22.1906498,
+      "lon": 113.5366107
+    },
+    {
+      "type": "node",
+      "id": 9663396841,
+      "lat": 22.1906408,
+      "lon": 113.5366094
+    },
+    {
+      "type": "node",
+      "id": 9663396842,
+      "lat": 22.1906243,
+      "lon": 113.5366165
+    },
+    {
+      "type": "node",
+      "id": 9663396843,
+      "lat": 22.1906186,
+      "lon": 113.5366241
+    },
+    {
+      "type": "node",
+      "id": 9663396844,
+      "lat": 22.1906155,
+      "lon": 113.5366333
+    },
+    {
+      "type": "node",
+      "id": 9663396845,
+      "lat": 22.1908677,
+      "lon": 113.5365814
+    },
+    {
+      "type": "node",
+      "id": 9663396846,
+      "lat": 22.1908878,
+      "lon": 113.5366274
+    },
+    {
+      "type": "node",
+      "id": 9663396847,
+      "lat": 22.1908475,
+      "lon": 113.5368516
+    },
+    {
+      "type": "node",
+      "id": 3373310064,
+      "lat": 22.1937607,
+      "lon": 113.5416041
+    },
+    {
+      "type": "node",
+      "id": 3373310065,
+      "lat": 22.1936782,
+      "lon": 113.541327
+    },
+    {
+      "type": "node",
+      "id": 3373310066,
+      "lat": 22.1932299,
+      "lon": 113.5415016
+    },
+    {
+      "type": "node",
+      "id": 3373310067,
+      "lat": 22.1932947,
+      "lon": 113.5417301
+    },
+    {
+      "type": "node",
+      "id": 6159078133,
+      "lat": 22.1935808,
+      "lon": 113.5416162
+    },
+    {
+      "type": "node",
+      "id": 6750641539,
+      "lat": 22.1937193,
+      "lon": 113.5416177
+    },
+    {
+      "type": "node",
+      "id": 6750641540,
+      "lat": 22.1937041,
+      "lon": 113.5415695
+    },
+    {
+      "type": "node",
+      "id": 6750641541,
+      "lat": 22.1934977,
+      "lon": 113.5416476
+    },
+    {
+      "type": "node",
+      "id": 6750641542,
+      "lat": 22.1935062,
+      "lon": 113.5416715
+    },
+    {
+      "type": "node",
+      "id": 6750641543,
+      "lat": 22.193416,
+      "lon": 113.541703
+    },
+    {
+      "type": "node",
+      "id": 6750641544,
+      "lat": 22.1934127,
+      "lon": 113.541686
+    },
+    {
+      "type": "node",
+      "id": 6750641545,
+      "lat": 22.1932914,
+      "lon": 113.5417187
+    },
+    {
+      "type": "node",
+      "id": 12460507391,
+      "lat": 22.1934622,
+      "lon": 113.5416869
+    },
+    {
+      "type": "node",
+      "id": 2031208659,
+      "lat": 22.1945717,
+      "lon": 113.5403219
+    },
+    {
+      "type": "node",
+      "id": 2031208663,
+      "lat": 22.1946115,
+      "lon": 113.54051
+    },
+    {
+      "type": "node",
+      "id": 2031208665,
+      "lat": 22.195045,
+      "lon": 113.5402221
+    },
+    {
+      "type": "node",
+      "id": 2031208667,
+      "lat": 22.195101,
+      "lon": 113.5404805
+    },
+    {
+      "type": "node",
+      "id": 2157626606,
+      "lat": 22.1947357,
+      "lon": 113.540504
+    },
+    {
+      "type": "node",
+      "id": 3261056761,
+      "lat": 22.1997055,
+      "lon": 113.539869
+    },
+    {
+      "type": "node",
+      "id": 3261056762,
+      "lat": 22.1997777,
+      "lon": 113.5398497
+    },
+    {
+      "type": "node",
+      "id": 3261056763,
+      "lat": 22.1997996,
+      "lon": 113.5399536
+    },
+    {
+      "type": "node",
+      "id": 3261056764,
+      "lat": 22.1997288,
+      "lon": 113.539971
+    },
+    {
+      "type": "node",
+      "id": 3261056770,
+      "lat": 22.1990163,
+      "lon": 113.5393626
+    },
+    {
+      "type": "node",
+      "id": 3261056771,
+      "lat": 22.1991345,
+      "lon": 113.5396246
+    },
+    {
+      "type": "node",
+      "id": 3261056772,
+      "lat": 22.1991174,
+      "lon": 113.5396356
+    },
+    {
+      "type": "node",
+      "id": 3261056773,
+      "lat": 22.1991615,
+      "lon": 113.5397334
+    },
+    {
+      "type": "node",
+      "id": 3261056774,
+      "lat": 22.1990707,
+      "lon": 113.5397888
+    },
+    {
+      "type": "node",
+      "id": 3261056775,
+      "lat": 22.1990389,
+      "lon": 113.5397372
+    },
+    {
+      "type": "node",
+      "id": 3261056776,
+      "lat": 22.1989485,
+      "lon": 113.5397842
+    },
+    {
+      "type": "node",
+      "id": 3261056777,
+      "lat": 22.1988359,
+      "lon": 113.5394665
+    },
+    {
+      "type": "node",
+      "id": 5285547945,
+      "lat": 22.198919,
+      "lon": 113.5397222
+    },
+    {
+      "type": "node",
+      "id": 6138508132,
+      "lat": 22.1976988,
+      "lon": 113.5406225
+    },
+    {
+      "type": "node",
+      "id": 6138508133,
+      "lat": 22.1977501,
+      "lon": 113.5406765
+    },
+    {
+      "type": "node",
+      "id": 6138508134,
+      "lat": 22.1977189,
+      "lon": 113.5407111
+    },
+    {
+      "type": "node",
+      "id": 6138508135,
+      "lat": 22.1976676,
+      "lon": 113.5406571
+    },
+    {
+      "type": "node",
+      "id": 6173046332,
+      "lat": 22.1953816,
+      "lon": 113.5403705
+    },
+    {
+      "type": "node",
+      "id": 6173046333,
+      "lat": 22.1954786,
+      "lon": 113.5403867
+    },
+    {
+      "type": "node",
+      "id": 6173046334,
+      "lat": 22.1954251,
+      "lon": 113.5404661
+    },
+    {
+      "type": "node",
+      "id": 6173046335,
+      "lat": 22.1953995,
+      "lon": 113.5404661
+    },
+    {
+      "type": "node",
+      "id": 6173046337,
+      "lat": 22.1954369,
+      "lon": 113.540379
+    },
+    {
+      "type": "node",
+      "id": 6745834114,
+      "lat": 22.1949072,
+      "lon": 113.540532
+    },
+    {
+      "type": "node",
+      "id": 6745834115,
+      "lat": 22.194889,
+      "lon": 113.5404615
+    },
+    {
+      "type": "node",
+      "id": 6745834116,
+      "lat": 22.194746,
+      "lon": 113.5405014
+    },
+    {
+      "type": "node",
+      "id": 6745834118,
+      "lat": 22.1947337,
+      "lon": 113.5404939
+    },
+    {
+      "type": "node",
+      "id": 6745834119,
+      "lat": 22.1947301,
+      "lon": 113.540478
+    },
+    {
+      "type": "node",
+      "id": 7164357130,
+      "lat": 22.1990786,
+      "lon": 113.5394993
+    },
+    {
+      "type": "node",
+      "id": 7164357131,
+      "lat": 22.1990997,
+      "lon": 113.5395446
+    },
+    {
+      "type": "node",
+      "id": 7164357132,
+      "lat": 22.1991407,
+      "lon": 113.5395246
+    },
+    {
+      "type": "node",
+      "id": 7164357133,
+      "lat": 22.1991208,
+      "lon": 113.5394785
+    },
+    {
+      "type": "node",
+      "id": 7164357134,
+      "lat": 22.1988521,
+      "lon": 113.5395081
+    },
+    {
+      "type": "node",
+      "id": 7164357135,
+      "lat": 22.1988261,
+      "lon": 113.5395189
+    },
+    {
+      "type": "node",
+      "id": 7164357136,
+      "lat": 22.1987672,
+      "lon": 113.5394076
+    },
+    {
+      "type": "node",
+      "id": 7164357137,
+      "lat": 22.1987218,
+      "lon": 113.5394362
+    },
+    {
+      "type": "node",
+      "id": 7164357138,
+      "lat": 22.1988806,
+      "lon": 113.5397439
+    },
+    {
+      "type": "node",
+      "id": 7164357139,
+      "lat": 22.1989695,
+      "lon": 113.5397733
+    },
+    {
+      "type": "node",
+      "id": 7164357146,
+      "lat": 22.1990801,
+      "lon": 113.539783
+    },
+    {
+      "type": "node",
+      "id": 7406282862,
+      "lat": 22.1949541,
+      "lon": 113.5405191
+    },
+    {
+      "type": "node",
+      "id": 7406282872,
+      "lat": 22.1950441,
+      "lon": 113.5404944
+    },
+    {
+      "type": "node",
+      "id": 7711297717,
+      "lat": 22.1948693,
+      "lon": 113.5402604
+    },
+    {
+      "type": "node",
+      "id": 7711297718,
+      "lat": 22.1948682,
+      "lon": 113.5402495
+    },
+    {
+      "type": "node",
+      "id": 7711297719,
+      "lat": 22.194815,
+      "lon": 113.5402578
+    },
+    {
+      "type": "node",
+      "id": 7711297720,
+      "lat": 22.1948141,
+      "lon": 113.5402475
+    },
+    {
+      "type": "node",
+      "id": 7711297721,
+      "lat": 22.1947526,
+      "lon": 113.5402666
+    },
+    {
+      "type": "node",
+      "id": 7711297722,
+      "lat": 22.1947546,
+      "lon": 113.5402756
+    },
+    {
+      "type": "node",
+      "id": 7711297723,
+      "lat": 22.1947843,
+      "lon": 113.5402573
+    },
+    {
+      "type": "node",
+      "id": 8979643737,
+      "lat": 22.1977441,
+      "lon": 113.5406831
+    },
+    {
+      "type": "node",
+      "id": 8979643738,
+      "lat": 22.1977252,
+      "lon": 113.5407042
+    },
+    {
+      "type": "node",
+      "id": 8979643739,
+      "lat": 22.197752,
+      "lon": 113.5406915
+    },
+    {
+      "type": "node",
+      "id": 8979643740,
+      "lat": 22.197733,
+      "lon": 113.5407125
+    },
+    {
+      "type": "node",
+      "id": 6511536821,
+      "lat": 22.1954685,
+      "lon": 113.542306
+    },
+    {
+      "type": "node",
+      "id": 6511536822,
+      "lat": 22.1954678,
+      "lon": 113.5423749
+    },
+    {
+      "type": "node",
+      "id": 6511536823,
+      "lat": 22.1955387,
+      "lon": 113.5423757
+    },
+    {
+      "type": "node",
+      "id": 6511536824,
+      "lat": 22.1955387,
+      "lon": 113.5423354
+    },
+    {
+      "type": "node",
+      "id": 6511536825,
+      "lat": 22.1954993,
+      "lon": 113.5423323
+    },
+    {
+      "type": "node",
+      "id": 6511536826,
+      "lat": 22.1954993,
+      "lon": 113.5423099
+    },
+    {
+      "type": "node",
+      "id": 6617013734,
+      "lat": 22.1986495,
+      "lon": 113.541982
+    },
+    {
+      "type": "node",
+      "id": 6617013735,
+      "lat": 22.1988959,
+      "lon": 113.5417438
+    },
+    {
+      "type": "node",
+      "id": 6617013736,
+      "lat": 22.1989208,
+      "lon": 113.5419376
+    },
+    {
+      "type": "node",
+      "id": 6617013737,
+      "lat": 22.1988721,
+      "lon": 113.5415663
+    },
+    {
+      "type": "node",
+      "id": 6617013738,
+      "lat": 22.1986354,
+      "lon": 113.541773
+    },
+    {
+      "type": "node",
+      "id": 6617013739,
+      "lat": 22.19863,
+      "lon": 113.5416271
+    },
+    {
+      "type": "node",
+      "id": 6617013740,
+      "lat": 22.1988008,
+      "lon": 113.5416025
+    },
+    {
+      "type": "node",
+      "id": 6617013741,
+      "lat": 22.1987976,
+      "lon": 113.5415815
+    },
+    {
+      "type": "node",
+      "id": 6744328466,
+      "lat": 22.1988873,
+      "lon": 113.5415561
+    },
+    {
+      "type": "node",
+      "id": 6744328467,
+      "lat": 22.1988786,
+      "lon": 113.5415019
+    },
+    {
+      "type": "node",
+      "id": 6744328468,
+      "lat": 22.1987963,
+      "lon": 113.5415191
+    },
+    {
+      "type": "node",
+      "id": 6744328469,
+      "lat": 22.1988053,
+      "lon": 113.541573
+    },
+    {
+      "type": "node",
+      "id": 6744328476,
+      "lat": 22.1988834,
+      "lon": 113.5415315
+    },
+    {
+      "type": "node",
+      "id": 6935371848,
+      "lat": 22.1948506,
+      "lon": 113.5447878
+    },
+    {
+      "type": "node",
+      "id": 6935371849,
+      "lat": 22.1947889,
+      "lon": 113.5447452
+    },
+    {
+      "type": "node",
+      "id": 6935371850,
+      "lat": 22.1947192,
+      "lon": 113.5448503
+    },
+    {
+      "type": "node",
+      "id": 6935371851,
+      "lat": 22.1947625,
+      "lon": 113.544883
+    },
+    {
+      "type": "node",
+      "id": 6935371852,
+      "lat": 22.1947808,
+      "lon": 113.5448538
+    },
+    {
+      "type": "node",
+      "id": 6935371853,
+      "lat": 22.1948014,
+      "lon": 113.5448689
+    },
+    {
+      "type": "node",
+      "id": 7674183646,
+      "lat": 22.1954682,
+      "lon": 113.542338
+    },
+    {
+      "type": "node",
+      "id": 6592981433,
+      "lat": 22.2025399,
+      "lon": 113.5410976
+    },
+    {
+      "type": "node",
+      "id": 6592981434,
+      "lat": 22.2025287,
+      "lon": 113.5410748
+    },
+    {
+      "type": "node",
+      "id": 6592981438,
+      "lat": 22.2025213,
+      "lon": 113.541058
+    },
+    {
+      "type": "node",
+      "id": 6592981439,
+      "lat": 22.2024437,
+      "lon": 113.5410929
+    },
+    {
+      "type": "node",
+      "id": 6592981441,
+      "lat": 22.2024469,
+      "lon": 113.5411039
+    },
+    {
+      "type": "node",
+      "id": 7690509205,
+      "lat": 22.2020403,
+      "lon": 113.5395833
+    },
+    {
+      "type": "node",
+      "id": 7690509206,
+      "lat": 22.2020103,
+      "lon": 113.539932
+    },
+    {
+      "type": "node",
+      "id": 7690509208,
+      "lat": 22.2019774,
+      "lon": 113.539989
+    },
+    {
+      "type": "node",
+      "id": 7690509209,
+      "lat": 22.2019457,
+      "lon": 113.5399545
+    },
+    {
+      "type": "node",
+      "id": 7690509210,
+      "lat": 22.201907,
+      "lon": 113.5399497
+    },
+    {
+      "type": "node",
+      "id": 7690509211,
+      "lat": 22.2017676,
+      "lon": 113.5399952
+    },
+    {
+      "type": "node",
+      "id": 7690509212,
+      "lat": 22.2017554,
+      "lon": 113.5399812
+    },
+    {
+      "type": "node",
+      "id": 7690509214,
+      "lat": 22.2019339,
+      "lon": 113.5396016
+    },
+    {
+      "type": "node",
+      "id": 7690509215,
+      "lat": 22.2020341,
+      "lon": 113.5397322
+    },
+    {
+      "type": "node",
+      "id": 7690509217,
+      "lat": 22.2018301,
+      "lon": 113.5397861
+    },
+    {
+      "type": "node",
+      "id": 7690509218,
+      "lat": 22.2018146,
+      "lon": 113.5397361
+    },
+    {
+      "type": "node",
+      "id": 7690509219,
+      "lat": 22.2017862,
+      "lon": 113.5396137
+    },
+    {
+      "type": "node",
+      "id": 7690509220,
+      "lat": 22.2018214,
+      "lon": 113.5397523
+    },
+    {
+      "type": "node",
+      "id": 7690509221,
+      "lat": 22.2018301,
+      "lon": 113.5397689
+    },
+    {
+      "type": "node",
+      "id": 7690509222,
+      "lat": 22.2018061,
+      "lon": 113.5397914
+    },
+    {
+      "type": "node",
+      "id": 7690509223,
+      "lat": 22.2018338,
+      "lon": 113.5397767
+    },
+    {
+      "type": "node",
+      "id": 7690509224,
+      "lat": 22.2018192,
+      "lon": 113.5398776
+    },
+    {
+      "type": "node",
+      "id": 7690509225,
+      "lat": 22.2018213,
+      "lon": 113.5397878
+    },
+    {
+      "type": "node",
+      "id": 7690509226,
+      "lat": 22.2018063,
+      "lon": 113.5399491
+    },
+    {
+      "type": "node",
+      "id": 7690509227,
+      "lat": 22.201821,
+      "lon": 113.5399244
+    },
+    {
+      "type": "node",
+      "id": 7690509228,
+      "lat": 22.2018082,
+      "lon": 113.539975
+    },
+    {
+      "type": "node",
+      "id": 7690509229,
+      "lat": 22.2018184,
+      "lon": 113.5399864
+    },
+    {
+      "type": "node",
+      "id": 7690509230,
+      "lat": 22.2018745,
+      "lon": 113.5399827
+    },
+    {
+      "type": "node",
+      "id": 7690509232,
+      "lat": 22.2018251,
+      "lon": 113.5399032
+    },
+    {
+      "type": "node",
+      "id": 7690509233,
+      "lat": 22.201812,
+      "lon": 113.5398529
+    },
+    {
+      "type": "node",
+      "id": 7690509235,
+      "lat": 22.2019338,
+      "lon": 113.5396065
+    },
+    {
+      "type": "node",
+      "id": 4567317798,
+      "lat": 22.2032458,
+      "lon": 113.5449194
+    },
+    {
+      "type": "node",
+      "id": 4567317799,
+      "lat": 22.2032493,
+      "lon": 113.5449454
+    },
+    {
+      "type": "node",
+      "id": 4567317800,
+      "lat": 22.2032878,
+      "lon": 113.5452566
+    },
+    {
+      "type": "node",
+      "id": 4567317802,
+      "lat": 22.2028042,
+      "lon": 113.54526
+    },
+    {
+      "type": "node",
+      "id": 4567317804,
+      "lat": 22.2027906,
+      "lon": 113.5449759
+    },
+    {
+      "type": "node",
+      "id": 4567317805,
+      "lat": 22.2031285,
+      "lon": 113.5448524
+    },
+    {
+      "type": "node",
+      "id": 4568716820,
+      "lat": 22.2060926,
+      "lon": 113.54759
+    },
+    {
+      "type": "node",
+      "id": 6221607071,
+      "lat": 22.202792,
+      "lon": 113.5450735
+    },
+    {
+      "type": "node",
+      "id": 6221608287,
+      "lat": 22.2031241,
+      "lon": 113.5452802
+    },
+    {
+      "type": "node",
+      "id": 6221608288,
+      "lat": 22.2029584,
+      "lon": 113.5451822
+    },
+    {
+      "type": "node",
+      "id": 6221608315,
+      "lat": 22.2032725,
+      "lon": 113.5451643
+    },
+    {
+      "type": "node",
+      "id": 6221608316,
+      "lat": 22.2032525,
+      "lon": 113.5449703
+    },
+    {
+      "type": "node",
+      "id": 6221608328,
+      "lat": 22.2032705,
+      "lon": 113.5452602
+    },
+    {
+      "type": "node",
+      "id": 6221743752,
+      "lat": 22.2064354,
+      "lon": 113.5460692
+    },
+    {
+      "type": "node",
+      "id": 6221743753,
+      "lat": 22.2063622,
+      "lon": 113.5460468
+    },
+    {
+      "type": "node",
+      "id": 6221743754,
+      "lat": 22.2063974,
+      "lon": 113.5459088
+    },
+    {
+      "type": "node",
+      "id": 6221743755,
+      "lat": 22.2064717,
+      "lon": 113.5459316
+    },
+    {
+      "type": "node",
+      "id": 6221744096,
+      "lat": 22.2064414,
+      "lon": 113.5460467
+    },
+    {
+      "type": "node",
+      "id": 6592981432,
+      "lat": 22.2025548,
+      "lon": 113.5412015
+    },
+    {
+      "type": "node",
+      "id": 6592981440,
+      "lat": 22.2024691,
+      "lon": 113.5412143
+    },
+    {
+      "type": "node",
+      "id": 6710367615,
+      "lat": 22.2031961,
+      "lon": 113.5452718
+    },
+    {
+      "type": "node",
+      "id": 6710367616,
+      "lat": 22.2030873,
+      "lon": 113.5452584
+    },
+    {
+      "type": "node",
+      "id": 6710367635,
+      "lat": 22.2029134,
+      "lon": 113.5452976
+    },
+    {
+      "type": "node",
+      "id": 7629838485,
+      "lat": 22.2027975,
+      "lon": 113.5451569
+    },
+    {
+      "type": "node",
+      "id": 13484634547,
+      "lat": 22.203035,
+      "lon": 113.5452275
+    },
+    {
+      "type": "node",
+      "id": 13484634557,
+      "lat": 22.2028539,
+      "lon": 113.544954
+    },
+    {
+      "type": "node",
+      "id": 2390671473,
+      "lat": 22.1964567,
+      "lon": 113.5496238
+    },
+    {
+      "type": "node",
+      "id": 2390671476,
+      "lat": 22.1965198,
+      "lon": 113.5495847
+    },
+    {
+      "type": "node",
+      "id": 2390671477,
+      "lat": 22.1965371,
+      "lon": 113.549775
+    },
+    {
+      "type": "node",
+      "id": 2390671479,
+      "lat": 22.1965589,
+      "lon": 113.5496584
+    },
+    {
+      "type": "node",
+      "id": 2390671484,
+      "lat": 22.1966938,
+      "lon": 113.5495747
+    },
+    {
+      "type": "node",
+      "id": 2390671486,
+      "lat": 22.1967351,
+      "lon": 113.5496524
+    },
+    {
+      "type": "node",
+      "id": 2711056992,
+      "lat": 22.1976214,
+      "lon": 113.5483741
+    },
+    {
+      "type": "node",
+      "id": 2711056993,
+      "lat": 22.1975196,
+      "lon": 113.5482829
+    },
+    {
+      "type": "node",
+      "id": 2711056994,
+      "lat": 22.197316,
+      "lon": 113.5485913
+    },
+    {
+      "type": "node",
+      "id": 2711056995,
+      "lat": 22.1973458,
+      "lon": 113.5486208
+    },
+    {
+      "type": "node",
+      "id": 2711056996,
+      "lat": 22.197311,
+      "lon": 113.5486664
+    },
+    {
+      "type": "node",
+      "id": 2711056997,
+      "lat": 22.1973681,
+      "lon": 113.5487281
+    },
+    {
+      "type": "node",
+      "id": 2711057017,
+      "lat": 22.1973983,
+      "lon": 113.5486839
+    },
+    {
+      "type": "node",
+      "id": 2711057019,
+      "lat": 22.1974577,
+      "lon": 113.5486099
+    },
+    {
+      "type": "node",
+      "id": 5259238579,
+      "lat": 22.2002125,
+      "lon": 113.5491013
+    },
+    {
+      "type": "node",
+      "id": 5259238582,
+      "lat": 22.2002554,
+      "lon": 113.5490374
+    },
+    {
+      "type": "node",
+      "id": 5262107350,
+      "lat": 22.1989641,
+      "lon": 113.5496458
+    },
+    {
+      "type": "node",
+      "id": 5262107351,
+      "lat": 22.199045,
+      "lon": 113.5497748
+    },
+    {
+      "type": "node",
+      "id": 5262107352,
+      "lat": 22.1989172,
+      "lon": 113.5498683
+    },
+    {
+      "type": "node",
+      "id": 5262107353,
+      "lat": 22.1988363,
+      "lon": 113.5497393
+    },
+    {
+      "type": "node",
+      "id": 5262115789,
+      "lat": 22.1974868,
+      "lon": 113.548568
+    },
+    {
+      "type": "node",
+      "id": 9621171300,
+      "lat": 22.1965517,
+      "lon": 113.5497659
+    },
+    {
+      "type": "node",
+      "id": 9621171301,
+      "lat": 22.1965601,
+      "lon": 113.5497818
+    },
+    {
+      "type": "node",
+      "id": 9621171302,
+      "lat": 22.1965917,
+      "lon": 113.5497622
+    },
+    {
+      "type": "node",
+      "id": 9621171303,
+      "lat": 22.1965833,
+      "lon": 113.5497464
+    },
+    {
+      "type": "node",
+      "id": 13003562024,
+      "lat": 22.2003115,
+      "lon": 113.5492076
+    },
+    {
+      "type": "node",
+      "id": 13003562026,
+      "lat": 22.2003237,
+      "lon": 113.5491878
+    },
+    {
+      "type": "node",
+      "id": 2710985274,
+      "lat": 22.204214,
+      "lon": 113.5498237
+    },
+    {
+      "type": "node",
+      "id": 2710985279,
+      "lat": 22.2036001,
+      "lon": 113.5505874
+    },
+    {
+      "type": "node",
+      "id": 2710985287,
+      "lat": 22.2040898,
+      "lon": 113.5509253
+    },
+    {
+      "type": "node",
+      "id": 2710985293,
+      "lat": 22.2042202,
+      "lon": 113.5509117
+    },
+    {
+      "type": "node",
+      "id": 2710985297,
+      "lat": 22.2042537,
+      "lon": 113.5508659
+    },
+    {
+      "type": "node",
+      "id": 2710985301,
+      "lat": 22.2043111,
+      "lon": 113.550804
+    },
+    {
+      "type": "node",
+      "id": 2710985305,
+      "lat": 22.2043679,
+      "lon": 113.5508421
+    },
+    {
+      "type": "node",
+      "id": 2710985308,
+      "lat": 22.2044308,
+      "lon": 113.5508889
+    },
+    {
+      "type": "node",
+      "id": 2710985311,
+      "lat": 22.2048148,
+      "lon": 113.5512368
+    },
+    {
+      "type": "node",
+      "id": 2710985315,
+      "lat": 22.2048108,
+      "lon": 113.5504005
+    },
+    {
+      "type": "node",
+      "id": 3811303808,
+      "lat": 22.2021778,
+      "lon": 113.550626
+    },
+    {
+      "type": "node",
+      "id": 4568716821,
+      "lat": 22.2059976,
+      "lon": 113.5477733
+    },
+    {
+      "type": "node",
+      "id": 4568716822,
+      "lat": 22.2061856,
+      "lon": 113.547879
+    },
+    {
+      "type": "node",
+      "id": 4568716823,
+      "lat": 22.2062691,
+      "lon": 113.5477115
+    },
+    {
+      "type": "node",
+      "id": 4831188207,
+      "lat": 22.200775,
+      "lon": 113.5495711
+    },
+    {
+      "type": "node",
+      "id": 4831188208,
+      "lat": 22.2006574,
+      "lon": 113.5497229
+    },
+    {
+      "type": "node",
+      "id": 4831188213,
+      "lat": 22.200828,
+      "lon": 113.5498798
+    },
+    {
+      "type": "node",
+      "id": 4831188218,
+      "lat": 22.2009367,
+      "lon": 113.5497353
+    },
+    {
+      "type": "node",
+      "id": 5257827975,
+      "lat": 22.2019049,
+      "lon": 113.5503404
+    },
+    {
+      "type": "node",
+      "id": 5257827976,
+      "lat": 22.2022058,
+      "lon": 113.5505872
+    },
+    {
+      "type": "node",
+      "id": 5259238580,
+      "lat": 22.200346,
+      "lon": 113.549235
+    },
+    {
+      "type": "node",
+      "id": 5259238581,
+      "lat": 22.2004195,
+      "lon": 113.5491326
+    },
+    {
+      "type": "node",
+      "id": 5259238585,
+      "lat": 22.2003762,
+      "lon": 113.5491907
+    },
+    {
+      "type": "node",
+      "id": 5259522909,
+      "lat": 22.2020007,
+      "lon": 113.5508621
+    },
+    {
+      "type": "node",
+      "id": 5259522910,
+      "lat": 22.2017067,
+      "lon": 113.550613
+    },
+    {
+      "type": "node",
+      "id": 5259635030,
+      "lat": 22.2010044,
+      "lon": 113.5496442
+    },
+    {
+      "type": "node",
+      "id": 5264142404,
+      "lat": 22.2043978,
+      "lon": 113.5497039
+    },
+    {
+      "type": "node",
+      "id": 5264142405,
+      "lat": 22.2045222,
+      "lon": 113.549821
+    },
+    {
+      "type": "node",
+      "id": 5264142406,
+      "lat": 22.2043126,
+      "lon": 113.549802
+    },
+    {
+      "type": "node",
+      "id": 5264142407,
+      "lat": 22.2044615,
+      "lon": 113.5499157
+    },
+    {
+      "type": "node",
+      "id": 6308554880,
+      "lat": 22.2056034,
+      "lon": 113.5482114
+    },
+    {
+      "type": "node",
+      "id": 6308554881,
+      "lat": 22.2056251,
+      "lon": 113.548186
+    },
+    {
+      "type": "node",
+      "id": 6308554882,
+      "lat": 22.2056862,
+      "lon": 113.5482439
+    },
+    {
+      "type": "node",
+      "id": 6308554883,
+      "lat": 22.2056665,
+      "lon": 113.5482703
+    },
+    {
+      "type": "node",
+      "id": 6980242769,
+      "lat": 22.200962,
+      "lon": 113.5496072
+    },
+    {
+      "type": "node",
+      "id": 6980242770,
+      "lat": 22.2008956,
+      "lon": 113.5496908
+    },
+    {
+      "type": "node",
+      "id": 7434528861,
+      "lat": 22.2044231,
+      "lon": 113.5499031
+    },
+    {
+      "type": "node",
+      "id": 12153027394,
+      "lat": 22.2041801,
+      "lon": 113.5509338
+    },
+    {
+      "type": "node",
+      "id": 12153027395,
+      "lat": 22.2041394,
+      "lon": 113.5509406
+    },
+    {
+      "type": "node",
+      "id": 12153027396,
+      "lat": 22.205084,
+      "lon": 113.5506771
+    },
+    {
+      "type": "node",
+      "id": 12153027397,
+      "lat": 22.2051889,
+      "lon": 113.5508043
+    },
+    {
+      "type": "node",
+      "id": 12153027398,
+      "lat": 22.2052372,
+      "lon": 113.5509426
+    },
+    {
+      "type": "node",
+      "id": 12153027399,
+      "lat": 22.2052477,
+      "lon": 113.5510455
+    },
+    {
+      "type": "node",
+      "id": 12153027400,
+      "lat": 22.2051945,
+      "lon": 113.5511446
+    },
+    {
+      "type": "node",
+      "id": 12153057401,
+      "lat": 22.2050654,
+      "lon": 113.5511815
+    },
+    {
+      "type": "node",
+      "id": 12153057402,
+      "lat": 22.2049719,
+      "lon": 113.5511671
+    },
+    {
+      "type": "node",
+      "id": 12153057403,
+      "lat": 22.2045756,
+      "lon": 113.5511094
+    },
+    {
+      "type": "node",
+      "id": 12185350816,
+      "lat": 22.2021923,
+      "lon": 113.5506059
+    },
+    {
+      "type": "node",
+      "id": 12185350817,
+      "lat": 22.2021692,
+      "lon": 113.5506408
+    },
+    {
+      "type": "node",
+      "id": 13003562023,
+      "lat": 22.2003792,
+      "lon": 113.5491009
+    },
+    {
+      "type": "node",
+      "id": 13003562025,
+      "lat": 22.200367,
+      "lon": 113.549121
+    },
+    {
+      "type": "node",
+      "id": 5259437710,
+      "lat": 22.2044522,
+      "lon": 113.5582172
+    },
+    {
+      "type": "node",
+      "id": 5259437711,
+      "lat": 22.2043724,
+      "lon": 113.5582251
+    },
+    {
+      "type": "node",
+      "id": 5259437712,
+      "lat": 22.2043848,
+      "lon": 113.5584101
+    },
+    {
+      "type": "node",
+      "id": 5259437713,
+      "lat": 22.2044854,
+      "lon": 113.5584027
+    },
+    {
+      "type": "node",
+      "id": 8652193786,
+      "lat": 22.2027794,
+      "lon": 113.5545625
+    },
+    {
+      "type": "node",
+      "id": 8652193787,
+      "lat": 22.2027551,
+      "lon": 113.5546237
+    },
+    {
+      "type": "node",
+      "id": 8652193788,
+      "lat": 22.2027038,
+      "lon": 113.5546
+    },
+    {
+      "type": "node",
+      "id": 8652193789,
+      "lat": 22.2027281,
+      "lon": 113.5545387
+    },
+    {
+      "type": "node",
+      "id": 4264613389,
+      "lat": 22.2121554,
+      "lon": 113.5452231
+    },
+    {
+      "type": "node",
+      "id": 4264613390,
+      "lat": 22.2119474,
+      "lon": 113.5450188
+    },
+    {
+      "type": "node",
+      "id": 4264613391,
+      "lat": 22.2120326,
+      "lon": 113.5453324
+    },
+    {
+      "type": "node",
+      "id": 4264613392,
+      "lat": 22.2121463,
+      "lon": 113.5453396
+    },
+    {
+      "type": "node",
+      "id": 4934273082,
+      "lat": 22.2113311,
+      "lon": 113.5429297
+    },
+    {
+      "type": "node",
+      "id": 4934273083,
+      "lat": 22.2113262,
+      "lon": 113.5429745
+    },
+    {
+      "type": "node",
+      "id": 4934273084,
+      "lat": 22.211367,
+      "lon": 113.5429797
+    },
+    {
+      "type": "node",
+      "id": 4934273085,
+      "lat": 22.2113719,
+      "lon": 113.5429349
+    },
+    {
+      "type": "node",
+      "id": 7117307235,
+      "lat": 22.2120301,
+      "lon": 113.5453792
+    },
+    {
+      "type": "node",
+      "id": 7117307236,
+      "lat": 22.2118975,
+      "lon": 113.545369
+    },
+    {
+      "type": "node",
+      "id": 7117307237,
+      "lat": 22.2119009,
+      "lon": 113.5453268
+    },
+    {
+      "type": "node",
+      "id": 7117307238,
+      "lat": 22.2118132,
+      "lon": 113.5453201
+    },
+    {
+      "type": "node",
+      "id": 7117307239,
+      "lat": 22.2120477,
+      "lon": 113.5452108
+    },
+    {
+      "type": "node",
+      "id": 7117307240,
+      "lat": 22.2120516,
+      "lon": 113.5451128
+    },
+    {
+      "type": "node",
+      "id": 7117307241,
+      "lat": 22.2120721,
+      "lon": 113.5451127
+    },
+    {
+      "type": "node",
+      "id": 7117307242,
+      "lat": 22.2120731,
+      "lon": 113.5450215
+    },
+    {
+      "type": "node",
+      "id": 7117307243,
+      "lat": 22.2119431,
+      "lon": 113.5450642
+    },
+    {
+      "type": "node",
+      "id": 7117307244,
+      "lat": 22.2118293,
+      "lon": 113.5450574
+    },
+    {
+      "type": "node",
+      "id": 7700978439,
+      "lat": 22.2101748,
+      "lon": 113.5474863
+    },
+    {
+      "type": "node",
+      "id": 7700978443,
+      "lat": 22.2096359,
+      "lon": 113.5474152
+    },
+    {
+      "type": "node",
+      "id": 7700978444,
+      "lat": 22.2095031,
+      "lon": 113.5473428
+    },
+    {
+      "type": "node",
+      "id": 7700978445,
+      "lat": 22.2095627,
+      "lon": 113.5471685
+    },
+    {
+      "type": "node",
+      "id": 7700978446,
+      "lat": 22.2102322,
+      "lon": 113.5475984
+    },
+    {
+      "type": "node",
+      "id": 7700978417,
+      "lat": 22.20959,
+      "lon": 113.547843
+    },
+    {
+      "type": "node",
+      "id": 7700978440,
+      "lat": 22.2102182,
+      "lon": 113.5477451
+    },
+    {
+      "type": "node",
+      "id": 7700978441,
+      "lat": 22.2101115,
+      "lon": 113.5481555
+    },
+    {
+      "type": "node",
+      "id": 7700978442,
+      "lat": 22.2095203,
+      "lon": 113.5480386
+    }
+  ]
+}

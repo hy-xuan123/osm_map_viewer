@@ -1,0 +1,445 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.5317,
+          22.1866
+        ]
+      },
+      "properties": {
+        "id": 1,
+        "name": "妈祖阁（妈阁庙）",
+        "name_en": "A-Ma Temple",
+        "type": "temple",
+        "district": "风顺堂区",
+        "description": "澳门最古老庙宇，建于明代（1488年），MACAU地名来源",
+        "heritage": true,
+        "no_fly_radius_m": 100
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.5322,
+          22.187
+        ]
+      },
+      "properties": {
+        "id": 2,
+        "name": "海事及水务局大楼（港务局大楼）",
+        "name_en": "Moorish Barracks",
+        "type": "government",
+        "district": "风顺堂区",
+        "description": "原摩尔兵营旧址，建于1874年，阿拉伯风格建筑",
+        "heritage": true,
+        "no_fly_radius_m": 100
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.5344,
+          22.1881
+        ]
+      },
+      "properties": {
+        "id": 3,
+        "name": "郑家大屋",
+        "name_en": "Mandarin's House",
+        "type": "residential",
+        "district": "风顺堂区",
+        "description": "中国近代思想家郑观应故居，澳门最大中式民居",
+        "heritage": true,
+        "no_fly_radius_m": 100
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.5365,
+          22.1891
+        ]
+      },
+      "properties": {
+        "id": 4,
+        "name": "圣老楞佐堂（风顺堂）",
+        "name_en": "St. Lawrence's Church",
+        "type": "church",
+        "district": "风顺堂区",
+        "description": "建于16世纪中叶，澳门三大古老教堂之一",
+        "heritage": true,
+        "no_fly_radius_m": 100
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.5378,
+          22.1903
+        ]
+      },
+      "properties": {
+        "id": 5,
+        "name": "圣若瑟修院大楼及圣堂",
+        "name_en": "St. Joseph's Seminary and Church",
+        "type": "church",
+        "district": "风顺堂区",
+        "description": "建于1728年，巴洛克风格，澳门天主教会人才摇篮",
+        "heritage": true,
+        "no_fly_radius_m": 100
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.5386,
+          22.1919
+        ]
+      },
+      "properties": {
+        "id": 6,
+        "name": "岗顶剧院（伯多禄五世剧院）",
+        "name_en": "Dom Pedro V Theatre",
+        "type": "theatre",
+        "district": "风顺堂区",
+        "description": "中国第一座西式剧院，建于1860年",
+        "heritage": true,
+        "no_fly_radius_m": 100
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.5383,
+          22.1922
+        ]
+      },
+      "properties": {
+        "id": 7,
+        "name": "何东图书馆大楼",
+        "name_en": "Sir Robert Ho Tung Library",
+        "type": "library",
+        "district": "风顺堂区",
+        "description": "原为富商何东爵士别墅，现为公共图书馆",
+        "heritage": true,
+        "no_fly_radius_m": 100
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.539,
+          22.1916
+        ]
+      },
+      "properties": {
+        "id": 8,
+        "name": "圣奥斯定堂",
+        "name_en": "St. Augustine's Church",
+        "type": "church",
+        "district": "风顺堂区",
+        "description": "建于1591年，西班牙奥斯定会建造",
+        "heritage": true,
+        "no_fly_radius_m": 100
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.5403,
+          22.1934
+        ]
+      },
+      "properties": {
+        "id": 9,
+        "name": "市政署大楼（原民政总署大楼）",
+        "name_en": "Leal Senado Building",
+        "type": "government",
+        "district": "大堂区",
+        "description": "建于1784年，澳门最具代表性的葡式建筑之一",
+        "heritage": true,
+        "no_fly_radius_m": 100
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.5408,
+          22.1939
+        ]
+      },
+      "properties": {
+        "id": 10,
+        "name": "三街会馆（关帝庙）",
+        "name_en": "Sam Kai Vui Kun",
+        "type": "temple",
+        "district": "大堂区",
+        "description": "建于1792年，早期华人商业议事场所",
+        "heritage": true,
+        "no_fly_radius_m": 100
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.54,
+          22.1937
+        ]
+      },
+      "properties": {
+        "id": 11,
+        "name": "仁慈堂大楼",
+        "name_en": "Holy House of Mercy",
+        "type": "charity",
+        "district": "大堂区",
+        "description": "建于1569年，澳门最早慈善机构",
+        "heritage": true,
+        "no_fly_radius_m": 100
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.5418,
+          22.1932
+        ]
+      },
+      "properties": {
+        "id": 12,
+        "name": "主教座堂（大堂）",
+        "name_en": "Cathedral of the Nativity of Our Lady",
+        "type": "church",
+        "district": "大堂区",
+        "description": "建于1622年，澳门天主教主教座堂",
+        "heritage": true,
+        "no_fly_radius_m": 100
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.5415,
+          22.1943
+        ]
+      },
+      "properties": {
+        "id": 13,
+        "name": "卢家大屋",
+        "name_en": "Lou Kau Mansion",
+        "type": "residential",
+        "district": "大堂区",
+        "description": "建于1889年，澳门著名华商卢华绍家族故居",
+        "heritage": true,
+        "no_fly_radius_m": 100
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.5413,
+          22.1951
+        ]
+      },
+      "properties": {
+        "id": 14,
+        "name": "玫瑰圣母堂（板樟堂）",
+        "name_en": "St. Dominic's Church",
+        "type": "church",
+        "district": "大堂区",
+        "description": "建于1587年，巴洛克风格，供奉玫瑰圣母",
+        "heritage": true,
+        "no_fly_radius_m": 100
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.5428,
+          22.1974
+        ]
+      },
+      "properties": {
+        "id": 15,
+        "name": "大三巴牌坊（圣保禄教堂遗址）",
+        "name_en": "Ruins of St. Paul's",
+        "type": "ruins",
+        "district": "花王堂区",
+        "description": "澳门地标，圣保禄教堂前壁遗址，建于1602-1640年",
+        "heritage": true,
+        "no_fly_radius_m": 100
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.5425,
+          22.1978
+        ]
+      },
+      "properties": {
+        "id": 16,
+        "name": "哪吒庙（大三巴哪吒庙）",
+        "name_en": "Na Tcha Temple",
+        "type": "temple",
+        "district": "花王堂区",
+        "description": "建于1888年，中西文化共存的象征",
+        "heritage": true,
+        "no_fly_radius_m": 100
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.5431,
+          22.1975
+        ]
+      },
+      "properties": {
+        "id": 17,
+        "name": "旧城墙遗址",
+        "name_en": "Section of the Old City Walls",
+        "type": "ruins",
+        "district": "花王堂区",
+        "description": "1569年葡人修建，现存夯土城墙遗址",
+        "heritage": true,
+        "no_fly_radius_m": 100
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.5438,
+          22.1971
+        ]
+      },
+      "properties": {
+        "id": 18,
+        "name": "大炮台（中央炮台）",
+        "name_en": "Mount Fortress",
+        "type": "fortress",
+        "district": "花王堂区",
+        "description": "建于1617-1626年，澳门主要防御工事，现设澳门博物馆",
+        "heritage": true,
+        "no_fly_radius_m": 100
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.5402,
+          22.198
+        ]
+      },
+      "properties": {
+        "id": 19,
+        "name": "圣安多尼堂（花王堂）",
+        "name_en": "St. Anthony's Church",
+        "type": "church",
+        "district": "花王堂区",
+        "description": "建于1558年，澳门三大古老教堂之一",
+        "heritage": true,
+        "no_fly_radius_m": 100
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.5403,
+          22.1991
+        ]
+      },
+      "properties": {
+        "id": 20,
+        "name": "东方基金会会址",
+        "name_en": "Casa Garden",
+        "type": "residential",
+        "district": "花王堂区",
+        "description": "建于1770年，原贾梅士花园房屋旧址",
+        "heritage": true,
+        "no_fly_radius_m": 100
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.5408,
+          22.1994
+        ]
+      },
+      "properties": {
+        "id": 21,
+        "name": "基督教坟场",
+        "name_en": "Protestant Cemetery",
+        "type": "cemetery",
+        "district": "花王堂区",
+        "description": "建于1821年，澳门第一座基督教坟场",
+        "heritage": true,
+        "no_fly_radius_m": 100
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.5498,
+          22.1968
+        ]
+      },
+      "properties": {
+        "id": 22,
+        "name": "东望洋炮台、圣母雪地殿教堂及灯塔",
+        "name_en": "Guia Fortress, Chapel and Lighthouse",
+        "type": "fortress",
+        "district": "望德堂区",
+        "description": "建于1622年，中国海岸第一座现代灯塔（1864年），澳门最高点",
+        "heritage": true,
+        "no_fly_radius_m": 100
+      }
+    }
+  ]
+}
