@@ -171,11 +171,20 @@ python extract_junctions.py
 python gen_junction_js.py
 ```
 
-**Run web interface:**
+**Browse existing data online:**
+
+👉 **[https://hy-xuan123.github.io/osm_map_viewer/](https://hy-xuan123.github.io/osm_map_viewer/)**
+
+No local server needed — all 25+ datasets are deployed and ready to explore.
+
+**Preview newly downloaded data locally (optional):**
+
 ```bash
 python -m http.server 8080
 # Open http://localhost:8080
 ```
+
+Only needed when you've downloaded new OSM data locally and want to preview it before deploying.
 
 ---
 
@@ -372,12 +381,20 @@ python extract_junctions.py
 python gen_junction_js.py
 ```
 
-**运行 Web 界面：**
+**在线浏览已有数据：**
+
+👉 **[https://hy-xuan123.github.io/osm_map_viewer/](https://hy-xuan123.github.io/osm_map_viewer/)**
+
+无需启动本地服务器——所有 25+ 个数据集已部署，可直接探索。
+
+**本地预览新下载的数据（可选）：**
 
 ```bash
 python -m http.server 8080
 # 打开 http://localhost:8080
 ```
+
+仅在本地下载了新的 OSM 数据、需要预览后再部署时使用。
 
 ---
 

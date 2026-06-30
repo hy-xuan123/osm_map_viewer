@@ -517,7 +517,7 @@ body { font-family: "Microsoft YaHei", "PingFang SC", sans-serif; }
         position: fixed;
         bottom: 20px;
         right: 20px;
-        z-index: 9999;
+        z-index: 10001;
         width: 52px;
         height: 52px;
         border-radius: 50%;
@@ -541,7 +541,7 @@ body { font-family: "Microsoft YaHei", "PingFang SC", sans-serif; }
         bottom: 80px;
         right: 10px;
         left: 10px;
-        z-index: 9998;
+        z-index: 10001;
         background: rgba(255,255,255,0.98);
         border-radius: 12px;
         padding: 14px;
@@ -688,6 +688,12 @@ const map = L.map('map', {
     zoom: 15,
     zoomControl: true,
 });
+
+// 提升 Leaflet zoom 控件的 z-index，使其在 search-overlay(10000) 之上可见可操作
+setTimeout(() => {
+    const zoomCtrl = document.querySelector('.leaflet-control-zoom');
+    if (zoomCtrl) zoomCtrl.style.zIndex = '10001';
+}, 100);
 
 // 底图
 const osmLayer = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -2071,19 +2077,40 @@ function doSearchLocation() {
         });
     });
 
-    // 地图飞到中心点，并向左偏移避免被右侧 info-panel 遮挡
-    map.flyTo([lat, lon], 16, { duration: 0.8 });
-    setTimeout(() => {
-        const infoPanel = document.getElementById('info');
-        const pw = infoPanel ? infoPanel.offsetWidth + 20 : 320;
-        const mw = map.getSize().x;
-        if (pw > 0 && mw > pw) {
-            map.panBy([-pw / 2, 0], { animate: true });
-        }
-    }, 900);
+    // 地图飞到中心点：保持当前 zoom 或至少 16，不强制缩放
+    const isMobile = window.innerWidth < 768;
+    const currentZoom = map.getZoom();
+    const targetZoom = Math.max(currentZoom, isMobile ? 15 : 16);
+    const bounds = map.getBounds();
+    const targetLatLng = L.latLng(lat, lon);
+
+    if (!bounds.contains(targetLatLng) || currentZoom < targetZoom) {
+        // 目标不在当前视野内，或 zoom 太低 → 需要飞行
+        map.flyTo([lat, lon], targetZoom, { duration: 0.8 });
+    }
+
+    // 仅在 PC 端偏移避开 info-panel（手机端 info-panel 在右上角，面积小）
+    if (!isMobile) {
+        setTimeout(() => {
+            const infoPanel = document.getElementById('info');
+            const pw = infoPanel ? infoPanel.offsetWidth + 20 : 320;
+            const mw = map.getSize().x;
+            if (pw > 0 && mw > pw) {
+                map.panBy([-pw / 2, 0], { animate: true });
+            }
+        }, 900);
+    }
 
     // 渲染结果列表
     renderSearchResults(foundJunctions, foundIntersections, lat, lon, RADIUS);
+
+    // 搜索完成后自动最小化面板，让用户能看到地图上的标记
+    setTimeout(() => {
+        const searchOverlay = document.getElementById('search-overlay');
+        if (searchOverlay && !searchOverlay.classList.contains('minimized')) {
+            toggleSearchMinimize();
+        }
+    }, 200);
 
     // 【新增】在搜索结果头部显示范围内建筑最大高度（纯 OSM 原始数据，不计算）
     setTimeout(() => {
