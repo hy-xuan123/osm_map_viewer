@@ -6,6 +6,7 @@ __pycache__/
 
 # 文档
 *.md
+!README.md
 
 # 不需要上传的文件
 saved_markers/
