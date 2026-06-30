@@ -16,7 +16,38 @@ body { font-family: "Microsoft YaHei", "PingFang SC", sans-serif; }
     padding:12px 16px; box-shadow:0 2px 12px rgba(0,0,0,0.15);
     font-size:13px; max-width:300px;
 }
-.info-panel h3 { margin-bottom:8px; color:#2c3e50; font-size:15px; border-bottom:2px solid #3498db; padding-bottom:4px; }
+.info-panel .panel-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 4px;
+    margin-bottom: 8px;
+}
+.info-panel .panel-header h3 {
+    margin-bottom: 0;
+    color: #2c3e50;
+    font-size: 15px;
+    white-space: nowrap;
+    flex: 1;
+    min-width: 0;
+}
+.info-panel .panel-header .collapse-btn {
+    display: none;
+    flex-shrink: 0;
+    margin-left: 8px;
+    background: #7f8c8d;
+    color: white;
+    border: 1px solid #7f8c8d;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 1;
+    padding: 2px 8px;
+    min-width: 24px;
+    text-align: center;
+}
 .info-panel .legend { line-height:2; }
 .info-panel .stats { margin-top:8px; color:#666; font-size:12px; }
 .legend-toggle {
@@ -255,6 +286,14 @@ body { font-family: "Microsoft YaHei", "PingFang SC", sans-serif; }
     border-radius:4px; cursor:pointer; font-size:12px;
     background:white;
 }
+.search-footer button.minimize-btn {
+    background:#95a5a6; color:white; border-color:#7f8c8d;
+    font-size:16px; font-weight:bold; line-height:1;
+    padding:2px 10px;
+}
+.search-footer button.minimize-btn:hover {
+    background:#7f8c8d;
+}
 .search-footer button.primary {
     background:#e74c3c; color:white; border-color:#c0392b;
 }
@@ -389,9 +428,6 @@ body { font-family: "Microsoft YaHei", "PingFang SC", sans-serif; }
 /* 手机端图例面板可收起 */
 .info-panel .collapse-btn {
     display: none;
-    position: absolute; top: 4px; right: 8px;
-    background: none; border: none; cursor: pointer;
-    font-size: 16px; color: #999; padding: 2px 4px;
 }
 .info-panel.collapsed {
     padding: 6px 10px;
@@ -401,38 +437,49 @@ body { font-family: "Microsoft YaHei", "PingFang SC", sans-serif; }
     cursor: pointer;
     border-radius: 50%;
 }
-.info-panel.collapsed h3 { display: none; }
+.info-panel.collapsed .panel-header h3 { display: none; }
+.info-panel.collapsed .panel-header { border-bottom: none; padding-bottom: 0; margin-bottom: 0; }
 .info-panel.collapsed .legend { display: none; }
 .info-panel.collapsed .stats { display: none; }
 .info-panel.collapsed .collapse-btn {
     display: block;
-    right: auto; left: 50%; top: 50%;
-    transform: translate(-50%, -50%);
+    margin: 0 auto;
     font-size: 14px;
+    flex-shrink: unset;
 }
 
-/* 搜索面板最小化状态 */
+/* 搜索面板最小化状态：完全隐藏对话框，只显示 SL 图标 */
 .search-overlay.minimized .search-dialog {
-    transform: scale(0.35) translate(0, 0);
-    transform-origin: top left;
-    opacity: 0.45;
-    pointer-events: none;
-    transition: all 0.4s ease;
+    display: none;
 }
-.search-overlay.minimized::after {
-    content: '🔍 点击恢复搜索面板';
+
+/* 最小化悬浮图标（左上角 SL） */
+.search-minimized-icon {
+    display: none;
     position: fixed;
     top: 10px;
-    right: 10px;
-    background: rgba(0,0,0,0.75);
+    left: 10px;
+    z-index: 10002;
+    width: 44px;
+    height: 44px;
+    border-radius: 8px;
+    background: #3498db;
     color: white;
-    padding: 8px 14px;
-    border-radius: 6px;
-    font-size: 12px;
-    z-index: 10001;
+    border: none;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.3);
     cursor: pointer;
-    pointer-events: auto;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+    font-size: 15px;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.2s, background 0.2s;
+}
+.search-minimized-icon:hover {
+    transform: scale(1.1);
+    background: #2980b9;
+}
+.search-minimized-icon.visible {
+    display: flex;
 }
 
 @media (max-width: 768px) {
@@ -442,8 +489,12 @@ body { font-family: "Microsoft YaHei", "PingFang SC", sans-serif; }
         font-size: 12px;
         padding: 8px 10px;
     }
-    .info-panel .collapse-btn {
+    .info-panel .panel-header .collapse-btn {
         display: block;
+    }
+    .info-panel .panel-header h3 {
+        font-size: 14px;
+        white-space: nowrap;
     }
     .info-panel.collapsed {
         display: block;
@@ -545,8 +596,10 @@ body { font-family: "Microsoft YaHei", "PingFang SC", sans-serif; }
 <body>
 <div id="map"></div>
 <div class="info-panel" id="info">
-    <span class="collapse-btn" onclick="event.stopPropagation(); toggleInfoPanel()" title="收起/展开">📋</span>
-    <h3>贵港市</h3>
+    <div class="panel-header">
+        <h3>Guigang_Minzu_Park</h3>
+        <span class="collapse-btn" onclick="event.stopPropagation(); toggleInfoPanel()" title="收起/展开">─</span>
+    </div>
     <div class="legend"><span style="display:inline-block;width:14px;height:14px;background:#f39c12;border-radius:3px;margin-right:4px;vertical-align:middle"></span>主干道 <span style="display:inline-block;width:14px;height:14px;background:#e67e22;border-radius:3px;margin-right:4px;vertical-align:middle"></span>主路匝道 <span style="display:inline-block;width:14px;height:14px;background:#3498db;border-radius:3px;margin-right:4px;vertical-align:middle"></span>三级路 <span style="display:inline-block;width:14px;height:14px;background:#2ecc71;border-radius:3px;margin-right:4px;vertical-align:middle"></span>次干道 <span style="display:inline-block;width:14px;height:14px;background:#7f8c8d;border-radius:3px;margin-right:4px;vertical-align:middle"></span>服务路 <span style="display:inline-block;width:14px;height:14px;background:#9b59b6;border-radius:3px;margin-right:4px;vertical-align:middle"></span>住宅区路 <span style="display:inline-block;width:14px;height:14px;background:#2980b9;border-radius:3px;margin-right:4px;vertical-align:middle"></span>三级路匝道 <span style="display:inline-block;width:14px;height:14px;background:#607d8b;border-radius:3px;margin-right:4px;vertical-align:middle"></span>未分类 <span style="display:inline-block;width:14px;height:14px;background:#8e44ad;border-radius:3px;margin-right:4px;vertical-align:middle"></span>主干路匝道 <span style="display:inline-block;width:14px;height:14px;background:#1abc9c;border-radius:3px;margin-right:4px;vertical-align:middle"></span>人行道 </div>
     <div class="stats">
         道路: 83段 | 建筑: 27栋 | 水域: 2处 | 用地: 9块 | POI: 9<br>交叉口: 106个 | 路口: 56个
@@ -569,7 +622,7 @@ body { font-family: "Microsoft YaHei", "PingFang SC", sans-serif; }
     <button id="btn-pois" class="on" onclick="toggleLayer('pois')">POI</button>
     <button id="btn-junctions" class="on" onclick="toggleJunctions()">Junction</button>
     <button id="btn-intersection" class="on" onclick="toggleIntersection()">Intersection</button>
-    <button id="btn-traffic" class="off" onclick="toggleTrafficSignals()">🚦 信号灯</button>
+    <button id="btn-traffic" class="off" onclick="toggleTrafficSignals()">🚦 Traffic Light</button>
     <span style="display:inline-block;width:8px"></span>
     <button id="btn-coord" class="off" onclick="showCoordinates()">Coordinates</button>
     <span style="display:inline-block;width:8px"></span>
@@ -605,7 +658,7 @@ body { font-family: "Microsoft YaHei", "PingFang SC", sans-serif; }
         <button id="m-btn-pois" class="on" onclick="toggleLayer('pois'); updateMobilePanel()">POI</button>
         <button id="m-btn-junctions" class="on" onclick="toggleJunctions(); updateMobilePanel()">Junction</button>
         <button id="m-btn-intersection" class="on" onclick="toggleIntersection(); updateMobilePanel()">Intersection</button>
-        <button id="m-btn-traffic" class="off" onclick="toggleTrafficSignals(); updateMobilePanel()">🚦 信号灯</button>
+        <button id="m-btn-traffic" class="off" onclick="toggleTrafficSignals(); updateMobilePanel()">🚦 Traffic Light</button>
     </div>
     <div class="panel-section">
         <div class="panel-label">功能</div>
@@ -985,10 +1038,10 @@ function toggleIntersection() {
     }
 }
 
-// === 交通信号灯层 ===
+// === Traffic Light layer ===
 let trafficSignalsVisible = false;
 let trafficSignalsLayer = null;
-let trafficSignalsData = [];  // 存储交通信号灯数据
+let trafficSignalsData = [];  // Traffic Light data
 let downloadedTrafficSignalsLayer = null;
 let downloadedTrafficSignalsData = [];
 
@@ -996,10 +1049,10 @@ let downloadedTrafficSignalsData = [];
 let currentDataset = null;  // 当前加载的数据集信息
 let currentOsmPath = null;  // 当前加载的OSM数据路径
 
-// 渲染交通信号灯数据
+// Render Traffic Light data
 function renderTrafficSignals(data, isDownloaded = false) {
     if (!data || data.length === 0) {
-        console.log('该区域无交通信号灯数据');
+        console.log('No Traffic Light data in this area');
         return;
     }
 
@@ -1014,7 +1067,7 @@ function renderTrafficSignals(data, isDownloaded = false) {
             weight: 2
         });
 
-        let popupContent = '<b>🚦 交通信号灯</b>';
+        let popupContent = '<b>🚦 Traffic Light</b>';
         if (ts.tags) {
             if (ts.tags.name) popupContent += `<br>名称: ${ts.tags.name}`;
             if (ts.tags.crossing) popupContent += `<br>人行横道: ${ts.tags.crossing}`;
@@ -1117,7 +1170,7 @@ async function loadLocalTrafficSignals() {
             return;
         }
         
-        console.log('尝试从目录加载交通信号灯:', baseDir);
+        console.log('Trying to load Traffic Light from directory:', baseDir);
         
         // 尝试加载 traffic_signals.json
         const resp = await fetch(baseDir + '/traffic_signals.json');
@@ -1181,10 +1234,10 @@ async function loadLocalTrafficSignals() {
         }
         
         // 如果所有方法都失败，提示用户
-        alert('该区域无交通信号灯数据！\n\n可能的解决方案：\n1. 使用 "Search Location" 下载其他区域数据\n2. 检查 OSM 原始数据中是否包含 traffic_signals');
+        alert('No Traffic Light data in this area!\n\nPossible solutions:\n1. Use "Search Location" to download other area data\n2. Check if the OSM raw data contains traffic_signals');
     } catch (error) {
-        console.error('加载本地信号灯数据失败:', error);
-        alert('加载交通信号灯数据失败：' + error.message);
+        console.error('Failed to load local traffic light data:', error);
+        alert('Failed to load Traffic Light data: ' + error.message);
     }
 }
 
@@ -1413,6 +1466,7 @@ async function showSearchLocation(lat, lon) {
                 <div class="empty">输入坐标和半径后点击搜索，查找指定范围内的交叉口</div>
             </div>
             <div class="search-footer">
+                <button class="minimize-btn" onclick="toggleSearchMinimize()" title="最小化到左上角">─</button>
                 <button class="primary" onclick="closeSearchOverlay()">关闭</button>
             </div>
         </div>`;
@@ -1450,12 +1504,52 @@ async function showSearchLocation(lat, lon) {
     }, 100);
 }
 
+function toggleSearchMinimize() {
+    const overlay = document.getElementById('search-overlay');
+    if (!overlay) return;
+
+    const isMinimized = overlay.classList.contains('minimized');
+
+    if (isMinimized) {
+        // 恢复：移除最小化状态，销毁 SL 图标
+        overlay.classList.remove('minimized');
+        const icon = document.getElementById('search-min-icon');
+        if (icon) icon.remove();
+        if (!_mapPickMode) {
+            overlay.style.pointerEvents = '';
+            overlay.style.background = '';
+        }
+    } else {
+        // 最小化：隐藏对话框，在左上角创建 SL 图标
+        overlay.classList.add('minimized');
+        overlay.style.background = 'transparent';
+        overlay.style.pointerEvents = 'none';
+
+        // 创建 SL 悬浮图标（如果还没有）
+        if (!document.getElementById('search-min-icon')) {
+            const icon = document.createElement('button');
+            icon.id = 'search-min-icon';
+            icon.className = 'search-minimized-icon visible';
+            icon.title = '恢复搜索面板';
+            icon.textContent = 'SL';
+            icon.onclick = toggleSearchMinimize;
+            document.body.appendChild(icon);
+        }
+    }
+}
+
 function closeSearchOverlay() {
     stopMapPick(); // 退出地图选点模式
     clearSearchHighlight();
     clearJunctionHighlight(); // 清除交点高亮状态
+
+    // 清理最小化图标
+    const icon = document.getElementById('search-min-icon');
+    if (icon) icon.remove();
+
     const overlay = document.getElementById('search-overlay');
     if (overlay) overlay.remove();
+
     setFunctionBtnState('searchlocation', false);
 }
 
@@ -2635,7 +2729,7 @@ async function downloadOSMAndRender() {
 
         if (progressEl) progressEl.classList.remove('active');
 
-        alert(`下载完成！\n共 ${result.roads.length} 条道路\n${result.junctions.length} 个交叉口\n${result.intersections.length} 个路口\n${result.trafficSignals.length} 个交通信号灯`);
+        alert(`Download complete!\n${result.roads.length} roads\n${result.junctions.length} junctions\n${result.intersections.length} intersections\n${result.trafficSignals.length} traffic lights`);
 
     } catch (error) {
         console.error('下载 OSM 数据失败:', error);
@@ -2848,7 +2942,7 @@ function parseOSMData(data) {
         }
     });
 
-    // 提取交通信号灯
+    // Extract traffic lights
     const trafficSignals = [];
     elements.forEach(elem => {
         if (elem.type === 'node' && elem.tags && elem.tags.highway === 'traffic_signals') {
@@ -3196,7 +3290,7 @@ function updateInfoPanel(title, roadTypeCounts, buildingCount, waterCount, landu
         legendHtml = '<span style="color:#999;">无道路数据</span>';
     }
 
-    // 添加交通信号灯图例
+    // Add Traffic Light legend
     const tCount = trafficSignalsCount || 0;
     if (tCount > 0) {
         legendHtml += `<span style="margin-left:8px;display:inline-block;width:14px;height:14px;text-align:center;line-height:14px;font-size:12px;vertical-align:middle;">🚦</span> 信号灯 `;
