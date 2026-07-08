@@ -1,0 +1,55 @@
+{
+  "download_time": "2026-07-02T13:48:04.305727",
+  "center_coordinates": {
+    "latitude": 43.853953,
+    "longitude": 125.3269005
+  },
+  "download_range": {
+    "north": 43.862953,
+    "south": 43.844953,
+    "east": 125.3359005,
+    "west": 125.3179005,
+    "expand": 0.009
+  },
+  "alias": "changchun_jilinU_nanling_campus",
+  "data_categories": [
+    "roads",
+    "buildings",
+    "water",
+    "landuse",
+    "pois",
+    "traffic_signals"
+  ],
+  "statistics": {
+    "roads": {
+      "ways": 456,
+      "nodes": 3077,
+      "total_elements": 3533
+    },
+    "buildings": {
+      "ways": 325,
+      "nodes": 3566,
+      "total_elements": 3891
+    },
+    "water": {
+      "ways": 2,
+      "nodes": 90,
+      "total_elements": 92
+    },
+    "landuse": {
+      "ways": 299,
+      "nodes": 3351,
+      "total_elements": 3650
+    },
+    "pois": {
+      "ways": 0,
+      "nodes": 35,
+      "total_elements": 35
+    },
+    "traffic_signals": {
+      "ways": 0,
+      "nodes": 0,
+      "total_elements": 0
+    }
+  }
+}

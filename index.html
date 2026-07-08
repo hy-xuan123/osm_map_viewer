@@ -457,22 +457,32 @@ body { font-family: "Microsoft YaHei", "PingFang SC", sans-serif; overflow-x:hid
     display: none;
 }
 .info-panel.collapsed {
-    padding: 6px 10px;
+    padding: 6px;
     max-width: 40px;
     max-height: 40px;
     overflow: hidden;
     cursor: pointer;
     border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .info-panel.collapsed .panel-header h3 { display: none; }
 .info-panel.collapsed .panel-header { border-bottom: none; padding-bottom: 0; margin-bottom: 0; }
 .info-panel.collapsed .legend { display: none; }
 .info-panel.collapsed .stats { display: none; }
 .info-panel.collapsed .collapse-btn {
-    display: block;
-    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
     font-size: 14px;
-    flex-shrink: unset;
+    flex-shrink: 0;
+    width: 28px;
+    height: 28px;
+    padding: 0;
+    border-radius: 50%;
+    position: static;
 }
 
 /* 搜索面板最小化状态：完全隐藏对话框，只显示 SL 图标 */
@@ -544,18 +554,18 @@ body { font-family: "Microsoft YaHei", "PingFang SC", sans-serif; overflow-x:hid
 
     /* 手机端：移动端菜单按钮无需额外基础样式（已由全局定义） */
 
-    /* iOS 安全区域适配：悬浮按钮避让刘海屏和底部横条 */
+    /* iOS 安全区域适配：悬浮按钮避让刘海屏和底部横条，限制最大偏移防止跑出屏幕 */
     .mobile-menu-btn {
-        bottom: calc(20px + env(safe-area-inset-bottom, 0px));
-        right: calc(20px + env(safe-area-inset-right, 0px));
+        bottom: clamp(20px, calc(20px + env(safe-area-inset-bottom, 0px)), 60px);
+        right: clamp(10px, calc(20px + env(safe-area-inset-right, 0px)), 30px);
     }
     .search-minimized-icon.visible {
-        top: calc(10px + env(safe-area-inset-top, 0px));
-        left: calc(10px + env(safe-area-inset-left, 0px));
+        top: clamp(10px, calc(10px + env(safe-area-inset-top, 0px)), 40px);
+        left: clamp(10px, calc(10px + env(safe-area-inset-left, 0px)), 30px);
     }
     .info-panel {
-        top: calc(10px + env(safe-area-inset-top, 0px));
-        right: calc(10px + env(safe-area-inset-right, 0px));
+        top: clamp(10px, calc(10px + env(safe-area-inset-top, 0px)), 40px);
+        right: clamp(10px, calc(10px + env(safe-area-inset-right, 0px)), 30px);
     }
     /* Leaflet 缩放控件：始终在 overlay 之上 */
     .leaflet-control-zoom { z-index: 10003 !important; }

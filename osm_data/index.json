@@ -199,6 +199,14 @@
       "directory": "43_8616_125_3266_Changchun_jilinU_zhongxin_campus",
       "path": "osm_data/43_8616_125_3266_Changchun_jilinU_zhongxin_campus",
       "download_time": "2026-06-30T14:33:06.513155"
+    },
+    {
+      "lat": 43.853953,
+      "lon": 125.3269005,
+      "alias": "changchun_jilinU_nanling_campus",
+      "directory": "43_8540_125_3269_changchun_jilinU_nanling_campus",
+      "path": "osm_data/43_8540_125_3269_changchun_jilinU_nanling_campus",
+      "download_time": "2026-07-02T13:48:04.307414"
     }
   ]
 }

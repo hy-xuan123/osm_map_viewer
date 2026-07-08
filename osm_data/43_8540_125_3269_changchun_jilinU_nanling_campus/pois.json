@@ -1,0 +1,447 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-07-02T05:47:11Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 1296161409,
+      "lat": 43.8612916,
+      "lon": 125.3180987,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "麦当劳",
+        "brand:en": "McDonald's",
+        "brand:wikidata": "Q38076",
+        "brand:zh": "麦当劳",
+        "cuisine": "burger",
+        "name": "麦当劳",
+        "name:en": "McDonald's",
+        "name:zh": "麦当劳",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3033928559,
+      "lat": 43.8627962,
+      "lon": 125.3194512,
+      "tags": {
+        "amenity": "bank",
+        "atm": "yes",
+        "name": "华夏银行"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6423665172,
+      "lat": 43.8534058,
+      "lon": 125.3298584,
+      "tags": {
+        "alt_name": "Nanling Subdistrict;南岭",
+        "capital": "8",
+        "name": "南岭街道",
+        "name:en": "Nanling",
+        "name:zh": "南岭街道",
+        "name:zh-Latn-pinyin": "nánlǐng jiēdào",
+        "official_name": "南岭街道",
+        "place": "suburb",
+        "place:CN": "subdistrict",
+        "wikidata": "Q10907634",
+        "wikipedia": "zh:南岭街道"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6520150653,
+      "lat": 43.861682,
+      "lon": 125.3185925,
+      "tags": {
+        "name": "东北师大",
+        "name:en": "Northeast Normal University",
+        "public_transport": "station",
+        "railway": "station",
+        "station": "subway",
+        "subway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6520150654,
+      "lat": 43.8485811,
+      "lon": 125.3188767,
+      "tags": {
+        "name": "工农广场",
+        "name:en": "Gongnong Square",
+        "public_transport": "station",
+        "railway": "station",
+        "station": "subway",
+        "subway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6792801969,
+      "lat": 43.8606871,
+      "lon": 125.3211103,
+      "tags": {
+        "artwork_type": "sculpture",
+        "material": "metal",
+        "name": "音符雕塑",
+        "tourism": "artwork"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7981104718,
+      "lat": 43.8568933,
+      "lon": 125.3309739,
+      "tags": {
+        "amenity": "public_bath",
+        "name": "南岭浴池"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7981104723,
+      "lat": 43.856891,
+      "lon": 125.3301493,
+      "tags": {
+        "name": "致远超市",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7981104724,
+      "lat": 43.856955,
+      "lon": 125.3301506,
+      "tags": {
+        "name": "文印社",
+        "shop": "copyshop"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7981104725,
+      "lat": 43.8570035,
+      "lon": 125.3301506,
+      "tags": {
+        "name": "洗衣店",
+        "shop": "laundry"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7981104773,
+      "lat": 43.8528603,
+      "lon": 125.3268459,
+      "tags": {
+        "artwork_type": "sculpture",
+        "tourism": "artwork"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11928460238,
+      "lat": 43.8570938,
+      "lon": 125.3194307,
+      "tags": {
+        "barrier": "gate",
+        "name": "北1门"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11928485858,
+      "lat": 43.8572644,
+      "lon": 125.3236544,
+      "tags": {
+        "barrier": "gate",
+        "full_name": "东北师范大学 (南门)",
+        "name": "南门"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11928485861,
+      "lat": 43.8570926,
+      "lon": 125.3203354,
+      "tags": {
+        "barrier": "gate",
+        "name": "北2门"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12180309582,
+      "lat": 43.8616582,
+      "lon": 125.3185403,
+      "tags": {
+        "name": "东北师大",
+        "name:en": "Northeast Normal University",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "station": "subway",
+        "subway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12180309583,
+      "lat": 43.8485746,
+      "lon": 125.3188407,
+      "tags": {
+        "name": "工农广场",
+        "name:en": "Gongnong Square",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "subway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12180309639,
+      "lat": 43.8616605,
+      "lon": 125.3187209,
+      "tags": {
+        "name": "东北师大",
+        "name:en": "Northeast Normal University",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "station": "subway",
+        "subway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12180309640,
+      "lat": 43.8485765,
+      "lon": 125.3190213,
+      "tags": {
+        "name": "工农广场",
+        "name:en": "Gongnong Square",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "subway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13038440498,
+      "lat": 43.8602705,
+      "lon": 125.326125,
+      "tags": {
+        "name": "天猫校园（东北师范大学本部店）",
+        "name:en": "Tmall Campus Store (NENU Ziyou Campus Branch)",
+        "name:zh": "天猫校园",
+        "name:zh-Hans": "天猫校园（东北师范大学本部店）",
+        "name:zh-Hant": "天貓校園（東北師範大學本部店）",
+        "payment:alipay": "yes",
+        "payment:cash": "yes",
+        "payment:coins": "yes",
+        "payment:unionpay": "yes",
+        "payment:wechat": "yes",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13038474813,
+      "lat": 43.8612414,
+      "lon": 125.3266978,
+      "tags": {
+        "amenity": "parcel_locker"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13038474814,
+      "lat": 43.8613349,
+      "lon": 125.3267019,
+      "tags": {
+        "amenity": "parcel_locker"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13038474815,
+      "lat": 43.861378,
+      "lon": 125.3266684,
+      "tags": {
+        "amenity": "parcel_locker"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13038474816,
+      "lat": 43.8612427,
+      "lon": 125.3266512,
+      "tags": {
+        "amenity": "parcel_locker"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13038474817,
+      "lat": 43.8613346,
+      "lon": 125.3266492,
+      "tags": {
+        "amenity": "parcel_locker"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13038474818,
+      "lat": 43.8612788,
+      "lon": 125.3265672,
+      "tags": {
+        "amenity": "post_office",
+        "name": "东师快递服务中心",
+        "name:en": "NENU Express Service Center",
+        "name:zh": "东师快递服务中心",
+        "name:zh-Hans": "东师快递服务中心",
+        "name:zh-Hant": "東師快遞服務中心",
+        "opening_hours": "Mo-Su 09:00-20:00"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13038474855,
+      "lat": 43.8603142,
+      "lon": 125.3274308,
+      "tags": {
+        "brand": "中国联通",
+        "brand:en": "China Unicom",
+        "brand:wikidata": "Q1068485",
+        "brand:zh": "中国联通",
+        "name": "中国联通",
+        "name:en": "China Unicom",
+        "name:zh": "中国联通",
+        "shop": "telecommunication"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13061633194,
+      "lat": 43.8574413,
+      "lon": 125.3196304,
+      "tags": {
+        "amenity": "parking_entrance",
+        "parking": "underground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13942049536,
+      "lat": 43.8602598,
+      "lon": 125.3204656,
+      "tags": {
+        "museum": "history",
+        "name": "校史馆",
+        "name:en": "University History Museum",
+        "name:ru": "Музей истории университета",
+        "name:zh": "校史馆",
+        "name:zh-Hans": "校史馆",
+        "name:zh-Hant": "校史館",
+        "operator": "东北师范大学",
+        "operator:type": "university",
+        "tourism": "museum"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13942274289,
+      "lat": 43.8581256,
+      "lon": 125.3215063,
+      "tags": {
+        "amenity": "parking_entrance",
+        "parking": "underground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13944690727,
+      "lat": 43.8614695,
+      "lon": 125.3301383,
+      "tags": {
+        "amenity": "parking_entrance",
+        "parking": "underground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13944690729,
+      "lat": 43.8614753,
+      "lon": 125.330662,
+      "tags": {
+        "amenity": "parking_entrance",
+        "parking": "underground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13946796214,
+      "lat": 43.8557525,
+      "lon": 125.3217403,
+      "tags": {
+        "amenity": "parking_entrance",
+        "parking": "underground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13947291509,
+      "lat": 43.8581401,
+      "lon": 125.3319669,
+      "tags": {
+        "building": "dormitory",
+        "name": "2-3公寓",
+        "name:en": "Apartment 2-3",
+        "name:ru": "Общежитие 2-3",
+        "name:zh": "2-3公寓",
+        "name:zh-Hans": "2-3公寓",
+        "name:zh-Hant": "2-3公寓",
+        "operator": "吉林体育学院",
+        "ref": "2-3"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13947291765,
+      "lat": 43.8606272,
+      "lon": 125.3330424,
+      "tags": {
+        "amenity": "research_institute",
+        "name": "吉林省体育科学研究所（吉林省反兴奋剂中心）",
+        "name:en": "Jilin Provincial Institute of Sports Science (Jilin Provincial Anti-Doping Center)",
+        "name:ru": "Цзилиньский провинциальный институт спортивной науки (Центр антидопинга провинции Цзилинь)",
+        "name:zh": "吉林省体育科学研究所（吉林省反兴奋剂中心）",
+        "name:zh-Hans": "吉林省体育科学研究所（吉林省反兴奋剂中心）",
+        "name:zh-Hant": "吉林省體育科學研究所（吉林省反興奮劑中心）",
+        "office": "research",
+        "operator": "吉林省体育局"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13960073992,
+      "lat": 43.852786,
+      "lon": 125.3305889,
+      "tags": {
+        "amenity": "research_institute",
+        "name": "汽车仿真与控制国家重点实验室",
+        "name:en": "State Key Laboratory of Automotive Simulation and Control",
+        "name:ru": "Государственная ключевая лаборатория моделирования и управления автомобилями",
+        "name:zh": "汽车仿真与控制国家重点实验室",
+        "name:zh-Hans": "汽车仿真与控制国家重点实验室",
+        "name:zh-Hant": "汽車仿真與控制國家重點實驗室",
+        "office": "research",
+        "operator": "吉林大学"
+      }
+    }
+  ]
+}
