@@ -21,3 +21,6 @@ extract_osm_info.py
 test_osm_base.py
 verify_traffic_signals.py
 interactive_download.py
+
+# 忽略特定数据集
+osm_data/22_8173_108_4198_nanning_fengling_spring/
