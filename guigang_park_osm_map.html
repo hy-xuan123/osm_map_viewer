@@ -1,3 +1,9 @@
+<!--
+  OSM-Vis - Guigang Park OSM Map
+  Author: hy-xuan123
+  Date: 6/26/2026
+  Description: OSM map viewer for Guigang Park area with road network visualization
+-->
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
@@ -2585,15 +2591,21 @@ function renderDownloadedRoads(roads) {
         'cycleway': { color: '#8bc34a', weight: 2 },
     };
 
-    // 将 footway/pedestrian/path/steps/bridleway 统一归到 footway 图层组
-    const footwayGroupTypes = ['footway', 'pedestrian', 'path', 'steps', 'bridleway'];
+    // 将 trunk 归入主干道(primary)图层，由"主干道"按钮控制
+    const primaryGroupTypes = ['primary', 'trunk'];
+    // 将 footway/pedestrian/path/steps/bridleway/cycleway 统一归到 footway 图层组
+    const footwayGroupTypes = ['footway', 'pedestrian', 'path', 'steps', 'bridleway', 'cycleway'];
 
     roads.forEach(feature => {
         let hw = feature.properties.highway;
         const cfg = roadTypeConfig[hw] || { color: '#999999', weight: 2 };
 
-        // 将其他人行道类型映射到 footway，以便按钮统一控制
-        if (footwayGroupTypes.includes(hw)) {
+        // 将 trunk 映射到 primary，以便"主干道"按钮统一控制
+        if (primaryGroupTypes.includes(hw)) {
+            hw = 'primary';
+        }
+        // 将人行道/自行车道等映射到 footway，以便"人行道"按钮统一控制
+        else if (footwayGroupTypes.includes(hw)) {
             hw = 'footway';
         }
 

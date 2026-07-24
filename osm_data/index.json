@@ -9,22 +9,6 @@
       "download_time": "2026-06-26T17:01:39.519493"
     },
     {
-      "lat": 22.164,
-      "lon": 113.5578,
-      "alias": "macau_university",
-      "directory": "22_1640_113_5578_macau_university",
-      "path": "osm_data/22_1640_113_5578_macau_university",
-      "download_time": "2026-06-26T17:29:43.618368"
-    },
-    {
-      "lat": 43.856773,
-      "lon": 125.340964,
-      "alias": "changchun_jilin_university_nanling",
-      "directory": "43_8568_125_3410_jilin_university_nanling",
-      "path": "osm_data/43_8568_125_3410_jilin_university_nanling",
-      "download_time": "2026-06-26T18:00:55.171619"
-    },
-    {
       "lat": 30.835,
       "lon": 121.508,
       "alias": "shanghai_normal_university",
