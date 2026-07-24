@@ -1,0 +1,766 @@
+{
+  "source": "parseOSMData",
+  "dataset": "22_8128_108_5806_nanning_narong_overpass",
+  "data_file": "combined.json",
+  "generated_time": "2026-07-07T17:13:08.110330",
+  "total_junctions": 57,
+  "total_intersections": 0,
+  "junctions": [
+    {
+      "node_id": 3982925093,
+      "lat": 22.8148219,
+      "lon": 108.5857872,
+      "way_count": 3,
+      "roads": [
+        "[motorway_link]",
+        "[motorway_link]",
+        "[motorway_link]"
+      ],
+      "highways": [
+        "motorway_link"
+      ]
+    },
+    {
+      "node_id": 3982925123,
+      "lat": 22.8189012,
+      "lon": 108.5786145,
+      "way_count": 3,
+      "roads": [
+        "[motorway_link]",
+        "南宁绕城高速",
+        "南宁绕城高速"
+      ],
+      "highways": [
+        "motorway_link",
+        "motorway"
+      ]
+    },
+    {
+      "node_id": 3982925124,
+      "lat": 22.8195757,
+      "lon": 108.5782247,
+      "way_count": 3,
+      "roads": [
+        "[motorway_link]",
+        "南宁绕城高速",
+        "南宁绕城高速"
+      ],
+      "highways": [
+        "motorway_link",
+        "motorway"
+      ]
+    },
+    {
+      "node_id": 3982924054,
+      "lat": 22.8133751,
+      "lon": 108.5805897,
+      "way_count": 3,
+      "roads": [
+        "[motorway_link]",
+        "南宁绕城高速",
+        "南宁绕城高速"
+      ],
+      "highways": [
+        "motorway_link",
+        "motorway"
+      ]
+    },
+    {
+      "node_id": 5542502070,
+      "lat": 22.8116329,
+      "lon": 108.5731787,
+      "way_count": 2,
+      "roads": [
+        "泉南高速 广昆高速",
+        "[motorway_link]"
+      ],
+      "highways": [
+        "motorway_link",
+        "motorway"
+      ]
+    },
+    {
+      "node_id": 3982925100,
+      "lat": 22.8151638,
+      "lon": 108.5875173,
+      "way_count": 2,
+      "roads": [
+        "泉南高速 广昆高速",
+        "[motorway_link]"
+      ],
+      "highways": [
+        "motorway_link",
+        "motorway"
+      ]
+    },
+    {
+      "node_id": 7649500511,
+      "lat": 22.8169531,
+      "lon": 108.5916108,
+      "way_count": 2,
+      "roads": [
+        "泉南高速 广昆高速",
+        "[motorway_link]"
+      ],
+      "highways": [
+        "motorway_link",
+        "motorway"
+      ]
+    },
+    {
+      "node_id": 3982923999,
+      "lat": 22.8080444,
+      "lon": 108.5808653,
+      "way_count": 2,
+      "roads": [
+        "[motorway_link]",
+        "南宁绕城高速"
+      ],
+      "highways": [
+        "motorway_link",
+        "motorway"
+      ]
+    },
+    {
+      "node_id": 3982924020,
+      "lat": 22.8112727,
+      "lon": 108.5781382,
+      "way_count": 2,
+      "roads": [
+        "[motorway_link]",
+        "[motorway_link]"
+      ],
+      "highways": [
+        "motorway_link"
+      ]
+    },
+    {
+      "node_id": 3982924001,
+      "lat": 22.8083881,
+      "lon": 108.5805,
+      "way_count": 2,
+      "roads": [
+        "[motorway_link]",
+        "[motorway_link]"
+      ],
+      "highways": [
+        "motorway_link"
+      ]
+    },
+    {
+      "node_id": 3982954883,
+      "lat": 22.8045396,
+      "lon": 108.5799555,
+      "way_count": 2,
+      "roads": [
+        "[motorway_link]",
+        "南宁绕城高速"
+      ],
+      "highways": [
+        "motorway_link",
+        "motorway"
+      ]
+    },
+    {
+      "node_id": 3982924039,
+      "lat": 22.8121845,
+      "lon": 108.5818345,
+      "way_count": 2,
+      "roads": [
+        "[motorway_link]",
+        "[motorway_link]"
+      ],
+      "highways": [
+        "motorway_link"
+      ]
+    },
+    {
+      "node_id": 3982925097,
+      "lat": 22.8150871,
+      "lon": 108.5815787,
+      "way_count": 2,
+      "roads": [
+        "[motorway_link]",
+        "[motorway_link]"
+      ],
+      "highways": [
+        "motorway_link"
+      ]
+    },
+    {
+      "node_id": 3982925102,
+      "lat": 22.815873,
+      "lon": 108.5806458,
+      "way_count": 2,
+      "roads": [
+        "[motorway_link]",
+        "[motorway_link]"
+      ],
+      "highways": [
+        "motorway_link"
+      ]
+    },
+    {
+      "node_id": 3982925114,
+      "lat": 22.8167755,
+      "lon": 108.5788606,
+      "way_count": 2,
+      "roads": [
+        "[motorway_link]",
+        "[motorway_link]"
+      ],
+      "highways": [
+        "motorway_link"
+      ]
+    },
+    {
+      "node_id": 3982925072,
+      "lat": 22.8142241,
+      "lon": 108.5832386,
+      "way_count": 2,
+      "roads": [
+        "[motorway_link]",
+        "[motorway_link]"
+      ],
+      "highways": [
+        "motorway_link"
+      ]
+    },
+    {
+      "node_id": 5429712044,
+      "lat": 22.8121929,
+      "lon": 108.5791888,
+      "way_count": 2,
+      "roads": [
+        "[motorway_link]",
+        "[motorway_link]"
+      ],
+      "highways": [
+        "motorway_link"
+      ]
+    },
+    {
+      "node_id": 3982924040,
+      "lat": 22.8123094,
+      "lon": 108.5788792,
+      "way_count": 2,
+      "roads": [
+        "[motorway_link]",
+        "[motorway_link]"
+      ],
+      "highways": [
+        "motorway_link"
+      ]
+    },
+    {
+      "node_id": 5542502058,
+      "lat": 22.8127073,
+      "lon": 108.5710121,
+      "way_count": 2,
+      "roads": [
+        "[motorway_link]",
+        "泉南高速 广昆高速"
+      ],
+      "highways": [
+        "motorway_link",
+        "motorway"
+      ]
+    },
+    {
+      "node_id": 3982925115,
+      "lat": 22.8169864,
+      "lon": 108.5913865,
+      "way_count": 2,
+      "roads": [
+        "泉南高速 广昆高速",
+        "[motorway_link]"
+      ],
+      "highways": [
+        "motorway_link",
+        "motorway"
+      ]
+    },
+    {
+      "node_id": 7649500503,
+      "lat": 22.8153324,
+      "lon": 108.5799395,
+      "way_count": 2,
+      "roads": [
+        "南宁绕城高速",
+        "南宁绕城高速"
+      ],
+      "highways": [
+        "motorway"
+      ]
+    },
+    {
+      "node_id": 3982925071,
+      "lat": 22.8141637,
+      "lon": 108.586306,
+      "way_count": 2,
+      "roads": [
+        "[motorway_link]",
+        "[motorway_link]"
+      ],
+      "highways": [
+        "motorway_link"
+      ]
+    },
+    {
+      "node_id": 5429712043,
+      "lat": 22.8107342,
+      "lon": 108.5791375,
+      "way_count": 2,
+      "roads": [
+        "[motorway_link]",
+        "[motorway_link]"
+      ],
+      "highways": [
+        "motorway_link"
+      ]
+    },
+    {
+      "node_id": 5429712045,
+      "lat": 22.8133313,
+      "lon": 108.5804479,
+      "way_count": 2,
+      "roads": [
+        "南宁绕城高速",
+        "南宁绕城高速"
+      ],
+      "highways": [
+        "motorway"
+      ]
+    },
+    {
+      "node_id": 3982924019,
+      "lat": 22.8112671,
+      "lon": 108.5807734,
+      "way_count": 2,
+      "roads": [
+        "南宁绕城高速",
+        "南宁绕城高速"
+      ],
+      "highways": [
+        "motorway"
+      ]
+    },
+    {
+      "node_id": 3982924021,
+      "lat": 22.8112759,
+      "lon": 108.580895,
+      "way_count": 2,
+      "roads": [
+        "南宁绕城高速",
+        "南宁绕城高速"
+      ],
+      "highways": [
+        "motorway"
+      ]
+    },
+    {
+      "node_id": 3982925111,
+      "lat": 22.816331,
+      "lon": 108.5794557,
+      "way_count": 2,
+      "roads": [
+        "南宁绕城高速",
+        "南宁绕城高速"
+      ],
+      "highways": [
+        "motorway"
+      ]
+    },
+    {
+      "node_id": 7649500502,
+      "lat": 22.8152971,
+      "lon": 108.5798395,
+      "way_count": 2,
+      "roads": [
+        "南宁绕城高速",
+        "南宁绕城高速"
+      ],
+      "highways": [
+        "motorway"
+      ]
+    },
+    {
+      "node_id": 3982925113,
+      "lat": 22.8163724,
+      "lon": 108.5795336,
+      "way_count": 2,
+      "roads": [
+        "南宁绕城高速",
+        "南宁绕城高速"
+      ],
+      "highways": [
+        "motorway"
+      ]
+    },
+    {
+      "node_id": 12504309600,
+      "lat": 22.8107898,
+      "lon": 108.5774785,
+      "way_count": 2,
+      "roads": [
+        "[residential]",
+        "[residential]"
+      ],
+      "highways": [
+        "residential"
+      ]
+    },
+    {
+      "node_id": 12504311301,
+      "lat": 22.8121299,
+      "lon": 108.5773433,
+      "way_count": 2,
+      "roads": [
+        "[residential]",
+        "[residential]"
+      ],
+      "highways": [
+        "residential"
+      ]
+    },
+    {
+      "node_id": 12504311304,
+      "lat": 22.812639,
+      "lon": 108.5772023,
+      "way_count": 2,
+      "roads": [
+        "[residential]",
+        "[residential]"
+      ],
+      "highways": [
+        "residential"
+      ]
+    },
+    {
+      "node_id": 12504311306,
+      "lat": 22.8130073,
+      "lon": 108.5773016,
+      "way_count": 2,
+      "roads": [
+        "[residential]",
+        "[residential]"
+      ],
+      "highways": [
+        "residential"
+      ]
+    },
+    {
+      "node_id": 12504311317,
+      "lat": 22.8165967,
+      "lon": 108.5785922,
+      "way_count": 2,
+      "roads": [
+        "[residential]",
+        "[residential]"
+      ],
+      "highways": [
+        "residential"
+      ]
+    },
+    {
+      "node_id": 12504311322,
+      "lat": 22.8193376,
+      "lon": 108.5779174,
+      "way_count": 2,
+      "roads": [
+        "[residential]",
+        "[residential]"
+      ],
+      "highways": [
+        "residential"
+      ]
+    },
+    {
+      "node_id": 12504311326,
+      "lat": 22.8166487,
+      "lon": 108.5787564,
+      "way_count": 2,
+      "roads": [
+        "[residential]",
+        "[residential]"
+      ],
+      "highways": [
+        "residential"
+      ]
+    },
+    {
+      "node_id": 12504311327,
+      "lat": 22.8167201,
+      "lon": 108.5789816,
+      "way_count": 2,
+      "roads": [
+        "[residential]",
+        "[residential]"
+      ],
+      "highways": [
+        "residential"
+      ]
+    },
+    {
+      "node_id": 12504311328,
+      "lat": 22.8167621,
+      "lon": 108.5791141,
+      "way_count": 2,
+      "roads": [
+        "[residential]",
+        "[residential]"
+      ],
+      "highways": [
+        "residential"
+      ]
+    },
+    {
+      "node_id": 12504311329,
+      "lat": 22.8169565,
+      "lon": 108.579728,
+      "way_count": 2,
+      "roads": [
+        "[residential]",
+        "[residential]"
+      ],
+      "highways": [
+        "residential"
+      ]
+    },
+    {
+      "node_id": 12504311330,
+      "lat": 22.8170564,
+      "lon": 108.5799372,
+      "way_count": 2,
+      "roads": [
+        "[residential]",
+        "[residential]"
+      ],
+      "highways": [
+        "residential"
+      ]
+    },
+    {
+      "node_id": 12504311339,
+      "lat": 22.8189374,
+      "lon": 108.580148,
+      "way_count": 2,
+      "roads": [
+        "[residential]",
+        "[residential]"
+      ],
+      "highways": [
+        "residential"
+      ]
+    },
+    {
+      "node_id": 12504311343,
+      "lat": 22.8177301,
+      "lon": 108.5795384,
+      "way_count": 2,
+      "roads": [
+        "[residential]",
+        "[residential]"
+      ],
+      "highways": [
+        "residential"
+      ]
+    },
+    {
+      "node_id": 12504311347,
+      "lat": 22.8191229,
+      "lon": 108.5791415,
+      "way_count": 2,
+      "roads": [
+        "[residential]",
+        "[residential]"
+      ],
+      "highways": [
+        "residential"
+      ]
+    },
+    {
+      "node_id": 12504311360,
+      "lat": 22.8153598,
+      "lon": 108.5839385,
+      "way_count": 2,
+      "roads": [
+        "[residential]",
+        "[residential]"
+      ],
+      "highways": [
+        "residential"
+      ]
+    },
+    {
+      "node_id": 12504311363,
+      "lat": 22.8146725,
+      "lon": 108.584894,
+      "way_count": 2,
+      "roads": [
+        "[residential]",
+        "[residential]"
+      ],
+      "highways": [
+        "residential"
+      ]
+    },
+    {
+      "node_id": 12504311364,
+      "lat": 22.8138598,
+      "lon": 108.5852711,
+      "way_count": 2,
+      "roads": [
+        "[residential]",
+        "[residential]"
+      ],
+      "highways": [
+        "residential"
+      ]
+    },
+    {
+      "node_id": 12504311371,
+      "lat": 22.8115025,
+      "lon": 108.5869608,
+      "way_count": 2,
+      "roads": [
+        "[residential]",
+        "[residential]"
+      ],
+      "highways": [
+        "residential"
+      ]
+    },
+    {
+      "node_id": 12504311378,
+      "lat": 22.8090784,
+      "lon": 108.5891101,
+      "way_count": 2,
+      "roads": [
+        "[residential]",
+        "[residential]"
+      ],
+      "highways": [
+        "residential"
+      ]
+    },
+    {
+      "node_id": 12504311408,
+      "lat": 22.8167118,
+      "lon": 108.601952,
+      "way_count": 2,
+      "roads": [
+        "[residential]",
+        "[residential]"
+      ],
+      "highways": [
+        "residential"
+      ]
+    },
+    {
+      "node_id": 12504311401,
+      "lat": 22.8083492,
+      "lon": 108.5890733,
+      "way_count": 2,
+      "roads": [
+        "[residential]",
+        "[residential]"
+      ],
+      "highways": [
+        "residential"
+      ]
+    },
+    {
+      "node_id": 12794676626,
+      "lat": 22.8193615,
+      "lon": 108.5780332,
+      "way_count": 2,
+      "roads": [
+        "[residential]",
+        "[residential]"
+      ],
+      "highways": [
+        "residential"
+      ]
+    },
+    {
+      "node_id": 12794676627,
+      "lat": 22.8192434,
+      "lon": 108.578701,
+      "way_count": 2,
+      "roads": [
+        "[residential]",
+        "[residential]"
+      ],
+      "highways": [
+        "residential"
+      ]
+    },
+    {
+      "node_id": 12794676638,
+      "lat": 22.8123491,
+      "lon": 108.5777544,
+      "way_count": 2,
+      "roads": [
+        "[residential]",
+        "[residential]"
+      ],
+      "highways": [
+        "residential"
+      ]
+    },
+    {
+      "node_id": 12794676652,
+      "lat": 22.8131495,
+      "lon": 108.5839664,
+      "way_count": 2,
+      "roads": [
+        "[residential]",
+        "[residential]"
+      ],
+      "highways": [
+        "residential"
+      ]
+    },
+    {
+      "node_id": 12794676647,
+      "lat": 22.8146385,
+      "lon": 108.5838381,
+      "way_count": 2,
+      "roads": [
+        "[residential]",
+        "[residential]"
+      ],
+      "highways": [
+        "residential"
+      ]
+    },
+    {
+      "node_id": 12794676651,
+      "lat": 22.813894,
+      "lon": 108.5835845,
+      "way_count": 2,
+      "roads": [
+        "[residential]",
+        "[residential]"
+      ],
+      "highways": [
+        "residential"
+      ]
+    },
+    {
+      "node_id": 12794676648,
+      "lat": 22.8144481,
+      "lon": 108.5838193,
+      "way_count": 2,
+      "roads": [
+        "[residential]",
+        "[residential]"
+      ],
+      "highways": [
+        "residential"
+      ]
+    }
+  ],
+  "intersections": []
+}

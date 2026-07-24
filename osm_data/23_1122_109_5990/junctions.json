@@ -1,0 +1,3020 @@
+{
+  "source": "parseOSMData",
+  "dataset": "23_1122_109_5990",
+  "data_file": "combined.json",
+  "generated_time": "2026-07-07T17:13:08.168776",
+  "total_junctions": 162,
+  "total_intersections": 56,
+  "junctions": [
+    {
+      "node_id": 1949284864,
+      "lat": 23.1080933,
+      "lon": 109.592209,
+      "way_count": 3,
+      "roads": [
+        "[primary]",
+        "中山路",
+        "金港大道辅路"
+      ],
+      "highways": [
+        "primary",
+        "tertiary"
+      ]
+    },
+    {
+      "node_id": 1949298860,
+      "lat": 23.1080879,
+      "lon": 109.5920772,
+      "way_count": 3,
+      "roads": [
+        "中山路",
+        "[primary]",
+        "金港大道辅路"
+      ],
+      "highways": [
+        "primary",
+        "tertiary"
+      ]
+    },
+    {
+      "node_id": 1949306381,
+      "lat": 23.1047498,
+      "lon": 109.5928485,
+      "way_count": 3,
+      "roads": [
+        "中山路",
+        "[residential]",
+        "[residential]"
+      ],
+      "highways": [
+        "primary",
+        "residential"
+      ]
+    },
+    {
+      "node_id": 9495514114,
+      "lat": 23.1051745,
+      "lon": 109.6025866,
+      "way_count": 3,
+      "roads": [
+        "[tertiary]",
+        "[tertiary]",
+        "[tertiary]"
+      ],
+      "highways": [
+        "tertiary"
+      ]
+    },
+    {
+      "node_id": 3915051218,
+      "lat": 23.1182204,
+      "lon": 109.6016519,
+      "way_count": 3,
+      "roads": [
+        "布山大道",
+        "[tertiary]",
+        "[tertiary]"
+      ],
+      "highways": [
+        "tertiary",
+        "secondary"
+      ]
+    },
+    {
+      "node_id": 3915284816,
+      "lat": 23.1084256,
+      "lon": 109.6018267,
+      "way_count": 3,
+      "roads": [
+        "金港大道辅路",
+        "[residential]",
+        "[tertiary]"
+      ],
+      "highways": [
+        "tertiary",
+        "residential"
+      ]
+    },
+    {
+      "node_id": 3915284675,
+      "lat": 23.108145,
+      "lon": 109.6018939,
+      "way_count": 3,
+      "roads": [
+        "解放路",
+        "金港大道辅路",
+        "[tertiary]"
+      ],
+      "highways": [
+        "tertiary",
+        "secondary"
+      ]
+    },
+    {
+      "node_id": 4119154385,
+      "lat": 23.1079157,
+      "lon": 109.5969961,
+      "way_count": 3,
+      "roads": [
+        "港宝路",
+        "[tertiary]",
+        "金港大道辅路"
+      ],
+      "highways": [
+        "tertiary"
+      ]
+    },
+    {
+      "node_id": 9495514099,
+      "lat": 23.1044418,
+      "lon": 109.6055827,
+      "way_count": 3,
+      "roads": [
+        "圣湖路",
+        "圣湖路",
+        "[tertiary]"
+      ],
+      "highways": [
+        "tertiary"
+      ]
+    },
+    {
+      "node_id": 5224204572,
+      "lat": 23.1088142,
+      "lon": 109.597371,
+      "way_count": 3,
+      "roads": [
+        "[tertiary]",
+        "[tertiary_link]",
+        "[tertiary_link]"
+      ],
+      "highways": [
+        "tertiary_link",
+        "tertiary"
+      ]
+    },
+    {
+      "node_id": 1949282211,
+      "lat": 23.1082262,
+      "lon": 109.6053978,
+      "way_count": 3,
+      "roads": [
+        "金港大道辅路",
+        "圣湖路",
+        "金港大道辅路"
+      ],
+      "highways": [
+        "tertiary",
+        "unclassified"
+      ]
+    },
+    {
+      "node_id": 7093569933,
+      "lat": 23.1075251,
+      "lon": 109.5900268,
+      "way_count": 3,
+      "roads": [
+        "[residential]",
+        "[residential]",
+        "[service]"
+      ],
+      "highways": [
+        "service",
+        "residential"
+      ]
+    },
+    {
+      "node_id": 7551976390,
+      "lat": 23.1060432,
+      "lon": 109.6054103,
+      "way_count": 3,
+      "roads": [
+        "圣湖路",
+        "[tertiary]",
+        "[unclassified]"
+      ],
+      "highways": [
+        "tertiary",
+        "unclassified"
+      ]
+    },
+    {
+      "node_id": 9495514034,
+      "lat": 23.1073775,
+      "lon": 109.6053319,
+      "way_count": 3,
+      "roads": [
+        "[unclassified]",
+        "[trunk_link]",
+        "[trunk_link]"
+      ],
+      "highways": [
+        "unclassified",
+        "trunk_link"
+      ]
+    },
+    {
+      "node_id": 3908929721,
+      "lat": 23.1113429,
+      "lon": 109.5921784,
+      "way_count": 2,
+      "roads": [
+        "[primary]",
+        "[tertiary]"
+      ],
+      "highways": [
+        "primary",
+        "tertiary"
+      ]
+    },
+    {
+      "node_id": 3915265548,
+      "lat": 23.1132971,
+      "lon": 109.5921676,
+      "way_count": 2,
+      "roads": [
+        "[primary]",
+        "[secondary]"
+      ],
+      "highways": [
+        "primary",
+        "secondary"
+      ]
+    },
+    {
+      "node_id": 3908929727,
+      "lat": 23.1134008,
+      "lon": 109.5921715,
+      "way_count": 2,
+      "roads": [
+        "[primary]",
+        "[secondary]"
+      ],
+      "highways": [
+        "primary",
+        "secondary"
+      ]
+    },
+    {
+      "node_id": 3908929747,
+      "lat": 23.1160611,
+      "lon": 109.5921728,
+      "way_count": 2,
+      "roads": [
+        "[primary]",
+        "[tertiary]"
+      ],
+      "highways": [
+        "primary",
+        "tertiary"
+      ]
+    },
+    {
+      "node_id": 3915051204,
+      "lat": 23.1181321,
+      "lon": 109.5921772,
+      "way_count": 2,
+      "roads": [
+        "[primary]",
+        "[service]"
+      ],
+      "highways": [
+        "primary",
+        "service"
+      ]
+    },
+    {
+      "node_id": 3908929754,
+      "lat": 23.1182417,
+      "lon": 109.5921774,
+      "way_count": 2,
+      "roads": [
+        "[primary]",
+        "布山大道"
+      ],
+      "highways": [
+        "primary",
+        "secondary"
+      ]
+    },
+    {
+      "node_id": 3915053857,
+      "lat": 23.1183914,
+      "lon": 109.5921752,
+      "way_count": 2,
+      "roads": [
+        "[primary]",
+        "布山大道"
+      ],
+      "highways": [
+        "primary",
+        "secondary"
+      ]
+    },
+    {
+      "node_id": 3915053917,
+      "lat": 23.1184792,
+      "lon": 109.5921743,
+      "way_count": 2,
+      "roads": [
+        "[primary]",
+        "[service]"
+      ],
+      "highways": [
+        "primary",
+        "service"
+      ]
+    },
+    {
+      "node_id": 4804712847,
+      "lat": 23.1494496,
+      "lon": 109.592118,
+      "way_count": 2,
+      "roads": [
+        "[primary]",
+        "[primary]"
+      ],
+      "highways": [
+        "primary"
+      ]
+    },
+    {
+      "node_id": 1949282205,
+      "lat": 23.1080977,
+      "lon": 109.598637,
+      "way_count": 2,
+      "roads": [
+        "金港大道",
+        "[trunk_link]"
+      ],
+      "highways": [
+        "primary",
+        "trunk_link"
+      ]
+    },
+    {
+      "node_id": 9495760520,
+      "lat": 23.1082339,
+      "lon": 109.602179,
+      "way_count": 2,
+      "roads": [
+        "金港大道",
+        "[trunk_link]"
+      ],
+      "highways": [
+        "primary",
+        "trunk_link"
+      ]
+    },
+    {
+      "node_id": 1949298857,
+      "lat": 23.1077527,
+      "lon": 109.5921068,
+      "way_count": 2,
+      "roads": [
+        "中山路",
+        "金港大道辅路"
+      ],
+      "highways": [
+        "primary",
+        "tertiary"
+      ]
+    },
+    {
+      "node_id": 1949291744,
+      "lat": 23.1071686,
+      "lon": 109.5922246,
+      "way_count": 2,
+      "roads": [
+        "中山路",
+        "[primary_link]"
+      ],
+      "highways": [
+        "primary",
+        "primary_link"
+      ]
+    },
+    {
+      "node_id": 7551326710,
+      "lat": 23.102606,
+      "lon": 109.5934026,
+      "way_count": 2,
+      "roads": [
+        "中山路",
+        "[tertiary]"
+      ],
+      "highways": [
+        "primary",
+        "tertiary"
+      ]
+    },
+    {
+      "node_id": 7551326709,
+      "lat": 23.1026251,
+      "lon": 109.5935264,
+      "way_count": 2,
+      "roads": [
+        "中山路",
+        "[tertiary]"
+      ],
+      "highways": [
+        "primary",
+        "tertiary"
+      ]
+    },
+    {
+      "node_id": 7093569940,
+      "lat": 23.1047788,
+      "lon": 109.5929637,
+      "way_count": 2,
+      "roads": [
+        "中山路",
+        "[residential]"
+      ],
+      "highways": [
+        "primary",
+        "residential"
+      ]
+    },
+    {
+      "node_id": 1949287043,
+      "lat": 23.1071746,
+      "lon": 109.5923719,
+      "way_count": 2,
+      "roads": [
+        "中山路",
+        "[primary_link]"
+      ],
+      "highways": [
+        "primary",
+        "primary_link"
+      ]
+    },
+    {
+      "node_id": 1949284863,
+      "lat": 23.1077559,
+      "lon": 109.5922426,
+      "way_count": 2,
+      "roads": [
+        "中山路",
+        "金港大道辅路"
+      ],
+      "highways": [
+        "primary",
+        "tertiary"
+      ]
+    },
+    {
+      "node_id": 2214544553,
+      "lat": 23.1077391,
+      "lon": 109.591527,
+      "way_count": 2,
+      "roads": [
+        "[primary_link]",
+        "金港大道辅路"
+      ],
+      "highways": [
+        "tertiary",
+        "primary_link"
+      ]
+    },
+    {
+      "node_id": 4109697237,
+      "lat": 23.1031106,
+      "lon": 109.5970761,
+      "way_count": 2,
+      "roads": [
+        "[tertiary]",
+        "港宝路"
+      ],
+      "highways": [
+        "tertiary"
+      ]
+    },
+    {
+      "node_id": 7551326723,
+      "lat": 23.1030684,
+      "lon": 109.5967828,
+      "way_count": 2,
+      "roads": [
+        "[tertiary]",
+        "[residential]"
+      ],
+      "highways": [
+        "tertiary",
+        "residential"
+      ]
+    },
+    {
+      "node_id": 7551326711,
+      "lat": 23.1024936,
+      "lon": 109.590443,
+      "way_count": 2,
+      "roads": [
+        "[tertiary]",
+        "[residential]"
+      ],
+      "highways": [
+        "tertiary",
+        "residential"
+      ]
+    },
+    {
+      "node_id": 2262503721,
+      "lat": 23.1133678,
+      "lon": 109.6016262,
+      "way_count": 2,
+      "roads": [
+        "[secondary]",
+        "[tertiary]"
+      ],
+      "highways": [
+        "tertiary",
+        "secondary"
+      ]
+    },
+    {
+      "node_id": 5224204554,
+      "lat": 23.1133517,
+      "lon": 109.5995756,
+      "way_count": 2,
+      "roads": [
+        "[secondary]",
+        "[tertiary]"
+      ],
+      "highways": [
+        "tertiary",
+        "secondary"
+      ]
+    },
+    {
+      "node_id": 5224204566,
+      "lat": 23.1133626,
+      "lon": 109.5973803,
+      "way_count": 2,
+      "roads": [
+        "[secondary]",
+        "[tertiary]"
+      ],
+      "highways": [
+        "tertiary",
+        "secondary"
+      ]
+    },
+    {
+      "node_id": 2262503737,
+      "lat": 23.1134046,
+      "lon": 109.592029,
+      "way_count": 2,
+      "roads": [
+        "[secondary]",
+        "[primary]"
+      ],
+      "highways": [
+        "primary",
+        "secondary"
+      ]
+    },
+    {
+      "node_id": 5224204583,
+      "lat": 23.1134097,
+      "lon": 109.5899188,
+      "way_count": 2,
+      "roads": [
+        "[secondary]",
+        "[residential]"
+      ],
+      "highways": [
+        "residential",
+        "secondary"
+      ]
+    },
+    {
+      "node_id": 7556712132,
+      "lat": 23.1208224,
+      "lon": 109.5920225,
+      "way_count": 2,
+      "roads": [
+        "[primary]",
+        "[residential]"
+      ],
+      "highways": [
+        "primary",
+        "residential"
+      ]
+    },
+    {
+      "node_id": 7556712133,
+      "lat": 23.1201876,
+      "lon": 109.5920228,
+      "way_count": 2,
+      "roads": [
+        "[primary]",
+        "[residential]"
+      ],
+      "highways": [
+        "primary",
+        "residential"
+      ]
+    },
+    {
+      "node_id": 3915053909,
+      "lat": 23.1184815,
+      "lon": 109.5920237,
+      "way_count": 2,
+      "roads": [
+        "[primary]",
+        "[service]"
+      ],
+      "highways": [
+        "primary",
+        "service"
+      ]
+    },
+    {
+      "node_id": 3915053916,
+      "lat": 23.118389,
+      "lon": 109.5920232,
+      "way_count": 2,
+      "roads": [
+        "[primary]",
+        "布山大道"
+      ],
+      "highways": [
+        "primary",
+        "secondary"
+      ]
+    },
+    {
+      "node_id": 3915053919,
+      "lat": 23.1182435,
+      "lon": 109.5920224,
+      "way_count": 2,
+      "roads": [
+        "[primary]",
+        "布山大道"
+      ],
+      "highways": [
+        "primary",
+        "secondary"
+      ]
+    },
+    {
+      "node_id": 3915051252,
+      "lat": 23.1181345,
+      "lon": 109.5920247,
+      "way_count": 2,
+      "roads": [
+        "[primary]",
+        "[service]"
+      ],
+      "highways": [
+        "primary",
+        "service"
+      ]
+    },
+    {
+      "node_id": 3908929746,
+      "lat": 23.1160618,
+      "lon": 109.5920393,
+      "way_count": 2,
+      "roads": [
+        "[primary]",
+        "[tertiary]"
+      ],
+      "highways": [
+        "primary",
+        "tertiary"
+      ]
+    },
+    {
+      "node_id": 3915266266,
+      "lat": 23.1132947,
+      "lon": 109.5920246,
+      "way_count": 2,
+      "roads": [
+        "[primary]",
+        "[secondary]"
+      ],
+      "highways": [
+        "primary",
+        "secondary"
+      ]
+    },
+    {
+      "node_id": 3908929720,
+      "lat": 23.1113489,
+      "lon": 109.5920165,
+      "way_count": 2,
+      "roads": [
+        "[primary]",
+        "[tertiary]"
+      ],
+      "highways": [
+        "primary",
+        "tertiary"
+      ]
+    },
+    {
+      "node_id": 7556708075,
+      "lat": 23.1103931,
+      "lon": 109.5920217,
+      "way_count": 2,
+      "roads": [
+        "[primary]",
+        "[residential]"
+      ],
+      "highways": [
+        "primary",
+        "residential"
+      ]
+    },
+    {
+      "node_id": 5224204588,
+      "lat": 23.1095526,
+      "lon": 109.5920262,
+      "way_count": 2,
+      "roads": [
+        "[primary]",
+        "[tertiary]"
+      ],
+      "highways": [
+        "primary",
+        "tertiary"
+      ]
+    },
+    {
+      "node_id": 3915051185,
+      "lat": 23.1182369,
+      "lon": 109.5890571,
+      "way_count": 2,
+      "roads": [
+        "布山大道",
+        "[residential]"
+      ],
+      "highways": [
+        "residential",
+        "secondary"
+      ]
+    },
+    {
+      "node_id": 7556712129,
+      "lat": 23.1182393,
+      "lon": 109.5936627,
+      "way_count": 2,
+      "roads": [
+        "布山大道",
+        "[residential]"
+      ],
+      "highways": [
+        "residential",
+        "secondary"
+      ]
+    },
+    {
+      "node_id": 11237562074,
+      "lat": 23.1182377,
+      "lon": 109.5946881,
+      "way_count": 2,
+      "roads": [
+        "布山大道",
+        "[service]"
+      ],
+      "highways": [
+        "service",
+        "secondary"
+      ]
+    },
+    {
+      "node_id": 7556712126,
+      "lat": 23.1182359,
+      "lon": 109.5957922,
+      "way_count": 2,
+      "roads": [
+        "布山大道",
+        "[residential]"
+      ],
+      "highways": [
+        "residential",
+        "secondary"
+      ]
+    },
+    {
+      "node_id": 5224204562,
+      "lat": 23.1182334,
+      "lon": 109.5973511,
+      "way_count": 2,
+      "roads": [
+        "布山大道",
+        "[tertiary]"
+      ],
+      "highways": [
+        "tertiary",
+        "secondary"
+      ]
+    },
+    {
+      "node_id": 3915051182,
+      "lat": 23.1182146,
+      "lon": 109.5995858,
+      "way_count": 2,
+      "roads": [
+        "布山大道",
+        "[tertiary]"
+      ],
+      "highways": [
+        "tertiary",
+        "secondary"
+      ]
+    },
+    {
+      "node_id": 11237536805,
+      "lat": 23.1182067,
+      "lon": 109.6033748,
+      "way_count": 2,
+      "roads": [
+        "布山大道",
+        "[tertiary]"
+      ],
+      "highways": [
+        "tertiary",
+        "secondary"
+      ]
+    },
+    {
+      "node_id": 11237536804,
+      "lat": 23.118359,
+      "lon": 109.6033899,
+      "way_count": 2,
+      "roads": [
+        "布山大道",
+        "[tertiary]"
+      ],
+      "highways": [
+        "tertiary",
+        "secondary"
+      ]
+    },
+    {
+      "node_id": 3915051196,
+      "lat": 23.1183685,
+      "lon": 109.601656,
+      "way_count": 2,
+      "roads": [
+        "布山大道",
+        "[tertiary]"
+      ],
+      "highways": [
+        "tertiary",
+        "secondary"
+      ]
+    },
+    {
+      "node_id": 5224204561,
+      "lat": 23.1183625,
+      "lon": 109.5973484,
+      "way_count": 2,
+      "roads": [
+        "布山大道",
+        "[tertiary]"
+      ],
+      "highways": [
+        "tertiary",
+        "secondary"
+      ]
+    },
+    {
+      "node_id": 5224204576,
+      "lat": 23.1180978,
+      "lon": 109.5890549,
+      "way_count": 2,
+      "roads": [
+        "[service]",
+        "[residential]"
+      ],
+      "highways": [
+        "service",
+        "residential"
+      ]
+    },
+    {
+      "node_id": 11237562072,
+      "lat": 23.1181287,
+      "lon": 109.5936631,
+      "way_count": 2,
+      "roads": [
+        "[service]",
+        "[residential]"
+      ],
+      "highways": [
+        "service",
+        "residential"
+      ]
+    },
+    {
+      "node_id": 11237562073,
+      "lat": 23.1181263,
+      "lon": 109.5946908,
+      "way_count": 2,
+      "roads": [
+        "[service]",
+        "[service]"
+      ],
+      "highways": [
+        "service"
+      ]
+    },
+    {
+      "node_id": 13070445935,
+      "lat": 23.1181262,
+      "lon": 109.5947524,
+      "way_count": 2,
+      "roads": [
+        "[service]",
+        "[footway]"
+      ],
+      "highways": [
+        "service",
+        "footway"
+      ]
+    },
+    {
+      "node_id": 11237562070,
+      "lat": 23.1181238,
+      "lon": 109.5957923,
+      "way_count": 2,
+      "roads": [
+        "[service]",
+        "[residential]"
+      ],
+      "highways": [
+        "service",
+        "residential"
+      ]
+    },
+    {
+      "node_id": 5224204563,
+      "lat": 23.1181202,
+      "lon": 109.5973618,
+      "way_count": 2,
+      "roads": [
+        "[service]",
+        "[tertiary]"
+      ],
+      "highways": [
+        "tertiary",
+        "service"
+      ]
+    },
+    {
+      "node_id": 3915053868,
+      "lat": 23.1181186,
+      "lon": 109.5995829,
+      "way_count": 2,
+      "roads": [
+        "[service]",
+        "[tertiary]"
+      ],
+      "highways": [
+        "tertiary",
+        "service"
+      ]
+    },
+    {
+      "node_id": 3915053873,
+      "lat": 23.1181057,
+      "lon": 109.6016476,
+      "way_count": 2,
+      "roads": [
+        "[service]",
+        "[tertiary]"
+      ],
+      "highways": [
+        "tertiary",
+        "service"
+      ]
+    },
+    {
+      "node_id": 5224204560,
+      "lat": 23.1184913,
+      "lon": 109.5973482,
+      "way_count": 2,
+      "roads": [
+        "[service]",
+        "[tertiary]"
+      ],
+      "highways": [
+        "tertiary",
+        "service"
+      ]
+    },
+    {
+      "node_id": 3915051225,
+      "lat": 23.1184703,
+      "lon": 109.590016,
+      "way_count": 2,
+      "roads": [
+        "[service]",
+        "[residential]"
+      ],
+      "highways": [
+        "service",
+        "residential"
+      ]
+    },
+    {
+      "node_id": 5224204584,
+      "lat": 23.1132838,
+      "lon": 109.5899105,
+      "way_count": 2,
+      "roads": [
+        "[secondary]",
+        "[residential]"
+      ],
+      "highways": [
+        "residential",
+        "secondary"
+      ]
+    },
+    {
+      "node_id": 5224204567,
+      "lat": 23.1132604,
+      "lon": 109.5973845,
+      "way_count": 2,
+      "roads": [
+        "[secondary]",
+        "[tertiary]"
+      ],
+      "highways": [
+        "tertiary",
+        "secondary"
+      ]
+    },
+    {
+      "node_id": 5224204553,
+      "lat": 23.1132504,
+      "lon": 109.5995771,
+      "way_count": 2,
+      "roads": [
+        "[secondary]",
+        "[tertiary]"
+      ],
+      "highways": [
+        "tertiary",
+        "secondary"
+      ]
+    },
+    {
+      "node_id": 3915265552,
+      "lat": 23.1132542,
+      "lon": 109.6016249,
+      "way_count": 2,
+      "roads": [
+        "[secondary]",
+        "[tertiary]"
+      ],
+      "highways": [
+        "tertiary",
+        "secondary"
+      ]
+    },
+    {
+      "node_id": 11505461136,
+      "lat": 23.1087233,
+      "lon": 109.6091051,
+      "way_count": 2,
+      "roads": [
+        "金港大道辅路",
+        "[residential]"
+      ],
+      "highways": [
+        "tertiary",
+        "residential"
+      ]
+    },
+    {
+      "node_id": 7556712117,
+      "lat": 23.1086801,
+      "lon": 109.6049818,
+      "way_count": 2,
+      "roads": [
+        "金港大道辅路",
+        "[residential]"
+      ],
+      "highways": [
+        "tertiary",
+        "residential"
+      ]
+    },
+    {
+      "node_id": 7551326700,
+      "lat": 23.1082953,
+      "lon": 109.5977426,
+      "way_count": 2,
+      "roads": [
+        "金港大道辅路",
+        "[tertiary_link]"
+      ],
+      "highways": [
+        "tertiary_link",
+        "tertiary"
+      ]
+    },
+    {
+      "node_id": 7551326707,
+      "lat": 23.1082845,
+      "lon": 109.5971821,
+      "way_count": 2,
+      "roads": [
+        "金港大道辅路",
+        "[tertiary]"
+      ],
+      "highways": [
+        "tertiary"
+      ]
+    },
+    {
+      "node_id": 5224204570,
+      "lat": 23.108278,
+      "lon": 109.596844,
+      "way_count": 2,
+      "roads": [
+        "金港大道辅路",
+        "[tertiary_link]"
+      ],
+      "highways": [
+        "tertiary_link",
+        "tertiary"
+      ]
+    },
+    {
+      "node_id": 7551319684,
+      "lat": 23.1082805,
+      "lon": 109.5956773,
+      "way_count": 2,
+      "roads": [
+        "金港大道辅路",
+        "[residential]"
+      ],
+      "highways": [
+        "tertiary",
+        "residential"
+      ]
+    },
+    {
+      "node_id": 9495753113,
+      "lat": 23.1081436,
+      "lon": 109.5934229,
+      "way_count": 2,
+      "roads": [
+        "金港大道辅路",
+        "[trunk_link]"
+      ],
+      "highways": [
+        "tertiary",
+        "trunk_link"
+      ]
+    },
+    {
+      "node_id": 7093569899,
+      "lat": 23.1080544,
+      "lon": 109.5912692,
+      "way_count": 2,
+      "roads": [
+        "金港大道辅路",
+        "[residential]"
+      ],
+      "highways": [
+        "tertiary",
+        "residential"
+      ]
+    },
+    {
+      "node_id": 1949298859,
+      "lat": 23.1080066,
+      "lon": 109.5900044,
+      "way_count": 2,
+      "roads": [
+        "金港大道辅路",
+        "[residential]"
+      ],
+      "highways": [
+        "tertiary",
+        "residential"
+      ]
+    },
+    {
+      "node_id": 4804713579,
+      "lat": 23.1053782,
+      "lon": 109.6028835,
+      "way_count": 2,
+      "roads": [
+        "解放路",
+        "[tertiary]"
+      ],
+      "highways": [
+        "tertiary",
+        "secondary"
+      ]
+    },
+    {
+      "node_id": 7093569952,
+      "lat": 23.1052303,
+      "lon": 109.6029466,
+      "way_count": 2,
+      "roads": [
+        "解放路",
+        "[tertiary]"
+      ],
+      "highways": [
+        "tertiary",
+        "secondary"
+      ]
+    },
+    {
+      "node_id": 7551326716,
+      "lat": 23.1049053,
+      "lon": 109.5970208,
+      "way_count": 2,
+      "roads": [
+        "港宝路",
+        "[residential]"
+      ],
+      "highways": [
+        "tertiary",
+        "residential"
+      ]
+    },
+    {
+      "node_id": 4804713576,
+      "lat": 23.1082112,
+      "lon": 109.6052796,
+      "way_count": 2,
+      "roads": [
+        "圣湖路",
+        "金港大道辅路"
+      ],
+      "highways": [
+        "tertiary",
+        "unclassified"
+      ]
+    },
+    {
+      "node_id": 4804713578,
+      "lat": 23.1061795,
+      "lon": 109.6052973,
+      "way_count": 2,
+      "roads": [
+        "圣湖路",
+        "[tertiary]"
+      ],
+      "highways": [
+        "tertiary"
+      ]
+    },
+    {
+      "node_id": 7093569894,
+      "lat": 23.106035,
+      "lon": 109.6053061,
+      "way_count": 2,
+      "roads": [
+        "圣湖路",
+        "[tertiary]"
+      ],
+      "highways": [
+        "tertiary"
+      ]
+    },
+    {
+      "node_id": 5224204548,
+      "lat": 23.1113324,
+      "lon": 109.5973603,
+      "way_count": 2,
+      "roads": [
+        "[tertiary]",
+        "[tertiary]"
+      ],
+      "highways": [
+        "tertiary"
+      ]
+    },
+    {
+      "node_id": 7551326696,
+      "lat": 23.1112987,
+      "lon": 109.5986139,
+      "way_count": 2,
+      "roads": [
+        "[tertiary]",
+        "[residential]"
+      ],
+      "highways": [
+        "tertiary",
+        "residential"
+      ]
+    },
+    {
+      "node_id": 7551326691,
+      "lat": 23.1112734,
+      "lon": 109.5995586,
+      "way_count": 2,
+      "roads": [
+        "[tertiary]",
+        "[residential]"
+      ],
+      "highways": [
+        "tertiary",
+        "residential"
+      ]
+    },
+    {
+      "node_id": 7090351080,
+      "lat": 23.1113809,
+      "lon": 109.599639,
+      "way_count": 2,
+      "roads": [
+        "[tertiary]",
+        "[tertiary]"
+      ],
+      "highways": [
+        "tertiary"
+      ]
+    },
+    {
+      "node_id": 7556712112,
+      "lat": 23.1113857,
+      "lon": 109.6004503,
+      "way_count": 2,
+      "roads": [
+        "[tertiary]",
+        "[residential]"
+      ],
+      "highways": [
+        "tertiary",
+        "residential"
+      ]
+    },
+    {
+      "node_id": 7090351079,
+      "lat": 23.1113926,
+      "lon": 109.6016036,
+      "way_count": 2,
+      "roads": [
+        "[tertiary]",
+        "[tertiary]"
+      ],
+      "highways": [
+        "tertiary"
+      ]
+    },
+    {
+      "node_id": 5224204550,
+      "lat": 23.1168616,
+      "lon": 109.5995919,
+      "way_count": 2,
+      "roads": [
+        "[residential]",
+        "[tertiary]"
+      ],
+      "highways": [
+        "tertiary",
+        "residential"
+      ]
+    },
+    {
+      "node_id": 5224204549,
+      "lat": 23.1168825,
+      "lon": 109.6015969,
+      "way_count": 2,
+      "roads": [
+        "[residential]",
+        "[tertiary]"
+      ],
+      "highways": [
+        "tertiary",
+        "residential"
+      ]
+    },
+    {
+      "node_id": 5224204552,
+      "lat": 23.1149798,
+      "lon": 109.5995788,
+      "way_count": 2,
+      "roads": [
+        "[residential]",
+        "[tertiary]"
+      ],
+      "highways": [
+        "tertiary",
+        "residential"
+      ]
+    },
+    {
+      "node_id": 5224204551,
+      "lat": 23.1149859,
+      "lon": 109.6016447,
+      "way_count": 2,
+      "roads": [
+        "[residential]",
+        "[tertiary]"
+      ],
+      "highways": [
+        "tertiary",
+        "residential"
+      ]
+    },
+    {
+      "node_id": 5224204574,
+      "lat": 23.1160207,
+      "lon": 109.5995796,
+      "way_count": 2,
+      "roads": [
+        "[tertiary]",
+        "[tertiary]"
+      ],
+      "highways": [
+        "tertiary"
+      ]
+    },
+    {
+      "node_id": 7551326695,
+      "lat": 23.1095907,
+      "lon": 109.5973584,
+      "way_count": 2,
+      "roads": [
+        "[tertiary]",
+        "[residential]"
+      ],
+      "highways": [
+        "tertiary",
+        "residential"
+      ]
+    },
+    {
+      "node_id": 7551326694,
+      "lat": 23.1105594,
+      "lon": 109.5973594,
+      "way_count": 2,
+      "roads": [
+        "[tertiary]",
+        "[residential]"
+      ],
+      "highways": [
+        "tertiary",
+        "residential"
+      ]
+    },
+    {
+      "node_id": 5224204565,
+      "lat": 23.1160614,
+      "lon": 109.597359,
+      "way_count": 2,
+      "roads": [
+        "[tertiary]",
+        "[tertiary]"
+      ],
+      "highways": [
+        "tertiary"
+      ]
+    },
+    {
+      "node_id": 5224204582,
+      "lat": 23.1160513,
+      "lon": 109.589881,
+      "way_count": 2,
+      "roads": [
+        "[tertiary]",
+        "[residential]"
+      ],
+      "highways": [
+        "tertiary",
+        "residential"
+      ]
+    },
+    {
+      "node_id": 7556712128,
+      "lat": 23.1160706,
+      "lon": 109.5936715,
+      "way_count": 2,
+      "roads": [
+        "[tertiary]",
+        "[residential]"
+      ],
+      "highways": [
+        "tertiary",
+        "residential"
+      ]
+    },
+    {
+      "node_id": 13070445937,
+      "lat": 23.1160769,
+      "lon": 109.594775,
+      "way_count": 2,
+      "roads": [
+        "[tertiary]",
+        "[footway]"
+      ],
+      "highways": [
+        "tertiary",
+        "footway"
+      ]
+    },
+    {
+      "node_id": 7556712127,
+      "lat": 23.1160828,
+      "lon": 109.5957945,
+      "way_count": 2,
+      "roads": [
+        "[tertiary]",
+        "[residential]"
+      ],
+      "highways": [
+        "tertiary",
+        "residential"
+      ]
+    },
+    {
+      "node_id": 5224204587,
+      "lat": 23.1081941,
+      "lon": 109.5899749,
+      "way_count": 2,
+      "roads": [
+        "[residential]",
+        "[residential]"
+      ],
+      "highways": [
+        "residential"
+      ]
+    },
+    {
+      "node_id": 5224204586,
+      "lat": 23.1095414,
+      "lon": 109.5898673,
+      "way_count": 2,
+      "roads": [
+        "[residential]",
+        "[tertiary]"
+      ],
+      "highways": [
+        "tertiary",
+        "residential"
+      ]
+    },
+    {
+      "node_id": 5224204585,
+      "lat": 23.111321,
+      "lon": 109.5899025,
+      "way_count": 2,
+      "roads": [
+        "[residential]",
+        "[tertiary]"
+      ],
+      "highways": [
+        "tertiary",
+        "residential"
+      ]
+    },
+    {
+      "node_id": 7556708072,
+      "lat": 23.1113338,
+      "lon": 109.590869,
+      "way_count": 2,
+      "roads": [
+        "[tertiary]",
+        "[residential]"
+      ],
+      "highways": [
+        "tertiary",
+        "residential"
+      ]
+    },
+    {
+      "node_id": 7556708073,
+      "lat": 23.1095465,
+      "lon": 109.5908908,
+      "way_count": 2,
+      "roads": [
+        "[tertiary]",
+        "[residential]"
+      ],
+      "highways": [
+        "tertiary",
+        "residential"
+      ]
+    },
+    {
+      "node_id": 7093569895,
+      "lat": 23.1076656,
+      "lon": 109.5900269,
+      "way_count": 2,
+      "roads": [
+        "金港大道辅路",
+        "[residential]"
+      ],
+      "highways": [
+        "tertiary",
+        "residential"
+      ]
+    },
+    {
+      "node_id": 3915284750,
+      "lat": 23.1077671,
+      "lon": 109.5927218,
+      "way_count": 2,
+      "roads": [
+        "金港大道辅路",
+        "[primary_link]"
+      ],
+      "highways": [
+        "primary_link",
+        "tertiary"
+      ]
+    },
+    {
+      "node_id": 9495753112,
+      "lat": 23.1077747,
+      "lon": 109.593443,
+      "way_count": 2,
+      "roads": [
+        "金港大道辅路",
+        "[trunk_link]"
+      ],
+      "highways": [
+        "tertiary",
+        "trunk_link"
+      ]
+    },
+    {
+      "node_id": 7093569905,
+      "lat": 23.1077721,
+      "lon": 109.5950079,
+      "way_count": 2,
+      "roads": [
+        "金港大道辅路",
+        "[residential]"
+      ],
+      "highways": [
+        "tertiary",
+        "residential"
+      ]
+    },
+    {
+      "node_id": 3915284812,
+      "lat": 23.1081235,
+      "lon": 109.6022188,
+      "way_count": 2,
+      "roads": [
+        "金港大道辅路",
+        "金港大道辅路"
+      ],
+      "highways": [
+        "tertiary",
+        "unclassified"
+      ]
+    },
+    {
+      "node_id": 7551976488,
+      "lat": 23.1083333,
+      "lon": 109.6071236,
+      "way_count": 2,
+      "roads": [
+        "金港大道辅路",
+        "[tertiary]"
+      ],
+      "highways": [
+        "tertiary"
+      ]
+    },
+    {
+      "node_id": 7093569947,
+      "lat": 23.1051395,
+      "lon": 109.5888976,
+      "way_count": 2,
+      "roads": [
+        "[residential]",
+        "[residential]"
+      ],
+      "highways": [
+        "residential"
+      ]
+    },
+    {
+      "node_id": 7093569968,
+      "lat": 23.1060573,
+      "lon": 109.590067,
+      "way_count": 2,
+      "roads": [
+        "[residential]",
+        "[residential]"
+      ],
+      "highways": [
+        "residential"
+      ]
+    },
+    {
+      "node_id": 7093569923,
+      "lat": 23.1035529,
+      "lon": 109.5904511,
+      "way_count": 2,
+      "roads": [
+        "[residential]",
+        "[residential]"
+      ],
+      "highways": [
+        "residential"
+      ]
+    },
+    {
+      "node_id": 7093569927,
+      "lat": 23.1045831,
+      "lon": 109.5916334,
+      "way_count": 2,
+      "roads": [
+        "[residential]",
+        "[residential]"
+      ],
+      "highways": [
+        "residential"
+      ]
+    },
+    {
+      "node_id": 7093569966,
+      "lat": 23.1050568,
+      "lon": 109.5941783,
+      "way_count": 2,
+      "roads": [
+        "[residential]",
+        "[residential]"
+      ],
+      "highways": [
+        "residential"
+      ]
+    },
+    {
+      "node_id": 7556712120,
+      "lat": 23.1123179,
+      "lon": 109.6016142,
+      "way_count": 2,
+      "roads": [
+        "[tertiary]",
+        "[residential]"
+      ],
+      "highways": [
+        "tertiary",
+        "residential"
+      ]
+    },
+    {
+      "node_id": 7556712125,
+      "lat": 23.1151405,
+      "lon": 109.6016447,
+      "way_count": 2,
+      "roads": [
+        "[tertiary]",
+        "[residential]"
+      ],
+      "highways": [
+        "tertiary",
+        "residential"
+      ]
+    },
+    {
+      "node_id": 7551326686,
+      "lat": 23.1095926,
+      "lon": 109.5958379,
+      "way_count": 2,
+      "roads": [
+        "[residential]",
+        "[residential]"
+      ],
+      "highways": [
+        "residential"
+      ]
+    },
+    {
+      "node_id": 7551326698,
+      "lat": 23.1095941,
+      "lon": 109.5986098,
+      "way_count": 2,
+      "roads": [
+        "[residential]",
+        "[residential]"
+      ],
+      "highways": [
+        "residential"
+      ]
+    },
+    {
+      "node_id": 7551326690,
+      "lat": 23.1101233,
+      "lon": 109.6000619,
+      "way_count": 2,
+      "roads": [
+        "[residential]",
+        "[residential]"
+      ],
+      "highways": [
+        "residential"
+      ]
+    },
+    {
+      "node_id": 7551326693,
+      "lat": 23.1105106,
+      "lon": 109.5995283,
+      "way_count": 2,
+      "roads": [
+        "[residential]",
+        "[residential]"
+      ],
+      "highways": [
+        "residential"
+      ]
+    },
+    {
+      "node_id": 7551326697,
+      "lat": 23.1105313,
+      "lon": 109.5986096,
+      "way_count": 2,
+      "roads": [
+        "[residential]",
+        "[residential]"
+      ],
+      "highways": [
+        "residential"
+      ]
+    },
+    {
+      "node_id": 7551326715,
+      "lat": 23.1039734,
+      "lon": 109.5967141,
+      "way_count": 2,
+      "roads": [
+        "[residential]",
+        "[residential]"
+      ],
+      "highways": [
+        "residential"
+      ]
+    },
+    {
+      "node_id": 7551326722,
+      "lat": 23.1048873,
+      "lon": 109.5966659,
+      "way_count": 2,
+      "roads": [
+        "[residential]",
+        "[residential]"
+      ],
+      "highways": [
+        "residential"
+      ]
+    },
+    {
+      "node_id": 7551976391,
+      "lat": 23.1061885,
+      "lon": 109.6054032,
+      "way_count": 2,
+      "roads": [
+        "圣湖路",
+        "[tertiary]"
+      ],
+      "highways": [
+        "tertiary"
+      ]
+    },
+    {
+      "node_id": 7093569930,
+      "lat": 23.1061814,
+      "lon": 109.6071797,
+      "way_count": 2,
+      "roads": [
+        "[tertiary]",
+        "[tertiary]"
+      ],
+      "highways": [
+        "tertiary"
+      ]
+    },
+    {
+      "node_id": 3207899230,
+      "lat": 23.1063387,
+      "lon": 109.6071736,
+      "way_count": 2,
+      "roads": [
+        "[tertiary]",
+        "[tertiary]"
+      ],
+      "highways": [
+        "tertiary"
+      ]
+    },
+    {
+      "node_id": 7551928352,
+      "lat": 23.1065042,
+      "lon": 109.6123365,
+      "way_count": 2,
+      "roads": [
+        "[tertiary]",
+        "[tertiary]"
+      ],
+      "highways": [
+        "tertiary"
+      ]
+    },
+    {
+      "node_id": 7556708074,
+      "lat": 23.1104011,
+      "lon": 109.5908804,
+      "way_count": 2,
+      "roads": [
+        "[residential]",
+        "[residential]"
+      ],
+      "highways": [
+        "residential"
+      ]
+    },
+    {
+      "node_id": 7556712119,
+      "lat": 23.1122965,
+      "lon": 109.6024201,
+      "way_count": 2,
+      "roads": [
+        "[residential]",
+        "[tertiary]"
+      ],
+      "highways": [
+        "tertiary",
+        "residential"
+      ]
+    },
+    {
+      "node_id": 7556712121,
+      "lat": 23.114707,
+      "lon": 109.6030025,
+      "way_count": 2,
+      "roads": [
+        "[residential]",
+        "[tertiary]"
+      ],
+      "highways": [
+        "tertiary",
+        "residential"
+      ]
+    },
+    {
+      "node_id": 13070445934,
+      "lat": 23.1170308,
+      "lon": 109.5957935,
+      "way_count": 2,
+      "roads": [
+        "[residential]",
+        "[footway]"
+      ],
+      "highways": [
+        "residential",
+        "footway"
+      ]
+    },
+    {
+      "node_id": 13070445933,
+      "lat": 23.1170474,
+      "lon": 109.5936675,
+      "way_count": 2,
+      "roads": [
+        "[residential]",
+        "[footway]"
+      ],
+      "highways": [
+        "residential",
+        "footway"
+      ]
+    },
+    {
+      "node_id": 7556712134,
+      "lat": 23.1201946,
+      "lon": 109.5900193,
+      "way_count": 2,
+      "roads": [
+        "[residential]",
+        "[residential]"
+      ],
+      "highways": [
+        "residential"
+      ]
+    },
+    {
+      "node_id": 9495514027,
+      "lat": 23.1057444,
+      "lon": 109.6054593,
+      "way_count": 2,
+      "roads": [
+        "[unclassified]",
+        "[unclassified]"
+      ],
+      "highways": [
+        "unclassified"
+      ]
+    },
+    {
+      "node_id": 9495514063,
+      "lat": 23.1044011,
+      "lon": 109.6062264,
+      "way_count": 2,
+      "roads": [
+        "[unclassified]",
+        "[unclassified]"
+      ],
+      "highways": [
+        "unclassified"
+      ]
+    },
+    {
+      "node_id": 9495514036,
+      "lat": 23.1046837,
+      "lon": 109.6054176,
+      "way_count": 2,
+      "roads": [
+        "[unclassified]",
+        "[unclassified]"
+      ],
+      "highways": [
+        "unclassified"
+      ]
+    },
+    {
+      "node_id": 9495514070,
+      "lat": 23.1041445,
+      "lon": 109.6079712,
+      "way_count": 2,
+      "roads": [
+        "[unclassified]",
+        "[unclassified]"
+      ],
+      "highways": [
+        "unclassified"
+      ]
+    },
+    {
+      "node_id": 9495514060,
+      "lat": 23.1040137,
+      "lon": 109.6075393,
+      "way_count": 2,
+      "roads": [
+        "[unclassified]",
+        "[unclassified]"
+      ],
+      "highways": [
+        "unclassified"
+      ]
+    },
+    {
+      "node_id": 9495753115,
+      "lat": 23.107829,
+      "lon": 109.5939955,
+      "way_count": 2,
+      "roads": [
+        "[trunk_link]",
+        "[trunk_link]"
+      ],
+      "highways": [
+        "trunk_link"
+      ]
+    },
+    {
+      "node_id": 9495753116,
+      "lat": 23.1081238,
+      "lon": 109.5939647,
+      "way_count": 2,
+      "roads": [
+        "[trunk_link]",
+        "[trunk_link]"
+      ],
+      "highways": [
+        "trunk_link"
+      ]
+    },
+    {
+      "node_id": 1949276629,
+      "lat": 23.1081867,
+      "lon": 109.5979544,
+      "way_count": 2,
+      "roads": [
+        "[trunk_link]",
+        "金港大道"
+      ],
+      "highways": [
+        "primary",
+        "trunk_link"
+      ]
+    },
+    {
+      "node_id": 9495760533,
+      "lat": 23.1079922,
+      "lon": 109.6053579,
+      "way_count": 2,
+      "roads": [
+        "[trunk_link]",
+        "[trunk_link]"
+      ],
+      "highways": [
+        "trunk_link"
+      ]
+    },
+    {
+      "node_id": 3915284763,
+      "lat": 23.108574,
+      "lon": 109.6047968,
+      "way_count": 2,
+      "roads": [
+        "[trunk_link]",
+        "[trunk_link]"
+      ],
+      "highways": [
+        "trunk_link"
+      ]
+    },
+    {
+      "node_id": 9495760536,
+      "lat": 23.1083111,
+      "lon": 109.6012779,
+      "way_count": 2,
+      "roads": [
+        "[trunk_link]",
+        "金港大道"
+      ],
+      "highways": [
+        "primary",
+        "trunk_link"
+      ]
+    },
+    {
+      "node_id": 9495760539,
+      "lat": 23.1087036,
+      "lon": 109.6065898,
+      "way_count": 2,
+      "roads": [
+        "[trunk_link]",
+        "[trunk_link]"
+      ],
+      "highways": [
+        "trunk_link"
+      ]
+    },
+    {
+      "node_id": 13070445938,
+      "lat": 23.1170425,
+      "lon": 109.5942851,
+      "way_count": 2,
+      "roads": [
+        "[footway]",
+        "[footway]"
+      ],
+      "highways": [
+        "footway"
+      ]
+    },
+    {
+      "node_id": 13070445936,
+      "lat": 23.1170391,
+      "lon": 109.5947251,
+      "way_count": 2,
+      "roads": [
+        "[footway]",
+        "[footway]"
+      ],
+      "highways": [
+        "footway"
+      ]
+    },
+    {
+      "node_id": 13070445944,
+      "lat": 23.1170354,
+      "lon": 109.5952014,
+      "way_count": 2,
+      "roads": [
+        "[footway]",
+        "[footway]"
+      ],
+      "highways": [
+        "footway"
+      ]
+    },
+    {
+      "node_id": 13070445941,
+      "lat": 23.1174727,
+      "lon": 109.594736,
+      "way_count": 2,
+      "roads": [
+        "[footway]",
+        "[footway]"
+      ],
+      "highways": [
+        "footway"
+      ]
+    },
+    {
+      "node_id": 13070445947,
+      "lat": 23.1166625,
+      "lon": 109.5947446,
+      "way_count": 2,
+      "roads": [
+        "[footway]",
+        "[footway]"
+      ],
+      "highways": [
+        "footway"
+      ]
+    },
+    {
+      "node_id": 13071765220,
+      "lat": 23.1042127,
+      "lon": 109.6054217,
+      "way_count": 2,
+      "roads": [
+        "[unclassified]",
+        "[unclassified]"
+      ],
+      "highways": [
+        "unclassified"
+      ]
+    }
+  ],
+  "intersections": [
+    {
+      "node_id": 1949284864,
+      "lat": 23.1080933,
+      "lon": 109.592209,
+      "way_count": 3,
+      "roads": [
+        "[primary]",
+        "中山路",
+        "金港大道辅路"
+      ],
+      "highways": [
+        "primary",
+        "tertiary"
+      ]
+    },
+    {
+      "node_id": 1949298860,
+      "lat": 23.1080879,
+      "lon": 109.5920772,
+      "way_count": 3,
+      "roads": [
+        "中山路",
+        "[primary]",
+        "金港大道辅路"
+      ],
+      "highways": [
+        "primary",
+        "tertiary"
+      ]
+    },
+    {
+      "node_id": 9495514114,
+      "lat": 23.1051745,
+      "lon": 109.6025866,
+      "way_count": 3,
+      "roads": [
+        "[tertiary]",
+        "[tertiary]",
+        "[tertiary]"
+      ],
+      "highways": [
+        "tertiary"
+      ]
+    },
+    {
+      "node_id": 3915051218,
+      "lat": 23.1182204,
+      "lon": 109.6016519,
+      "way_count": 3,
+      "roads": [
+        "布山大道",
+        "[tertiary]",
+        "[tertiary]"
+      ],
+      "highways": [
+        "tertiary",
+        "secondary"
+      ]
+    },
+    {
+      "node_id": 3915284816,
+      "lat": 23.1084256,
+      "lon": 109.6018267,
+      "way_count": 3,
+      "roads": [
+        "金港大道辅路",
+        "[residential]",
+        "[tertiary]"
+      ],
+      "highways": [
+        "tertiary",
+        "residential"
+      ]
+    },
+    {
+      "node_id": 3915284675,
+      "lat": 23.108145,
+      "lon": 109.6018939,
+      "way_count": 3,
+      "roads": [
+        "解放路",
+        "金港大道辅路",
+        "[tertiary]"
+      ],
+      "highways": [
+        "tertiary",
+        "secondary"
+      ]
+    },
+    {
+      "node_id": 4119154385,
+      "lat": 23.1079157,
+      "lon": 109.5969961,
+      "way_count": 3,
+      "roads": [
+        "港宝路",
+        "[tertiary]",
+        "金港大道辅路"
+      ],
+      "highways": [
+        "tertiary"
+      ]
+    },
+    {
+      "node_id": 9495514099,
+      "lat": 23.1044418,
+      "lon": 109.6055827,
+      "way_count": 3,
+      "roads": [
+        "圣湖路",
+        "圣湖路",
+        "[tertiary]"
+      ],
+      "highways": [
+        "tertiary"
+      ]
+    },
+    {
+      "node_id": 1949282211,
+      "lat": 23.1082262,
+      "lon": 109.6053978,
+      "way_count": 3,
+      "roads": [
+        "金港大道辅路",
+        "圣湖路",
+        "金港大道辅路"
+      ],
+      "highways": [
+        "tertiary",
+        "unclassified"
+      ]
+    },
+    {
+      "node_id": 7551976390,
+      "lat": 23.1060432,
+      "lon": 109.6054103,
+      "way_count": 3,
+      "roads": [
+        "圣湖路",
+        "[tertiary]",
+        "[unclassified]"
+      ],
+      "highways": [
+        "tertiary",
+        "unclassified"
+      ]
+    },
+    {
+      "node_id": 3908929721,
+      "lat": 23.1113429,
+      "lon": 109.5921784,
+      "way_count": 2,
+      "roads": [
+        "[primary]",
+        "[tertiary]"
+      ],
+      "highways": [
+        "primary",
+        "tertiary"
+      ]
+    },
+    {
+      "node_id": 3915265548,
+      "lat": 23.1132971,
+      "lon": 109.5921676,
+      "way_count": 2,
+      "roads": [
+        "[primary]",
+        "[secondary]"
+      ],
+      "highways": [
+        "primary",
+        "secondary"
+      ]
+    },
+    {
+      "node_id": 3908929727,
+      "lat": 23.1134008,
+      "lon": 109.5921715,
+      "way_count": 2,
+      "roads": [
+        "[primary]",
+        "[secondary]"
+      ],
+      "highways": [
+        "primary",
+        "secondary"
+      ]
+    },
+    {
+      "node_id": 3908929747,
+      "lat": 23.1160611,
+      "lon": 109.5921728,
+      "way_count": 2,
+      "roads": [
+        "[primary]",
+        "[tertiary]"
+      ],
+      "highways": [
+        "primary",
+        "tertiary"
+      ]
+    },
+    {
+      "node_id": 3908929754,
+      "lat": 23.1182417,
+      "lon": 109.5921774,
+      "way_count": 2,
+      "roads": [
+        "[primary]",
+        "布山大道"
+      ],
+      "highways": [
+        "primary",
+        "secondary"
+      ]
+    },
+    {
+      "node_id": 3915053857,
+      "lat": 23.1183914,
+      "lon": 109.5921752,
+      "way_count": 2,
+      "roads": [
+        "[primary]",
+        "布山大道"
+      ],
+      "highways": [
+        "primary",
+        "secondary"
+      ]
+    },
+    {
+      "node_id": 4804712847,
+      "lat": 23.1494496,
+      "lon": 109.592118,
+      "way_count": 2,
+      "roads": [
+        "[primary]",
+        "[primary]"
+      ],
+      "highways": [
+        "primary"
+      ]
+    },
+    {
+      "node_id": 1949298857,
+      "lat": 23.1077527,
+      "lon": 109.5921068,
+      "way_count": 2,
+      "roads": [
+        "中山路",
+        "金港大道辅路"
+      ],
+      "highways": [
+        "primary",
+        "tertiary"
+      ]
+    },
+    {
+      "node_id": 7551326710,
+      "lat": 23.102606,
+      "lon": 109.5934026,
+      "way_count": 2,
+      "roads": [
+        "中山路",
+        "[tertiary]"
+      ],
+      "highways": [
+        "primary",
+        "tertiary"
+      ]
+    },
+    {
+      "node_id": 7551326709,
+      "lat": 23.1026251,
+      "lon": 109.5935264,
+      "way_count": 2,
+      "roads": [
+        "中山路",
+        "[tertiary]"
+      ],
+      "highways": [
+        "primary",
+        "tertiary"
+      ]
+    },
+    {
+      "node_id": 1949284863,
+      "lat": 23.1077559,
+      "lon": 109.5922426,
+      "way_count": 2,
+      "roads": [
+        "中山路",
+        "金港大道辅路"
+      ],
+      "highways": [
+        "primary",
+        "tertiary"
+      ]
+    },
+    {
+      "node_id": 4109697237,
+      "lat": 23.1031106,
+      "lon": 109.5970761,
+      "way_count": 2,
+      "roads": [
+        "[tertiary]",
+        "港宝路"
+      ],
+      "highways": [
+        "tertiary"
+      ]
+    },
+    {
+      "node_id": 2262503721,
+      "lat": 23.1133678,
+      "lon": 109.6016262,
+      "way_count": 2,
+      "roads": [
+        "[secondary]",
+        "[tertiary]"
+      ],
+      "highways": [
+        "tertiary",
+        "secondary"
+      ]
+    },
+    {
+      "node_id": 5224204554,
+      "lat": 23.1133517,
+      "lon": 109.5995756,
+      "way_count": 2,
+      "roads": [
+        "[secondary]",
+        "[tertiary]"
+      ],
+      "highways": [
+        "tertiary",
+        "secondary"
+      ]
+    },
+    {
+      "node_id": 5224204566,
+      "lat": 23.1133626,
+      "lon": 109.5973803,
+      "way_count": 2,
+      "roads": [
+        "[secondary]",
+        "[tertiary]"
+      ],
+      "highways": [
+        "tertiary",
+        "secondary"
+      ]
+    },
+    {
+      "node_id": 2262503737,
+      "lat": 23.1134046,
+      "lon": 109.592029,
+      "way_count": 2,
+      "roads": [
+        "[secondary]",
+        "[primary]"
+      ],
+      "highways": [
+        "primary",
+        "secondary"
+      ]
+    },
+    {
+      "node_id": 3915053916,
+      "lat": 23.118389,
+      "lon": 109.5920232,
+      "way_count": 2,
+      "roads": [
+        "[primary]",
+        "布山大道"
+      ],
+      "highways": [
+        "primary",
+        "secondary"
+      ]
+    },
+    {
+      "node_id": 3915053919,
+      "lat": 23.1182435,
+      "lon": 109.5920224,
+      "way_count": 2,
+      "roads": [
+        "[primary]",
+        "布山大道"
+      ],
+      "highways": [
+        "primary",
+        "secondary"
+      ]
+    },
+    {
+      "node_id": 3908929746,
+      "lat": 23.1160618,
+      "lon": 109.5920393,
+      "way_count": 2,
+      "roads": [
+        "[primary]",
+        "[tertiary]"
+      ],
+      "highways": [
+        "primary",
+        "tertiary"
+      ]
+    },
+    {
+      "node_id": 3915266266,
+      "lat": 23.1132947,
+      "lon": 109.5920246,
+      "way_count": 2,
+      "roads": [
+        "[primary]",
+        "[secondary]"
+      ],
+      "highways": [
+        "primary",
+        "secondary"
+      ]
+    },
+    {
+      "node_id": 3908929720,
+      "lat": 23.1113489,
+      "lon": 109.5920165,
+      "way_count": 2,
+      "roads": [
+        "[primary]",
+        "[tertiary]"
+      ],
+      "highways": [
+        "primary",
+        "tertiary"
+      ]
+    },
+    {
+      "node_id": 5224204588,
+      "lat": 23.1095526,
+      "lon": 109.5920262,
+      "way_count": 2,
+      "roads": [
+        "[primary]",
+        "[tertiary]"
+      ],
+      "highways": [
+        "primary",
+        "tertiary"
+      ]
+    },
+    {
+      "node_id": 5224204562,
+      "lat": 23.1182334,
+      "lon": 109.5973511,
+      "way_count": 2,
+      "roads": [
+        "布山大道",
+        "[tertiary]"
+      ],
+      "highways": [
+        "tertiary",
+        "secondary"
+      ]
+    },
+    {
+      "node_id": 3915051182,
+      "lat": 23.1182146,
+      "lon": 109.5995858,
+      "way_count": 2,
+      "roads": [
+        "布山大道",
+        "[tertiary]"
+      ],
+      "highways": [
+        "tertiary",
+        "secondary"
+      ]
+    },
+    {
+      "node_id": 11237536805,
+      "lat": 23.1182067,
+      "lon": 109.6033748,
+      "way_count": 2,
+      "roads": [
+        "布山大道",
+        "[tertiary]"
+      ],
+      "highways": [
+        "tertiary",
+        "secondary"
+      ]
+    },
+    {
+      "node_id": 11237536804,
+      "lat": 23.118359,
+      "lon": 109.6033899,
+      "way_count": 2,
+      "roads": [
+        "布山大道",
+        "[tertiary]"
+      ],
+      "highways": [
+        "tertiary",
+        "secondary"
+      ]
+    },
+    {
+      "node_id": 3915051196,
+      "lat": 23.1183685,
+      "lon": 109.601656,
+      "way_count": 2,
+      "roads": [
+        "布山大道",
+        "[tertiary]"
+      ],
+      "highways": [
+        "tertiary",
+        "secondary"
+      ]
+    },
+    {
+      "node_id": 5224204561,
+      "lat": 23.1183625,
+      "lon": 109.5973484,
+      "way_count": 2,
+      "roads": [
+        "布山大道",
+        "[tertiary]"
+      ],
+      "highways": [
+        "tertiary",
+        "secondary"
+      ]
+    },
+    {
+      "node_id": 5224204567,
+      "lat": 23.1132604,
+      "lon": 109.5973845,
+      "way_count": 2,
+      "roads": [
+        "[secondary]",
+        "[tertiary]"
+      ],
+      "highways": [
+        "tertiary",
+        "secondary"
+      ]
+    },
+    {
+      "node_id": 5224204553,
+      "lat": 23.1132504,
+      "lon": 109.5995771,
+      "way_count": 2,
+      "roads": [
+        "[secondary]",
+        "[tertiary]"
+      ],
+      "highways": [
+        "tertiary",
+        "secondary"
+      ]
+    },
+    {
+      "node_id": 3915265552,
+      "lat": 23.1132542,
+      "lon": 109.6016249,
+      "way_count": 2,
+      "roads": [
+        "[secondary]",
+        "[tertiary]"
+      ],
+      "highways": [
+        "tertiary",
+        "secondary"
+      ]
+    },
+    {
+      "node_id": 7551326707,
+      "lat": 23.1082845,
+      "lon": 109.5971821,
+      "way_count": 2,
+      "roads": [
+        "金港大道辅路",
+        "[tertiary]"
+      ],
+      "highways": [
+        "tertiary"
+      ]
+    },
+    {
+      "node_id": 4804713579,
+      "lat": 23.1053782,
+      "lon": 109.6028835,
+      "way_count": 2,
+      "roads": [
+        "解放路",
+        "[tertiary]"
+      ],
+      "highways": [
+        "tertiary",
+        "secondary"
+      ]
+    },
+    {
+      "node_id": 7093569952,
+      "lat": 23.1052303,
+      "lon": 109.6029466,
+      "way_count": 2,
+      "roads": [
+        "解放路",
+        "[tertiary]"
+      ],
+      "highways": [
+        "tertiary",
+        "secondary"
+      ]
+    },
+    {
+      "node_id": 4804713578,
+      "lat": 23.1061795,
+      "lon": 109.6052973,
+      "way_count": 2,
+      "roads": [
+        "圣湖路",
+        "[tertiary]"
+      ],
+      "highways": [
+        "tertiary"
+      ]
+    },
+    {
+      "node_id": 7093569894,
+      "lat": 23.106035,
+      "lon": 109.6053061,
+      "way_count": 2,
+      "roads": [
+        "圣湖路",
+        "[tertiary]"
+      ],
+      "highways": [
+        "tertiary"
+      ]
+    },
+    {
+      "node_id": 5224204548,
+      "lat": 23.1113324,
+      "lon": 109.5973603,
+      "way_count": 2,
+      "roads": [
+        "[tertiary]",
+        "[tertiary]"
+      ],
+      "highways": [
+        "tertiary"
+      ]
+    },
+    {
+      "node_id": 7090351080,
+      "lat": 23.1113809,
+      "lon": 109.599639,
+      "way_count": 2,
+      "roads": [
+        "[tertiary]",
+        "[tertiary]"
+      ],
+      "highways": [
+        "tertiary"
+      ]
+    },
+    {
+      "node_id": 7090351079,
+      "lat": 23.1113926,
+      "lon": 109.6016036,
+      "way_count": 2,
+      "roads": [
+        "[tertiary]",
+        "[tertiary]"
+      ],
+      "highways": [
+        "tertiary"
+      ]
+    },
+    {
+      "node_id": 5224204574,
+      "lat": 23.1160207,
+      "lon": 109.5995796,
+      "way_count": 2,
+      "roads": [
+        "[tertiary]",
+        "[tertiary]"
+      ],
+      "highways": [
+        "tertiary"
+      ]
+    },
+    {
+      "node_id": 5224204565,
+      "lat": 23.1160614,
+      "lon": 109.597359,
+      "way_count": 2,
+      "roads": [
+        "[tertiary]",
+        "[tertiary]"
+      ],
+      "highways": [
+        "tertiary"
+      ]
+    },
+    {
+      "node_id": 7551976488,
+      "lat": 23.1083333,
+      "lon": 109.6071236,
+      "way_count": 2,
+      "roads": [
+        "金港大道辅路",
+        "[tertiary]"
+      ],
+      "highways": [
+        "tertiary"
+      ]
+    },
+    {
+      "node_id": 7551976391,
+      "lat": 23.1061885,
+      "lon": 109.6054032,
+      "way_count": 2,
+      "roads": [
+        "圣湖路",
+        "[tertiary]"
+      ],
+      "highways": [
+        "tertiary"
+      ]
+    },
+    {
+      "node_id": 7093569930,
+      "lat": 23.1061814,
+      "lon": 109.6071797,
+      "way_count": 2,
+      "roads": [
+        "[tertiary]",
+        "[tertiary]"
+      ],
+      "highways": [
+        "tertiary"
+      ]
+    },
+    {
+      "node_id": 3207899230,
+      "lat": 23.1063387,
+      "lon": 109.6071736,
+      "way_count": 2,
+      "roads": [
+        "[tertiary]",
+        "[tertiary]"
+      ],
+      "highways": [
+        "tertiary"
+      ]
+    },
+    {
+      "node_id": 7551928352,
+      "lat": 23.1065042,
+      "lon": 109.6123365,
+      "way_count": 2,
+      "roads": [
+        "[tertiary]",
+        "[tertiary]"
+      ],
+      "highways": [
+        "tertiary"
+      ]
+    }
+  ]
+}

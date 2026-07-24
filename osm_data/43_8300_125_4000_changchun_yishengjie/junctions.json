@@ -1,0 +1,2438 @@
+{
+  "source": "parseOSMData",
+  "dataset": "43_8300_125_4000_changchun_yishengjie",
+  "data_file": "combined.json",
+  "generated_time": "2026-07-07T17:13:09.535587",
+  "total_junctions": 163,
+  "total_intersections": 17,
+  "junctions": [
+    {
+      "node_id": 1273350226,
+      "lat": 43.8362161,
+      "lon": 125.4038109,
+      "way_count": 3,
+      "roads": [
+        "净月大街",
+        "[trunk]",
+        "净月大街"
+      ],
+      "highways": [
+        "trunk"
+      ]
+    },
+    {
+      "node_id": 1273351171,
+      "lat": 43.8256864,
+      "lon": 125.3990903,
+      "way_count": 3,
+      "roads": [
+        "[motorway_link]",
+        "长春绕城高速",
+        "长春绕城高速"
+      ],
+      "highways": [
+        "motorway_link",
+        "motorway"
+      ]
+    },
+    {
+      "node_id": 13533720420,
+      "lat": 43.8208457,
+      "lon": 125.40284,
+      "way_count": 3,
+      "roads": [
+        "博硕路",
+        "新城大街",
+        "新城大街"
+      ],
+      "highways": [
+        "primary",
+        "tertiary"
+      ]
+    },
+    {
+      "node_id": 1274868390,
+      "lat": 43.820856,
+      "lon": 125.4030079,
+      "way_count": 3,
+      "roads": [
+        "博硕路",
+        "新城大街",
+        "新城大街"
+      ],
+      "highways": [
+        "primary",
+        "tertiary"
+      ]
+    },
+    {
+      "node_id": 12754192951,
+      "lat": 43.8362637,
+      "lon": 125.4030008,
+      "way_count": 3,
+      "roads": [
+        "净月大街",
+        "净月大街",
+        "[trunk]"
+      ],
+      "highways": [
+        "trunk"
+      ]
+    },
+    {
+      "node_id": 5626048579,
+      "lat": 43.827161,
+      "lon": 125.3903697,
+      "way_count": 3,
+      "roads": [
+        "[residential]",
+        "[footway]",
+        "[residential]"
+      ],
+      "highways": [
+        "residential",
+        "footway"
+      ]
+    },
+    {
+      "node_id": 5626049089,
+      "lat": 43.8269714,
+      "lon": 125.3903755,
+      "way_count": 3,
+      "roads": [
+        "[footway]",
+        "[footway]",
+        "[footway]"
+      ],
+      "highways": [
+        "footway"
+      ]
+    },
+    {
+      "node_id": 12383985440,
+      "lat": 43.8367812,
+      "lon": 125.3995715,
+      "way_count": 3,
+      "roads": [
+        "净月大街",
+        "净月大街",
+        "[trunk_link]"
+      ],
+      "highways": [
+        "trunk",
+        "trunk_link"
+      ]
+    },
+    {
+      "node_id": 12383985471,
+      "lat": 43.8370488,
+      "lon": 125.3997098,
+      "way_count": 3,
+      "roads": [
+        "[trunk_link]",
+        "净月大街",
+        "净月大街"
+      ],
+      "highways": [
+        "trunk",
+        "trunk_link"
+      ]
+    },
+    {
+      "node_id": 12986989192,
+      "lat": 43.8309335,
+      "lon": 125.3989237,
+      "way_count": 3,
+      "roads": [
+        "[service]",
+        "[service]",
+        "[service]"
+      ],
+      "highways": [
+        "service"
+      ]
+    },
+    {
+      "node_id": 12986989189,
+      "lat": 43.8309096,
+      "lon": 125.3987609,
+      "way_count": 3,
+      "roads": [
+        "[service]",
+        "[service]",
+        "[service]"
+      ],
+      "highways": [
+        "service"
+      ]
+    },
+    {
+      "node_id": 519932181,
+      "lat": 43.8366473,
+      "lon": 125.3964075,
+      "way_count": 2,
+      "roads": [
+        "卫星路",
+        "世纪广场"
+      ],
+      "highways": [
+        "trunk"
+      ]
+    },
+    {
+      "node_id": 737319816,
+      "lat": 43.8320308,
+      "lon": 125.3907483,
+      "way_count": 2,
+      "roads": [
+        "卫星路",
+        "[trunk]"
+      ],
+      "highways": [
+        "trunk"
+      ]
+    },
+    {
+      "node_id": 519932187,
+      "lat": 43.8381384,
+      "lon": 125.3989973,
+      "way_count": 2,
+      "roads": [
+        "世纪大街",
+        "世纪广场"
+      ],
+      "highways": [
+        "trunk"
+      ]
+    },
+    {
+      "node_id": 519932189,
+      "lat": 43.8384963,
+      "lon": 125.3978153,
+      "way_count": 2,
+      "roads": [
+        "世纪广场",
+        "东环城路"
+      ],
+      "highways": [
+        "primary",
+        "trunk"
+      ]
+    },
+    {
+      "node_id": 519932208,
+      "lat": 43.8383674,
+      "lon": 125.3970568,
+      "way_count": 2,
+      "roads": [
+        "世纪广场",
+        "东环城路"
+      ],
+      "highways": [
+        "primary",
+        "trunk"
+      ]
+    },
+    {
+      "node_id": 519932206,
+      "lat": 43.838034,
+      "lon": 125.3964459,
+      "way_count": 2,
+      "roads": [
+        "世纪广场",
+        "北海路"
+      ],
+      "highways": [
+        "tertiary",
+        "trunk"
+      ]
+    },
+    {
+      "node_id": 13198041215,
+      "lat": 43.8375405,
+      "lon": 125.3961463,
+      "way_count": 2,
+      "roads": [
+        "世纪广场",
+        "北海路"
+      ],
+      "highways": [
+        "tertiary",
+        "trunk"
+      ]
+    },
+    {
+      "node_id": 13074446669,
+      "lat": 43.8367484,
+      "lon": 125.3963259,
+      "way_count": 2,
+      "roads": [
+        "世纪广场",
+        "卫星路"
+      ],
+      "highways": [
+        "primary",
+        "trunk"
+      ]
+    },
+    {
+      "node_id": 519932183,
+      "lat": 43.8363042,
+      "lon": 125.3968782,
+      "way_count": 2,
+      "roads": [
+        "世纪广场",
+        "卫星路"
+      ],
+      "highways": [
+        "trunk"
+      ]
+    },
+    {
+      "node_id": 1274869169,
+      "lat": 43.836086,
+      "lon": 125.3978691,
+      "way_count": 2,
+      "roads": [
+        "世纪广场",
+        "新城大街"
+      ],
+      "highways": [
+        "primary",
+        "trunk"
+      ]
+    },
+    {
+      "node_id": 1274868312,
+      "lat": 43.8361686,
+      "lon": 125.3984319,
+      "way_count": 2,
+      "roads": [
+        "世纪广场",
+        "新城大街"
+      ],
+      "highways": [
+        "primary",
+        "trunk"
+      ]
+    },
+    {
+      "node_id": 519932195,
+      "lat": 43.8368412,
+      "lon": 125.3993482,
+      "way_count": 2,
+      "roads": [
+        "世纪广场",
+        "净月大街"
+      ],
+      "highways": [
+        "primary",
+        "trunk"
+      ]
+    },
+    {
+      "node_id": 2431494060,
+      "lat": 43.8372539,
+      "lon": 125.3994564,
+      "way_count": 2,
+      "roads": [
+        "世纪广场",
+        "净月大街"
+      ],
+      "highways": [
+        "primary",
+        "trunk"
+      ]
+    },
+    {
+      "node_id": 12383926683,
+      "lat": 43.8380591,
+      "lon": 125.399082,
+      "way_count": 2,
+      "roads": [
+        "世纪广场",
+        "[tertiary]"
+      ],
+      "highways": [
+        "tertiary",
+        "trunk"
+      ]
+    },
+    {
+      "node_id": 519932185,
+      "lat": 43.8382524,
+      "lon": 125.3988167,
+      "way_count": 2,
+      "roads": [
+        "世纪广场",
+        "世纪大街"
+      ],
+      "highways": [
+        "trunk"
+      ]
+    },
+    {
+      "node_id": 13074446763,
+      "lat": 43.8339246,
+      "lon": 125.3931607,
+      "way_count": 2,
+      "roads": [
+        "南部快速路",
+        "世纪快速路"
+      ],
+      "highways": [
+        "trunk"
+      ]
+    },
+    {
+      "node_id": 1291501634,
+      "lat": 43.8253016,
+      "lon": 125.3985971,
+      "way_count": 2,
+      "roads": [
+        "长春绕城高速",
+        "长春绕城高速"
+      ],
+      "highways": [
+        "motorway"
+      ]
+    },
+    {
+      "node_id": 1273436219,
+      "lat": 43.8353775,
+      "lon": 125.4097926,
+      "way_count": 2,
+      "roads": [
+        "长春绕城高速",
+        "长春绕城高速"
+      ],
+      "highways": [
+        "motorway"
+      ]
+    },
+    {
+      "node_id": 1273402854,
+      "lat": 43.8265367,
+      "lon": 125.4009775,
+      "way_count": 2,
+      "roads": [
+        "[motorway_link]",
+        "[motorway_link]"
+      ],
+      "highways": [
+        "motorway_link"
+      ]
+    },
+    {
+      "node_id": 3007547897,
+      "lat": 43.835836,
+      "lon": 125.4048136,
+      "way_count": 2,
+      "roads": [
+        "[motorway_link]",
+        "净月大街"
+      ],
+      "highways": [
+        "primary",
+        "motorway_link"
+      ]
+    },
+    {
+      "node_id": 1273402769,
+      "lat": 43.8335612,
+      "lon": 125.4041679,
+      "way_count": 2,
+      "roads": [
+        "[motorway_link]",
+        "[motorway_link]"
+      ],
+      "highways": [
+        "motorway_link"
+      ]
+    },
+    {
+      "node_id": 1273402950,
+      "lat": 43.832796,
+      "lon": 125.4070623,
+      "way_count": 2,
+      "roads": [
+        "[motorway_link]",
+        "长春绕城高速"
+      ],
+      "highways": [
+        "motorway_link",
+        "motorway"
+      ]
+    },
+    {
+      "node_id": 1273402818,
+      "lat": 43.8318261,
+      "lon": 125.4026233,
+      "way_count": 2,
+      "roads": [
+        "[motorway_link]",
+        "[motorway_link]"
+      ],
+      "highways": [
+        "motorway_link"
+      ]
+    },
+    {
+      "node_id": 3007547891,
+      "lat": 43.8329011,
+      "lon": 125.4037694,
+      "way_count": 2,
+      "roads": [
+        "[motorway_link]",
+        "[motorway_link]"
+      ],
+      "highways": [
+        "motorway_link"
+      ]
+    },
+    {
+      "node_id": 1273402958,
+      "lat": 43.8329902,
+      "lon": 125.4035799,
+      "way_count": 2,
+      "roads": [
+        "[motorway_link]",
+        "[motorway_link]"
+      ],
+      "highways": [
+        "motorway_link"
+      ]
+    },
+    {
+      "node_id": 1273402948,
+      "lat": 43.830779,
+      "lon": 125.4023334,
+      "way_count": 2,
+      "roads": [
+        "[motorway_link]",
+        "[motorway_link]"
+      ],
+      "highways": [
+        "motorway_link"
+      ]
+    },
+    {
+      "node_id": 1273402754,
+      "lat": 43.8275572,
+      "lon": 125.4012042,
+      "way_count": 2,
+      "roads": [
+        "[motorway_link]",
+        "长春绕城高速"
+      ],
+      "highways": [
+        "motorway_link",
+        "motorway"
+      ]
+    },
+    {
+      "node_id": 1273350657,
+      "lat": 43.8290031,
+      "lon": 125.4031105,
+      "way_count": 2,
+      "roads": [
+        "[motorway_link]",
+        "长春绕城高速"
+      ],
+      "highways": [
+        "motorway_link",
+        "motorway"
+      ]
+    },
+    {
+      "node_id": 1295596086,
+      "lat": 43.8335972,
+      "lon": 125.4043778,
+      "way_count": 2,
+      "roads": [
+        "[motorway_link]",
+        "[motorway_link]"
+      ],
+      "highways": [
+        "motorway_link"
+      ]
+    },
+    {
+      "node_id": 1273402727,
+      "lat": 43.8345845,
+      "lon": 125.4080001,
+      "way_count": 2,
+      "roads": [
+        "[motorway_link]",
+        "净月大街"
+      ],
+      "highways": [
+        "primary",
+        "motorway_link"
+      ]
+    },
+    {
+      "node_id": 1273350410,
+      "lat": 43.8294909,
+      "lon": 125.4034834,
+      "way_count": 2,
+      "roads": [
+        "长春绕城高速",
+        "长春绕城高速"
+      ],
+      "highways": [
+        "motorway"
+      ]
+    },
+    {
+      "node_id": 1273350266,
+      "lat": 43.8291624,
+      "lon": 125.4031069,
+      "way_count": 2,
+      "roads": [
+        "长春绕城高速",
+        "长春绕城高速"
+      ],
+      "highways": [
+        "motorway"
+      ]
+    },
+    {
+      "node_id": 1273402930,
+      "lat": 43.8265961,
+      "lon": 125.4014,
+      "way_count": 2,
+      "roads": [
+        "[motorway_link]",
+        "[motorway_link]"
+      ],
+      "highways": [
+        "motorway_link"
+      ]
+    },
+    {
+      "node_id": 1273350155,
+      "lat": 43.8269159,
+      "lon": 125.4006308,
+      "way_count": 2,
+      "roads": [
+        "长春绕城高速",
+        "长春绕城高速"
+      ],
+      "highways": [
+        "motorway"
+      ]
+    },
+    {
+      "node_id": 1273350550,
+      "lat": 43.8274136,
+      "lon": 125.4012319,
+      "way_count": 2,
+      "roads": [
+        "长春绕城高速",
+        "长春绕城高速"
+      ],
+      "highways": [
+        "motorway"
+      ]
+    },
+    {
+      "node_id": 1273435944,
+      "lat": 43.8275298,
+      "lon": 125.4011672,
+      "way_count": 2,
+      "roads": [
+        "长春绕城高速",
+        "长春绕城高速"
+      ],
+      "highways": [
+        "motorway"
+      ]
+    },
+    {
+      "node_id": 1273351008,
+      "lat": 43.8290677,
+      "lon": 125.4031885,
+      "way_count": 2,
+      "roads": [
+        "长春绕城高速",
+        "长春绕城高速"
+      ],
+      "highways": [
+        "motorway"
+      ]
+    },
+    {
+      "node_id": 1273438067,
+      "lat": 43.8351621,
+      "lon": 125.4095782,
+      "way_count": 2,
+      "roads": [
+        "长春绕城高速",
+        "长春绕城高速"
+      ],
+      "highways": [
+        "motorway"
+      ]
+    },
+    {
+      "node_id": 1274495520,
+      "lat": 43.8346873,
+      "lon": 125.4090709,
+      "way_count": 2,
+      "roads": [
+        "长春绕城高速",
+        "长春绕城高速"
+      ],
+      "highways": [
+        "motorway"
+      ]
+    },
+    {
+      "node_id": 1273351075,
+      "lat": 43.829368,
+      "lon": 125.4035418,
+      "way_count": 2,
+      "roads": [
+        "长春绕城高速",
+        "长春绕城高速"
+      ],
+      "highways": [
+        "motorway"
+      ]
+    },
+    {
+      "node_id": 1273351181,
+      "lat": 43.8269657,
+      "lon": 125.4005041,
+      "way_count": 2,
+      "roads": [
+        "长春绕城高速",
+        "长春绕城高速"
+      ],
+      "highways": [
+        "motorway"
+      ]
+    },
+    {
+      "node_id": 1273350961,
+      "lat": 43.8350358,
+      "lon": 125.4096334,
+      "way_count": 2,
+      "roads": [
+        "长春绕城高速",
+        "长春绕城高速"
+      ],
+      "highways": [
+        "motorway"
+      ]
+    },
+    {
+      "node_id": 1273351196,
+      "lat": 43.8352665,
+      "lon": 125.4098671,
+      "way_count": 2,
+      "roads": [
+        "长春绕城高速",
+        "长春绕城高速"
+      ],
+      "highways": [
+        "motorway"
+      ]
+    },
+    {
+      "node_id": 1273350507,
+      "lat": 43.8340495,
+      "lon": 125.4085738,
+      "way_count": 2,
+      "roads": [
+        "长春绕城高速",
+        "长春绕城高速"
+      ],
+      "highways": [
+        "motorway"
+      ]
+    },
+    {
+      "node_id": 1273350768,
+      "lat": 43.8257658,
+      "lon": 125.3989747,
+      "way_count": 2,
+      "roads": [
+        "长春绕城高速",
+        "长春绕城高速"
+      ],
+      "highways": [
+        "motorway"
+      ]
+    },
+    {
+      "node_id": 339801989,
+      "lat": 43.8341084,
+      "lon": 125.4084518,
+      "way_count": 2,
+      "roads": [
+        "长春绕城高速",
+        "长春绕城高速"
+      ],
+      "highways": [
+        "motorway"
+      ]
+    },
+    {
+      "node_id": 1273350867,
+      "lat": 43.8346331,
+      "lon": 125.4092011,
+      "way_count": 2,
+      "roads": [
+        "长春绕城高速",
+        "长春绕城高速"
+      ],
+      "highways": [
+        "motorway"
+      ]
+    },
+    {
+      "node_id": 1274495459,
+      "lat": 43.8236068,
+      "lon": 125.3927642,
+      "way_count": 2,
+      "roads": [
+        "千朋路",
+        "云友路"
+      ],
+      "highways": [
+        "tertiary",
+        "residential"
+      ]
+    },
+    {
+      "node_id": 1274868265,
+      "lat": 43.8217696,
+      "lon": 125.4027778,
+      "way_count": 2,
+      "roads": [
+        "新城大街",
+        "新城大街"
+      ],
+      "highways": [
+        "primary"
+      ]
+    },
+    {
+      "node_id": 1274868496,
+      "lat": 43.8222963,
+      "lon": 125.4026087,
+      "way_count": 2,
+      "roads": [
+        "新城大街",
+        "新城大街"
+      ],
+      "highways": [
+        "primary"
+      ]
+    },
+    {
+      "node_id": 13533724870,
+      "lat": 43.8253305,
+      "lon": 125.4016309,
+      "way_count": 2,
+      "roads": [
+        "新城大街",
+        "[primary_link]"
+      ],
+      "highways": [
+        "primary",
+        "primary_link"
+      ]
+    },
+    {
+      "node_id": 1274868607,
+      "lat": 43.8258455,
+      "lon": 125.401465,
+      "way_count": 2,
+      "roads": [
+        "新城大街",
+        "[unclassified]"
+      ],
+      "highways": [
+        "primary",
+        "unclassified"
+      ]
+    },
+    {
+      "node_id": 1274868619,
+      "lat": 43.8318261,
+      "lon": 125.3996586,
+      "way_count": 2,
+      "roads": [
+        "新城大街",
+        "连云港街"
+      ],
+      "highways": [
+        "primary",
+        "tertiary"
+      ]
+    },
+    {
+      "node_id": 7553519535,
+      "lat": 43.8338105,
+      "lon": 125.3989922,
+      "way_count": 2,
+      "roads": [
+        "新城大街",
+        "[service]"
+      ],
+      "highways": [
+        "primary",
+        "service"
+      ]
+    },
+    {
+      "node_id": 7553519538,
+      "lat": 43.8342074,
+      "lon": 125.3988792,
+      "way_count": 2,
+      "roads": [
+        "新城大街",
+        "[service]"
+      ],
+      "highways": [
+        "primary",
+        "service"
+      ]
+    },
+    {
+      "node_id": 1274930860,
+      "lat": 43.8315108,
+      "lon": 125.3978629,
+      "way_count": 2,
+      "roads": [
+        "烟台路",
+        "连云港街"
+      ],
+      "highways": [
+        "tertiary"
+      ]
+    },
+    {
+      "node_id": 1291501659,
+      "lat": 43.8340647,
+      "lon": 125.393973,
+      "way_count": 2,
+      "roads": [
+        "烟台路",
+        "卫星路"
+      ],
+      "highways": [
+        "tertiary",
+        "trunk"
+      ]
+    },
+    {
+      "node_id": 12383985512,
+      "lat": 43.8318027,
+      "lon": 125.399509,
+      "way_count": 2,
+      "roads": [
+        "连云港街",
+        "新城大街"
+      ],
+      "highways": [
+        "primary",
+        "tertiary"
+      ]
+    },
+    {
+      "node_id": 1274495701,
+      "lat": 43.8274651,
+      "lon": 125.3928116,
+      "way_count": 2,
+      "roads": [
+        "连云港街",
+        "秦皇岛路"
+      ],
+      "highways": [
+        "tertiary"
+      ]
+    },
+    {
+      "node_id": 2460665561,
+      "lat": 43.8381319,
+      "lon": 125.3919722,
+      "way_count": 2,
+      "roads": [
+        "北海路",
+        "[service]"
+      ],
+      "highways": [
+        "tertiary",
+        "service"
+      ]
+    },
+    {
+      "node_id": 2460665560,
+      "lat": 43.837932,
+      "lon": 125.394823,
+      "way_count": 2,
+      "roads": [
+        "北海路",
+        "[service]"
+      ],
+      "highways": [
+        "tertiary",
+        "service"
+      ]
+    },
+    {
+      "node_id": 1278290215,
+      "lat": 43.8348153,
+      "lon": 125.3904474,
+      "way_count": 2,
+      "roads": [
+        "[service]",
+        "[service]"
+      ],
+      "highways": [
+        "service"
+      ]
+    },
+    {
+      "node_id": 11683091654,
+      "lat": 43.8335328,
+      "lon": 125.392355,
+      "way_count": 2,
+      "roads": [
+        "[service]",
+        "卫星路"
+      ],
+      "highways": [
+        "primary",
+        "service"
+      ]
+    },
+    {
+      "node_id": 1291501266,
+      "lat": 43.8253375,
+      "lon": 125.3984337,
+      "way_count": 2,
+      "roads": [
+        "长春绕城高速",
+        "长春绕城高速"
+      ],
+      "highways": [
+        "motorway"
+      ]
+    },
+    {
+      "node_id": 1274495281,
+      "lat": 43.825584,
+      "lon": 125.395642,
+      "way_count": 2,
+      "roads": [
+        "秦皇岛路",
+        "云友路"
+      ],
+      "highways": [
+        "tertiary"
+      ]
+    },
+    {
+      "node_id": 5626048593,
+      "lat": 43.8285326,
+      "lon": 125.3911762,
+      "way_count": 2,
+      "roads": [
+        "秦皇岛路",
+        "[residential]"
+      ],
+      "highways": [
+        "tertiary",
+        "residential"
+      ]
+    },
+    {
+      "node_id": 13074446798,
+      "lat": 43.8352987,
+      "lon": 125.3954569,
+      "way_count": 2,
+      "roads": [
+        "卫星路",
+        "[trunk_link]"
+      ],
+      "highways": [
+        "trunk",
+        "trunk_link"
+      ]
+    },
+    {
+      "node_id": 1273402812,
+      "lat": 43.83508,
+      "lon": 125.4058198,
+      "way_count": 2,
+      "roads": [
+        "[motorway_link]",
+        "[motorway_link]"
+      ],
+      "highways": [
+        "motorway_link"
+      ]
+    },
+    {
+      "node_id": 1273402731,
+      "lat": 43.8356261,
+      "lon": 125.4064134,
+      "way_count": 2,
+      "roads": [
+        "[motorway_link]",
+        "[motorway_link]"
+      ],
+      "highways": [
+        "motorway_link"
+      ]
+    },
+    {
+      "node_id": 1295595904,
+      "lat": 43.8350251,
+      "lon": 125.4058878,
+      "way_count": 2,
+      "roads": [
+        "[motorway_link]",
+        "[motorway_link]"
+      ],
+      "highways": [
+        "motorway_link"
+      ]
+    },
+    {
+      "node_id": 2431494050,
+      "lat": 43.8337107,
+      "lon": 125.410991,
+      "way_count": 2,
+      "roads": [
+        "净月大街",
+        "[motorway_link]"
+      ],
+      "highways": [
+        "primary",
+        "motorway_link"
+      ]
+    },
+    {
+      "node_id": 1295596079,
+      "lat": 43.8347817,
+      "lon": 125.4081458,
+      "way_count": 2,
+      "roads": [
+        "净月大街",
+        "[motorway_link]"
+      ],
+      "highways": [
+        "primary",
+        "motorway_link"
+      ]
+    },
+    {
+      "node_id": 1295595825,
+      "lat": 43.8357442,
+      "lon": 125.4055044,
+      "way_count": 2,
+      "roads": [
+        "净月大街",
+        "洋浦大街"
+      ],
+      "highways": [
+        "primary",
+        "tertiary"
+      ]
+    },
+    {
+      "node_id": 1295595953,
+      "lat": 43.8356039,
+      "lon": 125.4064852,
+      "way_count": 2,
+      "roads": [
+        "[motorway_link]",
+        "[motorway_link]"
+      ],
+      "highways": [
+        "motorway_link"
+      ]
+    },
+    {
+      "node_id": 3323397837,
+      "lat": 43.8225044,
+      "lon": 125.4087406,
+      "way_count": 2,
+      "roads": [
+        "博硕路",
+        "[service]"
+      ],
+      "highways": [
+        "tertiary",
+        "service"
+      ]
+    },
+    {
+      "node_id": 3323397833,
+      "lat": 43.8231559,
+      "lon": 125.4106826,
+      "way_count": 2,
+      "roads": [
+        "博硕路",
+        "[service]"
+      ],
+      "highways": [
+        "tertiary",
+        "service"
+      ]
+    },
+    {
+      "node_id": 3212042812,
+      "lat": 43.8233035,
+      "lon": 125.411127,
+      "way_count": 2,
+      "roads": [
+        "博硕路",
+        "公安路"
+      ],
+      "highways": [
+        "tertiary",
+        "residential"
+      ]
+    },
+    {
+      "node_id": 2460665555,
+      "lat": 43.8375431,
+      "lon": 125.3947765,
+      "way_count": 2,
+      "roads": [
+        "[service]",
+        "[service]"
+      ],
+      "highways": [
+        "service"
+      ]
+    },
+    {
+      "node_id": 13198041229,
+      "lat": 43.8379887,
+      "lon": 125.39483,
+      "way_count": 2,
+      "roads": [
+        "[service]",
+        "北海路"
+      ],
+      "highways": [
+        "tertiary",
+        "service"
+      ]
+    },
+    {
+      "node_id": 13198041242,
+      "lat": 43.838199,
+      "lon": 125.3919841,
+      "way_count": 2,
+      "roads": [
+        "[service]",
+        "北海路"
+      ],
+      "highways": [
+        "tertiary",
+        "service"
+      ]
+    },
+    {
+      "node_id": 2460665556,
+      "lat": 43.8377532,
+      "lon": 125.3920012,
+      "way_count": 2,
+      "roads": [
+        "[service]",
+        "[service]"
+      ],
+      "highways": [
+        "service"
+      ]
+    },
+    {
+      "node_id": 2461931744,
+      "lat": 43.8372376,
+      "lon": 125.3924199,
+      "way_count": 2,
+      "roads": [
+        "[service]",
+        "[service]"
+      ],
+      "highways": [
+        "service"
+      ]
+    },
+    {
+      "node_id": 2461931575,
+      "lat": 43.8365416,
+      "lon": 125.3927385,
+      "way_count": 2,
+      "roads": [
+        "[service]",
+        "[service]"
+      ],
+      "highways": [
+        "service"
+      ]
+    },
+    {
+      "node_id": 2460665515,
+      "lat": 43.8361238,
+      "lon": 125.3925317,
+      "way_count": 2,
+      "roads": [
+        "[service]",
+        "[service]"
+      ],
+      "highways": [
+        "service"
+      ]
+    },
+    {
+      "node_id": 2461931257,
+      "lat": 43.8348565,
+      "lon": 125.3905472,
+      "way_count": 2,
+      "roads": [
+        "[service]",
+        "[service]"
+      ],
+      "highways": [
+        "service"
+      ]
+    },
+    {
+      "node_id": 2461931806,
+      "lat": 43.8378051,
+      "lon": 125.3914094,
+      "way_count": 2,
+      "roads": [
+        "[service]",
+        "[service]"
+      ],
+      "highways": [
+        "service"
+      ]
+    },
+    {
+      "node_id": 2461931487,
+      "lat": 43.8360915,
+      "lon": 125.3931243,
+      "way_count": 2,
+      "roads": [
+        "[service]",
+        "[service]"
+      ],
+      "highways": [
+        "service"
+      ]
+    },
+    {
+      "node_id": 2461931715,
+      "lat": 43.8371234,
+      "lon": 125.3920015,
+      "way_count": 2,
+      "roads": [
+        "[service]",
+        "[service]"
+      ],
+      "highways": [
+        "service"
+      ]
+    },
+    {
+      "node_id": 2461931310,
+      "lat": 43.8356269,
+      "lon": 125.3905809,
+      "way_count": 2,
+      "roads": [
+        "[service]",
+        "[service]"
+      ],
+      "highways": [
+        "service"
+      ]
+    },
+    {
+      "node_id": 1273402960,
+      "lat": 43.8355769,
+      "lon": 125.405369,
+      "way_count": 2,
+      "roads": [
+        "净月大街",
+        "洋浦大街"
+      ],
+      "highways": [
+        "primary",
+        "tertiary"
+      ]
+    },
+    {
+      "node_id": 3306163182,
+      "lat": 43.8284686,
+      "lon": 125.4004566,
+      "way_count": 2,
+      "roads": [
+        "[residential]",
+        "新城大街"
+      ],
+      "highways": [
+        "primary",
+        "residential"
+      ]
+    },
+    {
+      "node_id": 2461931563,
+      "lat": 43.8364332,
+      "lon": 125.3931421,
+      "way_count": 2,
+      "roads": [
+        "[service]",
+        "[service]"
+      ],
+      "highways": [
+        "service"
+      ]
+    },
+    {
+      "node_id": 5626048580,
+      "lat": 43.8277186,
+      "lon": 125.3903748,
+      "way_count": 2,
+      "roads": [
+        "[residential]",
+        "[residential]"
+      ],
+      "highways": [
+        "residential"
+      ]
+    },
+    {
+      "node_id": 5626049028,
+      "lat": 43.8263806,
+      "lon": 125.3887799,
+      "way_count": 2,
+      "roads": [
+        "[residential]",
+        "[footway]"
+      ],
+      "highways": [
+        "residential",
+        "footway"
+      ]
+    },
+    {
+      "node_id": 5626049058,
+      "lat": 43.8261479,
+      "lon": 125.3891329,
+      "way_count": 2,
+      "roads": [
+        "[residential]",
+        "[path]"
+      ],
+      "highways": [
+        "residential",
+        "path"
+      ]
+    },
+    {
+      "node_id": 5626049030,
+      "lat": 43.8259459,
+      "lon": 125.3894392,
+      "way_count": 2,
+      "roads": [
+        "[residential]",
+        "[footway]"
+      ],
+      "highways": [
+        "residential",
+        "footway"
+      ]
+    },
+    {
+      "node_id": 5626049032,
+      "lat": 43.8254579,
+      "lon": 125.3901794,
+      "way_count": 2,
+      "roads": [
+        "[residential]",
+        "[footway]"
+      ],
+      "highways": [
+        "residential",
+        "footway"
+      ]
+    },
+    {
+      "node_id": 5626049056,
+      "lat": 43.8250974,
+      "lon": 125.3907261,
+      "way_count": 2,
+      "roads": [
+        "[residential]",
+        "[footway]"
+      ],
+      "highways": [
+        "residential",
+        "footway"
+      ]
+    },
+    {
+      "node_id": 5626049051,
+      "lat": 43.8246606,
+      "lon": 125.3913886,
+      "way_count": 2,
+      "roads": [
+        "[residential]",
+        "[footway]"
+      ],
+      "highways": [
+        "residential",
+        "footway"
+      ]
+    },
+    {
+      "node_id": 5626049048,
+      "lat": 43.824615,
+      "lon": 125.3933685,
+      "way_count": 2,
+      "roads": [
+        "[residential]",
+        "[footway]"
+      ],
+      "highways": [
+        "residential",
+        "footway"
+      ]
+    },
+    {
+      "node_id": 5626049035,
+      "lat": 43.8256469,
+      "lon": 125.3929348,
+      "way_count": 2,
+      "roads": [
+        "[residential]",
+        "[footway]"
+      ],
+      "highways": [
+        "residential",
+        "footway"
+      ]
+    },
+    {
+      "node_id": 5626049031,
+      "lat": 43.8260207,
+      "lon": 125.3923681,
+      "way_count": 2,
+      "roads": [
+        "[residential]",
+        "[footway]"
+      ],
+      "highways": [
+        "residential",
+        "footway"
+      ]
+    },
+    {
+      "node_id": 5626049060,
+      "lat": 43.8263114,
+      "lon": 125.3919076,
+      "way_count": 2,
+      "roads": [
+        "[residential]",
+        "[path]"
+      ],
+      "highways": [
+        "residential",
+        "path"
+      ]
+    },
+    {
+      "node_id": 5626049029,
+      "lat": 43.8264664,
+      "lon": 125.391662,
+      "way_count": 2,
+      "roads": [
+        "[residential]",
+        "[footway]"
+      ],
+      "highways": [
+        "residential",
+        "footway"
+      ]
+    },
+    {
+      "node_id": 5626049091,
+      "lat": 43.8269229,
+      "lon": 125.3909538,
+      "way_count": 2,
+      "roads": [
+        "[residential]",
+        "[footway]"
+      ],
+      "highways": [
+        "residential",
+        "footway"
+      ]
+    },
+    {
+      "node_id": 5626049068,
+      "lat": 43.8259717,
+      "lon": 125.3904483,
+      "way_count": 2,
+      "roads": [
+        "[footway]",
+        "[path]"
+      ],
+      "highways": [
+        "path",
+        "footway"
+      ]
+    },
+    {
+      "node_id": 5626049078,
+      "lat": 43.8259753,
+      "lon": 125.3905891,
+      "way_count": 2,
+      "roads": [
+        "[footway]",
+        "[path]"
+      ],
+      "highways": [
+        "path",
+        "footway"
+      ]
+    },
+    {
+      "node_id": 5626049079,
+      "lat": 43.8259765,
+      "lon": 125.3906382,
+      "way_count": 2,
+      "roads": [
+        "[footway]",
+        "[path]"
+      ],
+      "highways": [
+        "path",
+        "footway"
+      ]
+    },
+    {
+      "node_id": 5626049084,
+      "lat": 43.8259912,
+      "lon": 125.3912118,
+      "way_count": 2,
+      "roads": [
+        "[footway]",
+        "[path]"
+      ],
+      "highways": [
+        "path",
+        "footway"
+      ]
+    },
+    {
+      "node_id": 5626049085,
+      "lat": 43.8259924,
+      "lon": 125.3912582,
+      "way_count": 2,
+      "roads": [
+        "[footway]",
+        "[path]"
+      ],
+      "highways": [
+        "path",
+        "footway"
+      ]
+    },
+    {
+      "node_id": 5626049034,
+      "lat": 43.8256009,
+      "lon": 125.3928988,
+      "way_count": 2,
+      "roads": [
+        "[footway]",
+        "[footway]"
+      ],
+      "highways": [
+        "footway"
+      ]
+    },
+    {
+      "node_id": 5626049057,
+      "lat": 43.8251421,
+      "lon": 125.3929379,
+      "way_count": 2,
+      "roads": [
+        "[footway]",
+        "[footway]"
+      ],
+      "highways": [
+        "footway"
+      ]
+    },
+    {
+      "node_id": 5626049036,
+      "lat": 43.8250126,
+      "lon": 125.392949,
+      "way_count": 2,
+      "roads": [
+        "[footway]",
+        "[footway]"
+      ],
+      "highways": [
+        "footway"
+      ]
+    },
+    {
+      "node_id": 5626049041,
+      "lat": 43.8248034,
+      "lon": 125.3929238,
+      "way_count": 2,
+      "roads": [
+        "[footway]",
+        "[footway]"
+      ],
+      "highways": [
+        "footway"
+      ]
+    },
+    {
+      "node_id": 5626049043,
+      "lat": 43.8248349,
+      "lon": 125.3930814,
+      "way_count": 2,
+      "roads": [
+        "[footway]",
+        "[footway]"
+      ],
+      "highways": [
+        "footway"
+      ]
+    },
+    {
+      "node_id": 5626049055,
+      "lat": 43.8248063,
+      "lon": 125.3931187,
+      "way_count": 2,
+      "roads": [
+        "[footway]",
+        "[footway]"
+      ],
+      "highways": [
+        "footway"
+      ]
+    },
+    {
+      "node_id": 5626049050,
+      "lat": 43.8246725,
+      "lon": 125.3917524,
+      "way_count": 2,
+      "roads": [
+        "[footway]",
+        "[footway]"
+      ],
+      "highways": [
+        "footway"
+      ]
+    },
+    {
+      "node_id": 5626049052,
+      "lat": 43.8246895,
+      "lon": 125.3930651,
+      "way_count": 2,
+      "roads": [
+        "[footway]",
+        "[footway]"
+      ],
+      "highways": [
+        "footway"
+      ]
+    },
+    {
+      "node_id": 5626049071,
+      "lat": 43.8261806,
+      "lon": 125.3907125,
+      "way_count": 2,
+      "roads": [
+        "[path]",
+        "[path]"
+      ],
+      "highways": [
+        "path"
+      ]
+    },
+    {
+      "node_id": 5626049081,
+      "lat": 43.8261833,
+      "lon": 125.3908418,
+      "way_count": 2,
+      "roads": [
+        "[path]",
+        "[path]"
+      ],
+      "highways": [
+        "path"
+      ]
+    },
+    {
+      "node_id": 5626049083,
+      "lat": 43.8261874,
+      "lon": 125.3910428,
+      "way_count": 2,
+      "roads": [
+        "[path]",
+        "[path]"
+      ],
+      "highways": [
+        "path"
+      ]
+    },
+    {
+      "node_id": 5626049059,
+      "lat": 43.8262003,
+      "lon": 125.3916657,
+      "way_count": 2,
+      "roads": [
+        "[path]",
+        "[path]"
+      ],
+      "highways": [
+        "path"
+      ]
+    },
+    {
+      "node_id": 5626049067,
+      "lat": 43.825987,
+      "lon": 125.3904485,
+      "way_count": 2,
+      "roads": [
+        "[path]",
+        "[path]"
+      ],
+      "highways": [
+        "path"
+      ]
+    },
+    {
+      "node_id": 5626049077,
+      "lat": 43.8260685,
+      "lon": 125.390501,
+      "way_count": 2,
+      "roads": [
+        "[path]",
+        "[path]"
+      ],
+      "highways": [
+        "path"
+      ]
+    },
+    {
+      "node_id": 5626049082,
+      "lat": 43.8260979,
+      "lon": 125.3908984,
+      "way_count": 2,
+      "roads": [
+        "[path]",
+        "[path]"
+      ],
+      "highways": [
+        "path"
+      ]
+    },
+    {
+      "node_id": 5626049080,
+      "lat": 43.8261693,
+      "lon": 125.3910514,
+      "way_count": 2,
+      "roads": [
+        "[path]",
+        "[path]"
+      ],
+      "highways": [
+        "path"
+      ]
+    },
+    {
+      "node_id": 8214179845,
+      "lat": 43.8246052,
+      "lon": 125.3942214,
+      "way_count": 2,
+      "roads": [
+        "云友路",
+        "[service]"
+      ],
+      "highways": [
+        "tertiary",
+        "service"
+      ]
+    },
+    {
+      "node_id": 6639465729,
+      "lat": 43.8250607,
+      "lon": 125.3948803,
+      "way_count": 2,
+      "roads": [
+        "云友路",
+        "云友路"
+      ],
+      "highways": [
+        "tertiary"
+      ]
+    },
+    {
+      "node_id": 7793683331,
+      "lat": 43.8272622,
+      "lon": 125.3903733,
+      "way_count": 2,
+      "roads": [
+        "[residential]",
+        "[residential]"
+      ],
+      "highways": [
+        "residential"
+      ]
+    },
+    {
+      "node_id": 8214179846,
+      "lat": 43.8244536,
+      "lon": 125.3944154,
+      "way_count": 2,
+      "roads": [
+        "[service]",
+        "[service]"
+      ],
+      "highways": [
+        "service"
+      ]
+    },
+    {
+      "node_id": 8412572174,
+      "lat": 43.8254866,
+      "lon": 125.3955381,
+      "way_count": 2,
+      "roads": [
+        "云友路",
+        "云友路"
+      ],
+      "highways": [
+        "tertiary"
+      ]
+    },
+    {
+      "node_id": 12383985442,
+      "lat": 43.8407309,
+      "lon": 125.4017792,
+      "way_count": 2,
+      "roads": [
+        "世纪快速路",
+        "[trunk_link]"
+      ],
+      "highways": [
+        "trunk",
+        "trunk_link"
+      ]
+    },
+    {
+      "node_id": 13074446766,
+      "lat": 43.8348986,
+      "lon": 125.3943944,
+      "way_count": 2,
+      "roads": [
+        "世纪快速路",
+        "净月大街"
+      ],
+      "highways": [
+        "trunk"
+      ]
+    },
+    {
+      "node_id": 13074446751,
+      "lat": 43.8337767,
+      "lon": 125.3934051,
+      "way_count": 2,
+      "roads": [
+        "世纪快速路",
+        "南部快速路"
+      ],
+      "highways": [
+        "trunk"
+      ]
+    },
+    {
+      "node_id": 13074446767,
+      "lat": 43.8346183,
+      "lon": 125.3944469,
+      "way_count": 2,
+      "roads": [
+        "世纪快速路",
+        "净月大街"
+      ],
+      "highways": [
+        "trunk"
+      ]
+    },
+    {
+      "node_id": 12383985485,
+      "lat": 43.8419147,
+      "lon": 125.4031764,
+      "way_count": 2,
+      "roads": [
+        "世纪快速路",
+        "[trunk_link]"
+      ],
+      "highways": [
+        "trunk",
+        "trunk_link"
+      ]
+    },
+    {
+      "node_id": 12383985446,
+      "lat": 43.8383301,
+      "lon": 125.3983775,
+      "way_count": 2,
+      "roads": [
+        "[trunk_link]",
+        "[trunk_link]"
+      ],
+      "highways": [
+        "trunk_link"
+      ]
+    },
+    {
+      "node_id": 12383985468,
+      "lat": 43.8365818,
+      "lon": 125.3986049,
+      "way_count": 2,
+      "roads": [
+        "[trunk_link]",
+        "[trunk_link]"
+      ],
+      "highways": [
+        "trunk_link"
+      ]
+    },
+    {
+      "node_id": 12383985492,
+      "lat": 43.8381031,
+      "lon": 125.3979096,
+      "way_count": 2,
+      "roads": [
+        "净月大街",
+        "净月大街"
+      ],
+      "highways": [
+        "trunk"
+      ]
+    },
+    {
+      "node_id": 12383985489,
+      "lat": 43.8377932,
+      "lon": 125.3986157,
+      "way_count": 2,
+      "roads": [
+        "净月大街",
+        "净月大街"
+      ],
+      "highways": [
+        "trunk"
+      ]
+    },
+    {
+      "node_id": 12986989183,
+      "lat": 43.831054,
+      "lon": 125.3997413,
+      "way_count": 2,
+      "roads": [
+        "[service]",
+        "新城大街"
+      ],
+      "highways": [
+        "primary",
+        "service"
+      ]
+    },
+    {
+      "node_id": 12986989184,
+      "lat": 43.8308812,
+      "lon": 125.3985685,
+      "way_count": 2,
+      "roads": [
+        "[service]",
+        "[service]"
+      ],
+      "highways": [
+        "service"
+      ]
+    },
+    {
+      "node_id": 12986989191,
+      "lat": 43.8303012,
+      "lon": 125.399003,
+      "way_count": 2,
+      "roads": [
+        "[service]",
+        "[service]"
+      ],
+      "highways": [
+        "service"
+      ]
+    },
+    {
+      "node_id": 12986989194,
+      "lat": 43.8301804,
+      "lon": 125.3991836,
+      "way_count": 2,
+      "roads": [
+        "[service]",
+        "[service]"
+      ],
+      "highways": [
+        "service"
+      ]
+    },
+    {
+      "node_id": 13074446702,
+      "lat": 43.8311281,
+      "lon": 125.3874102,
+      "way_count": 2,
+      "roads": [
+        "南部快速路",
+        "[trunk_link]"
+      ],
+      "highways": [
+        "trunk",
+        "trunk_link"
+      ]
+    },
+    {
+      "node_id": 13074446799,
+      "lat": 43.8342929,
+      "lon": 125.3943346,
+      "way_count": 2,
+      "roads": [
+        "[trunk_link]",
+        "[trunk_link]"
+      ],
+      "highways": [
+        "trunk_link"
+      ]
+    },
+    {
+      "node_id": 13249033080,
+      "lat": 43.8330767,
+      "lon": 125.4110928,
+      "way_count": 2,
+      "roads": [
+        "[unclassified]",
+        "[unclassified]"
+      ],
+      "highways": [
+        "unclassified"
+      ]
+    },
+    {
+      "node_id": 13533724814,
+      "lat": 43.8336512,
+      "lon": 125.3988991,
+      "way_count": 2,
+      "roads": [
+        "新城大街",
+        "新城大街"
+      ],
+      "highways": [
+        "primary"
+      ]
+    },
+    {
+      "node_id": 13533724871,
+      "lat": 43.8252993,
+      "lon": 125.4014619,
+      "way_count": 2,
+      "roads": [
+        "新城大街",
+        "[primary_link]"
+      ],
+      "highways": [
+        "primary",
+        "primary_link"
+      ]
+    },
+    {
+      "node_id": 13533720416,
+      "lat": 43.8222781,
+      "lon": 125.402469,
+      "way_count": 2,
+      "roads": [
+        "新城大街",
+        "新城大街"
+      ],
+      "highways": [
+        "primary"
+      ]
+    },
+    {
+      "node_id": 13533720417,
+      "lat": 43.8217451,
+      "lon": 125.4026416,
+      "way_count": 2,
+      "roads": [
+        "新城大街",
+        "新城大街"
+      ],
+      "highways": [
+        "primary"
+      ]
+    },
+    {
+      "node_id": 1274868314,
+      "lat": 43.8352113,
+      "lon": 125.3983904,
+      "way_count": 2,
+      "roads": [
+        "新城大街",
+        "新城大街"
+      ],
+      "highways": [
+        "primary"
+      ]
+    }
+  ],
+  "intersections": [
+    {
+      "node_id": 13533720420,
+      "lat": 43.8208457,
+      "lon": 125.40284,
+      "way_count": 3,
+      "roads": [
+        "博硕路",
+        "新城大街",
+        "新城大街"
+      ],
+      "highways": [
+        "primary",
+        "tertiary"
+      ]
+    },
+    {
+      "node_id": 1274868390,
+      "lat": 43.820856,
+      "lon": 125.4030079,
+      "way_count": 3,
+      "roads": [
+        "博硕路",
+        "新城大街",
+        "新城大街"
+      ],
+      "highways": [
+        "primary",
+        "tertiary"
+      ]
+    },
+    {
+      "node_id": 1274868265,
+      "lat": 43.8217696,
+      "lon": 125.4027778,
+      "way_count": 2,
+      "roads": [
+        "新城大街",
+        "新城大街"
+      ],
+      "highways": [
+        "primary"
+      ]
+    },
+    {
+      "node_id": 1274868496,
+      "lat": 43.8222963,
+      "lon": 125.4026087,
+      "way_count": 2,
+      "roads": [
+        "新城大街",
+        "新城大街"
+      ],
+      "highways": [
+        "primary"
+      ]
+    },
+    {
+      "node_id": 1274868619,
+      "lat": 43.8318261,
+      "lon": 125.3996586,
+      "way_count": 2,
+      "roads": [
+        "新城大街",
+        "连云港街"
+      ],
+      "highways": [
+        "primary",
+        "tertiary"
+      ]
+    },
+    {
+      "node_id": 1274930860,
+      "lat": 43.8315108,
+      "lon": 125.3978629,
+      "way_count": 2,
+      "roads": [
+        "烟台路",
+        "连云港街"
+      ],
+      "highways": [
+        "tertiary"
+      ]
+    },
+    {
+      "node_id": 12383985512,
+      "lat": 43.8318027,
+      "lon": 125.399509,
+      "way_count": 2,
+      "roads": [
+        "连云港街",
+        "新城大街"
+      ],
+      "highways": [
+        "primary",
+        "tertiary"
+      ]
+    },
+    {
+      "node_id": 1274495701,
+      "lat": 43.8274651,
+      "lon": 125.3928116,
+      "way_count": 2,
+      "roads": [
+        "连云港街",
+        "秦皇岛路"
+      ],
+      "highways": [
+        "tertiary"
+      ]
+    },
+    {
+      "node_id": 1274495281,
+      "lat": 43.825584,
+      "lon": 125.395642,
+      "way_count": 2,
+      "roads": [
+        "秦皇岛路",
+        "云友路"
+      ],
+      "highways": [
+        "tertiary"
+      ]
+    },
+    {
+      "node_id": 1295595825,
+      "lat": 43.8357442,
+      "lon": 125.4055044,
+      "way_count": 2,
+      "roads": [
+        "净月大街",
+        "洋浦大街"
+      ],
+      "highways": [
+        "primary",
+        "tertiary"
+      ]
+    },
+    {
+      "node_id": 1273402960,
+      "lat": 43.8355769,
+      "lon": 125.405369,
+      "way_count": 2,
+      "roads": [
+        "净月大街",
+        "洋浦大街"
+      ],
+      "highways": [
+        "primary",
+        "tertiary"
+      ]
+    },
+    {
+      "node_id": 6639465729,
+      "lat": 43.8250607,
+      "lon": 125.3948803,
+      "way_count": 2,
+      "roads": [
+        "云友路",
+        "云友路"
+      ],
+      "highways": [
+        "tertiary"
+      ]
+    },
+    {
+      "node_id": 8412572174,
+      "lat": 43.8254866,
+      "lon": 125.3955381,
+      "way_count": 2,
+      "roads": [
+        "云友路",
+        "云友路"
+      ],
+      "highways": [
+        "tertiary"
+      ]
+    },
+    {
+      "node_id": 13533724814,
+      "lat": 43.8336512,
+      "lon": 125.3988991,
+      "way_count": 2,
+      "roads": [
+        "新城大街",
+        "新城大街"
+      ],
+      "highways": [
+        "primary"
+      ]
+    },
+    {
+      "node_id": 13533720416,
+      "lat": 43.8222781,
+      "lon": 125.402469,
+      "way_count": 2,
+      "roads": [
+        "新城大街",
+        "新城大街"
+      ],
+      "highways": [
+        "primary"
+      ]
+    },
+    {
+      "node_id": 13533720417,
+      "lat": 43.8217451,
+      "lon": 125.4026416,
+      "way_count": 2,
+      "roads": [
+        "新城大街",
+        "新城大街"
+      ],
+      "highways": [
+        "primary"
+      ]
+    },
+    {
+      "node_id": 1274868314,
+      "lat": 43.8352113,
+      "lon": 125.3983904,
+      "way_count": 2,
+      "roads": [
+        "新城大街",
+        "新城大街"
+      ],
+      "highways": [
+        "primary"
+      ]
+    }
+  ]
+}

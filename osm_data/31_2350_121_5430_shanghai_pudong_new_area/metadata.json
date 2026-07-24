@@ -1,0 +1,55 @@
+{
+  "download_time": "2026-07-24T12:14:51.178120",
+  "center_coordinates": {
+    "latitude": 31.235,
+    "longitude": 121.543
+  },
+  "download_range": {
+    "north": 31.25,
+    "south": 31.22,
+    "east": 121.558,
+    "west": 121.528,
+    "expand": 0.015
+  },
+  "alias": "shanghai_pudong_new_area",
+  "data_categories": [
+    "roads",
+    "buildings",
+    "water",
+    "landuse",
+    "pois",
+    "traffic_signals"
+  ],
+  "statistics": {
+    "roads": {
+      "ways": 1324,
+      "nodes": 6995,
+      "total_elements": 8319
+    },
+    "buildings": {
+      "ways": 800,
+      "nodes": 6414,
+      "total_elements": 7214
+    },
+    "water": {
+      "ways": 38,
+      "nodes": 719,
+      "total_elements": 757
+    },
+    "landuse": {
+      "ways": 349,
+      "nodes": 3126,
+      "total_elements": 3475
+    },
+    "pois": {
+      "ways": 0,
+      "nodes": 451,
+      "total_elements": 451
+    },
+    "traffic_signals": {
+      "ways": 0,
+      "nodes": 108,
+      "total_elements": 108
+    }
+  }
+}

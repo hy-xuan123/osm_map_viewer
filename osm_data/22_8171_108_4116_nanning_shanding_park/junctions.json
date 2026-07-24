@@ -1,0 +1,2527 @@
+{
+  "source": "parseOSMData",
+  "dataset": "22_8171_108_4116_nanning_shanding_park",
+  "data_file": "combined.json",
+  "generated_time": "2026-07-07T17:13:08.119418",
+  "total_junctions": 146,
+  "total_intersections": 32,
+  "junctions": [
+    {
+      "node_id": 5540013587,
+      "lat": 22.8154757,
+      "lon": 108.4163681,
+      "way_count": 4,
+      "roads": [
+        "[primary]",
+        "[primary]",
+        "民族大道",
+        "民族大道"
+      ],
+      "highways": [
+        "primary",
+        "trunk"
+      ]
+    },
+    {
+      "node_id": 3988975611,
+      "lat": 22.8156729,
+      "lon": 108.416545,
+      "way_count": 4,
+      "roads": [
+        "民族大道",
+        "枫林路",
+        "[primary]",
+        "民族大道"
+      ],
+      "highways": [
+        "primary",
+        "tertiary",
+        "trunk"
+      ]
+    },
+    {
+      "node_id": 5540013586,
+      "lat": 22.8154752,
+      "lon": 108.4165424,
+      "way_count": 4,
+      "roads": [
+        "民族大道",
+        "[primary]",
+        "[primary]",
+        "民族大道"
+      ],
+      "highways": [
+        "primary",
+        "trunk"
+      ]
+    },
+    {
+      "node_id": 5966776431,
+      "lat": 22.8137264,
+      "lon": 108.416483,
+      "way_count": 4,
+      "roads": [
+        "仙葫大道",
+        "[primary]",
+        "仙葫大道",
+        "[primary_link]"
+      ],
+      "highways": [
+        "primary",
+        "primary_link"
+      ]
+    },
+    {
+      "node_id": 5907591768,
+      "lat": 22.8138147,
+      "lon": 108.4134034,
+      "way_count": 4,
+      "roads": [
+        "[secondary_link]",
+        "[secondary_link]",
+        "青林路",
+        "青林路"
+      ],
+      "highways": [
+        "secondary_link",
+        "secondary"
+      ]
+    },
+    {
+      "node_id": 9542864806,
+      "lat": 22.8139123,
+      "lon": 108.4132993,
+      "way_count": 4,
+      "roads": [
+        "青林路",
+        "青林路",
+        "[service]",
+        "[service]"
+      ],
+      "highways": [
+        "service",
+        "secondary"
+      ]
+    },
+    {
+      "node_id": 5211461403,
+      "lat": 22.8179897,
+      "lon": 108.4128435,
+      "way_count": 4,
+      "roads": [
+        "望民路",
+        "青环路",
+        "[secondary]",
+        "枫林路"
+      ],
+      "highways": [
+        "tertiary",
+        "secondary"
+      ]
+    },
+    {
+      "node_id": 5211461404,
+      "lat": 22.8180239,
+      "lon": 108.4129587,
+      "way_count": 4,
+      "roads": [
+        "青环路",
+        "[secondary]",
+        "枫林路",
+        "枫林路"
+      ],
+      "highways": [
+        "tertiary",
+        "secondary"
+      ]
+    },
+    {
+      "node_id": 3988975615,
+      "lat": 22.8156733,
+      "lon": 108.4163705,
+      "way_count": 4,
+      "roads": [
+        "枫林路",
+        "[primary]",
+        "民族大道",
+        "民族大道"
+      ],
+      "highways": [
+        "primary",
+        "tertiary",
+        "trunk"
+      ]
+    },
+    {
+      "node_id": 5211461377,
+      "lat": 22.8180523,
+      "lon": 108.4127829,
+      "way_count": 4,
+      "roads": [
+        "[secondary]",
+        "望民路",
+        "枫林路",
+        "枫林路"
+      ],
+      "highways": [
+        "tertiary",
+        "secondary"
+      ]
+    },
+    {
+      "node_id": 5966776401,
+      "lat": 22.8137336,
+      "lon": 108.4163286,
+      "way_count": 4,
+      "roads": [
+        "仙葫大道",
+        "[primary]",
+        "[primary]",
+        "青林路"
+      ],
+      "highways": [
+        "primary",
+        "secondary"
+      ]
+    },
+    {
+      "node_id": 13355089980,
+      "lat": 22.8149825,
+      "lon": 108.4109985,
+      "way_count": 4,
+      "roads": [
+        "[service]",
+        "[service]",
+        "[service]",
+        "[service]"
+      ],
+      "highways": [
+        "service"
+      ]
+    },
+    {
+      "node_id": 8522962711,
+      "lat": 22.8149933,
+      "lon": 108.4163583,
+      "way_count": 3,
+      "roads": [
+        "[primary]",
+        "[primary_link]",
+        "[primary]"
+      ],
+      "highways": [
+        "primary",
+        "primary_link"
+      ]
+    },
+    {
+      "node_id": 3988975415,
+      "lat": 22.8136301,
+      "lon": 108.4164791,
+      "way_count": 3,
+      "roads": [
+        "仙葫大道",
+        "仙葫大道",
+        "[primary_link]"
+      ],
+      "highways": [
+        "primary",
+        "primary_link"
+      ]
+    },
+    {
+      "node_id": 5907591731,
+      "lat": 22.8179958,
+      "lon": 108.414445,
+      "way_count": 3,
+      "roads": [
+        "枫林路",
+        "枫林路辅路",
+        "枫林路"
+      ],
+      "highways": [
+        "tertiary_link",
+        "tertiary"
+      ]
+    },
+    {
+      "node_id": 8522969535,
+      "lat": 22.8152959,
+      "lon": 108.4165382,
+      "way_count": 3,
+      "roads": [
+        "[primary]",
+        "[path]",
+        "[footway]"
+      ],
+      "highways": [
+        "primary",
+        "path",
+        "footway"
+      ]
+    },
+    {
+      "node_id": 9557116012,
+      "lat": 22.8138264,
+      "lon": 108.4132823,
+      "way_count": 3,
+      "roads": [
+        "青林路",
+        "青林路",
+        "[service]"
+      ],
+      "highways": [
+        "service",
+        "secondary"
+      ]
+    },
+    {
+      "node_id": 5211461365,
+      "lat": 22.8183889,
+      "lon": 108.4125102,
+      "way_count": 3,
+      "roads": [
+        "枫林路",
+        "枫林路辅路",
+        "枫林路"
+      ],
+      "highways": [
+        "tertiary_link",
+        "secondary"
+      ]
+    },
+    {
+      "node_id": 5907591771,
+      "lat": 22.8137796,
+      "lon": 108.4138154,
+      "way_count": 3,
+      "roads": [
+        "[secondary_link]",
+        "青林路",
+        "[secondary_link]"
+      ],
+      "highways": [
+        "secondary_link",
+        "secondary"
+      ]
+    },
+    {
+      "node_id": 5211461344,
+      "lat": 22.8220737,
+      "lon": 108.4100843,
+      "way_count": 3,
+      "roads": [
+        "百花岭路",
+        "新林巷",
+        "枫林路"
+      ],
+      "highways": [
+        "tertiary",
+        "residential",
+        "secondary"
+      ]
+    },
+    {
+      "node_id": 5211461346,
+      "lat": 22.8180865,
+      "lon": 108.4128946,
+      "way_count": 3,
+      "roads": [
+        "[secondary]",
+        "枫林路",
+        "枫林路"
+      ],
+      "highways": [
+        "tertiary",
+        "secondary"
+      ]
+    },
+    {
+      "node_id": 13872962543,
+      "lat": 22.8158034,
+      "lon": 108.4160092,
+      "way_count": 3,
+      "roads": [
+        "民族大道辅路",
+        "[tertiary_link]",
+        "[path]"
+      ],
+      "highways": [
+        "tertiary_link",
+        "tertiary",
+        "path"
+      ]
+    },
+    {
+      "node_id": 13185609044,
+      "lat": 22.8156753,
+      "lon": 108.4154759,
+      "way_count": 3,
+      "roads": [
+        "[tertiary_link]",
+        "民族大道",
+        "[trunk_link]"
+      ],
+      "highways": [
+        "tertiary_link",
+        "trunk",
+        "trunk_link"
+      ]
+    },
+    {
+      "node_id": 6340150121,
+      "lat": 22.8154794,
+      "lon": 108.4149377,
+      "way_count": 3,
+      "roads": [
+        "[primary_link]",
+        "民族大道",
+        "民族大道"
+      ],
+      "highways": [
+        "primary_link",
+        "trunk"
+      ]
+    },
+    {
+      "node_id": 8522969521,
+      "lat": 22.8158579,
+      "lon": 108.4162429,
+      "way_count": 3,
+      "roads": [
+        "[footway]",
+        "[footway]",
+        "[footway]"
+      ],
+      "highways": [
+        "footway"
+      ]
+    },
+    {
+      "node_id": 8522969522,
+      "lat": 22.8152985,
+      "lon": 108.4162241,
+      "way_count": 3,
+      "roads": [
+        "[footway]",
+        "[footway]",
+        "[footway]"
+      ],
+      "highways": [
+        "footway"
+      ]
+    },
+    {
+      "node_id": 5907591773,
+      "lat": 22.8136369,
+      "lon": 108.4163265,
+      "way_count": 3,
+      "roads": [
+        "仙葫大道",
+        "[primary]",
+        "青林路"
+      ],
+      "highways": [
+        "primary",
+        "secondary"
+      ]
+    },
+    {
+      "node_id": 9612253690,
+      "lat": 22.8154844,
+      "lon": 108.4130408,
+      "way_count": 3,
+      "roads": [
+        "民族大道",
+        "[service]",
+        "民族大道"
+      ],
+      "highways": [
+        "service",
+        "trunk"
+      ]
+    },
+    {
+      "node_id": 3987100655,
+      "lat": 22.8138661,
+      "lon": 108.4138286,
+      "way_count": 3,
+      "roads": [
+        "青林路",
+        "青林路",
+        "[secondary_link]"
+      ],
+      "highways": [
+        "secondary_link",
+        "secondary"
+      ]
+    },
+    {
+      "node_id": 2625326914,
+      "lat": 22.8139002,
+      "lon": 108.4134195,
+      "way_count": 3,
+      "roads": [
+        "青林路",
+        "[secondary_link]",
+        "青林路"
+      ],
+      "highways": [
+        "secondary_link",
+        "secondary"
+      ]
+    },
+    {
+      "node_id": 9542864807,
+      "lat": 22.8142078,
+      "lon": 108.4133479,
+      "way_count": 3,
+      "roads": [
+        "[service]",
+        "[service]",
+        "[service]"
+      ],
+      "highways": [
+        "service"
+      ]
+    },
+    {
+      "node_id": 6340148169,
+      "lat": 22.8154161,
+      "lon": 108.4163683,
+      "way_count": 2,
+      "roads": [
+        "[primary]",
+        "[path]"
+      ],
+      "highways": [
+        "primary",
+        "path"
+      ]
+    },
+    {
+      "node_id": 8522969536,
+      "lat": 22.8152973,
+      "lon": 108.4163655,
+      "way_count": 2,
+      "roads": [
+        "[primary]",
+        "[footway]"
+      ],
+      "highways": [
+        "primary",
+        "footway"
+      ]
+    },
+    {
+      "node_id": 8519521652,
+      "lat": 22.8154735,
+      "lon": 108.41721,
+      "way_count": 2,
+      "roads": [
+        "民族大道",
+        "[primary_link]"
+      ],
+      "highways": [
+        "primary_link",
+        "trunk"
+      ]
+    },
+    {
+      "node_id": 13533486025,
+      "lat": 22.8135484,
+      "lon": 108.4133533,
+      "way_count": 2,
+      "roads": [
+        "[secondary_link]",
+        "[secondary_link]"
+      ],
+      "highways": [
+        "secondary_link"
+      ]
+    },
+    {
+      "node_id": 13736734388,
+      "lat": 22.8125649,
+      "lon": 108.4132015,
+      "way_count": 2,
+      "roads": [
+        "[secondary_link]",
+        "[residential]"
+      ],
+      "highways": [
+        "residential",
+        "secondary_link"
+      ]
+    },
+    {
+      "node_id": 13736734394,
+      "lat": 22.8118608,
+      "lon": 108.4134582,
+      "way_count": 2,
+      "roads": [
+        "[secondary_link]",
+        "[residential]"
+      ],
+      "highways": [
+        "residential",
+        "secondary_link"
+      ]
+    },
+    {
+      "node_id": 5211401039,
+      "lat": 22.8117287,
+      "lon": 108.4135396,
+      "way_count": 2,
+      "roads": [
+        "[secondary_link]",
+        "青环路"
+      ],
+      "highways": [
+        "secondary_link",
+        "secondary"
+      ]
+    },
+    {
+      "node_id": 6340148174,
+      "lat": 22.8153906,
+      "lon": 108.4093964,
+      "way_count": 2,
+      "roads": [
+        "原平岭路",
+        "民族大道辅路"
+      ],
+      "highways": [
+        "tertiary",
+        "residential"
+      ]
+    },
+    {
+      "node_id": 6043946448,
+      "lat": 22.8141733,
+      "lon": 108.409376,
+      "way_count": 2,
+      "roads": [
+        "原平岭路",
+        "青林路"
+      ],
+      "highways": [
+        "residential",
+        "secondary"
+      ]
+    },
+    {
+      "node_id": 5211401028,
+      "lat": 22.8140983,
+      "lon": 108.4093771,
+      "way_count": 2,
+      "roads": [
+        "原平岭路",
+        "青林路"
+      ],
+      "highways": [
+        "residential",
+        "secondary"
+      ]
+    },
+    {
+      "node_id": 7828139647,
+      "lat": 22.8125044,
+      "lon": 108.4095954,
+      "way_count": 2,
+      "roads": [
+        "原平岭路",
+        "[residential]"
+      ],
+      "highways": [
+        "residential"
+      ]
+    },
+    {
+      "node_id": 13355089981,
+      "lat": 22.814024,
+      "lon": 108.4122485,
+      "way_count": 2,
+      "roads": [
+        "青林路",
+        "[service]"
+      ],
+      "highways": [
+        "service",
+        "secondary"
+      ]
+    },
+    {
+      "node_id": 13355089971,
+      "lat": 22.8141529,
+      "lon": 108.4109605,
+      "way_count": 2,
+      "roads": [
+        "青林路",
+        "[service]"
+      ],
+      "highways": [
+        "service",
+        "secondary"
+      ]
+    },
+    {
+      "node_id": 13461249438,
+      "lat": 22.8141555,
+      "lon": 108.4082936,
+      "way_count": 2,
+      "roads": [
+        "青林路",
+        "[footway]"
+      ],
+      "highways": [
+        "secondary",
+        "footway"
+      ]
+    },
+    {
+      "node_id": 7828139662,
+      "lat": 22.8141359,
+      "lon": 108.4070966,
+      "way_count": 2,
+      "roads": [
+        "青林路",
+        "翠园路"
+      ],
+      "highways": [
+        "residential",
+        "secondary"
+      ]
+    },
+    {
+      "node_id": 6043946439,
+      "lat": 22.813945,
+      "lon": 108.404578,
+      "way_count": 2,
+      "roads": [
+        "青林路",
+        "翠园路"
+      ],
+      "highways": [
+        "residential",
+        "secondary"
+      ]
+    },
+    {
+      "node_id": 6340148139,
+      "lat": 22.8157854,
+      "lon": 108.4165425,
+      "way_count": 2,
+      "roads": [
+        "枫林路",
+        "[path]"
+      ],
+      "highways": [
+        "tertiary",
+        "path"
+      ]
+    },
+    {
+      "node_id": 8522969530,
+      "lat": 22.8158378,
+      "lon": 108.4165378,
+      "way_count": 2,
+      "roads": [
+        "枫林路",
+        "[footway]"
+      ],
+      "highways": [
+        "tertiary",
+        "footway"
+      ]
+    },
+    {
+      "node_id": 5907591698,
+      "lat": 22.8160523,
+      "lon": 108.4165037,
+      "way_count": 2,
+      "roads": [
+        "枫林路",
+        "[tertiary_link]"
+      ],
+      "highways": [
+        "tertiary_link",
+        "tertiary"
+      ]
+    },
+    {
+      "node_id": 10236757819,
+      "lat": 22.8169548,
+      "lon": 108.4161167,
+      "way_count": 2,
+      "roads": [
+        "枫林路",
+        "枫桥路"
+      ],
+      "highways": [
+        "tertiary",
+        "residential"
+      ]
+    },
+    {
+      "node_id": 5907591707,
+      "lat": 22.8179072,
+      "lon": 108.4147905,
+      "way_count": 2,
+      "roads": [
+        "枫林路",
+        "大枫路"
+      ],
+      "highways": [
+        "tertiary",
+        "residential"
+      ]
+    },
+    {
+      "node_id": 8519521655,
+      "lat": 22.8141543,
+      "lon": 108.4165001,
+      "way_count": 2,
+      "roads": [
+        "[primary]",
+        "[primary_link]"
+      ],
+      "highways": [
+        "primary",
+        "primary_link"
+      ]
+    },
+    {
+      "node_id": 6340148168,
+      "lat": 22.8154138,
+      "lon": 108.416541,
+      "way_count": 2,
+      "roads": [
+        "[primary]",
+        "[path]"
+      ],
+      "highways": [
+        "primary",
+        "path"
+      ]
+    },
+    {
+      "node_id": 6043946442,
+      "lat": 22.8138475,
+      "lon": 108.4045909,
+      "way_count": 2,
+      "roads": [
+        "青林路",
+        "翠园路"
+      ],
+      "highways": [
+        "residential",
+        "secondary"
+      ]
+    },
+    {
+      "node_id": 7828139663,
+      "lat": 22.8140518,
+      "lon": 108.4070965,
+      "way_count": 2,
+      "roads": [
+        "青林路",
+        "翠园路"
+      ],
+      "highways": [
+        "residential",
+        "secondary"
+      ]
+    },
+    {
+      "node_id": 13461249437,
+      "lat": 22.814079,
+      "lon": 108.4082949,
+      "way_count": 2,
+      "roads": [
+        "青林路",
+        "[footway]"
+      ],
+      "highways": [
+        "secondary",
+        "footway"
+      ]
+    },
+    {
+      "node_id": 13736784542,
+      "lat": 22.8140182,
+      "lon": 108.4115394,
+      "way_count": 2,
+      "roads": [
+        "青林路",
+        "[residential]"
+      ],
+      "highways": [
+        "residential",
+        "secondary"
+      ]
+    },
+    {
+      "node_id": 5211461374,
+      "lat": 22.8220858,
+      "lon": 108.4102291,
+      "way_count": 2,
+      "roads": [
+        "枫林路",
+        "百花岭路"
+      ],
+      "highways": [
+        "tertiary",
+        "secondary"
+      ]
+    },
+    {
+      "node_id": 8519516373,
+      "lat": 22.8166037,
+      "lon": 108.4115114,
+      "way_count": 2,
+      "roads": [
+        "望民路",
+        "[tertiary]"
+      ],
+      "highways": [
+        "tertiary"
+      ]
+    },
+    {
+      "node_id": 8519521625,
+      "lat": 22.8171811,
+      "lon": 108.4116754,
+      "way_count": 2,
+      "roads": [
+        "望民路",
+        "长凤巷"
+      ],
+      "highways": [
+        "tertiary",
+        "residential"
+      ]
+    },
+    {
+      "node_id": 9356123381,
+      "lat": 22.8174563,
+      "lon": 108.4120054,
+      "way_count": 2,
+      "roads": [
+        "望民路",
+        "[footway]"
+      ],
+      "highways": [
+        "tertiary",
+        "footway"
+      ]
+    },
+    {
+      "node_id": 5211461350,
+      "lat": 22.8164742,
+      "lon": 108.4135191,
+      "way_count": 2,
+      "roads": [
+        "青环路",
+        "青环路"
+      ],
+      "highways": [
+        "secondary"
+      ]
+    },
+    {
+      "node_id": 5211461342,
+      "lat": 22.812457,
+      "lon": 108.4133113,
+      "way_count": 2,
+      "roads": [
+        "青环路",
+        "青环路"
+      ],
+      "highways": [
+        "secondary"
+      ]
+    },
+    {
+      "node_id": 5211461343,
+      "lat": 22.811778,
+      "lon": 108.4136545,
+      "way_count": 2,
+      "roads": [
+        "[secondary_link]",
+        "青环路"
+      ],
+      "highways": [
+        "secondary_link",
+        "secondary"
+      ]
+    },
+    {
+      "node_id": 5907591774,
+      "lat": 22.8127915,
+      "lon": 108.4136028,
+      "way_count": 2,
+      "roads": [
+        "[secondary_link]",
+        "[service]"
+      ],
+      "highways": [
+        "service",
+        "secondary_link"
+      ]
+    },
+    {
+      "node_id": 13533486024,
+      "lat": 22.8134778,
+      "lon": 108.4137505,
+      "way_count": 2,
+      "roads": [
+        "[secondary_link]",
+        "[secondary_link]"
+      ],
+      "highways": [
+        "secondary_link"
+      ]
+    },
+    {
+      "node_id": 8338956846,
+      "lat": 22.8222337,
+      "lon": 108.4130368,
+      "way_count": 2,
+      "roads": [
+        "百花岭路",
+        "[service]"
+      ],
+      "highways": [
+        "tertiary",
+        "service"
+      ]
+    },
+    {
+      "node_id": 5211461380,
+      "lat": 22.8164839,
+      "lon": 108.4136269,
+      "way_count": 2,
+      "roads": [
+        "青环路",
+        "青环路"
+      ],
+      "highways": [
+        "secondary"
+      ]
+    },
+    {
+      "node_id": 5907591733,
+      "lat": 22.8170416,
+      "lon": 108.4134934,
+      "way_count": 2,
+      "roads": [
+        "青环路",
+        "[tertiary_link]"
+      ],
+      "highways": [
+        "tertiary_link",
+        "secondary"
+      ]
+    },
+    {
+      "node_id": 5211461338,
+      "lat": 22.8125529,
+      "lon": 108.413459,
+      "way_count": 2,
+      "roads": [
+        "青环路",
+        "青环路"
+      ],
+      "highways": [
+        "secondary"
+      ]
+    },
+    {
+      "node_id": 5907591725,
+      "lat": 22.818211,
+      "lon": 108.4135406,
+      "way_count": 2,
+      "roads": [
+        "枫林路辅路",
+        "[service]"
+      ],
+      "highways": [
+        "tertiary_link",
+        "service"
+      ]
+    },
+    {
+      "node_id": 5907591718,
+      "lat": 22.8180678,
+      "lon": 108.4134707,
+      "way_count": 2,
+      "roads": [
+        "[tertiary_link]",
+        "枫林路"
+      ],
+      "highways": [
+        "tertiary",
+        "tertiary_link"
+      ]
+    },
+    {
+      "node_id": 8522962703,
+      "lat": 22.8162885,
+      "lon": 108.4163056,
+      "way_count": 2,
+      "roads": [
+        "枫林路",
+        "[tertiary_link]"
+      ],
+      "highways": [
+        "tertiary_link",
+        "tertiary"
+      ]
+    },
+    {
+      "node_id": 8522969529,
+      "lat": 22.815849,
+      "lon": 108.4163722,
+      "way_count": 2,
+      "roads": [
+        "枫林路",
+        "[footway]"
+      ],
+      "highways": [
+        "tertiary",
+        "footway"
+      ]
+    },
+    {
+      "node_id": 6340148138,
+      "lat": 22.8157853,
+      "lon": 108.4163724,
+      "way_count": 2,
+      "roads": [
+        "枫林路",
+        "[path]"
+      ],
+      "highways": [
+        "tertiary",
+        "path"
+      ]
+    },
+    {
+      "node_id": 8519521631,
+      "lat": 22.8157889,
+      "lon": 108.4116458,
+      "way_count": 2,
+      "roads": [
+        "民族大道辅路",
+        "[tertiary]"
+      ],
+      "highways": [
+        "tertiary"
+      ]
+    },
+    {
+      "node_id": 8519516363,
+      "lat": 22.8157899,
+      "lon": 108.4112713,
+      "way_count": 2,
+      "roads": [
+        "民族大道辅路",
+        "[tertiary]"
+      ],
+      "highways": [
+        "tertiary"
+      ]
+    },
+    {
+      "node_id": 6340148145,
+      "lat": 22.8159061,
+      "lon": 108.4161897,
+      "way_count": 2,
+      "roads": [
+        "[tertiary_link]",
+        "[footway]"
+      ],
+      "highways": [
+        "tertiary_link",
+        "footway"
+      ]
+    },
+    {
+      "node_id": 8522962705,
+      "lat": 22.8158095,
+      "lon": 108.4170265,
+      "way_count": 2,
+      "roads": [
+        "[tertiary_link]",
+        "[path]"
+      ],
+      "highways": [
+        "tertiary_link",
+        "path"
+      ]
+    },
+    {
+      "node_id": 6340148170,
+      "lat": 22.8153745,
+      "lon": 108.4155721,
+      "way_count": 2,
+      "roads": [
+        "[primary_link]",
+        "民族大道辅路"
+      ],
+      "highways": [
+        "tertiary",
+        "primary_link"
+      ]
+    },
+    {
+      "node_id": 13040569771,
+      "lat": 22.8153741,
+      "lon": 108.4157103,
+      "way_count": 2,
+      "roads": [
+        "[primary_link]",
+        "[service]"
+      ],
+      "highways": [
+        "primary_link",
+        "service"
+      ]
+    },
+    {
+      "node_id": 8522969518,
+      "lat": 22.8153734,
+      "lon": 108.4159726,
+      "way_count": 2,
+      "roads": [
+        "[primary_link]",
+        "[path]"
+      ],
+      "highways": [
+        "primary_link",
+        "path"
+      ]
+    },
+    {
+      "node_id": 8522962713,
+      "lat": 22.8152975,
+      "lon": 108.4161819,
+      "way_count": 2,
+      "roads": [
+        "[primary_link]",
+        "[footway]"
+      ],
+      "highways": [
+        "primary_link",
+        "footway"
+      ]
+    },
+    {
+      "node_id": 13040569774,
+      "lat": 22.8151076,
+      "lon": 108.4163007,
+      "way_count": 2,
+      "roads": [
+        "[primary_link]",
+        "[service]"
+      ],
+      "highways": [
+        "primary_link",
+        "service"
+      ]
+    },
+    {
+      "node_id": 7828139524,
+      "lat": 22.8136332,
+      "lon": 108.4164088,
+      "way_count": 2,
+      "roads": [
+        "平田路",
+        "仙葫大道"
+      ],
+      "highways": [
+        "primary",
+        "residential"
+      ]
+    },
+    {
+      "node_id": 7828139650,
+      "lat": 22.8125589,
+      "lon": 108.4104304,
+      "way_count": 2,
+      "roads": [
+        "[residential]",
+        "[residential]"
+      ],
+      "highways": [
+        "residential"
+      ]
+    },
+    {
+      "node_id": 13240492014,
+      "lat": 22.8138123,
+      "lon": 108.4071387,
+      "way_count": 2,
+      "roads": [
+        "翠园路",
+        "[residential]"
+      ],
+      "highways": [
+        "residential"
+      ]
+    },
+    {
+      "node_id": 7828139691,
+      "lat": 22.8133224,
+      "lon": 108.4046536,
+      "way_count": 2,
+      "roads": [
+        "翠园路",
+        "[residential]"
+      ],
+      "highways": [
+        "residential"
+      ]
+    },
+    {
+      "node_id": 8519521634,
+      "lat": 22.8162253,
+      "lon": 108.4113963,
+      "way_count": 2,
+      "roads": [
+        "[tertiary]",
+        "[tertiary]"
+      ],
+      "highways": [
+        "tertiary"
+      ]
+    },
+    {
+      "node_id": 8519516354,
+      "lat": 22.8166006,
+      "lon": 108.4114112,
+      "way_count": 2,
+      "roads": [
+        "[tertiary]",
+        "望民路"
+      ],
+      "highways": [
+        "tertiary"
+      ]
+    },
+    {
+      "node_id": 8519521635,
+      "lat": 22.8162248,
+      "lon": 108.4114974,
+      "way_count": 2,
+      "roads": [
+        "[tertiary]",
+        "[tertiary]"
+      ],
+      "highways": [
+        "tertiary"
+      ]
+    },
+    {
+      "node_id": 8519521650,
+      "lat": 22.8150689,
+      "lon": 108.4166238,
+      "way_count": 2,
+      "roads": [
+        "[primary_link]",
+        "[path]"
+      ],
+      "highways": [
+        "primary_link",
+        "path"
+      ]
+    },
+    {
+      "node_id": 8522962709,
+      "lat": 22.8153771,
+      "lon": 108.4169415,
+      "way_count": 2,
+      "roads": [
+        "[primary_link]",
+        "[path]"
+      ],
+      "highways": [
+        "primary_link",
+        "path"
+      ]
+    },
+    {
+      "node_id": 8522969525,
+      "lat": 22.8157864,
+      "lon": 108.4162405,
+      "way_count": 2,
+      "roads": [
+        "[path]",
+        "[footway]"
+      ],
+      "highways": [
+        "path",
+        "footway"
+      ]
+    },
+    {
+      "node_id": 8522969528,
+      "lat": 22.8154179,
+      "lon": 108.4162281,
+      "way_count": 2,
+      "roads": [
+        "[path]",
+        "[footway]"
+      ],
+      "highways": [
+        "path",
+        "footway"
+      ]
+    },
+    {
+      "node_id": 8522969526,
+      "lat": 22.8156733,
+      "lon": 108.4162367,
+      "way_count": 2,
+      "roads": [
+        "[footway]",
+        "民族大道"
+      ],
+      "highways": [
+        "trunk",
+        "footway"
+      ]
+    },
+    {
+      "node_id": 8522969527,
+      "lat": 22.8154758,
+      "lon": 108.4162301,
+      "way_count": 2,
+      "roads": [
+        "[footway]",
+        "民族大道"
+      ],
+      "highways": [
+        "trunk",
+        "footway"
+      ]
+    },
+    {
+      "node_id": 10245121924,
+      "lat": 22.8159513,
+      "lon": 108.4161507,
+      "way_count": 2,
+      "roads": [
+        "[footway]",
+        "[pedestrian]"
+      ],
+      "highways": [
+        "pedestrian",
+        "footway"
+      ]
+    },
+    {
+      "node_id": 13461249422,
+      "lat": 22.8152797,
+      "lon": 108.4161603,
+      "way_count": 2,
+      "roads": [
+        "[footway]",
+        "[pedestrian]"
+      ],
+      "highways": [
+        "pedestrian",
+        "footway"
+      ]
+    },
+    {
+      "node_id": 8566388358,
+      "lat": 22.8182546,
+      "lon": 108.40581,
+      "way_count": 2,
+      "roads": [
+        "[residential]",
+        "长凤巷"
+      ],
+      "highways": [
+        "residential"
+      ]
+    },
+    {
+      "node_id": 8566388394,
+      "lat": 22.8186645,
+      "lon": 108.4080719,
+      "way_count": 2,
+      "roads": [
+        "长凤巷",
+        "新林巷"
+      ],
+      "highways": [
+        "residential"
+      ]
+    },
+    {
+      "node_id": 8519516356,
+      "lat": 22.8172085,
+      "lon": 108.4115933,
+      "way_count": 2,
+      "roads": [
+        "长凤巷",
+        "望民路"
+      ],
+      "highways": [
+        "tertiary",
+        "residential"
+      ]
+    },
+    {
+      "node_id": 6043946084,
+      "lat": 22.8226814,
+      "lon": 108.4097949,
+      "way_count": 2,
+      "roads": [
+        "[service]",
+        "枫林路"
+      ],
+      "highways": [
+        "service",
+        "secondary"
+      ]
+    },
+    {
+      "node_id": 8566388412,
+      "lat": 22.8225042,
+      "lon": 108.4095416,
+      "way_count": 2,
+      "roads": [
+        "[service]",
+        "[service]"
+      ],
+      "highways": [
+        "service"
+      ]
+    },
+    {
+      "node_id": 8566388423,
+      "lat": 22.8218713,
+      "lon": 108.4078292,
+      "way_count": 2,
+      "roads": [
+        "[service]",
+        "[service]"
+      ],
+      "highways": [
+        "service"
+      ]
+    },
+    {
+      "node_id": 8566388467,
+      "lat": 22.8218945,
+      "lon": 108.4077265,
+      "way_count": 2,
+      "roads": [
+        "[service]",
+        "[service]"
+      ],
+      "highways": [
+        "service"
+      ]
+    },
+    {
+      "node_id": 8566388427,
+      "lat": 22.8220018,
+      "lon": 108.4070138,
+      "way_count": 2,
+      "roads": [
+        "[service]",
+        "[service]"
+      ],
+      "highways": [
+        "service"
+      ]
+    },
+    {
+      "node_id": 8566388429,
+      "lat": 22.8215597,
+      "lon": 108.4070825,
+      "way_count": 2,
+      "roads": [
+        "[service]",
+        "[service]"
+      ],
+      "highways": [
+        "service"
+      ]
+    },
+    {
+      "node_id": 8566388436,
+      "lat": 22.8200341,
+      "lon": 108.4065906,
+      "way_count": 2,
+      "roads": [
+        "[service]",
+        "[service]"
+      ],
+      "highways": [
+        "service"
+      ]
+    },
+    {
+      "node_id": 8566388437,
+      "lat": 22.8200873,
+      "lon": 108.4064102,
+      "way_count": 2,
+      "roads": [
+        "[service]",
+        "[service]"
+      ],
+      "highways": [
+        "service"
+      ]
+    },
+    {
+      "node_id": 8566388442,
+      "lat": 22.8193175,
+      "lon": 108.406326,
+      "way_count": 2,
+      "roads": [
+        "[service]",
+        "[service]"
+      ],
+      "highways": [
+        "service"
+      ]
+    },
+    {
+      "node_id": 8566388450,
+      "lat": 22.8199686,
+      "lon": 108.4073364,
+      "way_count": 2,
+      "roads": [
+        "[service]",
+        "[service]"
+      ],
+      "highways": [
+        "service"
+      ]
+    },
+    {
+      "node_id": 8566388452,
+      "lat": 22.8195829,
+      "lon": 108.4074002,
+      "way_count": 2,
+      "roads": [
+        "[service]",
+        "[service]"
+      ],
+      "highways": [
+        "service"
+      ]
+    },
+    {
+      "node_id": 8566388468,
+      "lat": 22.8221044,
+      "lon": 108.4078424,
+      "way_count": 2,
+      "roads": [
+        "[service]",
+        "[service]"
+      ],
+      "highways": [
+        "service"
+      ]
+    },
+    {
+      "node_id": 8566388509,
+      "lat": 22.8241269,
+      "lon": 108.4069046,
+      "way_count": 2,
+      "roads": [
+        "[service]",
+        "[service]"
+      ],
+      "highways": [
+        "service"
+      ]
+    },
+    {
+      "node_id": 9612253693,
+      "lat": 22.8153918,
+      "lon": 108.4089192,
+      "way_count": 2,
+      "roads": [
+        "民族大道辅路",
+        "[trunk_link]"
+      ],
+      "highways": [
+        "tertiary",
+        "trunk_link"
+      ]
+    },
+    {
+      "node_id": 9612253692,
+      "lat": 22.8153892,
+      "lon": 108.409935,
+      "way_count": 2,
+      "roads": [
+        "民族大道辅路",
+        "[trunk_link]"
+      ],
+      "highways": [
+        "tertiary",
+        "trunk_link"
+      ]
+    },
+    {
+      "node_id": 13355089972,
+      "lat": 22.8153864,
+      "lon": 108.4109987,
+      "way_count": 2,
+      "roads": [
+        "民族大道辅路",
+        "[service]"
+      ],
+      "highways": [
+        "tertiary",
+        "service"
+      ]
+    },
+    {
+      "node_id": 13872962541,
+      "lat": 22.8153862,
+      "lon": 108.4110702,
+      "way_count": 2,
+      "roads": [
+        "民族大道辅路",
+        "[service]"
+      ],
+      "highways": [
+        "tertiary",
+        "service"
+      ]
+    },
+    {
+      "node_id": 13355089984,
+      "lat": 22.8153858,
+      "lon": 108.4112183,
+      "way_count": 2,
+      "roads": [
+        "民族大道辅路",
+        "[service]"
+      ],
+      "highways": [
+        "tertiary",
+        "service"
+      ]
+    },
+    {
+      "node_id": 9542873933,
+      "lat": 22.8153406,
+      "lon": 108.4130397,
+      "way_count": 2,
+      "roads": [
+        "民族大道辅路",
+        "[service]"
+      ],
+      "highways": [
+        "tertiary",
+        "service"
+      ]
+    },
+    {
+      "node_id": 9356123413,
+      "lat": 22.8171244,
+      "lon": 108.4105552,
+      "way_count": 2,
+      "roads": [
+        "[footway]",
+        "[footway]"
+      ],
+      "highways": [
+        "footway"
+      ]
+    },
+    {
+      "node_id": 9542864799,
+      "lat": 22.8156772,
+      "lon": 108.4147556,
+      "way_count": 2,
+      "roads": [
+        "民族大道",
+        "民族大道"
+      ],
+      "highways": [
+        "trunk"
+      ]
+    },
+    {
+      "node_id": 9542864801,
+      "lat": 22.8154806,
+      "lon": 108.4144926,
+      "way_count": 2,
+      "roads": [
+        "民族大道",
+        "民族大道"
+      ],
+      "highways": [
+        "trunk"
+      ]
+    },
+    {
+      "node_id": 9612253694,
+      "lat": 22.8154977,
+      "lon": 108.4079393,
+      "way_count": 2,
+      "roads": [
+        "民族大道",
+        "[trunk_link]"
+      ],
+      "highways": [
+        "trunk",
+        "trunk_link"
+      ]
+    },
+    {
+      "node_id": 9612253691,
+      "lat": 22.8154906,
+      "lon": 108.4106611,
+      "way_count": 2,
+      "roads": [
+        "民族大道",
+        "[trunk_link]"
+      ],
+      "highways": [
+        "trunk",
+        "trunk_link"
+      ]
+    },
+    {
+      "node_id": 9542864804,
+      "lat": 22.8145414,
+      "lon": 108.4138369,
+      "way_count": 2,
+      "roads": [
+        "[service]",
+        "[service]"
+      ],
+      "highways": [
+        "service"
+      ]
+    },
+    {
+      "node_id": 9542873918,
+      "lat": 22.8145902,
+      "lon": 108.4130343,
+      "way_count": 2,
+      "roads": [
+        "[service]",
+        "[service]"
+      ],
+      "highways": [
+        "service"
+      ]
+    },
+    {
+      "node_id": 9542873932,
+      "lat": 22.8151165,
+      "lon": 108.413038,
+      "way_count": 2,
+      "roads": [
+        "[service]",
+        "[service]"
+      ],
+      "highways": [
+        "service"
+      ]
+    },
+    {
+      "node_id": 13040573602,
+      "lat": 22.8150167,
+      "lon": 108.4130373,
+      "way_count": 2,
+      "roads": [
+        "[service]",
+        "[service]"
+      ],
+      "highways": [
+        "service"
+      ]
+    },
+    {
+      "node_id": 13461249425,
+      "lat": 22.8152514,
+      "lon": 108.4155727,
+      "way_count": 2,
+      "roads": [
+        "[service]",
+        "[footway]"
+      ],
+      "highways": [
+        "service",
+        "footway"
+      ]
+    },
+    {
+      "node_id": 13040569773,
+      "lat": 22.8151197,
+      "lon": 108.4154072,
+      "way_count": 2,
+      "roads": [
+        "[service]",
+        "[service]"
+      ],
+      "highways": [
+        "service"
+      ]
+    },
+    {
+      "node_id": 9542873923,
+      "lat": 22.8144888,
+      "lon": 108.4130336,
+      "way_count": 2,
+      "roads": [
+        "[service]",
+        "[service]"
+      ],
+      "highways": [
+        "service"
+      ]
+    },
+    {
+      "node_id": 13185609043,
+      "lat": 22.815478,
+      "lon": 108.4154739,
+      "way_count": 2,
+      "roads": [
+        "民族大道",
+        "[trunk_link]"
+      ],
+      "highways": [
+        "trunk",
+        "trunk_link"
+      ]
+    },
+    {
+      "node_id": 13461249424,
+      "lat": 22.8152615,
+      "lon": 108.4155072,
+      "way_count": 2,
+      "roads": [
+        "[pedestrian]",
+        "[footway]"
+      ],
+      "highways": [
+        "pedestrian",
+        "footway"
+      ]
+    },
+    {
+      "node_id": 13461249423,
+      "lat": 22.8152457,
+      "lon": 108.4156097,
+      "way_count": 2,
+      "roads": [
+        "[pedestrian]",
+        "[footway]"
+      ],
+      "highways": [
+        "pedestrian",
+        "footway"
+      ]
+    },
+    {
+      "node_id": 13040573603,
+      "lat": 22.814753,
+      "lon": 108.4130354,
+      "way_count": 2,
+      "roads": [
+        "[service]",
+        "[service]"
+      ],
+      "highways": [
+        "service"
+      ]
+    },
+    {
+      "node_id": 13461249436,
+      "lat": 22.8139747,
+      "lon": 108.4082968,
+      "way_count": 2,
+      "roads": [
+        "[pedestrian]",
+        "[footway]"
+      ],
+      "highways": [
+        "pedestrian",
+        "footway"
+      ]
+    },
+    {
+      "node_id": 13355089973,
+      "lat": 22.814327,
+      "lon": 108.4109624,
+      "way_count": 2,
+      "roads": [
+        "[service]",
+        "[service]"
+      ],
+      "highways": [
+        "service"
+      ]
+    },
+    {
+      "node_id": 13355089986,
+      "lat": 22.8143412,
+      "lon": 108.4122462,
+      "way_count": 2,
+      "roads": [
+        "[service]",
+        "[service]"
+      ],
+      "highways": [
+        "service"
+      ]
+    },
+    {
+      "node_id": 13355089983,
+      "lat": 22.8150568,
+      "lon": 108.4112182,
+      "way_count": 2,
+      "roads": [
+        "[service]",
+        "[service]"
+      ],
+      "highways": [
+        "service"
+      ]
+    },
+    {
+      "node_id": 13533486070,
+      "lat": 22.8127536,
+      "lon": 108.4137742,
+      "way_count": 2,
+      "roads": [
+        "[service]",
+        "[service]"
+      ],
+      "highways": [
+        "service"
+      ]
+    },
+    {
+      "node_id": 13736784523,
+      "lat": 22.8132706,
+      "lon": 108.4115686,
+      "way_count": 2,
+      "roads": [
+        "[residential]",
+        "[residential]"
+      ],
+      "highways": [
+        "residential"
+      ]
+    },
+    {
+      "node_id": 13736784532,
+      "lat": 22.8134225,
+      "lon": 108.4114694,
+      "way_count": 2,
+      "roads": [
+        "[residential]",
+        "[residential]"
+      ],
+      "highways": [
+        "residential"
+      ]
+    },
+    {
+      "node_id": 13736784528,
+      "lat": 22.8133188,
+      "lon": 108.4113135,
+      "way_count": 2,
+      "roads": [
+        "[residential]",
+        "[residential]"
+      ],
+      "highways": [
+        "residential"
+      ]
+    }
+  ],
+  "intersections": [
+    {
+      "node_id": 5540013587,
+      "lat": 22.8154757,
+      "lon": 108.4163681,
+      "way_count": 4,
+      "roads": [
+        "[primary]",
+        "[primary]",
+        "民族大道",
+        "民族大道"
+      ],
+      "highways": [
+        "primary",
+        "trunk"
+      ]
+    },
+    {
+      "node_id": 3988975611,
+      "lat": 22.8156729,
+      "lon": 108.416545,
+      "way_count": 4,
+      "roads": [
+        "民族大道",
+        "枫林路",
+        "[primary]",
+        "民族大道"
+      ],
+      "highways": [
+        "primary",
+        "tertiary",
+        "trunk"
+      ]
+    },
+    {
+      "node_id": 5540013586,
+      "lat": 22.8154752,
+      "lon": 108.4165424,
+      "way_count": 4,
+      "roads": [
+        "民族大道",
+        "[primary]",
+        "[primary]",
+        "民族大道"
+      ],
+      "highways": [
+        "primary",
+        "trunk"
+      ]
+    },
+    {
+      "node_id": 5966776431,
+      "lat": 22.8137264,
+      "lon": 108.416483,
+      "way_count": 4,
+      "roads": [
+        "仙葫大道",
+        "[primary]",
+        "仙葫大道",
+        "[primary_link]"
+      ],
+      "highways": [
+        "primary",
+        "primary_link"
+      ]
+    },
+    {
+      "node_id": 5907591768,
+      "lat": 22.8138147,
+      "lon": 108.4134034,
+      "way_count": 4,
+      "roads": [
+        "[secondary_link]",
+        "[secondary_link]",
+        "青林路",
+        "青林路"
+      ],
+      "highways": [
+        "secondary_link",
+        "secondary"
+      ]
+    },
+    {
+      "node_id": 9542864806,
+      "lat": 22.8139123,
+      "lon": 108.4132993,
+      "way_count": 4,
+      "roads": [
+        "青林路",
+        "青林路",
+        "[service]",
+        "[service]"
+      ],
+      "highways": [
+        "service",
+        "secondary"
+      ]
+    },
+    {
+      "node_id": 5211461403,
+      "lat": 22.8179897,
+      "lon": 108.4128435,
+      "way_count": 4,
+      "roads": [
+        "望民路",
+        "青环路",
+        "[secondary]",
+        "枫林路"
+      ],
+      "highways": [
+        "tertiary",
+        "secondary"
+      ]
+    },
+    {
+      "node_id": 5211461404,
+      "lat": 22.8180239,
+      "lon": 108.4129587,
+      "way_count": 4,
+      "roads": [
+        "青环路",
+        "[secondary]",
+        "枫林路",
+        "枫林路"
+      ],
+      "highways": [
+        "tertiary",
+        "secondary"
+      ]
+    },
+    {
+      "node_id": 3988975615,
+      "lat": 22.8156733,
+      "lon": 108.4163705,
+      "way_count": 4,
+      "roads": [
+        "枫林路",
+        "[primary]",
+        "民族大道",
+        "民族大道"
+      ],
+      "highways": [
+        "primary",
+        "tertiary",
+        "trunk"
+      ]
+    },
+    {
+      "node_id": 5211461377,
+      "lat": 22.8180523,
+      "lon": 108.4127829,
+      "way_count": 4,
+      "roads": [
+        "[secondary]",
+        "望民路",
+        "枫林路",
+        "枫林路"
+      ],
+      "highways": [
+        "tertiary",
+        "secondary"
+      ]
+    },
+    {
+      "node_id": 5966776401,
+      "lat": 22.8137336,
+      "lon": 108.4163286,
+      "way_count": 4,
+      "roads": [
+        "仙葫大道",
+        "[primary]",
+        "[primary]",
+        "青林路"
+      ],
+      "highways": [
+        "primary",
+        "secondary"
+      ]
+    },
+    {
+      "node_id": 8522962711,
+      "lat": 22.8149933,
+      "lon": 108.4163583,
+      "way_count": 3,
+      "roads": [
+        "[primary]",
+        "[primary_link]",
+        "[primary]"
+      ],
+      "highways": [
+        "primary",
+        "primary_link"
+      ]
+    },
+    {
+      "node_id": 3988975415,
+      "lat": 22.8136301,
+      "lon": 108.4164791,
+      "way_count": 3,
+      "roads": [
+        "仙葫大道",
+        "仙葫大道",
+        "[primary_link]"
+      ],
+      "highways": [
+        "primary",
+        "primary_link"
+      ]
+    },
+    {
+      "node_id": 5907591731,
+      "lat": 22.8179958,
+      "lon": 108.414445,
+      "way_count": 3,
+      "roads": [
+        "枫林路",
+        "枫林路辅路",
+        "枫林路"
+      ],
+      "highways": [
+        "tertiary_link",
+        "tertiary"
+      ]
+    },
+    {
+      "node_id": 9557116012,
+      "lat": 22.8138264,
+      "lon": 108.4132823,
+      "way_count": 3,
+      "roads": [
+        "青林路",
+        "青林路",
+        "[service]"
+      ],
+      "highways": [
+        "service",
+        "secondary"
+      ]
+    },
+    {
+      "node_id": 5211461365,
+      "lat": 22.8183889,
+      "lon": 108.4125102,
+      "way_count": 3,
+      "roads": [
+        "枫林路",
+        "枫林路辅路",
+        "枫林路"
+      ],
+      "highways": [
+        "tertiary_link",
+        "secondary"
+      ]
+    },
+    {
+      "node_id": 5211461344,
+      "lat": 22.8220737,
+      "lon": 108.4100843,
+      "way_count": 3,
+      "roads": [
+        "百花岭路",
+        "新林巷",
+        "枫林路"
+      ],
+      "highways": [
+        "tertiary",
+        "residential",
+        "secondary"
+      ]
+    },
+    {
+      "node_id": 5211461346,
+      "lat": 22.8180865,
+      "lon": 108.4128946,
+      "way_count": 3,
+      "roads": [
+        "[secondary]",
+        "枫林路",
+        "枫林路"
+      ],
+      "highways": [
+        "tertiary",
+        "secondary"
+      ]
+    },
+    {
+      "node_id": 5907591773,
+      "lat": 22.8136369,
+      "lon": 108.4163265,
+      "way_count": 3,
+      "roads": [
+        "仙葫大道",
+        "[primary]",
+        "青林路"
+      ],
+      "highways": [
+        "primary",
+        "secondary"
+      ]
+    },
+    {
+      "node_id": 3987100655,
+      "lat": 22.8138661,
+      "lon": 108.4138286,
+      "way_count": 3,
+      "roads": [
+        "青林路",
+        "青林路",
+        "[secondary_link]"
+      ],
+      "highways": [
+        "secondary_link",
+        "secondary"
+      ]
+    },
+    {
+      "node_id": 2625326914,
+      "lat": 22.8139002,
+      "lon": 108.4134195,
+      "way_count": 3,
+      "roads": [
+        "青林路",
+        "[secondary_link]",
+        "青林路"
+      ],
+      "highways": [
+        "secondary_link",
+        "secondary"
+      ]
+    },
+    {
+      "node_id": 5211461374,
+      "lat": 22.8220858,
+      "lon": 108.4102291,
+      "way_count": 2,
+      "roads": [
+        "枫林路",
+        "百花岭路"
+      ],
+      "highways": [
+        "tertiary",
+        "secondary"
+      ]
+    },
+    {
+      "node_id": 8519516373,
+      "lat": 22.8166037,
+      "lon": 108.4115114,
+      "way_count": 2,
+      "roads": [
+        "望民路",
+        "[tertiary]"
+      ],
+      "highways": [
+        "tertiary"
+      ]
+    },
+    {
+      "node_id": 5211461350,
+      "lat": 22.8164742,
+      "lon": 108.4135191,
+      "way_count": 2,
+      "roads": [
+        "青环路",
+        "青环路"
+      ],
+      "highways": [
+        "secondary"
+      ]
+    },
+    {
+      "node_id": 5211461342,
+      "lat": 22.812457,
+      "lon": 108.4133113,
+      "way_count": 2,
+      "roads": [
+        "青环路",
+        "青环路"
+      ],
+      "highways": [
+        "secondary"
+      ]
+    },
+    {
+      "node_id": 5211461380,
+      "lat": 22.8164839,
+      "lon": 108.4136269,
+      "way_count": 2,
+      "roads": [
+        "青环路",
+        "青环路"
+      ],
+      "highways": [
+        "secondary"
+      ]
+    },
+    {
+      "node_id": 5211461338,
+      "lat": 22.8125529,
+      "lon": 108.413459,
+      "way_count": 2,
+      "roads": [
+        "青环路",
+        "青环路"
+      ],
+      "highways": [
+        "secondary"
+      ]
+    },
+    {
+      "node_id": 8519521631,
+      "lat": 22.8157889,
+      "lon": 108.4116458,
+      "way_count": 2,
+      "roads": [
+        "民族大道辅路",
+        "[tertiary]"
+      ],
+      "highways": [
+        "tertiary"
+      ]
+    },
+    {
+      "node_id": 8519516363,
+      "lat": 22.8157899,
+      "lon": 108.4112713,
+      "way_count": 2,
+      "roads": [
+        "民族大道辅路",
+        "[tertiary]"
+      ],
+      "highways": [
+        "tertiary"
+      ]
+    },
+    {
+      "node_id": 8519521634,
+      "lat": 22.8162253,
+      "lon": 108.4113963,
+      "way_count": 2,
+      "roads": [
+        "[tertiary]",
+        "[tertiary]"
+      ],
+      "highways": [
+        "tertiary"
+      ]
+    },
+    {
+      "node_id": 8519516354,
+      "lat": 22.8166006,
+      "lon": 108.4114112,
+      "way_count": 2,
+      "roads": [
+        "[tertiary]",
+        "望民路"
+      ],
+      "highways": [
+        "tertiary"
+      ]
+    },
+    {
+      "node_id": 8519521635,
+      "lat": 22.8162248,
+      "lon": 108.4114974,
+      "way_count": 2,
+      "roads": [
+        "[tertiary]",
+        "[tertiary]"
+      ],
+      "highways": [
+        "tertiary"
+      ]
+    }
+  ]
+}

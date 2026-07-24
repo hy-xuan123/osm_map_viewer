@@ -207,6 +207,14 @@
       "directory": "43_8540_125_3269_changchun_jilinU_nanling_campus",
       "path": "osm_data/43_8540_125_3269_changchun_jilinU_nanling_campus",
       "download_time": "2026-07-02T13:48:04.307414"
+    },
+    {
+      "lat": 31.235,
+      "lon": 121.543,
+      "alias": "shanghai_pudong_new_area",
+      "directory": "31_2350_121_5430_shanghai_pudong_new_area",
+      "path": "osm_data/31_2350_121_5430_shanghai_pudong_new_area",
+      "download_time": "2026-07-24T12:14:51.181428"
     }
   ]
 }

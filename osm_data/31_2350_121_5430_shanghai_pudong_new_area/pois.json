@@ -1,0 +1,5921 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-07-24T04:13:02Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 70937683,
+      "lat": 31.2203962,
+      "lon": 121.5427515,
+      "tags": {
+        "alt_name": "上海科技馆",
+        "bus": "yes",
+        "name": "锦绣路世纪大道",
+        "name:zh": "锦绣路世纪大道",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "node",
+      "id": 76481172,
+      "lat": 31.2374154,
+      "lon": 121.5367979,
+      "tags": {
+        "bus": "yes",
+        "name": "张杨路民生路",
+        "name:zh": "张杨路民生路",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "node",
+      "id": 76481173,
+      "lat": 31.2391459,
+      "lon": 121.5423185,
+      "tags": {
+        "bus": "yes",
+        "name": "张杨路巨野路",
+        "name:zh": "张杨路巨野路",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "node",
+      "id": 84465818,
+      "lat": 31.2451286,
+      "lon": 121.5324922,
+      "tags": {
+        "bus": "yes",
+        "name": "浦东大道桃林路",
+        "name:zh": "浦东大道桃林路",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "node",
+      "id": 91908747,
+      "lat": 31.2371269,
+      "lon": 121.5371633,
+      "tags": {
+        "bus": "yes",
+        "name": "张杨路民生路",
+        "name:zh": "张杨路民生路",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "node",
+      "id": 93437718,
+      "lat": 31.2469599,
+      "lon": 121.5376476,
+      "tags": {
+        "bus": "yes",
+        "name": "浦东大道民生路",
+        "name:zh": "浦东大道民生路",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "node",
+      "id": 93437788,
+      "lat": 31.2467889,
+      "lon": 121.5375748,
+      "tags": {
+        "bus": "yes",
+        "name": "浦东大道民生路",
+        "name:zh": "浦东大道民生路",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "node",
+      "id": 119138195,
+      "lat": 31.2315789,
+      "lon": 121.5575625,
+      "tags": {
+        "bus": "yes",
+        "name": "丁香路紫槐路",
+        "name:en": "Dingxiang Road Zihuai Road",
+        "name:zh": "丁香路紫槐路",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "node",
+      "id": 119798975,
+      "lat": 31.2225991,
+      "lon": 121.5327636,
+      "tags": {
+        "bus": "yes",
+        "name": "杨高南路世纪大道",
+        "name:zh": "杨高南路世纪大道",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "node",
+      "id": 119895184,
+      "lat": 31.2289689,
+      "lon": 121.554299,
+      "tags": {
+        "bus": "yes",
+        "name": "芳甸路迎春路",
+        "name:zh": "芳甸路迎春路",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "node",
+      "id": 471016943,
+      "lat": 31.2218914,
+      "lon": 121.5386617,
+      "tags": {
+        "name": "上海科技馆",
+        "name:en": "Shanghai Science & Technology Museum",
+        "network": "上海地铁",
+        "public_transport": "station",
+        "railway": "station",
+        "station": "subway",
+        "subway": "yes",
+        "wheelchair": "yes",
+        "wikidata": "Q15276904"
+      }
+    },
+    {
+      "type": "node",
+      "id": 471988316,
+      "lat": 31.2293858,
+      "lon": 121.5437829,
+      "tags": {
+        "name": "杨高中路",
+        "name:en": "Middle Yanggao Road",
+        "name:zh": "杨高中路",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "subway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 472139059,
+      "lat": 31.2350191,
+      "lon": 121.5299034,
+      "tags": {
+        "name": "源深体育中心",
+        "name:en": "Yuanshen Sports Centre",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "subway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 567444245,
+      "lat": 31.2457366,
+      "lon": 121.5356713,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "chinese",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 616292204,
+      "lat": 31.2457503,
+      "lon": 121.5521955,
+      "tags": {
+        "bus": "yes",
+        "name": "崮山路张杨路",
+        "name:zh": "崮山路张杨路",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "node",
+      "id": 616292247,
+      "lat": 31.2472181,
+      "lon": 121.5519319,
+      "tags": {
+        "bus": "yes",
+        "name": "博山路崮山路",
+        "name:zh": "博山路崮山路",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "node",
+      "id": 621913770,
+      "lat": 31.2382859,
+      "lon": 121.5402749,
+      "tags": {
+        "name": "民生路",
+        "name:en": "Minsheng Road",
+        "name:zh": "民生路",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "subway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 621914110,
+      "lat": 31.2411512,
+      "lon": 121.5478075,
+      "tags": {
+        "name": "北洋泾路",
+        "name:en": "Beiyangjing Road",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "subway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 647752707,
+      "lat": 31.2300215,
+      "lon": 121.5544236,
+      "tags": {
+        "amenity": "bank",
+        "brand": "中国银行",
+        "brand:en": "Bank of China",
+        "brand:wikidata": "Q790068",
+        "brand:wikipedia": "en:Bank of China",
+        "brand:zh": "中国银行",
+        "name": "中国银行",
+        "name:en": "Bank of China",
+        "name:zh": "中国银行",
+        "website": "https://www.boc.cn/",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 647753564,
+      "lat": 31.2296471,
+      "lon": 121.5544297,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "肯德基",
+        "brand:en": "KFC",
+        "brand:wikidata": "Q524757",
+        "brand:wikipedia": "en:KFC",
+        "brand:zh": "肯德基",
+        "cuisine": "chicken",
+        "name": "肯德基",
+        "name:en": "KFC",
+        "name:zh": "肯德基",
+        "takeaway": "yes",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 647754685,
+      "lat": 31.2295394,
+      "lon": 121.5544571,
+      "tags": {
+        "amenity": "bank",
+        "brand": "上海浦东发展银行",
+        "brand:en": "Shanghai Pudong Development Bank",
+        "brand:wikidata": "Q1479076",
+        "brand:wikipedia": "zh:上海浦东发展银行",
+        "brand:zh": "上海浦东发展银行",
+        "name": "上海浦东发展银行",
+        "name:en": "Shanghai Pudong Development Bank",
+        "name:zh": "上海浦东发展银行",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 827153107,
+      "lat": 31.2396739,
+      "lon": 121.5434608,
+      "tags": {
+        "amenity": "post_office",
+        "name": "张扬路邮政局",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1497125816,
+      "lat": 31.2221867,
+      "lon": 121.5376994,
+      "tags": {
+        "amenity": "taxi"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1554277173,
+      "lat": 31.2470682,
+      "lon": 121.5504392,
+      "tags": {
+        "bus": "yes",
+        "name": "崮山路博山路",
+        "name:zh": "崮山路博山路",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1554277178,
+      "lat": 31.2487684,
+      "lon": 121.5474754,
+      "tags": {
+        "bus": "yes",
+        "name": "崮山路栖山路",
+        "name:zh": "崮山路栖山路",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1554365456,
+      "lat": 31.2315315,
+      "lon": 121.5573545,
+      "tags": {
+        "bus": "yes",
+        "name": "丁香路紫槐路",
+        "name:en": "Dingxiang Road Zihuai Road",
+        "name:zh": "丁香路紫槐路",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1698857922,
+      "lat": 31.2476979,
+      "lon": 121.5412656,
+      "tags": {
+        "amenity": "atm",
+        "fee": "no",
+        "operator": "农业银行浦东大道支行",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1767298313,
+      "lat": 31.2489429,
+      "lon": 121.5380789,
+      "tags": {
+        "bus": "yes",
+        "name": "昌邑路苗圃路",
+        "name:zh": "昌邑路苗圃路",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1888621565,
+      "lat": 31.2353483,
+      "lon": 121.5496725,
+      "tags": {
+        "bus": "yes",
+        "name": "灵山路苗圃路",
+        "name:zh": "灵山路苗圃路",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1889448661,
+      "lat": 31.2234377,
+      "lon": 121.5399259,
+      "tags": {
+        "admin_level": "6",
+        "government": "yes",
+        "name": "浦东新区人民政府",
+        "name:en": "Pudong New District Government",
+        "office": "government",
+        "wikidata": "Q19853017",
+        "wikipedia": "zh:上海市浦东新区人民政府"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2166359850,
+      "lat": 31.2285781,
+      "lon": 121.5561671,
+      "tags": {
+        "addr:city": "洋泾街道",
+        "addr:district": "浦东新区",
+        "addr:housenumber": "1199",
+        "addr:postcode": "201203",
+        "addr:province": "上海",
+        "addr:street": "迎春路",
+        "name": "上海证大美爵酒店",
+        "name:en": "Grand Mercure Shanghai Century Park agoda",
+        "name:zh": "上海证大美爵酒店",
+        "rooms": "362",
+        "smoking": "no",
+        "stars": "4",
+        "tourism": "hotel",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2690613615,
+      "lat": 31.223984,
+      "lon": 121.5282288,
+      "tags": {
+        "amenity": "toilets"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2703786825,
+      "lat": 31.2301644,
+      "lon": 121.5449133,
+      "tags": {
+        "name": "1",
+        "railway": "subway_entrance",
+        "ref": "1"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2703786826,
+      "lat": 31.2297158,
+      "lon": 121.5436064,
+      "tags": {
+        "name": "4",
+        "railway": "subway_entrance",
+        "ref": "4"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2703798515,
+      "lat": 31.2291556,
+      "lon": 121.5448229,
+      "tags": {
+        "name": "2",
+        "railway": "subway_entrance",
+        "ref": "2",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3071469796,
+      "lat": 31.2284605,
+      "lon": 121.5551657,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "汉堡王",
+        "brand:en": "Burger King",
+        "brand:wikidata": "Q177054",
+        "brand:wikipedia": "en:Burger King",
+        "brand:zh": "汉堡王",
+        "cuisine": "burger",
+        "name": "汉堡王",
+        "name:en": "Burger King",
+        "name:zh": "汉堡王",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3339331953,
+      "lat": 31.2242854,
+      "lon": 121.5342935,
+      "tags": {
+        "artwork_type": "statue",
+        "material": "steel",
+        "name": "东方之光",
+        "tourism": "artwork",
+        "wikidata": "Q114451860",
+        "wikimedia_commons": "Category:Light of the East"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3623334286,
+      "lat": 31.2433397,
+      "lon": 121.5414205,
+      "tags": {
+        "capital": "8",
+        "division_code": "310115013000",
+        "name": "洋泾街道",
+        "name:en": "Yangjing",
+        "name:ko": "양징가도",
+        "name:zh": "洋泾街道",
+        "name:zh-Hans": "洋泾街道",
+        "name:zh-Hant": "洋涇街道",
+        "name:zh-Latn-pinyin": "Yángjīng Jiēdào",
+        "place": "suburb",
+        "place:CN": "subdistrict",
+        "population": "111400",
+        "wikidata": "Q11145636",
+        "wikimedia_commons": "Category:Yangjing Subdistrict",
+        "wikipedia": "zh:洋泾街道"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3800386169,
+      "lat": 31.2218727,
+      "lon": 121.5386472,
+      "tags": {
+        "name": "上海科技馆",
+        "name:en": "Shanghai Science and Technology Museum",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "subway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3800386170,
+      "lat": 31.2219139,
+      "lon": 121.5386791,
+      "tags": {
+        "name": "上海科技馆",
+        "name:en": "Shanghai Science and Technology Museum",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "subway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3900123501,
+      "lat": 31.2232671,
+      "lon": 121.5397849,
+      "tags": {
+        "alt_name": "浦东",
+        "capital": "6",
+        "name": "浦东新区",
+        "name:ar": "بودونغ",
+        "name:ast": "Pudong",
+        "name:az": "Pudun",
+        "name:ceb": "Pudong Xinqu",
+        "name:cs": "Pchu-tung",
+        "name:da": "Pudong",
+        "name:de": "Pudong",
+        "name:en": "Pudong",
+        "name:es": "Pudong",
+        "name:eu": "Pudong",
+        "name:fa": "پودانگ",
+        "name:fi": "Pudong",
+        "name:fr": "Pudong",
+        "name:gl": "Pudong",
+        "name:he": "פודונג",
+        "name:hr": "Pudong",
+        "name:hu": "Putung",
+        "name:id": "Pudong",
+        "name:it": "Pudong",
+        "name:ja": "浦東新区",
+        "name:ko": "푸둥 신구",
+        "name:lt": "Pudongas",
+        "name:nan": "Phó͘-tong Sin-khu",
+        "name:nl": "Pudong",
+        "name:nn": "Pudong",
+        "name:no": "Pudong",
+        "name:pl": "Pudong",
+        "name:pt": "Pudong",
+        "name:ro": "Pudong",
+        "name:ru": "Пудун",
+        "name:sk": "Pchu-tung",
+        "name:sv": "Pudong",
+        "name:tl": "Pudong",
+        "name:tr": "Pudong",
+        "name:uk": "Пудун",
+        "name:ur": "پودانگ",
+        "name:vi": "Phố Đông",
+        "name:wuu": "浦东新区",
+        "name:yue": "浦東新區",
+        "name:zh": "浦东新区",
+        "name:zh-Hans": "浦东新区",
+        "name:zh-Hant": "浦東新區",
+        "name:zh-Latn-pinyin": "Pǔdōng Xīn Qū",
+        "place": "city",
+        "place:CN": "district",
+        "population": "5681512",
+        "population:date": "2020-11-01",
+        "wikidata": "Q125378",
+        "wikipedia": "zh:浦东新区"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4163338597,
+      "lat": 31.2270154,
+      "lon": 121.5306251,
+      "tags": {
+        "amenity": "bank",
+        "brand": "招商银行",
+        "brand:en": "China Merchants Bank",
+        "brand:wikidata": "Q1073327",
+        "brand:zh": "招商银行",
+        "name": "招商银行",
+        "name:en": "China Merchants Bank",
+        "name:zh": "招商银行"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4163431493,
+      "lat": 31.2279976,
+      "lon": 121.5290286,
+      "tags": {
+        "amenity": "toilets"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4163431891,
+      "lat": 31.2269846,
+      "lon": 121.5286036,
+      "tags": {
+        "amenity": "bank",
+        "brand": "Shanghai Rural Commercial Bank",
+        "brand:wikidata": "Q10873832",
+        "brand:wikipedia": "zh:上海农村商业银行",
+        "name": "上海农商银行",
+        "name:en": "SRCB",
+        "name:zh": "上海农商银行"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4163433590,
+      "lat": 31.2272116,
+      "lon": 121.5302483,
+      "tags": {
+        "amenity": "cafe",
+        "brand": "星巴克",
+        "brand:en": "Starbucks",
+        "brand:wikidata": "Q37158",
+        "brand:wikipedia": "en:Starbucks",
+        "brand:zh": "星巴克",
+        "cuisine": "coffee_shop",
+        "name": "星巴克",
+        "name:en": "Starbucks",
+        "name:zh": "星巴克",
+        "official_name": "Starbucks Coffee",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4250052747,
+      "lat": 31.2343776,
+      "lon": 121.5544342,
+      "tags": {
+        "name": "芳甸路",
+        "name:en": "Fangdian Road",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "subway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4468659889,
+      "lat": 31.2420012,
+      "lon": 121.5375195,
+      "tags": {
+        "addr:city": "上海市",
+        "addr:housenumber": "480",
+        "addr:postcode": "200135",
+        "addr:street": "民生路",
+        "amenity": "restaurant",
+        "name": "印度小厨",
+        "name:en": "Indian Kitchen",
+        "name:zh": "印度小厨",
+        "opening_hours": "Mo-Su 11:00-14:30, 17:00-22:00",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4493984793,
+      "lat": 31.2226474,
+      "lon": 121.545554,
+      "tags": {
+        "brand": "全家",
+        "brand:en": "FamilyMart",
+        "brand:wikidata": "Q1191685",
+        "brand:wikipedia": "en:FamilyMart",
+        "brand:zh": "全家",
+        "name": "全家",
+        "name:en": "FamilyMart",
+        "name:zh": "全家",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4536763734,
+      "lat": 31.2497587,
+      "lon": 121.5330982,
+      "tags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "name": "民生路渡口",
+        "name:en": "Minsheng Road",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4554223989,
+      "lat": 31.2235705,
+      "lon": 121.5400625,
+      "tags": {
+        "amenity": "restaurant",
+        "name:en": "The Brew",
+        "phone": "86 21 6169 88"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4571438529,
+      "lat": 31.2383199,
+      "lon": 121.5402607,
+      "tags": {
+        "name": "民生路",
+        "name:en": "Minsheng Road",
+        "name:zh": "民生路",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "subway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4571438530,
+      "lat": 31.235053,
+      "lon": 121.5298886,
+      "tags": {
+        "name": "源深体育中心",
+        "name:en": "Yuanshen Sports Centre",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "subway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4571438680,
+      "lat": 31.2411834,
+      "lon": 121.5477885,
+      "tags": {
+        "name": "北洋泾路",
+        "name:en": "Beiyangjing Road",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "subway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4905922321,
+      "lat": 31.2488294,
+      "lon": 121.541557,
+      "tags": {
+        "amenity": "school",
+        "name": "六师二附小",
+        "name:zh": "六师二附小",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4907066175,
+      "lat": 31.2459828,
+      "lon": 121.5282813,
+      "tags": {
+        "bus": "yes",
+        "name": "昌邑路桃林路",
+        "name:zh": "昌邑路桃林路",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4923635242,
+      "lat": 31.2316634,
+      "lon": 121.5536767,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "芳甸路杨高中路",
+        "name:zh": "芳甸路杨高中路",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5019790142,
+      "lat": 31.2293855,
+      "lon": 121.5436207,
+      "tags": {
+        "name": "杨高中路",
+        "name:en": "Middle Yanggao Road",
+        "name:zh": "杨高中路",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "subway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5306536052,
+      "lat": 31.2350364,
+      "lon": 121.5298954,
+      "tags": {
+        "name": "源深体育中心",
+        "name:en": "Yuanshen Sports Centre",
+        "network": "上海地铁",
+        "public_transport": "station",
+        "railway": "station",
+        "station": "subway",
+        "subway": "yes",
+        "wikidata": "Q877365"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5306536053,
+      "lat": 31.2383036,
+      "lon": 121.5402665,
+      "tags": {
+        "name": "民生路",
+        "name:en": "Minsheng Road",
+        "name:zh": "民生路",
+        "network": "上海地铁",
+        "public_transport": "station",
+        "railway": "station",
+        "station": "subway",
+        "subway": "yes",
+        "wikidata": "Q876976"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5306536054,
+      "lat": 31.2411683,
+      "lon": 121.5477984,
+      "tags": {
+        "name": "北洋泾路",
+        "name:en": "Beiyangjing Road",
+        "network": "上海地铁",
+        "public_transport": "station",
+        "railway": "station",
+        "station": "subway",
+        "subway": "yes",
+        "wikidata": "Q5949359"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5308162429,
+      "lat": 31.2343994,
+      "lon": 121.5544198,
+      "tags": {
+        "name": "芳甸路",
+        "name:en": "Fangdian Road",
+        "network": "上海地铁",
+        "operator": "申通地铁集团",
+        "public_transport": "station",
+        "railway": "station",
+        "station": "subway",
+        "subway": "yes",
+        "wikidata": "Q30487970"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5308175761,
+      "lat": 31.2344202,
+      "lon": 121.5544049,
+      "tags": {
+        "name": "芳甸路",
+        "name:en": "Fangdian Road",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "subway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5310356462,
+      "lat": 31.2345363,
+      "lon": 121.5547339,
+      "tags": {
+        "name": "1",
+        "railway": "subway_entrance",
+        "ref": "1"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5310356463,
+      "lat": 31.2337291,
+      "lon": 121.5543152,
+      "tags": {
+        "name": "2",
+        "railway": "subway_entrance",
+        "ref": "2"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5310356464,
+      "lat": 31.2339669,
+      "lon": 121.5534898,
+      "tags": {
+        "name": "3",
+        "railway": "subway_entrance",
+        "ref": "3",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5874618105,
+      "lat": 31.2250025,
+      "lon": 121.5337451,
+      "tags": {
+        "amenity": "toilets",
+        "unisex": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5930922530,
+      "lat": 31.242962,
+      "lon": 121.5452175,
+      "tags": {
+        "bus": "yes",
+        "name": "博山路苗圃路",
+        "name:zh": "博山路苗圃路",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5984254385,
+      "lat": 31.2254228,
+      "lon": 121.5293644,
+      "tags": {
+        "amenity": "parking",
+        "layer": "-1",
+        "name": "陆家嘴商务广场-地下停车场-入口",
+        "parking": "underground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6046768386,
+      "lat": 31.2394441,
+      "lon": 121.5314116,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "商城路桃林路",
+        "name:zh": "商城路桃林路",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6046768387,
+      "lat": 31.2417452,
+      "lon": 121.5312521,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "桃林路乳山路",
+        "name:zh": "桃林路乳山路",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6418893280,
+      "lat": 31.2260385,
+      "lon": 121.5489644,
+      "tags": {
+        "addr:housenumber": "767",
+        "addr:street": "迎春路",
+        "name": "匠造烘焙",
+        "opening_hours": "Mo-Su 07:30-22:00",
+        "phone": "+86 21 5838 8761",
+        "shop": "bakery",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6544536261,
+      "lat": 31.2262194,
+      "lon": 121.5295134,
+      "tags": {
+        "amenity": "bank",
+        "brand": "北京银行",
+        "brand:en": "Bank of Beijing",
+        "brand:wikidata": "Q39146",
+        "brand:wikipedia": "zh:北京银行",
+        "brand:zh": "北京银行",
+        "name": "北京银行",
+        "name:en": "Bank of Beijing",
+        "name:zh": "北京银行"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6556957439,
+      "lat": 31.237507,
+      "lon": 121.5365132,
+      "tags": {
+        "amenity": "bank",
+        "atm": "yes",
+        "brand": "兴业银行",
+        "brand:en": "Industrial Bank",
+        "brand:wikidata": "Q1410821",
+        "brand:wikipedia": "zh:兴业银行",
+        "brand:zh": "兴业银行",
+        "drive_through": "no",
+        "name": "兴业银行",
+        "name:en": "Industrial Bank",
+        "name:zh": "兴业银行",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6556959096,
+      "lat": 31.2330204,
+      "lon": 121.543574,
+      "tags": {
+        "amenity": "bank",
+        "brand": "兴业银行",
+        "brand:en": "Industrial Bank",
+        "brand:wikidata": "Q1410821",
+        "brand:wikipedia": "zh:兴业银行",
+        "brand:zh": "兴业银行",
+        "name": "兴业银行",
+        "name:en": "Industrial Bank",
+        "name:zh": "兴业银行",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6636374843,
+      "lat": 31.2261603,
+      "lon": 121.5512366,
+      "tags": {
+        "amenity": "bank",
+        "brand": "中国工商银行",
+        "brand:en": "Industrial and Commercial Bank of China",
+        "brand:wikidata": "Q26463",
+        "brand:wikipedia": "en:Industrial and Commercial Bank of China",
+        "brand:zh": "中国工商银行",
+        "name": "中国工商银行",
+        "name:en": "Industrial and Commercial Bank of China",
+        "name:zh": "中国工商银行",
+        "opening_hours": "Mo-Su 09:00-17:00 \"Private Banking\"; Mo-Fr 09:00-12:00, 13:00-16:30 \"Corporate Banking\"",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6636433720,
+      "lat": 31.2262,
+      "lon": 121.5515451,
+      "tags": {
+        "addr:housenumber": "880",
+        "addr:street": "迎春路",
+        "brand": "全家",
+        "brand:en": "FamilyMart",
+        "brand:wikidata": "Q11247682",
+        "brand:wikipedia": "en:FamilyMart",
+        "brand:zh": "全家",
+        "name": "全家",
+        "name:en": "FamilyMart",
+        "name:zh": "全家",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6649121230,
+      "lat": 31.2276985,
+      "lon": 121.5536435,
+      "tags": {
+        "addr:city": "上海市",
+        "addr:housenumber": "24",
+        "addr:street": "芳甸路二五八弄",
+        "amenity": "restaurant",
+        "cuisine": "vietnamese",
+        "name": "喜越"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6649126174,
+      "lat": 31.2277324,
+      "lon": 121.5538056,
+      "tags": {
+        "addr:housenumber": "34-35",
+        "addr:street": "芳甸路二十八弄",
+        "name": "红宝石",
+        "name:en": "Ruby",
+        "shop": "bakery"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6663312917,
+      "lat": 31.2310587,
+      "lon": 121.5536036,
+      "tags": {
+        "bus": "yes",
+        "name": "芳甸路杨高中路",
+        "name:zh": "芳甸路杨高中路",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7123732882,
+      "lat": 31.2273664,
+      "lon": 121.5329269,
+      "tags": {
+        "name": "张家楼",
+        "name:en": "Zhangjialou",
+        "place": "quarter"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7162327350,
+      "lat": 31.2421509,
+      "lon": 121.5565705,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "羽山路崮山路",
+        "name:zh": "羽山路崮山路",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7162327351,
+      "lat": 31.2420178,
+      "lon": 121.5568388,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "羽山路崮山路",
+        "name:zh": "羽山路崮山路",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7391626685,
+      "lat": 31.2295945,
+      "lon": 121.554843,
+      "tags": {
+        "addr:housenumber": "791",
+        "addr:street": "迎春路",
+        "brand": "Aldi",
+        "brand:wikidata": "Q41171672",
+        "brand:wikipedia": "en:Aldi",
+        "name": "Aldi",
+        "name:de": "ALDI",
+        "name:en": "ALDI",
+        "name:zh": "奥乐齐超市",
+        "opening_hours": "Mo-Su 08:00-22:00",
+        "phone": "+86 400 820 1973",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7489440983,
+      "lat": 31.2478557,
+      "lon": 121.5528278,
+      "tags": {
+        "addr:housenumber": "32",
+        "addr:street": "博山路",
+        "name": "进口食品直营店",
+        "name:en": "Wester",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7764619597,
+      "lat": 31.2421634,
+      "lon": 121.5462349,
+      "tags": {
+        "addr:city": "洋泾街道",
+        "addr:housenumber": "2119",
+        "addr:province": "上海市",
+        "addr:street": "张杨路",
+        "name": "上汽海外出行科技有限公司",
+        "office": "company"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7764619598,
+      "lat": 31.2423016,
+      "lon": 121.5462951,
+      "tags": {
+        "addr:city": "洋泾街道",
+        "addr:district": "上海市",
+        "addr:housenumber": "2119",
+        "addr:province": "上海市",
+        "addr:street": "张杨路",
+        "name": "上海汽车进出口有限公司",
+        "office": "company"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7764619599,
+      "lat": 31.2415811,
+      "lon": 121.5476905,
+      "tags": {
+        "addr:city": "洋泾街道",
+        "addr:housenumber": "2119",
+        "addr:province": "上海市",
+        "addr:street": "张杨路",
+        "brand": "凯迪拉克",
+        "name": "凯迪拉克上海百联互通经销商",
+        "second_hand": "yes",
+        "service:vehicle:new_car_sales": "yes",
+        "service:vehicle:used_car_sales": "yes",
+        "shop": "car"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7764641127,
+      "lat": 31.2418896,
+      "lon": 121.5477262,
+      "tags": {
+        "addr:city": "洋泾街道",
+        "addr:district": "上海市",
+        "addr:housenumber": "2119",
+        "addr:province": "上海市",
+        "addr:street": "张杨路",
+        "name": "上汽国贸大楼",
+        "office": "company"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7818295641,
+      "lat": 31.2428902,
+      "lon": 121.5452813,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "博山路苗圃路",
+        "name:zh": "博山路苗圃路",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7818338386,
+      "lat": 31.2421825,
+      "lon": 121.5448771,
+      "tags": {
+        "access": "yes",
+        "amenity": "toilets",
+        "toilets:disposal": "flush",
+        "unisex": "yes",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7818338391,
+      "lat": 31.2426638,
+      "lon": 121.5465253,
+      "tags": {
+        "addr:city": "洋泾街道",
+        "addr:district": "上海市",
+        "addr:housenumber": "2119",
+        "addr:postcode": "200135",
+        "addr:province": "上海市",
+        "addr:street": "北洋泾路",
+        "amenity": "conference_centre",
+        "name": "安悦会议中心",
+        "website": "anyocharging.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7818344682,
+      "lat": 31.2446804,
+      "lon": 121.5503914,
+      "tags": {
+        "name": "LCM置汇旭辉广场C座",
+        "office": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7818345838,
+      "lat": 31.243865,
+      "lon": 121.5510599,
+      "tags": {
+        "name": "LCM置汇旭辉广场B座",
+        "office": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7818345839,
+      "lat": 31.2439788,
+      "lon": 121.5518772,
+      "tags": {
+        "name": "LCM置汇旭辉广场A座",
+        "office": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7818352125,
+      "lat": 31.2453128,
+      "lon": 121.5498352,
+      "tags": {
+        "name": "LCM置汇旭辉广场D座",
+        "office": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8081286592,
+      "lat": 31.2308695,
+      "lon": 121.5557217,
+      "tags": {
+        "brand": "优衣库",
+        "brand:en": "Uniqlo",
+        "brand:wikidata": "Q26070",
+        "brand:wikipedia": "en:Uniqlo",
+        "brand:zh": "优衣库",
+        "name": "优衣库",
+        "name:en": "Uniqlo",
+        "name:zh": "优衣库",
+        "shop": "clothes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8081320161,
+      "lat": 31.2281758,
+      "lon": 121.5555148,
+      "tags": {
+        "amenity": "bank",
+        "brand": "交通银行",
+        "brand:en": "Bank of Communications",
+        "brand:wikidata": "Q806680",
+        "brand:wikipedia": "en:Bank of Communications",
+        "brand:zh": "交通银行",
+        "name": "交通银行",
+        "name:en": "Bank of Communications",
+        "name:zh": "交通银行"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8081337864,
+      "lat": 31.2293885,
+      "lon": 121.5545706,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "海底捞火锅",
+        "brand:en": "Haidilao Hot Pot",
+        "brand:wikidata": "Q5638920",
+        "brand:wikipedia": "zh:海底捞",
+        "brand:zh": "海底捞火锅",
+        "brand:zh-Hans": "海底捞火锅",
+        "brand:zh-Hant": "海底撈火鍋",
+        "cuisine": "chinese;hot_pot",
+        "name": "海底捞火锅",
+        "name:en": "Haidilao Hot Pot",
+        "name:zh": "海底捞火锅",
+        "name:zh-Hans": "海底捞火锅",
+        "name:zh-Hant": "海底撈火鍋"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8163882273,
+      "lat": 31.2340782,
+      "lon": 121.5528655,
+      "tags": {
+        "brand": "罗森",
+        "brand:en": "LAWSON",
+        "brand:wikidata": "Q1557223",
+        "brand:zh": "罗森",
+        "name": "罗森",
+        "name:en": "Lawson",
+        "name:zh": "罗森",
+        "operator": "罗森（中国）投资有限公司",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8475594982,
+      "lat": 31.239422,
+      "lon": 121.5424591,
+      "tags": {
+        "addr:housenumber": "1721",
+        "addr:street": "张杨路",
+        "name": "C橙色管家",
+        "name:en": "Orange sex toy",
+        "opening_hours": "Mo-Su 09:00-00:00",
+        "phone": "+86 400 052 1533",
+        "shop": "erotic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8476342250,
+      "lat": 31.2478557,
+      "lon": 121.5528278,
+      "tags": {
+        "addr:housenumber": "33",
+        "addr:street": "博山路",
+        "name": "进口食品直营店",
+        "name:en": "Wester",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8714331773,
+      "lat": 31.2229626,
+      "lon": 121.5327849,
+      "tags": {
+        "bus": "yes",
+        "name": "杨高南路世纪大道",
+        "name:zh": "杨高南路世纪大道",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8793096988,
+      "lat": 31.2337773,
+      "lon": 121.5299377,
+      "tags": {
+        "bus": "yes",
+        "name": "源深路张杨路",
+        "name:zh": "源深路张杨路",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8930585194,
+      "lat": 31.2201589,
+      "lon": 121.5568961,
+      "tags": {
+        "amenity": "cafe",
+        "name": "Coconut"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8948834707,
+      "lat": 31.2486077,
+      "lon": 121.531573,
+      "tags": {
+        "artwork_type": "statue",
+        "tourism": "artwork"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8955155286,
+      "lat": 31.2285682,
+      "lon": 121.5542612,
+      "tags": {
+        "bus": "yes",
+        "name": "芳甸路迎春路",
+        "name:zh": "芳甸路迎春路",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8955155287,
+      "lat": 31.2281639,
+      "lon": 121.5567515,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "迎春路芳甸路",
+        "name:zh": "迎春路芳甸路",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8955155289,
+      "lat": 31.2232008,
+      "lon": 121.555676,
+      "tags": {
+        "bus": "yes",
+        "name": "芳甸路锦绣路",
+        "name:en": "Fangdian Road Jinxiu Road",
+        "name:zh": "芳甸路锦绣路",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8955155316,
+      "lat": 31.2231411,
+      "lon": 121.5558152,
+      "tags": {
+        "bus": "yes",
+        "name": "芳甸路锦绣路",
+        "name:en": "Fangdian Road Jinxiu Road",
+        "name:zh": "芳甸路锦绣路",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8955157028,
+      "lat": 31.2295976,
+      "lon": 121.5520597,
+      "tags": {
+        "bus": "yes",
+        "name": "丁香路金松路",
+        "name:en": "Dingxiang Road Jinsong Road",
+        "name:zh": "丁香路金松路",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8955469803,
+      "lat": 31.2268273,
+      "lon": 121.5295584,
+      "tags": {
+        "bus": "yes",
+        "name": "世纪大道浦电路",
+        "name:en": "Century Avenue Pudian Road",
+        "name:zh": "世纪大道浦电路",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8955469804,
+      "lat": 31.2231648,
+      "lon": 121.5357756,
+      "tags": {
+        "bus": "yes",
+        "name": "世纪大道丁香路",
+        "name:en": "Century Avenue Dingxiang Road",
+        "name:zh": "世纪大道丁香路",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8955469805,
+      "lat": 31.2241977,
+      "lon": 121.5415351,
+      "tags": {
+        "bus": "yes",
+        "name": "锦带路迎春路",
+        "name:en": "Jindai Road Yingchun Road",
+        "name:zh": "锦带路迎春路",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8955469806,
+      "lat": 31.2255471,
+      "lon": 121.5425958,
+      "tags": {
+        "bus": "yes",
+        "name": "合欢路丁香路",
+        "name:en": "Hehuan Road Dingxiang Road",
+        "name:zh": "合欢路丁香路",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8955469807,
+      "lat": 31.2268869,
+      "lon": 121.543113,
+      "tags": {
+        "bus": "yes",
+        "name": "丁香路民生路",
+        "name:en": "Dingxiang Road Minsheng Road",
+        "name:zh": "丁香路民生路",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8955469808,
+      "lat": 31.2285074,
+      "lon": 121.5488301,
+      "tags": {
+        "bus": "yes",
+        "name": "丁香路长柳路",
+        "name:en": "Dingxiang Road Changliu Road",
+        "name:zh": "丁香路长柳路",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8955469809,
+      "lat": 31.2295978,
+      "lon": 121.5523519,
+      "tags": {
+        "bus": "yes",
+        "name": "丁香路金松路",
+        "name:en": "Dingxiang Road Jinsong Road",
+        "name:zh": "丁香路金松路",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8955469810,
+      "lat": 31.2305322,
+      "lon": 121.5548918,
+      "tags": {
+        "bus": "yes",
+        "name": "丁香路芳甸路",
+        "name:en": "Dingxiang Road Fangdian Road",
+        "name:zh": "丁香路芳甸路",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8955478239,
+      "lat": 31.2284524,
+      "lon": 121.5483723,
+      "tags": {
+        "bus": "yes",
+        "name": "丁香路长柳路",
+        "name:en": "Dingxiang Road Changliu Road",
+        "name:zh": "丁香路长柳路",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8955478240,
+      "lat": 31.2272312,
+      "lon": 121.5442493,
+      "tags": {
+        "bus": "yes",
+        "name": "丁香路民生路",
+        "name:en": "Dingxiang Road Minsheng Road",
+        "name:zh": "丁香路民生路",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8955478241,
+      "lat": 31.2254142,
+      "lon": 121.5384289,
+      "tags": {
+        "bus": "yes",
+        "name": "丁香路锦带路",
+        "name:en": "Dingxiang Road Jindai Road",
+        "name:zh": "丁香路锦带路",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8955478242,
+      "lat": 31.2233983,
+      "lon": 121.5363614,
+      "tags": {
+        "bus": "yes",
+        "name": "世纪大道丁香路",
+        "name:en": "Century Avenue Dingxiang Road",
+        "name:zh": "世纪大道丁香路",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8955478243,
+      "lat": 31.2268401,
+      "lon": 121.5299351,
+      "tags": {
+        "bus": "yes",
+        "name": "世纪大道浦电路",
+        "name:en": "Century Avenue Pudian Road",
+        "name:zh": "世纪大道浦电路",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8971412234,
+      "lat": 31.2313763,
+      "lon": 121.5330504,
+      "tags": {
+        "brand": "全家",
+        "brand:en": "FamilyMart",
+        "brand:wikidata": "Q1191685",
+        "brand:wikipedia": "zh:FamilyMart",
+        "brand:zh": "全家",
+        "name": "全家",
+        "name:en": "FamilyMart",
+        "name:zh": "全家",
+        "shop": "convenience",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8971412235,
+      "lat": 31.2315084,
+      "lon": 121.5331872,
+      "tags": {
+        "amenity": "bank",
+        "bic": "BKCHCNBJXXX",
+        "brand": "中国银行",
+        "brand:en": "Bank of China",
+        "brand:wikidata": "Q790068",
+        "brand:wikipedia": "en:Bank of China",
+        "brand:zh": "中国银行",
+        "name": "中国银行",
+        "name:en": "Bank of China",
+        "name:zh": "中国银行",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8971412236,
+      "lat": 31.2320474,
+      "lon": 121.5340076,
+      "tags": {
+        "amenity": "bank",
+        "brand": "招商银行",
+        "brand:en": "China Merchants Bank",
+        "brand:wikidata": "Q1073327",
+        "brand:wikipedia": "en:China Merchants Bank",
+        "brand:zh": "招商银行",
+        "name": "招商银行",
+        "name:en": "China Merchants Bank",
+        "name:zh": "招商银行",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8971412237,
+      "lat": 31.2321552,
+      "lon": 121.5341727,
+      "tags": {
+        "amenity": "cafe",
+        "brand": "星巴克",
+        "brand:en": "Starbucks",
+        "brand:wikidata": "Q37158",
+        "brand:wikipedia": "zh:星巴克",
+        "brand:zh": "星巴克",
+        "cuisine": "coffee_shop",
+        "name": "星巴克",
+        "name:en": "Starbucks",
+        "name:zh": "星巴克",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8971412238,
+      "lat": 31.2322615,
+      "lon": 121.5343645,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "必胜客",
+        "brand:en": "Pizza Hut",
+        "brand:wikidata": "Q191615",
+        "brand:wikipedia": "en:Pizza Hut",
+        "brand:zh": "必胜客",
+        "cuisine": "pizza",
+        "name": "必胜客",
+        "name:en": "Pizza Hut",
+        "name:zh": "必胜客",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8971412239,
+      "lat": 31.2323814,
+      "lon": 121.5345722,
+      "tags": {
+        "brand": "北京华联",
+        "brand:en": "BHG",
+        "brand:wikidata": "Q4881137",
+        "brand:wikipedia": "en:Beijing Hualian Group",
+        "brand:zh": "北京华联",
+        "name": "北京华联",
+        "name:en": "BHG",
+        "name:zh": "北京华联",
+        "shop": "supermarket",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9381078272,
+      "lat": 31.2284289,
+      "lon": 121.5448621,
+      "tags": {
+        "name": "杨高中路",
+        "name:en": "Middle Yanggao Road",
+        "name:zh": "杨高中路",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "subway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9381078273,
+      "lat": 31.2284564,
+      "lon": 121.5449694,
+      "tags": {
+        "name": "杨高中路",
+        "name:en": "Middle Yanggao Road",
+        "name:zh": "杨高中路",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "subway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9381078533,
+      "lat": 31.2231994,
+      "lon": 121.546686,
+      "tags": {
+        "name": "迎春路",
+        "name:en": "Yingchun Road",
+        "name:zh": "迎春路",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "subway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9381078534,
+      "lat": 31.2232453,
+      "lon": 121.5468094,
+      "tags": {
+        "name": "迎春路",
+        "name:en": "Yingchun Road",
+        "name:zh": "迎春路",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "subway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9381099002,
+      "lat": 31.2370515,
+      "lon": 121.5405295,
+      "tags": {
+        "name": "民生路",
+        "name:en": "Minsheng Road",
+        "name:zh": "民生路",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "subway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9381099003,
+      "lat": 31.2371427,
+      "lon": 121.5406259,
+      "tags": {
+        "name": "民生路",
+        "name:en": "Minsheng Road",
+        "name:zh": "民生路",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "subway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9381121727,
+      "lat": 31.2460509,
+      "lon": 121.5359095,
+      "tags": {
+        "name": "昌邑路",
+        "name:en": "Changyi Road",
+        "name:zh": "昌邑路",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "subway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9381121728,
+      "lat": 31.2460043,
+      "lon": 121.5357899,
+      "tags": {
+        "name": "昌邑路",
+        "name:en": "Changyi Road",
+        "name:zh": "昌邑路",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "subway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9381121729,
+      "lat": 31.2459545,
+      "lon": 121.5357557,
+      "tags": {
+        "name": "昌邑路",
+        "name:en": "Changyi Road",
+        "name:zh": "昌邑路",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "subway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9381121730,
+      "lat": 31.2461037,
+      "lon": 121.5357697,
+      "tags": {
+        "name": "昌邑路",
+        "name:en": "Changyi Road",
+        "name:zh": "昌邑路",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "subway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9381124225,
+      "lat": 31.2460058,
+      "lon": 121.5357325,
+      "tags": {
+        "name": "昌邑路",
+        "name:en": "Changyi Road",
+        "name:zh": "昌邑路",
+        "network": "上海地铁",
+        "public_transport": "station",
+        "railway": "station",
+        "station": "subway",
+        "subway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9381124226,
+      "lat": 31.2460556,
+      "lon": 121.5358083,
+      "tags": {
+        "name": "昌邑路",
+        "name:en": "Changyi Road",
+        "name:zh": "昌邑路",
+        "network": "上海地铁",
+        "public_transport": "station",
+        "railway": "station",
+        "station": "subway",
+        "subway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9381124229,
+      "lat": 31.2232213,
+      "lon": 121.5467582,
+      "tags": {
+        "name": "迎春路",
+        "name:en": "Yingchun Road",
+        "name:zh": "迎春路",
+        "network": "上海地铁",
+        "public_transport": "station",
+        "railway": "station",
+        "station": "subway",
+        "subway": "yes",
+        "wikidata": "Q62005438"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9381124230,
+      "lat": 31.2370638,
+      "lon": 121.5405786,
+      "tags": {
+        "name": "民生路",
+        "name:en": "Minsheng Road",
+        "name:zh": "民生路",
+        "network": "上海地铁",
+        "public_transport": "station",
+        "railway": "station",
+        "station": "subway",
+        "subway": "yes",
+        "wikidata": "Q876976"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9401949761,
+      "lat": 31.2255052,
+      "lon": 121.532706,
+      "tags": {
+        "amenity": "bench"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9401949762,
+      "lat": 31.2255348,
+      "lon": 121.5327472,
+      "tags": {
+        "amenity": "bench"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9401949763,
+      "lat": 31.2254833,
+      "lon": 121.532699,
+      "tags": {
+        "amenity": "waste_basket"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9402020100,
+      "lat": 31.2227108,
+      "lon": 121.5369992,
+      "tags": {
+        "tourism": "artwork"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9403959070,
+      "lat": 31.2257591,
+      "lon": 121.5421477,
+      "tags": {
+        "amenity": "parking"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9462979640,
+      "lat": 31.2447918,
+      "lon": 121.5556522,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "张杨路罗山路",
+        "name:zh": "张杨路罗山路",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9462979641,
+      "lat": 31.2450533,
+      "lon": 121.5552338,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "张杨路罗山路",
+        "name:zh": "张杨路罗山路",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9462995769,
+      "lat": 31.2409242,
+      "lon": 121.5478573,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "张杨路苗圃路",
+        "name:zh": "张杨路苗圃路",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9462995770,
+      "lat": 31.2411123,
+      "lon": 121.5471546,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "张杨路苗圃路",
+        "name:zh": "张杨路苗圃路",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9463012433,
+      "lat": 31.2384937,
+      "lon": 121.5416241,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "张杨路巨野路",
+        "name:zh": "张杨路巨野路",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9463012434,
+      "lat": 31.2391977,
+      "lon": 121.5423051,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "张杨路巨野路",
+        "name:zh": "张杨路巨野路",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9704398593,
+      "lat": 31.2370462,
+      "lon": 121.5372088,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "张杨路民生路",
+        "name:zh": "张杨路民生路",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9704398594,
+      "lat": 31.2374704,
+      "lon": 121.5367774,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "张杨路民生路",
+        "name:zh": "张杨路民生路",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9704398595,
+      "lat": 31.2354666,
+      "lon": 121.5322477,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "张杨路桃林路",
+        "name:zh": "张杨路桃林路",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9704398596,
+      "lat": 31.2360198,
+      "lon": 121.532183,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "张杨路桃林路",
+        "name:zh": "张杨路桃林路",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9704398598,
+      "lat": 31.2341991,
+      "lon": 121.5283053,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "张杨路源深路",
+        "name:zh": "张杨路源深路",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9764131893,
+      "lat": 31.2479326,
+      "lon": 121.5398289,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "浦东大道苗圃路",
+        "name:zh": "浦东大道苗圃路",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9764131894,
+      "lat": 31.2483672,
+      "lon": 121.5413725,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "浦东大道苗圃路",
+        "name:zh": "浦东大道苗圃路",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9764131895,
+      "lat": 31.2470303,
+      "lon": 121.5376067,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "浦东大道民生路",
+        "name:zh": "浦东大道民生路",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9764131896,
+      "lat": 31.2467344,
+      "lon": 121.5375799,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "浦东大道民生路",
+        "name:zh": "浦东大道民生路",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9764131897,
+      "lat": 31.2451912,
+      "lon": 121.5324542,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "浦东大道桃林路",
+        "name:zh": "浦东大道桃林路",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9764131898,
+      "lat": 31.2445972,
+      "lon": 121.5314752,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "浦东大道桃林路",
+        "name:zh": "浦东大道桃林路",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9844287028,
+      "lat": 31.2321301,
+      "lon": 121.533589,
+      "tags": {
+        "alt_name": "源深体育中心",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "羽山路源深路",
+        "name:zh": "羽山路源深路",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9844287029,
+      "lat": 31.2315234,
+      "lon": 121.5328775,
+      "tags": {
+        "alt_name": "源深体育中心",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "羽山路源深路",
+        "name:zh": "羽山路源深路",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9844287030,
+      "lat": 31.2341821,
+      "lon": 121.5378217,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "羽山路桃林路",
+        "name:zh": "羽山路桃林路",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9844287031,
+      "lat": 31.2340256,
+      "lon": 121.5380719,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "羽山路桃林路",
+        "name:zh": "羽山路桃林路",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9844287032,
+      "lat": 31.2364905,
+      "lon": 121.5438805,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "羽山路民生路",
+        "name:zh": "羽山路民生路",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9844287033,
+      "lat": 31.2363581,
+      "lon": 121.5440548,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "羽山路民生路",
+        "name:zh": "羽山路民生路",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9884748552,
+      "lat": 31.247889,
+      "lon": 121.5530267,
+      "tags": {
+        "bus": "yes",
+        "name": "博山路罗山路",
+        "name:zh": "博山路罗山路",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9884748553,
+      "lat": 31.2493004,
+      "lon": 121.5552503,
+      "tags": {
+        "bus": "yes",
+        "name": "博山东路罗山路",
+        "name:zh": "博山东路罗山路",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9884748554,
+      "lat": 31.2492408,
+      "lon": 121.5552771,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "博山东路罗山路",
+        "name:zh": "博山东路罗山路",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9884748555,
+      "lat": 31.2495297,
+      "lon": 121.5555024,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "博山东路罗山路",
+        "name:zh": "博山东路罗山路",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9884748556,
+      "lat": 31.2494655,
+      "lon": 121.5555346,
+      "tags": {
+        "bus": "yes",
+        "name": "博山东路罗山路",
+        "name:zh": "博山东路罗山路",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9884821034,
+      "lat": 31.2461589,
+      "lon": 121.5502185,
+      "tags": {
+        "bus": "yes",
+        "name": "博山路崮山路",
+        "name:zh": "博山路崮山路",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9884821035,
+      "lat": 31.2462001,
+      "lon": 121.5501621,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "博山路崮山路",
+        "name:zh": "博山路崮山路",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9884821036,
+      "lat": 31.2460671,
+      "lon": 121.5500924,
+      "tags": {
+        "bus": "yes",
+        "name": "博山路崮山路",
+        "name:zh": "博山路崮山路",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9884821037,
+      "lat": 31.2459847,
+      "lon": 121.5501248,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "博山路崮山路",
+        "name:zh": "博山路崮山路",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9884821038,
+      "lat": 31.2471862,
+      "lon": 121.5519968,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "博山路崮山路",
+        "name:zh": "博山路崮山路",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9884821039,
+      "lat": 31.2476872,
+      "lon": 121.5525882,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "博山路崮山路",
+        "name:zh": "博山路崮山路",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9884821040,
+      "lat": 31.2476621,
+      "lon": 121.552654,
+      "tags": {
+        "bus": "yes",
+        "name": "博山路崮山路",
+        "name:zh": "博山路崮山路",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9884821041,
+      "lat": 31.2482445,
+      "lon": 121.5536275,
+      "tags": {
+        "bus": "yes",
+        "name": "博山路罗山路",
+        "name:zh": "博山路罗山路",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9884821042,
+      "lat": 31.2481504,
+      "lon": 121.5536946,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "博山路罗山路",
+        "name:zh": "博山路罗山路",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9884821043,
+      "lat": 31.2479142,
+      "lon": 121.5529892,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "博山路罗山路",
+        "name:zh": "博山路罗山路",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9885530643,
+      "lat": 31.2394764,
+      "lon": 121.5516186,
+      "tags": {
+        "bus": "yes",
+        "name": "羽山路南洋泾路",
+        "name:zh": "羽山路南洋泾路",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9885530644,
+      "lat": 31.239692,
+      "lon": 121.5520585,
+      "tags": {
+        "bus": "yes",
+        "name": "羽山路南洋泾路",
+        "name:zh": "羽山路南洋泾路",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9885530645,
+      "lat": 31.2422513,
+      "lon": 121.5554005,
+      "tags": {
+        "bus": "yes",
+        "name": "崮山路羽山路",
+        "name:zh": "崮山路羽山路",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9885530646,
+      "lat": 31.242265,
+      "lon": 121.5554488,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "崮山路羽山路",
+        "name:zh": "崮山路羽山路",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9885530647,
+      "lat": 31.2424852,
+      "lon": 121.5551001,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "崮山路羽山路",
+        "name:zh": "崮山路羽山路",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9885530648,
+      "lat": 31.2425264,
+      "lon": 121.5552181,
+      "tags": {
+        "bus": "yes",
+        "name": "崮山路羽山路",
+        "name:zh": "崮山路羽山路",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9885530652,
+      "lat": 31.245182,
+      "lon": 121.5530401,
+      "tags": {
+        "bus": "yes",
+        "name": "崮山路张杨路",
+        "name:zh": "崮山路张杨路",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9885536235,
+      "lat": 31.2296589,
+      "lon": 121.5460429,
+      "tags": {
+        "bus": "yes",
+        "name": "杨高中路民生路",
+        "name:zh": "杨高中路民生路",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9885536237,
+      "lat": 31.2298348,
+      "lon": 121.5454683,
+      "tags": {
+        "bus": "yes",
+        "name": "杨高中路地铁站",
+        "name:zh": "杨高中路地铁站",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9885536238,
+      "lat": 31.229766,
+      "lon": 121.545487,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "杨高中路地铁站",
+        "name:zh": "杨高中路地铁站",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9885536239,
+      "lat": 31.2315481,
+      "lon": 121.5404016,
+      "tags": {
+        "bus": "yes",
+        "name": "灵山路民生路",
+        "name:zh": "灵山路民生路",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9885536240,
+      "lat": 31.2314701,
+      "lon": 121.5404096,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "灵山路民生路",
+        "name:zh": "灵山路民生路",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9885536241,
+      "lat": 31.2316261,
+      "lon": 121.5406081,
+      "tags": {
+        "bus": "yes",
+        "name": "灵山路民生路",
+        "name:zh": "灵山路民生路",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9885536242,
+      "lat": 31.2316811,
+      "lon": 121.5405893,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "灵山路民生路",
+        "name:zh": "灵山路民生路",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9885536243,
+      "lat": 31.2335136,
+      "lon": 121.5452029,
+      "tags": {
+        "bus": "yes",
+        "name": "灵山路民生路",
+        "name:zh": "灵山路民生路",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9885541986,
+      "lat": 31.2335641,
+      "lon": 121.5452081,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "灵山路民生路",
+        "name:zh": "灵山路民生路",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9885541987,
+      "lat": 31.233665,
+      "lon": 121.5457928,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "灵山路民生路",
+        "name:zh": "灵山路民生路",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9885541988,
+      "lat": 31.2337475,
+      "lon": 121.5457553,
+      "tags": {
+        "bus": "yes",
+        "name": "灵山路民生路",
+        "name:zh": "灵山路民生路",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9885541989,
+      "lat": 31.2354172,
+      "lon": 121.5496874,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "灵山路苗圃路",
+        "name:zh": "灵山路苗圃路",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9885541990,
+      "lat": 31.2373849,
+      "lon": 121.5510499,
+      "tags": {
+        "bus": "yes",
+        "name": "南洋泾路灵山路",
+        "name:zh": "南洋泾路灵山路",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9885541991,
+      "lat": 31.2373941,
+      "lon": 121.5511036,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "南洋泾路灵山路",
+        "name:zh": "南洋泾路灵山路",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9885541992,
+      "lat": 31.2370455,
+      "lon": 121.5510499,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "南洋泾路灵山路",
+        "name:zh": "南洋泾路灵山路",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9885541993,
+      "lat": 31.2370867,
+      "lon": 121.5511143,
+      "tags": {
+        "bus": "yes",
+        "name": "南洋泾路灵山路",
+        "name:zh": "南洋泾路灵山路",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9885541994,
+      "lat": 31.2395957,
+      "lon": 121.5521067,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "羽山路南洋泾路",
+        "name:zh": "羽山路南洋泾路",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9885541995,
+      "lat": 31.2395269,
+      "lon": 121.5516078,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "羽山路南洋泾路",
+        "name:zh": "羽山路南洋泾路",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9885546604,
+      "lat": 31.2295734,
+      "lon": 121.5459859,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "杨高中路民生路",
+        "name:zh": "杨高中路民生路",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9885546605,
+      "lat": 31.2292981,
+      "lon": 121.5453905,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "杨高中路民生路",
+        "name:zh": "杨高中路民生路",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9885546606,
+      "lat": 31.2292202,
+      "lon": 121.5451571,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "杨高中路地铁站",
+        "name:zh": "杨高中路地铁站",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9885546611,
+      "lat": 31.2291431,
+      "lon": 121.5452301,
+      "tags": {
+        "bus": "yes",
+        "name": "杨高中路地铁站",
+        "name:zh": "杨高中路地铁站",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9885546612,
+      "lat": 31.2292895,
+      "lon": 121.5454608,
+      "tags": {
+        "bus": "yes",
+        "name": "杨高中路民生路",
+        "name:zh": "杨高中路民生路",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9885553134,
+      "lat": 31.2452278,
+      "lon": 121.5530831,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "崮山路张杨路",
+        "name:zh": "崮山路张杨路",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9885553135,
+      "lat": 31.2456773,
+      "lon": 121.5520853,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "崮山路张杨路",
+        "name:zh": "崮山路张杨路",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9903031103,
+      "lat": 31.2446981,
+      "lon": 121.531443,
+      "tags": {
+        "bus": "yes",
+        "name": "浦东大道桃林路",
+        "name:zh": "浦东大道桃林路",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9903031104,
+      "lat": 31.2459685,
+      "lon": 121.5352571,
+      "tags": {
+        "bus": "yes",
+        "name": "浦东大道民生路",
+        "name:zh": "浦东大道民生路",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9903031105,
+      "lat": 31.2460289,
+      "lon": 121.5352273,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "浦东大道民生路",
+        "name:zh": "浦东大道民生路",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9903031106,
+      "lat": 31.2478959,
+      "lon": 121.5398625,
+      "tags": {
+        "bus": "yes",
+        "name": "浦东大道苗圃路",
+        "name:zh": "浦东大道苗圃路",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9903031107,
+      "lat": 31.2484061,
+      "lon": 121.5413377,
+      "tags": {
+        "bus": "yes",
+        "name": "浦东大道苗圃路",
+        "name:zh": "浦东大道苗圃路",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9929181693,
+      "lat": 31.2489748,
+      "lon": 121.538056,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "昌邑路苗圃路",
+        "name:zh": "昌邑路苗圃路",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9929181694,
+      "lat": 31.2494197,
+      "lon": 121.5389076,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "昌邑路苗圃路",
+        "name:zh": "昌邑路苗圃路",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9929181695,
+      "lat": 31.2494518,
+      "lon": 121.5388674,
+      "tags": {
+        "bus": "yes",
+        "name": "昌邑路苗圃路",
+        "name:zh": "昌邑路苗圃路",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9929181696,
+      "lat": 31.2477266,
+      "lon": 121.5356666,
+      "tags": {
+        "bench": "no",
+        "bin": "yes",
+        "bus": "yes",
+        "departures_board": "realtime",
+        "highway": "bus_stop",
+        "lit": "yes",
+        "name": "昌邑路民生路",
+        "name:en": "Changyi Road at Minsheng Road",
+        "public_transport": "platform",
+        "shelter": "no",
+        "tactile_paving": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9929183325,
+      "lat": 31.2474155,
+      "lon": 121.5334225,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "昌邑路民生路",
+        "name:zh": "昌邑路民生路",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9929183326,
+      "lat": 31.2473054,
+      "lon": 121.5334412,
+      "tags": {
+        "bus": "yes",
+        "name": "昌邑路民生路",
+        "name:zh": "昌邑路民生路",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9929183327,
+      "lat": 31.2460396,
+      "lon": 121.5282404,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "昌邑路桃林路",
+        "name:zh": "昌邑路桃林路",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9929183328,
+      "lat": 31.2461451,
+      "lon": 121.5292758,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "昌邑路桃林路",
+        "name:zh": "昌邑路桃林路",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9929183329,
+      "lat": 31.2462414,
+      "lon": 121.5292463,
+      "tags": {
+        "bus": "yes",
+        "name": "昌邑路桃林路",
+        "name:zh": "昌邑路桃林路",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9945311980,
+      "lat": 31.247122,
+      "lon": 121.5551966,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "罗山路张杨路",
+        "name:zh": "罗山路张杨路",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9945311981,
+      "lat": 31.2471752,
+      "lon": 121.5552572,
+      "tags": {
+        "bus": "yes",
+        "name": "罗山路张杨路",
+        "name:zh": "罗山路张杨路",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9945311982,
+      "lat": 31.2473569,
+      "lon": 121.5553947,
+      "tags": {
+        "bus": "yes",
+        "name": "罗山路张杨路",
+        "name:zh": "罗山路张杨路",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9945311983,
+      "lat": 31.2474224,
+      "lon": 121.5554863,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "罗山路张杨路",
+        "name:zh": "罗山路张杨路",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10098133997,
+      "lat": 31.220362,
+      "lon": 121.5430087,
+      "tags": {
+        "alt_name": "上海科技馆",
+        "bus": "yes",
+        "name": "锦绣路世纪大道",
+        "name:zh": "锦绣路世纪大道",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10098133998,
+      "lat": 31.2203207,
+      "lon": 121.5430677,
+      "tags": {
+        "alt_name": "上海科技馆",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "锦绣路世纪大道",
+        "name:zh": "锦绣路世纪大道",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10098133999,
+      "lat": 31.2204423,
+      "lon": 121.5427136,
+      "tags": {
+        "alt_name": "上海科技馆",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "锦绣路世纪大道",
+        "name:zh": "锦绣路世纪大道",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10098199604,
+      "lat": 31.227055,
+      "lon": 121.553767,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "迎春路金松路",
+        "name:zh": "迎春路金松路",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10098199605,
+      "lat": 31.2270688,
+      "lon": 121.5532064,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "迎春路金松路",
+        "name:zh": "迎春路金松路",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10098199606,
+      "lat": 31.2270126,
+      "lon": 121.5532166,
+      "tags": {
+        "bus": "yes",
+        "name": "迎春路金松路",
+        "name:zh": "迎春路金松路",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10098199607,
+      "lat": 31.2282248,
+      "lon": 121.5567201,
+      "tags": {
+        "bus": "yes",
+        "name": "迎春路芳甸路",
+        "name:zh": "迎春路芳甸路",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10098199608,
+      "lat": 31.2280413,
+      "lon": 121.5559557,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "迎春路芳甸路",
+        "name:zh": "迎春路芳甸路",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10098199609,
+      "lat": 31.2280023,
+      "lon": 121.5559825,
+      "tags": {
+        "bus": "yes",
+        "name": "迎春路芳甸路",
+        "name:zh": "迎春路芳甸路",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10098216404,
+      "lat": 31.2227796,
+      "lon": 121.546855,
+      "tags": {
+        "alt_name": "世纪公园",
+        "bus": "yes",
+        "name": "民生路锦绣路",
+        "name:zh": "民生路锦绣路",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10098216405,
+      "lat": 31.2229517,
+      "lon": 121.5469032,
+      "tags": {
+        "alt_name": "世纪公园",
+        "bus": "yes",
+        "name": "民生路锦绣路",
+        "name:zh": "民生路锦绣路",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10098216406,
+      "lat": 31.2229746,
+      "lon": 121.5469837,
+      "tags": {
+        "alt_name": "世纪公园",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "民生路锦绣路",
+        "name:zh": "民生路锦绣路",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10098216407,
+      "lat": 31.222759,
+      "lon": 121.5467745,
+      "tags": {
+        "alt_name": "世纪公园",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "民生路锦绣路",
+        "name:zh": "民生路锦绣路",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10098216409,
+      "lat": 31.2261078,
+      "lon": 121.5503874,
+      "tags": {
+        "bus": "yes",
+        "name": "迎春路长柳路",
+        "name:zh": "迎春路长柳路",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10098216410,
+      "lat": 31.2260688,
+      "lon": 121.5504062,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "迎春路长柳路",
+        "name:zh": "迎春路长柳路",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10098216411,
+      "lat": 31.2262179,
+      "lon": 121.5503016,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "迎春路长柳路",
+        "name:zh": "迎春路长柳路",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10098216412,
+      "lat": 31.2261651,
+      "lon": 121.5503257,
+      "tags": {
+        "bus": "yes",
+        "name": "迎春路长柳路",
+        "name:zh": "迎春路长柳路",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10098216413,
+      "lat": 31.2271009,
+      "lon": 121.5537375,
+      "tags": {
+        "bus": "yes",
+        "name": "迎春路金松路",
+        "name:zh": "迎春路金松路",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10161910874,
+      "lat": 31.2225606,
+      "lon": 121.5328123,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "杨高南路世纪大道",
+        "name:zh": "杨高南路世纪大道",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10161910875,
+      "lat": 31.2229746,
+      "lon": 121.5327331,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "杨高南路世纪大道",
+        "name:zh": "杨高南路世纪大道",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10162343037,
+      "lat": 31.2272637,
+      "lon": 121.5442398,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "丁香路民生路",
+        "name:en": "Dingxiang Road Minsheng Road",
+        "name:zh": "丁香路民生路",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10162343038,
+      "lat": 31.2268555,
+      "lon": 121.543124,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "丁香路民生路",
+        "name:en": "Dingxiang Road Minsheng Road",
+        "name:zh": "丁香路民生路",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10162343039,
+      "lat": 31.2254357,
+      "lon": 121.5383631,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "丁香路锦带路",
+        "name:en": "Dingxiang Road Jindai Road",
+        "name:zh": "丁香路锦带路",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10162343040,
+      "lat": 31.2231214,
+      "lon": 121.5357426,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "世纪大道丁香路",
+        "name:en": "Century Avenue Dingxiang Road",
+        "name:zh": "世纪大道丁香路",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10162343041,
+      "lat": 31.2234494,
+      "lon": 121.5363944,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "世纪大道丁香路",
+        "name:en": "Century Avenue Dingxiang Road",
+        "name:zh": "世纪大道丁香路",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10162343706,
+      "lat": 31.2289954,
+      "lon": 121.5543652,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "芳甸路迎春路",
+        "name:zh": "芳甸路迎春路",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10162343707,
+      "lat": 31.2285527,
+      "lon": 121.5541881,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "芳甸路迎春路",
+        "name:zh": "芳甸路迎春路",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10162343708,
+      "lat": 31.2295413,
+      "lon": 121.5523696,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "丁香路金松路",
+        "name:en": "Dingxiang Road Jinsong Road",
+        "name:zh": "丁香路金松路",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10162343709,
+      "lat": 31.2296559,
+      "lon": 121.5520316,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "丁香路金松路",
+        "name:en": "Dingxiang Road Jinsong Road",
+        "name:zh": "丁香路金松路",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10162343710,
+      "lat": 31.2284495,
+      "lon": 121.5488613,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "丁香路长柳路",
+        "name:en": "Dingxiang Road Changliu Road",
+        "name:zh": "丁香路长柳路",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10162343711,
+      "lat": 31.2284954,
+      "lon": 121.5483543,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "丁香路长柳路",
+        "name:en": "Dingxiang Road Changliu Road",
+        "name:zh": "丁香路长柳路",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10162343712,
+      "lat": 31.2264954,
+      "lon": 121.5407959,
+      "tags": {
+        "bus": "yes",
+        "name": "丁香路合欢路",
+        "name:zh": "丁香路合欢路",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10162343713,
+      "lat": 31.2265367,
+      "lon": 121.5407878,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "丁香路合欢路",
+        "name:zh": "丁香路合欢路",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10162343714,
+      "lat": 31.2263325,
+      "lon": 121.5407583,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "丁香路合欢路",
+        "name:zh": "丁香路合欢路",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10162343715,
+      "lat": 31.2263945,
+      "lon": 121.5407476,
+      "tags": {
+        "bus": "yes",
+        "name": "丁香路合欢路",
+        "name:zh": "丁香路合欢路",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10747945350,
+      "lat": 31.2267867,
+      "lon": 121.5295252,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "世纪大道浦电路",
+        "name:en": "Century Avenue Pudian Road",
+        "name:zh": "世纪大道浦电路",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10747945351,
+      "lat": 31.2268687,
+      "lon": 121.5299678,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "世纪大道浦电路",
+        "name:en": "Century Avenue Pudian Road",
+        "name:zh": "世纪大道浦电路",
+        "public_transport": "platform",
+        "shelter": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10765579681,
+      "lat": 31.2378732,
+      "lon": 121.5287195,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "上海浦东清真寺",
+        "name:en": "Shanghai Pudong Mosque",
+        "religion": "muslim"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10911232646,
+      "lat": 31.2295424,
+      "lon": 121.5289112,
+      "tags": {
+        "brand": "全家",
+        "brand:en": "FamilyMart",
+        "brand:wikidata": "Q11247682",
+        "brand:zh": "全家",
+        "name": "全家",
+        "name:en": "FamilyMart",
+        "name:zh": "全家",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10961041532,
+      "lat": 31.227572,
+      "lon": 121.5531116,
+      "tags": {
+        "name": "联洋",
+        "name:en": "Lianyang",
+        "place": "quarter"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10961041533,
+      "lat": 31.2435273,
+      "lon": 121.5468943,
+      "tags": {
+        "name": "洋泾",
+        "name:en": "Yangjing",
+        "place": "village"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11073382390,
+      "lat": 31.2310435,
+      "lon": 121.553531,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "芳甸路杨高中路",
+        "name:zh": "芳甸路杨高中路",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11073382391,
+      "lat": 31.2316398,
+      "lon": 121.5536007,
+      "tags": {
+        "bus": "yes",
+        "name": "芳甸路杨高中路",
+        "name:zh": "芳甸路杨高中路",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11073382392,
+      "lat": 31.2231971,
+      "lon": 121.5556097,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "芳甸路锦绣路",
+        "name:en": "Fangdian Road Jinxiu Road",
+        "name:zh": "芳甸路锦绣路",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11073382393,
+      "lat": 31.223142,
+      "lon": 121.5558833,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "芳甸路锦绣路",
+        "name:en": "Fangdian Road Jinxiu Road",
+        "name:zh": "芳甸路锦绣路",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11125971664,
+      "lat": 31.2457906,
+      "lon": 121.5579906,
+      "tags": {
+        "name": "钦洋",
+        "name:en": "Qinyang",
+        "place": "locality"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11125971666,
+      "lat": 31.2357528,
+      "lon": 121.5345376,
+      "tags": {
+        "name": "民生",
+        "name:en": "Minsheng",
+        "place": "locality"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11125971667,
+      "lat": 31.2415049,
+      "lon": 121.5575827,
+      "tags": {
+        "name": "泾南",
+        "name:en": "Jingnan",
+        "place": "quarter"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11125971668,
+      "lat": 31.2284568,
+      "lon": 121.542784,
+      "tags": {
+        "name": "西漕",
+        "name:en": "Xicao",
+        "place": "neighbourhood"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11149950235,
+      "lat": 31.2342888,
+      "lon": 121.5282619,
+      "tags": {
+        "bus": "yes",
+        "name": "张杨路源深路",
+        "name:zh": "张杨路源深路",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11149981235,
+      "lat": 31.2333599,
+      "lon": 121.5426198,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "民生路灵山路",
+        "name:zh": "民生路灵山路",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11149981236,
+      "lat": 31.2332888,
+      "lon": 121.5423301,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "民生路灵山路",
+        "name:zh": "民生路灵山路",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11149981237,
+      "lat": 31.2333047,
+      "lon": 121.5424225,
+      "tags": {
+        "bus": "yes",
+        "name": "民生路灵山路",
+        "name:zh": "民生路灵山路",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11149981238,
+      "lat": 31.2363941,
+      "lon": 121.5439153,
+      "tags": {
+        "bus": "yes",
+        "name": "羽山路民生路",
+        "name:zh": "羽山路民生路",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11149981239,
+      "lat": 31.2364262,
+      "lon": 121.5440333,
+      "tags": {
+        "bus": "yes",
+        "name": "羽山路民生路",
+        "name:zh": "羽山路民生路",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11149981240,
+      "lat": 31.2375156,
+      "lon": 121.5470964,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "羽山路苗圃路",
+        "name:zh": "羽山路苗圃路",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11149981241,
+      "lat": 31.2375606,
+      "lon": 121.54707,
+      "tags": {
+        "bus": "yes",
+        "name": "羽山路苗圃路",
+        "name:zh": "羽山路苗圃路",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11149981242,
+      "lat": 31.2373338,
+      "lon": 121.5464681,
+      "tags": {
+        "bus": "yes",
+        "name": "羽山路苗圃路",
+        "name:zh": "羽山路苗圃路",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11149981243,
+      "lat": 31.2374124,
+      "lon": 121.5464285,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "羽山路苗圃路",
+        "name:zh": "羽山路苗圃路",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11149981244,
+      "lat": 31.2387282,
+      "lon": 121.5564988,
+      "tags": {
+        "bus": "yes",
+        "name": "灵山路崮山路",
+        "name:zh": "灵山路崮山路",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11150006228,
+      "lat": 31.238793,
+      "lon": 121.5564412,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "灵山路崮山路",
+        "name:zh": "灵山路崮山路",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11150006229,
+      "lat": 31.2387265,
+      "lon": 121.5566343,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "灵山路崮山路",
+        "name:zh": "灵山路崮山路",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11150006230,
+      "lat": 31.2387817,
+      "lon": 121.5566063,
+      "tags": {
+        "bus": "yes",
+        "name": "灵山路崮山路",
+        "name:zh": "灵山路崮山路",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11150012311,
+      "lat": 31.2312646,
+      "lon": 121.5367894,
+      "tags": {
+        "bus": "yes",
+        "name": "桃林路灵山路",
+        "name:zh": "桃林路灵山路",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11150012312,
+      "lat": 31.2312775,
+      "lon": 121.5368316,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "桃林路灵山路",
+        "name:zh": "桃林路灵山路",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11150012313,
+      "lat": 31.2315206,
+      "lon": 121.5365714,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "桃林路灵山路",
+        "name:zh": "桃林路灵山路",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11150012314,
+      "lat": 31.2315452,
+      "lon": 121.5366373,
+      "tags": {
+        "bus": "yes",
+        "name": "桃林路灵山路",
+        "name:zh": "桃林路灵山路",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11150012315,
+      "lat": 31.231555,
+      "lon": 121.5328324,
+      "tags": {
+        "alt_name": "源深体育中心",
+        "bus": "yes",
+        "name": "羽山路源深路",
+        "name:zh": "羽山路源深路",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11150012316,
+      "lat": 31.2320458,
+      "lon": 121.5336531,
+      "tags": {
+        "alt_name": "源深体育中心",
+        "bus": "yes",
+        "name": "羽山路源深路",
+        "name:zh": "羽山路源深路",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11150012317,
+      "lat": 31.2333281,
+      "lon": 121.5425488,
+      "tags": {
+        "bus": "yes",
+        "name": "民生路灵山路",
+        "name:zh": "民生路灵山路",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11178197187,
+      "lat": 31.2380431,
+      "lon": 121.544551,
+      "tags": {
+        "bus": "yes",
+        "name": "巨野路羽山路",
+        "name:zh": "巨野路羽山路",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11178197188,
+      "lat": 31.2380637,
+      "lon": 121.5445966,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "巨野路羽山路",
+        "name:zh": "巨野路羽山路",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11178197189,
+      "lat": 31.2379238,
+      "lon": 121.5445107,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "巨野路羽山路",
+        "name:zh": "巨野路羽山路",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11178197190,
+      "lat": 31.2379376,
+      "lon": 121.5445992,
+      "tags": {
+        "bus": "yes",
+        "name": "巨野路羽山路",
+        "name:zh": "巨野路羽山路",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11178197191,
+      "lat": 31.2425689,
+      "lon": 121.5415268,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "巨野路沈家弄路",
+        "name:zh": "巨野路沈家弄路",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11178197192,
+      "lat": 31.2426014,
+      "lon": 121.5415608,
+      "tags": {
+        "bus": "yes",
+        "name": "巨野路沈家弄路",
+        "name:zh": "巨野路沈家弄路",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11178205400,
+      "lat": 31.2453127,
+      "lon": 121.5404874,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "栖山路巨野路",
+        "name:zh": "栖山路巨野路",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11178205401,
+      "lat": 31.2452508,
+      "lon": 121.5405089,
+      "tags": {
+        "bus": "yes",
+        "name": "栖山路巨野路",
+        "name:zh": "栖山路巨野路",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11178205402,
+      "lat": 31.2454021,
+      "lon": 121.5415764,
+      "tags": {
+        "bus": "yes",
+        "name": "栖山路苗圃路",
+        "name:zh": "栖山路苗圃路",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11178205403,
+      "lat": 31.2454847,
+      "lon": 121.5415603,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "栖山路苗圃路",
+        "name:zh": "栖山路苗圃路",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11178205404,
+      "lat": 31.2458699,
+      "lon": 121.5429658,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "栖山路苗圃路",
+        "name:zh": "栖山路苗圃路",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11178205405,
+      "lat": 31.2459387,
+      "lon": 121.5429014,
+      "tags": {
+        "bus": "yes",
+        "name": "栖山路苗圃路",
+        "name:zh": "栖山路苗圃路",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11178205406,
+      "lat": 31.2488418,
+      "lon": 121.5473056,
+      "tags": {
+        "bus": "yes",
+        "name": "崮山路栖山路",
+        "name:zh": "崮山路栖山路",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11178205407,
+      "lat": 31.2487982,
+      "lon": 121.5472707,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "崮山路栖山路",
+        "name:zh": "崮山路栖山路",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11178205408,
+      "lat": 31.2488166,
+      "lon": 121.5474987,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "崮山路栖山路",
+        "name:zh": "崮山路栖山路",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11178205409,
+      "lat": 31.2477044,
+      "lon": 121.5494138,
+      "tags": {
+        "bus": "yes",
+        "name": "崮山路博山路",
+        "name:zh": "崮山路博山路",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11178205410,
+      "lat": 31.2314724,
+      "lon": 121.5573813,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "丁香路紫槐路",
+        "name:en": "Dingxiang Road Zihuai Road",
+        "name:zh": "丁香路紫槐路",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11178218226,
+      "lat": 31.2476471,
+      "lon": 121.549387,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "崮山路博山路",
+        "name:zh": "崮山路博山路",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11178218227,
+      "lat": 31.2470945,
+      "lon": 121.5504652,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "崮山路博山路",
+        "name:zh": "崮山路博山路",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11178218228,
+      "lat": 31.2409831,
+      "lon": 121.5478125,
+      "tags": {
+        "bus": "yes",
+        "name": "张杨路苗圃路",
+        "name:zh": "张杨路苗圃路",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11178218229,
+      "lat": 31.2410634,
+      "lon": 121.5471876,
+      "tags": {
+        "bus": "yes",
+        "name": "张杨路苗圃路",
+        "name:zh": "张杨路苗圃路",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11178218230,
+      "lat": 31.2384673,
+      "lon": 121.5494659,
+      "tags": {
+        "bus": "yes",
+        "name": "羽山路泾南公园",
+        "name:zh": "羽山路泾南公园",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11178218231,
+      "lat": 31.2385384,
+      "lon": 121.549454,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "羽山路泾南公园",
+        "name:zh": "羽山路泾南公园",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11178218232,
+      "lat": 31.2306857,
+      "lon": 121.5552744,
+      "tags": {
+        "bus": "yes",
+        "name": "丁香路芳甸路",
+        "name:en": "Dingxiang Road Fangdian Road",
+        "name:zh": "丁香路芳甸路",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11178218233,
+      "lat": 31.2307339,
+      "lon": 121.555253,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "丁香路芳甸路",
+        "name:en": "Dingxiang Road Fangdian Road",
+        "name:zh": "丁香路芳甸路",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11178218234,
+      "lat": 31.2304908,
+      "lon": 121.554915,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "丁香路芳甸路",
+        "name:en": "Dingxiang Road Fangdian Road",
+        "name:zh": "丁香路芳甸路",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11178218235,
+      "lat": 31.2316192,
+      "lon": 121.5575597,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "丁香路紫槐路",
+        "name:en": "Dingxiang Road Zihuai Road",
+        "name:zh": "丁香路紫槐路",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11222166406,
+      "lat": 31.2254036,
+      "lon": 121.5426493,
+      "tags": {
+        "bus": "yes",
+        "name": "合欢路丁香路",
+        "name:en": "Hehuan Road Dingxiang Road",
+        "name:zh": "合欢路丁香路",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11222166407,
+      "lat": 31.2254151,
+      "lon": 121.5427217,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "合欢路丁香路",
+        "name:en": "Hehuan Road Dingxiang Road",
+        "name:zh": "合欢路丁香路",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11222166408,
+      "lat": 31.2255343,
+      "lon": 121.5424991,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "合欢路丁香路",
+        "name:en": "Hehuan Road Dingxiang Road",
+        "name:zh": "合欢路丁香路",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11222166409,
+      "lat": 31.2242751,
+      "lon": 121.5414016,
+      "tags": {
+        "bus": "yes",
+        "name": "锦带路迎春路",
+        "name:en": "Jindai Road Yingchun Road",
+        "name:zh": "锦带路迎春路",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11222174342,
+      "lat": 31.2241444,
+      "lon": 121.5415066,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "锦带路迎春路",
+        "name:en": "Jindai Road Yingchun Road",
+        "name:zh": "锦带路迎春路",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11222174343,
+      "lat": 31.2243164,
+      "lon": 121.5414208,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "锦带路迎春路",
+        "name:en": "Jindai Road Yingchun Road",
+        "name:zh": "锦带路迎春路",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11244928099,
+      "lat": 31.2246628,
+      "lon": 121.529654,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "浦电路竹林路",
+        "name:zh": "浦电路竹林路",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11244928100,
+      "lat": 31.2246972,
+      "lon": 121.5296191,
+      "tags": {
+        "bus": "yes",
+        "name": "浦电路竹林路",
+        "name:zh": "浦电路竹林路",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11244951813,
+      "lat": 31.2355823,
+      "lon": 121.5321779,
+      "tags": {
+        "bus": "yes",
+        "name": "张杨路桃林路",
+        "name:zh": "张杨路桃林路",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11244951814,
+      "lat": 31.2359722,
+      "lon": 121.5322047,
+      "tags": {
+        "bus": "yes",
+        "name": "张杨路桃林路",
+        "name:zh": "张杨路桃林路",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11244951815,
+      "lat": 31.2385591,
+      "lon": 121.5415817,
+      "tags": {
+        "bus": "yes",
+        "name": "张杨路巨野路",
+        "name:zh": "张杨路巨野路",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11244951816,
+      "lat": 31.2497269,
+      "lon": 121.545766,
+      "tags": {
+        "bus": "yes",
+        "name": "崮山路浦东大道",
+        "name:zh": "崮山路浦东大道",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11244951817,
+      "lat": 31.2497774,
+      "lon": 121.5457794,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "崮山路浦东大道",
+        "name:zh": "崮山路浦东大道",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11244951818,
+      "lat": 31.2499035,
+      "lon": 121.5453261,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "崮山路浦东大道",
+        "name:zh": "崮山路浦东大道",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11244951819,
+      "lat": 31.2499539,
+      "lon": 121.545361,
+      "tags": {
+        "bus": "yes",
+        "name": "崮山路浦东大道",
+        "name:zh": "崮山路浦东大道",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11683493737,
+      "lat": 31.2386554,
+      "lon": 121.5285516,
+      "tags": {
+        "bus": "yes",
+        "name": "商城路源深路",
+        "name:zh": "商城路源深路",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11683493738,
+      "lat": 31.2385774,
+      "lon": 121.5285891,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "商城路源深路",
+        "name:zh": "商城路源深路",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11683493739,
+      "lat": 31.2395039,
+      "lon": 121.5313894,
+      "tags": {
+        "bus": "yes",
+        "name": "商城路桃林路",
+        "name:zh": "商城路桃林路",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11683493740,
+      "lat": 31.2417101,
+      "lon": 121.5311587,
+      "tags": {
+        "bus": "yes",
+        "name": "桃林路乳山路",
+        "name:zh": "桃林路乳山路",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11683493741,
+      "lat": 31.241467,
+      "lon": 121.5368986,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "商城路民生路",
+        "name:zh": "商城路民生路",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11683493742,
+      "lat": 31.2413844,
+      "lon": 121.5371776,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "商城路民生路",
+        "name:zh": "商城路民生路",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11683493743,
+      "lat": 31.2413913,
+      "lon": 121.5369603,
+      "tags": {
+        "bus": "yes",
+        "name": "商城路民生路",
+        "name:zh": "商城路民生路",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11683493744,
+      "lat": 31.2414532,
+      "lon": 121.5371186,
+      "tags": {
+        "bus": "yes",
+        "name": "商城路民生路",
+        "name:zh": "商城路民生路",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11809372392,
+      "lat": 31.2421254,
+      "lon": 121.5567779,
+      "tags": {
+        "bus": "yes",
+        "name": "羽山路崮山路",
+        "name:zh": "羽山路崮山路",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11809372393,
+      "lat": 31.2420439,
+      "lon": 121.5566184,
+      "tags": {
+        "bus": "yes",
+        "name": "羽山路崮山路",
+        "name:zh": "羽山路崮山路",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11809372394,
+      "lat": 31.2341364,
+      "lon": 121.5380045,
+      "tags": {
+        "bus": "yes",
+        "name": "羽山路桃林路",
+        "name:zh": "羽山路桃林路",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11809372395,
+      "lat": 31.2340845,
+      "lon": 121.5378661,
+      "tags": {
+        "bus": "yes",
+        "name": "羽山路桃林路",
+        "name:zh": "羽山路桃林路",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11982568973,
+      "lat": 31.2449625,
+      "lon": 121.5363259,
+      "tags": {
+        "bus": "yes",
+        "name": "民生路浦东大道",
+        "name:zh": "民生路浦东大道",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11982568974,
+      "lat": 31.2447123,
+      "lon": 121.5366185,
+      "tags": {
+        "bus": "yes",
+        "name": "民生路浦东大道",
+        "name:zh": "民生路浦东大道",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11982568975,
+      "lat": 31.2447188,
+      "lon": 121.5367028,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "民生路浦东大道",
+        "name:zh": "民生路浦东大道",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11982568976,
+      "lat": 31.2449504,
+      "lon": 121.5362602,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "民生路浦东大道",
+        "name:zh": "民生路浦东大道",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12071274062,
+      "lat": 31.2215742,
+      "lon": 121.5351094,
+      "tags": {
+        "entrance": "yes",
+        "name": "散客入口"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12071288570,
+      "lat": 31.2224775,
+      "lon": 121.5347762,
+      "tags": {
+        "entrance": "yes",
+        "name": "团体入口（特权入口）"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12071292057,
+      "lat": 31.2213483,
+      "lon": 121.5346385,
+      "tags": {
+        "entrance": "yes",
+        "name": "出口"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12234366002,
+      "lat": 31.2229309,
+      "lon": 121.5435794,
+      "tags": {
+        "bus": "yes",
+        "name": "合欢路含笑路",
+        "name:zh": "合欢路含笑路",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12234366003,
+      "lat": 31.2229104,
+      "lon": 121.5434754,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "合欢路含笑路",
+        "name:zh": "合欢路含笑路",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12234366004,
+      "lat": 31.2244107,
+      "lon": 121.5440984,
+      "tags": {
+        "bus": "yes",
+        "name": "迎春路合欢路",
+        "name:zh": "迎春路合欢路",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12234366005,
+      "lat": 31.2243577,
+      "lon": 121.5441245,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "迎春路合欢路",
+        "name:zh": "迎春路合欢路",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12234366006,
+      "lat": 31.225324,
+      "lon": 121.5474599,
+      "tags": {
+        "bus": "yes",
+        "name": "迎春路民生路",
+        "name:zh": "迎春路民生路",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12234366007,
+      "lat": 31.2254284,
+      "lon": 121.5475128,
+      "tags": {
+        "bus": "yes",
+        "name": "迎春路民生路",
+        "name:zh": "迎春路民生路",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12234366008,
+      "lat": 31.2254954,
+      "lon": 121.5474853,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "迎春路民生路",
+        "name:zh": "迎春路民生路",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12234366009,
+      "lat": 31.2252775,
+      "lon": 121.5474585,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "迎春路民生路",
+        "name:zh": "迎春路民生路",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12234366010,
+      "lat": 31.2269263,
+      "lon": 121.5453186,
+      "tags": {
+        "bus": "yes",
+        "name": "民生路丁香路",
+        "name:zh": "民生路丁香路",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12234366011,
+      "lat": 31.2281926,
+      "lon": 121.5449342,
+      "tags": {
+        "bus": "yes",
+        "name": "民生路丁香路",
+        "name:zh": "民生路丁香路",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12234366012,
+      "lat": 31.2282087,
+      "lon": 121.5450069,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "民生路丁香路",
+        "name:zh": "民生路丁香路",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12234366013,
+      "lat": 31.2269105,
+      "lon": 121.5452456,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "民生路丁香路",
+        "name:zh": "民生路丁香路",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12234813268,
+      "lat": 31.2339788,
+      "lon": 121.5538769,
+      "tags": {
+        "bus": "yes",
+        "name": "杨高中路芳甸路",
+        "name:zh": "杨高中路芳甸路",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12234813269,
+      "lat": 31.2335513,
+      "lon": 121.5538169,
+      "tags": {
+        "bus": "yes",
+        "name": "杨高中路芳甸路",
+        "name:zh": "杨高中路芳甸路",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12234813270,
+      "lat": 31.2335159,
+      "lon": 121.5538555,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "杨高中路芳甸路",
+        "name:zh": "杨高中路芳甸路",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12234813271,
+      "lat": 31.234025,
+      "lon": 121.5538529,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "杨高中路芳甸路",
+        "name:zh": "杨高中路芳甸路",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12234813272,
+      "lat": 31.2337567,
+      "lon": 121.5298605,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "源深路张杨路",
+        "name:zh": "源深路张杨路",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12241509442,
+      "lat": 31.24441,
+      "lon": 121.5432755,
+      "tags": {
+        "bus": "yes",
+        "name": "苗圃路定水路",
+        "name:zh": "苗圃路定水路",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12241509443,
+      "lat": 31.2445501,
+      "lon": 121.5431636,
+      "tags": {
+        "bus": "yes",
+        "name": "苗圃路定水路",
+        "name:zh": "苗圃路定水路",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12241509444,
+      "lat": 31.2443541,
+      "lon": 121.5432206,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "苗圃路定水路",
+        "name:zh": "苗圃路定水路",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12241509445,
+      "lat": 31.2445835,
+      "lon": 121.5432206,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "苗圃路定水路",
+        "name:zh": "苗圃路定水路",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12241509446,
+      "lat": 31.2413316,
+      "lon": 121.5456077,
+      "tags": {
+        "bus": "yes",
+        "name": "苗圃路张杨路",
+        "name:zh": "苗圃路张杨路",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12241509447,
+      "lat": 31.2416347,
+      "lon": 121.5453938,
+      "tags": {
+        "bus": "yes",
+        "name": "苗圃路张杨路",
+        "name:zh": "苗圃路张杨路",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12241509448,
+      "lat": 31.2416069,
+      "lon": 121.545302,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "苗圃路张杨路",
+        "name:zh": "苗圃路张杨路",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12241509449,
+      "lat": 31.2413569,
+      "lon": 121.5456828,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "苗圃路张杨路",
+        "name:zh": "苗圃路张杨路",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12252304021,
+      "lat": 31.2405436,
+      "lon": 121.5387536,
+      "tags": {
+        "bus": "yes",
+        "name": "民生路沈家弄路",
+        "name:zh": "民生路沈家弄路",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12252304022,
+      "lat": 31.2407554,
+      "lon": 121.538536,
+      "tags": {
+        "bus": "yes",
+        "name": "民生路沈家弄路",
+        "name:zh": "民生路沈家弄路",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12252304023,
+      "lat": 31.2407308,
+      "lon": 121.5384838,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "民生路沈家弄路",
+        "name:zh": "民生路沈家弄路",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12252304024,
+      "lat": 31.2405497,
+      "lon": 121.538803,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "民生路沈家弄路",
+        "name:zh": "民生路沈家弄路",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12252304025,
+      "lat": 31.2373418,
+      "lon": 121.5404714,
+      "tags": {
+        "bus": "yes",
+        "name": "民生路张杨路",
+        "name:zh": "民生路张杨路",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12252304026,
+      "lat": 31.2374466,
+      "lon": 121.5402921,
+      "tags": {
+        "bus": "yes",
+        "name": "民生路张杨路",
+        "name:zh": "民生路张杨路",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12252304027,
+      "lat": 31.2374307,
+      "lon": 121.5402085,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "民生路张杨路",
+        "name:zh": "民生路张杨路",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12252304028,
+      "lat": 31.2373711,
+      "lon": 121.5406054,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "民生路张杨路",
+        "name:zh": "民生路张杨路",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12253317899,
+      "lat": 31.2421311,
+      "lon": 121.5439321,
+      "tags": {
+        "bus": "yes",
+        "name": "博山路苗圃路",
+        "name:zh": "博山路苗圃路",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12253317900,
+      "lat": 31.2421921,
+      "lon": 121.5438442,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "博山路苗圃路",
+        "name:zh": "博山路苗圃路",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12255449453,
+      "lat": 31.2448496,
+      "lon": 121.5556047,
+      "tags": {
+        "bus": "yes",
+        "name": "张杨路罗山路",
+        "name:zh": "张杨路罗山路",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12255449454,
+      "lat": 31.2449897,
+      "lon": 121.5552788,
+      "tags": {
+        "bus": "yes",
+        "name": "张杨路罗山路",
+        "name:zh": "张杨路罗山路",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12270454930,
+      "lat": 31.2321099,
+      "lon": 121.531135,
+      "tags": {
+        "bus": "yes",
+        "name": "源深路张杨路",
+        "name:zh": "源深路张杨路",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12270454931,
+      "lat": 31.2321203,
+      "lon": 121.5311667,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "源深路张杨路",
+        "name:zh": "源深路张杨路",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12270454932,
+      "lat": 31.228927,
+      "lon": 121.5328489,
+      "tags": {
+        "bus": "yes",
+        "name": "源深路潍坊路",
+        "name:zh": "源深路潍坊路",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12270454933,
+      "lat": 31.2289426,
+      "lon": 121.5328968,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "源深路潍坊路",
+        "name:zh": "源深路潍坊路",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12270454934,
+      "lat": 31.2268964,
+      "lon": 121.5317392,
+      "tags": {
+        "bus": "yes",
+        "name": "浦电路松林路",
+        "name:zh": "浦电路松林路",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12270454935,
+      "lat": 31.2268738,
+      "lon": 121.5318105,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "浦电路松林路",
+        "name:zh": "浦电路松林路",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12303920802,
+      "lat": 31.2204641,
+      "lon": 121.5507624,
+      "tags": {
+        "leisure": "bird_hide",
+        "name": "观鸟台"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12328903111,
+      "lat": 31.2286515,
+      "lon": 121.5419797,
+      "tags": {
+        "bus": "yes",
+        "name": "杨高中路杨源路",
+        "name:zh": "杨高中路杨源路",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12328903112,
+      "lat": 31.229254,
+      "lon": 121.5427472,
+      "tags": {
+        "bus": "yes",
+        "name": "杨高中路杨源路",
+        "name:zh": "杨高中路杨源路",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12328903113,
+      "lat": 31.2286078,
+      "lon": 121.5419921,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "杨高中路杨源路",
+        "name:zh": "杨高中路杨源路",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12328903114,
+      "lat": 31.2293027,
+      "lon": 121.5427418,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "杨高中路杨源路",
+        "name:zh": "杨高中路杨源路",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12329952907,
+      "lat": 31.2361813,
+      "lon": 121.5288921,
+      "tags": {
+        "bus": "yes",
+        "name": "源深路商城路",
+        "name:zh": "源深路商城路",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12329952908,
+      "lat": 31.2366338,
+      "lon": 121.5284922,
+      "tags": {
+        "bus": "yes",
+        "name": "源深路商城路",
+        "name:zh": "源深路商城路",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12329952909,
+      "lat": 31.2362015,
+      "lon": 121.5289271,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "源深路商城路",
+        "name:zh": "源深路商城路",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12329952910,
+      "lat": 31.2366097,
+      "lon": 121.5284362,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "源深路商城路",
+        "name:zh": "源深路商城路",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12334404787,
+      "lat": 31.2284184,
+      "lon": 121.5341682,
+      "tags": {
+        "bus": "yes",
+        "name": "灵山路源深路",
+        "name:zh": "灵山路源深路",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12334404788,
+      "lat": 31.2284693,
+      "lon": 121.5342555,
+      "tags": {
+        "bus": "yes",
+        "name": "灵山路源深路",
+        "name:zh": "灵山路源深路",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12334404789,
+      "lat": 31.2283738,
+      "lon": 121.5342191,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "灵山路源深路",
+        "name:zh": "灵山路源深路",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12334404790,
+      "lat": 31.2285137,
+      "lon": 121.5342191,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "灵山路源深路",
+        "name:zh": "灵山路源深路",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12376123835,
+      "lat": 31.2444192,
+      "lon": 121.542321,
+      "tags": {
+        "bus": "yes",
+        "name": "公利医院",
+        "name:zh": "公利医院",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12376123836,
+      "lat": 31.2444573,
+      "lon": 121.5423703,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "公利医院",
+        "name:zh": "公利医院",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12379457637,
+      "lat": 31.221283,
+      "lon": 121.5353206,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "上海博物馆东馆",
+        "name:zh": "上海博物馆东馆",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12379457638,
+      "lat": 31.2213392,
+      "lon": 121.535656,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "上海博物馆东馆",
+        "name:zh": "上海博物馆东馆",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12379457639,
+      "lat": 31.2214643,
+      "lon": 121.5354641,
+      "tags": {
+        "bus": "yes",
+        "name": "上海博物馆东馆",
+        "name:zh": "上海博物馆东馆",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12379457640,
+      "lat": 31.2213511,
+      "lon": 121.5353794,
+      "tags": {
+        "bus": "yes",
+        "name": "上海博物馆东馆",
+        "name:zh": "上海博物馆东馆",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12568455877,
+      "lat": 31.2387506,
+      "lon": 121.5394203,
+      "tags": {
+        "brand": "链家",
+        "brand:en": "Lianjia",
+        "brand:wikidata": "Q24836804",
+        "brand:zh": "链家",
+        "name": "链家",
+        "name:en": "Lianjia",
+        "name:zh": "链家",
+        "office": "estate_agent"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12568470761,
+      "lat": 31.2399418,
+      "lon": 121.5387529,
+      "tags": {
+        "amenity": "cafe",
+        "brand": "瑞幸咖啡",
+        "brand:en": "Luckin Coffee",
+        "brand:wikidata": "Q56811344",
+        "brand:zh": "瑞幸咖啡",
+        "cuisine": "coffee_shop",
+        "name": "瑞幸咖啡",
+        "name:en": "Luckin Coffee",
+        "name:zh": "瑞幸咖啡",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12568470762,
+      "lat": 31.2398232,
+      "lon": 121.5388303,
+      "tags": {
+        "brand": "全家",
+        "brand:en": "FamilyMart",
+        "brand:wikidata": "Q1191685",
+        "brand:zh": "全家",
+        "name": "全家",
+        "name:en": "FamilyMart",
+        "name:zh": "全家",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12584623207,
+      "lat": 31.2477865,
+      "lon": 121.535655,
+      "tags": {
+        "bus": "yes",
+        "name": "昌邑路民生路",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12872738474,
+      "lat": 31.2210015,
+      "lon": 121.5391478,
+      "tags": {
+        "access": "yes",
+        "amenity": "toilets"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12872760918,
+      "lat": 31.2229611,
+      "lon": 121.5383928,
+      "tags": {
+        "access": "yes",
+        "amenity": "toilets"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12872760919,
+      "lat": 31.2221148,
+      "lon": 121.5398599,
+      "tags": {
+        "access": "yes",
+        "amenity": "toilets"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12872760920,
+      "lat": 31.22164,
+      "lon": 121.5375345,
+      "tags": {
+        "access": "yes",
+        "amenity": "toilets"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13125050963,
+      "lat": 31.2282331,
+      "lon": 121.5305256,
+      "tags": {
+        "amenity": "parking_entrance"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13130980446,
+      "lat": 31.2291852,
+      "lon": 121.5372548,
+      "tags": {
+        "amenity": "fountain"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13192275332,
+      "lat": 31.2279418,
+      "lon": 121.545313,
+      "tags": {
+        "name": "6",
+        "railway": "subway_entrance",
+        "ref": "6",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13192275336,
+      "lat": 31.2271423,
+      "lon": 121.5456596,
+      "tags": {
+        "name": "7",
+        "railway": "subway_entrance",
+        "ref": "7",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13192275338,
+      "lat": 31.2284812,
+      "lon": 121.544402,
+      "tags": {
+        "name": "8",
+        "railway": "subway_entrance",
+        "ref": "8",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13192275342,
+      "lat": 31.2290915,
+      "lon": 121.5448519,
+      "tags": {
+        "name": "5",
+        "railway": "subway_entrance",
+        "ref": "5",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13192321944,
+      "lat": 31.2214526,
+      "lon": 121.54345,
+      "tags": {
+        "amenity": "parking_entrance"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13195212752,
+      "lat": 31.2291317,
+      "lon": 121.5519015,
+      "tags": {
+        "amenity": "parking_entrance",
+        "parking": "underground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13195258819,
+      "lat": 31.2265767,
+      "lon": 121.5509157,
+      "tags": {
+        "alt_name": "如家酒店·neo",
+        "brand": "如家酒店",
+        "brand:en": "Home Inn",
+        "brand:wikidata": "Q4980954",
+        "brand:zh": "如家酒店",
+        "name": "如家酒店",
+        "name:en": "Home Inn · neo",
+        "name:zh": "如家酒店·neo",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13195310296,
+      "lat": 31.233597,
+      "lon": 121.5565624,
+      "tags": {
+        "amenity": "parking_entrance"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13197149319,
+      "lat": 31.2317471,
+      "lon": 121.5441454,
+      "tags": {
+        "alt_name": "如家酒店·neo",
+        "brand": "如家酒店",
+        "brand:en": "Home Inn",
+        "brand:wikidata": "Q4980954",
+        "brand:zh": "如家酒店",
+        "name": "如家酒店",
+        "name:en": "Home Inn · neo",
+        "name:zh": "如家酒店·neo",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13741912301,
+      "lat": 31.2457729,
+      "lon": 121.5513367,
+      "tags": {
+        "amenity": "restaurant",
+        "name:en": "Sushi lang"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13745268603,
+      "lat": 31.2491234,
+      "lon": 121.535737,
+      "tags": {
+        "name:ru": "1000 мелочей для дома",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13749483620,
+      "lat": 31.2472309,
+      "lon": 121.5451431,
+      "tags": {
+        "amenity": "toilets"
+      }
+    }
+  ]
+}
