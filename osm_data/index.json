@@ -19,7 +19,7 @@
     {
       "lat": 43.856773,
       "lon": 125.340964,
-      "alias": "jilin_university_nanling",
+      "alias": "changchun_jilin_university_nanling",
       "directory": "43_8568_125_3410_jilin_university_nanling",
       "path": "osm_data/43_8568_125_3410_jilin_university_nanling",
       "download_time": "2026-06-26T18:00:55.171619"
@@ -35,7 +35,7 @@
     {
       "lat": 22.1291,
       "lon": 113.544,
-      "alias": "um_hengqin_campus",
+      "alias": "macau_um_hengqin_campus",
       "directory": "22_1291_113_5440_um_hengqin_campus",
       "path": "osm_data/22_1291_113_5440_um_hengqin_campus",
       "download_time": "2026-06-26T18:23:23.653132"
@@ -59,7 +59,7 @@
     {
       "lat": 22.8210295,
       "lon": 108.4672161,
-      "alias": "minzudadao",
+      "alias": "nanning_minzudadao",
       "directory": "22_8210_108_4672_minzudadao",
       "path": "osm_data/22_8210_108_4672_minzudadao",
       "download_time": "2026-06-26T20:53:52.861868"
@@ -75,7 +75,7 @@
     {
       "lat": 22.1405,
       "lon": 113.5436,
-      "alias": "hengqin_hengqin_train_station",
+      "alias": "zhuhai_hengqin_train_station",
       "directory": "22_1405_113_5436_hengqin_hengqin_train_station",
       "path": "osm_data/22_1405_113_5436_hengqin_hengqin_train_station",
       "download_time": "2026-06-26T21:02:41.618782"
@@ -83,7 +83,7 @@
     {
       "lat": 23.1122,
       "lon": 109.599,
-      "alias": null,
+      "alias": "guigang",
       "directory": "23_1122_109_5990",
       "path": "osm_data/23_1122_109_5990",
       "download_time": "2026-06-26T22:07:24.448045"
@@ -115,7 +115,7 @@
     {
       "lat": 38.8977,
       "lon": -77.0365,
-      "alias": "us_whitehouse",
+      "alias": "washington_whitehouse",
       "directory": "38_8977_-77_0365_us_whitehouse",
       "path": "osm_data/38_8977_-77_0365_us_whitehouse",
       "download_time": "2026-06-26T23:47:04.691978"
@@ -163,7 +163,7 @@
     {
       "lat": 22.1355581,
       "lon": 113.5522173,
-      "alias": "hengqin_hedisuidao",
+      "alias": "zhuhai_hengqin_hedisuidao",
       "directory": "22_1356_113_5522_hengqin_hedisuidao",
       "path": "osm_data/22_1356_113_5522_hengqin_hedisuidao",
       "download_time": "2026-06-27T01:39:23.823518"
@@ -195,7 +195,7 @@
     {
       "lat": 43.8616,
       "lon": 125.3266,
-      "alias": "Changchun_jilinU_zhongxin_campus",
+      "alias": "changchun_jilinU_zhongxin_campus",
       "directory": "43_8616_125_3266_Changchun_jilinU_zhongxin_campus",
       "path": "osm_data/43_8616_125_3266_Changchun_jilinU_zhongxin_campus",
       "download_time": "2026-06-30T14:33:06.513155"
