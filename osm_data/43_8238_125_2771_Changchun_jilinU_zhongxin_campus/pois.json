@@ -1,0 +1,1087 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.4 2390de5a",
+  "osm3s": {
+    "timestamp_osm_base": "2026-07-29T04:58:36Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 1042714214,
+      "lat": 43.8334105,
+      "lon": 125.2760532,
+      "tags": {
+        "amenity": "pub",
+        "name": "Three Monkey",
+        "name:en": "Three Monkey"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2023044136,
+      "lat": 43.8298464,
+      "lon": 125.2803811,
+      "tags": {
+        "light_rail": "yes",
+        "name": "前进西",
+        "name:en": "Qianjinxi",
+        "name:zh": "前进西",
+        "name:zh-Latn-pinyin": "Qiánjìnxī",
+        "public_transport": "stop_position",
+        "railway": "stop"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2023044142,
+      "lat": 43.8298696,
+      "lon": 125.2870853,
+      "tags": {
+        "light_rail": "yes",
+        "name": "前进大街",
+        "name:en": "Qianjin Street",
+        "name:zh": "前进大街",
+        "name:zh-Latn-pinyin": "Qiánjìn Dàjiē",
+        "public_transport": "stop_position",
+        "railway": "stop"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2023044149,
+      "lat": 43.8307695,
+      "lon": 125.2720637,
+      "tags": {
+        "light_rail": "yes",
+        "name": "电台街",
+        "name:en": "Diantai Street",
+        "name:zh": "电台街",
+        "name:zh-Latn-pinyin": "Diàntái Jiē",
+        "public_transport": "stop_position",
+        "railway": "stop"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2530732249,
+      "lat": 43.8242957,
+      "lon": 125.2652678,
+      "tags": {
+        "amenity": "public_bath",
+        "female": "yes",
+        "male": "yes",
+        "name": "基础园浴池",
+        "shower": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2530732250,
+      "lat": 43.8241121,
+      "lon": 125.2648545,
+      "tags": {
+        "amenity": "community_centre",
+        "name": "还睡呀、乐团、学生会驻地"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2530803401,
+      "lat": 43.8211969,
+      "lon": 125.2714311,
+      "tags": {
+        "historic": "monument",
+        "name": "日晷"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2531838274,
+      "lat": 43.8218452,
+      "lon": 125.2817755,
+      "tags": {
+        "historic": "monument",
+        "name": "吉林大学校歌"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2531838358,
+      "lat": 43.8233804,
+      "lon": 125.2736354,
+      "tags": {
+        "amenity": "atm",
+        "name": "中国银行ATM"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2531838370,
+      "lat": 43.8182522,
+      "lon": 125.2682334,
+      "tags": {
+        "amenity": "post_office",
+        "name": "中国邮政吉大邮局"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3037218312,
+      "lat": 43.8290853,
+      "lon": 125.2833805,
+      "tags": {
+        "highway": "motorway_junction",
+        "name": "修正路",
+        "ref": "A10"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3078359422,
+      "lat": 43.8356704,
+      "lon": 125.2885026,
+      "tags": {
+        "leisure": "swimming_pool",
+        "sport": "swimming"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3893081471,
+      "lat": 43.8300231,
+      "lon": 125.2791046,
+      "tags": {
+        "highway": "motorway_junction",
+        "name": "卫星立交桥",
+        "ref": "A01"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3893081498,
+      "lat": 43.8301731,
+      "lon": 125.2863761,
+      "tags": {
+        "highway": "motorway_junction",
+        "name": "卫星立交桥",
+        "ref": "B04"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3893081577,
+      "lat": 43.8355857,
+      "lon": 125.283301,
+      "tags": {
+        "highway": "motorway_junction",
+        "name": "卫星立交桥",
+        "ref": "A09"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3995466467,
+      "lat": 43.8128607,
+      "lon": 125.262777,
+      "tags": {
+        "name": "三家子",
+        "place": "neighbourhood"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4574636536,
+      "lat": 43.8258085,
+      "lon": 125.2727712,
+      "tags": {
+        "addr:city": "Changchun",
+        "addr:housenumber": "393",
+        "addr:street": "致远街 Zhiyuan St",
+        "amenity": "restaurant",
+        "capacity": "80",
+        "cuisine": "western_&_international",
+        "name": "Grandpa's Kitchen"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4907998523,
+      "lat": 43.8265279,
+      "lon": 125.2843544,
+      "tags": {
+        "name:en": "Walmart",
+        "operator": "souroosh",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5305516624,
+      "lat": 43.8371443,
+      "lon": 125.2698864,
+      "tags": {
+        "name:en": "Tian An Compound",
+        "tourism": "apartment"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5839929597,
+      "lat": 43.8271318,
+      "lon": 125.2828256,
+      "tags": {
+        "amenity": "cafe",
+        "name": "cornerstone book store cafe"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5839929656,
+      "lat": 43.829096,
+      "lon": 125.2733259,
+      "tags": {
+        "name": "艾博丽思大酒店",
+        "name_en": "Abritz",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6314077785,
+      "lat": 43.837376,
+      "lon": 125.2864018,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "italian_pizza",
+        "name:de": "Private Pizza",
+        "name:en": "Privat Pizza",
+        "opening_hours": "Mo-Su 09:00-21:00"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6403642229,
+      "lat": 43.8293174,
+      "lon": 125.2736402,
+      "tags": {
+        "amenity": "bank",
+        "atm": "yes",
+        "name": "中国银行",
+        "name:en": "Bank of China"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6403823857,
+      "lat": 43.8285633,
+      "lon": 125.2822899,
+      "tags": {
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6403843724,
+      "lat": 43.8270583,
+      "lon": 125.2791469,
+      "tags": {
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6403852100,
+      "lat": 43.8255837,
+      "lon": 125.2748883,
+      "tags": {
+        "shop": "optician"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6403853313,
+      "lat": 43.8254076,
+      "lon": 125.2733855,
+      "tags": {
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6403858579,
+      "lat": 43.8283019,
+      "lon": 125.2726109,
+      "tags": {
+        "shop": "books"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6403860713,
+      "lat": 43.8288297,
+      "lon": 125.2733378,
+      "tags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6483748985,
+      "lat": 43.8373031,
+      "lon": 125.2696091,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "chinese",
+        "name": "Shu Daxia Hot Pot"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6520756271,
+      "lat": 43.8298425,
+      "lon": 125.2870131,
+      "tags": {
+        "light_rail": "yes",
+        "name": "前进大街",
+        "name:en": "Qianjin Street",
+        "name:zh": "前进大街",
+        "name:zh-Latn-pinyin": "Qiánjìn Dàjiē",
+        "public_transport": "station",
+        "railway": "station",
+        "station": "light_rail"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6520756272,
+      "lat": 43.8299142,
+      "lon": 125.2870886,
+      "tags": {
+        "light_rail": "yes",
+        "name": "前进大街",
+        "name:en": "Qianjin Street",
+        "name:zh": "前进大街",
+        "name:zh-Latn-pinyin": "Qiánjìn Dàjiē",
+        "public_transport": "stop_position",
+        "railway": "stop"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6521283168,
+      "lat": 43.8307877,
+      "lon": 125.2720752,
+      "tags": {
+        "light_rail": "yes",
+        "name": "电台街",
+        "name:en": "Diantai Street",
+        "name:zh": "电台街",
+        "name:zh-Latn-pinyin": "Diàntái Jiē",
+        "public_transport": "station",
+        "railway": "station",
+        "station": "light_rail",
+        "wheelchair": "yes",
+        "wikidata": "Q11587649"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6521283169,
+      "lat": 43.8308022,
+      "lon": 125.2720866,
+      "tags": {
+        "light_rail": "yes",
+        "name": "电台街",
+        "name:en": "Diantai Street",
+        "name:zh": "电台街",
+        "name:zh-Latn-pinyin": "Diàntái Jiē",
+        "public_transport": "stop_position",
+        "railway": "stop"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6521283180,
+      "lat": 43.8298687,
+      "lon": 125.280381,
+      "tags": {
+        "light_rail": "yes",
+        "name": "前进西",
+        "name:en": "Qianjinxi",
+        "name:zh": "前进西",
+        "name:zh-Latn-pinyin": "Qiánjìnxī",
+        "public_transport": "stop_position",
+        "railway": "stop"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8634886583,
+      "lat": 43.8227705,
+      "lon": 125.2629467,
+      "tags": {
+        "amenity": "library",
+        "name": "鼎新图书馆"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9622737289,
+      "lat": 43.8297051,
+      "lon": 125.2857747,
+      "tags": {
+        "amenity": "fuel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9749051019,
+      "lat": 43.8293234,
+      "lon": 125.2764725,
+      "tags": {
+        "name": "双德街道",
+        "place": "suburb",
+        "place:CN": "subdistrict"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9749051020,
+      "lat": 43.8175777,
+      "lon": 125.2826058,
+      "tags": {
+        "name": "科苑社区",
+        "place": "quarter"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9749051021,
+      "lat": 43.833563,
+      "lon": 125.2671062,
+      "tags": {
+        "name": "保利社区",
+        "place": "quarter"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9749051022,
+      "lat": 43.8262264,
+      "lon": 125.2621488,
+      "tags": {
+        "name": "融创社区",
+        "place": "quarter"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9749051024,
+      "lat": 43.8294665,
+      "lon": 125.275995,
+      "tags": {
+        "name": "阳光社区",
+        "place": "quarter"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9749051026,
+      "lat": 43.8265138,
+      "lon": 125.2732983,
+      "tags": {
+        "name": "吉大社区",
+        "place": "quarter"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9880413025,
+      "lat": 43.8205513,
+      "lon": 125.2810648,
+      "tags": {
+        "historic": "memorial",
+        "inscription": "e^iπ+1=0",
+        "memorial": "stone",
+        "name": "欧拉公式"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9880413028,
+      "lat": 43.8203037,
+      "lon": 125.2822409,
+      "tags": {
+        "historic": "memorial",
+        "name": "I love 数学"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11766349882,
+      "lat": 43.8109441,
+      "lon": 125.2692169,
+      "tags": {
+        "name": "百花园",
+        "name:en": "Baihuayuan",
+        "public_transport": "station",
+        "railway": "station",
+        "station": "subway",
+        "subway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11766481230,
+      "lat": 43.8109745,
+      "lon": 125.2692997,
+      "tags": {
+        "name": "百花园",
+        "name:en": "Baihuayuan",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "subway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11773483145,
+      "lat": 43.8109043,
+      "lon": 125.2691784,
+      "tags": {
+        "name": "百花园",
+        "name:en": "Baihuayuan",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "subway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11929009262,
+      "lat": 43.8154283,
+      "lon": 125.2653795,
+      "tags": {
+        "access": "yes",
+        "barrier": "gate",
+        "bicycle": "yes",
+        "foot": "yes",
+        "horse": "yes",
+        "mofa": "yes",
+        "moped": "yes",
+        "motor_vehicle": "yes",
+        "motorcar": "yes",
+        "motorcycle": "yes",
+        "name": "吉林大学前卫南区敬信西门",
+        "vehicle": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11929117187,
+      "lat": 43.8186704,
+      "lon": 125.2779358,
+      "tags": {
+        "access": "yes",
+        "barrier": "gate",
+        "bicycle": "yes",
+        "foot": "yes",
+        "horse": "yes",
+        "locked": "no",
+        "mofa": "yes",
+        "moped": "yes",
+        "motor_vehicle": "yes",
+        "motorcar": "yes",
+        "motorcycle": "yes",
+        "name": "吉林大学前卫南区南门",
+        "vehicle": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11929117189,
+      "lat": 43.8170231,
+      "lon": 125.2633911,
+      "tags": {
+        "access": "permit",
+        "barrier": "gate",
+        "bicycle": "yes",
+        "foot": "yes",
+        "moped": "no",
+        "motor_vehicle": "no",
+        "name": "吉林大学前卫南区敬信小门",
+        "vehicle": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11929945493,
+      "lat": 43.8293874,
+      "lon": 125.2793983,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "肯德基",
+        "brand:en": "KFC",
+        "brand:wikidata": "Q524757",
+        "brand:zh": "肯德基",
+        "cuisine": "chicken",
+        "name": "肯德基",
+        "name:en": "KFC",
+        "name:zh": "肯德基",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11929945494,
+      "lat": 43.829364,
+      "lon": 125.2803648,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "麦当劳",
+        "brand:en": "McDonald's",
+        "brand:wikidata": "Q38076",
+        "brand:zh": "麦当劳",
+        "cuisine": "burger",
+        "name": "麦当劳",
+        "name:en": "McDonald's",
+        "name:zh": "麦当劳",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11929945495,
+      "lat": 43.8291906,
+      "lon": 125.2786155,
+      "tags": {
+        "amenity": "parking",
+        "layer": "-1",
+        "parking": "underground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11939582907,
+      "lat": 43.8226406,
+      "lon": 125.2696628,
+      "tags": {
+        "access": "no",
+        "barrier": "gate",
+        "locked": "yes",
+        "motor_vehicle": "no",
+        "name": "吉林大学前卫南区小北门",
+        "vehicle": "no",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13040987714,
+      "lat": 43.814421,
+      "lon": 125.2697484,
+      "tags": {
+        "amenity": "university",
+        "internet_access": "yes",
+        "name": "长春建筑学院（高新校区）",
+        "name:en": "Changchun University of Architecture and Civil Engineering (Gaoxin Campus)",
+        "name:zh": "长春建筑学院（高新校区）",
+        "name:zh-Hans": "长春建筑学院（高新校区）",
+        "name:zh-Hant": "長春建築學院（高新校區）",
+        "website": "http://www.jladi.edu.cn/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13061268808,
+      "lat": 43.8141344,
+      "lon": 125.2704519,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "吉林省东北亚文化创意科技园小食代美食广场",
+        "name:en": "Era Cafeteria, Jilin Northeast Asia Cultural and Creative Technology Park",
+        "name:zh": "小食代美食广场",
+        "name:zh-Hans": "吉林省东北亚文化创意科技园小食代美食广场",
+        "name:zh-Hant": "吉林省東北亞文化創意科技園小食代美食廣場"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13061268809,
+      "lat": 43.8137862,
+      "lon": 125.2702006,
+      "tags": {
+        "name": "长春建筑学院（高新校区）男生公寓",
+        "name:en": "JLADI (Gaoxin Campus) Male Dormitory",
+        "name:zh": "长春建筑学院男生公寓",
+        "name:zh-Hans": "长春建筑学院（高新校区）男生公寓",
+        "name:zh-Hant": "長春建築學院（高新校區）男生公寓"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13061268817,
+      "lat": 43.8136275,
+      "lon": 125.2711881,
+      "tags": {
+        "name": "长春建筑学院（高新校区）女生公寓",
+        "name:en": "JLADI (Gaoxin Campus) Female Dormitory",
+        "name:zh": "长春建筑学院女生公寓",
+        "name:zh-Hans": "长春建筑学院（高新校区）女生公寓",
+        "name:zh-Hant": "長春建築學院（高新校區）女生公寓"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13061268847,
+      "lat": 43.8146765,
+      "lon": 125.269745,
+      "tags": {
+        "amenity": "library",
+        "name": "长春建筑学院图书馆",
+        "name:en": "JLADI Library",
+        "name:zh": "长春建筑学院图书馆",
+        "name:zh-Hans": "长春建筑学院图书馆",
+        "name:zh-Hant": "長春建築學院圖書館"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13061268848,
+      "lat": 43.8146641,
+      "lon": 125.2702682,
+      "tags": {
+        "name": "双创教育孵化中心",
+        "name:en": "Innovation and Entrepreneurship Education Incubation Center",
+        "name:zh": "双创教育孵化中心",
+        "name:zh-Hans": "双创教育孵化中心",
+        "name:zh-Hant": "雙創教育孵化中心",
+        "office": "educational_institution"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13061268876,
+      "lat": 43.8149209,
+      "lon": 125.2680569,
+      "tags": {
+        "amenity": "college",
+        "name": "长春建筑学院人工智能产业学院",
+        "name:en": "JLADI School of Artificial Intelligence Industry",
+        "name:zh": "人工智能产业学院",
+        "name:zh-Hans": "长春建筑学院人工智能产业学院",
+        "name:zh-Hant": "長春建築學院人工智能產業學院"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13108082632,
+      "lat": 43.8101206,
+      "lon": 125.2702161,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "蔚山路",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13108082633,
+      "lat": 43.8101034,
+      "lon": 125.2697264,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "蔚山路",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13519848486,
+      "lat": 43.8217114,
+      "lon": 125.2831007,
+      "tags": {
+        "access": "yes",
+        "barrier": "gate",
+        "bicycle": "yes",
+        "foot": "yes",
+        "horse": "no",
+        "motor_vehicle": "no",
+        "name": "吉林大学前卫南区东门",
+        "vehicle": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13520756255,
+      "lat": 43.8217935,
+      "lon": 125.2761781,
+      "tags": {
+        "name": "五月花广场",
+        "place": "square"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13520830779,
+      "lat": 43.8244897,
+      "lon": 125.2807256,
+      "tags": {
+        "access": "yes",
+        "barrier": "gate",
+        "bicycle": "no",
+        "foot": "yes",
+        "horse": "no",
+        "motor_vehicle": "no",
+        "name": "吉林大学前卫南区东北门",
+        "vehicle": "yes",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13520992559,
+      "lat": 43.8237091,
+      "lon": 125.2732948,
+      "tags": {
+        "access": "yes",
+        "barrier": "gate",
+        "mofa": "yes",
+        "moped": "yes",
+        "motor_vehicle": "yes",
+        "motorcar": "yes",
+        "motorcycle": "yes",
+        "name": "吉林大学前卫南区北门",
+        "vehicle": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13521079395,
+      "lat": 43.8206133,
+      "lon": 125.2723956,
+      "tags": {
+        "name": "吉大文创",
+        "shop": "gift"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13521079396,
+      "lat": 43.8206478,
+      "lon": 125.2711696,
+      "tags": {
+        "name": "纳博士超市",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13521864660,
+      "lat": 43.817341,
+      "lon": 125.2636923,
+      "tags": {
+        "amenity": "parking",
+        "layer": "-1",
+        "parking": "underground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13522085342,
+      "lat": 43.8217415,
+      "lon": 125.2653776,
+      "tags": {
+        "amenity": "parking",
+        "layer": "-1",
+        "parking": "underground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13523256552,
+      "lat": 43.8228562,
+      "lon": 125.2625647,
+      "tags": {
+        "amenity": "parking",
+        "layer": "-1",
+        "parking": "underground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13523362904,
+      "lat": 43.825299,
+      "lon": 125.2636192,
+      "tags": {
+        "amenity": "parking",
+        "layer": "-1",
+        "parking": "underground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13523362913,
+      "lat": 43.8232213,
+      "lon": 125.2656879,
+      "tags": {
+        "amenity": "parking",
+        "layer": "-1",
+        "parking": "underground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13523362950,
+      "lat": 43.8238141,
+      "lon": 125.2634398,
+      "tags": {
+        "amenity": "parking",
+        "layer": "-1",
+        "parking": "underground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13524166318,
+      "lat": 43.8205584,
+      "lon": 125.2786788,
+      "tags": {
+        "name": "东荣广场",
+        "place": "square"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13524166319,
+      "lat": 43.8229677,
+      "lon": 125.2786479,
+      "tags": {
+        "name": "唐敖庆广场",
+        "place": "square"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13524450818,
+      "lat": 43.824509,
+      "lon": 125.2728114,
+      "tags": {
+        "amenity": "post_office",
+        "name": "吉大北门菜鸟驿站"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13524450819,
+      "lat": 43.8245806,
+      "lon": 125.2729878,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "麦当劳",
+        "brand:en": "McDonald's",
+        "brand:wikidata": "Q38076",
+        "brand:zh": "麦当劳",
+        "cuisine": "burger",
+        "name": "麦当劳长春致远街吉林大学商座餐厅",
+        "name:en": "McDonald's",
+        "name:zh": "麦当劳长春致远街吉林大学商座餐厅",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13526771560,
+      "lat": 43.824286,
+      "lon": 125.273087,
+      "tags": {
+        "amenity": "cafe",
+        "cuisine": "bubble_tea",
+        "name": "蜜雪冰城"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13526771561,
+      "lat": 43.8191596,
+      "lon": 125.2703525,
+      "tags": {
+        "amenity": "cafe",
+        "brand": "蜜雪冰城",
+        "brand:en": "Mixue Ice Cream & Tea",
+        "brand:wikidata": "Q107406476",
+        "brand:zh": "蜜雪冰城",
+        "brand:zh-Latn-pinyin": "Mìxuě Bīngchéng",
+        "cuisine": "ice_cream;bubble_tea",
+        "name": "蜜雪冰城",
+        "name:en": "Mixue Ice Cream & Tea",
+        "name:zh": "蜜雪冰城",
+        "name:zh-Latn-pinyin": "Mìxuě Bīngchéng",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13526771562,
+      "lat": 43.8185345,
+      "lon": 125.2700923,
+      "tags": {
+        "amenity": "cafe",
+        "brand": "蜜雪冰城",
+        "brand:en": "Mixue Ice Cream & Tea",
+        "brand:wikidata": "Q107406476",
+        "brand:zh": "蜜雪冰城",
+        "brand:zh-Latn-pinyin": "Mìxuě Bīngchéng",
+        "cuisine": "ice_cream;bubble_tea",
+        "name": "蜜雪冰城",
+        "name:en": "Mixue Ice Cream & Tea",
+        "name:zh": "蜜雪冰城",
+        "name:zh-Latn-pinyin": "Mìxuě Bīngchéng",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13526771563,
+      "lat": 43.816515,
+      "lon": 125.2675831,
+      "tags": {
+        "name": "南九致远超市",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13526771564,
+      "lat": 43.8166089,
+      "lon": 125.2688169,
+      "tags": {
+        "name": "奔腾复印照相",
+        "shop": "copyshop"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13526771565,
+      "lat": 43.8166655,
+      "lon": 125.2687955,
+      "tags": {
+        "name": "南八致远超市",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13528164658,
+      "lat": 43.8126809,
+      "lon": 125.2694955,
+      "tags": {
+        "building": "university",
+        "name": "吉林大学长白山实验室"
+      }
+    }
+  ]
+}

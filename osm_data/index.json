@@ -169,14 +169,6 @@
       "download_time": "2026-06-30T00:48:15.486485"
     },
     {
-      "lat": 43.8616,
-      "lon": 125.3266,
-      "alias": "changchun_jilinU_zhongxin_campus",
-      "directory": "43_8616_125_3266_Changchun_jilinU_zhongxin_campus",
-      "path": "osm_data/43_8616_125_3266_Changchun_jilinU_zhongxin_campus",
-      "download_time": "2026-06-30T14:33:06.513155"
-    },
-    {
       "lat": 43.853953,
       "lon": 125.3269005,
       "alias": "changchun_jilinU_nanling_campus",
@@ -191,6 +183,14 @@
       "directory": "31_2350_121_5430_shanghai_pudong_new_area",
       "path": "osm_data/31_2350_121_5430_shanghai_pudong_new_area",
       "download_time": "2026-07-24T12:14:51.181428"
+    },
+    {
+      "lat": 43.8238,
+      "lon": 125.2771,
+      "alias": "Changchun_jilinU_zhongxin_campus",
+      "directory": "43_8238_125_2771_Changchun_jilinU_zhongxin_campus",
+      "path": "osm_data/43_8238_125_2771_Changchun_jilinU_zhongxin_campus",
+      "download_time": "2026-07-29T12:59:40.260756"
     }
   ]
 }
